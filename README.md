@@ -70,10 +70,10 @@ Blend_SoftLight is a softer version of Overlay. The function does a comparison o
 0 dan bire yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde -1 e yaklaştıkça da texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak için kullanabilirsiniz.
 
 * #### [LinearTosRGB]()
-
+Verilen texturenin kontrast derecesini arttırır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. LinearTosRGB kullanırsanız az parlak noktalar daha parlak olur ve ateş daha da büyür (zıttı sRGBToLinear).
 
 * #### [sRGBToLinear]()
-
+Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. sRGBToLinear kullanırsanız az parlak noktalar neredeyse yok olur, ateşin çok parlak oldugu kısımlar daha az parlak ve ateş daha da küçük olur (zıttı LinearTosRGB).
 
 
 ## Constants
@@ -139,7 +139,12 @@ Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını ist
 The VertexColor expression is the access point for the material to the outputs of color modules affecting sprite particles emitters.
 
 * #### [View Property]()
-Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir.
+Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. parametreleri,
+Render Target Size = Ekran büyüklügü ile ilgili bişe
+Field of View = Görüş alanı
+View Size = Render Target Size ile aynı
+View Position (Absolute World Space) = Konumumuzu verir (3 boyutlu vektör)
+Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu vektör)
 
 
 ## Coordinates
@@ -151,7 +156,7 @@ Aktörün pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 * #### [LightmapUVs]()
-The LightmapUVs expression outputs the lightmap UV texture coordinates in the form of a two-channel vector value. If lightmap UVs are unavailable, it will output a two-channel vector value of (0,0).
+Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir vektör verir. Eger Lightmap UV açık degilse 0 verir.
 
 * #### [MapARPassThroughCameraUV]()
 
@@ -187,7 +192,9 @@ The SceneTexelSize expression allows you to offset by texel sizes, as you would 
 The ScreenPosition expression outputs the screen-space position of the pixel currently being rendered.
 
 * #### [TextureCoordinate(TexCoord)]()
-The TextureCoordinate expression outputs UV texture coordinates in the form of a two-channel vector value allowing materials to use different UV channels, specify tiling, and otherwise operate on the UVs of a mesh.
+Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. parametreleri,
+UTiling = x ekseninde (yatay) takrarlama sayısı
+VTiling = y ekseninde (dikey) takrarlama sayısı
 
 * #### [VertexNormalWS]()
 The VertexNormalWS expression outputs the world-space vertex normal. It can only be used in material inputs that are executed in the vertex shader, like WorldPositionOffset. This is useful for making a mesh grow or shrink. Note that offsetting position along the normal will cause the geometry to split apart along UV seams.
