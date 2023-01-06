@@ -10,7 +10,7 @@ Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama 
 Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
 
 * #### [Blend_ColorDodge]()
-Blend_ColorDodge lightens the result by inverting the Base color and dividing it by the Blend color.
+Blendi 1 den çıkarıp (rgb için her deger 0 ile 255 arasında yani 255 den çıkarıyo denebilir). Base olarak verdigimiz textureyi blende bölüyor. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
 * #### [Blend_Darken]()
 Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı Blend_Lighten)
@@ -43,7 +43,7 @@ Blend_Overlay will either screen or multiply the Base and Blend together. The fu
 Like Blend_Overlay, Blend_PinLight will either lighten or darken the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
 
 * #### [Blend_Screen]()
-Blend_Screen lightens the Base by the Blend color. It does this by doing a "one minus" on both colors, multiplying them together, and taking a one-minus of the result.
+Base ve Blend olarak verdigimiz texturelerin ikisini de 1-x (one minus) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar 1-x den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
 * #### [Blend_SoftLight]()
 Blend_SoftLight is a softer version of Overlay. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
@@ -58,10 +58,10 @@ Blend_SoftLight is a softer version of Overlay. The function does a comparison o
 ## Chromakeying
 
 * #### [DiffColorKeyerErodeSinglePass]()
-
+Kullanışsız (https://youtu.be/CEUGMFLjc4Y), renkleri silmede kullanılıyor.
 
 * #### [MF_Chromakeyer]()
-
+Kullanışsız (https://youtu.be/CEUGMFLjc4Y), renkleri silmede kullanılıyor.
 
 
 ## Color
@@ -97,34 +97,34 @@ Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. rgb den farklı o
 Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse DistanceCullFade nodeu deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga DistanceCullFade baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek.
 
 * #### [ParticleColor]()
-The ParticleColor expression ties into the current color of a given particle based on any per-particle color data defined within Cascade. This must be plugged into the appropriate channel (Emissive Color).
+
 
 * #### [ParticleDirection]()
-The ParticleDirection expression outputs Vector3 (RGB) data on a per-particle basis, representing the direction a given particle is currently traveling.
+
 
 * #### [ParticleMotionBlurFade]()
-The ParticleMotionBlurFade expression outputs a value representing the amount of fade on a particle as a result of motion blur. A value of 1 represents no blur, black represents complete blur.
+
 
 * #### [ParticleRadius]()
-The ParticleRadius expression outputs the radius in Unreal units of each particle individually. This allows, for example, for changes to be made to a material once the radius has reached a certain point.
+
 
 * #### [ParticleRandom]()
 
 
 * #### [ParticleRelativeTime]()
-The ParticleRelativeTime expression outputs a number between 0 and 1 representing a particle's age, with 0 being the moment of birth and 1 being the moment of death.
+
 
 * #### [ParticleSize]()
-The Particle Size expression outputs the X and Y size of a particle sprite. This can then be used to drive some aspect of a Material.
+
 
 * #### [ParticleSpeed]()
-ParticleSpeed outputs the current speed each particle is traveling, measured in Unreal units per second.
+
 
 * #### [PerInstanceFadeAmount]()
-The PerInstanceFadeAmount expression outputs a float value associated with the amount of fade applied to an instanced Static Mesh, such as foliage. It is constant, but can be a different number for each individual instance of a mesh.
+
 
 * #### [PerInstanceRandom]()
-The PerInstanceRandom expression outputs a different random float value per Static Mesh instance to which the material is applied. InstancedStaticMeshComponent sets a random float for instance, which is exposed so that it can be used for whatever is desired (e.g. random light level behind a window). It is constant, but different, for each instance of the mesh.
+
 
 * #### [PrecomputedAOMask]()
 The PrecomputedAOMask node lets you access Lightmass-calculated ambient occlusion (AO) in your Material, which can be useful for procedural texturing or for adding in aging effects and dirt in areas where it would slowly accumulate over time.
@@ -174,7 +174,7 @@ The Object Radius outputs a value equal to the radius of a given object in Unrea
 Texturelara hareket vermenize yarar.
 
 * #### [ParticlePositionWS]()
-The ParticlePositionWS expression outputs Vector3 (RGB) data representing each individual particle's position in world space.
+
 
 * #### [ParticleSubUVProperties]()
 
