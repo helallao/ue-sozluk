@@ -162,13 +162,13 @@ Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir v
 
 
 * #### [ObjectOrientation]()
-The ObjectOrientation expression outputs the world-space up vector of the object. In other words, the object's local positive z-axis is pointing in this direction.
+Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
 
 * #### [ObjectPositionWS]()
-The ObjectPositionWS expression outputs the world-space center position of the object's bounds. For example, this is useful for creating spherical lighting for foliage.
+Bu materyale sahip olan objenin konuum bilgisini verir (3d vektör).
 
 * #### [ObjectRadius]()
-The Object Radius outputs a value equal to the radius of a given object in Unreal units. Scaling is taken into account and the results can be unique for each individual object.
+Bu materyale sahip olan objenin kapladıgı alanın yarıçapını verir.
 
 * #### [Panner]()
 Texturelara hareket vermenize yarar.
@@ -182,8 +182,9 @@ Texturelara hareket vermenize yarar.
 * #### [PixelNormalWS]()
 The PixelNormalWS expression outputs vector data representing the direction that pixels are facing based on the current normal.
 
-* #### [Rotator]()
-The Rotator expression outputs UV texture coordinates in the form of a two-channel vector value that can be used to create rotating textures.
+* #### [Rotator](https://youtu.be/0wFUoN63F6I)
+Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Bunu en iyi deneyerek anlayabilirsiniz.
+
 
 * #### [SceneTexelSize]()
 The SceneTexelSize expression allows you to offset by texel sizes, as you would when using the SceneColor and SceneDepth expressions. This is useful for edge detection in multi-resolution systems, as without this calculation you would be forced to use a small static value, resulting in inconsistent results at lower resolutions.
