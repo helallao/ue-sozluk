@@ -66,7 +66,7 @@ Kullanışsız (https://youtu.be/CEUGMFLjc4Y), renkleri silmede kullanılıyor.
 
 ## Color
 
-* #### [Desaturation]()
+* #### [Desaturation](https://youtu.be/0pPyCZvZ05A)
 0 dan bire yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde -1 e yaklaştıkça da texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak için kullanabilirsiniz.
 
 * #### [LinearTosRGB]()
@@ -129,8 +129,8 @@ Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://doc
 * #### [PrecomputedAOMask]()
 The PrecomputedAOMask node lets you access Lightmass-calculated ambient occlusion (AO) in your Material, which can be useful for procedural texturing or for adding in aging effects and dirt in areas where it would slowly accumulate over time.
 
-* #### [Time]()
-Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodeunu kullanabilirsiniz.
+* #### [Time](https://youtu.be/SMQI9_MEfRM)
+Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodeunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]()
 Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. Lerp (LinearInterpolate) nodeuna alpha degeri olarak TwoSidedSign nodeunu baglayın.
@@ -149,10 +149,10 @@ Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu
 
 ## Coordinates
 
-* #### [ActorPositionWS]()
+* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE)
 Aktörün pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
-* #### [CameraPositionWS]()
+* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg)
 Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 * #### [LightmapUVs]()
@@ -161,16 +161,16 @@ Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir v
 * #### [MapARPassThroughCameraUV]()
 
 
-* #### [ObjectOrientation]()
+* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g)
 Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
 
-* #### [ObjectPositionWS]()
-Bu materyale sahip olan objenin konuum bilgisini verir (3d vektör).
+* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo)
+Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 
-* #### [ObjectRadius]()
+* #### [ObjectRadius](https://youtu.be/Om3k66NY7Jc)
 Bu materyale sahip olan objenin kapladıgı alanın yarıçapını verir.
 
-* #### [Panner]()
+* #### [Panner](https://youtu.be/24mfLY7aQFQ)
 Texturelara hareket vermenize yarar.
 
 * #### [ParticlePositionWS]()
@@ -189,10 +189,10 @@ Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texture
 * #### [SceneTexelSize]()
 The SceneTexelSize expression allows you to offset by texel sizes, as you would when using the SceneColor and SceneDepth expressions. This is useful for edge detection in multi-resolution systems, as without this calculation you would be forced to use a small static value, resulting in inconsistent results at lower resolutions.
 
-* #### [ScreenPosition]()
-The ScreenPosition expression outputs the screen-space position of the pixel currently being rendered.
+* #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI)
+ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (2 boyutlu vektör). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, ViewportUV bu degeri 0 ve 1 arasında verirken, PixelPosition bu degeri gerçek piksel sayısına göre verir.
 
-* #### [TextureCoordinate(TexCoord)]()
+* #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s)
 Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. parametreleri,
 UTiling = x ekseninde (yatay) takrarlama sayısı
 VTiling = y ekseninde (dikey) takrarlama sayısı
@@ -200,11 +200,11 @@ VTiling = y ekseninde (dikey) takrarlama sayısı
 * #### [VertexNormalWS]()
 The VertexNormalWS expression outputs the world-space vertex normal. It can only be used in material inputs that are executed in the vertex shader, like WorldPositionOffset. This is useful for making a mesh grow or shrink. Note that offsetting position along the normal will cause the geometry to split apart along UV seams.
 
-* #### [ViewSize]()
-The ViewSize expression outputs a 2D vector giving the size of the current view in pixels. This is useful for causing various changes in your materials based on the current resolution of the screen.
+* #### [ViewSize](https://youtu.be/CLW73n19N_U)
+Ekran boyutunu piksel olarak verir. 2 boyutlu vektör döndürür. Eger ekranınızı küçültürseniz bu deger de degişir.
 
-* #### [WorldPosition]()
-The WorldPosition expression outputs the position of the current pixel in world space. To visualize, simply plug the output into Emissive
+* #### [WorldPosition](https://youtu.be/8aYe54XrZYI)
+Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
 
 
 ## Coorinates
@@ -701,10 +701,10 @@ The Make Material Attributes node does exactly the opposite of the Break Materia
 * #### [2dArrayLookupByIndex]()
 
 
-* #### [Abs]()
+* #### [Abs](https://youtu.be/yh59nFJrxKM)
 Mutlak deger.
 
-* #### [Add]()
+* #### [Add](https://youtu.be/gvlPC1nH3Mo)
 Toplama.
 
 * #### [AddComponents]()
@@ -719,7 +719,7 @@ AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen 
 * #### [Append4Vector]()
 AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
 
-* #### [AppendVector(Append)]()
+* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4)
 Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu vektör döndürür.
 
 * #### [Arccosine]()
@@ -749,19 +749,22 @@ The ArctangentFast expression outputs an approximation of the inverse tangent fu
 * #### [ArrangePointsEvenlyAroundABox]()
 
 
-* #### [Ceil]()
-Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar. örnegin 
+* #### [Ceil](https://youtu.be/UIXOPWJVHDE)
+Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı Floor). örnegin 
 9.9 -> 9
 9.1 -> 9
 
-* #### [Clamp]()
-The Clamp expression takes in value(s) and constrains them to a specified range, defined by a minimum and maximum value. A minimum value of 0.0 and maximum value of 0.5 means that the resulting value(s) will never be less than 0.0 and never greater than 0.5.
+* #### [Clamp](https://youtu.be/KqMpPxVjGWY)
+Verdigimiz inputu min ve max degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır. Modları,
+Clamp = min ve max çalışır.
+Clamp Min = sadece min çalışır, input max degerinden büyük olsa bile max çalışmaz.
+Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min çalışmaz.
 
 * #### [ComponentMask(Mask)]()
-The ComponentMask expression allows you to select a specific subset of channels (R, G, B, and/or A) from the input to pass through to the output. Attempting to pass a channel through that does not exist in the input will cause an error, unless the input is a single constant value. In that case, the single value is passed through to each channel. The current channels selected to be passed through are displayed in the title bar of the expression.
+İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
 
-* #### [Cosine]()
-The Cosine expression outputs the value of a cosine wave over the input range of [0, 1] and the output range of [-1, 1], both repeating. Most commonly, this is used to output a continuous oscillating waveform by connecting a Time expression to its input, but it can also be used to create ripples in worldspace or screenspace, or any other application where a continuous, smooth cycle is needed. A visual representation of the wave is shown below, scaled to the [0, 1] output range:
+* #### [Cosine](https://youtu.be/gn5Zbsq8eFs)
+Cosine yani kosinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodeunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Sine)
 
 * #### [CreateThirdOrthogonalVector]()
 
@@ -778,18 +781,18 @@ The CrossProduct expression computes the cross product of two three-channel vect
 * #### [DeriveNormalZ_Function]()
 
 
-* #### [Divide]()
+* #### [Divide](https://youtu.be/ibGKUNCM8e8)
 Bölme.
 
 * #### [DotProduct]()
 The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
 
-* #### [Floor]()
-Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar. örnegin 
+* #### [Floor](https://youtu.be/UIXOPWJVHDE)
+Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı Ceil). örnegin 
 9.9 -> 10
 9.1 -> 10
 
-* #### [Fmod]()
+* #### [Fmod](https://youtu.be/J57rNg3YwaA)
 Verilen A sayısını (constant) B sayısına (constant) böler ve kalanı verir. örn,
 30 / 20 = 10
 7 / 3 = 1
@@ -797,7 +800,7 @@ Verilen A sayısını (constant) B sayısına (constant) böler ve kalanı verir
 * #### [Frac]()
 The Frac expression takes in values and outputs the fractional portion of those values. In other words, for an input value "X", the result is "X minus Floor of X". The output value will range from zero to one, inclusive on the low end, but not the high end. See also Ceil and Floor.
 
-* #### [If]()
+* #### [If](https://youtu.be/iRACLJlm9UQ)
 Duruma/koşula göre yapılacak işlemi seçmemize yarar. İki input alıyor A ve B. Üç seçenek sunuyor 
 A > B
 A == B
@@ -813,7 +816,7 @@ Diyelim ki A = 100 ve B = 10. A B den büyük oldugu için sonuç A > B seçeneg
 * #### [LineIntervalIntersection]()
 
 
-* #### [LinearInterpolate(Lerp)]()
+* #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc)
 Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştırır. İstedigimiz boyutta constant verebiliriz, hem alpha hem de inputlarımız için. Örnegin bir boyutlu constant yani sayı kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca dedigim gibi, istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (rgb yani 3 boyutlu) verelim. Alpha degeri olarak da 3 boyutlu bi vektör verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela r (red) degiştirirseniz A ve B nin r kanalı için alpha degerini belirlemiş olursunuz ama sadece r kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [LinearSine]()
@@ -828,13 +831,13 @@ The Logarithm2 node returns the base-2 logarithm of the input value. That is, if
 * #### [MakeVectorsOrthogonal]()
 
 
-* #### [Max]()
-Verilen iki inputtan büyük olanı döndürür.
+* #### [Max](https://youtu.be/g0C_kXxiwSU)
+Verilen iki inputtan büyük olanı döndürür. Vektör verirseniz her boyutun, texture verirseniz her pikselin büyük olanını döndürür.
 
-* #### [Min]()
-Verilen iki inputtan küçük olanı döndürür.
+* #### [Min](https://youtu.be/g0C_kXxiwSU)
+Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun, texture verirseniz her pikselin büyük olanını döndürür.
 
-* #### [Multiply]()
+* #### [Multiply](https://youtu.be/Ge96lim4t8A)
 Çarpma.
 
 * #### [MultiplyAdd]()
@@ -843,13 +846,13 @@ Verilen iki inputtan küçük olanı döndürür.
 * #### [Normalize]()
 The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
 
-* #### [OneMinus]()
+* #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o)
 Verilen inputun 1 den çıkarılmış halini döndürür. 
 
 * #### [Pi]()
 Pi.
 
-* #### [Power]()
+* #### [Power](https://youtu.be/zR7ZjwpNV5c)
 Verilen inputun (sayı) kuvvetini alır.
 
 * #### [ProjectVectorOntoPlane]()
@@ -883,8 +886,8 @@ Verilen input (sayı) eger sıfırdan düşük ise sıfıra, eger birden büyük
 * #### [Sign]()
 The Sign node indicates whether a numeric input is negative, positive, or exactly 0.
 
-* #### [Sine]()
-The Sine expression outputs the value of a Sine wave over the input range of [0, 1] and the output range of [-1, 1], both repeating. The difference between this and the output of the Cosine expression is the output waveform is offset by one-quarter of the period, meaning that Cos(X) is equal to Sin(X + 0.25). 
+* #### [Sine](https://youtu.be/gn5Zbsq8eFs)
+Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodeunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Cosine)
 
 * #### [Sine_Remapped]()
 
@@ -895,13 +898,13 @@ The Sine expression outputs the value of a Sine wave over the input range of [0,
 * #### [SmoothStep]()
 
 
-* #### [SquareRoot]()
+* #### [SquareRoot(sqrt)](https://youtu.be/HnQZ9acKWiI)
 Verilen inputun karekökünü döndürür. Eger vektör verirseniz her degerinin karekökü ayrı ayrı alınır.
 
 * #### [Step]()
 
 
-* #### [Subtract]()
+* #### [Subtract](https://youtu.be/zvNvjzupOn8)
 Çıkarma.
 
 * #### [SumOfAConsecutiveNumberSequence]()
@@ -1507,8 +1510,8 @@ The DepthFade expression is used to hide unsightly seams that take place when tr
 * #### [DepthOfFieldFunction]()
 The Depth of Field Function expression is designed to give artists control over what happens to a Material when it is being blurred by Depth of Field. It outputs a value between 0-1 such that 0 represents "in focus" and 1 represents "completely blurred." This is useful for interpolating between sharp and blurry versions of a texture, for instance. The Depth input allows for the existing results from the scene's Depth of Field calculations to be overridden by other calculations.
 
-* #### [Distance]()
-The Distance expression computes the (Euclidian) distance between two points/colors/positions/vectors and outputs the resulting value. This works on one, two, three and four component vectors, but both inputs to the expression must have the same number of channels.
+* #### [Distance](https://youtu.be/ZINJAvhQilg)
+Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır. 1, 2, 3 boyutlu vektörlerin hepsinde çalışır.
 
 * #### [DistanceFieldGradient]()
 The DistanceFieldGradient Material Expression node, when normalized, outputs the X,Y,Z direction an object would move with in the distance field. This makes the Distance Field Gradient Material Expression node well-suited for Materials that need to simulate the flow of liquids.
@@ -1613,11 +1616,11 @@ The Vector Noise Material expression adds several more 3D or 4D vector noise res
 
 ## Vector
 
-* #### [ActorPositionWS]()
+* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE)
 ActorPositionWS outputs Vector3 (RGB) data representing the location of the object with this material on it in world-space.
 
-* #### [CameraPositionWS]()
-The CameraWorldPosition expression outputs a three-channel vector value representing the camera's position in world space.
+* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg)
+Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 * #### [CameraVectorWS]()
 The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
@@ -1637,11 +1640,11 @@ This expression has been deprecated in Unreal Engine 4 as lighting calculations 
 * #### [ObjectBounds]()
 The Object Bounds expression outputs the size of the object in each axis. If used as color, the X, Y, and Z axes correspond to R, G, and B, respectively.
 
-* #### [ObjectOrientation]()
-The ObjectOrientation expression outputs the world-space up vector of the object. In other words, the object's local positive z-axis is pointing in this direction.
+* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g)
+Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
 
-* #### [ObjectPositionWS]()
-The ObjectPositionWS expression outputs the world-space center position of the object's bounds. For example, this is useful for creating spherical lighting for foliage.
+* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo)
+Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 
 * #### [ParticlePositionWS]()
 The ParticlePositionWS expression outputs Vector3 (RGB) data representing each individual particle's position in world space.
@@ -1673,10 +1676,10 @@ The VertexNormalWS expression outputs the world-space vertex normal. It can only
 
 ## VectorOps
 
-* #### [AppendVector]()
-The AppendVector expression allows you to combine channels together to create a vector with more channels than the original. For example, you can take two individual Constants values and append them to make a two-channel Constant2Vector value. This can be useful for reordering the channels within a single texture or for combining multiple grayscale textures into one RGB color texture.
+* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4)
+Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu vektör döndürür.
 
-* #### [ComponentMask]()
+* #### [ComponentMask(Mask)]()
 İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
 
 * #### [CrossProduct]()
