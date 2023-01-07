@@ -57,11 +57,11 @@ Blend_SoftLight is a softer version of Overlay. The function does a comparison o
 
 ## Chromakeying
 
-* #### [DiffColorKeyerErodeSinglePass]()
-Kullanışsız (https://youtu.be/CEUGMFLjc4Y), renkleri silmede kullanılıyor.
+* #### [DiffColorKeyerErodeSinglePass](https://youtu.be/CEUGMFLjc4Y)
+Kullanışsız, renkleri silmede kullanılıyor.
 
-* #### [MF_Chromakeyer]()
-Kullanışsız (https://youtu.be/CEUGMFLjc4Y), renkleri silmede kullanılıyor.
+* #### [MF_Chromakeyer](https://youtu.be/CEUGMFLjc4Y)
+Kullanışsız, renkleri silmede kullanılıyor.
 
 
 ## Color
