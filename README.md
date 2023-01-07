@@ -140,10 +140,16 @@ The VertexColor expression is the access point for the material to the outputs o
 
 * #### [View Property]()
 Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. parametreleri,
+<br>
+<br>
 Render Target Size = Ekran büyüklügü ile ilgili bişe
+<br>
 Field of View = Görüş alanı
+<br>
 View Size = Render Target Size ile aynı
+<br>
 View Position (Absolute World Space) = Konumumuzu verir (3 boyutlu vektör)
+<br>
 Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu vektör)
 
 
@@ -194,7 +200,10 @@ ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam 
 
 * #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s)
 Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. parametreleri,
+<br>
+<br>
 UTiling = x ekseninde (yatay) takrarlama sayısı
+<br>
 VTiling = y ekseninde (dikey) takrarlama sayısı
 
 * #### [VertexNormalWS]()
@@ -756,8 +765,12 @@ Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı Floor). örn
 
 * #### [Clamp](https://youtu.be/KqMpPxVjGWY)
 Verdigimiz inputu min ve max degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır. Modları,
+<br>
+<br>
 Clamp = min ve max çalışır.
+<br>
 Clamp Min = sadece min çalışır, input max degerinden büyük olsa bile max çalışmaz.
+<br>
 Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min çalışmaz.
 
 * #### [ComponentMask(Mask)]()
@@ -794,17 +807,26 @@ Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı Ceil). örneg
 
 * #### [Fmod](https://youtu.be/J57rNg3YwaA)
 Verilen A sayısını (constant) B sayısına (constant) böler ve kalanı verir. örn,
+<br>
+<br>
 30 / 20 = 10
+<br>
 7 / 3 = 1
 
 * #### [Frac]()
 The Frac expression takes in values and outputs the fractional portion of those values. In other words, for an input value "X", the result is "X minus Floor of X". The output value will range from zero to one, inclusive on the low end, but not the high end. See also Ceil and Floor.
 
 * #### [If](https://youtu.be/iRACLJlm9UQ)
-Duruma/koşula göre yapılacak işlemi seçmemize yarar. İki input alıyor A ve B. Üç seçenek sunuyor 
+Duruma/koşula göre yapılacak işlemi seçmemize yarar. İki input alıyor A ve B. Üç seçenek sunuyor,
+<br>
+<br>
 A > B
+<br>
 A == B
+<br>
 A < B
+<br>
+<br>
 Diyelim ki A = 100 ve B = 10. A B den büyük oldugu için sonuç A > B seçenegine verdigimiz şey olacaktır. Eger A ve B birbirine eşit olsa A == B seçenegine verdigimiz şey sonuç olarak döndürülecekti. Eger A B den küçük olsa A < B seçenegine verdigimiz şey sonuç olarak döndürülecekti. Yani verdigimiz koşula göre hangi işlemin yapılması gerektigini belirliyoruz.
 
 * #### [InverseLinearInterpolate]()
