@@ -123,8 +123,8 @@ Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://doc
 * #### [PerInstanceFadeAmount]()
 
 
-* #### [PerInstanceRandom]()
-
+* #### [PerInstanceRandom](https://youtu.be/_Pxwi2CAQBI)
+Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger döndürür.
 
 * #### [PrecomputedAOMask]()
 The PrecomputedAOMask node lets you access Lightmass-calculated ambient occlusion (AO) in your Material, which can be useful for procedural texturing or for adding in aging effects and dirt in areas where it would slowly accumulate over time.
@@ -185,8 +185,8 @@ Texturelara hareket vermenize yarar.
 * #### [ParticleSubUVProperties]()
 
 
-* #### [PixelNormalWS]()
-The PixelNormalWS expression outputs vector data representing the direction that pixels are facing based on the current normal.
+* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg)
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız VertexNormalWS kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I)
 Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Bunu en iyi deneyerek anlayabilirsiniz.
@@ -206,8 +206,8 @@ UTiling = x ekseninde (yatay) takrarlama sayısı
 <br>
 VTiling = y ekseninde (dikey) takrarlama sayısı
 
-* #### [VertexNormalWS]()
-The VertexNormalWS expression outputs the world-space vertex normal. It can only be used in material inputs that are executed in the vertex shader, like WorldPositionOffset. This is useful for making a mesh grow or shrink. Note that offsetting position along the normal will cause the geometry to split apart along UV seams.
+* #### [VertexNormalWS](https://youtu.be/j2BEEtpPgdk)
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. PixelNormalWS nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [ViewSize](https://youtu.be/CLW73n19N_U)
 Ekran boyutunu piksel olarak verir. 2 boyutlu vektör döndürür. Eger ekranınızı küçültürseniz bu deger de degişir.
@@ -347,8 +347,8 @@ The DepthFade expression is used to hide unsightly seams that take place when tr
 * #### [DepthFromWorldPosition]()
 
 
-* #### [PixelDepth]()
-The PixelDepth expression outputs the depth, or distance from the camera, of the pixel currently being rendered.
+* #### [PixelDepth](https://youtu.be/AHOidP7olg0)
+Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Daha iyi anlamak için linkteki videoya bakın.
 
 * #### [SceneDepth]()
 The SceneDepth expression outputs the existing scene depth. This is similar to PixelDepth, except that PixelDepth can sample the depth only at the pixel currently being drawn, whereas SceneDepth can sample depth at any location.
@@ -892,7 +892,16 @@ Verilen inputun (sayı) kuvvetini alır.
 * #### [RayTracedSphere]()
 
 
-* #### [RemapValueRange]()
+* #### [Remap]()
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba :D). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+
+
+* #### [RemapValueRange](https://youtu.be/V0by6a5Xesk)
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba :D). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodeu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+
+
+* #### [RemapValueRangeNormalized]()
+Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani. Kullanmayın bile.
 
 
 * #### [Round]()
@@ -903,7 +912,7 @@ Verilen inputu (sayı) yuvarlar.
 
 
 * #### [Saturate]()
-Verilen input (sayı) eger sıfırdan düşük ise sıfıra, eger birden büyük ise bire, eger sıfır ve bir arasında ise hiç bir degişiklik uygulanmaz.
+Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani. Kullanmayın bile.
 
 * #### [Sign]()
 The Sign node indicates whether a numeric input is negative, positive, or exactly 0.
