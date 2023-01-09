@@ -434,11 +434,11 @@ The DiamondGradient function uses UV channel 0 to produce a radial gradient, giv
 * #### [GradientMap_Multi_TexObjSamplerType]()
 
 
-* #### [LinearGradient]()
-The LinearGradient function uses UV channel 0 to generate a linear gradient in either the U or V direction, depending on which output is used.
+* #### [LinearGradient](https://youtu.be/g7UreR23luA)
+İnput olarak texturecoordinate verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen rgb degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. İşe yarar mı ben de bilmiyorum. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
 
-* #### [RadialGradientExponential]()
-The RadialGradientExponential function uses UV channel 0 to produce a radial gradient, giving the user the ability to adjust the radius and offset the center point.
+* #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc)
+LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak texturecoordinate verin. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay.
 
 * #### [SmoothCurve]()
 The SmoothCurve function takes in an existing texture channel or gradient and uses a procedural curve to control the transition from dark to light. The user can adjust the tangents of this curve to change the result.
@@ -963,7 +963,7 @@ The Truncate node truncates a value by discarding the fractional part while leav
 * #### [UnpackNormalFromFloat]()
 
 
-* #### [VectorToRadialValue]()
+* #### [VectorToRadialValue](https://youtu.be/pVhnvs_lScE)
 The VectorToRadialValue function transforms the vector of a Vector2 into an angle, or transforms UV coordinate data into radial coordinates. In the case of a vector, the angle will output in one channel and the length of the vector in the other.
 
 
@@ -1146,7 +1146,7 @@ The outputs starting with tree process the model's UV information as it would be
 * #### [GeneratedBand](https://youtu.be/fITAkG3_qP8)
 Ya bu çok uzun anlatılmaz. Linkteki videoya bakın. Ben kullanmayı denedim ama mantıklı bişeler yapamadım.
 
-* #### [GeneratedOffsetBands]()
+* #### [GeneratedOffsetBands](https://youtu.be/7Ie7mrnVuy8)
 Like the GeneratedBand function, GeneratedOffsetBands creates procedurally generated bands of texture across the UV space. However, this function can produce multiple bands instead of just one.
 
 * #### [NormalFromFunction]()
@@ -1338,8 +1338,15 @@ This function flips the green channel of incoming UVs to place the 0,0 coordinat
 * #### [CameraWorldBlend]()
 Outputs falloff results for the 3 primary world vectors based on the camera angle. Can be used to blend between textures based on direction the camera is looking.
 
-* #### [CustomRotator]()
-The CustomRotator function allows you to rotate a texture. However, it stands apart from the basic Rotator expression node in that it exposes a center point around which the image rotates. It also changes the rotation system to be 0-1 based, so that a value of 1 is considered a complete rotation, or 360 degrees. On a standard Rotator, a complete rotation requires a Time input of approximately 25.1.
+* #### [CustomRotator](https://youtu.be/f9a780XjoKI)
+Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). İnputların kısa açıklamaları,
+<br>
+<br>
+UVs = Texturecoordinate baglayın
+<br>
+Rotation Center = Dönme efektinin orta noktası
+<br>
+Rotation Angle = Döndürme degeri (0 - 1)
 
 * #### [CylindricalUVs]()
 This function tiles a texture around an object using cylindrically projected UVs centered around the object's center.
