@@ -813,8 +813,15 @@ Verilen A sayısını (constant) B sayısına (constant) böler ve kalanı verir
 <br>
 7 / 3 = 1
 
-* #### [Frac]()
-The Frac expression takes in values and outputs the fractional portion of those values. In other words, for an input value "X", the result is "X minus Floor of X". The output value will range from zero to one, inclusive on the low end, but not the high end. See also Ceil and Floor.
+* #### [Frac](https://youtu.be/PQnXWXsUWTg)
+Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir. örnegin,
+<br>
+<br>
+1.5 = 0.5
+<br>
+2.0 = 0
+<br>
+0.99 = 0.99
 
 * #### [If](https://youtu.be/iRACLJlm9UQ)
 Duruma/koşula göre yapılacak işlemi seçmemize yarar. İki input alıyor A ve B. Üç seçenek sunuyor,
@@ -1136,8 +1143,8 @@ The outputs starting with tree process the model's UV information as it would be
 
 ## Procedurals
 
-* #### [GeneratedBand]()
-The GeneratedBand function generates a horizontal or vertical band from the default TextureCoordinates.
+* #### [GeneratedBand](https://youtu.be/fITAkG3_qP8)
+Ya bu çok uzun anlatılmaz. Linkteki videoya bakın. Ben kullanmayı denedim ama mantıklı bişeler yapamadım.
 
 * #### [GeneratedOffsetBands]()
 Like the GeneratedBand function, GeneratedOffsetBands creates procedurally generated bands of texture across the UV space. However, this function can produce multiple bands instead of just one.
@@ -1416,6 +1423,10 @@ The LocalAlignedTexture function tiles a texture on an object in local space.
 SubUV_Function is perfect for handling animation across a sprite sheet or texture with multiple frames. The function takes in a texture object, and based on the outputs can show a blended-frame animation of the frames on that texture.
 
 * #### [SubUV_Function_MipDerivative]()
+
+
+* #### [Swizzle](https://youtu.be/DdyvDf442a0)
+Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür). Linkteki videodan pek bişe anlayamadım ama [bu abiye](https://www.youtube.com/watch?v=hxIl52S-hzM&t=791s) de bakabilirsiniz, güzel anlatmış.
 
 
 * #### [TextureCropping]()
