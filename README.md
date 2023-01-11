@@ -300,28 +300,29 @@ Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture ko
 ## Debug
 
 * #### [DebugBinaryValues-Float]()
-
+Verilen constant (1 boyutlu) sayıları, [floatdan](http://www.binaryconvert.com/convert_float.html) binarye çevirilmiş halini döndürür.
 
 * #### [DebugBinaryValues-Int]()
-
+Verilen constant (1 boyutlu) sayıları, [integerdan](http://www.binaryconvert.com/convert_signed_int.html) binarye çevirilmiş halini döndürür.
 
 * #### [DebugFloat2Values]()
-Verilen 2 boyutlu vektörü gösteren bi texture döndürür.
+Verilen 2 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
 * #### [DebugFloat3Values]()
-Verilen 3 boyutlu vektörü gösteren bi texture döndürür.
+Verilen 3 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
 * #### [DebugFloat4Values]()
-Verilen 4 boyutlu vektörü gösteren bi texture döndürür.
+Verilen 4 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
 * #### [DebugOnOff]()
+1 saniye içerisinde, 1 saniyenin yarısı 0 yarısı 1 olacak şekilde, sürekli 1 ve 0 arasında output döndürür. Kullanmayın bile.
 
 
 * #### [DebugScalarValues]()
-Verilen sayıyı (constant) gösteren bi texture döndürür.
+Verilen sayıyı (constant) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
 * #### [DebugTimeSine]()
-
+Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda).
 
 
 ## Decals
@@ -1586,17 +1587,39 @@ GIReplace allows artists to specify a different, usually simpler, expression cha
 * #### [LightmassReplace]()
 The LightmassReplace expression simply passes through the Realtime input when compiling the material for normal rendering purposes, and passes through the Lightmass input when exporting the material to Lightmass for global illumination. This is useful to work around material expressions that the exported version cannot handle correctly, for example WorldPosition.
 
-* #### [LinearInterpolate]()
-The LinearInterpolate expression blends between two input value(s) based on a third input value used as a mask. This can be thought of as a mask to define transitions between two textures, like a layer mask in Photoshop. The intensity of the mask Alpha determines the ratio of color to take from the two input values. If Alpha is 0.0, the first input is used. If Alpha is 1.0, the second input is used. If Alpha is between 0.0 and 1.0, the output is a blend between the two inputs. Keep in mind that the blend happens per channel. So, if Alpha is an RGB color, Alpha's red channel value defines the blend between A and B's red channels independently of Alpha's green channel, which defines the blend between A and B's green channels.
+* #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc)
+Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştırır. İstedigimiz boyutta constant verebiliriz, hem alpha hem de inputlarımız için. Örnegin bir boyutlu constant yani sayı kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca dedigim gibi, istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (rgb yani 3 boyutlu) verelim. Alpha degeri olarak da 3 boyutlu bi vektör verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela r (red) degiştirirseniz A ve B nin r kanalı için alpha degerini belirlemiş olursunuz ama sadece r kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [MaterialProxyReplace]()
 
 
-* #### [Noise]()
-The Noise expression creates a procedural noise field, giving you control over how it is generated.
+* #### [Noise](https://youtu.be/hP3P3WH4TjM)
+Gürültü döndürür. Sanırım texture halinde kullanıyoruz. Parametreler,
+<br>
+<br>
+Scale = Texture büyüklügü, 0 dan başlar yükselttikçe texture da büyür.
+<br>
+Quality = Kaliteyi arttırır.
+<br>
+Function = Burdan deseni oluşturan fonksiyonu seçiyoruz. Bunları tek tek anlatamam kendiniz test edin ve ya [bakın](https://youtu.be/hP3P3WH4TjM?t=124).
+<br>
+Turbulence = Test etsem bile anlayamadım, aralardaki boşlugu arttırıyo ve ya birleştiriyo olmalı.
+<br>
+Levels = Düşükken köşeler sanki çizgi film gibi, arttırınca detaylar daha çok ortaya çıkıyor.
+<br>
+Output Min = Genellikle ne kadar siyah olacagını seçersiniz, -5 ve 0 arasında denebilir.
+<br>
+Output Max = Genellikle ne kadar beyaz olacagını seçersiniz, 0 ve 1 arasında denebilir.
+<br>
+Level Scale = 0 dan uzaklaştıkça (eksi artı farketmez) çizgilerin köşeleri düzleşir.
+<br>
+Position = Sanırım sadece 3 boyutlu vektör kabul ediyor, Texturenin pozisyonunu ayarlar.
+<br>
+Filter Width = Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 
-* #### [QualitySwitch]()
-The QualitySwitch expression allows for the use of different expression networks based on the engine is switched between quality levels, such as using lower quality on lower-end devices.
+
+* #### [QualitySwitch](https://youtu.be/64I4rzyZ6_Q)
+İf gibi, duruma göre ayar yapmanızı saglar. Oyundaki kalite neyse, o inputa baglı olan şeyi output olarak verir. Default, eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela Low a hiçbir şey baglamadınız, eger kalite low da ise o zaman low baglı olmadıgı için Defaulta ne baglıysa o kullanılır. Zaten Defaultu boş bırakamazsınız.
 
 * #### [RayTracingQualitySwithc]()
 
@@ -1604,8 +1627,19 @@ The QualitySwitch expression allows for the use of different expression networks
 * #### [ReflectionCapturePassSwitch]()
 
 
-* #### [RotateAboutAxis]()
-The RotateAboutAxis expression rotates a three-channel vector input given the rotation axis, a point on the axis, and the angle to rotate. It is useful for animations using WorldPositionOffset that have better quality than simple shears.
+* #### [RotateAboutAxis](https://youtu.be/ljWoJ7Pp9Ww)
+Materyale dönme efekti kazandırır ama kendi çevresinde degil, dünya içinde. Ayrıca bu dönme efekti hareket olarak degil sadece görünüş olarak olan bir dönme efektidir. Yani dönme efektinden sonra materyalin yeri ne kadar degişse de aslında materiyal ilk koydugunuz konumdadır. RotateAboutAxis ile materyale istediginiz yönde dönme efekti verebilir bunu otomatikleştirebilirsiniz de. Linkteki videoyu izleyin çünkü yazı ile anlatmak bi anlam ifade etmiyor, eger izlediyseniz yazdıklarımı anlayacaksınız. Parametreleri,
+<br>
+<br>
+NormalizedRotationAxis = 3 boyutlu vektör verin, hangi yöne dogru dönme efekti olmasını istiyorsanız o boyuta 1 degeri verin, 1 degeri verdikleriniz dönme yönünü ifade eder.
+<br>
+RotationAngle = Ne kadar dönme efekti uygulanacagı, 0 ve 1 arasında, 1 = tam tur
+<br>
+PivotPoint = RotationAngle olarak time nodeu baglayın. PivotPointi parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
+<br>
+Position = World Position baglayın
+<br>
+Period (node üzerinde) = Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsanız, 5 kat yavaşlar, yani 1 tur atması 5 kat daha yavaş olur. Aynı şekilde, azaltarak hızlandırabilirsiniz.
 
 * #### [ShaderStatgeSwtich]()
 
@@ -1619,7 +1653,7 @@ The RotateAboutAxis expression rotates a three-channel vector input given the ro
 * #### [SmoothStep]()
 
 
-* #### [SphereMask]()
+* #### [SphereMask](https://youtu.be/xRxkcFOhNrc)
 The SphereMask expression outputs a mask value based on a distance calculation. If one input is the position of a point and the other input is the center of a sphere with some radius, the mask value is 0 outside and 1 inside with some transition area. This works on one, two, three, and four component vectors
 
 * #### [Step]()
