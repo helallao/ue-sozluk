@@ -1533,11 +1533,18 @@ The AntialiasedTextureMask expression allows you to create a material using a so
 * #### [BentNormalCustomOutput]()
 
 
-* #### [BlackBody]()
-The BlackBody expression simulates the effects of black body radiation within your Material. The user inputs a temperature (in Kelvin) and the resulting color and intensity can be used to drive Base Color and Emissive values to get a physically accurate result.
+* #### [BlackBody](https://youtu.be/yxN7lf0MuvE)
+Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kullanmayın bile.
 
-* #### [BumpOffset]()
-BumpOffset is the Unreal Engine 4 term for what is commonly known as 'Parallax Mapping'. The Bump Offset expression allows a material to give the illusion of depth without the need for additional geometry. BumpOffset materials use a grayscale heightmap to give depth information. The brighter the value in the heightmap, the more 'popped out' the material will be; these areas will parallax (shift) as a camera moves across the surface. Darker areas in the heightmap are 'further away' and will shift the least.
+* #### [BumpOffset](https://youtu.be/70EzAb4CrmA)
+Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya normal mapler için UV olarak kullanabilirsiniz. Parametreleri,
+<br>
+<br>
+Coordinate = Texture Coordinate verebilirsiniz.
+<br>
+Height = Yükseklik mapi, mesela texturenin bir kanalı olabilir.
+<br>
+HeightRatioInput = Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı unreal enginenin önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
 
 * #### [ChannelMaskParameter]()
 
@@ -1554,11 +1561,16 @@ The DDX expression exposes DDX derivative calculation, a GPU hardware feature us
 * #### [DDY]()
 The DDY expression exposes DDX derivative calculation, a GPU hardware feature used in pixel shader calculation.
 
-* #### [DepthFade]()
-The DepthFade expression is used to hide unsightly seams that take place when translucent objects intersect with opaque ones.
+* #### [DepthFade](https://youtu.be/2BxrGjPcirk)
+Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz. Parametreleri,
+<br>
+<br>
+Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
+<br>
+FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
-* #### [DepthOfFieldFunction]()
-The Depth of Field Function expression is designed to give artists control over what happens to a Material when it is being blurred by Depth of Field. It outputs a value between 0-1 such that 0 represents "in focus" and 1 represents "completely blurred." This is useful for interpolating between sharp and blurry versions of a texture, for instance. The Depth input allows for the existing results from the scene's Depth of Field calculations to be overridden by other calculations.
+* #### [DepthOfFieldFunction](https://youtu.be/YUvQHmjpeJ8)
+Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
 
 * #### [Distance](https://youtu.be/ZINJAvhQilg)
 Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır. 1, 2, 3 boyutlu vektörlerin hepsinde çalışır.
@@ -1575,8 +1587,13 @@ The Distance To Nearest Surface Material Expression node allows Materials to sam
 * #### [FeatureLevelSwitch]()
 The Feature Level Switch node allows you to make simplified materials for lower powered devices. 
 
-* #### [Fresnel]()
-The Fresnel expression calculates a falloff based on the dot product of the surface normal and the direction to the camera. When the surface normal points directly at the camera, a value of 0 is output. When the surface normal is perpendicular to the camera, a value of 1 is output. The result is clamped to [0,1] so you do not have any negative color in the center.
+* #### [Fresnel](https://youtu.be/PLwEwIYX454)
+Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0a yakın, kenara yakın tarafları 1e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz. Parametreler,
+<br>
+<br>
+ExponentIn = Kenarlardan ortaya dogru, fresnelin etkisi diyebiliriz, yani bunu ne kadar arttırırsanız fresenel o kadar etkili olur.
+<br>
+BaseReflectFractionIn = Yansıtma degeri, Bu da ExponentIn in aynısı ama dıştan içe degil, her yere etki eder. Eger bunu azaltırsanız yansıma olmaz yani fresnel heryeri kaplar, eger arttırırsanız fresnelin etkisi azalır.
 
 * #### [GIReplace]()
 GIReplace allows artists to specify a different, usually simpler, expression chain when the material is being used for GI.
@@ -1584,7 +1601,7 @@ GIReplace allows artists to specify a different, usually simpler, expression cha
 * #### [InverseLinearInterpolate]()
 
 
-* #### [LightmassReplace]()
+* #### [LightmassReplace](https://youtu.be/TkdmgGWTvYM)
 The LightmassReplace expression simply passes through the Realtime input when compiling the material for normal rendering purposes, and passes through the Lightmass input when exporting the material to Lightmass for global illumination. This is useful to work around material expressions that the exported version cannot handle correctly, for example WorldPosition.
 
 * #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc)
