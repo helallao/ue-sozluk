@@ -1,51 +1,52 @@
 ## Atomsphere
+
 * #### [AtomsphereFogColor]()
 Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama dedigim gibi, kullanılmıyor o yüzden ben de bilmiyorum.
 
 
 ## Blend
 
-* #### [Blend_ColorBurn]()
-Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
+* #### [Blend_ColorBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colorburn)
+Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. Eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
 
-* #### [Blend_ColorDodge]()
-Blendi 1 den çıkarıp (rgb için her deger 0 ile 255 arasında yani 255 den çıkarıyo denebilir). Base olarak verdigimiz textureyi blende bölüyor. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
+* #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge)
+Blendi 1 den çıkarıp ([1-x](#oneminus1-x)), base olarak verdigimiz textureyi blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
-* #### [Blend_Darken]()
-Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı Blend_Lighten)
+* #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken)
+Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten))
 
-* #### [Blend_Difference]()
+* #### [Blend_Difference](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_difference)
 Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
 
-* #### [Blend_Exclusion]()
-Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture birden üst üste gelir.
+* #### [Blend_Exclusion](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_exclusion)
+Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
 
-* #### [Blend_HardLight]()
-Like a harsher version of Blend_Overlay, Blend_HardLight will either screen or multiply the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast of the final result is then boosted for a harsh output.
+* #### [Blend_HardLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_hardlight)
+[Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir. [Blend_LinearLight](#blend_linearlight) kadar olmasa da, bi düşük seviyesidir diyebiliriz.
 
-* #### [Blend_Lighten]()
-Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı Blend_Darken)
+* #### [Blend_Lighten](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lighten)
+Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı [Blend_Darken](#blend_darken))
 
-* #### [Blend_LinearBurn]()
-Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır. Ne oldugunu bilmiyorum.
+* #### [Blend_LinearBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearburn)
+Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır ([1-x](#oneminus1-x)). Ne oldugunu bilmiyorum.
 
-* #### [Blend_LinearDodge]()
+* #### [Blend_LinearDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lineardodge)
 Baseyi blende ekler (toplar).
 
-* #### [Blend_LinearLight]()
-Blend_LinearLight is a linear version of Blend_Overlay, providing harsher results. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function.
+* #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight)
+[Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
 
-* #### [Blend_Overlay]()
-Blend_Overlay will either screen or multiply the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function.
+* #### [Blend_Overlay](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_overlay)
+Blendin her pikselini kontrol eder, eger piksel 50% griden daha açıksa Base ve Blend birleştirilir (ya da toplanıyor da olabilir). Eger piksel 50% griden daha koyuysa Base ve Blend çarpılır.
 
-* #### [Blend_PinLight]()
-Like Blend_Overlay, Blend_PinLight will either lighten or darken the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
+* #### [Blend_PinLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_pinlight)
+[Blend_Overlay](#blend_overlay) ile aynıdır ama kontrast degeri düşürüldügü için daha yumuşak bir sonuç verir.
 
-* #### [Blend_Screen]()
-Base ve Blend olarak verdigimiz texturelerin ikisini de 1-x (one minus) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar 1-x den geçirir ve output olarak verir. Ne oldugundan emin degilim.
+* #### [Blend_Screen](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_screen)
+Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
-* #### [Blend_SoftLight]()
-Blend_SoftLight is a softer version of Overlay. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
+* #### [Blend_SoftLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_softlight)
+Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 
 * #### [Lerp_ScratchGrime]()
 
@@ -1052,48 +1053,47 @@ The VectorToRadialValue function transforms the vector of a Vector2 into an angl
 * #### [BitMask]()
 
 
-* #### [Blend_ColorBurn]()
-Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
+* #### [Blend_ColorBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colorburn)
+Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. Eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
 
-* #### [Blend_ColorDodge]()
-Blendi 1 den çıkarıp (rgb için her deger 0 ile 255 arasında yani 255 den çıkarıyo denebilir). Base olarak verdigimiz textureyi blende bölüyor. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
+* #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge)
+Blendi 1 den çıkarıp ([1-x](#oneminus1-x)), base olarak verdigimiz textureyi blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
-* #### [Blend_Darken]()
-Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı Blend_Lighten)
+* #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken)
+Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten))
 
-* #### [Blend_Difference]()
+* #### [Blend_Difference](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_difference)
 Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
 
-* #### [Blend_Exclusion]()
-Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture birden üst üste gelir.
+* #### [Blend_Exclusion](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_exclusion)
+Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
 
-* #### [Blend_HardLight]()
-Like a harsher version of Blend_Overlay, Blend_HardLight will either screen or multiply the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast of the final result is then boosted for a harsh output.
+* #### [Blend_HardLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_hardlight)
+[Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir. [Blend_LinearLight](#blend_linearlight) kadar olmasa da, bi düşük seviyesidir diyebiliriz.
 
-* #### [Blend_Lighten]()
-Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı Blend_Darken)
+* #### [Blend_Lighten](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lighten)
+Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı [Blend_Darken](#blend_darken))
 
-* #### [Blend_LinearBurn]()
-Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır. Ne oldugunu bilmiyorum.
+* #### [Blend_LinearBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearburn)
+Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır ([1-x](#oneminus1-x)). Ne oldugunu bilmiyorum.
 
-* #### [Blend_LinearDodge]()
+* #### [Blend_LinearDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lineardodge)
 Baseyi blende ekler (toplar).
 
-* #### [Blend_LinearLight]()
-Blend_LinearLight is a linear version of Blend_Overlay, providing harsher results. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function.
+* #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight)
+[Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
 
-* #### [Blend_Overlay]()
-Blend_Overlay will either screen or multiply the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function.
+* #### [Blend_Overlay](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_overlay)
+Blendin her pikselini kontrol eder, eger piksel 50% griden daha açıksa Base ve Blend birleştirilir (ya da toplanıyor da olabilir). Eger piksel 50% griden daha koyuysa Base ve Blend çarpılır.
 
-* #### [Blend_PinLight]()
-Like Blend_Overlay, Blend_PinLight will either lighten or darken the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
+* #### [Blend_PinLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_pinlight)
+[Blend_Overlay](#blend_overlay) ile aynıdır ama kontrast degeri düşürüldügü için daha yumuşak bir sonuç verir.
 
-* #### [Blend_Screen]()
-Base ve Blend olarak verdigimiz texturelerin ikisini de 1-x (one minus) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar 1-x den geçirir ve output olarak verir. Ne oldugundan emin degilim.
+* #### [Blend_Screen](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_screen)
+Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
-* #### [Blend_SoftLight]()
-Blend_SoftLight is a softer version of Overlay. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
-
+* #### [Blend_SoftLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_softlight)
+Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 
 * #### [BlendAngleCorrectedNormals]()
 
