@@ -1,5 +1,4 @@
 ## Atomsphere
-<a name="AtomsphereFogColor"></a>
 * #### [AtomsphereFogColor]()
 Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama dedigim gibi, kullanılmıyor o yüzden ben de bilmiyorum.
 
