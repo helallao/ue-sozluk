@@ -1054,46 +1054,46 @@ The VectorToRadialValue function transforms the vector of a Vector2 into an angl
 
 
 * #### [Blend_ColorBurn]()
-[buraya bakın](#blend_colorburn)
-
+Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
 
 * #### [Blend_ColorDodge]()
-
+Blendi 1 den çıkarıp (rgb için her deger 0 ile 255 arasında yani 255 den çıkarıyo denebilir). Base olarak verdigimiz textureyi blende bölüyor. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
 * #### [Blend_Darken]()
-
+Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı Blend_Lighten)
 
 * #### [Blend_Difference]()
-
+Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
 
 * #### [Blend_Exclusion]()
-
+Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture birden üst üste gelir.
 
 * #### [Blend_HardLight]()
-
+Like a harsher version of Blend_Overlay, Blend_HardLight will either screen or multiply the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast of the final result is then boosted for a harsh output.
 
 * #### [Blend_Lighten]()
-
+Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı Blend_Darken)
 
 * #### [Blend_LinearBurn]()
-
+Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır. Ne oldugunu bilmiyorum.
 
 * #### [Blend_LinearDodge]()
-
+Baseyi blende ekler (toplar).
 
 * #### [Blend_LinearLight]()
-
+Blend_LinearLight is a linear version of Blend_Overlay, providing harsher results. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function.
 
 * #### [Blend_Overlay]()
-
+Blend_Overlay will either screen or multiply the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function.
 
 * #### [Blend_PinLight]()
-
+Like Blend_Overlay, Blend_PinLight will either lighten or darken the Base and Blend together. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
 
 * #### [Blend_Screen]()
-
+Base ve Blend olarak verdigimiz texturelerin ikisini de 1-x (one minus) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar 1-x den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
 * #### [Blend_SoftLight]()
+Blend_SoftLight is a softer version of Overlay. The function does a comparison on the Blend color such that wherever the Blend is brighter than 50% gray, the Base and Blend will be combined via a Screen operation. If the Blend is darker than 50% gray, the Base will be multiplied by the Blend as in the Multiply function. The contrast is softened, making this a less harsh version of Overlay.
 
 
 * #### [BlendAngleCorrectedNormals]()
