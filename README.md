@@ -1,5 +1,5 @@
 ## Atomsphere
-
+<a name="AtomsphereFogColor"></a>
 * #### [AtomsphereFogColor]()
 Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama dedigim gibi, kullanılmıyor o yüzden ben de bilmiyorum.
 
@@ -72,6 +72,9 @@ Kullanışsız, renkleri silmede kullanılıyor.
 * #### [LinearTosRGB]()
 Verilen texturenin kontrast derecesini arttırır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. LinearTosRGB kullanırsanız az parlak noktalar daha parlak olur ve ateş daha da büyür (zıttı sRGBToLinear).
 
+* #### [Luminance]()
+
+
 * #### [sRGBToLinear]()
 Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. sRGBToLinear kullanırsanız az parlak noktalar neredeyse yok olur, ateşin çok parlak oldugu kısımlar daha az parlak ve ateş daha da küçük olur (zıttı LinearTosRGB).
 
@@ -90,11 +93,17 @@ Constantın 3 boyutlu hali, bu üç boyut rgb ye denk gelir. İçerisinde renk t
 * #### [Constant4Vector]()
 Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. rgb den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar.
 
+* #### [ConstantDouble]()
+
+
 * #### [DeltaTime]()
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
 
 * #### [DistanceCullFade]()
 Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse DistanceCullFade nodeu deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga DistanceCullFade baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek.
+
+* #### [IsOrthographic]()
+
 
 * #### [ParticleColor]()
 
@@ -155,17 +164,37 @@ Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu
 
 ## Coordinates
 
+* #### [1Dto2DIndex]()
+
+* #### [1Dto3DIndex]()
+
+* #### [2Dto1DIndex]()
+
+* #### [3Dto1DIndex]()
+
 * #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE)
 Aktörün pozisyonunu dünyaya göre 3d (vektör) olarak verir.
+
+* #### [BlurSampleOffsets]()
+
+* #### [BoundingBoxBased_0-1_UVW]()
 
 * #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg)
 Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
+* #### [CameraVectorToLatLongUV]()
+
+
 * #### [LightmapUVs]()
 Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir vektör verir. Eger Lightmap UV açık degilse 0 verir.
 
+* #### [LocalPosition]()
+
+* #### [LongLatToUV]()
+
 * #### [MapARPassThroughCameraUV]()
 
+* #### [ObjectAlignedVirtualPlaneCoordinates]()
 
 * #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g)
 Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
@@ -179,6 +208,12 @@ Bu materyale sahip olan objenin kapladıgı alanın yarıçapını verir.
 * #### [Panner](https://youtu.be/24mfLY7aQFQ)
 Texturelara hareket vermenize yarar.
 
+* #### [PanTextureCoordinateChannelfrom-1ton+1]()
+
+
+* #### [PanTextureCoordinateFrom-1toN+1]()
+
+
 * #### [ParticlePositionWS]()
 
 
@@ -190,6 +225,8 @@ Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materya
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I)
 Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Bunu en iyi deneyerek anlayabilirsiniz.
+
+* #### [SampleSceneDepth]()
 
 
 * #### [SceneTexelSize]()
@@ -206,57 +243,6 @@ UTiling = x ekseninde (yatay) takrarlama sayısı
 <br>
 VTiling = y ekseninde (dikey) takrarlama sayısı
 
-* #### [VertexNormalWS](https://youtu.be/j2BEEtpPgdk)
-Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. PixelNormalWS nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
-
-* #### [ViewSize](https://youtu.be/CLW73n19N_U)
-Ekran boyutunu piksel olarak verir. 2 boyutlu vektör döndürür. Eger ekranınızı küçültürseniz bu deger de degişir.
-
-* #### [WorldPosition](https://youtu.be/8aYe54XrZYI)
-Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
-
-
-## Coorinates
-
-* #### [1Dto2DIndex]()
-
-
-* #### [1Dto3DIndex]()
-
-
-* #### [2Dto1DIndex]()
-
-
-* #### [3Dto1DIndex]()
-
-
-* #### [BlurSampleOffsets]()
-
-
-* #### [BoundingBoxBased_0-1_UVW]()
-
-
-* #### [LocalPosition]()
-
-
-* #### [LongLatToUV]()
-
-
-* #### [ObjectAlignedVirtualPlaneCoordinates]()
-
-
-* #### [PanTextureCoordinateChannelfrom-1ton+1]()
-
-
-* #### [PanTextureCoordinateFrom-1toN+1]()
-
-
-* #### [SampleSceneDepth]()
-
-
-* #### [ScreenResolution]()
-
-
 * #### [UVBrickPatterns]()
 
 
@@ -266,11 +252,22 @@ Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture ko
 * #### [UVToLongLat]()
 
 
-* #### [VirtualPlaneCorrdinates]()
+* #### [VertexNormalWS](https://youtu.be/j2BEEtpPgdk)
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. PixelNormalWS nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
+* #### [VertexTangentWS]()
+
+
+* #### [ViewSize](https://youtu.be/CLW73n19N_U)
+Ekran boyutunu piksel olarak verir. 2 boyutlu vektör döndürür. Eger ekranınızı küçültürseniz bu deger de degişir.
+
+* #### [VirtualPlaneCoordinates]()
+
+
+* #### [WorldPosition](https://youtu.be/8aYe54XrZYI)
+Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
 
 * #### [WorldSpaceAlignedScreenCoordinates]()
-
 
 
 ## Cubemaps
@@ -281,7 +278,7 @@ Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture ko
 * #### [LongLatToUV]()
 
 
-* #### [UBToLongLat]()
+* #### [UVToLongLat]()
 
 
 
@@ -290,8 +287,9 @@ Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture ko
 * #### [Custom]()
 
 
-* #### [PerInstanceCustomDate]()
+* #### [PerInstanceCustomData3]()
 
+* #### [PerInstanceCustomData3Vector]()
 
 * #### [TangentOutput]()
 
@@ -327,6 +325,12 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 ## Decals
 
+* #### [ApplyDBuffer]()
+
+
+* #### [DBufferTexture]()
+
+
 * #### [StaticMeshDecal_Function]()
 
 
@@ -355,7 +359,7 @@ Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranı
 The SceneDepth expression outputs the existing scene depth. This is similar to PixelDepth, except that PixelDepth can sample the depth only at the pixel currently being drawn, whereas SceneDepth can sample depth at any location.
 
 
-## DistanceFields
+## Distance Fields
 
 * #### [DistanceField_Capsule]()
 
@@ -377,6 +381,10 @@ The SceneDepth expression outputs the existing scene depth. This is similar to P
 
 * #### [RayTraceSphereFalloff]()
 
+
+## Distance Fields Rendering
+
+* #### [DistanceFieldsRenderingSwitch]()
 
 
 ## Foliage
@@ -412,7 +420,7 @@ The StaticSwitch expression works like a StaticSwitchParameter, except that it o
 The TextureObject expression is used to provide a default texture for a texture function input within a function. This node does not actually sample the texture, so it must be used in conjunction with a TextureSample node.
 
 
-## GetPostProcessSetting
+## Get Post Process Setting
 
 * #### [GetAmbientCuvemapIntensity]()
 
@@ -423,8 +431,8 @@ The TextureObject expression is used to provide a default texture for a texture 
 
 ## Gradient
 
-* #### [DiamondGradient]()
-The DiamondGradient function uses UV channel 0 to produce a radial gradient, giving the user the ability to adjust the falloff rate of the gradient.
+* #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA)
+Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsunuz. Kullanmayın bile.
 
 * #### [GetGradientMapRow]()
 
@@ -444,7 +452,7 @@ LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak
 * #### [SmoothCurve]()
 The SmoothCurve function takes in an existing texture channel or gradient and uses a procedural curve to control the transition from dark to light. The user can adjust the tangents of this curve to change the result.
 
-* #### [ValueStep]()
+* #### [ValueStep](https://youtu.be/ovelaLbCNjw)
 The ValueStep function takes in an existing texture channel or gradient and outputs a pure black and white image based on inputs from the user. The result is a mask that represents what portion of the gradient equals the value of the inputs.
 
 
@@ -460,7 +468,7 @@ The ValueStep function takes in an existing texture channel or gradient and outp
 
 
 
-## ImageAdjustment
+## Image Adjustment
 
 * #### [3ColorBlend]()
 The 3ColorBlend function blends between 3 input colors based on a grayscale alpha, in the following manner:
@@ -486,6 +494,9 @@ The CheapConstrast_RGB function boosts the contrast of an input by remapping the
 * #### [HighPassTexture]()
 
 
+* #### [HsvToRgb]()
+
+
 * #### [HueShift]()
 The HueShift function offsets the current hue value of an input color by a given percentage. This percentage is 1-based and centered around the color wheel. For instance, a shift of 0.5 (50%) will shift to a complimentary hue, or the hue on the opposite side of the color wheel. A shift of 1.0 (100%) gives no change, as this is the equivalent of rotating completely around the color wheel.
 
@@ -498,6 +509,12 @@ The HueShift function offsets the current hue value of an input color by a given
 * #### [SCurve]()
 The SCurve function boosts contrast of an image by interpolating the values of each channel values of an image along an S-curve. This is similar to applying a Curves adjustment in Photoshop and setting the RGB curve to an S-curve or using the Increase Contrast (RGB) preset.
 
+* #### [RgbToHsv]()
+
+
+* #### [SCurve]()
+
+
 * #### [SmoothThreshold]()
 The SmoothThreshold function takes in a gradient, an interpolation rate, and a threshold value (Cutoff Value). It then applies a smooth contrast to the gradient, based on the inputs. Here is a breakdown of what each input does:
 
@@ -509,6 +526,9 @@ The SmoothThreshold function takes in a gradient, an interpolation rate, and a t
 
 
 ## Landscape
+
+* #### [Landscape_Manual_UVW]()
+
 
 * #### [LandscapeGrassOutput]()
 
@@ -540,38 +560,15 @@ Although any random Material can be used with a Landscape Actor, the Material sy
 
 ## Lighting
 
+* #### [GGXSpecular]()
+
+
 * #### [PixelDepthOffset_Foliage]()
-
-
-
-## MAXScripts
-
-* #### [MS_MultiNormal_UVnormals]()
-
-
-* #### [MS_MultiNormal_VertexColorNormals]()
-
-
-* #### [MS_SequencePainter_Sequence]()
-
-
-* #### [MS_SequencePainter_SequenceFlipbook]()
-
-
-* #### [MS_VertexAnimationTools_MorphTargets]()
-
-
-* #### [ms_StaticMeshSkeletalAnimation]()
-
-
-* #### [ms_StaticMeshSkeletalAnimationHighQuality]()
-
 
 
 ## Masks
 
 * #### [ThresholdWithRange]()
-
 
 
 ## Material Attributes
@@ -597,10 +594,10 @@ The Make Material Attributes node does exactly the opposite of the Break Materia
 
 ## MaterialLayerBlend
 
+* #### [MaterialLayerBlend_AddWorldPositionOffset]()
+
+
 * #### [MaterialLayerBlend_AO]()
-
-
-* #### [MaterialLayerBlend_AddWroldPositionOffset]()
 
 
 * #### [MaterialLayerBlend_BakedNormal]()
@@ -630,9 +627,6 @@ The Make Material Attributes node does exactly the opposite of the Break Materia
 * #### [MaterialLayerBlend_LightmassReplace]()
 
 
-* #### [MaterialLayerBlend_MaterialLayerBlend_MultiplyBaseColor]()
-
-
 * #### [MaterialLayerBlend_ModulateRoughness]()
 
 
@@ -640,6 +634,9 @@ The Make Material Attributes node does exactly the opposite of the Break Materia
 
 
 * #### [MaterialLayerBlend_Multiply]()
+
+
+* #### [MaterialLayerBlend_MultiplyBaseColor]()
 
 
 * #### [MaterialLayerBlend_NormalBlend]()
@@ -672,7 +669,7 @@ The Make Material Attributes node does exactly the opposite of the Break Materia
 * #### [MaterialLayerBlend_ReplaceNormals]()
 
 
-* #### [MaterialLayerBlend_RoughnessOverrid]()
+* #### [MaterialLayerBlend_RoughnessOverride]()
 
 
 * #### [MaterialLayerBlend_SeparateNormalandColorClamps]()
@@ -783,7 +780,7 @@ Cosine yani kosinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar 
 * #### [CreateThirdOrthogonalVector]()
 
 
-* #### [CrossProduct]()
+* #### [CrossProduct](https://youtu.be/KWtRiKbNS24)
 The CrossProduct expression computes the cross product of two three-channel vector value inputs and outputs the resulting three-channel vector value. Given two vectors in space, the cross product is a vector that is perpendicular to both of the inputs.
 
 * #### [CylinderIntersection]()
@@ -798,8 +795,14 @@ The CrossProduct expression computes the cross product of two three-channel vect
 * #### [Divide](https://youtu.be/ibGKUNCM8e8)
 Bölme.
 
-* #### [DotProduct]()
+* #### [DotProduct](https://youtu.be/sf3jT12pN6o)
 The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
+
+* #### [Exponential]()
+
+
+* #### [FindSaturation]()
+
 
 * #### [Floor](https://youtu.be/UIXOPWJVHDE)
 Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı Ceil). örnegin 
@@ -843,14 +846,17 @@ Diyelim ki A = 100 ve B = 10. A B den büyük oldugu için sonuç A > B seçeneg
 * #### [InverseTransformMatrix]()
 
 
-* #### [LineIntervalIntersection]()
-
-
 * #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc)
 Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştırır. İstedigimiz boyutta constant verebiliriz, hem alpha hem de inputlarımız için. Örnegin bir boyutlu constant yani sayı kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca dedigim gibi, istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (rgb yani 3 boyutlu) verelim. Alpha degeri olarak da 3 boyutlu bi vektör verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela r (red) degiştirirseniz A ve B nin r kanalı için alpha degerini belirlemiş olursunuz ama sadece r kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [LinearSine]()
 The LinearSine function takes in a scalar value and outputs the linear sine (or rounded linear sine) of that value, running between 0 and 1. If you connect a Time expression to the value input and use the Linear Sine, you can see animation in the output that coincides with a linear sine wave.
+
+* #### [LineIntervalIntersection]()
+
+
+* #### [Logarithm]()
+
 
 * #### [Logarithm10]()
 The Logarithm10 node returns the base-10 logarithm, also called the common logarithm, of the input value. That is, if you take a base value of 10 and raise it to the power of the number returned by this expression, you would get the input value.
@@ -877,7 +883,14 @@ Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun
 The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
 
 * #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o)
-Verilen inputun 1 den çıkarılmış halini döndürür. 
+Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0a yakın olan degerler artık 1e, 1e yakın olan degerler artık 0a yakın. Bakın,
+<br>
+<br>
+1 için 1 - 1 = 0, yani 1 olan deger 0 oldu
+<br>
+0 için 1 - 0 = 1, yani 0 olan deger 1 oldu
+<br>
+0.3 için 1 - 0.3 = 0.7, yani 0.3 olan deger 0.7 oldu
 
 * #### [Pi]()
 Pi.
@@ -889,9 +902,6 @@ Verilen inputun (sayı) kuvvetini alır.
 
 
 * #### [QuadraticFormula]()
-
-
-* #### [RGBtoHSV]()
 
 
 * #### [RadiansToDegrees]()
@@ -912,8 +922,15 @@ Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı
 Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani. Kullanmayın bile.
 
 
+* #### [RGBtoHSV]()
+
+
 * #### [Round]()
 Verilen inputu (sayı) yuvarlar.
+
+
+* #### [Round]()
+Evet enayi unreal engine aynı nodeun fonksiyon halini de yapmışlar.
 
 
 * #### [SafeNormalize]()
@@ -968,9 +985,1146 @@ The Truncate node truncates a value by discarding the fractional part while leav
 The VectorToRadialValue function transforms the vector of a Vector2 into an angle, or transforms UV coordinate data into radial coordinates. In the case of a vector, the angle will output in one channel and the length of the vector in the other.
 
 
+## MAXScripts
+
+* #### [MS_MultiNormal_UVnormals]()
+
+
+* #### [MS_MultiNormal_VertexColorNormals]()
+
+
+* #### [MS_SequencePainter_Sequence]()
+
+
+* #### [MS_SequencePainter_SequenceFlipbook]()
+
+
+* #### [MS_VertexAnimationTools_MorphTargets]()
+
+
+* #### [ms_StaticMeshSkeletalAnimation]()
+
+
+* #### [ms_StaticMeshSkeletalAnimationHighQuality]()
+
+
+
+## Misc
+
+* #### [3ColorBlend]()
+
+
+* #### [3dParticleOpacity]()
+
+
+* #### [3DSandMayaUVCoordinates]()
+
+
+* #### [3PointLevels]()
+
+
+* #### [AbberatedBlur-Texture]()
+
+
+* #### [AddComponents]()
+
+
+* #### [AlignFacingParticlesByVelocity-2D]()
+
+
+* #### [AlignMeshToTheCamera]()
+
+
+* #### [AlphaOffset]()
+
+
+* #### [AppendMany]()
+
+
+* #### [AttachMeshToTheCamera]()
+
+
+* #### [BakedDisplacement]()
+
+
+* #### [BellCurve]()
+
+
+* #### [BitMask]()
+
+
+* #### [Blend_ColorBurn]()
+[buraya bakın](#blend_colorburn)
+
+
+* #### [Blend_ColorDodge]()
+
+
+* #### [Blend_Darken]()
+
+
+* #### [Blend_Difference]()
+
+
+* #### [Blend_Exclusion]()
+
+
+* #### [Blend_HardLight]()
+
+
+* #### [Blend_Lighten]()
+
+
+* #### [Blend_LinearBurn]()
+
+
+* #### [Blend_LinearDodge]()
+
+
+* #### [Blend_LinearLight]()
+
+
+* #### [Blend_Overlay]()
+
+
+* #### [Blend_PinLight]()
+
+
+* #### [Blend_Screen]()
+
+
+* #### [Blend_SoftLight]()
+
+
+* #### [BlendAngleCorrectedNormals]()
+
+
+* #### [BlurSampleOffsets]()
+
+
+* #### [BoundingBoxBased_0-1_UVW]()
+
+
+* #### [BoxIntersection]()
+
+
+* #### [BoxMask-2D]()
+
+
+* #### [BoxMask-3D]()
+
+
+* #### [BreakOutFloat2Components]()
+
+
+* #### [BreakOutFloat3Components]()
+
+
+* #### [BreakOutFloat4Components]()
+
+
+* #### [BumpOffset_advanced]()
+
+
+* #### [CalcLightsourceAngle]()
+
+
+* #### [CameraDepthFade]()
+
+
+* #### [CameraDirectionVector]()
+
+
+* #### [CameraOffset]()
+
+
+* #### [CameraVectorWithWPOOptions]()
+
+
+* #### [CameraWorldBlend]()
+
+
+* #### [CanopyCreator_Branches]()
+
+
+* #### [CellularFlakes]()
+
+
+* #### [CenterPivotAroundVector]()
+
+
+* #### [CheapContrast]()
+
+
+* #### [CheapContrast_RGB]()
+
+
+* #### [CheckerPattern]()
+
+
+* #### [ComponentBasis_Vectors]()
+
+
+* #### [ComponentPivotLocation]()
+
+
+* #### [ComponentWise_SphereMask]()
+
+
+* #### [Compute3DDeriv]()
+
+
+* #### [ComputeFilterWidth]()
+
+
+* #### [ComputeMipLevel]()
+
+
+* #### [ConstantScalebyDistance]()
+
+
+* #### [CreateThirdOrthogonalVector]()
+
+
+* #### [CurlFrom3DDeriv]()
+
+
+* #### [CustomReflectionVector]()
+
+
+* #### [CustomRotator]()
+
+
+* #### [CylindricalUVs]()
+
+
+* #### [DebugFloat2Values]()
+
+
+* #### [DebugFloat3Values]()
+
+
+* #### [DebugFloat4Values]()
+
+
+* #### [DebugOnOff]()
+
+
+* #### [DebugScalarValues]()
+
+
+* #### [DebugTimeSine]()
+
+
+* #### [DepthFromWorldPosition]()
+
+
+* #### [DeriveHDRfromLDR]()
+
+
+* #### [DeriveNormalZ_Function]()
+
+
+* #### [DeriveTangentBasis]()
+
+
+* #### [DetailTexturing]()
+
+
+* #### [DiamondGradient]()
+
+
+* #### [Distance_Blend]()
+
+
+* #### [DitherTemporalAA]()
+
+
+* #### [DrawLine-2D]()
+
+
+* #### [DrawLine-3D]()
+
+
+* #### [DynamicBranch]()
+
+
+* #### [DynamicNormalFromDistanceField]()
+
+
+* #### [Ellipsoid-ConeShadow-Texture]()
+
+
+* #### [ExponentialDensity]()
+
+
+* #### [FixRotateAboutAxisNormals]()
+
+
+* #### [FlattenNormal]()
+
+
+* #### [FlipBook]()
+
+
+* #### [FlipBook_MotionVectors]()
+
+
+* #### [FlipbookWind]()
+
+
+* #### [FlowMaps]()
+
+
+* #### [FlowMaps_Simple]()
+
+
+* #### [FlowMaps_UV1]()
+
+
+* #### [FoliageScaleFactor]()
+
+
+* #### [FoliageZRotation]()
+
+
+* #### [FOV]()
+
+
+* #### [Fresnel_Function]()
+
+
+* #### [FuzzyShading]()
+
+
+* #### [FuzzyShadingGrass]()
+
+
+* #### [GenerateASpline]()
+
+
+* #### [GeneratedBand]()
+
+
+* #### [GeneratedOffsetBands]()
+
+
+* #### [GeneratedRoundRect]()
+
+
+* #### [GetAmbientCubemapIntensity]()
+
+
+* #### [GetAmbientCubemapTint]()
+
+
+* #### [GetGradientMapRow]()
+
+
+* #### [GetUserInterfaceUV]()
+
+
+* #### [GradFrom3DDeriv]()
+
+
+* #### [GradientMap_Multi]()
+
+
+* #### [GradientMap_Multi_TexObjSamplerType]()
+
+
+* #### [HeightLerp]()
+
+
+* #### [HeightLerpWithTwoHeightMaps]()
+
+
+* #### [HighPrecisionWorldPosTextureSampling]()
+
+
+* #### [HueShift]()
+
+
+* #### [Imposter_MotionVectors]()
+
+
+* #### [ImposterUVs]()
+
+
+* #### [InverseTransformMatrix]()
+
+
+* #### [IsFloatValid]()
+
+
+* #### [Lerp_3Color]()
+
+
+* #### [Lerp_Multiple_Float]()
+
+
+* #### [Lerp_Multiple_Float2]()
+
+
+* #### [Lerp_Multiple_Float3]()
+
+
+* #### [Lerp_Multiple_Float4]()
+
+
+* #### [Lerp_ScratchGrime]()
+
+
+* #### [Lerp_ScratchGrime2]()
+
+
+* #### [LinearGradient]()
+
+
+* #### [LinearSine]()
+
+
+* #### [LineIntervalIntersection]()
+
+
+* #### [LocalAlignedTexture]()
+
+
+* #### [LocalAlignedTexture_TransformedWorldSpac]()
+
+
+* #### [LocalPosition]()
+
+
+* #### [LongLatToUV]()
+
+
+* #### [LumensFromLightSource]()
+
+
+* #### [MakeFloat2]()
+
+
+* #### [MakeFloat3]()
+
+
+* #### [MakeFloat4]()
+
+
+* #### [MakeVectorsOrthogonal]()
+
+
+* #### [MatLayerBlend_AddWorldPositionOffset]()
+
+
+* #### [MatLayerBlend_AO]()
+
+
+* #### [MatLayerBlend_BakedNormal]()
+
+
+* #### [MatLayerBlend_BakedNormal_SimpleAdd]()
+
+
+* #### [MatLayerBlend_BlendAngleCorrectedNormals]()
+
+
+* #### [MatLayerBlend_BreakBaseColor]()
+
+
+* #### [MatLayerBlend_BreakNormal]()
+
+
+* #### [MatLayerBlend_BreakOpacity]()
+
+
+* #### [MatLayerBlend_Decal]()
+
+
+* #### [MatLayerBlend_Decal_UV3]()
+
+
+* #### [MatLayerBlend_Emissive]()
+
+
+* #### [MatLayerBlend_LightmassReplace]()
+
+
+* #### [MatLayerBlend_ModulateRoughness]()
+
+
+* #### [MatLayerBlend_ModulateSpecular]()
+
+
+* #### [MatLayerBlend_Multiply]()
+
+
+* #### [MatLayerBlend_MultiplyBaseColor]()
+
+
+* #### [MatLayerBlend_NormalBlend]()
+
+
+* #### [MatLayerBlend_NormalFlatten]()
+
+
+* #### [MatLayerBlend_OverrideBaseColor]()
+
+
+* #### [MatLayerBlend_OverrideDisplacement]()
+
+
+* #### [MatLayerBlend_OverrideMetalness]()
+
+
+* #### [MatLayerBlend_OverrideOpacity]()
+
+
+* #### [MatLayerBlend_OverrideOpacityMask]()
+
+
+* #### [MatLayerBlend_OverrideSubSurface]()
+
+
+* #### [MatLayerBlend_OverrideWorldPositionOffset]()
+
+
+* #### [MatLayerBlend_ReplaceNormals]()
+
+
+* #### [MatLayerBlend_RoughnessOverride]()
+
+
+* #### [MatLayerBlend_SeparateNormalandColorClamps]()
+
+
+* #### [MatLayerBlend_Simple]()
+
+
+* #### [MatLayerBlend_Stain]()
+
+
+* #### [MatLayerBlend_Standard]()
+
+
+* #### [MatLayerBlendStandardWithDisplacement]()
+
+
+* #### [MatLayerBlendStandardWithMaskEdgeTint]()
+
+
+* #### [MatLayerBlend_TenLayerBlend]()
+
+
+* #### [MatLayerBlend_Tint]()
+
+
+* #### [MatLayerBlendTintAllChannels]()
+
+
+* #### [MatLayerBlend_TopNormal]()
+
+
+* #### [MetallicShading]()
+
+
+* #### [MF_BaseLayerTessellation]()
+
+
+* #### [MF_BaseLayerTextures]()
+
+
+* #### [MF_DetailNormalTiling]()
+
+
+* #### [MF_DetailNormalTiling]()
+
+
+* #### [MF_Displacement]()
+
+
+* #### [MF_Displacement]()
+
+
+* #### [MF_Displacement]()
+
+
+* #### [MF_Displacement]()
+
+
+* #### [MF_Displacement]()
+
+
+* #### [MF_DisplacementBlend]()
+
+
+* #### [MF_FlipBook]()
+
+
+* #### [MF_FrameBlend]()
+
+
+* #### [MF_FrameTextures]()
+
+
+* #### [MF_Fuzz]()
+
+
+* #### [MF_Fuzz]()
+
+
+* #### [MF_Fuzz]()
+
+
+* #### [MF_Fuzz]()
+
+
+* #### [MF_Imperfection]()
+
+
+* #### [MF_Iridescence]()
+
+
+* #### [MF_MapAdjustments]()
+
+
+* #### [MF_MapAdjustments]()
+
+
+* #### [MF_MapAdjustments]()
+
+
+* #### [MF_MapAdjustments]()
+
+
+* #### [MF_MaterialBlend]()
+
+
+* #### [MF_MiddleLayerTessellation]()
+
+
+* #### [MF_MiddleLayerTextures]()
+
+
+* #### [MF_NormalStrength_WS]()
+
+
+* #### [MF_ObjAdjustments]()
+
+
+* #### [MF_ObjAdjustments]()
+
+
+* #### [MF_ObjAdjustments]()
+
+
+* #### [MF_ObjAdjustments]()
+
+
+* #### [MF_OrenNayerView]()
+
+
+* #### [MF_PerceivedBrightness]()
+
+
+* #### [MF_PuddleLayer]()
+
+
+* #### [MF_QuixelDecalPOM]()
+
+
+* #### [MF_QuixelDecalPOM]()
+
+
+* #### [MF_Refraction]()
+
+
+* #### [MF_RotateVector_90]()
+
+
+* #### [MF_SchlickApprox]()
+
+
+* #### [MF_SpecGlossToMetalRoughness]()
+
+
+* #### [MF_SSSObjAdjustments]()
+
+
+* #### [MF_SSSObjAdjustments]()
+
+
+* #### [MF_Temporal_Blur]()
+
+
+* #### [MF_Tiling]()
+
+
+* #### [MF_Tiling]()
+
+
+* #### [MF_Tiling]()
+
+
+* #### [MF_Tiling]()
+
+
+* #### [MF_Tiling]()
+
+
+* #### [MF_Tiling]()
+
+
+* #### [MF_TopLayerTextures]()
+
+
+* #### [MF_Translucency]()
+
+
+* #### [MF_Translucency]()
+
+
+* #### [MF_TranslucencyEmission]()
+
+
+* #### [MF_TranslucencyMetallic]()
+
+
+* #### [MF_Transmission]()
+
+
+* #### [MF_Transmission]()
+
+
+* #### [MF_Transmission]()
+
+
+* #### [MF_Transmission]()
+
+
+* #### [MF_WindowImperfection]()
+
+
+* #### [MF_WindowNormalStrength]()
+
+
+* #### [MotionBlur-Texture]()
+
+
+* #### [MS_CanopyCreatorMeshExpansion]()
+
+
+* #### [MS_MultiNormal_UVnormals]()
+
+
+* #### [MS_MultiNormal_VertexColorNormals]()
+
+
+* #### [MS_SequencePainter_Sequence]()
+
+
+* #### [MS_SequencePainter_SequenceFlipbook]()
+
+
+* #### [MulM4V4]()
+
+
+* #### [MultiplyAdd]()
+
+
+* #### [MultiplyVectorWithQuaternion]()
+
+
+* #### [MX_StandardSurface]()
+
+
+* #### [MX_Transmission]()
+
+
+* #### [NormalFromFunction]()
+
+
+* #### [NormalFromHeightmap]()
+
+
+* #### [NormalFromHeightmapChaos]()
+
+
+* #### [ObjectLocalBounds]()
+
+
+* #### [ObjectPivotPoint]()
+
+
+* #### [ObjectScale]()
+
+
+* #### [ObjectSpaceFalloff]()
+
+
+* #### [OffsetAndScaleTol]()
+
+
+* #### [OrthoFOV]()
+
+
+* #### [PackedDistanceField]()
+
+
+* #### [PackTwoNormalizedFloats]()
+
+
+* #### [PanTextureCoordinateChannelfrom-1ton+1]()
+
+
+* #### [PanTextureCoordinateFrom-1toN+1]()
+
+
+* #### [ParallaxOcclusionMapping]()
+
+
+* #### [ParticleDOF]()
+
+
+* #### [PassThrough]()
+
+
+* #### [PerceivedBrightness]()
+
+
+* #### [PerturbNormalHQ]()
+
+
+* #### [Pi]()
+
+
+* #### [PivotAxis]()
+
+
+* #### [PixelDepthOffset_Foliage]()
+
+
+* #### [PixellnWorldUnits]()
+
+
+* #### [PlotFunctionOnGraph]()
+
+
+* #### [PlotFunctionOnGraph_Derivative]()
+
+
+* #### [PlotFunctionOnGraph_Setup_Input]()
+
+
+* #### [PointSampledUVs]()
+
+
+* #### [Prepare3DDeriv]()
+
+
+* #### [PreparePerturbNormalHQ]()
+
+
+* #### [RadialGradientExponential]()
+
+
+* #### [RaiseBlackLevelsByPercentage]()
+
+
+* #### [RayTracedSphere]()
+
+
+* #### [Refract]()
+
+
+* #### [RemapDistribution]()
+
+
+* #### [RGBtoHSV]()
+
+
+* #### [RGBtoHSV]()
+
+
+* #### [RotateAboutWorldAxis_cheap]()
+
+
+* #### [RotateVector]()
+
+
+* #### [Round]()
+
+
+* #### [SafeNormalize]()
+
+
+* #### [SampleSceneDepth]()
+
+
+* #### [ScaleUVsAroundPoint]()
+
+
+* #### [ScaleUVsByCenter]()
+
+
+* #### [SceneTextureAverage]()
+
+
+* #### [SchlickPhase]()
+
+
+* #### [ScreenAlignedPixelToPixelUVs]()
+
+
+* #### [ScreenAlignedUVs]()
+
+
+* #### [ScreenResolution]()
+
+
+* #### [SCurve]()
+
+
+* #### [SimpleGrassWind]()
+
+
+* #### [SimplifiedFlakes]()
+
+
+* #### [Sine_Remapped]()
+
+
+* #### [SkyAtmospherelmage]()
+
+
+* #### [SkyboxImage]()
+
+
+* #### [SlopeMask]()
+
+
+* #### [SmoothCurve]()
+
+
+* #### [SmoothStep]()
+
+
+* #### [SmoothThreshold]()
+
+
+* #### [SoftOpacity]()
+
+
+* #### [SpecGlossToMetalRoughness]()
+
+
+* #### [SpeedTreeColorVariation]()
+
+
+* #### [Sphere_AO]()
+
+
+* #### [Sphere-ConeShadow-Texture]()
+
+
+* #### [SphereGradient-2D]()
+
+
+* #### [SphereGradient-3D]()
+
+
+* #### [Spherical-Cap-Intersection]()
+
+
+* #### [SpiralBlur-SceneTexture]()
+
+
+* #### [SpiralBlur-SceneTexture]()
+
+
+* #### [SpiralBlur-Texture]()
+
+
+* #### [SpiralBlur-Texture]()
+
+
+* #### [SplineBasedModelDeformation]()
+
+
+* #### [SplineThicken]()
+
+
+* #### [SplitComponents]()
+
+
+* #### [Sprite]()
+
+
+* #### [StaticMeshMorphTargets]()
+
+
+* #### [StencilMaskCompare]()
+
+
+* #### [SteppingPanner]()
+
+
+* #### [Time]()
+
+
+* #### [SubUV_Function]()
+
+
+* #### [SubUV_Function_MipDerivative]()
+
+
+* #### [SumOfAConsecutiveNumberSequence]()
+
+
+* #### [Swizzle]()
+
+
+* #### [TangentBasis]()
+
+
+* #### [TextureCropping]()
+
+
+* #### [TimeWithSpeedVariable]()
+
+
+* #### [Transform3x3Matrix]()
+
+
+* #### [TransformImposterNormals]()
+
+
+* #### [TransformNormals_Tangent_to_Vertex]()
+
+
+* #### [TransformToClipSpace]()
+
+
+* #### [TransformToZVector]()
+
+
+* #### [Triplanar]()
+
+
+* #### [CameraVector]()
+
+
+* #### [TwoSidedTexturing]()
+
+
+* #### [UnpackNormalFromFloat]()
+
+
+* #### [UnpackTwoNormalizedFloats]()
+
+
+* #### [UnwrapUVsForRender]()
+
+
+* #### [UVBrickPatterns]()
+
+
+* #### [UVLayoutToWorldSpacePosition]()
+
+
+* #### [UVRemap_0-1_ToRange]()
+
+
+* #### [UVToLongLat]()
+
+
+* #### [ValueStep]()
+
+
+* #### [VectorDisplacement]()
+
+
+* #### [VectorLength]()
+
+
+* #### [VectorToRadialValue]()
+
+
+* #### [ViewAlignedReflection]()
+
+
+* #### [VirtualPlaneCoordinates]()
+
+
+* #### [Wind]()
+
+
+* #### [WithinRange]()
+
+
+* #### [WithinRangeFloat2]()
+
+
+* #### [WithinRangeFloat3]()
+
+
+* #### [WithinRangeFloat4]()
+
+
+* #### [WorldAlignedBlend]()
+
+
+* #### [WorldAlignedNormal]()
+
+
+* #### [WorldAlignedReflection]()
+
+
+* #### [WorldAlignedTexture]()
+
+
+* #### [WorldAlignedTexture_MipBias]()
+
+
+* #### [WorldAlignedTexture_SeperateChannels]()
+
+
+* #### [WorldAlignedTextures_Complex]()
+
+
+* #### [WorldCoordinate3Way]()
+
+
+* #### [WorldPosition-XY]()
+
+
+* #### [WorldPositionBehindFromDepth_experimenta]()
+
+
+* #### [WorldPositionBehindTranslucency]()
+
+
+* #### [WorldPositionWithScale]()
+
+
+* #### [WorldUnitsInPixel]()
+
+
+* #### [ZWorldSpaceFlow]()
+
+
 ## Niagara
 
+* #### [ConvertNiagaraPositionToWorldspace]()
+
+
+* #### [Niagara_DecompressQuaternion]()
+
+
 * #### [Niagara_MeshReproductionSpriteUVs]()
+
+
+* #### [Niagara_RotateMeshParticleWithQuaternion]()
 
 
 
@@ -978,6 +2132,8 @@ The VectorToRadialValue function transforms the vector of a Vector2 into an angl
 
 * #### [BlendAngleCorrectedNormals]()
 
+
+* #### [HeightToNormalSmooth]()
 
 
 ## Opacity
@@ -994,10 +2150,13 @@ The SoftOpacity function takes in an Opacity value and then runs a variety of ca
 * #### [ChannelMaskParameter]()
 
 
-* #### [CollectionParameters]()
+* #### [CollectionParameters](https://youtu.be/i4Z2r7mGA0o)
 A Collection Parameter expression is used to reference a Parameter Collection asset. These are groups of parameters that can easily be reused by many different assets such as Materials, Blueprints, and much more. For more information on Parameter Collections, be sure to read the Parameter Collections Documentation.
 
 * #### [CurveAtlasRowParameter]()
+
+
+* #### [DoubleVectorParameter]()
 
 
 * #### [DynamicParameter]()
@@ -1014,6 +2173,9 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 
 * #### [ScalarParameter(Param)]()
 The ScalarParameter expression outputs a single float value (Constant) that can be accessed and changed in an instance of the material or on the fly by code.
+
+* #### [SpriteTextureSampler]()
+
 
 * #### [StaticBoolParameter]()
 
@@ -1035,6 +2197,9 @@ The TextureSampleParameter2D expression is identical to the TextureSample except
 
 * #### [TextureSampleParameterCube]()
 The TextureSampleParameterCube expression is identical to the TextureSample except that it only accepts cubemaps and it is a parameter that can be modified in instances of the material and through code.
+
+* #### [TextureSampleParameterCubeArray]()
+
 
 * #### [TextureSampleParameterSubUV]()
 The TextureSampleParameterSubUV expression is identical to the ParticleSubUV except that it is a parameter that can be modified in instances of the material and through code.
@@ -1103,7 +2268,7 @@ The SphericalParticleOpacity expression creates a procedural opacity map to caus
 The TextureSampleParameterSubUV expression is identical to the ParticleSubUV except that it is a parameter that can be modified in instances of the material and through code.
 
 
-## PivotPainter
+## Pivot Painter
 
 * #### [PivotPainter_HierarchyData]()
 This particular function is specifically designed to work with object hierarchies.
@@ -1118,10 +2283,7 @@ This function is designed to work specifically with individual foliage objects.
 The outputs starting with tree process the model's UV information as it would be stored by the Pivot Painter MAXScript. The outputs starting with Leaf process the UV information as it would be stored by the per-object pivot painting section of the script.
 
 
-## PivotPainter2
-
-* #### [PivotPainter2FoliageShader]()
-
+## Pivot Painter 2
 
 * #### [ms_PivotPainter2_CalculateMeshElementIndex]()
 
@@ -1140,6 +2302,8 @@ The outputs starting with tree process the model's UV information as it would be
 
 * #### [ms_PivotPainter2_UnpackIntegerAsFloat]()
 
+
+* #### [PivotPainter2FoliageShader]()
 
 
 ## Procedurals
@@ -1178,13 +2342,16 @@ This function takes in a spherical reflection texture and aligns it to the view.
 This function takes in an incoming sphere-based reflection texture and aligns it to the world coordinates. The calculation can be offset by inputting a custom reflection vector.
 
 
-## RenderToTexture
+## Render To Texture
 
 * #### [TransformImposterNormals]()
 
 
 
 ## Shading
+
+* #### [AbsorptionMediumMaterialOutput]()
+
 
 * #### [AxisAlignedFresnel]()
 
@@ -1204,10 +2371,10 @@ This function is designed to provide the diffuse portion of grass shading. Simil
 * #### [MetallicShading]()
 
 
-* #### [Sphere-ConeShadow-Texture]()
-
-
 * #### [Sphere_AO]()
+
+
+* #### [Sphere-ConeShadow-Texture]()
 
 
 * #### [Spherical-Cap-Intersection]()
@@ -1240,14 +2407,13 @@ This function is designed to provide the diffuse portion of grass shading. Simil
 * #### [SkyAtmosphereViewLuminance]()
 
 
+* #### [SkyLightEnvMapSample]()
+
 
 ## Speed Tree
 
 * #### [SpeedTree]()
 
-
-
-## SpeedTree
 
 * #### [SpeedTreeBillboardNormals]()
 
@@ -1268,7 +2434,6 @@ This function is designed to provide the diffuse portion of grass shading. Simil
 
 
 * #### [UnpackDirection]()
-
 
 
 ## Texture
@@ -1536,6 +2701,12 @@ The AntialiasedTextureMask expression allows you to create a material using a so
 * #### [BlackBody](https://youtu.be/yxN7lf0MuvE)
 Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kullanmayın bile.
 
+* #### [BoxMask-2D]()
+
+
+* #### [BoxMask-3D]()
+
+
 * #### [BumpOffset](https://youtu.be/70EzAb4CrmA)
 Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya normal mapler için UV olarak kullanabilirsiniz. Parametreleri,
 <br>
@@ -1552,8 +2723,8 @@ HeightRatioInput = Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyor
 * #### [ClearCoatNormalCustomOutput]()
 
 
-* #### [ConstantBiasScale]()
-The ConstantBiasScale expression takes an input value, adds a bias value to it, and then multiplies it by a scaling factor outputting the result. So for example, to convert input data from [-1,1] to [0,1] you would use a bias of 1.0 and a scale of 0.5.
+* #### [ConstantBiasScale](https://youtu.be/7s0T9ckB0bw)
+Bu node verilen inputa bias degerini ekler ve scale degeriyle çarpar. Mesela [-1,1] arasındaki degerleri [0,1] arasına taşımak istiyorsunuz. Bias olarak 1.0 scale olarak 0.5 kullanarak bunu yapabilirsiniz.
 
 * #### [DDX]()
 The DDX expression exposes DDX derivative calculation, a GPU hardware feature used in pixel shader calculation.
@@ -1584,8 +2755,8 @@ The Distance To Nearest Surface Material Expression node allows Materials to sam
 * #### [EyeAdaptation]()
 
 
-* #### [FeatureLevelSwitch]()
-The Feature Level Switch node allows you to make simplified materials for lower powered devices. 
+* #### [FeatureLevelSwitch](https://youtu.be/wo6fSPJVp2I)
+İf gibi, duruma göre ayar yapmanızı saglar. Grafikler için kullanılan uygulama (ya da işleyen birim) neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela oyun telefondan oynanıyorsa daha düşük kaliteli şeyler kullanabilirsiniz. İnputların anlamları [burda](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#featurelevelswitch) yazıyor.
 
 * #### [Fresnel](https://youtu.be/PLwEwIYX454)
 Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0a yakın, kenara yakın tarafları 1e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz. Parametreler,
@@ -1595,8 +2766,11 @@ ExponentIn = Kenarlardan ortaya dogru, fresnelin etkisi diyebiliriz, yani bunu n
 <br>
 BaseReflectFractionIn = Yansıtma degeri, Bu da ExponentIn in aynısı ama dıştan içe degil, her yere etki eder. Eger bunu azaltırsanız yansıma olmaz yani fresnel heryeri kaplar, eger arttırırsanız fresnelin etkisi azalır.
 
-* #### [GIReplace]()
-GIReplace allows artists to specify a different, usually simpler, expression chain when the material is being used for GI.
+* #### [GeneratedRoundRect]()
+
+
+* #### [GIReplace](https://youtu.be/Yb9fiof97xQ)
+Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve siz de bu duvarın yanına başka bir mesh daha koydunuz, biliyorsunuz ki unreal engine duvar ne renkse duvarın yanındaki meshe de o rengin biraz yansımasını verecek. İşte yansıma rengini ayarlamak için bu nodeu kullanıyoruz. Linkteki videoyu izleyin, görsellerle anlaması daha kolay.
 
 * #### [InverseLinearInterpolate]()
 
@@ -1636,7 +2810,7 @@ Filter Width = Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 
 
 * #### [QualitySwitch](https://youtu.be/64I4rzyZ6_Q)
-İf gibi, duruma göre ayar yapmanızı saglar. Oyundaki kalite neyse, o inputa baglı olan şeyi output olarak verir. Default, eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela Low a hiçbir şey baglamadınız, eger kalite low da ise o zaman low baglı olmadıgı için Defaulta ne baglıysa o kullanılır. Zaten Defaultu boş bırakamazsınız.
+İf gibi, duruma göre ayar yapmanızı saglar. Oyundaki kalite neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela Low a hiçbir şey baglamadınız, eger kalite low da ise o zaman low baglı olmadıgı için Defaulta ne baglıysa o kullanılır. Zaten Defaultu boş bırakamazsınız.
 
 * #### [RayTracingQualitySwithc]()
 
@@ -1683,18 +2857,6 @@ The Vector Noise Material expression adds several more 3D or 4D vector noise res
 
 
 
-## Utillity
-
-* #### [BoxMask-2D]()
-
-
-* #### [BoxMask-3D]()
-
-
-* #### [GeneratedRoundRect]()
-
-
-
 ## Utils
 
 * #### [DecalDerivative]()
@@ -1707,20 +2869,57 @@ The Vector Noise Material expression adds several more 3D or 4D vector noise res
 
 
 
-## VFX
+## Vector Ops
 
-* #### [AppendMany]()
-İnput olarak verdigimiz her sayıyı (constant) birleştirir ve vektör oluşturur.
+* #### [Append3Vector]()
+AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
+
+* #### [Append4Vector]()
+AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
+
+* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4)
+Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu vektör döndürür.
+
+* #### [ComponentMask(Mask)]()
+İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
+
+* #### [CrossProduct](https://youtu.be/KWtRiKbNS24)
+The CrossProduct expression computes the cross product of two three-channel vector value inputs and outputs the resulting three-channel vector value. Given two vectors in space, the cross product is a vector that is perpendicular to both of the inputs.
+
+* #### [DeriveNormalZ]()
+The DeriveNormalZ expression derives the Z component of a tangent space normal given the X and Y components and outputs the resulting three-channel tangent space normal. Z is calculated as Z = sqrt(1 - (x * x + y * y));
+
+* #### [DotProduct]()
+The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
+
+* #### [Fresnel_Function]()
+
+
+* #### [Normalize]()
+The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
+
+* #### [Transform]()
+The Transform expression converts a three-channel vector value from one reference coordinate system to another.By default, all shader calculations in a material are done in tangent space. The vector constants, camera vector, light vector, etc are all transformed to tangent space before being used in a material. The Transform expression allows these vectors to be transformed from tangent space to world-space, local-space, or view-space coordinate systems. In addition, it allows world-space and local-space vectors to be transformed to any of the other reference coordinate systems.
+
+* #### [TransformPosition]()
+The TransformPosition expression can transform any position from screen space to the destination space specified by the expression's TransformType variable. Currently only transforming into world space is supported. This expression can be used to get world space coordinates in the material. To visualize world position, you can plug it straight into emissive: This node is deprecated due to major precision problems when used to derive world pos away from the origin! Use the WorldPosition node instead.
 
 
 
-## Vector
+## Vectors
 
 * #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE)
 ActorPositionWS outputs Vector3 (RGB) data representing the location of the object with this material on it in world-space.
 
+* #### [CameraDirectionVector]()
+
+
 * #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg)
 Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
+
+
+* #### [CameraVectorWithWPOOptions]()
+
 
 * #### [CameraVectorWS]()
 The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
@@ -1746,6 +2945,10 @@ Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X
 * #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo)
 Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 
+* #### [OctahedronToUnitVector]()
+
+
+
 * #### [ParticlePositionWS]()
 The ParticlePositionWS expression outputs Vector3 (RGB) data representing each individual particle's position in world space.
 
@@ -1764,6 +2967,12 @@ The Pre-Skinned Local Position Vector Expression outputs a three-channel vector 
 * #### [ReflectionVectorWS]()
 
 
+* #### [RotateVector]()
+
+
+* #### [UnitVectorToOctahedron]()
+
+
 * #### [SkinningVertexOffsets]()
 
 
@@ -1774,51 +2983,10 @@ The VertexNormalWS expression outputs the world-space vertex normal. It can only
 
 
 
-## VectorOps
+## VFX
 
-* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4)
-Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu vektör döndürür.
-
-* #### [ComponentMask(Mask)]()
-İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
-
-* #### [CrossProduct]()
-The CrossProduct expression computes the cross product of two three-channel vector value inputs and outputs the resulting three-channel vector value. Given two vectors in space, the cross product is a vector that is perpendicular to both of the inputs.
-
-* #### [DeriveNormalZ]()
-The DeriveNormalZ expression derives the Z component of a tangent space normal given the X and Y components and outputs the resulting three-channel tangent space normal. Z is calculated as Z = sqrt(1 - (x * x + y * y));
-
-* #### [DotProduct]()
-The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
-
-* #### [Fresnel_Function]()
-
-
-* #### [Normalize]()
-The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
-
-* #### [Transform]()
-The Transform expression converts a three-channel vector value from one reference coordinate system to another.By default, all shader calculations in a material are done in tangent space. The vector constants, camera vector, light vector, etc are all transformed to tangent space before being used in a material. The Transform expression allows these vectors to be transformed from tangent space to world-space, local-space, or view-space coordinate systems. In addition, it allows world-space and local-space vectors to be transformed to any of the other reference coordinate systems.
-
-* #### [TransformPosition]()
-The TransformPosition expression can transform any position from screen space to the destination space specified by the expression's TransformType variable. Currently only transforming into world space is supported. This expression can be used to get world space coordinates in the material. To visualize world position, you can plug it straight into emissive: This node is deprecated due to major precision problems when used to derive world pos away from the origin! Use the WorldPosition node instead.
-
-
-## Vectors
-
-* #### [CameraDirectionVector]()
-
-
-* #### [CameraVectorWithWPOOptions]()
-
-
-* #### [OctahedronToUnitVector]()
-
-
-* #### [RotateVector]()
-
-
-* #### [UnitVectorToOctahedron]()
+* #### [AppendMany]()
+İnput olarak verdigimiz her sayıyı (constant) birleştirir ve vektör oluşturur.
 
 
 
@@ -1851,31 +3019,18 @@ The TransformPosition expression can transform any position from screen space to
 * #### [VolumetricAdvancedMaterialOutput]()
 
 
-
-## WPO
-
-* #### [ManualWorldToScreenUVsTransform]()
+* #### [VolumetricCloudEmptySpaceSkippingInput]()
 
 
-* #### [UnpackDirection]()
-
+* #### [VolumetricCloudEmptySpaceSkippingOutput]()
 
 
 ## Water
-
-* #### [NewComment]()
-
 
 * #### [SceneDepthWithoutWater]()
 
 
 * #### [SingleLayerWaterMaterialOutput]()
-
-
-* #### [Sobol]()
-
-
-* #### [TemporalSobol]()
 
 
 
@@ -1958,3 +3113,23 @@ The StaticMeshMorphTargets function unpacks morph target data that was added int
 
 * #### [Wind]()
 The Wind function provides separate outputs for wind strength, speed multiplied by time and a normalized wind vector.
+
+
+
+## WPO
+
+* #### [ManualWorldToScreenUVsTransform]()
+
+
+## No Category
+
+* #### [NewComment]()
+
+
+* #### [Sobol]()
+
+
+* #### [TemporalSobol]()
+
+
+* #### [UnpackDirection]()
