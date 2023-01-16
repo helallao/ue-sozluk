@@ -1,6 +1,6 @@
 ## Atomsphere
 
-* #### [AtomsphereFogColor]()
+* #### [AtomsphereFogColor](https://docs.unrealengine.com/5.1/en-US/atmosphere-material-expressions-in-unreal-engine/#atmosphericfogcolor)
 Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama dedigim gibi, kullanılmıyor o yüzden ben de bilmiyorum.
 
 
@@ -43,16 +43,16 @@ Blendin her pikselini kontrol eder, eger piksel 50% griden daha açıksa Base ve
 [Blend_Overlay](#blend_overlay) ile aynıdır ama kontrast degeri düşürüldügü için daha yumuşak bir sonuç verir.
 
 * #### [Blend_Screen](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_screen)
-Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
+Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
 * #### [Blend_SoftLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_softlight)
 Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 
-* #### [Lerp_ScratchGrime]()
+* #### [Lerp_ScratchGrime](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2)
+Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani lerp nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
-
-* #### [Lerp_ScratchGrime2]()
-
+* #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2)
+[Lerp_ScratchGrime](#lerp_scratchgrime) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 ## Chromakeying
@@ -70,13 +70,13 @@ Kullanışsız, renkleri silmede kullanılıyor.
 0 dan bire yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde -1 e yaklaştıkça da texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak için kullanabilirsiniz.
 
 * #### [LinearTosRGB]()
-Verilen texturenin kontrast derecesini arttırır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. LinearTosRGB kullanırsanız az parlak noktalar daha parlak olur ve ateş daha da büyür (zıttı sRGBToLinear).
+Verilen texturenin kontrast derecesini arttırır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. LinearTosRGB kullanırsanız az parlak noktalar daha parlak olur ve ateş daha da büyür (zıttı [sRGBToLinear](#srgbtolinear)).
 
 * #### [Luminance]()
-
+Verilen inputun (3 boyutlu olmalı) rengine göre parlaklık degeri döndürür. Yani insan gözüne ne kadar parlak göründügünü. Luminance Factors bölümünde hangi renklerin daha parlak oldugunu görebilirsiniz, burdaki orana göre parlaklık hesaplanıyor. Luminance Mode kısmında farklı renk uzaylarına (color space) göre ayarlanan Luminance Factors degerleri vardır. Zaten burdaki renk uzaylarının hepsinin degerleri birbirine çok yakın. Normalde parlaklık Yeşil > Kırmızı > Mavi şeklinde hesaplanıyor. Tabi isterseniz Luminance Factors bölümünden kendi istediginiz oranları verebilirsiniz, böylelikle "Custom" Luminance Mode kullanmış olursunuz. Bu nodu farklı şeylerde de kullanabilirsiniz.
 
 * #### [sRGBToLinear]()
-Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. sRGBToLinear kullanırsanız az parlak noktalar neredeyse yok olur, ateşin çok parlak oldugu kısımlar daha az parlak ve ateş daha da küçük olur (zıttı LinearTosRGB).
+Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. sRGBToLinear kullanırsanız az parlak noktalar neredeyse yok olur, ateşin çok parlak oldugu kısımlar daha az parlak ve ateş daha da küçük olur (zıttı [LinearTosRGB](#lineartosrgb)).
 
 
 ## Constants
@@ -94,13 +94,13 @@ Constantın 3 boyutlu hali, bu üç boyut rgb ye denk gelir. İçerisinde renk t
 Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. rgb den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar.
 
 * #### [ConstantDouble]()
-
+Normal constanta göre daha dogru, daha detaylı. internete difference between float and double yazın.
 
 * #### [DeltaTime]()
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
 
-* #### [DistanceCullFade]()
-Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse DistanceCullFade nodeu deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga DistanceCullFade baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek.
+* #### [DistanceCullFade](https://www.youtube.com/watch?v=E0A9JHxHNCI)
+Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse DistanceCullFade nodu deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga DistanceCullFade baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek.
 
 * #### [IsOrthographic]()
 
@@ -139,10 +139,10 @@ Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger döndürür
 The PrecomputedAOMask node lets you access Lightmass-calculated ambient occlusion (AO) in your Material, which can be useful for procedural texturing or for adding in aging effects and dirt in areas where it would slowly accumulate over time.
 
 * #### [Time](https://youtu.be/SMQI9_MEfRM)
-Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodeunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
+Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]()
-Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. Lerp (LinearInterpolate) nodeuna alpha degeri olarak TwoSidedSign nodeunu baglayın.
+Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. Lerp (LinearInterpolate) noduna alpha degeri olarak TwoSidedSign nodunu baglayın.
 
 * #### [VertexColor]()
 The VertexColor expression is the access point for the material to the outputs of color modules affecting sprite particles emitters.
@@ -775,7 +775,7 @@ Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min 
 İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
 
 * #### [Cosine](https://youtu.be/gn5Zbsq8eFs)
-Cosine yani kosinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodeunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Sine)
+Cosine yani kosinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Sine)
 
 * #### [CreateThirdOrthogonalVector]()
 
@@ -915,7 +915,7 @@ Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı
 
 
 * #### [RemapValueRange](https://youtu.be/V0by6a5Xesk)
-Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba :D). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodeu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba :D). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
 
 
 * #### [RemapValueRangeNormalized]()
@@ -930,7 +930,7 @@ Verilen inputu (sayı) yuvarlar.
 
 
 * #### [Round]()
-Evet enayi unreal engine aynı nodeun fonksiyon halini de yapmışlar.
+Evet enayi unreal engine aynı nodun fonksiyon halini de yapmışlar.
 
 
 * #### [SafeNormalize]()
@@ -943,7 +943,7 @@ Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani. Kullanmayın b
 The Sign node indicates whether a numeric input is negative, positive, or exactly 0.
 
 * #### [Sine](https://youtu.be/gn5Zbsq8eFs)
-Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodeunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Cosine)
+Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Cosine)
 
 * #### [Sine_Remapped]()
 
@@ -1090,7 +1090,7 @@ Blendin her pikselini kontrol eder, eger piksel 50% griden daha açıksa Base ve
 [Blend_Overlay](#blend_overlay) ile aynıdır ama kontrast degeri düşürüldügü için daha yumuşak bir sonuç verir.
 
 * #### [Blend_Screen](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_screen)
-Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodeundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
+Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
 * #### [Blend_SoftLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_softlight)
 Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
@@ -1371,10 +1371,12 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 * #### [Lerp_Multiple_Float4]()
 
 
-* #### [Lerp_ScratchGrime]()
+* #### [Lerp_ScratchGrime](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2)
+Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani lerp nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
 
-* #### [Lerp_ScratchGrime2]()
+* #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2)
+[Lerp_ScratchGrime](#lerp_scratchgrime) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 * #### [LinearGradient]()
@@ -2680,10 +2682,10 @@ Verdigimiz inputu 1000000 ile çarpar, 100cm = 1m, 1000m = 1km, yani 100 x 1000 
 ## Utility
 
 * #### [Add Named Reroute Declaration Node]()
-İsimlendirilmiş düzenleme nodeu.
+İsimlendirilmiş düzenleme nodu.
 
 * #### [Add Reroute Node]()
-Düzenleme nodeu.
+Düzenleme nodu.
 
 * #### [AntialiasedTextureMask]()
 The AntialiasedTextureMask expression allows you to create a material using a soft (anti-aliased) transition mask. The mask can be used to blend between two complex material properties or to fade out an alpha blended material (works well with SoftMasked). Simply specify a texture with the mask specified in one channel (red, green, blue, or alpha), set the used channel in the expression and specify the comparison value. Assuming the channel stores a grayscale value in the range 0 = black to 1 = white the comparison function defines if the resulting mask should be 0 or 1. This expression is a parameter, allowing the Texture property to be overridden by child MaterialInstances.
@@ -2769,7 +2771,7 @@ BaseReflectFractionIn = Yansıtma degeri, Bu da ExponentIn in aynısı ama dış
 
 
 * #### [GIReplace](https://youtu.be/Yb9fiof97xQ)
-Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve siz de bu duvarın yanına başka bir mesh daha koydunuz, biliyorsunuz ki unreal engine duvar ne renkse duvarın yanındaki meshe de o rengin biraz yansımasını verecek. İşte yansıma rengini ayarlamak için bu nodeu kullanıyoruz. Linkteki videoyu izleyin, görsellerle anlaması daha kolay.
+Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve siz de bu duvarın yanına başka bir mesh daha koydunuz, biliyorsunuz ki unreal engine duvar ne renkse duvarın yanındaki meshe de o rengin biraz yansımasını verecek. İşte yansıma rengini ayarlamak için bu nodu kullanıyoruz. Linkteki videoyu izleyin, görsellerle anlaması daha kolay.
 
 * #### [InverseLinearInterpolate]()
 
@@ -2825,7 +2827,7 @@ NormalizedRotationAxis = 3 boyutlu vektör verin, hangi yöne dogru dönme efekt
 <br>
 RotationAngle = Ne kadar dönme efekti uygulanacagı, 0 ve 1 arasında, 1 = tam tur
 <br>
-PivotPoint = RotationAngle olarak time nodeu baglayın. PivotPointi parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
+PivotPoint = RotationAngle olarak time nodu baglayın. PivotPointi parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
 <br>
 Position = World Position baglayın
 <br>
@@ -2924,13 +2926,13 @@ Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
 
 * #### [Constant2Vector]()
-The Constant2Vector expression outputs a two-channel vector value, in other words, two constant numbers.
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar.
 
 * #### [Constant3Vector]()
-The Constant3Vector expression outputs a three-channel vector value, in other words, three constants numbers. An RGB color can be thought of as a Constant3Vector, where each channel is assigned to a color (red, green, blue).
+Constantın 3 boyutlu hali, bu üç boyut rgb ye denk gelir. İçerisinde renk tutar.
 
 * #### [Constant4Vector]()
-The Constant4Vector expression outputs a four-channel vector value, in other words, four constants numbers. An RGBA color can be thought of as a Constant4Vector, where each channel is assigned to a color (red, green, blue, alpha).
+Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. rgb den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar.
 
 * #### [LightVector]()
 This expression has been deprecated in Unreal Engine 4 as lighting calculations are now deferred.
