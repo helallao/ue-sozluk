@@ -144,22 +144,24 @@ Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz edit
 * #### [TwoSidedSign]()
 Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. Lerp (LinearInterpolate) noduna alpha degeri olarak TwoSidedSign nodunu baglayın.
 
-* #### [VertexColor]()
-The VertexColor expression is the access point for the material to the outputs of color modules affecting sprite particles emitters.
+* #### [VertexColor](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#vertexcolor)
 
-* #### [View Property]()
-Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. parametreleri,
+
+* #### [View Property](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#viewproperty)
+Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. Parametreleri,
 <br>
 <br>
-Render Target Size = Ekran büyüklügü ile ilgili bişe
+Render Target Size = Ekran boyutu
 <br>
 Field of View = Görüş alanı
 <br>
-View Size = Render Target Size ile aynı
+View Size = Ekran boyutu
 <br>
 View Position (Absolute World Space) = Konumumuzu verir (3 boyutlu vektör)
 <br>
 Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu vektör)
+<br>
+Pre-Exposure = Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz.
 
 
 ## Coordinates
@@ -176,6 +178,7 @@ Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu
 Aktörün pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 * #### [BlurSampleOffsets]()
+Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 
 * #### [BoundingBoxBased_0-1_UVW]()
 
@@ -1099,6 +1102,7 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 
 
 * #### [BlurSampleOffsets]()
+Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 
 
 * #### [BoundingBoxBased_0-1_UVW]()
@@ -1967,10 +1971,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [StencilMaskCompare]()
 
 
-* #### [SteppingPanner]()
-
-
-* #### [Time]()
+* #### [SteppingPannerTime]()
 
 
 * #### [SubUV_Function]()
@@ -3125,7 +3126,7 @@ The Wind function provides separate outputs for wind strength, speed multiplied 
 ## No Category
 
 * #### [NewComment]()
-
+Yorum bölümü oluşturur.
 
 * #### [Sobol]()
 
