@@ -151,6 +151,7 @@ Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını ist
 Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. Parametreleri,
 <br>
 <br>
+<br>
 Render Target Size = Ekran boyutu
 <br>
 <br>
