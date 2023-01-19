@@ -149,14 +149,19 @@ Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını ist
 
 * #### [View Property](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#viewproperty)
 Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. Parametreleri,
-| İsim | Açıklama |
-| :---: | :---: |
-| Render Target Size | Ekran boyutu |
-| Field of View | Görüş alanı |
-| View Size | Ekran boyutu |
-| View Position (Absolute World Space) | Konumumuzu verir (3 boyutlu vektör) |
-| Camera Position (Absolute World Space) | Kameramızın konumunu verir (3 boyutlu vektör) |
-| Pre-Exposure | Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz. |
+<br>
+<br>
+Render Target Size = Ekran boyutu
+<br>
+Field of View = Görüş alanı
+<br>
+View Size = Ekran boyutu
+<br>
+View Position (Absolute World Space) = Konumumuzu verir (3 boyutlu vektör)
+<br>
+Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu vektör)
+<br>
+Pre-Exposure = Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz.
 
 
 ## Coordinates
