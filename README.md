@@ -152,22 +152,22 @@ Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabi
 <br>
 <br>
 <br>
-Render Target Size: Ekran boyutu
+Render Target Size = Ekran boyutu
 <br>
 <br>
-Field of View: Görüş alanı
+Field of View = Görüş alanı
 <br>
 <br>
-View Size: Ekran boyutu
+View Size = Ekran boyutu
 <br>
 <br>
-View Position (Absolute World Space): Konumumuzu verir (3 boyutlu vektör)
+View Position (Absolute World Space) = Konumumuzu verir (3 boyutlu vektör)
 <br>
 <br>
-Camera Position (Absolute World Space): Kameramızın konumunu verir (3 boyutlu vektör)
+Camera Position (Absolute World Space) = Kameramızın konumunu verir (3 boyutlu vektör)
 <br>
 <br>
-Pre-Exposure: Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz.
+Pre-Exposure = Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz.
 
 
 ## Coordinates
