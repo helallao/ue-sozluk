@@ -248,7 +248,9 @@ ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam 
 Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. parametreleri,
 <br>
 <br>
+<br>
 UTiling = x ekseninde (yatay) takrarlama sayısı
+<br>
 <br>
 VTiling = y ekseninde (dikey) takrarlama sayısı
 
@@ -774,9 +776,12 @@ Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı Floor). örn
 Verdigimiz inputu min ve max degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır. Modları,
 <br>
 <br>
+<br>
 Clamp = min ve max çalışır.
 <br>
+<br>
 Clamp Min = sadece min çalışır, input max degerinden büyük olsa bile max çalışmaz.
+<br>
 <br>
 Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min çalışmaz.
 
@@ -2516,9 +2521,12 @@ Outputs falloff results for the 3 primary world vectors based on the camera angl
 Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). İnputların kısa açıklamaları,
 <br>
 <br>
+<br>
 UVs = Texturecoordinate baglayın
 <br>
+<br>
 Rotation Center = Dönme efektinin orta noktası
+<br>
 <br>
 Rotation Angle = Döndürme degeri (0 - 1)
 
@@ -2719,9 +2727,12 @@ Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kulla
 Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya normal mapler için UV olarak kullanabilirsiniz. Parametreleri,
 <br>
 <br>
+<br>
 Coordinate = Texture Coordinate verebilirsiniz.
 <br>
+<br>
 Height = Yükseklik mapi, mesela texturenin bir kanalı olabilir.
+<br>
 <br>
 HeightRatioInput = Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı unreal enginenin önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
 
@@ -2744,7 +2755,9 @@ The DDY expression exposes DDX derivative calculation, a GPU hardware feature us
 Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz. Parametreleri,
 <br>
 <br>
+<br>
 Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
+<br>
 <br>
 FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
@@ -2770,7 +2783,9 @@ The Distance To Nearest Surface Material Expression node allows Materials to sam
 Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0a yakın, kenara yakın tarafları 1e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz. Parametreler,
 <br>
 <br>
+<br>
 ExponentIn = Kenarlardan ortaya dogru, fresnelin etkisi diyebiliriz, yani bunu ne kadar arttırırsanız fresenel o kadar etkili olur.
+<br>
 <br>
 BaseReflectFractionIn = Yansıtma degeri, Bu da ExponentIn in aynısı ama dıştan içe degil, her yere etki eder. Eger bunu azaltırsanız yansıma olmaz yani fresnel heryeri kaplar, eger arttırırsanız fresnelin etkisi azalır.
 
@@ -2796,23 +2811,33 @@ Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştır
 Gürültü döndürür. Sanırım texture halinde kullanıyoruz. Parametreler,
 <br>
 <br>
+<br>
 Scale = Texture büyüklügü, 0 dan başlar yükselttikçe texture da büyür.
+<br>
 <br>
 Quality = Kaliteyi arttırır.
 <br>
+<br>
 Function = Burdan deseni oluşturan fonksiyonu seçiyoruz. Bunları tek tek anlatamam kendiniz test edin ve ya [bakın](https://youtu.be/hP3P3WH4TjM?t=124).
+<br>
 <br>
 Turbulence = Test etsem bile anlayamadım, aralardaki boşlugu arttırıyo ve ya birleştiriyo olmalı.
 <br>
+<br>
 Levels = Düşükken köşeler sanki çizgi film gibi, arttırınca detaylar daha çok ortaya çıkıyor.
+<br>
 <br>
 Output Min = Genellikle ne kadar siyah olacagını seçersiniz, -5 ve 0 arasında denebilir.
 <br>
+<br>
 Output Max = Genellikle ne kadar beyaz olacagını seçersiniz, 0 ve 1 arasında denebilir.
+<br>
 <br>
 Level Scale = 0 dan uzaklaştıkça (eksi artı farketmez) çizgilerin köşeleri düzleşir.
 <br>
+<br>
 Position = Sanırım sadece 3 boyutlu vektör kabul ediyor, Texturenin pozisyonunu ayarlar.
+<br>
 <br>
 Filter Width = Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 
@@ -2830,13 +2855,18 @@ Filter Width = Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 Materyale dönme efekti kazandırır ama kendi çevresinde degil, dünya içinde. Ayrıca bu dönme efekti hareket olarak degil sadece görünüş olarak olan bir dönme efektidir. Yani dönme efektinden sonra materyalin yeri ne kadar degişse de aslında materiyal ilk koydugunuz konumdadır. RotateAboutAxis ile materyale istediginiz yönde dönme efekti verebilir bunu otomatikleştirebilirsiniz de. Linkteki videoyu izleyin çünkü yazı ile anlatmak bi anlam ifade etmiyor, eger izlediyseniz yazdıklarımı anlayacaksınız. Parametreleri,
 <br>
 <br>
+<br>
 NormalizedRotationAxis = 3 boyutlu vektör verin, hangi yöne dogru dönme efekti olmasını istiyorsanız o boyuta 1 degeri verin, 1 degeri verdikleriniz dönme yönünü ifade eder.
+<br>
 <br>
 RotationAngle = Ne kadar dönme efekti uygulanacagı, 0 ve 1 arasında, 1 = tam tur
 <br>
+<br>
 PivotPoint = RotationAngle olarak time nodu baglayın. PivotPointi parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
 <br>
+<br>
 Position = World Position baglayın
+<br>
 <br>
 Period (node üzerinde) = Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsanız, 5 kat yavaşlar, yani 1 tur atması 5 kat daha yavaş olur. Aynı şekilde, azaltarak hızlandırabilirsiniz.
 
