@@ -136,13 +136,13 @@ Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://doc
 Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger döndürür.
 
 * #### [PrecomputedAOMask]()
-The PrecomputedAOMask node lets you access Lightmass-calculated ambient occlusion (AO) in your Material, which can be useful for procedural texturing or for adding in aging effects and dirt in areas where it would slowly accumulate over time.
+
 
 * #### [Time](https://youtu.be/SMQI9_MEfRM)
 Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]()
-Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. Lerp (LinearInterpolate) noduna alpha degeri olarak TwoSidedSign nodunu baglayın.
+Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp) noduna alpha degeri olarak TwoSidedSign nodunu baglayın.
 
 * #### [VertexColor](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#vertexcolor)
 
@@ -230,7 +230,7 @@ Texturelara hareket vermenize yarar.
 
 
 * #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg)
-Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız VertexNormalWS kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I)
 Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Bunu en iyi deneyerek anlayabilirsiniz.
@@ -264,7 +264,7 @@ VTiling = y ekseninde (dikey) takrarlama sayısı
 
 
 * #### [VertexNormalWS](https://youtu.be/j2BEEtpPgdk)
-Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. PixelNormalWS nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
@@ -276,7 +276,14 @@ Ekran boyutunu piksel olarak verir. 2 boyutlu vektör döndürür. Eger ekranın
 
 
 * #### [WorldPosition](https://youtu.be/8aYe54XrZYI)
-Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
+Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin. Parametreleri,
+<br>
+<br>
+<br>
+Absolute World Position = Dünyaya göre konumu (materyalin) verir (3 boyutlu vektör)
+<br>
+<br>
+Camera Relative World Position = Kameraya göre konumu (materyalin) verir (3 boyutlu vektör)
 
 * #### [WorldSpaceAlignedScreenCoordinates]()
 
@@ -296,9 +303,9 @@ Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture ko
 ## Custom
 
 * #### [Custom]()
+HLSL dili (High-Level Shader Language) ile yazılan kodları çalıştırmanıza yarar.
 
-
-* #### [PerInstanceCustomData3]()
+* #### [PerInstanceCustomData]()
 
 * #### [PerInstanceCustomData3Vector]()
 
@@ -357,17 +364,24 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 ## Depth
 
-* #### [DepthFade]()
-The DepthFade expression is used to hide unsightly seams that take place when translucent objects intersect with opaque ones.
+* #### [DepthFade](https://youtu.be/2BxrGjPcirk)
+Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz. Parametreleri,
+<br>
+<br>
+<br>
+Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
+<br>
+<br>
+FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
 * #### [DepthFromWorldPosition]()
-
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
 
 * #### [PixelDepth](https://youtu.be/AHOidP7olg0)
-Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Daha iyi anlamak için linkteki videoya bakın.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Bu node sadece materyalin yüzeyine etki eder, yani arka tarafı göstermez. Arka tarafı gösteren node [SceneDepthe](#scenedepth) de bakabilirsiniz. Daha iyi anlamak için linkteki videoya bakın.
 
-* #### [SceneDepth]()
-The SceneDepth expression outputs the existing scene depth. This is similar to PixelDepth, except that PixelDepth can sample the depth only at the pixel currently being drawn, whereas SceneDepth can sample depth at any location.
+* #### [SceneDepth](https://youtu.be/ABv7abxTMoM)
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepthin](#pixeldepth) aksine sadece yüzeyi degil, arka tarafları da gösterir. Sadece saydam materyallerde işe yarar. Bu materyale sahip meshe yaklaştıkça arka taraftaki objeler görünür olmaya başlar ve arka tarafta kalan objeler uzaklıgına göre deger döndürür. Bu degerleri kullanarak işlemler yapabiliriz. Linkteki videoya bakın. Ayrıca son olarak, SceneDepth kullanırken bölme sayısını (en başta yazan) kendinize göre ayarlayın, 2000 istediginiz detayları tam vermeyebilir, bazen 1000, bazen 2000 iyi olabilir, test edip istediginiz degeri bulabilirsiniz.
 
 
 ## Distance Fields
@@ -1231,6 +1245,7 @@ Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 
 
 * #### [DepthFromWorldPosition]()
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
 
 
 * #### [DeriveHDRfromLDR]()
@@ -2947,7 +2962,7 @@ The TransformPosition expression can transform any position from screen space to
 ## Vectors
 
 * #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE)
-ActorPositionWS outputs Vector3 (RGB) data representing the location of the object with this material on it in world-space.
+Aktörün pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 * #### [CameraDirectionVector]()
 
