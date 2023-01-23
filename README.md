@@ -442,10 +442,10 @@ Bu node ile kendi yazdıgınız materyal fonksiyonlarını çagırabilirsiniz. M
 
 
 * #### [StaticBool]()
-The StaticBool expression is used to provide a default bool value for a static bool function input within a function. This node does not switch between anything, so it must be used in conjunction with a StaticSwitch node.
+True ve ya False degeri tutar. [StaticSwitch](#staticswitch) kullanarak aynı [if](#if) gibi koşul koyabilirsiniz. Bu node parametreye çevrilemiyor, çevirmek isterseniz [StaticBoolParameter](#staticboolparameter) kullanmalısınız.
 
 * #### [StaticSwitch]()
-The StaticSwitch expression works like a StaticSwitchParameter, except that it only implements the switch and does not create a parameter.
+[If](#if) ile aynı işlevi görür ama input olarak [bool](#staticbool) degeri alır.
 
 * #### [TextureObject]()
 The TextureObject expression is used to provide a default texture for a texture function input within a function. This node does not actually sample the texture, so it must be used in conjunction with a TextureSample node.
@@ -1272,7 +1272,8 @@ Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 * #### [Distance_Blend]()
 
 
-* #### [DitherTemporalAA]()
+* #### [DitherTemporalAA](https://www.youtube.com/watch?v=kvHh0Jd-D3Q)
+Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere göre belirli bir sayı aralıgından rastgele (ve ya degil) sayı döndürmesidir. Mesela en yaygın kullanışlarından biri olan görünmezlik efektini örnek alalım, materyalinizi Masked moduna alın ve DitherTemporalAA nodunu opacity maske baglayın. Alpha Threshold degerini düşürdükçe materyaliniz de görünmez olmaya başlar, çünkü DitherTemporalAA nodu bazı output degerlerini sıfırdan düşük döndürdügü için materyalimizdeki bazı pikseller görünmez olacak. DitherTemporalAA nodundan gelen output degerini çeşit çeşit şeylerde kullanabilirsiniz. Random inputuna da 0 vererek rastgele sayıları kapatabilirsiniz. Böylelikle output olarak gelen sayılar bir düzene göre gelir, materyalde bir desen olur. Yukarıda yazdıgım görünmezlik efektini yapıp Random kapalıyken Alpha Threshold degeriyle oynarsanız, materyalinizdeki görünmezlik efektinin bir desen oluşturdugunu görebilirsiniz.
 
 
 * #### [DrawLine-2D]()
@@ -2214,6 +2215,7 @@ The ScalarParameter expression outputs a single float value (Constant) that can 
 
 
 * #### [StaticBoolParameter]()
+[StaticBoolun](#staticbool) parametre halidir.
 
 
 * #### [StaticComponentMaskParameter]()
@@ -2899,7 +2901,8 @@ Period (node üzerinde) = Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsan�
 * #### [ShadingPathSwtich]()
 
 
-* #### [ShadowPassSwitch]()
+* #### [ShadowPassSwitch](https://www.youtube.com/watch?v=LqwTLdqEUMo)
+Bu node materyalin gölgesine istediginiz ayarı vermenizi saglar. Materyalinizi Masked yapın, ShadowPassSwitch nodunu opacity maske baglayın. Default degerine normal opacity mask inputunuzu verebilirsiniz, yani bu ayar gölgeler ile degil materyalle alakalı. Eger ben opacity mask kullanmayacaktım zaten diyorsanız o zaman bu degere 1 (constant) baglayın, böylelikle opacity mask vermemiş gibi olursunuz, 0 verseydiniz opaklık 0 oldugu için materyale sahip olan mesh görünmez olurdu. Şimdi gelelim asıl meseleye, Shadow inputuna bagladıgınız deger gölgeleri belirler. Eger 0 verirseniz gölgeleri silersiniz, 1 verirseniz gölge neyse onu gösterir yani tamamen opak olur. Bizim yapmak istedigimiz herhangi bir texturenin alpha degerini vermek, böylelikle verdigimiz resim neyse gölgede de o görünecek. Yani shadow degerine herhangi bir texturenin alpha degerini ve ya herhangi bir kanalını vererek bunu gölgeler için maske olarak kullanabilirsiniz.
 
 
 * #### [SmoothStep]()
