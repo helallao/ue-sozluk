@@ -529,7 +529,10 @@ The CheapConstrast_RGB function boosts the contrast of an input by remapping the
 
 
 * #### [HueShift]()
-Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar.
+Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
+
+<img width="150" src="../../Dosyalar/HueShift_Palet.jpg">
+
 
 * #### [Luminosity_And_Color]()
 
@@ -1379,7 +1382,9 @@ Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere gö
 
 
 * #### [HueShift]()
-Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar.
+Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
+
+<img width="150" src="../../Dosyalar/HueShift_Palet.jpg">
 
 
 * #### [Imposter_MotionVectors]()
