@@ -1,4 +1,4 @@
-Bu proje Unreal Enginenin birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engineyi oluşturan editörler ve diger pencereler aşagıda sıralanmıştır.
+Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engineyi oluşturan editörler ve diger pencereler aşagıda sıralanmıştır.
 
 # Editörler
 
