@@ -8,7 +8,7 @@ Bu proje Unreal Enginenin birçok editörün toplamıymış gibi düşünülüp 
 
 
 # Sayfalar
-[Project Settings](#project-settings)
+* [Project Settings](#project-settings)
 
 
 
