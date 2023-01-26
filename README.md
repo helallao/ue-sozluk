@@ -7,6 +7,11 @@ Bu proje Unreal Enginenin birçok editörün toplamıymış gibi düşünülüp 
 * [Materyal Editörü](#materyal-edit%C3%B6r%C3%BC)
 
 
+# Sayfalar
+[Project Settings](#project-settings)
+
+
+
 ## [Map Editörü](Map%20Editörü)
 <img src="Dosyalar/Map_Editor_Ana_Ekran.jpg">
 
@@ -15,3 +20,8 @@ Bu proje Unreal Enginenin birçok editörün toplamıymış gibi düşünülüp 
 
 ## [Materyal Editörü](Materyal%20Editörü)
 <img src="Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
+
+
+
+## [Project Settings](Project%20Settings)
+<img src="Dosyalar/Project_Settings_Ana_Ekran.jpg">
