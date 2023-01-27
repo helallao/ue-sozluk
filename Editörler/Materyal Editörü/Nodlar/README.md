@@ -3,8 +3,7 @@ Puanlama sistemi hakkında, her node kullanılırlıgına göre puana sahiptir, 
 <br>
 <br>
 Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar işlemler yapmamıza yarayan nodlardır yani bir yazılım dilini oluşturan ana dili gibi. Spesifik nodlar kurdeleli kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar bazı (kendine has) durumlarda kullanılan nodlardır.
-
-
+<br>
 <br>
 <br>
 1-2 Puanlar = 🤍🤍
@@ -14,7 +13,6 @@ Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp il
 Temel Node = ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 <br>
 Spesifik Node = 💝
-<br>
 <br>
 <br>
 
