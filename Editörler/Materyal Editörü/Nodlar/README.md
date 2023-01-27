@@ -55,7 +55,7 @@ Baseyi blende ekler (toplar).
 * #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight) 💛❤️💙
 [Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
 
-* #### [Blend_Overlay](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_overlay) ❤️💚💙
+* #### [Blend_Overlay](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_overlay) ❤️💜💙
 Blendin her pikselini kontrol eder, eger piksel 50% griden daha açıksa Base ve Blend birleştirilir (ya da toplanıyor da olabilir). Eger piksel 50% griden daha koyuysa Base ve Blend çarpılır.
 
 * #### [Blend_PinLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_pinlight) 💚💛💙
@@ -70,7 +70,7 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 * #### [Lerp_ScratchGrime](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 🤍🤍
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani lerp nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
-* #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) ❤️💚💛
+* #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 💝
 [Lerp_ScratchGrime](#lerp_scratchgrime) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
@@ -85,40 +85,40 @@ Kullanışsız, renkleri silmede kullanılıyor.
 
 ## Color
 
-* #### [Desaturation](https://youtu.be/0pPyCZvZ05A)
-0 dan bire yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde -1 e yaklaştıkça da texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak için kullanabilirsiniz.
+* #### [Desaturation](https://youtu.be/0pPyCZvZ05A) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+İnput olarak texture ve ya renk verebilirsiniz. Fraction degeri 0 dan 1 e yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde eksilere gittikçe texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak (kontrast ayarı) için kullanabilirsiniz.
 
-* #### [LinearTosRGB]()
+* #### [LinearTosRGB]() ❤️💛💜
 Verilen texturenin kontrast derecesini arttırır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. LinearTosRGB kullanırsanız az parlak noktalar daha parlak olur ve ateş daha da büyür (zıttı [sRGBToLinear](#srgbtolinear)).
 
-* #### [Luminance]()
+* #### [Luminance]() 💝
 Verilen inputun (3 boyutlu olmalı) rengine göre parlaklık degeri döndürür. Yani insan gözüne ne kadar parlak göründügünü. Luminance Factors bölümünde hangi renklerin daha parlak oldugunu görebilirsiniz, burdaki orana göre parlaklık hesaplanıyor. Luminance Mode kısmında farklı renk uzaylarına (color space) göre ayarlanan Luminance Factors degerleri vardır. Zaten burdaki renk uzaylarının hepsinin degerleri birbirine çok yakın. Normalde parlaklık Yeşil > Kırmızı > Mavi şeklinde hesaplanıyor. Tabi isterseniz Luminance Factors bölümünden kendi istediginiz oranları verebilirsiniz, böylelikle "Custom" Luminance Mode kullanmış olursunuz. Bu nodu farklı şeylerde de kullanabilirsiniz.
 
-* #### [sRGBToLinear]()
+* #### [sRGBToLinear]() 💜💙💛
 Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. sRGBToLinear kullanırsanız az parlak noktalar neredeyse yok olur, ateşin çok parlak oldugu kısımlar daha az parlak ve ateş daha da küçük olur (zıttı [LinearTosRGB](#lineartosrgb)).
 
 
 ## Constants
 
-* #### [Constant]()
+* #### [Constant]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Tek bir degere sahip (1 boyutlu) degişken. İçerisinde sayı tutar. Bazı yerlerde (S) diye geçer yani skaler (scalar).
 
-* #### [Constant2Vector]()
+* #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV diye geçer.
 
-* #### [Constant3Vector]()
+* #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir.
 
-* #### [Constant4Vector]()
+* #### [Constant4Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer.
 
-* #### [ConstantDouble]()
+* #### [ConstantDouble]() 💜❤️💛
 Normal constanta göre daha dogru, daha detaylı. internete difference between float and double yazın.
 
-* #### [DeltaTime]()
+* #### [DeltaTime]() 💜💙💛❤️
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
 
-* #### [DistanceCullFade](https://www.youtube.com/watch?v=E0A9JHxHNCI)
+* #### [DistanceCullFade](https://www.youtube.com/watch?v=E0A9JHxHNCI) 💝
 Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse DistanceCullFade nodu deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga DistanceCullFade baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek.
 
 * #### [IsOrthographic]()
@@ -151,22 +151,22 @@ Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://doc
 * #### [PerInstanceFadeAmount]()
 
 
-* #### [PerInstanceRandom](https://youtu.be/_Pxwi2CAQBI)
+* #### [PerInstanceRandom](https://youtu.be/_Pxwi2CAQBI) 💝
 Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger döndürür.
 
 * #### [PrecomputedAOMask]()
 
 
-* #### [Time](https://youtu.be/SMQI9_MEfRM)
+* #### [Time](https://youtu.be/SMQI9_MEfRM) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
-* #### [TwoSidedSign]()
+* #### [TwoSidedSign]() 💝
 Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp) noduna alpha degeri olarak TwoSidedSign nodunu baglayın.
 
 * #### [VertexColor](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#vertexcolor)
 
 
-* #### [View Property](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#viewproperty)
+* #### [View Property](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#viewproperty) 💝
 Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. Parametreleri,
 <br>
 <br>
@@ -199,15 +199,15 @@ Pre-Exposure = Eye adaption, yani ışıksız ortamdan ışıklı ortama girince
 
 * #### [3Dto1DIndex]()
 
-* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE)
-Aktörün pozisyonunu dünyaya göre 3d (vektör) olarak verir.
+* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Bu materyale sahip meshin pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
-* #### [BlurSampleOffsets]()
+* #### [BlurSampleOffsets]() 🤍
 Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 
 * #### [BoundingBoxBased_0-1_UVW]()
 
-* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg)
+* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 * #### [CameraVectorToLatLongUV]()
@@ -224,16 +224,16 @@ Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir v
 
 * #### [ObjectAlignedVirtualPlaneCoordinates]()
 
-* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g)
+* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) ❤️💛💚💜
 Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
 
-* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo)
+* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💚💙💜💛
 Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 
-* #### [ObjectRadius](https://youtu.be/Om3k66NY7Jc)
+* #### [ObjectRadius](https://youtu.be/Om3k66NY7Jc) 💛💜💙
 Bu materyale sahip olan objenin kapladıgı alanın yarıçapını verir.
 
-* #### [Panner](https://youtu.be/24mfLY7aQFQ)
+* #### [Panner](https://youtu.be/24mfLY7aQFQ) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Texturelara hareket vermenize yarar.
 
 * #### [PanTextureCoordinateChannelfrom-1ton+1]()
@@ -248,10 +248,10 @@ Texturelara hareket vermenize yarar.
 * #### [ParticleSubUVProperties]()
 
 
-* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg)
+* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙💜
 Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
-* #### [Rotator](https://youtu.be/0wFUoN63F6I)
+* #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
 Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Bunu en iyi deneyerek anlayabilirsiniz.
 
 * #### [SampleSceneDepth]()
@@ -260,10 +260,10 @@ Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texture
 * #### [SceneTexelSize]()
 The SceneTexelSize expression allows you to offset by texel sizes, as you would when using the SceneColor and SceneDepth expressions. This is useful for edge detection in multi-resolution systems, as without this calculation you would be forced to use a small static value, resulting in inconsistent results at lower resolutions.
 
-* #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI)
+* #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI) 💝
 ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (2 boyutlu vektör). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, ViewportUV bu degeri 0 ve 1 arasında verirken, PixelPosition bu degeri gerçek piksel sayısına göre verir.
 
-* #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s)
+* #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. parametreleri,
 <br>
 <br>
@@ -282,19 +282,19 @@ VTiling = y ekseninde (dikey) takrarlama sayısı
 * #### [UVToLongLat]()
 
 
-* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw)
+* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) 💝
 Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
 
-* #### [ViewSize](https://youtu.be/CLW73n19N_U)
+* #### [ViewSize](https://youtu.be/CLW73n19N_U) 💝
 Ekran boyutunu piksel olarak verir. 2 boyutlu vektör döndürür. Eger ekranınızı küçültürseniz bu deger de degişir.
 
 * #### [VirtualPlaneCoordinates]()
 
 
-* #### [WorldPosition](https://youtu.be/8aYe54XrZYI)
+* #### [WorldPosition](https://youtu.be/8aYe54XrZYI) ❤️💛💚💙💜
 Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin. Parametreleri,
 <br>
 <br>
@@ -321,7 +321,7 @@ Camera Relative World Position = Kameraya göre konumu (materyalin) verir (3 boy
 
 ## Custom
 
-* #### [Custom]()
+* #### [Custom]() 💝
 HLSL dili (High-Level Shader Language) ile yazılan kodları çalıştırmanıza yarar.
 
 * #### [PerInstanceCustomData]()
@@ -334,29 +334,29 @@ HLSL dili (High-Level Shader Language) ile yazılan kodları çalıştırmanıza
 
 ## Debug
 
-* #### [DebugBinaryValues-Float]()
+* #### [DebugBinaryValues-Float]() 🤍
 Verilen constant (1 boyutlu) sayıları, [floatdan](http://www.binaryconvert.com/convert_float.html) binarye çevirilmiş halini döndürür.
 
-* #### [DebugBinaryValues-Int]()
+* #### [DebugBinaryValues-Int]() 🤍
 Verilen constant (1 boyutlu) sayıları, [integerdan](http://www.binaryconvert.com/convert_signed_int.html) binarye çevirilmiş halini döndürür.
 
-* #### [DebugFloat2Values]()
+* #### [DebugFloat2Values]() ❤️💛💚💙💜
 Verilen 2 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
-* #### [DebugFloat3Values]()
+* #### [DebugFloat3Values]() ❤️💙💜💛💚
 Verilen 3 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
-* #### [DebugFloat4Values]()
+* #### [DebugFloat4Values]() ❤️💙💚💜💛
 Verilen 4 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
-* #### [DebugOnOff]()
+* #### [DebugOnOff]() 🤍🤍
 1 saniye içerisinde, 1 saniyenin yarısı 0 yarısı 1 olacak şekilde, sürekli 1 ve 0 arasında output döndürür. Kullanmayın bile.
 
 
-* #### [DebugScalarValues]()
+* #### [DebugScalarValues]() 💜❤️💙💛💚
 Verilen sayıyı (constant) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
-* #### [DebugTimeSine]()
+* #### [DebugTimeSine]() 🤍🤍
 Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda).
 
 
@@ -383,7 +383,7 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 ## Depth
 
-* #### [DepthFade](https://youtu.be/2BxrGjPcirk)
+* #### [DepthFade](https://youtu.be/2BxrGjPcirk) 💝
 Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz. Parametreleri,
 <br>
 <br>
@@ -393,13 +393,13 @@ Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
 <br>
 FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
-* #### [DepthFromWorldPosition]()
+* #### [DepthFromWorldPosition]() 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
 
-* #### [PixelDepth](https://youtu.be/AHOidP7olg0)
+* #### [PixelDepth](https://youtu.be/AHOidP7olg0) 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Bu node sadece materyalin yüzeyine etki eder, yani arka tarafı göstermez. Arka tarafı gösteren node [SceneDepthe](#scenedepth) de bakabilirsiniz. Daha iyi anlamak için linkteki videoya bakın.
 
-* #### [SceneDepth](https://youtu.be/ABv7abxTMoM)
+* #### [SceneDepth](https://youtu.be/ABv7abxTMoM) 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepthin](#pixeldepth) aksine sadece yüzeyi degil, arka tarafları da gösterir. Sadece saydam materyallerde işe yarar. Bu materyale sahip meshe yaklaştıkça arka taraftaki objeler görünür olmaya başlar ve arka tarafta kalan objeler uzaklıgına göre deger döndürür. Bu degerleri kullanarak işlemler yapabiliriz. Linkteki videoya bakın. Ayrıca son olarak, SceneDepth kullanırken bölme sayısını (en başta yazan) kendinize göre ayarlayın, 2000 istediginiz detayları tam vermeyebilir, bazen 1000, bazen 2000 iyi olabilir, test edip istediginiz degeri bulabilirsiniz.
 
 
@@ -448,22 +448,22 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 
 ## Functions
 
-* #### [FunctionInput]()
+* #### [FunctionInput]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 (Bu node sadece materyal fonksiyonlarında kullanılabilir)
 
-* #### [FunctionOutput]()
+* #### [FunctionOutput]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 (Bu node sadece materyal fonksiyonlarında kullanılabilir)
 
-* #### [MaterialFunctionCall]()
+* #### [MaterialFunctionCall]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bu node ile kendi yazdıgınız materyal fonksiyonlarını çagırabilirsiniz. Materyal fonksiyonlarına iki kere tıklarsanız o fonksiyonun içerigini yeni sayfada açar. Materyal fonksiyonları ile ilgili bilmeniz gereken diger nodlar: [FunctionInput](#functioninput), [FunctionOutput](#functionoutput)
 
 * #### [PreviousFrameSwitch]()
 
 
-* #### [StaticBool]()
+* #### [StaticBool]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 True ve ya False degeri tutar. [StaticSwitch](#staticswitch) kullanarak aynı [if](#if) gibi koşul koyabilirsiniz. Bu node parametreye çevrilemiyor, çevirmek isterseniz [StaticBoolParameter](#staticboolparameter) kullanmalısınız.
 
-* #### [StaticSwitch]()
+* #### [StaticSwitch]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 [If](#if) ile aynı işlevi görür ama input olarak [bool](#staticbool) degeri alır.
 
 * #### [TextureObject]()
@@ -481,7 +481,7 @@ The TextureObject expression is used to provide a default texture for a texture 
 
 ## Gradient
 
-* #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA)
+* #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) 🤍🤍
 Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsunuz. Kullanmayın bile.
 
 * #### [GetGradientMapRow]()
@@ -493,7 +493,7 @@ Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsu
 * #### [GradientMap_Multi_TexObjSamplerType]()
 
 
-* #### [LinearGradient](https://youtu.be/g7UreR23luA)
+* #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
 İnput olarak texturecoordinate verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen rgb degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc)
@@ -3000,8 +3000,8 @@ The TransformPosition expression can transform any position from screen space to
 
 ## Vectors
 
-* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE)
-Aktörün pozisyonunu dünyaya göre 3d (vektör) olarak verir.
+* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Bu materyale sahip meshin pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 * #### [CameraDirectionVector]()
 
