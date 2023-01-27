@@ -1,66 +1,87 @@
+# Açıklamalar
+Puanlama sistemi hakkında, her node kullanılırlıgına göre puana sahiptir, puanlar kalp sayısına göre belirlenir. Puanlar 1 - 5 arasıdır, 1 ve 2 çok kullanışsız ve (muhtemelen) kullanılmayan nodlardır ve beyaz kalp ile gösterilirler, 3 ve 5 arası kullanışlı ve kullanılan nodlardır ve renkli kalp ile gösterilirler.
+<br>
+<br>
+Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar işlemler yapmamıza yarayan nodlardır yani bir yazılım dilini oluşturan ana dili gibi. Spesifik nodlar kurdeleli kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar bazı (kendine has) durumlarda kullanılan nodlardır.
+
+
+<br>
+<br>
+1-2 Puanlar = 🤍🤍
+<br>
+3-5 Puanlar = ❤️💛💚💙💜
+<br>
+Temel Node = ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+<br>
+Spesifik Node = 💝
+<br>
+<br>
+<br>
+
+
 ## Atomsphere
 
-* #### [AtomsphereFogColor](https://docs.unrealengine.com/5.1/en-US/atmosphere-material-expressions-in-unreal-engine/#atmosphericfogcolor)
+* #### [AtomsphereFogColor](https://docs.unrealengine.com/5.1/en-US/atmosphere-material-expressions-in-unreal-engine/#atmosphericfogcolor) 🤍
 Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama dedigim gibi, kullanılmıyor o yüzden ben de bilmiyorum.
 
 
 ## Blend
 
-* #### [Blend_ColorBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colorburn)
+* #### [Blend_ColorBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colorburn) ❤️💛💙
 Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. Eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
 
-* #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge)
+* #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge) 💜💚❤️
 Blendi 1 den çıkarıp ([1-x](#oneminus1-x)), base olarak verdigimiz textureyi blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
-* #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken)
+* #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken) 💚💛💙
 Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten))
 
-* #### [Blend_Difference](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_difference)
+* #### [Blend_Difference](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_difference) 💚💜❤️
 Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
 
-* #### [Blend_Exclusion](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_exclusion)
+* #### [Blend_Exclusion](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_exclusion) 💛💚❤️
 Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
 
-* #### [Blend_HardLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_hardlight)
+* #### [Blend_HardLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_hardlight) 💚💜💙
 [Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir. [Blend_LinearLight](#blend_linearlight) kadar olmasa da, bi düşük seviyesidir diyebiliriz.
 
-* #### [Blend_Lighten](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lighten)
+* #### [Blend_Lighten](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lighten) 💛💜❤️
 Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı [Blend_Darken](#blend_darken))
 
-* #### [Blend_LinearBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearburn)
+* #### [Blend_LinearBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearburn) 💚❤️💙
 Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır ([1-x](#oneminus1-x)). Ne oldugunu bilmiyorum.
 
-* #### [Blend_LinearDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lineardodge)
+* #### [Blend_LinearDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lineardodge) 💚💛❤️
 Baseyi blende ekler (toplar).
 
-* #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight)
+* #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight) 💛❤️💙
 [Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
 
-* #### [Blend_Overlay](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_overlay)
+* #### [Blend_Overlay](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_overlay) ❤️💚💙
 Blendin her pikselini kontrol eder, eger piksel 50% griden daha açıksa Base ve Blend birleştirilir (ya da toplanıyor da olabilir). Eger piksel 50% griden daha koyuysa Base ve Blend çarpılır.
 
-* #### [Blend_PinLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_pinlight)
+* #### [Blend_PinLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_pinlight) 💚💛💙
 [Blend_Overlay](#blend_overlay) ile aynıdır ama kontrast degeri düşürüldügü için daha yumuşak bir sonuç verir.
 
-* #### [Blend_Screen](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_screen)
+* #### [Blend_Screen](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_screen) ❤️💛💙
 Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
-* #### [Blend_SoftLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_softlight)
+* #### [Blend_SoftLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_softlight) ❤️💙💛
 Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 
-* #### [Lerp_ScratchGrime](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2)
+* #### [Lerp_ScratchGrime](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 🤍🤍
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani lerp nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
-* #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2)
+* #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) ❤️💚💛
 [Lerp_ScratchGrime](#lerp_scratchgrime) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 ## Chromakeying
 
-* #### [DiffColorKeyerErodeSinglePass](https://youtu.be/CEUGMFLjc4Y)
+* #### [DiffColorKeyerErodeSinglePass](https://youtu.be/CEUGMFLjc4Y) 🤍
 Kullanışsız, renkleri silmede kullanılıyor.
 
-* #### [MF_Chromakeyer](https://youtu.be/CEUGMFLjc4Y)
+* #### [MF_Chromakeyer](https://youtu.be/CEUGMFLjc4Y) 🤍
 Kullanışsız, renkleri silmede kullanılıyor.
 
 
