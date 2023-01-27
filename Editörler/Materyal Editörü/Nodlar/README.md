@@ -18,7 +18,7 @@ Spesifik Node = 💝
 <br>
 <br>
 ### Yazım şekli
-* Eger bi node aratırken farklı, materyal editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#texturecoordinatetexcoord)
+* Eger bi node aratırken farklı, materyal editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 
 <br>
 <br>
