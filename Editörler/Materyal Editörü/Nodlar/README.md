@@ -1,5 +1,6 @@
 # Açıklamalar
-Puanlama sistemi hakkında, her node kullanılırlıgına göre puana sahiptir, puanlar kalp sayısına göre belirlenir. Puanlar 1 - 5 arasıdır, 1 ve 2 çok kullanışsız ve (muhtemelen) kullanılmayan nodlardır ve beyaz kalp ile gösterilirler, 3 ve 5 arası kullanışlı ve kullanılan nodlardır ve renkli kalp ile gösterilirler.
+### Puanlama sistemi
+Her node kullanılırlıgına göre puana sahiptir, puanlar kalp sayısına göre belirlenir. Puanlar 1 - 5 arasıdır, 1 ve 2 çok kullanışsız ve (muhtemelen) kullanılmayan nodlardır ve beyaz kalp ile gösterilirler, 3 ve 5 arası kullanışlı ve kullanılan nodlardır ve renkli kalp ile gösterilirler.
 <br>
 <br>
 Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar işlemler yapmamıza yarayan nodlardır yani bir yazılım dilini oluşturan ana dili gibi. Spesifik nodlar kurdeleli kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar bazı (kendine has) durumlarda kullanılan nodlardır.
@@ -13,6 +14,13 @@ Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp il
 Temel Node = ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 <br>
 Spesifik Node = 💝
+<br>
+<br>
+<br>
+### Yazım şekli
+* Eger bi node aratırken farklı, materyal editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#texturecoordinatetexcoord)
+
+<br>
 <br>
 <br>
 
@@ -224,16 +232,16 @@ Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir v
 
 * #### [ObjectAlignedVirtualPlaneCoordinates]()
 
-* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) ❤️💛💚💜
+* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
 Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
 
-* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💚💙💜💛
+* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💝
 Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 
-* #### [ObjectRadius](https://youtu.be/Om3k66NY7Jc) 💛💜💙
+* #### [ObjectRadius](https://youtu.be/Om3k66NY7Jc) 💝
 Bu materyale sahip olan objenin kapladıgı alanın yarıçapını verir.
 
-* #### [Panner](https://youtu.be/24mfLY7aQFQ) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [Panner](https://youtu.be/24mfLY7aQFQ) ❤️💛💚💜💙
 Texturelara hareket vermenize yarar.
 
 * #### [PanTextureCoordinateChannelfrom-1ton+1]()
@@ -248,7 +256,7 @@ Texturelara hareket vermenize yarar.
 * #### [ParticleSubUVProperties]()
 
 
-* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙💜
+* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
 Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
@@ -282,7 +290,7 @@ VTiling = y ekseninde (dikey) takrarlama sayısı
 * #### [UVToLongLat]()
 
 
-* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) 💝
+* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
 Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
@@ -496,7 +504,7 @@ Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsu
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
 İnput olarak texturecoordinate verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen rgb degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
 
-* #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc)
+* #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
 LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak texturecoordinate verin. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay.
 
 * #### [SmoothCurve]()
@@ -547,10 +555,10 @@ The CheapConstrast_RGB function boosts the contrast of an input by remapping the
 * #### [HsvToRgb]()
 
 
-* #### [HueShift]()
+* #### [HueShift]() ❤️💙💜💛💚
 Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
 
-<img width="150" src="../../Dosyalar/HueShift_Palet.jpg">
+<img width="150" src="../../../Dosyalar/HueShift_Palet.jpg">
 
 
 * #### [Luminosity_And_Color]()
@@ -761,13 +769,13 @@ The Make Material Attributes node does exactly the opposite of the Break Materia
 * #### [2dArrayLookupByIndex]()
 
 
-* #### [Abs](https://youtu.be/yh59nFJrxKM)
+* #### [Abs](https://youtu.be/yh59nFJrxKM) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Mutlak deger.
 
-* #### [Add](https://youtu.be/gvlPC1nH3Mo)
+* #### [Add](https://youtu.be/gvlPC1nH3Mo) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Toplama.
 
-* #### [AddComponents]()
+* #### [AddComponents]() 💛💙💜
 Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 50, 200) şeklinde 3 boyutlu bi vektör verdiniz, sonuç olarak 30 + 50 + 200 = 280 alırsınız.
 
 * #### [AngleBetweenVectors]()
@@ -1082,7 +1090,8 @@ The VectorToRadialValue function transforms the vector of a Vector2 into an angl
 * #### [AbberatedBlur-Texture]()
 
 
-* #### [AddComponents]()
+* #### [AddComponents]() 💛💙💜
+Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 50, 200) şeklinde 3 boyutlu bi vektör verdiniz, sonuç olarak 30 + 50 + 200 = 280 alırsınız.
 
 
 * #### [AlignFacingParticlesByVelocity-2D]()
@@ -1154,7 +1163,7 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
 * #### [BlendAngleCorrectedNormals]()
 
 
-* #### [BlurSampleOffsets]()
+* #### [BlurSampleOffsets]() 🤍
 Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 
 
@@ -1254,25 +1263,27 @@ Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 * #### [CylindricalUVs]()
 
 
-* #### [DebugFloat2Values]()
+* #### [DebugFloat2Values]() ❤️💛💚💙💜
+Verilen 2 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+* #### [DebugFloat3Values]() ❤️💙💜💛💚
+Verilen 3 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+* #### [DebugFloat4Values]() ❤️💙💚💜💛
+Verilen 4 boyutlu vektörü gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+* #### [DebugOnOff]() 🤍🤍
+1 saniye içerisinde, 1 saniyenin yarısı 0 yarısı 1 olacak şekilde, sürekli 1 ve 0 arasında output döndürür. Kullanmayın bile.
 
 
-* #### [DebugFloat3Values]()
+* #### [DebugScalarValues]() 💜❤️💙💛💚
+Verilen sayıyı (constant) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+* #### [DebugTimeSine]() 🤍🤍
+Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda).
 
 
-* #### [DebugFloat4Values]()
-
-
-* #### [DebugOnOff]()
-
-
-* #### [DebugScalarValues]()
-
-
-* #### [DebugTimeSine]()
-
-
-* #### [DepthFromWorldPosition]()
+* #### [DepthFromWorldPosition]() 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
 
 
@@ -1400,10 +1411,10 @@ Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere gö
 * #### [HighPrecisionWorldPosTextureSampling]()
 
 
-* #### [HueShift]()
+* #### [HueShift]() ❤️💙💜💛💚
 Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
 
-<img width="150" src="../../Dosyalar/HueShift_Palet.jpg">
+<img width="150" src="../../../Dosyalar/HueShift_Palet.jpg">
 
 
 * #### [Imposter_MotionVectors]()
@@ -1440,7 +1451,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 [Lerp_ScratchGrime](#lerp_scratchgrime) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
-* #### [LinearGradient](https://youtu.be/g7UreR23luA)
+* #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
 İnput olarak texturecoordinate verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen rgb degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
 
 
@@ -1888,7 +1899,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [PreparePerturbNormalHQ]()
 
 
-* #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc)
+* #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
 LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak texturecoordinate verin. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay.
 
 
@@ -2803,7 +2814,7 @@ The DDX expression exposes DDX derivative calculation, a GPU hardware feature us
 * #### [DDY]()
 The DDY expression exposes DDX derivative calculation, a GPU hardware feature used in pixel shader calculation.
 
-* #### [DepthFade](https://youtu.be/2BxrGjPcirk)
+* #### [DepthFade](https://youtu.be/2BxrGjPcirk) 💝
 Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz. Parametreleri,
 <br>
 <br>
@@ -3005,7 +3016,7 @@ Bu materyale sahip meshin pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 * #### [CameraDirectionVector]()
 
 
-* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg)
+* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
 Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 
 
@@ -3015,14 +3026,14 @@ Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 * #### [CameraVectorWS]()
 The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
 
-* #### [Constant2Vector]()
-Constantın 2 boyutlu hali, içerisinde iki sayı tutar.
+* #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV diye geçer.
 
-* #### [Constant3Vector]()
-Constantın 3 boyutlu hali, bu üç boyut rgb ye denk gelir. İçerisinde renk tutar.
+* #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir.
 
-* #### [Constant4Vector]()
-Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. rgb den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar.
+* #### [Constant4Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer.
 
 * #### [LightVector]()
 This expression has been deprecated in Unreal Engine 4 as lighting calculations are now deferred.
@@ -3030,10 +3041,10 @@ This expression has been deprecated in Unreal Engine 4 as lighting calculations 
 * #### [ObjectBounds]()
 The Object Bounds expression outputs the size of the object in each axis. If used as color, the X, Y, and Z axes correspond to R, G, and B, respectively.
 
-* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g)
+* #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
 Bu materyale sahip olan objenin yön bilgisini verir (3d vektör). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
 
-* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo)
+* #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💝
 Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 
 * #### [OctahedronToUnitVector]()
@@ -3043,8 +3054,8 @@ Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 * #### [ParticlePositionWS]()
 The ParticlePositionWS expression outputs Vector3 (RGB) data representing each individual particle's position in world space.
 
-* #### [PixelNormalWS]()
-The PixelNormalWS expression outputs vector data representing the direction that pixels are facing based on the current normal.
+* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [PreSkinnedLocalBounds]()
 
@@ -3067,7 +3078,7 @@ The Pre-Skinned Local Position Vector Expression outputs a three-channel vector 
 * #### [SkinningVertexOffsets]()
 
 
-* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw)
+* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
 Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
