@@ -469,7 +469,7 @@ Bu node ile kendi yazdıgınız materyal fonksiyonlarını çagırabilirsiniz. M
 
 
 * #### [StaticBool]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-True ve ya False degeri tutar. [StaticSwitch](#staticswitch-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak aynı [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) gibi koşul koyabilirsiniz. Bu node parametreye çevrilemiyor, çevirmek isterseniz [StaticBoolParameter](#staticboolparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız.
+True ve ya False degeri tutar. [StaticSwitch](#staticswitch-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak aynı [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) gibi koşul koyabilirsiniz. Bu node parametreye çevrilemiyor, çevirmek isterseniz [StaticBoolParameter](#staticboolparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız. Bazı yerlerde (B) diye de geçer.
 
 * #### [StaticSwitch]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 [If](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynı işlevi görür ama input olarak [bool](#staticbool-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri alır.
@@ -782,10 +782,10 @@ Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 5
 
 
 * #### [Append3Vector]() 💜💙❤️💛💚
-AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
+[AppendVector(Append)](#appendvectorappend-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
 
 * #### [Append4Vector]() ❤️💛💚💙💜
-AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
+[AppendVector(Append)](#appendvectorappend-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
 
 * #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu vektör döndürür.
@@ -992,10 +992,8 @@ Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani. Kullanmayın b
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputu (sayı) yuvarlar.
 
-
-* #### [Round]() 🤍
-Evet enayi unreal engine aynı nodun fonksiyon halini de yapmışlar.
-
+* #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) fonksiyon halini de yapmışlar.
 
 * #### [SafeNormalize]()
 
@@ -1103,7 +1101,8 @@ Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 5
 * #### [AlphaOffset]()
 
 
-* #### [AppendMany]()
+* #### [AppendMany]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+İnput olarak verdigimiz her sayıyı (constant) birleştirir ve vektör oluşturur.
 
 
 * #### [AttachMeshToTheCamera]()
@@ -1257,7 +1256,18 @@ Kullanışsız, verilen inputu 2 boyutlu vektörler ile çarpıyor.
 * #### [CustomReflectionVector]()
 
 
-* #### [CustomRotator]()
+* #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
+Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). İnputların kısa açıklamaları,
+<br>
+<br>
+<br>
+UVs = Texturecoordinate baglayın
+<br>
+<br>
+Rotation Center = Dönme efektinin orta noktası
+<br>
+<br>
+Rotation Angle = Döndürme degeri (0 - 1)
 
 
 * #### [CylindricalUVs]()
@@ -1299,7 +1309,8 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 * #### [DetailTexturing]()
 
 
-* #### [DiamondGradient]()
+* #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) 🤍🤍
+Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsunuz. Kullanmayın bile.
 
 
 * #### [Distance_Blend]()
@@ -1372,7 +1383,8 @@ Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere gö
 * #### [GenerateASpline]()
 
 
-* #### [GeneratedBand]()
+* #### [GeneratedBand](https://youtu.be/fITAkG3_qP8)
+Ya bu çok uzun anlatılmaz. Linkteki videoya bakın. Ben kullanmayı denedim ama mantıklı bişeler yapamadım.
 
 
 * #### [GeneratedOffsetBands]()
@@ -1869,7 +1881,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [PerturbNormalHQ]()
 
 
-* #### [Pi]()
+* #### [Pi]() 💝
+Pi.
 
 
 * #### [PivotAxis]()
@@ -1927,7 +1940,8 @@ LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak
 * #### [RotateVector]()
 
 
-* #### [Round]()
+* #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) fonksiyon halini de yapmışlar.
 
 
 * #### [SafeNormalize]()
@@ -2053,7 +2067,8 @@ LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak
 * #### [SumOfAConsecutiveNumberSequence]()
 
 
-* #### [Swizzle]()
+* #### [Swizzle](https://youtu.be/DdyvDf442a0)
+Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür). Linkteki videodan pek bişe anlayamadım ama [bu abiye](https://www.youtube.com/watch?v=hxIl52S-hzM&t=791s) de bakabilirsiniz, güzel anlatmış.
 
 
 * #### [TangentBasis]()
@@ -2704,10 +2719,10 @@ The TwoSidedTexturing function provides individual texture inputs for both sides
 * #### [VectorDsiplacement]()
 
 
-* #### [WorldAlignedNormal]()
+* #### [WorldAlignedNormal]() 💝
 [WorldAlignedTexture](#worldalignedtexture-) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
 
-* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4)
+* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) 💝
 Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 * #### [WorldAlignedTexture_Complex]()
@@ -2716,7 +2731,7 @@ Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8
 * #### [WorldAlignedTexture_MipBias]()
 
 
-* #### [WorldAlignedTexture_SeperateChannels]()
+* #### [WorldAlignedTexture_SeperateChannels]() ❤️💛💚💙💜
 [WorldAlignedTexture](#worldalignedtexture-) ile aynıdır ama bu node onun aksine output olarak XYZ için bütün kombinasyonları verir.
 
 
@@ -2744,10 +2759,10 @@ The ZWorldSpaceFlow function pushes a texture along the tangent space of an obje
 
 ## Units
 
-* #### [Cm-to-Km]()
+* #### [Cm-to-Km]() 💛💚💙
 Verdigimiz inputu 1000000 a böler, 100cm = 1m, 1000m = 1km, yani 100 x 1000 = 100000.
 
-* #### [Km-to-Cm]()
+* #### [Km-to-Cm]() 💚💙💜
 Verdigimiz inputu 1000000 ile çarpar, 100cm = 1m, 1000m = 1km, yani 100 x 1000 = 100000.
 
 
@@ -2759,10 +2774,10 @@ Verdigimiz inputu 1000000 ile çarpar, 100cm = 1m, 1000m = 1km, yani 100 x 1000 
 
 ## Utility
 
-* #### [Add Named Reroute Declaration Node]()
+* #### [Add Named Reroute Declaration Node]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İsimlendirilmiş düzenleme nodu.
 
-* #### [Add Reroute Node]()
+* #### [Add Reroute Node]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Düzenleme nodu.
 
 * #### [AntialiasedTextureMask]()
@@ -2824,7 +2839,7 @@ Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
 <br>
 FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
-* #### [DepthOfFieldFunction](https://youtu.be/YUvQHmjpeJ8)
+* #### [DepthOfFieldFunction](https://youtu.be/YUvQHmjpeJ8) 💝
 Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
 
 * #### [Distance](https://youtu.be/ZINJAvhQilg) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -2864,7 +2879,7 @@ Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve 
 * #### [LightmassReplace](https://youtu.be/TkdmgGWTvYM)
 The LightmassReplace expression simply passes through the Realtime input when compiling the material for normal rendering purposes, and passes through the Lightmass input when exporting the material to Lightmass for global illumination. This is useful to work around material expressions that the exported version cannot handle correctly, for example WorldPosition.
 
-* #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc)
+* #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştırır. İstedigimiz boyutta constant verebiliriz, hem alpha hem de inputlarımız için. Örnegin bir boyutlu constant yani sayı kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca dedigim gibi, istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (rgb yani 3 boyutlu) verelim. Alpha degeri olarak da 3 boyutlu bi vektör verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela r (red) degiştirirseniz A ve B nin r kanalı için alpha degerini belirlemiş olursunuz ama sadece r kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [MaterialProxyReplace]()
@@ -2939,7 +2954,7 @@ Period (node üzerinde) = Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsan�
 * #### [ShadingPathSwtich]()
 
 
-* #### [ShadowPassSwitch](https://www.youtube.com/watch?v=LqwTLdqEUMo)
+* #### [ShadowPassSwitch](https://www.youtube.com/watch?v=LqwTLdqEUMo) 💝
 Bu node materyalin gölgesine istediginiz ayarı vermenizi saglar. Materyalinizi Masked yapın, ShadowPassSwitch nodunu opacity maske baglayın. Default degerine normal opacity mask inputunuzu verebilirsiniz, yani bu ayar gölgeler ile degil materyalle alakalı. Eger ben opacity mask kullanmayacaktım zaten diyorsanız o zaman bu degere 1 (constant) baglayın, böylelikle opacity mask vermemiş gibi olursunuz, 0 verseydiniz opaklık 0 oldugu için materyale sahip olan mesh görünmez olurdu. Şimdi gelelim asıl meseleye, Shadow inputuna bagladıgınız deger gölgeleri belirler. Eger 0 verirseniz gölgeleri silersiniz, 1 verirseniz gölge neyse onu gösterir yani tamamen opak olur. Bizim yapmak istedigimiz herhangi bir texturenin alpha degerini vermek, böylelikle verdigimiz resim neyse gölgede de o görünecek. Yani shadow degerine herhangi bir texturenin alpha degerini ve ya herhangi bir kanalını vererek bunu gölgeler için maske olarak kullanabilirsiniz.
 
 
@@ -2973,16 +2988,16 @@ The Vector Noise Material expression adds several more 3D or 4D vector noise res
 
 ## Vector Ops
 
-* #### [Append3Vector]()
-AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
+* #### [Append3Vector]() 💜💙❤️💛💚
+[AppendVector(Append)](#appendvectorappend-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
 
-* #### [Append4Vector]()
-AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
+* #### [Append4Vector]() ❤️💛💚💙💜
+[AppendVector(Append)](#appendvectorappend-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
 
-* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4)
+* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu vektör döndürür.
 
-* #### [ComponentMask(Mask)]()
+* #### [ComponentMask(Mask)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
 
 * #### [CrossProduct](https://youtu.be/KWtRiKbNS24)
@@ -3055,7 +3070,7 @@ Bu materyale sahip olan objenin konum bilgisini verir (3d vektör).
 The ParticlePositionWS expression outputs Vector3 (RGB) data representing each individual particle's position in world space.
 
 * #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
-Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [PreSkinnedLocalBounds]()
 
@@ -3079,7 +3094,7 @@ The Pre-Skinned Local Position Vector Expression outputs a three-channel vector 
 
 
 * #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
-Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
@@ -3087,7 +3102,7 @@ Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesel
 
 ## VFX
 
-* #### [AppendMany]()
+* #### [AppendMany]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İnput olarak verdigimiz her sayıyı (constant) birleştirir ve vektör oluşturur.
 
 
