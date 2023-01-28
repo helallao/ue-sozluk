@@ -165,7 +165,7 @@ Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger döndürür
 * #### [PrecomputedAOMask]()
 
 
-* #### [Time](https://youtu.be/SMQI9_MEfRM) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [Time](https://youtu.be/SMQI9_MEfRM) ❤️💛💚💙💜
 Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]() 💝
@@ -781,13 +781,13 @@ Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 5
 * #### [AngleBetweenVectors]()
 
 
-* #### [Append3Vector]()
+* #### [Append3Vector]() 💜💙❤️💛💚
 AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
 
-* #### [Append4Vector]()
+* #### [Append4Vector]() ❤️💛💚💙💜
 AppendVector(Append) için geçerli olan kurallar bunda da geçerlidir. Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür.
 
-* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4)
+* #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu vektör döndürür.
 
 * #### [Arccosine]()
@@ -817,12 +817,12 @@ The ArctangentFast expression outputs an approximation of the inverse tangent fu
 * #### [ArrangePointsEvenlyAroundABox]()
 
 
-* #### [Ceil](https://youtu.be/UIXOPWJVHDE)
+* #### [Ceil](https://youtu.be/UIXOPWJVHDE) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı Floor). örnegin 
 9.9 -> 9
 9.1 -> 9
 
-* #### [Clamp](https://youtu.be/KqMpPxVjGWY)
+* #### [Clamp](https://youtu.be/KqMpPxVjGWY) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verdigimiz inputu min ve max degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır. Modları,
 <br>
 <br>
@@ -835,10 +835,10 @@ Clamp Min = sadece min çalışır, input max degerinden büyük olsa bile max �
 <br>
 Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min çalışmaz.
 
-* #### [ComponentMask(Mask)]()
+* #### [ComponentMask(Mask)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
 
-* #### [Cosine](https://youtu.be/gn5Zbsq8eFs)
+* #### [Cosine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
 Cosine yani kosinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Sine)
 
 * #### [CreateThirdOrthogonalVector]()
@@ -856,7 +856,7 @@ The CrossProduct expression computes the cross product of two three-channel vect
 * #### [DeriveNormalZ_Function]()
 
 
-* #### [Divide](https://youtu.be/ibGKUNCM8e8)
+* #### [Divide](https://youtu.be/ibGKUNCM8e8) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bölme.
 
 * #### [DotProduct](https://youtu.be/sf3jT12pN6o)
@@ -868,12 +868,12 @@ The DotProduct expression computes the dot product, which can be described as th
 * #### [FindSaturation]()
 
 
-* #### [Floor](https://youtu.be/UIXOPWJVHDE)
+* #### [Floor](https://youtu.be/UIXOPWJVHDE) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı Ceil). örnegin 
 9.9 -> 10
 9.1 -> 10
 
-* #### [Fmod](https://youtu.be/J57rNg3YwaA)
+* #### [Fmod](https://youtu.be/J57rNg3YwaA) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen A sayısını (constant) B sayısına (constant) böler ve kalanı verir. örn,
 <br>
 <br>
@@ -881,7 +881,7 @@ Verilen A sayısını (constant) B sayısına (constant) böler ve kalanı verir
 <br>
 7 / 3 = 1
 
-* #### [Frac](https://youtu.be/PQnXWXsUWTg)
+* #### [Frac](https://youtu.be/PQnXWXsUWTg) ❤️💛💚💙💜
 Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir. örnegin,
 <br>
 <br>
@@ -891,7 +891,7 @@ Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir. örnegin,
 <br>
 0.99 = 0.99
 
-* #### [If](https://youtu.be/iRACLJlm9UQ)
+* #### [If](https://youtu.be/iRACLJlm9UQ) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Duruma/koşula göre yapılacak işlemi seçmemize yarar. İki input alıyor A ve B. Üç seçenek sunuyor,
 <br>
 <br>
@@ -910,7 +910,7 @@ Diyelim ki A = 100 ve B = 10. A B den büyük oldugu için sonuç A > B seçeneg
 * #### [InverseTransformMatrix]()
 
 
-* #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc)
+* #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştırır. İstedigimiz boyutta constant verebiliriz, hem alpha hem de inputlarımız için. Örnegin bir boyutlu constant yani sayı kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca dedigim gibi, istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (rgb yani 3 boyutlu) verelim. Alpha degeri olarak da 3 boyutlu bi vektör verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela r (red) degiştirirseniz A ve B nin r kanalı için alpha degerini belirlemiş olursunuz ama sadece r kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [LinearSine]()
@@ -931,13 +931,13 @@ The Logarithm2 node returns the base-2 logarithm of the input value. That is, if
 * #### [MakeVectorsOrthogonal]()
 
 
-* #### [Max](https://youtu.be/g0C_kXxiwSU)
+* #### [Max](https://youtu.be/g0C_kXxiwSU) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen iki inputtan büyük olanı döndürür. Vektör verirseniz her boyutun, texture verirseniz her pikselin büyük olanını döndürür.
 
-* #### [Min](https://youtu.be/g0C_kXxiwSU)
+* #### [Min](https://youtu.be/g0C_kXxiwSU) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun, texture verirseniz her pikselin büyük olanını döndürür.
 
-* #### [Multiply](https://youtu.be/Ge96lim4t8A)
+* #### [Multiply](https://youtu.be/Ge96lim4t8A) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Çarpma.
 
 * #### [MultiplyAdd]()
@@ -946,7 +946,7 @@ Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun
 * #### [Normalize]()
 The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
 
-* #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o)
+* #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0a yakın olan degerler artık 1e, 1e yakın olan degerler artık 0a yakın. Bakın,
 <br>
 <br>
@@ -956,10 +956,10 @@ Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 
 <br>
 0.3 için 1 - 0.3 = 0.7, yani 0.3 olan deger 0.7 oldu
 
-* #### [Pi]()
+* #### [Pi]() 💝
 Pi.
 
-* #### [Power](https://youtu.be/zR7ZjwpNV5c)
+* #### [Power](https://youtu.be/zR7ZjwpNV5c) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputun (sayı) kuvvetini alır.
 
 * #### [ProjectVectorOntoPlane]()
@@ -974,39 +974,39 @@ Verilen inputun (sayı) kuvvetini alır.
 * #### [RayTracedSphere]()
 
 
-* #### [Remap]()
-Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba :D). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+* #### [Remap]() ❤️💛💚💙
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
 
 
-* #### [RemapValueRange](https://youtu.be/V0by6a5Xesk)
-Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba :D). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+* #### [RemapValueRange](https://youtu.be/V0by6a5Xesk) 🤍🤍
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
 
 
-* #### [RemapValueRangeNormalized]()
+* #### [RemapValueRangeNormalized]() 🤍
 Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani. Kullanmayın bile.
 
 
 * #### [RGBtoHSV]()
 
 
-* #### [Round]()
+* #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputu (sayı) yuvarlar.
 
 
-* #### [Round]()
+* #### [Round]() 🤍
 Evet enayi unreal engine aynı nodun fonksiyon halini de yapmışlar.
 
 
 * #### [SafeNormalize]()
 
 
-* #### [Saturate]()
-Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani. Kullanmayın bile.
+* #### [Saturate]() ❤️💛💚💙💜
+Sıfır ve bir arasında clamp yapar. Clamp(0, 1) ile eşit yani, ama çok kullanılan bir noddur.
 
 * #### [Sign]()
 The Sign node indicates whether a numeric input is negative, positive, or exactly 0.
 
-* #### [Sine](https://youtu.be/gn5Zbsq8eFs)
+* #### [Sine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
 Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. Cosine)
 
 * #### [Sine_Remapped]()
@@ -1018,13 +1018,13 @@ Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder
 * #### [SmoothStep]()
 
 
-* #### [SquareRoot(sqrt)](https://youtu.be/HnQZ9acKWiI)
+* #### [SquareRoot(sqrt)](https://youtu.be/HnQZ9acKWiI) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputun karekökünü döndürür. Eger vektör verirseniz her degerinin karekökü ayrı ayrı alınır.
 
 * #### [Step]()
 
 
-* #### [Subtract](https://youtu.be/zvNvjzupOn8)
+* #### [Subtract](https://youtu.be/zvNvjzupOn8) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Çıkarma.
 
 * #### [SumOfAConsecutiveNumberSequence]()
@@ -1305,7 +1305,7 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 * #### [Distance_Blend]()
 
 
-* #### [DitherTemporalAA](https://www.youtube.com/watch?v=kvHh0Jd-D3Q)
+* #### [DitherTemporalAA](https://www.youtube.com/watch?v=kvHh0Jd-D3Q) 💝
 Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere göre belirli bir sayı aralıgından rastgele (ve ya degil) sayı döndürmesidir. Mesela en yaygın kullanışlarından biri olan görünmezlik efektini örnek alalım, materyalinizi Masked moduna alın ve DitherTemporalAA nodunu opacity maske baglayın. Alpha Threshold degerini düşürdükçe materyaliniz de görünmez olmaya başlar, çünkü DitherTemporalAA nodu bazı output degerlerini sıfırdan düşük döndürdügü için materyalimizdeki bazı pikseller görünmez olacak. DitherTemporalAA nodundan gelen output degerini çeşit çeşit şeylerde kullanabilirsiniz. Random inputuna da 0 vererek rastgele sayıları kapatabilirsiniz. Böylelikle output olarak gelen sayılar bir düzene göre gelir, materyalde bir desen olur. Yukarıda yazdıgım görünmezlik efektini yapıp Random kapalıyken Alpha Threshold degeriyle oynarsanız, materyalinizdeki görünmezlik efektinin bir desen oluşturdugunu görebilirsiniz.
 
 
@@ -2146,20 +2146,20 @@ LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak
 * #### [WorldAlignedBlend]()
 
 
-* #### [WorldAlignedNormal]()
+* #### [WorldAlignedNormal]() 💝
 [WorldAlignedTexture](#worldalignedtexture) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
 
 * #### [WorldAlignedReflection]()
 
 
-* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4)
+* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) 💝
 Verilen texture objesinin her yüzeyini [World Position](#worldposition) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 
 * #### [WorldAlignedTexture_MipBias]()
 
 
-* #### [WorldAlignedTexture_SeperateChannels]()
+* #### [WorldAlignedTexture_SeperateChannels]() ❤️💛💚💙💜
 [WorldAlignedTexture](#worldalignedtexture) ile aynıdır ama bu node onun aksine output olarak XYZ için bütün kombinasyonları verir.
 
 
@@ -2251,7 +2251,7 @@ The ScalarParameter expression outputs a single float value (Constant) that can 
 * #### [SpriteTextureSampler]()
 
 
-* #### [StaticBoolParameter]()
+* #### [StaticBoolParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 [StaticBoolun](#staticbool) parametre halidir.
 
 
@@ -2579,7 +2579,7 @@ This function flips the green channel of incoming UVs to place the 0,0 coordinat
 * #### [CameraWorldBlend]()
 Outputs falloff results for the 3 primary world vectors based on the camera angle. Can be used to blend between textures based on direction the camera is looking.
 
-* #### [CustomRotator](https://youtu.be/f9a780XjoKI)
+* #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
 Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). İnputların kısa açıklamaları,
 <br>
 <br>
@@ -2777,7 +2777,7 @@ The AntialiasedTextureMask expression allows you to create a material using a so
 * #### [BentNormalCustomOutput]()
 
 
-* #### [BlackBody](https://youtu.be/yxN7lf0MuvE)
+* #### [BlackBody](https://youtu.be/yxN7lf0MuvE) ❤️💛💚
 Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kullanmayın bile.
 
 * #### [BoxMask-2D]()
@@ -2786,7 +2786,7 @@ Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kulla
 * #### [BoxMask-3D]()
 
 
-* #### [BumpOffset](https://youtu.be/70EzAb4CrmA)
+* #### [BumpOffset](https://youtu.be/70EzAb4CrmA) 💝
 Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya normal mapler için UV olarak kullanabilirsiniz. Parametreleri,
 <br>
 <br>
@@ -2827,7 +2827,7 @@ FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0
 * #### [DepthOfFieldFunction](https://youtu.be/YUvQHmjpeJ8)
 Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
 
-* #### [Distance](https://youtu.be/ZINJAvhQilg)
+* #### [Distance](https://youtu.be/ZINJAvhQilg) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır. 1, 2, 3 boyutlu vektörlerin hepsinde çalışır.
 
 * #### [DistanceFieldGradient]()
@@ -2839,10 +2839,10 @@ The Distance To Nearest Surface Material Expression node allows Materials to sam
 * #### [EyeAdaptation]()
 
 
-* #### [FeatureLevelSwitch](https://youtu.be/wo6fSPJVp2I)
+* #### [FeatureLevelSwitch](https://youtu.be/wo6fSPJVp2I) 💝
 İf gibi, duruma göre ayar yapmanızı saglar. Grafikler için kullanılan uygulama (ya da işleyen birim) neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela oyun telefondan oynanıyorsa daha düşük kaliteli şeyler kullanabilirsiniz. İnputların anlamları [burda](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#featurelevelswitch) yazıyor.
 
-* #### [Fresnel](https://youtu.be/PLwEwIYX454)
+* #### [Fresnel](https://youtu.be/PLwEwIYX454) 💝
 (İngilizcede bu nodun ismi okunurken "s" düşürülür, "frenel" şeklinde okunur) Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0a yakın, kenara yakın tarafları 1e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz. Parametreler,
 <br>
 <br>
@@ -2855,7 +2855,7 @@ BaseReflectFractionIn = Yansıtma degeri, Bu da ExponentIn in aynısı ama dış
 * #### [GeneratedRoundRect]()
 
 
-* #### [GIReplace](https://youtu.be/Yb9fiof97xQ)
+* #### [GIReplace](https://youtu.be/Yb9fiof97xQ) 💝
 Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve siz de bu duvarın yanına başka bir mesh daha koydunuz, biliyorsunuz ki unreal engine duvar ne renkse duvarın yanındaki meshe de o rengin biraz yansımasını verecek. İşte yansıma rengini ayarlamak için bu nodu kullanıyoruz. Linkteki videoyu izleyin, görsellerle anlaması daha kolay.
 
 * #### [InverseLinearInterpolate]()
@@ -3225,7 +3225,7 @@ The Wind function provides separate outputs for wind strength, speed multiplied 
 
 ## No Category
 
-* #### [NewComment]()
+* #### [NewComment]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Yorum bölümü oluşturur.
 
 * #### [Sobol]()
