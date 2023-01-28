@@ -169,7 +169,7 @@ Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger döndürür
 Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için DebugScalarValues nodunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]() 💝
-Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp) noduna alpha degeri olarak TwoSidedSign nodunu baglayın.
+Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna alpha degeri olarak TwoSidedSign nodunu baglayın.
 
 * #### [VertexColor](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#vertexcolor)
 
@@ -257,7 +257,7 @@ Texturelara hareket vermenize yarar.
 
 
 * #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
-Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
 Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Bunu en iyi deneyerek anlayabilirsiniz.
@@ -291,7 +291,7 @@ VTiling = y ekseninde (dikey) takrarlama sayısı
 
 
 * #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
-Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
@@ -402,13 +402,13 @@ Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
 FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
 * #### [DepthFromWorldPosition]() 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-%EF%B8%8F) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
 
 * #### [PixelDepth](https://youtu.be/AHOidP7olg0) 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Bu node sadece materyalin yüzeyine etki eder, yani arka tarafı göstermez. Arka tarafı gösteren node [SceneDepthe](#scenedepth) de bakabilirsiniz. Daha iyi anlamak için linkteki videoya bakın.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Bu node sadece materyalin yüzeyine etki eder, yani arka tarafı göstermez. Arka tarafı gösteren node [SceneDepthe](#scenedepth-) de bakabilirsiniz. Daha iyi anlamak için linkteki videoya bakın.
 
 * #### [SceneDepth](https://youtu.be/ABv7abxTMoM) 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepthin](#pixeldepth) aksine sadece yüzeyi degil, arka tarafları da gösterir. Sadece saydam materyallerde işe yarar. Bu materyale sahip meshe yaklaştıkça arka taraftaki objeler görünür olmaya başlar ve arka tarafta kalan objeler uzaklıgına göre deger döndürür. Bu degerleri kullanarak işlemler yapabiliriz. Linkteki videoya bakın. Ayrıca son olarak, SceneDepth kullanırken bölme sayısını (en başta yazan) kendinize göre ayarlayın, 2000 istediginiz detayları tam vermeyebilir, bazen 1000, bazen 2000 iyi olabilir, test edip istediginiz degeri bulabilirsiniz.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepthin](#pixeldepth-) aksine sadece yüzeyi degil, arka tarafları da gösterir. Sadece saydam materyallerde işe yarar. Bu materyale sahip meshe yaklaştıkça arka taraftaki objeler görünür olmaya başlar ve arka tarafta kalan objeler uzaklıgına göre deger döndürür. Bu degerleri kullanarak işlemler yapabiliriz. Linkteki videoya bakın. Ayrıca son olarak, SceneDepth kullanırken bölme sayısını (en başta yazan) kendinize göre ayarlayın, 2000 istediginiz detayları tam vermeyebilir, bazen 1000, bazen 2000 iyi olabilir, test edip istediginiz degeri bulabilirsiniz.
 
 
 ## Distance Fields
@@ -463,16 +463,16 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 (Bu node sadece materyal fonksiyonlarında kullanılabilir)
 
 * #### [MaterialFunctionCall]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Bu node ile kendi yazdıgınız materyal fonksiyonlarını çagırabilirsiniz. Materyal fonksiyonlarına iki kere tıklarsanız o fonksiyonun içerigini yeni sayfada açar. Materyal fonksiyonları ile ilgili bilmeniz gereken diger nodlar: [FunctionInput](#functioninput), [FunctionOutput](#functionoutput)
+Bu node ile kendi yazdıgınız materyal fonksiyonlarını çagırabilirsiniz. Materyal fonksiyonlarına iki kere tıklarsanız o fonksiyonun içerigini yeni sayfada açar. Materyal fonksiyonları ile ilgili bilmeniz gereken diger nodlar: [FunctionInput](#functioninput-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F), [FunctionOutput](#functionoutput-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 
 * #### [PreviousFrameSwitch]()
 
 
 * #### [StaticBool]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-True ve ya False degeri tutar. [StaticSwitch](#staticswitch) kullanarak aynı [if](#if) gibi koşul koyabilirsiniz. Bu node parametreye çevrilemiyor, çevirmek isterseniz [StaticBoolParameter](#staticboolparameter) kullanmalısınız.
+True ve ya False degeri tutar. [StaticSwitch](#staticswitch-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak aynı [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) gibi koşul koyabilirsiniz. Bu node parametreye çevrilemiyor, çevirmek isterseniz [StaticBoolParameter](#staticboolparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız.
 
 * #### [StaticSwitch]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[If](#if) ile aynı işlevi görür ama input olarak [bool](#staticbool) degeri alır.
+[If](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynı işlevi görür ama input olarak [bool](#staticbool-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri alır.
 
 * #### [TextureObject]()
 The TextureObject expression is used to provide a default texture for a texture function input within a function. This node does not actually sample the texture, so it must be used in conjunction with a TextureSample node.
@@ -1122,10 +1122,10 @@ Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 5
 Blend_ColorBurn textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. Eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü Blend_ColorBurn textureyi daha koyu (yogun) yapmak içindir.
 
 * #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge) 💜💚❤️
-Blendi 1 den çıkarıp ([1-x](#oneminus1-x)), base olarak verdigimiz textureyi blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
+Blendi 1 den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), base olarak verdigimiz textureyi blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
 * #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken) 💚💛💙
-Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten))
+Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten-%EF%B8%8F))
 
 * #### [Blend_Difference](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_difference) 💚💜❤️
 Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
@@ -1134,31 +1134,31 @@ Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldır
 Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
 
 * #### [Blend_HardLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_hardlight) 💚💜💙
-[Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir. [Blend_LinearLight](#blend_linearlight) kadar olmasa da, bi düşük seviyesidir diyebiliriz.
+[Blend_Overlay](#blend_overlay-%EF%B8%8F) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir. [Blend_LinearLight](#blend_linearlight-%EF%B8%8F) kadar olmasa da, bi düşük seviyesidir diyebiliriz.
 
 * #### [Blend_Lighten](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lighten) 💛💜❤️
-Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı [Blend_Darken](#blend_darken))
+Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı [Blend_Darken](#blend_darken-))
 
 * #### [Blend_LinearBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearburn) 💚❤️💙
-Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır ([1-x](#oneminus1-x)). Ne oldugunu bilmiyorum.
+Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)). Ne oldugunu bilmiyorum.
 
 * #### [Blend_LinearDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lineardodge) 💚💛❤️
 Baseyi blende ekler (toplar).
 
 * #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight) 💛❤️💙
-[Blend_Overlay](#blend_overlay) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
+[Blend_Overlay](#blend_overlay-%EF%B8%8F) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
 
 * #### [Blend_Overlay](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_overlay) ❤️💜💙
 Blendin her pikselini kontrol eder, eger piksel 50% griden daha açıksa Base ve Blend birleştirilir (ya da toplanıyor da olabilir). Eger piksel 50% griden daha koyuysa Base ve Blend çarpılır.
 
 * #### [Blend_PinLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_pinlight) 💚💛💙
-[Blend_Overlay](#blend_overlay) ile aynıdır ama kontrast degeri düşürüldügü için daha yumuşak bir sonuç verir.
+[Blend_Overlay](#blend_overlay-%EF%B8%8F) ile aynıdır ama kontrast degeri düşürüldügü için daha yumuşak bir sonuç verir.
 
 * #### [Blend_Screen](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_screen) ❤️💛💙
-Base ve Blend olarak verdigimiz texturelerin ikisini de [1-x](#oneminus1-x) nodundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [1-x](#oneminus1-x) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
+Base ve Blend olarak verdigimiz texturelerin ikisini de [OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirir ve sonuçları birbiriyle çarpar. Çıkan sonucu tekrar [OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) den geçirir ve output olarak verir. Ne oldugundan emin degilim.
 
 * #### [Blend_SoftLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_softlight) ❤️💙💛
-Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight) ile aynı.
+Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight-) ile aynı.
 
 * #### [BlendAngleCorrectedNormals]()
 
@@ -1284,7 +1284,7 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 
 * #### [DepthFromWorldPosition]() 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-%EF%B8%8F) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini DepthFromWorldPosition kullanarak elde edebilirsiniz.
 
 
 * #### [DeriveHDRfromLDR]()
@@ -1448,7 +1448,7 @@ Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani lerp nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
 * #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 💚💛💙
-[Lerp_ScratchGrime](#lerp_scratchgrime) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
+[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
@@ -2147,20 +2147,20 @@ LinearGradient gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak
 
 
 * #### [WorldAlignedNormal]() 💝
-[WorldAlignedTexture](#worldalignedtexture) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
+[WorldAlignedTexture](#worldalignedtexture-) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
 
 * #### [WorldAlignedReflection]()
 
 
 * #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) 💝
-Verilen texture objesinin her yüzeyini [World Position](#worldposition) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
+Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 
 * #### [WorldAlignedTexture_MipBias]()
 
 
 * #### [WorldAlignedTexture_SeperateChannels]() ❤️💛💚💙💜
-[WorldAlignedTexture](#worldalignedtexture) ile aynıdır ama bu node onun aksine output olarak XYZ için bütün kombinasyonları verir.
+[WorldAlignedTexture](#worldalignedtexture-) ile aynıdır ama bu node onun aksine output olarak XYZ için bütün kombinasyonları verir.
 
 
 * #### [WorldAlignedTextures_Complex]()
@@ -2705,10 +2705,10 @@ The TwoSidedTexturing function provides individual texture inputs for both sides
 
 
 * #### [WorldAlignedNormal]()
-[WorldAlignedTexture](#worldalignedtexture) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
+[WorldAlignedTexture](#worldalignedtexture-) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
 
 * #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4)
-Verilen texture objesinin her yüzeyini [World Position](#worldposition) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
+Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 * #### [WorldAlignedTexture_Complex]()
 
@@ -2717,7 +2717,7 @@ Verilen texture objesinin her yüzeyini [World Position](#worldposition) nodu ku
 
 
 * #### [WorldAlignedTexture_SeperateChannels]()
-[WorldAlignedTexture](#worldalignedtexture) ile aynıdır ama bu node onun aksine output olarak XYZ için bütün kombinasyonları verir.
+[WorldAlignedTexture](#worldalignedtexture-) ile aynıdır ama bu node onun aksine output olarak XYZ için bütün kombinasyonları verir.
 
 
 * #### [WorldCoordinate3Way]()
