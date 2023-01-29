@@ -2820,7 +2820,7 @@ HeightRatioInput = Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyor
 * #### [ClearCoatNormalCustomOutput]()
 
 
-* #### [ConstantBiasScale](https://youtu.be/7s0T9ckB0bw)
+* #### [ConstantBiasScale](https://youtu.be/7s0T9ckB0bw) ❤️💛💚
 Bu node verilen inputa bias degerini ekler ve scale degeriyle çarpar. Mesela [-1,1] arasındaki degerleri [0,1] arasına taşımak istiyorsunuz. Bias olarak 1.0 scale olarak 0.5 kullanarak bunu yapabilirsiniz.
 
 * #### [DDX]()
