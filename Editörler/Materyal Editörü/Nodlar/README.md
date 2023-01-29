@@ -3243,10 +3243,10 @@ The Wind function provides separate outputs for wind strength, speed multiplied 
 * #### [NewComment]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Yorum bölümü oluşturur.
 
-* #### [Sobol]()
+* #### [Sobol]() 🤍
+Bu nodun aslında blueprint editöründe başka bi versionu var, ama materyal editörüne de eklemişler. Ben ne kadar denesem de anlayamadım, internette kaynak da yok.
 
-
-* #### [TemporalSobol]()
-
+* #### [TemporalSobol]() 🤍
+Bu nodun aslında blueprint editöründe başka bi versionu var, ama materyal editörüne de eklemişler. Ben ne kadar denesem de anlayamadım, internette kaynak da yok.
 
 * #### [UnpackDirection]()
