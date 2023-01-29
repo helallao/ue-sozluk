@@ -112,16 +112,16 @@ Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün,
 Tek bir degere sahip (1 boyutlu) degişken. İçerisinde sayı tutar. Bazı yerlerde (S) diye geçer yani skaler (scalar).
 
 * #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV diye geçer.
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV ve ya V2 diye geçer.
 
 * #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir.
+Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir, bazı yerlerde V3 diye de geçer.
 
 * #### [Constant4Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer.
+Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer, bazı yerlerde V4 diye de geçer.
 
 * #### [ConstantDouble]() 💜❤️💛
-Normal constanta göre daha dogru, daha detaylı. internete difference between float and double yazın.
+Normal constanta göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete difference between float and double yazın.
 
 * #### [DeltaTime]() 💜💙💛❤️
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
@@ -3042,13 +3042,13 @@ Kameranın pozisyonunu dünyaya göre 3d (vektör) olarak verir.
 The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
 
 * #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV diye geçer.
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV ve ya V2 diye geçer.
 
 * #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir.
+Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir, bazı yerlerde V3 diye de geçer.
 
 * #### [Constant4Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer.
+Constantın 4 boyutlu hali, bu dört boyut rgba ye denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer, bazı yerlerde V4 diye de geçer.
 
 * #### [LightVector]()
 This expression has been deprecated in Unreal Engine 4 as lighting calculations are now deferred.
