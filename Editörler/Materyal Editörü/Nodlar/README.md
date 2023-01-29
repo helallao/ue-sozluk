@@ -2523,7 +2523,8 @@ This function is designed to provide the diffuse portion of grass shading. Simil
 * #### [SpeedTreeWindMotion]()
 
 
-* #### [UnpackDirection]()
+* #### [UnpackDirection]() 🤍
+Hakkında internette bir tane bile kaynak olmayan, ne oldugunu anlayamadıgım node, fonksiyonu açıp bakabilirsiniz ama ben ne için kullanıldıgını anlayamadım.
 
 
 ## Texture
@@ -3249,4 +3250,5 @@ Bu nodun aslında blueprint editöründe başka bi versionu var, ama materyal ed
 * #### [TemporalSobol]() 🤍
 Bu nodun aslında blueprint editöründe başka bi versionu var, ama materyal editörüne de eklemişler. Ben ne kadar denesem de anlayamadım, internette kaynak da yok.
 
-* #### [UnpackDirection]()
+* #### [UnpackDirection]() 🤍
+Hakkında internette bir tane bile kaynak olmayan, ne oldugunu anlayamadıgım node, fonksiyonu açıp bakabilirsiniz ama ben ne için kullanıldıgını anlayamadım.
