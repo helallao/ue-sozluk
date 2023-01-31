@@ -10,7 +10,7 @@
 * [Details ve Parameters](#details-ve-parameters)
 * [Editör İçi](#edit%C3%B6r-i%CC%87%C3%A7i)
 * [Palet](#palet)
- 
+* [Stats](#stats)
 
 
 ## [Toolbar](Editörler/Materyal%20Editörü/Toolbar)
@@ -27,3 +27,6 @@
 
 ## [Palet](Editörler/Materyal%20Editörü/Palet)
 <img src="../../Dosyalar/Materyal_Editor_Palet.jpg">
+
+## [Stats](Editörler/Materyal%20Editörü/Stats)
+<img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
