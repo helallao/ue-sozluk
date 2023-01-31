@@ -9,7 +9,9 @@
 * [Dosya Konumunu Göster](#dosya-konumunu-g%C3%B6ster)
 * [Apply Butonu](#apply-butonu)
 * [Arama Butonu](#arama-butonu)
-
+* [Home](#home)
+* [Hierarchy](#hierarchy)
+* [Live Update](#liveupdate)
 
 
 
@@ -24,3 +26,12 @@ Apply butonu, şu an bu materyale sahip olan her meshe, yani dünyanızdaki bu m
 
 ## [Arama Butonu]()
 Arama pencerisini açar, arama penceresinde her isime göre arama yapabilir ve arama sonuçlarına tıklayıp hemen o noda gidebilirsiniz.
+
+## [Home]()
+Materyalin ana attribute noduna (her şeyi bagladıgımız palet) götürür.
+
+## [Hierarchy]()
+Materyalin instancelarını gösterir.
+
+## [Live Update]()
+Preview Material = [Preview Viewport](../Preview Viewport)
