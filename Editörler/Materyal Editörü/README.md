@@ -16,17 +16,17 @@
 ## [Toolbar](Toolbar)
 <img src="../../Dosyalar/Materyal_Editor_Toolbar.jpg">
 
-## [Preview Viewport](Editörler/Materyal%20Editörü/Preview%20Viewport)
+## [Preview Viewport](Preview%20Viewport)
 <img src="../../Dosyalar/Materyal_Editor_Preview_Viewport.jpg">
 
-## [Details ve Parameters](Editörler/Materyal%20Editörü/Details%20ve%20Parameters)
+## [Details ve Parameters](Details%20ve%20Parameters)
 <img src="../../Dosyalar/Materyal_Editor_Details_ve_Parameters.jpg">
 
-## [Editör İçi](Editörler/Materyal%20Editörü/Editör%20İçi)
+## [Editör İçi](Editör%20İçi)
 <img src="../../Dosyalar/Materyal_Editor_Editör_İçi.jpg">
 
-## [Palet](Editörler/Materyal%20Editörü/Palet)
+## [Palet](Palet)
 <img src="../../Dosyalar/Materyal_Editor_Palet.jpg">
 
-## [Stats](Editörler/Materyal%20Editörü/Stats)
+## [Stats](Stats)
 <img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
