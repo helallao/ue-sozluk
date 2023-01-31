@@ -14,7 +14,7 @@
 * [Live Update](#live-update)
 * [Clean Graph](#clean-graph)
 * [Preview State](#preview-state)
-
+* [Hide Unrelated](#hide-unrelated)
 
 
 
@@ -54,3 +54,11 @@ Quality Level = Kalite ayarı
 Feature Level = Bilmiyorum
 <br>
 Hide Disabled (Switch Params) = Bilmiyorum
+
+## [Hide Unrelated]()
+Seçilen node ile ilgisi olamayan nodları gizler. İlgisi olan nodlar, kendi inputlarına baglı olan ve output nodlarının baglandıgı diger nodlardır.
+<br>
+<br>
+Lock Node State = Bilmiyorum
+<br>
+Focus Whole Chain = Normalde sadece output nodlarının baglandıgı nodlar ilgili nodlardır, ama bu seçenegi açarsanız o nodlara baglanan diger nodlar da ilgili nodlar arasına girer, yani sadece output nodları degil input nodları da ilgili node olur.
