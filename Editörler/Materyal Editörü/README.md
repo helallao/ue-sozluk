@@ -13,7 +13,7 @@
 * [Stats](#stats)
 
 
-## [Toolbar](Editörler/Materyal%20Editörü/Toolbar)
+## [Toolbar](Toolbar)
 <img src="../../Dosyalar/Materyal_Editor_Toolbar.jpg">
 
 ## [Preview Viewport](Editörler/Materyal%20Editörü/Preview%20Viewport)
