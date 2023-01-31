@@ -16,7 +16,7 @@
 * [Preview State](#preview-state)
 * [Hide Unrelated](#hide-unrelated)
 * [Stats](#stats)
-* [Stats](#platform-stats)
+* [Platform Stats](#platform-stats)
 
 
 
