@@ -11,7 +11,10 @@
 * [Arama Butonu](#arama-butonu)
 * [Home](#home)
 * [Hierarchy](#hierarchy)
-* [Live Update](#liveupdate)
+* [Live Update](#live-update)
+* [Clean Graph](#clean-graph)
+* [Preview State](#preview-state)
+
 
 
 
@@ -34,4 +37,20 @@ Materyalin ana attribute noduna (her şeyi bagladıgımız palet) götürür.
 Materyalin instancelarını gösterir.
 
 ## [Live Update]()
-Preview Material = [Preview Viewport](../Preview%20Viewport)
+Preview Material = [Preview Viewport](../Preview%20Viewport) bölümünde canlı olarak önizleme ayarını açar/kapatır.
+<br>
+Realtime Nodes = Bilmiyorum
+<br>
+All Node Previews = Bilmiyorum
+
+## [Clean Graph]()
+Clean Up = Ana attribute noduna (her şeyi bagladıgımız palet) baglı olmayan nodları siler.
+<br>
+Hide Unused Connectors = Baglı olmayan pinleri gizler.
+
+## [Preview State]()
+Quality Level = Kalite ayarı
+<br>
+Feature Level = Bilmiyorum
+<br>
+Hide Disabled (Switch Params) = Bilmiyorum
