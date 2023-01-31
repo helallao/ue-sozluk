@@ -42,7 +42,9 @@ Materyalin instancelarını gösterir.
 ## [Live Update]()
 Preview Material = [Preview Viewport](../Preview%20Viewport) bölümünde canlı olarak önizleme ayarını açar/kapatır.
 <br>
+<br>
 Realtime Nodes = Realtime olarak yani sürekli güncellenen nodları aktif/deaktif eder. Bu ayar açıksa, hani nodların kenarında texturenin ufak resmi olur ya, o resim, resim her degiştiginde güncellenir, aynı ana materyaldeki gibi. Eger bu seçenek kapalıysa realtime nodlar çalışmaz.
+<br>
 <br>
 All Node Previews = Bütün nodların Realtime Preview ayarını açar.
 
