@@ -15,6 +15,9 @@
 * [Clean Graph](#clean-graph)
 * [Preview State](#preview-state)
 * [Hide Unrelated](#hide-unrelated)
+* [Stats](#stats)
+* [Stats](#platform-stats)
+
 
 
 
@@ -61,4 +64,12 @@ Seçilen node ile ilgisi olamayan nodları gizler. İlgisi olan nodlar, kendi in
 <br>
 Lock Node State = Şu an ki durumu kilitler, ilgili olan nodlardan başka node seçseniz bile degişmez. Belki anlaması zor olabilir diye örnek vericem, mesela bir nodu seçtiniz ve bu node ile ilgili olmayan nodlar gizlendi, bu seçenegi aktifleştirdikten sonra istediginiz noda tıklayabilirsiniz, ilgili olan node ayarları bozulmaz, böylelikle ilgisi olmayan nodlarla da işlemler yapabilirsiniz.
 <br>
+<br>
 Focus Whole Chain = Normalde sadece output nodlarının baglandıgı nodlar ilgili nodlardır, ama bu seçenegi açarsanız o nodlara baglanan diger nodlar da ilgili nodlar arasına girer, yani sadece output nodları degil input nodları da ilgili node olur.
+
+## [Stats]()
+[Stats](../Stats) bölümüne açar/kapatır.
+
+## [Platform Stats]()
+Platform Stats bölümüne açar/kapatır.
+
