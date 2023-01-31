@@ -8,8 +8,9 @@
 * [Toolbar](#toolbar)
 * [Preview Viewport](#preview-viewport)
 * [Details ve Parameters](#details-ve-parameters)
-* [Details ve Parameters](#edit%C3%B6r-i%CC%87%C3%A7i)
-
+* [Editör İçi](#edit%C3%B6r-i%CC%87%C3%A7i)
+* [Palet](#palet)
+ 
 
 
 ## [Toolbar](Editörler/Materyal%20Editörü/Toolbar)
@@ -23,3 +24,6 @@
 
 ## [Editör İçi](Editörler/Materyal%20Editörü/Editör%20İçi)
 <img src="../../Dosyalar/Materyal_Editor_Editör_İçi.jpg">
+
+## [Palet](Editörler/Materyal%20Editörü/Palet)
+<img src="../../Dosyalar/Materyal_Editor_Palet.jpg">
