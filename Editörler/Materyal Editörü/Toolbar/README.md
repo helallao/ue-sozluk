@@ -34,4 +34,4 @@ Materyalin ana attribute noduna (her şeyi bagladıgımız palet) götürür.
 Materyalin instancelarını gösterir.
 
 ## [Live Update]()
-Preview Material = [Preview Viewport](../Preview Viewport)
+Preview Material = [Preview Viewport](../Preview%20Viewport)
