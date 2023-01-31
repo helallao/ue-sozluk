@@ -8,7 +8,7 @@
 * [Toolbar](#toolbar)
 * [Preview Viewport](#preview-viewport)
 * [Details ve Parameters](#details-ve-parameters)
-* [Editör İçi](#edit%C3%B6r-i%CC%87%C3%A7i)
+* [Graph](#graph)
 * [Palet](#palet)
 * [Stats](#stats)
 
@@ -22,8 +22,8 @@
 ## [Details ve Parameters](Details%20ve%20Parameters)
 <img src="../../Dosyalar/Materyal_Editor_Details_ve_Parameters.jpg">
 
-## [Editör İçi](Editör%20İçi)
-<img src="../../Dosyalar/Materyal_Editor_Editör_İçi.jpg">
+## [Graph](Graph)
+<img src="../../Dosyalar/Materyal_Editor_Graph.jpg">
 
 ## [Palet](Palet)
 <img src="../../Dosyalar/Materyal_Editor_Palet.jpg">
