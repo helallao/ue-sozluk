@@ -59,6 +59,6 @@ Hide Disabled (Switch Params) = Bilmiyorum
 Seçilen node ile ilgisi olamayan nodları gizler. İlgisi olan nodlar, kendi inputlarına baglı olan ve output nodlarının baglandıgı diger nodlardır.
 <br>
 <br>
-Lock Node State = Bilmiyorum
+Lock Node State = Şu an ki durumu kilitler, ilgili olan nodlardan başka node seçseniz bile degişmez. Belki anlaması zor olabilir diye örnek vericem, mesela bir nodu seçtiniz ve bu node ile ilgili olmayan nodlar gizlendi, bu seçenegi aktifleştirdikten sonra istediginiz noda tıklayabilirsiniz, ilgili olan node ayarları bozulmaz, böylelikle ilgisi olmayan nodlarla da işlemler yapabilirsiniz.
 <br>
 Focus Whole Chain = Normalde sadece output nodlarının baglandıgı nodlar ilgili nodlardır, ama bu seçenegi açarsanız o nodlara baglanan diger nodlar da ilgili nodlar arasına girer, yani sadece output nodları degil input nodları da ilgili node olur.
