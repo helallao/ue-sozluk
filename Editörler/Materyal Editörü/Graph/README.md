@@ -40,25 +40,25 @@ Burdaki kısayollardan birine basılı tutup, graph üzerinde tıklarsanız, o n
 
 Kısayol | Eylem
 :---: | :---:
-A | Add
-B | BumpOffset
-C | Comment
-D | Divide
-E | Power
-F | MaterialFunctionCall
-I | If
-L | LinearInterpolate
-M | Multiply
-N | Normalize
-O | OneMinus
-P | Panner
-R | ReflectionVector
-S | ScalarParameter
-T | TextureSample
-U | TexCoord
-V | VectorParameter
-1 | Constant
-2 | Constant2Vector
-3 | Constant3Vector
-4 | Constant4Vector
-Shift + C | ComponentMask
+A | [Add](../Nodlar#add-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+B | [BumpOffset](../Nodlar#bumpoffset-)
+C | [Comment](../Nodlar#newcomment-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+D | [Divide](../Nodlar#divide-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+E | [Power](../Nodlar#power-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+F | [MaterialFunctionCall](../Nodlar#materialfunctioncall-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+I | [If](../Nodlar#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+L | [LinearInterpolate](../Nodlar#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+M | [Multiply](../Nodlar#multiply-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+N | [Normalize](../Nodlar#normalize)
+O | [OneMinus](../Nodlar#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+P | [Panner](../Nodlar#panner-%EF%B8%8F)
+R | [ReflectionVector](../Nodlar#reflectionvectorws)
+S | [ScalarParameter](../Nodlar#scalarparameterparam)
+T | [TextureSample](../Nodlar#texturesample)
+U | [TexCoord](../Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+V | [VectorParameter](../Nodlar#vectorparameterparam)
+1 | [Constant](../Nodlar#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+2 | [Constant2Vector](../Nodlar#constant2vector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+3 | [Constant3Vector](../Nodlar#constant3vector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+4 | [Constant4Vector](../Nodlar#constant4vector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+Shift + C | [ComponentMask](../Nodlar#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
