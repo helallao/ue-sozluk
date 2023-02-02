@@ -3,7 +3,7 @@
 Her node kullanılırlıgına göre puana sahiptir, puanlar kalp sayısına göre belirlenir. Puanlar 1 - 5 arasıdır, 1 ve 2 çok kullanışsız ve (muhtemelen) kullanılmayan nodlardır ve beyaz kalp ile gösterilirler, 3 ve 5 arası kullanışlı ve kullanılan nodlardır ve renkli kalp ile gösterilirler.
 <br>
 <br>
-Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar işlemler yapmamıza yarayan nodlardır yani bir yazılım dilini oluşturan ana dili gibi. Spesifik nodlar kurdeleli kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar bazı (kendine has) durumlarda kullanılan nodlardır, spesifik nodlar çok kullanılmasa da yerinde kullanılan nodlar oldugu için böyle bi isim koyuldu.
+Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar işlemler yapmamıza yarayan nodlardır yani bir yazılım dilini oluşturan ana dili gibi. Spesifik nodlar kurdeleli kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar bazı (kendine has) durumlarda kullanılan nodlardır, spesifik nodlar çok kullanılmasa da yerinde kullanılan ve yarı yarıya temel node sayılabilecek nodlar oldugu için böyle bi isim koyuldu.
 <br>
 <br>
 <br>
@@ -20,7 +20,7 @@ Spesifik Node = 💝
 ### Yazım şekli
 * Eger bi node aratırken farklı, materyal editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 * Eger bi nodun inputu spesifik boyutta bir input alıyorsa açıklamada belirtilir, eger açıklamada bunun hakkında bir şey yazmıyorsa her boyutta input alıyor demektir.
-
+* Eger node hakkında güzel bi kaynak (genellikle video) varsa, nodun başlıgına eklerim, başlıga tıklayıp videoya gidebilirsiniz, zaten nodu anlamak için verdigim kaynaga bakmak gerekiyorsa bunu açıklamada da belirtirim. Bazı nodlarda güzel kaynak olsa bile koymadım çünkü zaten benim açıklamalarımda ögreneceginiz her şey anlatılıyor.
 <br>
 <br>
 <br>
