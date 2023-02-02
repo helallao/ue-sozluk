@@ -474,8 +474,8 @@ True ve ya False degeri tutar. [StaticSwitch](#staticswitch-%EF%B8%8F%EF%B8%8F%E
 * #### [StaticSwitch]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 [If](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynı işlevi görür ama input olarak [bool](#staticbool-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) (B) degeri alır.
 
-* #### [TextureObject]()
-The TextureObject expression is used to provide a default texture for a texture function input within a function. This node does not actually sample the texture, so it must be used in conjunction with a TextureSample node.
+* #### [TextureObject]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Bu node içerisinde gerçekten texture barındırmaz ama bir texturenin obje halini verir, yani textureyi materyal editöründe bi degişkene kaydediyoruz gibi düşünün, o texturenin objesini oluşturuyoruz, [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun "Tex" inputuna texture objesini vererek içerisinden textureyi alabiliriz. Yani bu node [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) birlikte kullanılmak zorunda (eger içindeki textureyi almak istiyorsanız).
 
 
 ## Get Post Process Setting
@@ -2548,8 +2548,8 @@ Get the scene texture
 * #### [SpriteTextureSampler]()
 A custom sprite material can be created by duplicating one of the existing ones, or creating a new material in the Content Browser. When a sprite is rendered, the texture defined in a sprite asset will be piped into any texture parameters named "SpriteTexture" in the material. The SpriteTextureSampler node can be placed to do this automatically.
 
-* #### [TextureObject]()
-The TextureObject expression is used to provide a default texture for a texture function input within a function. This node does not actually sample the texture, so it must be used in conjunction with a TextureSample node.
+* #### [TextureObject]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Bu node içerisinde gerçekten texture barındırmaz ama bir texturenin obje halini verir, yani textureyi materyal editöründe bi degişkene kaydediyoruz gibi düşünün, o texturenin objesini oluşturuyoruz, [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun "Tex" inputuna texture objesini vererek içerisinden textureyi alabiliriz. Yani bu node [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) birlikte kullanılmak zorunda (eger içindeki textureyi almak istiyorsanız).
 
 * #### [TextureObjectParameter]()
 The TextureObjectParameter expression defines a texture parameter and outputs the texture object, used in materials that call a function with texture inputs. This node does not actually sample the texture, so it must be used in conjunction with a TextureSample node.
@@ -2557,8 +2557,8 @@ The TextureObjectParameter expression defines a texture parameter and outputs th
 * #### [TextureProperty]()
 The TextureProperty exposes a texture's property of your choice such as the texture's size or texel size.
 
-* #### [TextureSample]()
-The TextureSample expression outputs the color value(s) from a texture. This texture can be a regular Texture2D (including normal maps), a cubemap, or a movie texture.
+* #### [TextureSample]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Bir texture içinden renk degerlerini (pikseller) almamıza yarar. Texture seçmek için details panelinden Texture seçebilir ve ya "Tex" inputuna [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz.
 
 * #### [TextureSampleParameter2D]()
 The TextureSampleParameter2D expression is identical to the TextureSample except that it is a parameter that can be modified in instances of the material and through code.
