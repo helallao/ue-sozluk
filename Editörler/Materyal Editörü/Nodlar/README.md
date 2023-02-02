@@ -176,26 +176,16 @@ Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını ist
 
 
 * #### [View Property](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#viewproperty) 💜💙💛
-Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir. Parametreleri,
-<br>
-<br>
-<br>
-Render Target Size = Ekran boyutu
-<br>
-<br>
-Field of View = Görüş alanı
-<br>
-<br>
-View Size = Ekran boyutu
-<br>
-<br>
-View Position (Absolute World Space) = Konumumuzu verir (V3)
-<br>
-<br>
-Camera Position (Absolute World Space) = Kameramızın konumunu verir (V3)
-<br>
-<br>
-Pre-Exposure = Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz.
+Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir.
+
+Mod | İşlem
+:---: | :---:
+Render Target Size | Ekran boyutu
+Field of View | Görüş alanı
+View Size | Ekran boyutu
+View Position (Absolute World Space) | Konumumuzu verir (V3)
+Camera Position (Absolute World Space) | Kameramızın konumunu verir (V3)
+Pre-Exposure | Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz.
 
 
 ## Coordinates
@@ -273,14 +263,12 @@ The SceneTexelSize expression allows you to offset by texel sizes, as you would 
 ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (V2). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, ViewportUV bu degeri 0 ve 1 arasında verirken, PixelPosition bu degeri gerçek piksel sayısına göre verir.
 
 * #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. parametreleri,
-<br>
-<br>
-<br>
-UTiling = x ekseninde (yatay) takrarlama sayısı
-<br>
-<br>
-VTiling = y ekseninde (dikey) takrarlama sayısı
+Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar.
+
+Parametre | İşlem
+:---: | :---:
+UTiling | X ekseninde (yatay) takrarlama sayısı
+VTiling | y ekseninde (dikey) takrarlama sayısı
 
 * #### [UVBrickPatterns]()
 
@@ -304,14 +292,12 @@ Ekran boyutunu piksel olarak verir. 2 boyutlu vektör (V2) döndürür. Eger ekr
 
 
 * #### [WorldPosition](https://youtu.be/8aYe54XrZYI) ❤️💛💚💙💜
-Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin. Parametreleri,
-<br>
-<br>
-<br>
-Absolute World Position = Dünyaya göre konumu (materyalin) verir (V3)
-<br>
-<br>
-Camera Relative World Position = Kameraya göre konumu (materyalin) verir (V3)
+Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
+
+Mod | İşlem
+:---: | :---:
+Absolute World Position | Dünyaya göre konumu (materyalin) verir (V3)
+Camera Relative World Position | Kameraya göre konumu (materyalin) verir (V3)
 
 * #### [WorldSpaceAlignedScreenCoordinates]()
 
@@ -392,14 +378,12 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 ## Depth
 
 * #### [DepthFade](https://youtu.be/2BxrGjPcirk) 💝
-Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz. Parametreleri,
-<br>
-<br>
-<br>
-Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
-<br>
-<br>
-FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
+Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Opacity | Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
+FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
 * #### [DepthFromWorldPosition]() 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-%EF%B8%8F) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
@@ -823,17 +807,13 @@ Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı [Floor](#flo
 9.1 -> 9
 
 * #### [Clamp](https://youtu.be/KqMpPxVjGWY) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verdigimiz inputu min ve max degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır. Modları,
-<br>
-<br>
-<br>
-Clamp = min ve max çalışır.
-<br>
-<br>
-Clamp Min = sadece min çalışır, input max degerinden büyük olsa bile max çalışmaz.
-<br>
-<br>
-Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min çalışmaz.
+Verdigimiz inputu min ve max degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır.
+
+Mod | İşlem
+:---: | :---:
+Clamp | min ve max çalışır.
+Clamp Min | sadece min çalışır, input max degerinden büyük olsa bile max çalışmaz.
+Clamp Max | sadece max çalışır, input min degerinden küçük olsa bile min çalışmaz.
 
 * #### [ComponentMask(Mask)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
@@ -1259,17 +1239,13 @@ Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
 
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). İnputların kısa açıklamaları,
-<br>
-<br>
-<br>
-UVs = Texturecoordinate baglayın
-<br>
-<br>
-Rotation Center = Dönme efektinin orta noktası
-<br>
-<br>
-Rotation Angle = Döndürme degeri (0 - 1)
+Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz).
+
+İnput | İşlem
+:---: | :---:
+UVs | Texturecoordinate baglayın
+Rotation Center | Dönme efektinin orta noktası
+Rotation Angle | Döndürme degeri (0 - 1)
 
 
 * #### [CylindricalUVs]()
@@ -2597,17 +2573,13 @@ This function flips the green channel of incoming UVs to place the 0,0 coordinat
 Outputs falloff results for the 3 primary world vectors based on the camera angle. Can be used to blend between textures based on direction the camera is looking.
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). İnputların kısa açıklamaları,
-<br>
-<br>
-<br>
-UVs = Texturecoordinate baglayın
-<br>
-<br>
-Rotation Center = Dönme efektinin orta noktası
-<br>
-<br>
-Rotation Angle = Döndürme degeri (0 - 1)
+Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz).
+
+İnput | İşlem
+:---: | :---:
+UVs | Texturecoordinate baglayın
+Rotation Center | Dönme efektinin orta noktası
+Rotation Angle | Döndürme degeri (0 - 1)
 
 * #### [CylindricalUVs]()
 This function tiles a texture around an object using cylindrically projected UVs centered around the object's center.
@@ -2818,17 +2790,13 @@ Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kulla
 
 
 * #### [BumpOffset](https://youtu.be/70EzAb4CrmA) 💝
-Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya normal mapler için UV olarak kullanabilirsiniz. Parametreleri,
-<br>
-<br>
-<br>
-Coordinate = [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz.
-<br>
-<br>
-Height = Yükseklik mapi, mesela texturenin bir kanalı olabilir.
-<br>
-<br>
-HeightRatioInput = Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı unreal enginenin önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
+Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya normal mapler için UV olarak kullanabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz.
+Height | Yükseklik mapi, mesela texturenin bir kanalı olabilir.
+HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı unreal enginenin önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
 
 * #### [ChannelMaskParameter]()
 
@@ -2846,14 +2814,12 @@ The DDX expression exposes DDX derivative calculation, a GPU hardware feature us
 The DDY expression exposes DDX derivative calculation, a GPU hardware feature used in pixel shader calculation.
 
 * #### [DepthFade](https://youtu.be/2BxrGjPcirk) 💝
-Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz. Parametreleri,
-<br>
-<br>
-<br>
-Opacity = Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
-<br>
-<br>
-FadeDistance = Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
+Saydam meshler opak olanlar ile kesiştiginde ne olacagını ayarlayabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Opacity | Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
+FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
 * #### [DepthOfFieldFunction](https://youtu.be/YUvQHmjpeJ8) 💝
 Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
@@ -2874,14 +2840,12 @@ The Distance To Nearest Surface Material Expression node allows Materials to sam
 İf gibi, duruma göre ayar yapmanızı saglar. Grafikler için kullanılan uygulama (ya da işleyen birim) neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela oyun telefondan oynanıyorsa daha düşük kaliteli şeyler kullanabilirsiniz. İnputların anlamları [burda](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#featurelevelswitch) yazıyor.
 
 * #### [Fresnel](https://youtu.be/PLwEwIYX454) 💝
-(İngilizcede bu nodun ismi okunurken "s" düşürülür, "frenel" şeklinde okunur) Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0a yakın, kenara yakın tarafları 1e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz. Parametreler,
-<br>
-<br>
-<br>
-ExponentIn = Kenarlardan ortaya dogru, fresnelin etkisi diyebiliriz, yani bunu ne kadar arttırırsanız fresenel o kadar etkili olur.
-<br>
-<br>
-BaseReflectFractionIn = Yansıtma degeri, Bu da ExponentIn in aynısı ama dıştan içe degil, her yere etki eder. Eger bunu azaltırsanız yansıma olmaz yani fresnel heryeri kaplar, eger arttırırsanız fresnelin etkisi azalır.
+(İngilizcede bu nodun ismi okunurken "s" düşürülür, "frenel" şeklinde okunur) Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0a yakın, kenara yakın tarafları 1e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz.
+
+Mod | İşlem
+:---: | :---:
+ExponentIn | Kenarlardan ortaya dogru, fresnelin etkisi diyebiliriz, yani bunu ne kadar arttırırsanız fresenel o kadar etkili olur
+BaseReflectFractionIn | Yansıtma degeri, Bu da ExponentIn in aynısı ama dıştan içe degil, her yere etki eder. Eger bunu azaltırsanız yansıma olmaz yani fresnel heryeri kaplar, eger arttırırsanız fresnelin etkisi azalır
 
 * #### [GeneratedRoundRect]()
 
@@ -2902,38 +2866,23 @@ Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştır
 
 
 * #### [Noise](https://youtu.be/hP3P3WH4TjM)
-Gürültü döndürür. Sanırım texture halinde kullanıyoruz. Parametreler,
-<br>
-<br>
-<br>
-Scale = Texture büyüklügü, 0 dan başlar yükselttikçe texture da büyür.
-<br>
-<br>
-Quality = Kaliteyi arttırır.
-<br>
-<br>
-Function = Burdan deseni oluşturan fonksiyonu seçiyoruz. Bunları tek tek anlatamam kendiniz test edin ve ya [bakın](https://youtu.be/hP3P3WH4TjM?t=124).
-<br>
-<br>
-Turbulence = Test etsem bile anlayamadım, aralardaki boşlugu arttırıyo ve ya birleştiriyo olmalı.
-<br>
-<br>
-Levels = Düşükken köşeler sanki çizgi film gibi, arttırınca detaylar daha çok ortaya çıkıyor.
-<br>
-<br>
-Output Min = Genellikle ne kadar siyah olacagını seçersiniz, -5 ve 0 arasında denebilir.
-<br>
-<br>
-Output Max = Genellikle ne kadar beyaz olacagını seçersiniz, 0 ve 1 arasında denebilir.
-<br>
-<br>
-Level Scale = 0 dan uzaklaştıkça (eksi artı farketmez) çizgilerin köşeleri düzleşir.
-<br>
-<br>
-Position = Sanırım sadece 3 boyutlu vektör kabul ediyor, Texturenin pozisyonunu ayarlar.
-<br>
-<br>
-Filter Width = Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
+Gürültü döndürür. Sanırım texture halinde kullanıyoruz.
+
+Parametre | İşlem
+:---: | :---:
+Scale | Texture büyüklügü, 0 dan başlar yükselttikçe texture da büyür.
+Quality | Kaliteyi arttırır.
+Function | Burdan deseni oluşturan fonksiyonu seçiyoruz. Bunları tek tek anlatamam kendiniz test edin ve ya [bakın](https://youtu.be/hP3P3WH4TjM?t=124).
+Turbulence | Test etsem bile anlayamadım, aralardaki boşlugu arttırıyo ve ya birleştiriyo olmalı.
+Levels | Düşükken köşeler sanki çizgi film gibi, arttırınca detaylar daha çok ortaya çıkıyor.
+Output Min | Genellikle ne kadar siyah olacagını seçersiniz, -5 ve 0 arasında denebilir.
+Output Max | Genellikle ne kadar beyaz olacagını seçersiniz, 0 ve 1 arasında denebilir.
+Level Scale | 0 dan uzaklaştıkça (eksi artı farketmez) çizgilerin köşeleri düzleşir.
+
+İnput | İşlem
+:---: | :---:
+Position | Sanırım sadece 3 boyutlu vektör kabul ediyor, Texturenin pozisyonunu ayarlar.
+Filter Width | Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 
 
 * #### [QualitySwitch](https://youtu.be/64I4rzyZ6_Q)
@@ -2946,23 +2895,18 @@ Filter Width = Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 
 
 * #### [RotateAboutAxis](https://youtu.be/ljWoJ7Pp9Ww)
-Materyale dönme efekti kazandırır ama kendi çevresinde degil, dünya içinde. Ayrıca bu dönme efekti hareket olarak degil sadece görünüş olarak olan bir dönme efektidir. Yani dönme efektinden sonra materyalin yeri ne kadar degişse de aslında materiyal ilk koydugunuz konumdadır. Bu node ile materyale istediginiz yönde dönme efekti verebilir bunu otomatikleştirebilirsiniz de. Linkteki videoyu izleyin çünkü yazı ile anlatmak bi anlam ifade etmiyor, eger izlediyseniz yazdıklarımı anlayacaksınız. Parametreleri,
-<br>
-<br>
-<br>
-NormalizedRotationAxis = 3 boyutlu vektör (V3) verin, hangi yöne dogru dönme efekti olmasını istiyorsanız o boyuta 1 degeri verin, 1 degeri verdikleriniz dönme yönünü ifade eder.
-<br>
-<br>
-RotationAngle = Ne kadar dönme efekti uygulanacagı, 0 ve 1 arasında, 1 = tam tur
-<br>
-<br>
-PivotPoint = RotationAngle olarak time nodu baglayın. PivotPointi parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
-<br>
-<br>
-Position = [World Position](#worldposition-%EF%B8%8F) baglayın
-<br>
-<br>
-Period (input degil, details panelinde) = Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsanız, 5 kat yavaşlar, yani 1 tur atması 5 kat daha yavaş olur. Aynı şekilde, azaltarak hızlandırabilirsiniz.
+Materyale dönme efekti kazandırır ama kendi çevresinde degil, dünya içinde. Ayrıca bu dönme efekti hareket olarak degil sadece görünüş olarak olan bir dönme efektidir. Yani dönme efektinden sonra materyalin yeri ne kadar degişse de aslında materiyal ilk koydugunuz konumdadır. Bu node ile materyale istediginiz yönde dönme efekti verebilir bunu otomatikleştirebilirsiniz de. Linkteki videoyu izleyin çünkü yazı ile anlatmak bi anlam ifade etmiyor, eger izlediyseniz yazdıklarımı anlayacaksınız.
+
+Parametre | İşlem
+:---: | :---:
+Period | Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsanız, 5 kat yavaşlar, yani 1 tur atması 5 kat daha yavaş olur. Aynı şekilde, azaltarak hızlandırabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+NormalizedRotationAxis | 3 boyutlu vektör (V3) verin, hangi yöne dogru dönme efekti olmasını istiyorsanız o boyuta 1 degeri verin, 1 degeri verdikleriniz dönme yönünü ifade eder.
+RotationAngle | Ne kadar dönme efekti uygulanacagı, 0 ve 1 arasında, 1 = tam tur
+PivotPoint | RotationAngle olarak time nodu baglayın. PivotPointi parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
+Position | [World Position](#worldposition-%EF%B8%8F) baglayın
 
 * #### [ShaderStatgeSwtich]()
 
