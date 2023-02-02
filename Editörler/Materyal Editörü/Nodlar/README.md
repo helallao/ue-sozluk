@@ -841,6 +841,8 @@ Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min 
 * #### [Cosine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
 Cosine yani kosinüs, [Sine](#sine-%EF%B8%8F) ile aynı işlevi görür ama sadece kosinüs sinüse göre biraz daha önden başlar (kosinüs 1 den, sinüs 0 dan). (Bkz. [Sine](#sine-%EF%B8%8F))
 
+<img width="150" src="../../../Dosyalar/Sine_Cosine.jpg">
+
 * #### [CreateThirdOrthogonalVector]()
 
 
