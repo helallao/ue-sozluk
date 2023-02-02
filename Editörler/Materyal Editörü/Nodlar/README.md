@@ -839,7 +839,7 @@ Clamp Max = sadece max çalışır, input min degerinden küçük olsa bile min 
 İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
 
 * #### [Cosine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
-Cosine yani kosinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. [Sine](#sine-%EF%B8%8F))
+Cosine yani kosinüs, [Sine](#sine-%EF%B8%8F) ile aynı işlevi görür ama sadece kosinüs sinüse göre biraz daha önden başlar (kosinüs 1 den, sinüs 0 dan). (Bkz. [Sine](#sine-%EF%B8%8F))
 
 * #### [CreateThirdOrthogonalVector]()
 
@@ -1005,7 +1005,7 @@ Sıfır ve bir arasında [clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%
 The Sign node indicates whether a numeric input is negative, positive, or exactly 0.
 
 * #### [Sine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
-Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. [Cosine](#cosine-%EF%B8%8F))
+Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur. Bu nodun kullanılma sebebi bu yumuşak efekttir. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. [Cosine](#cosine-%EF%B8%8F))
 
 * #### [Sine_Remapped]()
 
