@@ -1006,7 +1006,7 @@ Sıfır ve bir arasında [clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%
 * #### [Sign]()
 The Sign node indicates whether a numeric input is negative, positive, or exactly 0.
 
-* #### [Sine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
+* #### [Sine](https://youtu.be/gn5Zbsq8eFs) ❤️💙💚💛💜
 Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur. Bu nodun kullanılma sebebi bu yumuşak efekttir. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. [Cosine](#cosine-%EF%B8%8F))
 
 * #### [Sine_Remapped]()
