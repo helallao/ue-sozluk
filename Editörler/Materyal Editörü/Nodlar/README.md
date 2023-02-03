@@ -100,7 +100,7 @@ Fraction degeri 0 dan 1 e yaklaştıkça texturenin renkleri solmaya başlar ve 
 İnput | İşlem
 :---: | :---:
 İsimsiz | Texture ve ya renk
-Fraction (S) | Fraction degeri
+Fraction | Fraction degeri
 Luminance Factors | Burdaki her renk degeri, o renk kanalının ne kadar etkilenecegini belirtir
 
 * #### [LinearTosRGB]() ❤️💛💜
