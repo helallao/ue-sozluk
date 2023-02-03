@@ -119,7 +119,7 @@ Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün,
 Tek bir degere sahip (1 boyutlu) degişken. İçerisinde sayı tutar. Bazı yerlerde (S) diye geçer yani skaler (scalar).
 
 * #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV ve ya V2 diye geçer.
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde V2 diye geçer.
 
 * #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir, bazı yerlerde V3 diye de geçer.
@@ -191,7 +191,7 @@ Field of View | Görüş alanı (V2)
 View Size | Ekran boyutu (V2)
 View Position (Absolute World Space) | Konumumuzu verir (V3)
 Camera Position (Absolute World Space) | Kameramızın konumunu verir (V3)
-Pre-Exposure | [Eye adaption](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye-adaptation) degerini verir (S)
+Pre-Exposure | [Eye adaptation](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye-adaptation) degerini verir (S)
 
 
 ## Coordinates
@@ -205,7 +205,7 @@ Pre-Exposure | [Eye adaption](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye
 * #### [3Dto1DIndex]()
 
 * #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💜💙💛❤️
-Bu materyale sahip meshin pozisyonunu dünyaya göre 3 boyutlu vektör (V3) olarak verir.
+Bu materyale sahip meshin konum bilgisini verir (V3).
 
 * #### [BlurSampleOffsets]() 🤍
 Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
@@ -213,7 +213,7 @@ Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
 * #### [BoundingBoxBased_0-1_UVW]()
 
 * #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
-Kameranın pozisyonunu dünyaya göre 3 boyutlu vektör (V3) olarak verir.
+Kameranın konum bilgisini verir (V3).
 
 * #### [CameraVectorToLatLongUV]()
 
@@ -267,7 +267,7 @@ Speed | Hız degerleri
 Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
-Textureye dönme efekti kazandırır. [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
+Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. Coordinate olarak [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
 
 Parametre | İşlem
 :---: | :---:
@@ -295,7 +295,7 @@ ViewportUV | ScreenPosition degerini 0 ve 1 arasında verir
 PixelPosition | ScreenPosition degerini gerçek piksel sayısına göre verir
 
 * #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar.
+Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. Bazı yerlerde UV ve ya UVs diye geçer.
 
 Parametre | İşlem
 :---: | :---:
@@ -446,7 +446,7 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugTimeSine]() 🤍🤍
-Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda).
+Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda). Speed degeri default 0.5
 
 
 ## Decals
@@ -581,7 +581,7 @@ Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsu
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak texturecoordinate verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
 [LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verin. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay.
@@ -639,7 +639,8 @@ The CheapConstrast_RGB function boosts the contrast of an input by remapping the
 * #### [HighPassTexture]()
 
 
-* #### [HsvToRgb]()
+* #### [HsvToRgb]() 💛💚💙
+[HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerini RGB degerine dönüştürür.
 
 
 * #### [HueShift]() ❤️💙💜💛💚
@@ -657,7 +658,8 @@ Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna
 * #### [SCurve]()
 The SCurve function boosts contrast of an image by interpolating the values of each channel values of an image along an S-curve. This is similar to applying a Curves adjustment in Photoshop and setting the RGB curve to an S-curve or using the Increase Contrast (RGB) preset.
 
-* #### [RgbToHsv]()
+* #### [RGBtoHSV]() 💛💚💙
+RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüştürür.
 
 
 * #### [SCurve]()
@@ -863,7 +865,7 @@ Mutlak deger.
 Toplama.
 
 * #### [AddComponents]() 💛💙💜
-Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 50, 200) şeklinde 3 boyutlu (V3) bi vektör verdiniz, sonuç olarak 30 + 50 + 200 = 280 alırsınız.
+Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30, 50, 200) şeklinde 3 boyutlu (V3) bi vektör verdiniz, sonuç olarak 30 + 50 + 200 = 280 alırsınız.
 
 * #### [AngleBetweenVectors]()
 
@@ -919,7 +921,7 @@ Clamp Min | sadece min çalışır, input max degerinden büyük olsa bile max �
 Clamp Max | sadece max çalışır, input min degerinden küçük olsa bile min çalışmaz.
 
 * #### [ComponentMask(Mask)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
+İnput olarak verdigimiz vektörden, istedigimiz kanalları alabilmemizi saglar.
 
 * #### [Cosine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
 Cosine yani kosinüs, [Sine](#sine-%EF%B8%8F) ile aynı işlevi görür ama sadece kosinüs sinüse göre biraz daha önden başlar (kosinüs 1 den, sinüs 0 dan). (Bkz. [Sine](#sine-%EF%B8%8F))
@@ -1045,7 +1047,7 @@ Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 
 Pi.
 
 * #### [Power](https://youtu.be/zR7ZjwpNV5c) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen inputun (sayı) kuvvetini alır.
+Verilen inputun kuvvetini alır.
 
 * #### [ProjectVectorOntoPlane]()
 
@@ -1060,18 +1062,19 @@ Verilen inputun (sayı) kuvvetini alır.
 
 
 * #### [Remap]() ❤️💛💚💙
-Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (emin degilim). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
 
 
 * #### [RemapValueRange](https://youtu.be/V0by6a5Xesk) 🤍🤍
-Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (acaba). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (emin degilim). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
 
 
 * #### [RemapValueRangeNormalized]() 🤍
 Sıfır ve bir arasında [Clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) yapar. [Clamp(0, 1)](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile eşit yani. Kullanmayın bile.
 
 
-* #### [RGBtoHSV]()
+* #### [RGBtoHSV]() 💛💚💙
+RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüştürür.
 
 
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -1086,8 +1089,8 @@ Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%
 * #### [Saturate]() ❤️💛💚💙💜
 Sıfır ve bir arasında [clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) yapar. [Clamp(0, 1)](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile eşit yani, ama çok kullanılan bir noddur.
 
-* #### [Sign]()
-The Sign node indicates whether a numeric input is negative, positive, or exactly 0.
+* #### [Sign]() 🤍
+Sayıların eksi, artı ve ya sıfıra eşit olup olmadıgını tespit etmede kullanılır. Sayı 0 a eşitse 0, düşükse -1, büyükse +1 döndürür.
 
 * #### [Sine](https://youtu.be/gn5Zbsq8eFs) ❤️💙💚💛💜
 Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur. Bu nodun kullanılma sebebi bu yumuşak efekttir. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. [Cosine](#cosine-%EF%B8%8F))
@@ -1102,7 +1105,7 @@ Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder
 
 
 * #### [SquareRoot(sqrt)](https://youtu.be/HnQZ9acKWiI) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen inputun karekökünü döndürür. Eger vektör verirseniz her degerinin karekökü ayrı ayrı alınır.
+Verilen inputun karekökünü döndürür.
 
 * #### [Step]()
 
@@ -1174,7 +1177,7 @@ The VectorToRadialValue function transforms the vector of a Vector2 into an angl
 
 
 * #### [AddComponents]() 💛💙💜
-Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 50, 200) şeklinde 3 boyutlu (V3) bi vektör verdiniz, sonuç olarak 30 + 50 + 200 = 280 alırsınız.
+Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30, 50, 200) şeklinde 3 boyutlu (V3) bi vektör verdiniz, sonuç olarak 30 + 50 + 200 = 280 alırsınız.
 
 
 * #### [AlignFacingParticlesByVelocity-2D]()
@@ -1188,7 +1191,6 @@ Verdiginiz vektörden (2, 3, 4) her boyutundaki sayıları toplar. mesela (30, 5
 
 * #### [AppendMany]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İnput olarak verdigimiz her sayıyı (S) birleştirir ve vektör oluşturur.
-
 
 * #### [AttachMeshToTheCamera]()
 
@@ -1342,11 +1344,11 @@ Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
 
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz).
+Textureye döndürür. UVs inputuna [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
 
 İnput | İşlem
 :---: | :---:
-UVs | Texturecoordinate baglayın
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
 Rotation Center | Dönme efektinin orta noktası
 Rotation Angle | Döndürme degeri (0 - 1)
 
@@ -1421,12 +1423,10 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugTimeSine]() 🤍🤍
-Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda).
-
+Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda). Speed degeri default 0.5
 
 * #### [DepthFromWorldPosition]() 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-%EF%B8%8F) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
-
 
 * #### [DeriveHDRfromLDR]()
 
@@ -1443,13 +1443,11 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) 🤍🤍
 Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsunuz. Kullanmayın bile.
 
-
 * #### [Distance_Blend]()
 
 
 * #### [DitherTemporalAA](https://www.youtube.com/watch?v=kvHh0Jd-D3Q) 💝
 Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere göre belirli bir sayı aralıgından rastgele (ve ya degil) sayı döndürmesidir. Mesela en yaygın kullanışlarından biri olan görünmezlik efektini örnek alalım, materyalinizi Masked moduna alın ve bu nodu opacity maske baglayın. Alpha Threshold degerini düşürdükçe materyaliniz de görünmez olmaya başlar, çünkü bu node bazı output degerlerini sıfırdan düşük döndürdügü için materyalimizdeki bazı pikseller görünmez olacak. Bu noddan gelen output degerini çeşit çeşit şeylerde kullanabilirsiniz. Random inputuna da 0 vererek rastgele sayıları kapatabilirsiniz. Böylelikle output olarak gelen sayılar bir düzene göre gelir, materyalde bir desen olur. Yukarıda yazdıgım görünmezlik efektini yapıp Random kapalıyken Alpha Threshold degeriyle oynarsanız, materyalinizdeki görünmezlik efektinin bir desen oluşturdugunu görebilirsiniz.
-
 
 * #### [DrawLine-2D]()
 
@@ -1595,7 +1593,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak texturecoordinate verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verin. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay.
 
 
 * #### [LinearSine]()
@@ -2067,10 +2065,12 @@ Invert Density | İçerden dışarı / Dışardan içeri
 * #### [RemapDistribution]()
 
 
-* #### [RGBtoHSV]()
+* #### [RGBtoHSV]() 💛💚💙
+RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüştürür.
 
 
-* #### [RGBtoHSV]()
+* #### [RGBtoHSV]() 💛💚💙
+RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüştürür.
 
 
 * #### [RotateAboutWorldAxis_cheap]()
@@ -2735,11 +2735,11 @@ This function flips the green channel of incoming UVs to place the 0,0 coordinat
 Outputs falloff results for the 3 primary world vectors based on the camera angle. Can be used to blend between textures based on direction the camera is looking.
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna texturecoordinate baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak UV döndürür (Texturelerdeki UV bölümüne baglıyorsunuz).
+Textureye döndürür. UVs inputuna [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
 
 İnput | İşlem
 :---: | :---:
-UVs | Texturecoordinate baglayın
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
 Rotation Center | Dönme efektinin orta noktası
 Rotation Angle | Döndürme degeri (0 - 1)
 
@@ -2987,7 +2987,7 @@ FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0
 Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
 
 * #### [Distance](https://youtu.be/ZINJAvhQilg) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır. 1, 2, 3 boyutlu vektörlerin hepsinde çalışır.
+Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır. V1, V2, V3, V4 vektörlerin hepsinde çalışır.
 
 * #### [DistanceFieldGradient]()
 The DistanceFieldGradient Material Expression node, when normalized, outputs the X,Y,Z direction an object would move with in the distance field. This makes the Distance Field Gradient Material Expression node well-suited for Materials that need to simulate the flow of liquids.
@@ -2996,7 +2996,7 @@ The DistanceFieldGradient Material Expression node, when normalized, outputs the
 The Distance To Nearest Surface Material Expression node allows Materials to sample any point in the levels Global Distance Field. This Material Expression works by outputting the signed distance in world space units from the distance field to the nearest occluders in the scene.
 
 * #### [EyeAdaptation]()
-
+[Eye adaptation](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye-adaptation) degerini verir (S)
 
 * #### [FeatureLevelSwitch](https://youtu.be/wo6fSPJVp2I) 💝
 İf gibi, duruma göre ayar yapmanızı saglar. Grafikler için kullanılan uygulama (ya da işleyen birim) neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela oyun telefondan oynanıyorsa daha düşük kaliteli şeyler kullanabilirsiniz. İnputların anlamları [burda](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#featurelevelswitch) yazıyor.
@@ -3067,7 +3067,7 @@ Period | Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsanız, 5 kat yavaşl
 :---: | :---:
 NormalizedRotationAxis | 3 boyutlu vektör (V3) verin, hangi yöne dogru dönme efekti olmasını istiyorsanız o boyuta 1 degeri verin, 1 degeri verdikleriniz dönme yönünü ifade eder.
 RotationAngle | Ne kadar dönme efekti uygulanacagı, 0 ve 1 arasında, 1 = tam tur
-PivotPoint | RotationAngle olarak time nodu baglayın. PivotPointi parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
+PivotPoint | Test etmek için RotationAngle olarak time nodu baglayın. PivotPointe vektör V3 baglayın ve parametreye dönüştürün ve dönme efektinin izledigi yolu takip edin. Normalde daire çizer. Şimdi siz eger PivotPointin herhangi bir yönünü mesela R, arttırırsanız, dönme efektinin çizdigi daire yolunun R yönüne dogru kaymaya başladıgını görürsünüz. Daha dogrusu daireyi sündürürsünüz. Çok fazla arttırırsanız daire çok süner ve dönme efektinin izledigi yol sanki bir yumurta gibi olur. Diger boyutlar ile birlikte bu şekilde dönme efektinin izledigi daireyi büyütebilirsiniz.
 Position | [World Position](#worldposition-%EF%B8%8F) baglayın
 
 * #### [ShaderStatgeSwtich]()
@@ -3120,7 +3120,7 @@ The Vector Noise Material expression adds several more 3D or 4D vector noise res
 Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör (V4) yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu (V4) vektör döndürür.
 
 * #### [ComponentMask(Mask)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-İnput olarak verdigimiz vektörden (1 boyuttan fazla), istedigimiz kanalı alabilmemizi saglar.
+İnput olarak verdigimiz vektörden, istedigimiz kanalları alabilmemizi saglar.
 
 * #### [CrossProduct](https://youtu.be/KWtRiKbNS24)
 The CrossProduct expression computes the cross product of two three-channel vector value inputs and outputs the resulting three-channel vector value. Given two vectors in space, the cross product is a vector that is perpendicular to both of the inputs.
@@ -3148,13 +3148,13 @@ The TransformPosition expression can transform any position from screen space to
 ## Vectors
 
 * #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💜💙💛❤️
-Bu materyale sahip meshin pozisyonunu dünyaya göre 3 boyutlu vektör (V3) olarak verir.
+Bu materyale sahip meshin konum bilgisini verir (V3).
 
 * #### [CameraDirectionVector]()
 
 
 * #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
-Kameranın pozisyonunu dünyaya göre 3 boyutlu vektör (V3) olarak verir.
+Kameranın konum bilgisini verir (V3).
 
 
 * #### [CameraVectorWithWPOOptions]()
@@ -3164,7 +3164,7 @@ Kameranın pozisyonunu dünyaya göre 3 boyutlu vektör (V3) olarak verir.
 The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
 
 * #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde UV ve ya V2 diye geçer.
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde V2 diye geçer.
 
 * #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir, bazı yerlerde V3 diye de geçer.
@@ -3226,7 +3226,6 @@ Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesel
 
 * #### [AppendMany]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İnput olarak verdigimiz her sayıyı (constant) birleştirir ve vektör oluşturur.
-
 
 
 ## VirtualTexture
