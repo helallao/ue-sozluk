@@ -95,13 +95,19 @@ Kullanışsız, renkleri silmede kullanılıyor.
 ## Color
 
 * #### [Desaturation](https://youtu.be/0pPyCZvZ05A) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-İnput olarak texture ve ya renk verebilirsiniz. Fraction degeri 0 dan 1 e yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde eksilere gittikçe texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak (kontrast ayarı) için kullanabilirsiniz.
+Fraction degeri 0 dan 1 e yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde eksilere gittikçe texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak (kontrast ayarı) için kullanabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+İsimsiz | Texture ve ya renk
+Fraction (S) | Fraction degeri
+Luminance Factors | Burdaki her renk degeri, o renk kanalının ne kadar etkilenecegini belirtir
 
 * #### [LinearTosRGB]() ❤️💛💜
 Verilen texturenin kontrast derecesini arttırır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. Bu nodu kullanırsanız az parlak noktalar daha parlak olur ve ateş daha da büyür (zıttı [sRGBToLinear](#srgbtolinear-)).
 
 * #### [Luminance]() 💝
-Verilen inputun (V3 olmalı) rengine göre parlaklık degeri döndürür. Yani insan gözüne ne kadar parlak göründügünü. Luminance Factors bölümünde hangi renklerin daha parlak oldugunu görebilirsiniz, burdaki orana göre parlaklık hesaplanıyor. Luminance Mode kısmında farklı renk uzaylarına (color space) göre ayarlanan Luminance Factors degerleri vardır. Zaten burdaki renk uzaylarının hepsinin degerleri birbirine çok yakın. Normalde parlaklık Yeşil > Kırmızı > Mavi şeklinde hesaplanıyor. Tabi isterseniz Luminance Factors bölümünden kendi istediginiz oranları verebilirsiniz, böylelikle "Custom" Luminance Mode kullanmış olursunuz. Bu nodu farklı şeylerde de kullanabilirsiniz.
+Verilen inputun (V3 olmalı yoksa düzgün çalışmıyor) rengine göre parlaklık degeri döndürür. Yani insan gözüne ne kadar parlak göründügünü. Luminance Factors bölümünde hangi renklerin daha parlak oldugunu görebilirsiniz, burdaki orana göre parlaklık hesaplanıyor. Luminance Mode kısmında farklı renk uzaylarına (color space) göre ayarlanan Luminance Factors degerleri vardır. Zaten burdaki renk uzaylarının hepsinin degerleri birbirine çok yakın. Normalde parlaklık Yeşil > Kırmızı > Mavi şeklinde hesaplanıyor. Tabi isterseniz Luminance Factors bölümünden kendi istediginiz oranları verebilirsiniz, böylelikle "Custom" Luminance Mode kullanmış olursunuz. Bu nodu farklı şeylerde de kullanabilirsiniz.
 
 * #### [sRGBToLinear]() 💜💙💛
 Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. Bu nodu kullanırsanız az parlak noktalar neredeyse yok olur, ateşin çok parlak oldugu kısımlar daha az parlak ve ateş daha da küçük olur (zıttı [LinearTosRGB](#lineartosrgb-%EF%B8%8F)).
@@ -131,7 +137,7 @@ Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8
 Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse bu node deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga bu nodu baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek.
 
 * #### [IsOrthographic]()
-Eger kamera modu "Top" ise bu node "1" (S) döndürür, aksi takdirde "0" (S) döndürür.
+Eger kamera modu "Top" ise bu node 1 (S) döndürür, aksi takdirde 0 (S) döndürür.
 
 * #### [ParticleColor]()
 
@@ -180,12 +186,12 @@ Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabi
 
 Mod | İşlem
 :---: | :---:
-Render Target Size | Ekran boyutu
-Field of View | Görüş alanı
-View Size | Ekran boyutu
+Render Target Size | Ekran boyutu (V2)
+Field of View | Görüş alanı (V2)
+View Size | Ekran boyutu (V2)
 View Position (Absolute World Space) | Konumumuzu verir (V3)
 Camera Position (Absolute World Space) | Kameramızın konumunu verir (V3)
-Pre-Exposure | Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de eye adaption degerini bunun sayesinde alabiliyoruz.
+Pre-Exposure | [Eye adaption](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye-adaptation) degerini verir (S)
 
 
 ## Coordinates
@@ -235,6 +241,16 @@ Bu materyale sahip olan objenin kapladıgı alanın yarıçapını verir.
 * #### [Panner](https://youtu.be/24mfLY7aQFQ) ❤️💛💚💜💙
 Texturelara hareket vermenize yarar.
 
+Parametre | İşlem
+:---: | :---:
+Fractional Part | Noktadan sonraki degeri döndürüyor diyo ama ben anlayamadım tam
+
+İnput | İşlem
+:---: | :---:
+Coordinate | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Time | Aldıgı zaman degerine göre pozisyonu belirler
+Speed | Hız degerleri
+
 * #### [PanTextureCoordinateChannelfrom-1ton+1]()
 
 
@@ -251,7 +267,18 @@ Texturelara hareket vermenize yarar.
 Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
-Textureye dönme efekti kazandırır. UV texture kordinatı döndürür (Texturelerdeki UV bölümüne baglıyorsunuz). Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Bunu en iyi deneyerek anlayabilirsiniz.
+Textureye dönme efekti kazandırır. [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. Coordinate olarak TextureCoordinate verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
+
+Parametre | İşlem
+:---: | :---:
+Center X | X ekseninde orta nokta
+Center Y | Y ekseninde orta nokta
+Speed | Hız degeri
+
+İnput | İşlem
+:---: | :---:
+Coordinate | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Time | Aldıgı zaman degerine göre pozisyonu belirler
 
 * #### [SampleSceneDepth]()
 
@@ -261,6 +288,11 @@ The SceneTexelSize expression allows you to offset by texel sizes, as you would 
 
 * #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI) 💝
 ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (V2). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, ViewportUV bu degeri 0 ve 1 arasında verirken, PixelPosition bu degeri gerçek piksel sayısına göre verir.
+
+Output | İçerik
+:---: | :---:
+ViewportUV | ScreenPosition degerini 0 ve 1 arasında verir
+PixelPosition | ScreenPosition degerini gerçek piksel sayısına göre verir
 
 * #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar.
@@ -332,23 +364,86 @@ HLSL dili (High-Level Shader Language) ile yazılan kodları çalıştırmanıza
 * #### [DebugBinaryValues-Float]() 🤍
 Verilen constant (S) sayıları, [floatdan](http://www.binaryconvert.com/convert_float.html) binarye çevirilmiş halini döndürür.
 
+İnput | İşlem
+:---: | :---:
+Number To Convert | Sayı
+Number of Bits | Gösterilecek bit sayısı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+
 * #### [DebugBinaryValues-Int]() 🤍
 Verilen constant (S) sayıları, [integerdan](http://www.binaryconvert.com/convert_signed_int.html) binarye çevirilmiş halini döndürür.
+
+İnput | İşlem
+:---: | :---:
+Number To Convert | Sayı
+Number of Bits | Gösterilecek bit sayısı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 * #### [DebugFloat2Values]() ❤️💛💚💙💜
 Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
+İnput | İşlem
+:---: | :---:
+Vector2 | Vektör
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
+
 * #### [DebugFloat3Values]() ❤️💙💜💛💚
 Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
+İnput | İşlem
+:---: | :---:
+Vector3 | Vektör
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
+
 * #### [DebugFloat4Values]() ❤️💙💚💜💛
 Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+İnput | İşlem
+:---: | :---:
+Vector4 | Vektör
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
 
 * #### [DebugOnOff]() 🤍🤍
 1 saniye içerisinde, 1 saniyenin yarısı 0 yarısı 1 olacak şekilde, sürekli 1 ve 0 arasında output döndürür. Kullanmayın bile.
 
 * #### [DebugScalarValues]() 💜❤️💙💛💚
 Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+İnput | İşlem
+:---: | :---:
+Number | Sayı
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
 
 * #### [DebugTimeSine]() 🤍🤍
 Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda).
@@ -490,6 +585,14 @@ Yıldız şeklinde bi texture döndürüyor, büyüklügünü falan ayarlıyorsu
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
 [LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verin. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay.
+
+İnput | İşlem
+:---: | :---:
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Center Position | Orta nokta
+Radius | Çap
+Density | Şiddet
+Invert Density | İçerden dışarı / Dışardan içeri
 
 * #### [SmoothCurve]()
 The SmoothCurve function takes in an existing texture channel or gradient and uses a procedural curve to control the transition from dark to light. The user can adjust the tangents of this curve to change the result.
@@ -1254,17 +1357,68 @@ Rotation Angle | Döndürme degeri (0 - 1)
 * #### [DebugFloat2Values]() ❤️💛💚💙💜
 Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
+İnput | İşlem
+:---: | :---:
+Vector2 | Vektör
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
+
 * #### [DebugFloat3Values]() ❤️💙💜💛💚
 Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
 
+İnput | İşlem
+:---: | :---:
+Vector3 | Vektör
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
+
 * #### [DebugFloat4Values]() ❤️💙💚💜💛
 Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+İnput | İşlem
+:---: | :---:
+Vector4 | Vektör
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
 
 * #### [DebugOnOff]() 🤍🤍
 1 saniye içerisinde, 1 saniyenin yarısı 0 yarısı 1 olacak şekilde, sürekli 1 ve 0 arasında output döndürür. Kullanmayın bile.
 
 * #### [DebugScalarValues]() 💜❤️💙💛💚
 Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+
+İnput | İşlem
+:---: | :---:
+Number | Sayı
+MaximumNumberOfDigits | Maximum numara saysı
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
+
+Output | İçerik
+:---: | :---:
+ColorCodedOutput | Renkli
+GrayScaleOutput | Siyah beyaz
 
 * #### [DebugTimeSine]() 🤍🤍
 Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda).
@@ -1891,6 +2045,14 @@ Pi.
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
 [LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şeklinde beyazlık oluşturuyor. İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verin. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay.
+
+İnput | İşlem
+:---: | :---:
+UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Center Position | Orta nokta
+Radius | Çap
+Density | Şiddet
+Invert Density | İçerden dışarı / Dışardan içeri
 
 
 * #### [RaiseBlackLevelsByPercentage]()
