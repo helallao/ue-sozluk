@@ -879,29 +879,29 @@ Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30
 * #### [AppendVector(Append)](https://youtu.be/pFkth9GKci4) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip vektör döndürür. En fazla 4 boyutlu vektör (V4) yapılabilir, eger 3 + 2 gibi bir işlem yaparsanız hata verecektir, ama 3 + 1 yaparsanız sanki birinci inputa alpha degeri ekliyormuşsunuz gibi toplar ve 4 boyutlu (V4) vektör döndürür.
 
-* #### [Arccosine]()
-The Arccosine expression outputs the inverse cosine function.
+* #### [Arccosine]() 💚💛💜
+Ark kosinüs degerini verir, (Bkz. [Cosine](#cosine-%EF%B8%8F))
 
-* #### [ArccosineFast]()
-The ArccosineFast expression outputs an approximation of the inverse cosine function that is faster to calculate than the more accurate Arccosine expression. Input must be between -1 and 1.
+* #### [ArccosineFast]() ❤️💙💛
+[Arccosine](#arccosine-) ile aynı ama daha hızlı ve tam olarak dogru degil ama yakın degerler veriyor.
 
-* #### [Arcsine]()
-The Arcsine expression outputs the inverse sine function.
+* #### [Arcsine]() ❤️💙💚
+Ark sinüs degerini verir, (Bkz. [Sine](#sine-%EF%B8%8F))
 
-* #### [ArcsineFast]()
-The ArcsineFast expression outputs an approximation of the inverse sine function that is faster to calculate than the more accurate Arcsine expression. Input must be between -1 and 1.
+* #### [ArcsineFast]() 💚💛💜
+[Arcsine](#arcsine-%EF%B8%8F) ile aynı ama daha hızlı ve tam olarak dogru degil ama yakın degerler veriyor.
 
-* #### [Arctangent]()
-The Arctangent expression outputs the inverse tangent function.
+* #### [Arctangent]() ❤️💙💜
+Ark tanjant degerini verir, (Bkz. [Tangent](#tangent-))
 
-* #### [Arctangent2]()
-The Arctangent2 expression outputs the inverse tangent of x / y where input signs are used to determine quadrant.
+* #### [Arctangent2]() 💙💛💜
+Ark tanjant degerini verir, ama quadrant degerlerini belirlemek için verdigimiz inputlar kullanılır. Trigonometri bilgim olmadıgı için bilmiyorum.
 
-* #### [Arctangent2Fast]()
-The Arctangent2Fast expression outputs an approximation of the inverse tangent of X / Y where input signs are used to determine quadrant. It is faster to calculate but less accurate than the Arctangent2 expression.
+* #### [Arctangent2Fast]() ❤️💛💙
+[Arctangent2](#arctangent2-) ile aynı ama daha hızlı ve tam olarak dogru degil ama yakın degerler veriyor.
 
-* #### [ArctangentFast]()
-The ArctangentFast expression outputs an approximation of the inverse tangent function that is faster to calculate than the more accurate Arctangent expression.
+* #### [ArctangentFast]() ❤️💚💙
+[Arctangent](#arctangent-%EF%B8%8F) ile aynı ama daha hızlı ve tam olarak dogru degil ama yakın degerler veriyor.
 
 * #### [ArrangePointsEvenlyAroundABox]()
 
@@ -1116,8 +1116,8 @@ Verilen inputun karekökünü döndürür.
 * #### [SumOfAConsecutiveNumberSequence]()
 
 
-* #### [Tangent]()
-The Tangent node outputs the tangent of the specified value.
+* #### [Tangent]() 💚💛💜
+Verilen inputun tanjant degerini verir.
 
 * #### [Transform3x3Matrix]()
 
