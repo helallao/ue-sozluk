@@ -3,7 +3,7 @@
 
 
 
-# Bölümler (Soldan Saga)
+# Bölümler
 
 * [Add Butonu](#add-butonu)
 * [İmport Butonu](#i̇mport-butonu)
