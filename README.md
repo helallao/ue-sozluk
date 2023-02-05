@@ -14,7 +14,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 
 ## [Level Editörü](Editörler/Map%20Editörü)
-<img src="Dosyalar/Map_Editor_Ana_Ekran.jpg">
+<img src="Dosyalar/Level_Editor_Ana_Ekran.jpg">
 
 ## [Blueprint Editörü](Editörler/Blueprint%20Editörü)
 <img src="Dosyalar/Blueprint_Editor_Ana_Ekran.jpg">
