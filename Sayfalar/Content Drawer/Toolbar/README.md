@@ -26,4 +26,4 @@ Degişiklik yapılıp kaydedilmemiş bütün dosyaları kaydeder.
 Aynı tarayıcıdaki ileri geri tuşları gibi, dosya yolları arasında ileri geri gitmenize yarar.
 
 ## [Dosya Yolu]()
-Şu an oldugunuz dosya/klasör yolunu, her klasörü tıklanabilir butonlar halinde gösterir. Ayrıca aralardaki küçük > işaretlerine tıklayarak, o klasörün altındaki diger klasörleri görebilir/gidebilirsiniz.
+Şu an oldugunuz dosya/klasör yolunu, her klasörü tıklanabilir butonlar halinde gösterir. Ayrıca aralardaki küçük > işaretlerine tıklayarak, o klasörün altındaki diger klasörleri görebilir/gidebilirsiniz. En uçtaki küçük klasör işaretine tıklayarak da [Kaynaklar](../Kaynaklar) bölümünün küçük bi versiyonunu kullanabilirisiniz.
