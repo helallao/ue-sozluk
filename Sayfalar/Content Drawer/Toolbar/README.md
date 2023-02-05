@@ -6,9 +6,9 @@
 # Bölümler (Soldan Saga)
 
 * [Add Butonu](#add-butonu)
-* [İmport Butonu](#import-butonu)
+* [İmport Butonu](#i̇mport-butonu)
 * [Save All Butonu](#save-all-butonu)
-* [İleri Geri Butonları](#ileri-geri-butonları)
+* [İleri Geri Butonları](#i̇leri-geri-butonları)
 * [Dosya Yolu](#dosya-yolu)
 
 
