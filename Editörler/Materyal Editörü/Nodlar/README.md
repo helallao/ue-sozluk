@@ -232,7 +232,7 @@ Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir v
 * #### [ObjectAlignedVirtualPlaneCoordinates]()
 
 * #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
-Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
+Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir (0-1), obejenin yönüne göre.
 
 * #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💝
 Bu materyale sahip olan objenin konum bilgisini verir (V3).
@@ -245,11 +245,11 @@ Texturelara hareket vermenize yarar.
 
 Parametre | İşlem
 :---: | :---:
-Fractional Part | Noktadan sonraki degeri döndürüyor diyo ama ben anlayamadım tam
+Fractional Part | Noktadan sonraki degeri döndürüyor diyo ama ben tam anlayamadım
 
 İnput | İşlem
 :---: | :---:
-Coordinate | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 Time | Aldıgı zaman degerine göre pozisyonu belirler
 Speed | Hız degerleri
 
@@ -269,7 +269,7 @@ Speed | Hız degerleri
 Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
-Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. Coordinate olarak [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
+Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. Coordinate olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
 
 Parametre | İşlem
 :---: | :---:
@@ -279,7 +279,7 @@ Speed | Hız degeri
 
 İnput | İşlem
 :---: | :---:
-Coordinate | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 Time | Aldıgı zaman degerine göre pozisyonu belirler
 
 * #### [SampleSceneDepth]()
@@ -302,7 +302,7 @@ Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) 
 Parametre | İşlem
 :---: | :---:
 UTiling | X ekseninde (yatay) takrarlama sayısı
-VTiling | y ekseninde (dikey) takrarlama sayısı
+VTiling | Y ekseninde (dikey) takrarlama sayısı
 
 * #### [UVBrickPatterns]()
 
@@ -326,11 +326,11 @@ Ekran boyutunu piksel olarak verir. 2 boyutlu vektör (V2) döndürür. Eger ekr
 
 
 * #### [WorldPosition](https://youtu.be/8aYe54XrZYI) ❤️💛💚💙💜
-Pixellerin uzay/zaman da konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
+Pixellerin uzay boşlugu ([WS](Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu)) üzerinde konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
 
 Mod | İşlem
 :---: | :---:
-Absolute World Position | Dünyaya göre konumu (materyalin) verir (V3)
+Absolute World Position | [Dünyaya göre](Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu) konumu (materyalin) verir (V3)
 Camera Relative World Position | Kameraya göre konumu (materyalin) verir (V3)
 
 * #### [WorldSpaceAlignedScreenCoordinates]()
@@ -370,7 +370,7 @@ Verilen constant (S) sayıları, [floatdan](http://www.binaryconvert.com/convert
 :---: | :---:
 Number To Convert | Sayı
 Number of Bits | Gösterilecek bit sayısı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 * #### [DebugBinaryValues-Int]() 🤍
 Verilen constant (S) sayıları, [integerdan](http://www.binaryconvert.com/convert_signed_int.html) binarye çevirilmiş halini döndürür.
@@ -379,7 +379,7 @@ Verilen constant (S) sayıları, [integerdan](http://www.binaryconvert.com/conve
 :---: | :---:
 Number To Convert | Sayı
 Number of Bits | Gösterilecek bit sayısı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 * #### [DebugFloat2Values]() ❤️💛💚💙💜
 Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
@@ -388,7 +388,7 @@ Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe
 :---: | :---:
 Vector2 | Vektör
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
@@ -404,7 +404,7 @@ Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe
 :---: | :---:
 Vector3 | Vektör
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
@@ -420,7 +420,7 @@ Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe
 :---: | :---:
 Vector4 | Vektör
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
@@ -439,7 +439,7 @@ Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş say
 :---: | :---:
 Number | Sayı
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
 Output | İçerik
@@ -571,7 +571,7 @@ Bu node içerisinde gerçekten texture barındırmaz ama bir texturenin obje hal
 ## Gradient
 
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) ❤️💜💛
-Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [GetGradientMapRow]()
 
@@ -583,14 +583,14 @@ Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak y�
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
-[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şeklinde beyazlık oluşturuyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şeklinde beyazlık oluşturuyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 Center Position | Orta nokta
 Radius | Çap
 Density | Şiddet
@@ -910,7 +910,10 @@ Ark tanjant degerini verir, ama quadrant degerlerini belirlemek için verdigimiz
 
 * #### [Ceil](https://youtu.be/UIXOPWJVHDE) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı [Floor](#floor-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)). örnegin 
+<br>
+<br>
 9.9 -> 9
+<br>
 9.1 -> 9
 
 * #### [Clamp](https://youtu.be/KqMpPxVjGWY) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -959,7 +962,10 @@ The DotProduct expression computes the dot product, which can be described as th
 
 * #### [Floor](https://youtu.be/UIXOPWJVHDE) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı [Ceil](#ceil-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)). örnegin 
+<br>
+<br>
 9.9 -> 10
+<br>
 9.1 -> 10
 
 * #### [Fmod](https://youtu.be/J57rNg3YwaA) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -1347,11 +1353,11 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
+Textureye döndürür. UVs inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
 
 İnput | İşlem
 :---: | :---:
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
 Rotation Center | Dönme efektinin orta noktası
 Rotation Angle | Döndürme degeri (0 - 1)
 
@@ -1366,7 +1372,7 @@ Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe
 :---: | :---:
 Vector2 | Vektör
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
@@ -1382,7 +1388,7 @@ Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe
 :---: | :---:
 Vector3 | Vektör
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
@@ -1398,7 +1404,7 @@ Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe
 :---: | :---:
 Vector4 | Vektör
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 Component Spacing | Yazıların arasındaki boşluk, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
@@ -1417,7 +1423,7 @@ Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş say
 :---: | :---:
 Number | Sayı
 MaximumNumberOfDigits | Maximum numara saysı
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 DebugTextLocation RG_UpperRight BA_LowerLeft | Yazının konumu, R ve G degeri yazının sol üst köşesini temsil ediyor, B ve A degeri de sag alt köşe, sanki iki tane XY gibi.
 
 Output | İçerik
@@ -1444,7 +1450,7 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) ❤️💜💛
-Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [Distance_Blend]()
 
@@ -1596,7 +1602,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. Verdiginiz deger sıfıra yaklaştıkça U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya siyah efekt uygular, yani kenarlarda siyah bölümler oluşturur. Output olarak gelen U ve V kanallarını kullanıp, mesela bi textureden gelen RGB degerini U degeriyle çarparak, resminizin kenarlarına siyahlık ekleyebilirsiniz. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 
 * #### [LinearSine]()
@@ -2045,11 +2051,11 @@ Pi.
 
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
-[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şeklinde beyazlık oluşturuyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şeklinde beyazlık oluşturuyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil küçültme anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 Center Position | Orta nokta
 Radius | Çap
 Density | Şiddet
@@ -2159,22 +2165,22 @@ Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%
 
 
 * #### [SphereGradient-2D]() ❤️💛💜
-[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direkmen daire şekli veriyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direkmen daire şekli veriyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 Center Position | Orta nokta
 Radius | Çap
 
 
 * #### [SphereGradient-3D]() ❤️💛💙
-[SphereGradient-2D](#spheregradient-2d-%EF%B8%8F) gibi ama daire şeklini WS yani world space olarak veriyor. Calculate Camera İnside ayarı şu işe yarar, normalde objenin içine girdiginizde daire şeklinin köşeleri sadece çizgilerden oluşur ama bu ayar açıkken ek hesaplamalar yapılır ve çizgi şeklinde degil de [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) nodundaki gibi giderek azalan bir beyazlık degeri olur yani dairenin köşeleri yavaş yavaş görünmez olmaya başlar. Bu node bir gradient nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[SphereGradient-2D](#spheregradient-2d-%EF%B8%8F) gibi ama daire şeklini [WS](Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu) yani world space olarak veriyor. Calculate Camera İnside ayarı şu işe yarar, normalde objenin içine girdiginizde daire şeklinin köşeleri sadece çizgilerden oluşur ama bu ayar açıkken ek hesaplamalar yapılır ve çizgi şeklinde degil de [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) nodundaki gibi giderek azalan bir beyazlık degeri olur yani dairenin köşeleri yavaş yavaş görünmez olmaya başlar. Bu node bir [gradient](Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
 Location | Konum degeri
-Offset | Offset degeri
+Offset | [Offset](Terimler%20Sözlügü/README.md#offset) degeri
 Radius | Çap
 Calculate Camera İnside | Objenin içine girince ek hesaplamalar yapılıp yapılmayacagı
 Depth Biased Alpha | Bilmiyorum
@@ -2756,11 +2762,11 @@ This function flips the green channel of incoming UVs to place the 0,0 coordinat
 Outputs falloff results for the 3 primary world vectors based on the camera angle. Can be used to blend between textures based on direction the camera is looking.
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
+Textureye döndürür. UVs inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
 
 İnput | İşlem
 :---: | :---:
-UVs | [Texture Coordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
 Rotation Center | Dönme efektinin orta noktası
 Rotation Angle | Döndürme degeri (0 - 1)
 
@@ -3200,7 +3206,7 @@ This expression has been deprecated in Unreal Engine 4 as lighting calculations 
 The Object Bounds expression outputs the size of the object in each axis. If used as color, the X, Y, and Z axes correspond to R, G, and B, respectively.
 
 * #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
-Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir, obejenin yönüne göre.
+Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir (0-1), obejenin yönüne göre.
 
 * #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💝
 Bu materyale sahip olan objenin konum bilgisini verir (V3).
