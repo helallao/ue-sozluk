@@ -1483,6 +1483,7 @@ Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere gö
 
 
 * #### [FlipBook]()
+Bu node hareketli resimler oluşturmanıza yarar. [Sprite Sheet](../Terimler%20Sözlügü/README.md#sprite-sheet) yöntemini kullanır.
 
 
 * #### [FlipBook_MotionVectors]()
@@ -1986,7 +1987,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [ObjectSpaceFalloff]()
 
 
-* #### [OffsetAndScaleTol]()
+* #### [OffsetAndScaleTo1]()
+Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz Offset degerine göre offset verir diyo ama ne anlamda offset oldugunu bilmiyorum. Offset verip sonuçları da tekrar 0-1 arasında taşıyor.
 
 
 * #### [OrthoFOV]()
@@ -2010,7 +2012,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [ParticleDOF]()
 
 
-* #### [PassThrough]()
+* #### [PassThrough]() 🤍
+Bu node hiçbir işe yaramaz, sadece pass işlemi yapar yani sadece hiçbir şey yapar. Bu nodu çok karmaşık kodlarda düzen oluşturmak ve ya açıklama yapacaksanız bu nodu koyup üzerine de açıklama yazmak için kullanabilirsiniz ama siz yine de kullanmayın çok saçma.
 
 
 * #### [PerceivedBrightness]()
@@ -2209,8 +2212,8 @@ FadeDistance | Bilmiyorum
 * #### [SplineThicken]()
 
 
-* #### [SplitComponents]()
-
+* #### [SplitComponents]() 💛💚💙💜
+Bu node [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı işlevi görür. Çok kullanılan bir noddur.
 
 * #### [Sprite]()
 
@@ -3340,9 +3343,6 @@ The ObjectPivotPoint function returns the object's pivot point in world space. T
 
 * #### [ObjectScale]()
 The ObjectScale function returns the object's XYZ scale together and seperately. This is not compatible with the pixel shader.
-
-* #### [OffsetAndScaleTo1]()
-Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz Offset degerine göre offset verir diyo ama ne anlamda offset oldugunu bilmiyorum. Offset verip sonuçları da tekrar 0-1 arasında taşıyor.
 
 * #### [OrthoFOV]()
 
