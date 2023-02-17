@@ -2243,7 +2243,8 @@ Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (d�
 * #### [TextureCropping]()
 
 
-* #### [TimeWithSpeedVariable]()
+* #### [TimeWithSpeedVariable]() 🤍🤍
+Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik eklenmiş. Verdiginiz Speed degerini Time degeri ile çarpıyor böylelikle mesela 2 kat hızlı Time degeri istiyorsanız iki ile çarpıp iki kat hızlı Time degeri alabilirsiniz. Bir de Frac Time diye output var, time degerinin noktadan sonraki kısmını ([kesirli kısmını](#frac-%EF%B8%8F)) veriyor. Kullanışsız.
 
 
 * #### [Transform3x3Matrix]()
@@ -3339,6 +3340,9 @@ The ObjectPivotPoint function returns the object's pivot point in world space. T
 
 * #### [ObjectScale]()
 The ObjectScale function returns the object's XYZ scale together and seperately. This is not compatible with the pixel shader.
+
+* #### [OffsetAndScaleTo1]()
+Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz Offset degerine göre offset verir diyo ama ne anlamda offset oldugunu bilmiyorum. Offset verip sonuçları da tekrar 0-1 arasında taşıyor.
 
 * #### [OrthoFOV]()
 
