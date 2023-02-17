@@ -1483,8 +1483,18 @@ Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere gö
 
 
 * #### [FlipBook]()
-Bu node hareketli resimler oluşturmanıza yarar. [Sprite Sheet](../Terimler%20Sözlügü/README.md#sprite-sheet) yöntemini kullanır.
+Bu node hareketli resimler/animasyon oluşturmanıza yarar. [Sprite Sheet](../Terimler%20Sözlügü/README.md#sprite-sheet) yöntemini kullanır. "Animation Phase" degeri animasyon fazını belirler, yani mesela diyelim ki 2x2 yani 4 tane resimden oluşan bir flipbook yapmak istiyorsunuz, 1 saniyeye 4e bölersek ilk animasyon 0 ile 0.25 arasında (0 dahil) iken gösterilecek, yani "Animation Phase" degeri bu aralıkta ise ilk resim gösterilir. 0.25 degeri verildigi anda 2. resime geçer ve bu şekilde ilerler. "Animation Phase" degerinin sürekli degişmesi için [Time](#time-%EF%B8%8F) kullanırız. Az önceki örnekte eger fark ettiyseniz, tam 1 sayısında iken bu deger 5. bölüme denk gelir ve böyle bi bölüm olmadıgı için 1 sayısında da ilk resim kullanılır. Bunu engellemek için "Clamp Anim" diye bir input var, eger bu seçenegi aktifleştirirseniz sayılar 0 ve 0.99 arasında [Clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) edilir ve 1 degeri olmaz ama bu seçenegi aktifleştirdiginizde "Animation Phase" degeri olarak [Time](#time-%EF%B8%8F) kullanamazsınız, [Time](#time-%EF%B8%8F) nodunuza "Period" vermelisiniz ve bu deger de 0.99 olmalı çünkü "Clamp Anim" seçenegini aktifleştirdigimiz için [Time](#time-%EF%B8%8F) nodundan gelen sayı 0.99 dan büyükse yine en son resimi döndürecek o yüzden son resimden sonra tekrar başa dönmeyecek işte bu yüzden "Clamp Anim" seçenegi açıksa "Period" belirlemeniz gerek.
 
+İnput | İşlem
+:---: | :---:
+Animation Phase | Animasyon Phase degeri
+Number of Rows | Satır sayısı (yani X ekseni)
+Number of Columns | Sütun sayısı (yani Y ekseni)
+Texture | [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) vermelisiniz, [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanamazsınız
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+MipBias/Level | Bilmiyorum
+Use Mip Bias (T) Level (F) | Bilmiyorum
+Clamp Anim (see tooltip) | "Animation Phase" degeri için 1 sayısını devre dışı bırakır (0 ve 0.99 arasında [Clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) yapar)
 
 * #### [FlipBook_MotionVectors]()
 
