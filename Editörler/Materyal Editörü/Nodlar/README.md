@@ -2186,7 +2186,7 @@ Calculate Camera İnside | Objenin içine girince ek hesaplamalar yapılıp yap�
 Depth Biased Alpha | Bilmiyorum
 FadeDistance | Bilmiyorum
 
-
+<img src="../../../Dosyalar/SphereGradient-3D_gif.gif">
 
 * #### [Spherical-Cap-Intersection]()
 
@@ -3033,7 +3033,7 @@ The Distance To Nearest Surface Material Expression node allows Materials to sam
 
 Mod | İşlem
 :---: | :---:
-ExponentIn | Kenarlardan ortaya dogru, fresnelin etkisi diyebiliriz, yani bunu ne kadar arttırırsanız fresenel o kadar etkili olur
+ExponentIn | Kenarlardan ortaya dogru, fresnelin etkisi diyebiliriz, yani bunu ne kadar arttırırsanız fresnel o kadar etkili olur
 BaseReflectFractionIn | Yansıtma degeri, Bu da ExponentIn in aynısı ama dıştan içe degil, her yere etki eder. Eger bunu azaltırsanız yansıma olmaz yani fresnel heryeri kaplar, eger arttırırsanız fresnelin etkisi azalır
 
 * #### [GeneratedRoundRect]()
