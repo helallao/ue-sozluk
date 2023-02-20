@@ -36,19 +36,19 @@ Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama 
 ## Blend
 
 * #### [Blend_ColorBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colorburn) ❤️💛💙
-Bu node textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. Eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü bu node textureyi daha koyu (yogun) yapmak içindir.
+Bu node "Base" textureyi verdigimiz "Blend" texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve Blend rengi ile birleşmiş bir texture olur. Eger Blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü bu node textureyi daha koyu (yogun) yapmak içindir.
 
 * #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge) 💜💚❤️
-Blendi 1 den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), base olarak verdigimiz textureyi blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
+Blendi 1 den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), "Base" olarak verdigimiz textureyi Blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
 * #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken) 💚💛💙
 Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten-%EF%B8%8F))
 
 * #### [Blend_Difference](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_difference) 💚💜❤️
-Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
+Base textureyi Blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
 
 * #### [Blend_Exclusion](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_exclusion) 💛💚❤️
-Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
+Base ve Blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
 
 * #### [Blend_HardLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_hardlight) 💚💜💙
 [Blend_Overlay](#blend_overlay-%EF%B8%8F) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir. [Blend_LinearLight](#blend_linearlight-%EF%B8%8F) kadar olmasa da, bi düşük seviyesidir diyebiliriz.
@@ -57,10 +57,10 @@ Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst
 Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı [Blend_Darken](#blend_darken-))
 
 * #### [Blend_LinearBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearburn) 💚❤️💙
-Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)). Ne oldugunu bilmiyorum.
+Baseyi Blende ekler (toplar) ve sonuçtan bir çıkarır ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)). Ne oldugunu bilmiyorum.
 
 * #### [Blend_LinearDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lineardodge) 💚💛❤️
-Baseyi blende ekler (toplar).
+Baseyi Blende ekler (toplar).
 
 * #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight) 💛❤️💙
 [Blend_Overlay](#blend_overlay-%EF%B8%8F) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
@@ -81,7 +81,7 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight-) ile aynı.
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
 * #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 💚💛💙
-[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
+[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, "ScratchValue" olarak verdiginiz texturenin "Base" texture ile toplanmış halini, Base ile [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) eder. Yani Scratch ile Base [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmadan önce, Scratch kendisine Base textureyi de ekler. "GrimeValue" ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen Base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 ## Chromakeying
@@ -96,7 +96,7 @@ Kullanışsız, renkleri silmede kullanılıyor.
 ## Color
 
 * #### [Desaturation](https://youtu.be/0pPyCZvZ05A) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Fraction degeri 0 dan 1 e yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde eksilere gittikçe texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak (kontrast ayarı) için kullanabilirsiniz.
+"Fraction" degeri 0 dan 1 e yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde eksilere gittikçe texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak (kontrast ayarı) için kullanabilirsiniz.
 
 İnput | İşlem
 :---: | :---:
@@ -105,13 +105,13 @@ Fraction | Fraction degeri
 Luminance Factors | Burdaki her renk degeri, o renk kanalının ne kadar etkilenecegini belirtir
 
 * #### [LinearTosRGB]() ❤️💛💜
-Verilen texturenin kontrast derecesini arttırır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. Bu nodu kullanırsanız az parlak noktalar daha parlak olur ve ateş daha da büyür (zıttı [sRGBToLinear](#srgbtolinear-)).
+[Color Space (Renk Uzayı)](https://en.wikipedia.org/wiki/Color_space) degiştirir. Linear renk uzayını sRGB ye dönüştürür. (zıttı [sRGBToLinear](#srgbtolinear-)).
 
 * #### [Luminance]() 💝
 Verilen inputun (V3 olmalı yoksa düzgün çalışmıyor) rengine göre parlaklık degeri döndürür. Yani insan gözüne ne kadar parlak göründügünü. Luminance Factors bölümünde hangi renklerin daha parlak oldugunu görebilirsiniz, burdaki orana göre parlaklık hesaplanıyor. Luminance Mode kısmında farklı renk uzaylarına (color space) göre ayarlanan Luminance Factors degerleri vardır. Zaten burdaki renk uzaylarının hepsinin degerleri birbirine çok yakın. Normalde parlaklık Yeşil > Kırmızı > Mavi şeklinde hesaplanıyor. Tabi isterseniz Luminance Factors bölümünden kendi istediginiz oranları verebilirsiniz, böylelikle "Custom" Luminance Mode kullanmış olursunuz. Bu nodu farklı şeylerde de kullanabilirsiniz.
 
 * #### [sRGBToLinear]() 💜💙💛
-Verilen texturenin kontrast derecesini azaltır. Mesela ateş resmi düşünün, ateşin oldugu nokta çok parlak ama uç noktalar ise daha az parlaktır. Bu nodu kullanırsanız az parlak noktalar neredeyse yok olur, ateşin çok parlak oldugu kısımlar daha az parlak ve ateş daha da küçük olur (zıttı [LinearTosRGB](#lineartosrgb-%EF%B8%8F)).
+[Color Space (Renk Uzayı)](https://en.wikipedia.org/wiki/Color_space) degiştirir. sRGB renk uzayını Linear a dönüştürür. (zıttı [LinearTosRGB](#lineartosrgb-%EF%B8%8F)).
 
 
 ## Constants
@@ -168,16 +168,16 @@ Eger kamera modu "Top" ise bu node 1 (S) döndürür, aksi takdirde 0 (S) dönd�
 
 
 * #### [PerInstanceRandom](https://youtu.be/_Pxwi2CAQBI) 💝
-Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger döndürür.
+Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger (S) döndürür.
 
 * #### [PrecomputedAOMask]()
 
 
 * #### [Time](https://youtu.be/SMQI9_MEfRM) ❤️💛💚💙💜
-Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için [DebugScalarValues](#debugscalarvalues-%EF%B8%8F) nodunu kullanabilirsiniz. Period parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
+Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için [DebugScalarValues](#debugscalarvalues-%EF%B8%8F) nodunu kullanabilirsiniz. "Period" parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]() 💝
-Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna alpha degeri olarak bu nodu baglayın.
+Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna "Alpha" degeri olarak bu nodu baglayın.
 
 * #### [VertexColor](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#vertexcolor)
 
@@ -238,7 +238,7 @@ Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenin
 Bu materyale sahip olan objenin konum bilgisini verir (V3).
 
 * #### [ObjectRadius](https://youtu.be/Om3k66NY7Jc) 💝
-Bu materyale sahip olan objenin kapladıgı alanın yarıçapını verir.
+Bu materyale sahip olan objenin kapladıgı alanın yarıçapını (S) verir.
 
 * #### [Panner](https://youtu.be/24mfLY7aQFQ) ❤️💛💚💜💙
 Texturelara hareket vermenize yarar.
@@ -266,10 +266,10 @@ Speed | Hız degerleri
 
 
 * #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
-Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her pikselin baktıgı yönü vektör (V3) olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
-Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. Coordinate olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. Center X ve Center Y şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
+Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. "Coordinate" olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. "Center X" ve "Center Y" şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani "Center X" ve "Center Y", eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
 
 Parametre | İşlem
 :---: | :---:
@@ -289,7 +289,7 @@ Time | Aldıgı zaman degerine göre pozisyonu belirler
 The SceneTexelSize expression allows you to offset by texel sizes, as you would when using the SceneColor and SceneDepth expressions. This is useful for edge detection in multi-resolution systems, as without this calculation you would be forced to use a small static value, resulting in inconsistent results at lower resolutions.
 
 * #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI) 💝
-ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (V2). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, ViewportUV bu degeri 0 ve 1 arasında verirken, PixelPosition bu degeri gerçek piksel sayısına göre verir.
+ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (V2). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, "ViewportUV" bu degeri 0 ve 1 arasında verirken, "PixelPosition" bu degeri gerçek piksel sayısına göre verir.
 
 Output | İçerik
 :---: | :---:
@@ -314,7 +314,7 @@ VTiling | Y ekseninde (dikey) takrarlama sayısı
 
 
 * #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
-Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
@@ -382,7 +382,7 @@ Number of Bits | Gösterilecek bit sayısı
 UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 * #### [DebugFloat2Values]() ❤️💛💚💙💜
-Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -398,7 +398,7 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugFloat3Values]() ❤️💙💜💛💚
-Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -414,7 +414,7 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugFloat4Values]() ❤️💙💚💜💛
-Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -433,7 +433,7 @@ GrayScaleOutput | Siyah beyaz
 1 saniye içerisinde, 1 saniyenin yarısı 0 yarısı 1 olacak şekilde, sürekli 1 ve 0 arasında output döndürür. Kullanmayın bile.
 
 * #### [DebugScalarValues]() 💜❤️💙💛💚
-Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -448,7 +448,7 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugTimeSine]() 🤍🤍
-Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda). Speed degeri default 0.5
+Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da [sinüs](#sine-%EF%B8%8F) degeri alındıgından dolayı (fonksiyonda). "Speed" degeri default 0.5
 
 
 ## Decals
@@ -571,7 +571,7 @@ Bu node içerisinde gerçekten texture barındırmaz ama bir texturenin obje hal
 ## Gradient
 
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) ❤️💜💛
-Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+Yıldız şeklinde bir şekil döndürüyor, "Falloff (S)" degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [GetGradientMapRow]()
 
@@ -586,7 +586,7 @@ Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak y�
 İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0dan 1e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
-[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. "UVs" degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. "Center Position" şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. "Radius" dairenin çapı, büyüklügü yani. "Density" beyazlık şiddeti. "İnvert density", açık degilken Density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken Density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -646,7 +646,7 @@ The CheapConstrast_RGB function boosts the contrast of an input by remapping the
 
 
 * #### [HueShift]() ❤️💙💜💛💚
-Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
+Bu node "Texture" inputuna verilen texture ve ya renk degerini "Percentage" inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
 
 <img width="150" src="../../../Dosyalar/HueShift_Palet.jpg">
 
@@ -917,7 +917,7 @@ Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı [Floor](#flo
 9.1 -> 9
 
 * #### [Clamp](https://youtu.be/KqMpPxVjGWY) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verdigimiz inputu min ve max degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır.
+Verdigimiz inputu "min" ve "max" degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır.
 
 Mod | İşlem
 :---: | :---:
@@ -1213,19 +1213,19 @@ Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30
 
 
 * #### [Blend_ColorBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colorburn) ❤️💛💙
-Bu node textureyi verdigimiz blend texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve blend rengi ile birleşmiş bir texture olur. Eger blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü bu node textureyi daha koyu (yogun) yapmak içindir.
+Bu node "Base" textureyi verdigimiz "Blend" texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve Blend rengi ile birleşmiş bir texture olur. Eger Blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü bu node textureyi daha koyu (yogun) yapmak içindir.
 
 * #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge) 💜💚❤️
-Blendi 1 den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), base olarak verdigimiz textureyi blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
+Blendi 1 den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), "Base" olarak verdigimiz textureyi Blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
 * #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken) 💚💛💙
 Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten-%EF%B8%8F))
 
 * #### [Blend_Difference](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_difference) 💚💜❤️
-Base textureyi blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
+Base textureyi Blendden çıkarıp sonucun mutlak degerini alarak, sanki daldırma gibi bi efekt uygular, karıştırmak gibi ama tam degil.
 
 * #### [Blend_Exclusion](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_exclusion) 💛💚❤️
-Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
+Base ve Blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst üste gelir.
 
 * #### [Blend_HardLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_hardlight) 💚💜💙
 [Blend_Overlay](#blend_overlay-%EF%B8%8F) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir. [Blend_LinearLight](#blend_linearlight-%EF%B8%8F) kadar olmasa da, bi düşük seviyesidir diyebiliriz.
@@ -1234,10 +1234,10 @@ Base ve blendi yarı saydam yapıp birbiri üzerine koyar, yani iki texture üst
 Verdigimiz iki texturenin her pikselini karşılaştırır ve açık olanı seçer. (zıttı [Blend_Darken](#blend_darken-))
 
 * #### [Blend_LinearBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearburn) 💚❤️💙
-Baseyi blende ekler (toplar) ve sonuçtan bir çıkarır ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)). Ne oldugunu bilmiyorum.
+Baseyi Blende ekler (toplar) ve sonuçtan bir çıkarır ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)). Ne oldugunu bilmiyorum.
 
 * #### [Blend_LinearDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_lineardodge) 💚💛❤️
-Baseyi blende ekler (toplar).
+Baseyi Blende ekler (toplar).
 
 * #### [Blend_LinearLight](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_linearlight) 💛❤️💙
 [Blend_Overlay](#blend_overlay-%EF%B8%8F) ile aynıdır ama daha sert (ve ya yogun) bir sonuç verir.
@@ -1366,7 +1366,7 @@ Rotation Angle | Döndürme degeri (0 - 1)
 
 
 * #### [DebugFloat2Values]() ❤️💛💚💙💜
-Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen 2 boyutlu vektörü (V2) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 2 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -1382,7 +1382,7 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugFloat3Values]() ❤️💙💜💛💚
-Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen 3 boyutlu vektörü (V3) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 3 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -1398,7 +1398,7 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugFloat4Values]() ❤️💙💚💜💛
-Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen 4 boyutlu vektörü (V4) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 4 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -1417,7 +1417,7 @@ GrayScaleOutput | Siyah beyaz
 1 saniye içerisinde, 1 saniyenin yarısı 0 yarısı 1 olacak şekilde, sürekli 1 ve 0 arasında output döndürür. Kullanmayın bile.
 
 * #### [DebugScalarValues]() 💜❤️💙💛💚
-Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani listeden ve ya pikseller de olabilir, daha çok ögeden oluşan bir input.
+Verilen sayıyı (S) gösteren bi texture döndürür. Eger iç içe girmiş sayılar görüyorsanız bilin ki, verilen input sadece 1 ögeden degil daha fazla ögeden, yani piksellerden, daha çok ögeden oluşan bir input.
 
 İnput | İşlem
 :---: | :---:
@@ -1432,7 +1432,7 @@ ColorCodedOutput | Renkli
 GrayScaleOutput | Siyah beyaz
 
 * #### [DebugTimeSine]() 🤍🤍
-Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da sinüs degeri alındıgından dolayı (fonksiyonda). Speed degeri default 0.5
+Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da [sinüs](#sine-%EF%B8%8F) degeri alındıgından dolayı (fonksiyonda). "Speed" degeri default 0.5
 
 * #### [DepthFromWorldPosition]() 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-%EF%B8%8F) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
@@ -1450,7 +1450,7 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) ❤️💜💛
-Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+Yıldız şeklinde bir şekil döndürüyor, "Falloff (S)" degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [Distance_Blend]()
 
@@ -1609,7 +1609,7 @@ Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
 * #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 💚💛💙
-[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, scratch olarak verdiginiz texturenin base texture ile toplanmış halini, base ile lerp eder. Yani scratch ile base lerp olmadan önce, scratch kendisine base textureyi de ekler. Grime ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
+[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, "ScratchValue" olarak verdiginiz texturenin "Base" texture ile toplanmış halini, Base ile [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) eder. Yani Scratch ile Base [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmadan önce, Scratch kendisine Base textureyi de ekler. "GrimeValue" ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen Base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
@@ -2064,7 +2064,7 @@ Pi.
 
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
-[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. "UVs" degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. "Center Position" şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. "Radius" dairenin çapı, büyüklügü yani. "Density" beyazlık şiddeti. "İnvert density", açık degilken Density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken Density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -3234,7 +3234,7 @@ Bu materyale sahip olan objenin konum bilgisini verir (V3).
 The ParticlePositionWS expression outputs Vector3 (RGB) data representing each individual particle's position in world space.
 
 * #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
-Her pikselin baktıgı yönü vektör olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her pikselin baktıgı yönü vektör (V3) olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [PreSkinnedLocalBounds]()
 
@@ -3258,7 +3258,7 @@ The Pre-Skinned Local Position Vector Expression outputs a three-channel vector 
 
 
 * #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
-Her kenarın baktıgı yönü vektör olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
+Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
