@@ -1006,7 +1006,7 @@ Diyelim ki A = 100 ve B = 10. A B den büyük oldugu için sonuç A > B seçeneg
 
 
 * #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştırır. İstedigimiz boyutta [constant](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) (S) verebiliriz, hem alpha hem de inputlarımız için. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca dedigim gibi, istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
+Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [LinearSine]()
 The LinearSine function takes in a scalar value and outputs the linear sine (or rounded linear sine) of that value, running between 0 and 1. If you connect a Time expression to the value input and use the Linear Sine, you can see animation in the output that coincides with a linear sine wave.
@@ -1042,7 +1042,7 @@ Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun
 The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
 
 * #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0a yakın olan degerler artık 1 e, 1 e yakın olan degerler artık 0 a yakın. Bakın,
+Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0a yakın olan degerler artık 1e, 1e yakın olan degerler artık 0a yakın. Bakın,
 <br>
 <br>
 1 için 1 - 1 = 0, yani 1 olan deger 0 oldu
@@ -1070,11 +1070,11 @@ Verilen inputun kuvvetini alır.
 
 
 * #### [Remap]() ❤️💛💚💙
-Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (emin degilim). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (emin degilim). "InputLow" ve "InputHigh" arasındaki sayıların hepsi "TargetLow" ve "TargetHigh" arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, "InputLow" ve "InputHigh" ın tam ortasında ise o zaman output da "TargetLow" ve "TargetHigh" ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, "InputLow" ve "InputHigh" ın dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz "InputHigh" dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Eger "InputLow" ve "InputHigh" arasında bi remap yapmak istiyorsanız [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
 
 
 * #### [RemapValueRange](https://youtu.be/V0by6a5Xesk) 🤍🤍
-Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (emin degilim). İnput Low ve High arasındaki sayıların hepsi Target Low ve High arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, İnput Low ve High ın tam ortasında ise o zaman output da Target Low ve High ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, İnput Low ve High dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz İnput High dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden "Remap" isimli diger nodu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger İnput Low ve High arasında bi remap yapmak istiyorsanız if kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
+Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı saglar (emin degilim). "InputLow" ve "InputHigh" arasındaki sayıların hepsi "TargetLow" ve "TargetHigh" arasına taşınır ama DİKKAT bu işlem random degil yani bi orana göre gidiyor, mesela verdiginiz İnput, "InputLow" ve "InputHigh" ın tam ortasında ise o zaman output da "TargetLow" ve "TargetHigh" ın da tam ortasında olacaktır. Ayrıca verdiginiz İnput, "InputLow" ve "InputHigh" ın dışında olsa bile bu node herşeyi orana göre degiştirecektir. Yani mesela İnputunuz "InputHigh" dan daha yüksek, verdiginiz İnput orana göre düzenlenecek ve output yine bu orana göre olacaktır. Ayrıca bu node fonksiyon oldugu için inputlara illaki bişeler baglamanız gerekiyo, node üzerinden veremiyorsunuz, bu da kodları çok karıştırıyo. Bu yüzden [Remap](#remap-%EF%B8%8F) isimli diger nodu kullanın, o da bununla aynı işi yapıyor. Ayrıca son bi tavsiye, eger "InputLow" ve "InputHigh" arasında bi remap yapmak istiyorsanız [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanıp düzenleme yaparak küçük ve büyük degerleri remap dışına alabilirsiniz.
 
 
 * #### [RemapValueRangeNormalized]() 🤍
@@ -1086,10 +1086,10 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 
 
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen inputu (sayı) yuvarlar.
+Verilen inputu yuvarlar (sayıyı yuvarlar yani).
 
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) fonksiyon halini de yapmışlar.
+[Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
 
 * #### [SafeNormalize]()
 
@@ -1353,13 +1353,13 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
+Textureyi döndürür. "UVs" inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. "Rotation Center" şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. "Rotation Angle" döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
 
 İnput | İşlem
 :---: | :---:
 UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
 Rotation Center | Dönme efektinin orta noktası
-Rotation Angle | Döndürme degeri (0 - 1)
+Rotation Angle (0-1) | Döndürme degeri (0 - 1)
 
 
 * #### [CylindricalUVs]()
@@ -1450,13 +1450,13 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) ❤️💜💛
-Yıldız şeklinde bir şekil döndürüyor, "Falloff (S)" degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+Yıldız şeklinde bir şekil döndürüyor, "Falloff" degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [Distance_Blend]()
 
 
 * #### [DitherTemporalAA](https://www.youtube.com/watch?v=kvHh0Jd-D3Q) 💝
-Bu nodun tam olarak yaptıgı işlem Alpha Threshold inputuna verilen degere göre belirli bir sayı aralıgından rastgele (ve ya degil) sayı döndürmesidir. Mesela en yaygın kullanışlarından biri olan görünmezlik efektini örnek alalım, materyalinizi Masked moduna alın ve bu nodu opacity maske baglayın. Alpha Threshold degerini düşürdükçe materyaliniz de görünmez olmaya başlar, çünkü bu node bazı output degerlerini sıfırdan düşük döndürdügü için materyalimizdeki bazı pikseller görünmez olacak. Bu noddan gelen output degerini çeşit çeşit şeylerde kullanabilirsiniz. Random inputuna da 0 vererek rastgele sayıları kapatabilirsiniz. Böylelikle output olarak gelen sayılar bir düzene göre gelir, materyalde bir desen olur. Yukarıda yazdıgım görünmezlik efektini yapıp Random kapalıyken Alpha Threshold degeriyle oynarsanız, materyalinizdeki görünmezlik efektinin bir desen oluşturdugunu görebilirsiniz.
+Bu nodun tam olarak yaptıgı işlem "Alpha Threshold" inputuna verilen degere göre belirli bir sayı aralıgından rastgele (ve ya degil) sayı döndürmesidir. Mesela en yaygın kullanışlarından biri olan görünmezlik efektini örnek alalım, materyalinizi Masked moduna alın ve bu nodu opacity maske baglayın. "Alpha Threshold" degerini düşürdükçe materyaliniz de görünmez olmaya başlar, çünkü bu node bazı output degerlerini sıfırdan düşük döndürdügü için materyalimizdeki bazı pikseller görünmez olacak. Bu noddan gelen output degerini çeşit çeşit şeylerde kullanabilirsiniz. "Random" inputuna da 0 vererek rastgele sayıları kapatabilirsiniz. Böylelikle output olarak gelen sayılar bir düzene göre gelir, materyalde bir desen olur. Yukarıda yazdıgım görünmezlik efektini yapıp "Random" kapalıyken "Alpha Threshold" degeriyle oynarsanız, materyalinizdeki görünmezlik efektinin bir desen oluşturdugunu görebilirsiniz.
 
 * #### [DrawLine-2D]()
 
@@ -1573,7 +1573,7 @@ Ya bu çok uzun anlatılmaz. Linkteki videoya bakın. Ben kullanmayı denedim am
 
 
 * #### [HueShift]() ❤️💙💜💛💚
-Bu node Texture inputuna verilen texture ve ya renk degerini Percentage inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
+Bu node "Texture" inputuna verilen texture ve ya renk degerini "Percentage" inputuna verilen degere göre renk paletinde saat yönünde ileri alır. Percentage degeri 0 ve 1 arasında olmalı çünkü 1 tam bir tur demektir. Mesela 0.5 verirseniz rengimiz renk paletinde karşı tarafa geçer, yarım tur atar. Mesela rengimiz aşagıdaki gibi ise 0.5 HueShift uyguladıgımızda rengimiz açık mavi olan kısma gelecektir.
 
 <img width="150" src="../../../Dosyalar/HueShift_Palet.jpg">
 
@@ -1998,7 +1998,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [OffsetAndScaleTo1]()
-Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz Offset degerine göre offset verir diyo ama ne anlamda offset oldugunu bilmiyorum. Offset verip sonuçları da tekrar 0-1 arasında taşıyor.
+Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz "Offset Amount" degerine göre offset verir diyo ama ne anlamda offset oldugunu bilmiyorum. Offset verip sonuçları da tekrar 0-1 arasında taşıyor.
 
 
 * #### [OrthoFOV]()
@@ -2102,7 +2102,7 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 
 
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) fonksiyon halini de yapmışlar.
+[Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
 
 
 * #### [SafeNormalize]()
@@ -2178,7 +2178,7 @@ Bilmiyorum.
 
 
 * #### [SphereGradient-2D]() ❤️💛💜
-[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direkmen daire şekli veriyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direkmen daire şekli veriyor. "UVs" degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. "UVs" degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. "Center Position" şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. "Radius" dairenin çapı, büyüklügü yani. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -2188,7 +2188,7 @@ Radius | Çap
 
 
 * #### [SphereGradient-3D](https://medium.com/xrlo-extended-reality-lowdown/how-to-make-glowing-buttons-in-vr-c1cdd3b6e34c) ❤️💛💙
-[SphereGradient-2D](#spheregradient-2d-%EF%B8%8F) gibi ama daire şeklini [WS](../Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu) yani world space olarak veriyor. Calculate Camera İnside ayarı şu işe yarar, normalde objenin içine girdiginizde daire şeklinin köşeleri sadece çizgilerden oluşur ama bu ayar açıkken ek hesaplamalar yapılır ve çizgi şeklinde degil de [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) nodundaki gibi giderek azalan bir beyazlık degeri olur yani dairenin köşeleri yavaş yavaş görünmez olmaya başlar. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F)
+[SphereGradient-2D](#spheregradient-2d-%EF%B8%8F) gibi ama daire şeklini [WS](../Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu) yani world space olarak veriyor. "Calculate Camera İnside" ayarı şu işe yarar, normalde objenin içine girdiginizde daire şeklinin köşeleri sadece çizgilerden oluşur ama bu ayar açıkken ek hesaplamalar yapılır ve çizgi şeklinde degil de [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) nodundaki gibi giderek azalan bir beyazlık degeri olur yani dairenin köşeleri yavaş yavaş görünmez olmaya başlar. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -2257,7 +2257,7 @@ Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (d�
 
 
 * #### [TimeWithSpeedVariable]() 🤍🤍
-Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik eklenmiş. Verdiginiz Speed degerini Time degeri ile çarpıyor böylelikle mesela 2 kat hızlı Time degeri istiyorsanız iki ile çarpıp iki kat hızlı Time degeri alabilirsiniz. Bir de Frac Time diye output var, time degerinin noktadan sonraki kısmını ([kesirli kısmını](#frac-%EF%B8%8F)) veriyor. Kullanışsız.
+Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik eklenmiş. Verdiginiz "Speed" degerini "Time" degeri ile çarpıyor böylelikle mesela 2 kat hızlı Time degeri istiyorsanız iki ile çarpıp iki kat hızlı Time degeri alabilirsiniz. Bir de "Frac Time" diye output var, time degerinin noktadan sonraki kısmını ([kesirli kısmını](#frac-%EF%B8%8F)) veriyor. Kullanışsız.
 
 
 * #### [Transform3x3Matrix]()
@@ -2349,7 +2349,7 @@ Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin d
 
 
 * #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) 💝
-Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
+Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz." TextureSize" inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel "TextureSize" kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 
 * #### [WorldAlignedTexture_MipBias]()
@@ -2777,13 +2777,13 @@ This function flips the green channel of incoming UVs to place the 0,0 coordinat
 Outputs falloff results for the 3 primary world vectors based on the camera angle. Can be used to blend between textures based on direction the camera is looking.
 
 * #### [CustomRotator](https://youtu.be/f9a780XjoKI) 💝
-Textureye döndürür. UVs inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. Rotation Center şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. Rotation angle döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
+Textureyi döndürür. "UVs" inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın. "Rotation Center" şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır. "Rotation Angle" döndürme degeri, 0 ve 1 arasında, 1 = 360 derece döndürme verir. Output olarak [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür.
 
 İnput | İşlem
 :---: | :---:
 UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
 Rotation Center | Dönme efektinin orta noktası
-Rotation Angle | Döndürme degeri (0 - 1)
+Rotation Angle (0-1) | Döndürme degeri (0 - 1)
 
 * #### [CylindricalUVs]()
 This function tiles a texture around an object using cylindrically projected UVs centered around the object's center.
@@ -2901,7 +2901,7 @@ The TwoSidedTexturing function provides individual texture inputs for both sides
 [WorldAlignedTexture](#worldalignedtexture-) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
 
 * #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) 💝
-Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz. TextureSize inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel TextureSize kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
+Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz." TextureSize" inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel "TextureSize" kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 * #### [WorldAlignedTexture_Complex]()
 
@@ -3009,7 +3009,7 @@ HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyor
 
 
 * #### [ConstantBiasScale](https://youtu.be/7s0T9ckB0bw) ❤️💛💚
-Bu node verilen inputa bias degerini ekler ve scale degeriyle çarpar. Mesela [-1,1] arasındaki degerleri [0,1] arasına taşımak istiyorsunuz. Bias olarak 1.0 scale olarak 0.5 kullanarak bunu yapabilirsiniz.
+Bu node verilen inputa "Bias" degerini ekler ve "Scale" degeriyle çarpar. Mesela [-1,1] arasındaki degerleri [0,1] arasına taşımak istiyorsunuz. Bias olarak 1.0 scale olarak 0.5 kullanarak bunu yapabilirsiniz.
 
 * #### [DDX]()
 The DDX expression exposes DDX derivative calculation, a GPU hardware feature used in pixel shader calculation.
@@ -3029,7 +3029,7 @@ FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0
 Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
 
 * #### [Distance](https://youtu.be/ZINJAvhQilg) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır. V1, V2, V3, V4 vektörlerin hepsinde çalışır.
+Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır.
 
 * #### [DistanceFieldGradient]()
 The DistanceFieldGradient Material Expression node, when normalized, outputs the X,Y,Z direction an object would move with in the distance field. This makes the Distance Field Gradient Material Expression node well-suited for Materials that need to simulate the flow of liquids.
@@ -3038,7 +3038,7 @@ The DistanceFieldGradient Material Expression node, when normalized, outputs the
 The Distance To Nearest Surface Material Expression node allows Materials to sample any point in the levels Global Distance Field. This Material Expression works by outputting the signed distance in world space units from the distance field to the nearest occluders in the scene.
 
 * #### [EyeAdaptation]()
-[Eye adaptation](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye-adaptation) degerini verir (S)
+[Eye adaptation](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye-adaptation) degerini verir (S).
 
 * #### [FeatureLevelSwitch](https://youtu.be/wo6fSPJVp2I) 💝
 İf gibi, duruma göre ayar yapmanızı saglar. Grafikler için kullanılan uygulama (ya da işleyen birim) neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela oyun telefondan oynanıyorsa daha düşük kaliteli şeyler kullanabilirsiniz. İnputların anlamları [burda](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#featurelevelswitch) yazıyor.
@@ -3064,7 +3064,7 @@ Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve 
 The LightmassReplace expression simply passes through the Realtime input when compiling the material for normal rendering purposes, and passes through the Lightmass input when exporting the material to Lightmass for global illumination. This is useful to work around material expressions that the exported version cannot handle correctly, for example WorldPosition.
 
 * #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen alpha degerine göre iki inputu (resim ve ya renk) birbirine karıştırır. İstedigimiz boyutta [constant](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) (S) verebiliriz, hem alpha hem de inputlarımız için. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca dedigim gibi, istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
+Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [MaterialProxyReplace]()
 
@@ -3090,7 +3090,7 @@ Filter Width | Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 
 
 * #### [QualitySwitch](https://youtu.be/64I4rzyZ6_Q)
-İf gibi, duruma göre ayar yapmanızı saglar. Oyundaki kalite neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela Low a hiçbir şey baglamadınız, eger kalite low da ise o zaman low baglı olmadıgı için Defaulta ne baglıysa o kullanılır. Zaten Defaultu boş bırakamazsınız.
+İf gibi, duruma göre ayar yapmanızı saglar. Oyundaki kalite neyse, o inputa baglı olan şeyi output olarak verir. "Default" eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela "Low" a hiçbir şey baglamadınız, eger kalite Low da ise o zaman Low baglı olmadıgı için Defaulta ne baglıysa o kullanılır. Zaten Defaultu boş bırakamazsınız.
 
 * #### [RayTracingQualitySwithc]()
 
@@ -3119,7 +3119,7 @@ Position | [World Position](#worldposition-%EF%B8%8F) baglayın
 
 
 * #### [ShadowPassSwitch](https://www.youtube.com/watch?v=LqwTLdqEUMo) 💝
-Bu node materyalin gölgesine istediginiz ayarı vermenizi saglar. Materyalinizi Masked yapın, Bu nodu opacity maske baglayın. Default degerine normal opacity mask inputunuzu verebilirsiniz, yani bu ayar gölgeler ile degil materyalle alakalı. Eger ben opacity mask kullanmayacaktım zaten diyorsanız o zaman bu degere 1 (constant) baglayın, böylelikle opacity mask vermemiş gibi olursunuz, 0 verseydiniz opaklık 0 oldugu için materyale sahip olan mesh görünmez olurdu. Şimdi gelelim asıl meseleye, Shadow inputuna bagladıgınız deger gölgeleri belirler. Eger 0 verirseniz gölgeleri silersiniz, 1 verirseniz gölge neyse onu gösterir yani tamamen opak olur. Bizim yapmak istedigimiz herhangi bir texturenin alpha degerini vermek, böylelikle verdigimiz resim neyse gölgede de o görünecek. Yani Shadow degerine herhangi bir texturenin alpha degerini ve ya herhangi bir kanalını vererek bunu gölgeler için maske olarak kullanabilirsiniz.
+Bu node materyalin gölgesine istediginiz ayarı vermenizi saglar. Materyalinizi Masked yapın, Bu nodu opacity maske baglayın. "Default" degerine normal opacity mask inputunuzu verebilirsiniz, yani bu ayar gölgeler ile degil materyalle alakalı. Eger ben opacity mask kullanmayacaktım zaten diyorsanız o zaman bu degere 1 (constant) baglayın, böylelikle opacity mask vermemiş gibi olursunuz, 0 verseydiniz opaklık 0 oldugu için materyale sahip olan mesh görünmez olurdu. Şimdi gelelim asıl meseleye, "Shadow" inputuna bagladıgınız deger gölgeleri belirler. Eger 0 verirseniz gölgeleri silersiniz, 1 verirseniz gölge neyse onu gösterir yani tamamen opak olur. Bizim yapmak istedigimiz herhangi bir texturenin "Alpha" degerini vermek, böylelikle verdigimiz resim neyse gölgede de o görünecek. Yani "Shadow" degerine herhangi bir texturenin "Alpha" degerini ve ya herhangi bir kanalını vererek bunu gölgeler için maske olarak kullanabilirsiniz.
 
 
 * #### [SmoothStep]()
