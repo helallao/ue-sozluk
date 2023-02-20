@@ -571,7 +571,7 @@ Bu node içerisinde gerçekten texture barındırmaz ama bir texturenin obje hal
 ## Gradient
 
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) ❤️💜💛
-Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [GetGradientMapRow]()
 
@@ -583,10 +583,10 @@ Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak y�
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0dan 1e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0dan 1e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
-[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -597,10 +597,10 @@ Density | Şiddet
 Invert Density | İçerden dışarı / Dışardan içeri
 
 * #### [SmoothCurve]()
-The SmoothCurve function takes in an existing texture channel or gradient and uses a procedural curve to control the transition from dark to light. The user can adjust the tangents of this curve to change the result.
+Bilmiyorum.
 
 * #### [ValueStep](https://youtu.be/ovelaLbCNjw)
-The ValueStep function takes in an existing texture channel or gradient and outputs a pure black and white image based on inputs from the user. The result is a mask that represents what portion of the gradient equals the value of the inputs.
+Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin degerlerine göre belirli yerleri beyaz yapıyorsunuz falan. Yani bu nodun yaptıgı şeyleri [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak falan da yapabilirsiniz. Neyse bakmak isteyenler linkteki videoya bakabilir.
 
 
 ## Hair Attributes
@@ -1450,7 +1450,7 @@ Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, sm
 
 
 * #### [DiamondGradient](https://youtu.be/TzeOSKSsVVA) ❤️💜💛
-Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+Yıldız şeklinde bir şekil döndürüyor, Falloff (S) degerini ayarlayarak yıldızının büyüklügünü ayarlayabilirsiniz, default olarak 3 geliyor, arttırdıkça yıldız küçülür. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [Distance_Blend]()
 
@@ -1613,7 +1613,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0dan 1e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0dan 1e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 
 * #### [LinearSine]()
@@ -2064,7 +2064,7 @@ Pi.
 
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
-[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Density beyazlık şiddeti. İnvert density, açık degilken density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -2154,7 +2154,7 @@ Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%
 
 
 * #### [SmoothCurve]()
-
+Bilmiyorum.
 
 * #### [SmoothStep]()
 
@@ -2178,7 +2178,7 @@ Evet enayi unreal engine [aynı nodun](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%
 
 
 * #### [SphereGradient-2D]() ❤️💛💜
-[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direkmen daire şekli veriyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direkmen daire şekli veriyor. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. UVs degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. Center Position şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. Radius dairenin çapı, büyüklügü yani. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -2188,7 +2188,7 @@ Radius | Çap
 
 
 * #### [SphereGradient-3D](https://medium.com/xrlo-extended-reality-lowdown/how-to-make-glowing-buttons-in-vr-c1cdd3b6e34c) ❤️💛💙
-[SphereGradient-2D](#spheregradient-2d-%EF%B8%8F) gibi ama daire şeklini [WS](../Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu) yani world space olarak veriyor. Calculate Camera İnside ayarı şu işe yarar, normalde objenin içine girdiginizde daire şeklinin köşeleri sadece çizgilerden oluşur ama bu ayar açıkken ek hesaplamalar yapılır ve çizgi şeklinde degil de [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) nodundaki gibi giderek azalan bir beyazlık degeri olur yani dairenin köşeleri yavaş yavaş görünmez olmaya başlar. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[SphereGradient-2D](#spheregradient-2d-%EF%B8%8F) gibi ama daire şeklini [WS](../Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu) yani world space olarak veriyor. Calculate Camera İnside ayarı şu işe yarar, normalde objenin içine girdiginizde daire şeklinin köşeleri sadece çizgilerden oluşur ama bu ayar açıkken ek hesaplamalar yapılır ve çizgi şeklinde degil de [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) nodundaki gibi giderek azalan bir beyazlık degeri olur yani dairenin köşeleri yavaş yavaş görünmez olmaya başlar. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -2305,7 +2305,8 @@ Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik ekle
 * #### [UVToLongLat]()
 
 
-* #### [ValueStep]()
+* #### [ValueStep](https://youtu.be/ovelaLbCNjw)
+Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin degerlerine göre belirli yerleri beyaz yapıyorsunuz falan. Yani bu nodun yaptıgı şeyleri [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak falan da yapabilirsiniz. Neyse bakmak isteyenler linkteki videoya bakabilir.
 
 
 * #### [VectorDisplacement]()
