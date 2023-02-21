@@ -1038,8 +1038,9 @@ Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun
 * #### [MultiplyAdd]()
 
 
-* #### [Normalize]()
-The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
+* #### [Normalize](https://www.youtube.com/watch?v=SH4XTfPmeH4)  ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Verdiginiz vektör en az 2 boyuttan oluşuyorsa (S de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
+
 
 * #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0a yakın olan degerler artık 1e, 1e yakın olan degerler artık 0a yakın. Bakın,
@@ -1078,7 +1079,7 @@ Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı
 
 
 * #### [RemapValueRangeNormalized]() 🤍
-Sıfır ve bir arasında [Clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) yapar. [Clamp(0, 1)](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile eşit yani. Kullanmayın bile.
+"Input" olarak verilen sayıyının (S) "Input Low" ve "Input High" sayılarına göre oranını verir. Yani mesela şöyle düşünün, formül tam olarak şu, "Input Low" olarak verdiginiz sayıyı "Input" olarak verdiginiz sayıdan çıkarın, işte o sayının oranını alıyoruz. Oranını aldıgımız sayı da "Input High" olarak verigimiz sayıdan "Input Low" u çıkarınca çıkan sonuç. Tamam şimdi bi deneme yapalım, [bu kodları](https://blueprintue.com/blueprint/noald93q/) alın ve editöre yapıştırın. Şimdi olan şey şu, 100 - 50 = 50, bu oranını alacagımız sayı. 150 - 50 de oranı belirleyen sayı, 150 - 50 = 100 yani 100e göre 50 nin oranını alıyoruz, bu da %50 demektir. Sonuç 0.5 olacak. Anladın demi?
 
 
 * #### [RGBtoHSV]() 💛💚💙
@@ -3176,8 +3177,8 @@ The DotProduct expression computes the dot product, which can be described as th
 * #### [Fresnel_Function]()
 
 
-* #### [Normalize]()
-The Normalize expression calculates and outputs the normalized value of its input. Normalized vectors (also called "unit vectors") have an overall length of 1.0. This means each component of the input is divided by the total magnitude (length) of the vector.
+* #### [Normalize](https://www.youtube.com/watch?v=SH4XTfPmeH4) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Verdiginiz vektör en az 2 boyuttan oluşuyorsa (S de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
 
 * #### [Transform]()
 The Transform expression converts a three-channel vector value from one reference coordinate system to another.By default, all shader calculations in a material are done in tangent space. The vector constants, camera vector, light vector, etc are all transformed to tangent space before being used in a material. The Transform expression allows these vectors to be transformed from tangent space to world-space, local-space, or view-space coordinate systems. In addition, it allows world-space and local-space vectors to be transformed to any of the other reference coordinate systems.
