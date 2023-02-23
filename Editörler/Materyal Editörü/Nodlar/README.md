@@ -952,6 +952,8 @@ The CrossProduct expression computes the cross product of two three-channel vect
 Bölme.
 
 * #### [DotProduct](https://youtu.be/sf3jT12pN6o)
+Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1 den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
+
 The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
 
 * #### [Exponential]()
@@ -3171,8 +3173,8 @@ The CrossProduct expression computes the cross product of two three-channel vect
 * #### [DeriveNormalZ]()
 The DeriveNormalZ expression derives the Z component of a tangent space normal given the X and Y components and outputs the resulting three-channel tangent space normal. Z is calculated as Z = sqrt(1 - (x * x + y * y));
 
-* #### [DotProduct]()
-The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
+* #### [DotProduct](https://youtu.be/sf3jT12pN6o)
+Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1 den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
 
 * #### [Fresnel_Function]()
 
