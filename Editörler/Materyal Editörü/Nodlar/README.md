@@ -599,7 +599,7 @@ Invert Density | İçerden dışarı / Dışardan içeri
 * #### [SmoothCurve]()
 Bilmiyorum.
 
-* #### [ValueStep](https://youtu.be/ovelaLbCNjw)
+* #### [ValueStep](https://youtu.be/ovelaLbCNjw) 🤍🤍
 Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin degerlerine göre belirli yerleri beyaz yapıyorsunuz falan. Yani bu nodun yaptıgı şeyleri [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak falan da yapabilirsiniz. Neyse bakmak isteyenler linkteki videoya bakabilir.
 
 
@@ -2350,7 +2350,7 @@ Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik ekle
 * #### [UVToLongLat]()
 
 
-* #### [ValueStep](https://youtu.be/ovelaLbCNjw)
+* #### [ValueStep](https://youtu.be/ovelaLbCNjw) 🤍🤍
 Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin degerlerine göre belirli yerleri beyaz yapıyorsunuz falan. Yani bu nodun yaptıgı şeyleri [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak falan da yapabilirsiniz. Neyse bakmak isteyenler linkteki videoya bakabilir.
 
 
