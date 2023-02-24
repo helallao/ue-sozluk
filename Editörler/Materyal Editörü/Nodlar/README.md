@@ -1130,6 +1130,7 @@ Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder
 Verilen inputun karekökünü döndürür.
 
 * #### [Step]()
+Bu node [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı işlemi yapıyor, "X" inputuna texture ve ya vermek istediginiz inputu veriyorsunuz, "Y" inputuna verdiginiz degere göre küçükse siyah büyükse beyaz döndürüyor. [Burdaki kodları](https://blueprintue.com/blueprint/3r2jb4ja/) kopyalayıp editöre yapıştırın, biraz oynasanız anlarsınız.
 
 
 * #### [Subtract](https://youtu.be/zvNvjzupOn8) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -3154,6 +3155,7 @@ Bu node materyalin gölgesine istediginiz ayarı vermenizi saglar. Materyalinizi
 The SphereMask expression outputs a mask value based on a distance calculation. If one input is the position of a point and the other input is the center of a sphere with some radius, the mask value is 0 outside and 1 inside with some transition area. This works on one, two, three, and four component vectors
 
 * #### [Step]()
+Bu node [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı işlemi yapıyor, "X" inputuna texture ve ya vermek istediginiz inputu veriyorsunuz, "Y" inputuna verdiginiz degere göre küçükse siyah büyükse beyaz döndürüyor. [Burdaki kodları](https://blueprintue.com/blueprint/3r2jb4ja/) kopyalayıp editöre yapıştırın, biraz oynasanız anlarsınız.
 
 
 * #### [VectorNoise]()
