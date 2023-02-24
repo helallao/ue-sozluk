@@ -1094,7 +1094,7 @@ Verilen inputu yuvarlar (sayıyı yuvarlar yani).
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 [Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
 
-* #### [SafeNormalize]()
+* #### [SafeNormalize]() 🤍🤍
 [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır, sadece ek özelligi var. Eger verdigimiz vektör sonuç olarak 0 döndürürse (ki zaten bildigim kadarıyla 0 veren tek input yine 0) "Default" inputuna verdiginiz vektörü sonuç olarak döndürür. Ayrıca "Length==0" diye bir output degeri veriyor, eger sonuç 0 ise "Length==0" 1 döndürür aksi takdirde 0. Yani bu node sadece [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun 0 döndürecegi durumlar için geliştirilmiş hali.
 
 İnput | İşlem
@@ -1123,13 +1123,20 @@ Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder
 * #### [SmoothCeil]()
 
 
-* #### [SmoothStep]()
+* #### [SmoothStep]() 💚💛💜
+Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0 dan 1e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0 dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0 dan 1e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
+
+İnput | İşlem
+:---: | :---:
+Min | Bu degerden küçük olanlar 0
+Max | Bu degerden büyük olanlar 1
+Value | İnputunuz
 
 
 * #### [SquareRoot(sqrt)](https://youtu.be/HnQZ9acKWiI) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen inputun karekökünü döndürür.
 
-* #### [Step]()
+* #### [Step]() 🤍
 Bu node [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı işlemi yapıyor, "X" inputuna texture ve ya vermek istediginiz inputu veriyorsunuz, "Y" inputuna verdiginiz degere göre küçükse siyah büyükse beyaz döndürüyor. [Burdaki kodları](https://blueprintue.com/blueprint/3r2jb4ja/) kopyalayıp editöre yapıştırın, biraz oynasanız anlarsınız.
 
 
@@ -2120,7 +2127,7 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 [Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
 
 
-* #### [SafeNormalize]()
+* #### [SafeNormalize]() 🤍🤍
 [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır, sadece ek özelligi var. Eger verdigimiz vektör sonuç olarak 0 döndürürse (ki zaten bildigim kadarıyla 0 veren tek input yine 0) "Default" inputuna verdiginiz vektörü sonuç olarak döndürür. Ayrıca "Length==0" diye bir output degeri veriyor, eger sonuç 0 ise "Length==0" 1 döndürür aksi takdirde 0. Yani bu node sadece [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun 0 döndürecegi durumlar için geliştirilmiş hali.
 
 İnput | İşlem
@@ -2182,7 +2189,14 @@ Length==0 | Sonuç 0 a eşitse 1, degilse 0
 * #### [SmoothCurve]()
 Bilmiyorum.
 
-* #### [SmoothStep]()
+* #### [SmoothStep]() 💚💛💜
+Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0 dan 1e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0 dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0 dan 1e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
+
+İnput | İşlem
+:---: | :---:
+Min | Bu degerden küçük olanlar 0
+Max | Bu degerden büyük olanlar 1
+Value | İnputunuz
 
 
 * #### [SmoothThreshold]()
@@ -3148,13 +3162,20 @@ Position | [World Position](#worldposition-%EF%B8%8F) baglayın
 Bu node materyalin gölgesine istediginiz ayarı vermenizi saglar. Materyalinizi Masked yapın, Bu nodu opacity maske baglayın. "Default" degerine normal opacity mask inputunuzu verebilirsiniz, yani bu ayar gölgeler ile degil materyalle alakalı. Eger ben opacity mask kullanmayacaktım zaten diyorsanız o zaman bu degere 1 (constant) baglayın, böylelikle opacity mask vermemiş gibi olursunuz, 0 verseydiniz opaklık 0 oldugu için materyale sahip olan mesh görünmez olurdu. Şimdi gelelim asıl meseleye, "Shadow" inputuna bagladıgınız deger gölgeleri belirler. Eger 0 verirseniz gölgeleri silersiniz, 1 verirseniz gölge neyse onu gösterir yani tamamen opak olur. Bizim yapmak istedigimiz herhangi bir texturenin "Alpha" degerini vermek, böylelikle verdigimiz resim neyse gölgede de o görünecek. Yani "Shadow" degerine herhangi bir texturenin "Alpha" degerini ve ya herhangi bir kanalını vererek bunu gölgeler için maske olarak kullanabilirsiniz.
 
 
-* #### [SmoothStep]()
+* #### [SmoothStep]() 💚💛💜
+Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0 dan 1e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0 dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0 dan 1e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
+
+İnput | İşlem
+:---: | :---:
+Min | Bu degerden küçük olanlar 0
+Max | Bu degerden büyük olanlar 1
+Value | İnputunuz
 
 
 * #### [SphereMask](https://youtu.be/xRxkcFOhNrc)
 The SphereMask expression outputs a mask value based on a distance calculation. If one input is the position of a point and the other input is the center of a sphere with some radius, the mask value is 0 outside and 1 inside with some transition area. This works on one, two, three, and four component vectors
 
-* #### [Step]()
+* #### [Step]() 🤍
 Bu node [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı işlemi yapıyor, "X" inputuna texture ve ya vermek istediginiz inputu veriyorsunuz, "Y" inputuna verdiginiz degere göre küçükse siyah büyükse beyaz döndürüyor. [Burdaki kodları](https://blueprintue.com/blueprint/3r2jb4ja/) kopyalayıp editöre yapıştırın, biraz oynasanız anlarsınız.
 
 
