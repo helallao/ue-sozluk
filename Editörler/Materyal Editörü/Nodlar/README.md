@@ -1016,14 +1016,14 @@ The LinearSine function takes in a scalar value and outputs the linear sine (or 
 * #### [LineIntervalIntersection]()
 
 
-* #### [Logarithm]()
+* #### [Logarithm(Ln)]() 💝
+[Logaritma](https://tr.wikipedia.org/wiki/Logaritma)
 
+* #### [Logarithm10(Log10)]() 💝
+[onluk logaritma](https://tr.wikipedia.org/wiki/Logaritma) diger adıyla genel logaritma
 
-* #### [Logarithm10]()
-The Logarithm10 node returns the base-10 logarithm, also called the common logarithm, of the input value. That is, if you take a base value of 10 and raise it to the power of the number returned by this expression, you would get the input value.
-
-* #### [Logarithm2]()
-The Logarithm2 node returns the base-2 logarithm of the input value. That is, if you take a base value of 2 and raise it to the power of the number returned by this expression, you would get the input value.
+* #### [Logarithm2(Log2)]() 💝
+[ikilik logaritma](https://tr.wikipedia.org/wiki/Logaritma)
 
 * #### [MakeVectorsOrthogonal]()
 
@@ -1156,7 +1156,12 @@ Verilen inputun tanjant degerini verir.
 
 
 * #### [Truncate]()
-The Truncate node truncates a value by discarding the fractional part while leaving the whole number untouched.
+Verilen sayının kesirli kısmını siler, tam sayı halinde verir. örnegin 
+<br>
+<br>
+1.9 -> 1
+<br>
+1.1 -> 1
 
 * #### [UnpackNormalFromFloat]()
 
