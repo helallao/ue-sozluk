@@ -37,7 +37,7 @@ Boşluk Tuşu (Spacebar) | Bütün nodların önizlemesini (nodun kenarındaki k
 
 
 ## [Node Kısayolları]()
-Burdaki kısayollardan birine basılı tutup, graph üzerinde tıklarsanız, o nodu graphe koyar.
+Burdaki kısayollardan birine basılı tutup, graph üzerine tıklarsanız, o nodu graphe koyar.
 
 Kısayol | Eylem
 :---: | :---:
