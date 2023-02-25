@@ -1,6 +1,7 @@
 # Graph
 <img src="../../../Dosyalar/Materyal_Editor_Graph.jpg">
 
+Materyal editörü blueprint dilini kullanarak materyallerimizi kodladıgımız editördür. Burdaki nodlar tam olarak blueprint degildir. Materyal blueprint i diyebiliriz. Nodların açıklamalarını ve kullanılış şekillerini [Nodlar](../Nodlar) bölümünden ögrenebilirsiniz.
 
 
 # Bölümler
