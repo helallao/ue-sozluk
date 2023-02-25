@@ -6,10 +6,10 @@ Materyal editörü blueprint dilini kullanarak materyallerimizi kodladıgımız 
 
 # Bölümler
 
-* [Save Butonu](#save-butonu)
 * [Fare Kısayolları](#fare-kısayolları)
 * [Klavye Kısayolları](#klavye-kısayolları)
 * [Node Kısayolları](#node-kısayolları)
+* [Alignment Kısayolları](#alignment-kısayolları)
 
 
 
@@ -63,3 +63,16 @@ V | [VectorParameter](../Nodlar#vectorparameterparam)
 3 | [Constant3Vector](../Nodlar#constant3vector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 4 | [Constant4Vector](../Nodlar#constant4vector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 Shift + C | [ComponentMask](../Nodlar#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
+
+
+## [Alignment Kısayolları]()
+Düzenlemek istediginiz nodları seçtikten sonra aşagıdaki kısayollardan birine basarak o nodları düzenleyebilirsiniz.
+
+Kısayol | Eylem
+:---: | :---:
+Shift + A | Sola yasla
+Shift + D | Saga yasla
+Shift + W | Yukarı yasla
+Shift + S | Aşagı yasla
+Alt + Shift + S | Ortaya yasla (yatay olarak, yani şöyle düşünün en soldaki ile en sagdaki nodların ortası)
+Alt + Shift + W | Ortaya yasla (dikey olarak, yani şöyle düşünün en üstteki ile en alttaki nodların ortası)
