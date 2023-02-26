@@ -1155,7 +1155,7 @@ Verilen inputun tanjant degerini verir.
 * #### [TransformToClipSpace]()
 
 
-* #### [Truncate]()
+* #### [Truncate]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verilen sayının kesirli kısmını siler, tam sayı halinde verir. örnegin 
 <br>
 <br>
