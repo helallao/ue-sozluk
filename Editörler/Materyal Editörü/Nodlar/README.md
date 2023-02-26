@@ -725,23 +725,23 @@ Although any random Material can be used with a Landscape Actor, the Material sy
 
 ## Material Attributes
 
-* #### [BlendMaterialAttributes]()
+* #### [BlendMaterialAttributes]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Oluşturdugunuz MaterialAttributes ları "Alpha" degerine göre blend yapmanıza ([LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) gibi) yarar.
 
+* #### [BreakMaterialAttributes]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Bu node ile oluşturdugunuz MaterialAttributes dan bütün Attribute leri alabilirsiniz.
 
-* #### [BreakMaterialAttributes]()
-The Break Material Attributes expression is ideal when using a Layered Material - a feature of the Material Functions system. When using a Material Layer Function within a Material, you may want to use only one aspect of the layer. For example, you may have a Material Layer that defines a nice looking generic Material, such as steel. You may want to use only the Roughness and Base Color attributes from that layer in your final Material, rather than using the whole thing. In such cases, you can use a Break Material Attributes node to split up all of the incoming attributes of the Material Layer, and then just plug in the ones you want. This also allows for complex blending of various Material Attributes.
+* #### [GetMaterialAttributes]() ❤️💛💚💙💜
+[BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynıdır ama bu nodda alacagınız Attribute leri kendiniz seçebilirsiniz.
 
-* #### [GetMaterialAttributes]()
-
-
-* #### [MakeMaterialAttributes]()
-The Make Material Attributes node does exactly the opposite of the Break Material Attributes node. Instead of splitting attributes apart, this brings them together. This is useful when creating your own Material Layer functions, as you will have access to all of the standard attributes for your output. This can also be used for complex Material setups in which you want to define more than one type of Material and blend them together, all within one Material.
+* #### [MakeMaterialAttributes]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+MaterialAttributes oluşturmanıza yarar. MaterialAttributes kullanmak için ana materyal nodunuzdaki "Use Material Attributes" seçenegini aktifleştirin. Bu nodu kullanmak yerine [SetMaterialAttributes](#setmaterialattributes-%EF%B8%8F) nodunu kullanabilirsiniz.
 
 * #### [MaterialAttributeLayers]()
 
 
-* #### [SetMaterialAttributes]()
-
+* #### [SetMaterialAttributes]() ❤️💚💙💛💜
+[MakeMaterialAttributes](#makematerialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynıdır ama bu nodda kullanacagınız Attribute leri kendiniz seçebilirsiniz.
 
 
 ## MaterialLayerBlend
