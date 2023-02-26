@@ -70,6 +70,7 @@ Düzenlemek istediginiz nodları seçtikten sonra aşagıdaki kısayollardan bir
 
 Kısayol | Eylem
 :---: | :---:
+Q | Node baglarını düzle
 Shift + A | Sola yasla
 Shift + D | Saga yasla
 Shift + W | Yukarı yasla
