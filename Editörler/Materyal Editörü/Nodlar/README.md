@@ -726,16 +726,16 @@ Although any random Material can be used with a Landscape Actor, the Material sy
 ## Material Attributes
 
 * #### [BlendMaterialAttributes]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Oluşturdugunuz MaterialAttributes ları "Alpha" degerine göre blend yapmanıza ([LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) gibi) yarar.
+Oluşturdugunuz [MaterialAttributes](../Terimler%20Sözlügü/README.md#material-attributes) ları "Alpha" degerine göre blend yapmanıza ([LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) gibi) yarar.
 
 * #### [BreakMaterialAttributes]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Bu node ile oluşturdugunuz MaterialAttributes dan bütün Attribute leri alabilirsiniz.
+Bu node ile oluşturdugunuz [MaterialAttributes](../Terimler%20Sözlügü/README.md#material-attributes) dan bütün Attribute leri alabilirsiniz.
 
 * #### [GetMaterialAttributes]() ❤️💛💚💙💜
 [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynıdır ama bu nodda alacagınız Attribute leri kendiniz seçebilirsiniz.
 
 * #### [MakeMaterialAttributes]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-MaterialAttributes oluşturmanıza yarar. MaterialAttributes kullanmak için ana materyal nodunuzdaki "Use Material Attributes" seçenegini aktifleştirin. Bu nodu kullanmak yerine [SetMaterialAttributes](#setmaterialattributes-%EF%B8%8F) nodunu kullanabilirsiniz.
+[MaterialAttributes](../Terimler%20Sözlügü/README.md#material-attributes) oluşturmanıza yarar. MaterialAttributes kullanmak için ana materyal nodunuzdaki "Use Material Attributes" seçenegini aktifleştirin. Bu nodu kullanmak yerine [SetMaterialAttributes](#setmaterialattributes-%EF%B8%8F) nodunu kullanabilirsiniz.
 
 * #### [MaterialAttributeLayers]()
 
