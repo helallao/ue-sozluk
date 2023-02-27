@@ -70,9 +70,23 @@ Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki reng
 
 ### [Material Domain](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
 
-* [Surface](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
-* [Deferred Decal](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
-* [Light Function](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
-* [Volume](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
-* [Post Process](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
-* [User Interface](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+* #### [Surface](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+* #### [Deferred Decal](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+* #### [Light Function](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+* #### [Volume](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+* #### [Post Process](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+* #### [User Interface](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+
+### [Blend Mode](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
+
+* #### [Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#opaque)
+Surface yani yüzey oluşturur, içerisinden ışık geçmez. Sadece bu, normal materyal.
+
+* #### [Masked](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#masked)
+[Opacity Mask](#opacity-mask) seçenegini aktifleştirir.
+
+* #### [Translucent](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#translucent)
+* #### [Additive](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#additive)
+* #### [Modulate](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#modulate)
+* #### [AlphaComposite (Premultiplied Alpha)]()
+* #### [AlphaHoldout]()
