@@ -1,16 +1,20 @@
 # Graph
 <img src="../../../Dosyalar/Materyal_Editor_Graph.jpg">
 
-Materyal editörü blueprint dilini kullanarak materyallerimizi kodladıgımız editördür. Burdaki nodlar tam olarak blueprint degildir. "Materyal blueprint" i diyebiliriz. Nodların açıklamalarını ve kullanılış şekillerini [Nodlar](../Nodlar) bölümünden ögrenebilirsiniz.
+Materyal editörü blueprint dilini kullanarak materyallerimizi kodladıgımız editördür. Burdaki nodlar tam olarak blueprint degildir. "Materyal blueprint" i diyebiliriz. Nodların açıklamalarını ve kullanılış şekillerini [Nodlar](../Nodlar) bölümünden ögrenebilirsiniz. "Main Material" nodunu [aşagıda anlattım](#main-material-node).
 
 
 # Bölümler
 
+* [Main Material Node](#main-material-node)
 * [Fare Kısayolları](#fare-kısayolları)
 * [Klavye Kısayolları](#klavye-kısayolları)
 * [Node Kısayolları](#node-kısayolları)
 * [Alignment Kısayolları](#alignment-kısayolları)
 
+
+## [Main Material Node]()
+<img src="../../../Dosyalar/Materyal_Editor_Main_Material_Node.jpg">
 
 
 ## [Fare Kısayolları]()
