@@ -13,7 +13,7 @@ Materyal editörü blueprint dilini kullanarak materyallerimizi kodladıgımız 
 * [Alignment Kısayolları](#alignment-kısayolları)
 
 
-## [Main Material Node]()
+## [Main Material Node](Main Material Node)
 <img src="../../../Dosyalar/Materyal_Editor_Main_Material_Node.jpg">
 
 
