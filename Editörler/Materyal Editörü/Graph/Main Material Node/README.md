@@ -35,6 +35,7 @@ Materyalin ne kadar opak oldugunu belirler. Degerler 0-1 arasındadır. 0 saydam
 Opacity gibidir ama ya saydam ya da opak olmak zorundadır. Yani Opacity gibi istediginiz derecede opaklık veremezsiniz. Degerler 0-1 arasındadır ama yakın olan sayıya yuvarlanır. 0 saydamı, 1 opagı temsil eder.
 
 ### Normal
+Genellikle Normal Map şeklinde kullanılır. Normal, verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi, zaten bundan dolayı bazı yerlerde Height Map diye de geçer. Map diye kastedilen şey bir texture yani resimdir.
 
 ### Tangent
 
