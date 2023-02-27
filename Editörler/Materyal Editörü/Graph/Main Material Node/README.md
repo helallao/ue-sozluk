@@ -33,7 +33,7 @@ Emissive Color neon gibidir. Degerler 0-1 arasında degildir, istediginiz kadar 
 Materyalin ne kadar opak oldugunu belirler. Degerler 0-1 arasındadır. 0 saydamı, 1 opagı temsil eder.
 
 * ### [Opacity Mask](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#opacitymask)
-Opacity gibidir ama ya saydam ya da opak olmak zorundadır. Yani Opacity gibi istediginiz derecede opaklık veremezsiniz. Degerler 0-1 arasındadır ama yakın olan sayıya yuvarlanır. 0 saydamı, 1 opagı temsil eder.
+Opacity gibidir ama ya saydam ya da opak olmak zorundadır. Yani Opacity gibi istediginiz derecede opaklık veremezsiniz. Degerler 0-1 arasındadır ama "Opacity Mask Clip Value" degerine altta olanlar 0a üstte olanlar 1e yuvarlanır. 0 saydamı, 1 opagı temsil eder.
 
 * ### [Normal](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#normal)
 Genellikle Normal Map şeklinde kullanılır. Normal, verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi, zaten bundan dolayı bazı yerlerde Height Map diye de geçer. Map diye kastedilen şey bir texture yani resimdir.
@@ -71,15 +71,18 @@ Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki reng
 * #### [Post Process](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
 * #### [User Interface](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
 
+
 ### [Blend Mode](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
 
 * #### [Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#opaque)
 Surface yani yüzey oluşturur, içerisinden ışık geçmez. Sadece bu, normal materyal.
 
 * #### [Masked](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#masked)
-[Opacity Mask](#opacity-mask) seçenegini aktifleştirir.
+[Opacity Mask](#opacity-mask) seçenegini aktifleştirir. [Translucent](#translucent) gibi degildir, [Opacity Mask](#opacity-mask) kullanılıp da silinmiş kısımlar motor tarafından hiç çizilmez, yansıma özellikleri de silinir yani. Eger bu özelliklerin kalmasını istiyorsanız [Translucent](#translucent) kullanmalısınız.
 
 * #### [Translucent](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#translucent)
+Türkçesi Saydam. [Opacity](#opacity) ve [Refraction](#refraction) seçenegini aktifleştirir.
+
 * #### [Additive](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#additive)
 * #### [Modulate](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#modulate)
 * #### [AlphaComposite (Premultiplied Alpha)]()
