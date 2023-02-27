@@ -24,6 +24,7 @@ Materyalin ne kadar ışık yansıtacagını belirler. Materyalin specular olmas
 Materyalin ne kadar pürüzlü oldugunu belirler. Materyalin ne kadar pürüzlü olup olmaması materyalin yansıtma özelligini en çok etkileyen etkendir. Degerler 0-1 arasındadır. 0 pürüzssüzü (ayna gibi yansıtma), 1 pürüzlüyü (yansıtmama) temsil eder.
 
 ### [Anisotropy](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#anisotropyandtangent)
+Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
 
 ### [Emissive Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#emissivecolor)
 Emissive Color neon gibidir. Degerler 0-1 arasında degildir, istediginiz kadar arttırabilirsiniz. Base Color gibi verdiginiz rengi yansıtır ama degeri arttırdıkça neon gibi olur ve parlamaya başlar, etrafına ışık saçar. Parlaklıgı arttırıyormuşsunuz gibi.
@@ -38,11 +39,13 @@ Opacity gibidir ama ya saydam ya da opak olmak zorundadır. Yani Opacity gibi is
 Genellikle Normal Map şeklinde kullanılır. Normal, verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi, zaten bundan dolayı bazı yerlerde Height Map diye de geçer. Map diye kastedilen şey bir texture yani resimdir.
 
 ### [Tangent](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#anisotropyandtangent)
+Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
 
 ### [World Position Offset](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#worldpositionoffset)
 World Position Offset konum degiştirme daha dogrusu hareket kazandırma amaçlı kullanılır. Blueprint ile yazmak yerine materyal içinde bunu yapabilmek çok büyük kolaylık. Bu materyale sahip olan meshlerin belirli hareketler yapmasını istediginizde kullanabilirsiniz. Konum degişse bile aslında meshin gerçek konumu degişmez yani aslında World Position Offset konumu degiştirmez.
 
 ### [Subsurface Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#subsurfacecolor)
+Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki renge etki edecek rengi belirler. Yani arkadan bi ışık vurdugunda, materyalin içindeki şeyin rengi ortaya çıkmaya başlar, mesela insan cildi için ışık vurdugunda kan rengi olarak kırmızı rengin ortaya çıkması gibi, telefon ışıgıyla falan parmagınızı üstüne tutup görebilirsiniz.
 
 ### [Custom Data 0](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
 
