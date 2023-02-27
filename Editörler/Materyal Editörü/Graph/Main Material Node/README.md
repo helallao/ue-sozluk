@@ -84,6 +84,8 @@ Surface yani yüzey oluşturur, içerisinden ışık geçmez. Sadece bu, normal 
 Türkçesi Saydam. [Opacity](#opacity) ve [Refraction](#refraction) seçenegini aktifleştirir.
 
 * #### [Additive](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#additive)
+[Opacity](#opacity) ve [Refraction](#refraction) seçenegini aktifleştirir. Additive'nin özelligi şudur, bu materyale sahip birden fazla mesh arka arkaya durursa, bizim görüş açımıza göre üst üste geldikleri kısımda, iki materyalin de renkleri toplanır. Toplanan deger sadece rengi degiştirmez yani sadece [Base Color](#base-color) gibi degildir, toplanan degerler çok fazla olursa [Emissive Color](#emissive-color) gibi etrafa renk saçmaya başlar, parlar.
+
 * #### [Modulate](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#modulate)
 * #### [AlphaComposite (Premultiplied Alpha)]()
 * #### [AlphaHoldout]()
