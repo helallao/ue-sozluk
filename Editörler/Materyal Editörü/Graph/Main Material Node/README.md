@@ -87,10 +87,13 @@ Türkçesi Saydam. [Opacity](#opacity) ve [Refraction](#refraction) seçenegini 
 [Opacity](#opacity) ve [Refraction](#refraction) seçenegini aktifleştirir. Additive'nin özelligi şudur, bu materyale sahip birden fazla mesh arka arkaya durursa, bizim görüş açımıza göre üst üste geldikleri kısımda, iki materyalin de renkleri toplanır. Toplanan deger sadece rengi degiştirmez yani sadece [Base Color](#base-color) gibi degildir, toplanan degerler çok fazla olursa [Emissive Color](#emissive-color) gibi etrafa renk saçmaya başlar, parlar.
 
 * #### [Modulate](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#modulate)
-Additive'e benzer. Modulate'in özelligi şudur, bu materyale sahip birden fazla mesh arka arkaya durursa, bizim görüş açımıza göre üst üste geldikleri kısımda, iki materyalin de renkleri çarpılır ve koyu renge sahip olur. Sanırım ışık ile uyumsuz oldugu için, [Shading Model](#shading-model-1)'ını ["Unlit"](#unlit) yapın.
+Additive'e benzer. Modulate'in özelligi şudur, bu materyale sahip birden fazla mesh arka arkaya durursa, bizim görüş açımıza göre üst üste geldikleri kısımda, iki materyalin de renkleri çarpılır ve koyu renge sahip olur. Sanırım ışık ile uyumsuz oldugu için, [Shading Model](#shading-model-1)'ını ["Unlit"](#unlit) yapmak zorundasınız.
 
 * #### [AlphaComposite (Premultiplied Alpha)]()
+Particle Effects için iyi oldugu söyleniyor, pek bilgim yok.
+
 * #### [AlphaHoldout]()
+Sanırım ışık ile uyumsuz oldugu için, [Shading Model](#shading-model-1)'ını ["Unlit"](#unlit) yapmak zorundasınız. AlphaHoldout'un özelligi şudur, bu materyale sahip mesh, kendisinin arkasında duran saydam (burası çok önemli) materyale sahip meshleri görünmez yapar, yani arkasını gösterir. AlphaHoldout için [Opacity](#opacity) degeri vermelisiniz, bu bir şekil olabilir ve ya başka bir şey, sizin bakış açınıza göre AlphaHoldout arkasına gelen saydam materyallerin üzerinde görünmezlik efekti uygulayacaktır yani aldıgı [Opacity](#opacity) degerini arkasındaki saydam materyallere de uygular.
 
 
 
