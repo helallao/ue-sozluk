@@ -22,6 +22,7 @@ Spesifik Node = 💝
 * Eger bi nodun inputu belirli boyutta bir input alıyorsa açıklamada belirtilir, eger açıklamada bunun hakkında bir şey yazmıyorsa her boyutta (S, V2, V3, V4) input alıyor demektir.
 * Eger node hakkında güzel bi kaynak (genellikle video) varsa, nodun başlıgına eklerim, başlıga tıklayıp videoya gidebilirsiniz, zaten nodu anlamak için verdigim kaynaga bakmak gerekiyorsa bunu açıklamada da belirtirim. Bazı nodlarda güzel kaynak olsa bile koymadım çünkü zaten benim açıklamalarımda ögreneceginiz her şey anlatılıyor.
 * Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
+* Bazı bölümlerde "Siyahlık" - "Beyazlık" kavramlarını kullandım, anlaşılır olması için böylesi daha dogruydu, siyahlıktan kastım 0, beyazlıktan kastım 1 degeridir.
 <br>
 <br>
 <br>
