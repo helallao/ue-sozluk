@@ -352,7 +352,7 @@ Camera Relative World Position | Kameraya göre konumu (materyalin) verir (V3)
 ## Custom
 
 * #### [Custom]() 💝
-HLSL dili (High-Level Shader Language) ile yazılan kodları çalıştırmanıza yarar.
+HLSL dili (High-Level Shader Language) ile yazılan kodları çalıştırmanıza yarar. Zaten bu nodların hepsi küçük küçük HLSL dili ile yazılmış kodlardır. Biz de bu nodları birleştirerek işlemler yapıyoruz.
 
 * #### [PerInstanceCustomData]()
 
@@ -937,14 +937,14 @@ Cosine yani kosinüs, [Sine](#sine-%EF%B8%8F) ile aynı işlevi görür ama sade
 * #### [CreateThirdOrthogonalVector]()
 
 
-* #### [CrossProduct](https://youtu.be/KWtRiKbNS24)
+* #### [CrossProduct](https://youtu.be/KWtRiKbNS24) ❤️💛💚💙
 Türkçesi [Çapraz Çarpım](https://tr.wikipedia.org/wiki/%C3%87apraz_%C3%A7arp%C4%B1m) ve ya [Vektörel Çarpım](https://www.youtube.com/watch?v=QaaqS8oTl6E) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Cross_product) sayfasına da bakabilirsiniz. Verilen iki vektöre dik inen bir vektör veriyor. Ne işe yaradıgını bilmiyorum.
 
 * #### [CylinderIntersection]()
 
 
-* #### [DegreesToRadians]()
-
+* #### [DegreesToRadians]() 🤍🤍
+Verdigimiz dereceyi (yani açıyı) [radyana](https://tr.wikipedia.org/wiki/Radyan) dönüştürür ve ya radyan degerini verir de denebilir.
 
 * #### [DeriveNormalZ_Function]()
 
@@ -952,15 +952,19 @@ Türkçesi [Çapraz Çarpım](https://tr.wikipedia.org/wiki/%C3%87apraz_%C3%A7ar
 * #### [Divide](https://youtu.be/ibGKUNCM8e8) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bölme.
 
-* #### [DotProduct](https://youtu.be/sf3jT12pN6o)
+* #### [DotProduct](https://youtu.be/sf3jT12pN6o) ❤️💛💚💙💜
 Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1 den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
 
 The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
 
-* #### [Exponential]()
+* #### [Exponential]() 🤍
+Verdiginiz sayı kadar [e sayısının](https://tr.wikipedia.org/wiki/E_say%C4%B1s%C4%B1) üssünü alır.
 
 
-* #### [FindSaturation]()
+* #### [FindSaturation]() 💚💙💜
+Verdigimiz renk degerine göre, alttaki renk paletinin orta noktasından ne kadar uzak oldugumuz bilgisini döndürür, ortadaysak 0 uçtaysak 1. Yani beyazdan ne kadar uzak oldugumuz bilgisini verir, aynı zamanda verdigimiz rengin o renge ne kadar doygun oldugu bilgisi (doygunluk, saturation).
+
+<img width="150" src="../../../Dosyalar/HueShift_Palet.jpg">
 
 
 * #### [Floor](https://youtu.be/UIXOPWJVHDE) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -2017,9 +2021,11 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [ObjectPivotPoint]()
+Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi hareket falan ettiriyoruz) bilgisini verir (V3), yani konum degeri.
 
 
 * #### [ObjectScale]()
+Bu materyale sahip olan objenin scale bilgisini verir (V3).
 
 
 * #### [ObjectSpaceFalloff]()
@@ -3218,13 +3224,13 @@ Verilen inputları birbirine yeni boyut olarak ekler ve daha fazla boyuta sahip 
 * #### [ComponentMask(Mask)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 İnput olarak verdigimiz vektörden, istedigimiz kanalları alabilmemizi saglar.
 
-* #### [CrossProduct](https://youtu.be/KWtRiKbNS24)
+* #### [CrossProduct](https://youtu.be/KWtRiKbNS24) ❤️💛💚💙
 Türkçesi [Çapraz Çarpım](https://tr.wikipedia.org/wiki/%C3%87apraz_%C3%A7arp%C4%B1m) ve ya [Vektörel Çarpım](https://www.youtube.com/watch?v=QaaqS8oTl6E) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Cross_product) sayfasına da bakabilirsiniz. Verilen iki vektöre dik inen bir vektör veriyor. Ne işe yaradıgını bilmiyorum.
 
 * #### [DeriveNormalZ]()
 The DeriveNormalZ expression derives the Z component of a tangent space normal given the X and Y components and outputs the resulting three-channel tangent space normal. Z is calculated as Z = sqrt(1 - (x * x + y * y));
 
-* #### [DotProduct](https://youtu.be/sf3jT12pN6o)
+* #### [DotProduct](https://youtu.be/sf3jT12pN6o) ❤️💛💚💙💜
 Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1 den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
 
 * #### [Fresnel_Function]()
@@ -3272,7 +3278,7 @@ Constantın 4 boyutlu hali, bu dört boyut RGBA ya denk gelir. RGB den farklı o
 This expression has been deprecated in Unreal Engine 4 as lighting calculations are now deferred.
 
 * #### [ObjectBounds]()
-The Object Bounds expression outputs the size of the object in each axis. If used as color, the X, Y, and Z axes correspond to R, G, and B, respectively.
+Bu materyale sahip olan objenin X, Y, Z eksenlerine göre kapladıkları alanların bilgisini verir (V3).
 
 * #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
 Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir (0-1), obejenin yönüne göre.
@@ -3326,9 +3332,6 @@ Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, 
 
 ## VirtualTexture
 
-* #### [RuntimeVirtualFeatureSwitch]()
-
-
 * #### [RuntimeVirtualTextureOutput]()
 
 
@@ -3339,6 +3342,9 @@ Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, 
 
 
 * #### [RuntimeVirtualTextureSampleParameter]()
+
+
+* #### [VirtualTextureFeatureSwitch]()
 
 
 
@@ -3404,10 +3410,10 @@ The CameraOffset function is great to assist with depth sorting, as it allows yo
 
 
 * #### [ObjectPivotPoint]()
-The ObjectPivotPoint function returns the object's pivot point in world space. This is not compatible with the pixel shader.
+Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi hareket falan ettiriyoruz) bilgisini verir (V3), yani konum degeri.
 
 * #### [ObjectScale]()
-The ObjectScale function returns the object's XYZ scale together and seperately. This is not compatible with the pixel shader.
+Bu materyale sahip olan objenin scale bilgisini verir (V3).
 
 * #### [OrthoFOV]()
 
