@@ -100,8 +100,14 @@ Sanırım ışık ile uyumsuz oldugu için, [Shading Model](#shading-model-1)'ı
 ### [Shading Model](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/)
 
 * #### [Unlit](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#unlit)
+[Emissive Color](#emissive-color) kullanabiliyorsunuz. Unlit modu etrafa ışık saçmaz, verilen [Emissive Color](#emissive-color) degerine göre parlama efekti uygular, ama aslında etrafa ışık saçmaz.
+
 * #### [Default Lit](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#defaultlit)
+Default Lit modu ışıgı kullanır, ışık saçar. Yani ışıkla ilgili özellikler açıktır.
+
 * #### [Subsurface](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#subsurface)
+[Opacity](#opacity) ve [Subsurface Color](#subsurface-color) seçenegini aktifleştirir. Subsurface arkadan ışık vurdugunda, bizim gördügümüz taraftaki renge etki edecek rengi ayarlamamıza yarar. Yani arkadan bi ışık vurdugunda, materyalin içindeki şeyin rengi ortaya çıkmaya başlar, mesela insan cildi için ışık vurdugunda kan rengi olarak kırmızı rengin ortaya çıkması gibi, telefon ışıgıyla falan parmagınızı üstüne tutup görebilirsiniz.
+
 * #### [Preintegrated Skin](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#preintegratedskin)
 * #### [Clear Coat](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#clearcoat)
 * #### [Subsurface Profile](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#subsurfaceprofile)
