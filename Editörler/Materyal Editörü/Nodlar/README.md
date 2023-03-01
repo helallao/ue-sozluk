@@ -101,7 +101,7 @@ Kullanışsız, renkleri silmede kullanılıyor.
 
 İnput | İşlem
 :---: | :---:
-İsimsiz | Texture ve ya renk
+‎ | Texture ve ya renk
 Fraction | Fraction degeri
 Luminance Factors | Burdaki her renk degeri, o renk kanalının ne kadar etkilenecegini belirtir
 
