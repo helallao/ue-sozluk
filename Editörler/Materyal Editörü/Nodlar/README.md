@@ -1006,7 +1006,8 @@ A < B
 <br>
 Diyelim ki A = 100 ve B = 10. A B den büyük oldugu için sonuç A > B seçenegine verdigimiz şey olacaktır. Eger A ve B birbirine eşit olsa A == B seçenegine verdigimiz şey sonuç olarak döndürülecekti. Eger A B den küçük olsa A < B seçenegine verdigimiz şey sonuç olarak döndürülecekti. Yani verdigimiz koşula göre hangi işlemin yapılması gerektigini belirliyoruz.
 
-* #### [InverseLinearInterpolate]()
+* #### [InverseLinearInterpolate(InvLerp)]() 🤍
+Sanırım [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı. Bi fark bulamadım.
 
 
 * #### [InverseTransformMatrix]()
@@ -1619,23 +1620,32 @@ Bu node "Texture" inputuna verilen texture ve ya renk degerini "Percentage" inpu
 * #### [InverseTransformMatrix]()
 
 
-* #### [IsFloatValid]()
+* #### [IsFloatValid]() 🤍🤍
+Eger input gerçek sayı ise 1, degilse 0 (sonsuz ve ya NaN). 
 
+* #### [Lerp_3Color]() 🤍
+3 input üzerinde [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) yapar 0 ile 0.5 arası birinci ve ikinci input, 0.5 ile 1 arası ikinci ve üçüncü input arasında lerp yapar.
 
-* #### [Lerp_3Color]()
+* #### [Lerp_Multiple_Float]() 🤍🤍
+3 input üzerinde [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) yapar 0 ile 0.33 arası birinci ve ikinci input arasında, 0.33 ile 0.66 arası ikinci ve üçüncü input arasında, 0.66 ile 1 arası üçüncü ve dördüncü input arasında lerp yapar.
+<br>
+<br>
+0 = 1. input
+<br>
+0.33 = 2. input
+<br>
+0.66 = 3. input
+<br>
+1 = 4. input
 
+* #### [Lerp_Multiple_Float2]() 🤍🤍
+[Lerp_Multiple_Float](#lerp_multiple_float-) ile aynı ama 2 boyutlu vektör (V2) alıyor.
 
-* #### [Lerp_Multiple_Float]()
+* #### [Lerp_Multiple_Float3]() 🤍🤍
+[Lerp_Multiple_Float](#lerp_multiple_float-) ile aynı ama 3 boyutlu vektör (V3) alıyor.
 
-
-* #### [Lerp_Multiple_Float2]()
-
-
-* #### [Lerp_Multiple_Float3]()
-
-
-* #### [Lerp_Multiple_Float4]()
-
+* #### [Lerp_Multiple_Float4]() 🤍🤍
+[Lerp_Multiple_Float](#lerp_multiple_float-) ile aynı ama 4 boyutlu vektör (V4) alıyor.
 
 * #### [Lerp_ScratchGrime](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 🤍🤍
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
@@ -3109,7 +3119,8 @@ BaseReflectFractionIn | Yansıtma degeri, Bu da ExponentIn in aynısı ama dış
 * #### [GIReplace](https://youtu.be/Yb9fiof97xQ) 💝
 Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve siz de bu duvarın yanına başka bir mesh daha koydunuz, biliyorsunuz ki unreal engine duvar ne renkse duvarın yanındaki meshe de o rengin biraz yansımasını verecek. İşte yansıma rengini ayarlamak için bu nodu kullanıyoruz. Linkteki videoyu izleyin, görsellerle anlaması daha kolay.
 
-* #### [InverseLinearInterpolate]()
+* #### [InverseLinearInterpolate(InvLerp)]() 🤍
+Sanırım [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı. Bi fark bulamadım.
 
 
 * #### [LightmassReplace](https://youtu.be/TkdmgGWTvYM)
