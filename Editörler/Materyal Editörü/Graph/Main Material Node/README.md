@@ -11,7 +11,7 @@
 
 ## [Attributes](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/)
 
-Burdaki attributelere texture verildiginde "map" denir. Mesela Normal için texture kullanırsanız "Normal Map" kullanmış olursunuz. Attribute degerlerini, isterseniz texture verip her piksel için ayrı ayrı, isterseniz tek deger (S) baglayıp verebilirsiniz.
+Burdaki attributelere texture verildiginde "map" denir. Mesela Normal için texture kullanırsanız "Normal Map" kullanmış olursunuz. Attribute degerlerini, isterseniz texture verip her piksel için ayrı ayrı, isterseniz tek deger (S) baglayıp verebilirsiniz. Attributeler hakkında bir [kaynak](../../Kaynaklar/README.md#material-attributesmaps).
 
 * ### [Base Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#basecolor)
 Materyalin ana rengidir, ışık yansıdıgında görünecek rengi belirler. Degerler 0-1 arasındadır. 0 siyah, 1 beyazı temsil eder. Map verildiginde "Base Color", "Color", "Diffuse Map" ve ya "Albedo" denir.
