@@ -11,32 +11,34 @@
 
 ## [Attributes](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/)
 
+Burdaki attributelere texture verildiginde "map" denir. Mesela Normal için texture kullanırsanız "Normal Map" kullanmış olursunuz. Attribute degerlerini, isterseniz texture verip her piksel için ayrı ayrı, isterseniz tek deger (S) baglayıp verebilirsiniz.
+
 * ### [Base Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#basecolor)
-Materyalin ana rengidir, ışık yansıdıgında görünecek rengi belirler. Degerler 0-1 arasındadır. 0 siyah, 1 beyazı temsil eder.
+Materyalin ana rengidir, ışık yansıdıgında görünecek rengi belirler. Degerler 0-1 arasındadır. 0 siyah, 1 beyazı temsil eder. Map verildiginde "Base Color", "Color", "Diffuse Map" ve ya "Albedo" denir.
 
 * ### [Metallic](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#metallic)
-Materyalin metalik olup olmayacagını belirler. Materyalin metalik olması az da olsa yansımayı etkiler. Degerler 0-1 arasındadır. 0 metalik olmayan, 1 metalik olanı temsil eder.
+Materyalin metalik olup olmayacagını belirler. Materyalin metalik olması az da olsa yansımayı etkiler. Degerler 0-1 arasındadır. 0 metalik olmayan, 1 metalik olanı temsil eder. Map verildiginde "Metallic" ve ya "Metalness" denir.
 
 * ### [Specular](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#specular)
-Materyalin ne kadar ışık yansıtacagını belirler. Materyalin specular olması parlaklıgı da etkiler. Degerler 0-1 arasındadır. 0 hiç yansıtmamayı, 1 tam yansıtmayı temsil eder.
+Materyalin ne kadar ışık yansıtacagını belirler. Materyalin specular olması parlaklıgı da etkiler. Degerler 0-1 arasındadır. 0 hiç yansıtmamayı, 1 tam yansıtmayı temsil eder. Map verildiginde "Specular" ve ya "Reflection Map" denir.
 
 * ### [Roughness](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#roughness)
-Materyalin ne kadar pürüzlü oldugunu belirler. Materyalin ne kadar pürüzlü olup olmaması materyalin yansıtma özelligini en çok etkileyen etkendir. Degerler 0-1 arasındadır. 0 pürüzssüzü (ayna gibi yansıtma), 1 pürüzlüyü (yansıtmama) temsil eder.
+Materyalin ne kadar pürüzlü oldugunu belirler. Materyalin ne kadar pürüzlü olup olmaması materyalin yansıtma özelligini en çok etkileyen etkendir. Degerler 0-1 arasındadır. 0 pürüzssüzü (ayna gibi yansıtma), 1 pürüzlüyü (yansıtmama) temsil eder. Map verildiginde "Roughness Map" ve ya "Gloss" denir.
 
 * ### [Anisotropy](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#anisotropyandtangent)
 Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
 
 * ### [Emissive Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#emissivecolor)
-Emissive Color neon gibidir. Degerler 0-1 arasında degildir, istediginiz kadar arttırabilirsiniz. Base Color gibi verdiginiz rengi yansıtır ama degeri arttırdıkça neon gibi olur ve parlamaya başlar, etrafına ışık saçar. Parlaklıgı arttırıyormuşsunuz gibi.
+Emissive Color neon gibidir. Degerler 0-1 arasında degildir, istediginiz kadar arttırabilirsiniz. Base Color gibi verdiginiz rengi yansıtır ama degeri arttırdıkça neon gibi olur ve parlamaya başlar, etrafına ışık saçar. Parlaklıgı arttırıyormuşsunuz gibi. Map verildiginde "Emmission" denir.
 
 * ### [Opacity](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#opacity)
-Materyalin ne kadar opak oldugunu belirler. Degerler 0-1 arasındadır. 0 saydamı, 1 opagı temsil eder.
+Materyalin ne kadar opak oldugunu belirler. Degerler 0-1 arasındadır. 0 saydamı, 1 opagı temsil eder. Map verildiginde "Opacity" denir.
 
 * ### [Opacity Mask](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#opacitymask)
 Opacity gibidir ama ya saydam ya da opak olmak zorundadır. Yani Opacity gibi istediginiz derecede opaklık veremezsiniz. Degerler 0-1 arasındadır ama "Opacity Mask Clip Value" degerine altta olanlar 0a üstte olanlar 1e yuvarlanır. 0 saydamı, 1 opagı temsil eder.
 
 * ### [Normal](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#normal)
-Genellikle Normal Map şeklinde kullanılır. Normal, verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi, zaten bundan dolayı bazı yerlerde Height Map diye de geçer. Map diye kastedilen şey bir texture yani resimdir.
+Verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi, zaten bundan dolayı bazı yerlerde "Height Map" diye de geçer. Map verildiginde "Normal Map", "Height Map" ve ya "Bump Map" denir.
 
 * ### [Tangent](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#anisotropyandtangent)
 Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
@@ -50,6 +52,7 @@ Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki reng
 * ### [Custom Data 0](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
 * ### [Custom Data 1](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
 * ### [Ambient Occlusion](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#ambientocclusion)
+Map verildiginde "AO Map" denir.
 * ### [Refraction](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#refraction)
 * ### [Pixel Depth Offset](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#pixeldepthoffset)
 * ### [Shading Model](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#shadingmodel)
