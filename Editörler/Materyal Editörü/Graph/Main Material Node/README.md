@@ -125,4 +125,7 @@ Default Lit modu ışıgı kullanır, ışık saçar. Yani ışıkla ilgili öze
 
 
 ### [Two Sided](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/)
-Materyali iki yüzlü yapar. Mesela küre, sadece dış yüzeyi degil de, iç yüzeyi olur, yani içine girdiginizde iç yüzeyinde materyal görürsünüz. Bknz. [TwoSidedSign](../../Nodlar#twosidedsign-)
+Materyali iki yüzlü yapar. Mesela küre, sadece dış yüzeyi degil iç yüzeyi de olur, yani içine girdiginizde iç yüzeyinde materyal görürsünüz. Bknz. [TwoSidedSign](../../Nodlar#twosidedsign-)
+
+### [Use Material Attributes](https://docs.unrealengine.com/5.1/en-US/material-attributes-expressions-in-unreal-engine/)
+Material Attributes kullanmak istiyorsanız bunu açmanız gerek. Bknz. [Material Attributes](../../Nodlar#material-attributes)
