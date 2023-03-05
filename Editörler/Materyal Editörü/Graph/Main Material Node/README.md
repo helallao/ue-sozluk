@@ -121,3 +121,8 @@ Default Lit modu ışıgı kullanır, ışık saçar. Yani ışıkla ilgili öze
 * #### [Single Layer Water](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#singlelayerwater)
 * #### [Thin Translucent](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#thintranslucent)
 * #### [From Material Expression](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#frommaterialexpression)
+
+
+
+### [Two Sided](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/)
+Materyali iki yüzlü yapar. Mesela küre, sadece dış yüzeyi degil de, iç yüzeyi olur, yani içine girdiginizde iç yüzeyinde materyal görürsünüz. Bknz. [TwoSidedSign](../../Nodlar#twosidedsign-)
