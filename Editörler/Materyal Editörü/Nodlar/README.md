@@ -621,14 +621,26 @@ Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin d
 * #### [3ColorBlend](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#3colorblend) 🤍🤍
 [Lerp_3Color](#lerp_3color-) noduyla aynıdır.
 
-* #### [3PointLevels]()
-The 3PointLevels function takes in an image and remaps the values of each channel across 3 points (white, black, middle). This is similar to applying a Levels adjustment in Photoshop. However, unlike the CheapContrast functions, this function provides full control in that it gives the user ability to adjust interpolation of lights, darks, and grays (gamma). By default, the three remapping points are interpolated linearly. However, you may input your own custom interpolation curve if you wish.
+* #### [3PointLevels]() 🤍🤍
+Bu node size 3 nokta sunar, bunlar baş, son ve orta nokta (orta nokta ayarlanabiliyor). Her noktaya istediginiz degeri (S) verebilirsiniz, ama skaler deger yani (S) aldıgı için sadece siyah beyaz bir texture (bir nevi [gradient](../Terimler%20Sözlügü/README.md#gradient)) verir. İsmi "-------------" olan inputlar sadece düzen yapmak yani kategorileri birbirinden ayırmak için. Bu node şu şekilde çalışır, bu üç noktaya 0 ve 1 arası (ve ya nasıl isterseniz (S) olsunda) degerler verirsiniz ve her nokta kendi arasında [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olur (bu lerp şiddetini "Interpolation Power" belirliyor), böylelikle bir  [gradient](../Terimler%20Sözlügü/README.md#gradient) elde etmiş olursunuz. Sadece orta noktanın konumunu degiştirebilirsiniz ("Middle Point" inputu bunu ayarlar).
 
-* #### [CheapContrast]()
-The CheapContrast function boosts the contrast of an input by remapping the high end of the histogram to a lower value, and the low end of the histogram to a higher one. This is similar to applying a Levels adjustment in Photoshop, and pulling the black and white flags in a bit. The user may control the degree to which the contrast is boosted.
+İnput | İşlem
+:---: | :---:
+Texture | Inputunuz
+New Black Value | Black normalde 0 demektir, yani başlangıcın (1. noktanın) degeri
+New Middle Value | Middle yani orta noktanın (2. noktanın) degeri
+New White Value | White normalde 1 demektir, yani sonun (3. noktanın) degeri
+Middle Point | Orta noktanın konumu, 0 ile 1 arasında, 0 baş 1 son
+Define Interpolation Curve | Interpolation Power inputunu kullanmak istiyorsanız bu seçenegi açmalısınız
+Interpolation Power | Her noktanın birbirleri arasında [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olma şiddeti
+Invert Interpolation Power | Interpolation Power inputuna baglanan degeri [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olma şiddeti olarak degil de [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmama şiddeti olarak kullanır, yani tersine çevirir
 
-* #### [CheapContrast_RGB]()
-The CheapConstrast_RGB function boosts the contrast of an input by remapping the high end of the histogram to a lower value, and the low end of the histogram to a higher one. This is similar to applying a Levels adjustment in Photoshop, and pulling the black and white flags in a bit. The user may control the degree to which the contrast is boosted.Unlike the regular CheapContrast function, this function can take in a Vector3 as the input, allowing it to perform contrast operations on a color image.
+
+* #### [CheapContrast]() 💛💚💙💜
+Verilen inputun kontrast derecesini arttırır. "Contrast" degeri default olarak 0 dır ve degişiklik yapmaz.
+
+* #### [CheapContrast_RGB]() 💛💚💙💜
+[CheapContrast](#cheapcontrast-) noduyla aynıdır ama V3 alır.
 
 * #### [Contrast_Preserve_Color]()
 
@@ -1210,7 +1222,19 @@ The VectorToRadialValue function transforms the vector of a Vector2 into an angl
 * #### [3DSandMayaUVCoordinates]()
 
 
-* #### [3PointLevels]()
+* #### [3PointLevels]() 🤍🤍
+Bu node size 3 nokta sunar, bunlar baş, son ve orta nokta (orta nokta ayarlanabiliyor). Her noktaya istediginiz degeri (S) verebilirsiniz, ama skaler deger yani (S) aldıgı için sadece siyah beyaz bir texture (bir nevi [gradient](../Terimler%20Sözlügü/README.md#gradient)) verir. İsmi "-------------" olan inputlar sadece düzen yapmak yani kategorileri birbirinden ayırmak için. Bu node şu şekilde çalışır, bu üç noktaya 0 ve 1 arası (ve ya nasıl isterseniz (S) olsunda) degerler verirsiniz ve her nokta kendi arasında [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olur (bu lerp şiddetini "Interpolation Power" belirliyor), böylelikle bir  [gradient](../Terimler%20Sözlügü/README.md#gradient) elde etmiş olursunuz. Sadece orta noktanın konumunu degiştirebilirsiniz ("Middle Point" inputu bunu ayarlar).
+
+İnput | İşlem
+:---: | :---:
+Texture | Inputunuz
+New Black Value | Black normalde 0 demektir, yani başlangıcın (1. noktanın) degeri
+New Middle Value | Middle yani orta noktanın (2. noktanın) degeri
+New White Value | White normalde 1 demektir, yani sonun (3. noktanın) degeri
+Middle Point | Orta noktanın konumu, 0 ile 1 arasında, 0 baş 1 son
+Define Interpolation Curve | Interpolation Power inputunu kullanmak istiyorsanız bu seçenegi açmalısınız
+Interpolation Power | Her noktanın birbirleri arasında [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olma şiddeti
+Invert Interpolation Power | Interpolation Power inputuna baglanan degeri [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olma şiddeti olarak degil de [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmama şiddeti olarak kullanır, yani tersine çevirir
 
 
 * #### [AbberatedBlur-Texture]()
@@ -1345,10 +1369,11 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 * #### [CenterPivotAroundVector]()
 
 
-* #### [CheapContrast]()
+* #### [CheapContrast]() 💛💚💙💜
+Verilen inputun kontrast derecesini arttırır. "Contrast" degeri default olarak 0 dır ve degişiklik yapmaz.
 
-
-* #### [CheapContrast_RGB]()
+* #### [CheapContrast_RGB]() 💛💚💙💜
+[CheapContrast](#cheapcontrast-) noduyla aynıdır ama V3 alır.
 
 
 * #### [CheckerPattern]()
