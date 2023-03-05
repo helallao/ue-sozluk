@@ -736,7 +736,7 @@ Bu node ile oluşturdugunuz [MaterialAttributes](../Terimler%20Sözlügü/README
 [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynıdır ama bu nodda alacagınız Attribute leri kendiniz seçebilirsiniz.
 
 * #### [MakeMaterialAttributes]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[MaterialAttributes](../Terimler%20Sözlügü/README.md#material-attributes) oluşturmanıza yarar. MaterialAttributes kullanmak için ana materyal nodunuzdaki "Use Material Attributes" seçenegini aktifleştirin. Bu nodu kullanmak yerine [SetMaterialAttributes](#setmaterialattributes-%EF%B8%8F) nodunu kullanabilirsiniz.
+[MaterialAttributes](../Terimler%20Sözlügü/README.md#material-attributes) oluşturmanıza yarar. MaterialAttributes kullanmak için ana materyal nodunuzdaki ["Use Material Attributes"](../Graph/Main%20Material%20Node#use-material-attributes) seçenegini aktifleştirin. Bu nodu kullanmak yerine [SetMaterialAttributes](#setmaterialattributes-%EF%B8%8F) nodunu kullanabilirsiniz.
 
 * #### [MaterialAttributeLayers]()
 
