@@ -178,7 +178,7 @@ Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger (S) döndü
 Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için [DebugScalarValues](#debugscalarvalues-%EF%B8%8F) nodunu kullanabilirsiniz. "Period" parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]() 💝
-Bu nodu kullanabilmeniz için Ana Materyal Nodunun ["Two Sided"](../Graph/Main%20Material%20Node/#two-sided) özelligini açmanız gerek. Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna "Alpha" degeri olarak bu nodu baglayın. Verdiginiz iki input, iki yüzeyi temsil ediyor.
+Bu nodu kullanabilmeniz için Ana Materyal Nodunun ["Two Sided"](../Graph/Main%20Material%20Node#two-sided) özelligini açmanız gerek. Eger materyalinizin iki yüzlü ve iki yüzünde ayrı textureler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna "Alpha" degeri olarak bu nodu baglayın. Verdiginiz iki input, iki yüzeyi temsil ediyor.
 
 * #### [VertexColor](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#vertexcolor)
 
