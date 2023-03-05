@@ -618,8 +618,8 @@ Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin d
 
 ## Image Adjustment
 
-* #### [3ColorBlend]()
-The 3ColorBlend function blends between 3 input colors based on a grayscale alpha, in the following manner:
+* #### [3ColorBlend](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#3colorblend) 🤍🤍
+[Lerp_3Color](#lerp_3color-) noduyla aynıdır.
 
 * #### [3PointLevels]()
 The 3PointLevels function takes in an image and remaps the values of each channel across 3 points (white, black, middle). This is similar to applying a Levels adjustment in Photoshop. However, unlike the CheapContrast functions, this function provides full control in that it gives the user ability to adjust interpolation of lights, darks, and grays (gamma). By default, the three remapping points are interpolated linearly. However, you may input your own custom interpolation curve if you wish.
@@ -658,14 +658,13 @@ Bu node "Texture" inputuna verilen texture ve ya renk degerini "Percentage" inpu
 * #### [RaiseBlackLevelsByPercentage]()
 
 
-* #### [SCurve]()
-The SCurve function boosts contrast of an image by interpolating the values of each channel values of an image along an S-curve. This is similar to applying a Curves adjustment in Photoshop and setting the RGB curve to an S-curve or using the Increase Contrast (RGB) preset.
-
 * #### [RGBtoHSV]() 💛💚💙
 RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüştürür.
 
 
-* #### [SCurve]()
+* #### [SCurve](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#scurve) 
+💙💜💛
+Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 dir ve degişiklik yapmaz.
 
 
 * #### [SmoothThreshold]()
@@ -1043,8 +1042,8 @@ Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun
 * #### [Multiply](https://youtu.be/Ge96lim4t8A) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Çarpma.
 
-* #### [MultiplyAdd]()
-
+* #### [MultiplyAdd]() 🤍
+"Base" olarak verilen inputu "Add" olarak verilen input ile çarpar ve sonuç ile "Add" inputunu toplar.
 
 * #### [Normalize](https://www.youtube.com/watch?v=SH4XTfPmeH4)  ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Verdiginiz vektör en az 2 boyuttan oluşuyorsa (S de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
@@ -2006,7 +2005,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MulM4V4]()
 
 
-* #### [MultiplyAdd]()
+* #### [MultiplyAdd]() 🤍
+"Base" olarak verilen inputu "Add" olarak verilen input ile çarpar ve sonuç ile "Add" inputunu toplar.
 
 
 * #### [MultiplyVectorWithQuaternion]()
@@ -2187,7 +2187,9 @@ Length==0 | Sonuç 0 a eşitse 1, degilse 0
 * #### [ScreenResolution]()
 
 
-* #### [SCurve]()
+* #### [SCurve](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#scurve) 
+💙💜💛
+Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 dir ve degişiklik yapmaz.
 
 
 * #### [SimpleGrassWind]()
