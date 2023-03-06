@@ -13,6 +13,7 @@
 * [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
 
 ## Araçlar
+* [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
 * [blueprintUE](https://blueprintue.com/) - Blueprint paylaşma platformu, arama yaparak bir sürü blueprint koduna ulaşabilirsiniz (materyaller de dahil)
 
 ## Kitaplar - Pdfler
