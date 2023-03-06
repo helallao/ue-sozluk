@@ -597,8 +597,8 @@ Radius | Çap
 Density | Şiddet
 Invert Density | İçerden dışarı / Dışardan içeri
 
-* #### [SmoothCurve]()
-Bilmiyorum.
+* #### [SmoothCurve]()🤍
+Verilen iki tangent degerine göre curve oluşturuyor. Siyahtan beyaza geçişte (ve ya tam tersi) kullanmak için.
 
 * #### [ValueStep](https://youtu.be/ovelaLbCNjw) 🤍🤍
 Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin degerlerine göre belirli yerleri beyaz yapıyorsunuz falan. Yani bu nodun yaptıgı şeyleri [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanarak falan da yapabilirsiniz. Neyse bakmak isteyenler linkteki videoya bakabilir.
@@ -642,8 +642,8 @@ Verilen inputun kontrast derecesini arttırır. "Contrast" degeri default olarak
 * #### [CheapContrast_RGB]() 💛💚💙💜
 [CheapContrast](#cheapcontrast-) noduyla aynıdır ama V3 alır.
 
-* #### [Contrast_Preserve_Color]()
-
+* #### [Contrast_Preserve_Color]() 🤍
+Diger contrast nodları renk doygunlugunu arttırırken bu node koyulaştırıyor ve siyaha yaklaştırıyor.
 
 * #### [DeriveHDRfromLDR]()
 
@@ -664,10 +664,11 @@ Bu node "Texture" inputuna verilen texture ve ya renk degerini "Percentage" inpu
 <img width="150" src="../../../Dosyalar/HueShift_Palet.jpg">
 
 
-* #### [Luminosity_And_Color]()
+* #### [Luminosity_And_Color]() 🤍
+Verdiginiz rengi çarpıyor, bir işe yaramaz.
 
-
-* #### [RaiseBlackLevelsByPercentage]()
+* #### [RaiseBlackLevelsByPercentage]() 🤍
+Verilen inputu (degerler 0-1 arası olmalı) siyahlaştırmaya ve ya beyazlaştırmaya yarar. "Black intensity level" degeri arttıkça siyahlaşmaya, 1den 0a yaklaştıkça beyazlamaya başlar (0 beyaz), 1 de ise hiçbir degişiklik yapmaz (default).
 
 
 * #### [RGBtoHSV]() 💛💚💙
@@ -679,8 +680,14 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 dir ve degişiklik yapmaz.
 
 
-* #### [SmoothThreshold]()
-The SmoothThreshold function takes in a gradient, an interpolation rate, and a threshold value (Cutoff Value). It then applies a smooth contrast to the gradient, based on the inputs. Here is a breakdown of what each input does:
+* #### [SmoothThreshold]() 🤍🤍
+"Gradient" olarak verdiginiz texturenin (siyah beyaz), "Cutoff Value" inputuna verdiginiz degerden küçük olan degerlerini "Lerp Value" inputuna verdiginiz degere dogru kaydırır. Kaydırma işlemi nasıl oluyo bilmiyorum, smooth demişler ama ben smooth kaydırma görmedim.
+
+Output | İçerik
+:---: | :---:
+Cutoff Value | Bu degerin altındaki degerler işlemden etkilenir
+Lerp Value | İnput olarak gelen deger bu degere kayar
+Gradient | İnput olarak verdiginiz texture ve ya gradient
 
 * #### [UnSharpMaskFunction]()
 
@@ -2027,7 +2034,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MS_SequencePainter_SequenceFlipbook]()
 
 
-* #### [MulM4V4]()
+* #### [MulM4V4]() 🤍
+Bu node bir yazılım hatası.
 
 
 * #### [MultiplyAdd]() 🤍
@@ -2068,7 +2076,6 @@ Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi harek
 
 * #### [ObjectScale]()
 Bu materyale sahip olan objenin scale bilgisini verir (V3).
-
 
 * #### [ObjectSpaceFalloff]()
 
@@ -2119,7 +2126,7 @@ Pi.
 * #### [PixelDepthOffset_Foliage]()
 
 
-* #### [PixellnWorldUnits]()
+* #### [PixelInWorldUnits]()
 
 
 * #### [PlotFunctionOnGraph]()
@@ -2152,8 +2159,8 @@ Density | Şiddet
 Invert Density | İçerden dışarı / Dışardan içeri
 
 
-* #### [RaiseBlackLevelsByPercentage]()
-
+* #### [RaiseBlackLevelsByPercentage]() 🤍
+Verilen inputu (degerler 0-1 arası olmalı) siyahlaştırmaya ve ya beyazlaştırmaya yarar. "Black intensity level" degeri arttıkça siyahlaşmaya, 1den 0a yaklaştıkça beyazlamaya başlar (0 beyaz), 1 de ise hiçbir degişiklik yapmaz (default).
 
 * #### [RayTracedSphere]()
 
@@ -2247,8 +2254,8 @@ Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 
 * #### [SlopeMask]()
 
 
-* #### [SmoothCurve]()
-Bilmiyorum.
+* #### [SmoothCurve]()🤍
+Verilen iki tangent degerine göre curve oluşturuyor. Siyahtan beyaza geçişte (ve ya tam tersi) kullanmak için.
 
 * #### [SmoothStep]() 💚💛💜
 Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0 dan 1e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0 dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0 dan 1e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
@@ -2260,7 +2267,14 @@ Max | Bu degerden büyük olanlar 1
 Value | İnputunuz
 
 
-* #### [SmoothThreshold]()
+* #### [SmoothThreshold]() 🤍🤍
+"Gradient" olarak verdiginiz texturenin (siyah beyaz), "Cutoff Value" inputuna verdiginiz degerden küçük olan degerlerini "Lerp Value" inputuna verdiginiz degere dogru kaydırır. Kaydırma işlemi nasıl oluyo bilmiyorum, smooth demişler ama ben smooth kaydırma görmedim.
+
+Output | İçerik
+:---: | :---:
+Cutoff Value | Bu degerin altındaki degerler işlemden etkilenir
+Lerp Value | İnput olarak gelen deger bu degere kayar
+Gradient | İnput olarak verdiginiz texture ve ya gradient
 
 
 * #### [SoftOpacity]() 🤍🤍
