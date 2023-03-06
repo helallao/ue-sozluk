@@ -1362,7 +1362,8 @@ Kameranın baktıgı yönü verir (V3).
 * #### [CameraOffset]()
 
 
-* #### [CameraVectorWithWPOOptions]()
+* #### [CameraVectorWithWPOOptions]() ❤️💛💚💙💜
+["World Position"](../Graph/Main%20Material%20Node#world-position-offset) degiştirilmiş olsa bile, [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini dogru almak için bu nodu kullanabilirsiniz. Gerçekten her pikselin konumunu hesaplar. Böylelikle World Position degiştirilmiş olsa bile [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini alabilirsiniz.
 
 
 * #### [CameraWorldBlend]()
@@ -2403,11 +2404,8 @@ Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik ekle
 * #### [TransformToZVector]()
 
 
-* #### [Triplanar]()
+* #### [TriplanarCameraVector]()
 
-
-* #### [CameraVector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Her piksel için, kameranın piksele göre yönünü verir. Yani bu materyale sahip olan objeden kameraya dogru olan yönün bilgisi (V3).
 
 * #### [TwoSidedTexturing]()
 
@@ -3346,11 +3344,11 @@ Kameranın baktıgı yönü verir (V3).
 * #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
 Kameranın konum bilgisini verir (V3).
 
-* #### [CameraVectorWithWPOOptions]()
-["World Position"](../Graph/Main%20Material%20Node#world-position-offset) ayarı degiştirilmiş olsa bile, 
+* #### [CameraVectorWithWPOOptions]() ❤️💛💚💙💜
+["World Position"](../Graph/Main%20Material%20Node#world-position-offset) degiştirilmiş olsa bile, [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini dogru almak için bu nodu kullanabilirsiniz. Gerçekten her pikselin konumunu hesaplar. Böylelikle World Position degiştirilmiş olsa bile [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini alabilirsiniz.
 
-* #### [CameraVectorWS]()
-The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
+* #### [CameraVectorWS(CameraVector)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Her piksel için, kameranın piksele göre yönünü verir. Yani bu materyale sahip olan objeden kameraya dogru olan yönün bilgisi (V3).
 
 * #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde V2 diye geçer.
