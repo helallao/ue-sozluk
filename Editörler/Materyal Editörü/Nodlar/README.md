@@ -1355,7 +1355,8 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 * #### [CameraDepthFade]()
 
 
-* #### [CameraDirectionVector]()
+* #### [CameraDirectionVector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Kameranın baktıgı yönü verir (V3).
 
 
 * #### [CameraOffset]()
@@ -2405,8 +2406,8 @@ Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik ekle
 * #### [Triplanar]()
 
 
-* #### [CameraVector]()
-
+* #### [CameraVector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Her piksel için, kameranın piksele göre yönünü verir. Yani bu materyale sahip olan objeden kameraya dogru olan yönün bilgisi (V3).
 
 * #### [TwoSidedTexturing]()
 
@@ -2842,8 +2843,8 @@ This function is designed to provide the diffuse portion of grass shading. Simil
 * #### [SpeedTreeWindMotion]()
 
 
-* #### [UnpackDirection]() 🤍
-Hakkında internette bir tane bile kaynak olmayan, ne oldugunu anlayamadıgım node, fonksiyonu açıp bakabilirsiniz ama ben ne için kullanıldıgını anlayamadım.
+* #### [UnpackDirection]()
+Kaynaksız ve anlaşılamaz durumda.
 
 
 ## Texture
@@ -3339,15 +3340,14 @@ The TransformPosition expression can transform any position from screen space to
 * #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💜💙💛❤️
 Bu materyale sahip meshin konum bilgisini verir (V3).
 
-* #### [CameraDirectionVector]()
-
+* #### [CameraDirectionVector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Kameranın baktıgı yönü verir (V3).
 
 * #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
 Kameranın konum bilgisini verir (V3).
 
-
 * #### [CameraVectorWithWPOOptions]()
-
+["World Position"](../Graph/Main%20Material%20Node#world-position-offset) ayarı degiştirilmiş olsa bile, 
 
 * #### [CameraVectorWS]()
 The CameraVector expression outputs a three-channel vector value representing the direction of the camera with respect to the surface, in other words, the direction from the pixel to the camera.
@@ -3554,10 +3554,10 @@ The Wind function provides separate outputs for wind strength, speed multiplied 
 Yorum bölümü oluşturur.
 
 * #### [Sobol]() 🤍
-Bu nodun aslında blueprint editöründe başka bi versionu var, ama materyal editörüne de eklemişler. Ben ne kadar denesem de anlayamadım, internette kaynak da yok.
+Kaynaksız ve anlaşılamaz durumda.
 
 * #### [TemporalSobol]() 🤍
-Bu nodun aslında blueprint editöründe başka bi versionu var, ama materyal editörüne de eklemişler. Ben ne kadar denesem de anlayamadım, internette kaynak da yok.
+Kaynaksız ve anlaşılamaz durumda.
 
-* #### [UnpackDirection]() 🤍
-Hakkında internette bir tane bile kaynak olmayan, ne oldugunu anlayamadıgım node, fonksiyonu açıp bakabilirsiniz ama ben ne için kullanıldıgını anlayamadım.
+* #### [UnpackDirection]()
+Kaynaksız ve anlaşılamaz durumda.
