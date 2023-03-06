@@ -4,12 +4,16 @@
 
 # Bölümler
 
-* [Material Attributes/Maps](#material-attributesmaps)
+* [Yazılar/Bloglar](#yazılarbloglar)
+* [Araçlar](#araçlar)
+* [Kitaplar - Pdfler](#kitaplar---pdfler)
 
 
-## Material Attributes/Maps
-Damien Lappa - Photorealistic Texturing for Modern Video Games [orijinal](https://www.theseus.fi/bitstream/handle/10024/136545/Lappa_Damien.pdf) [yedek](https://files.catbox.moe/wdvfvj.pdf)
+## Yazılar/Bloglar
+* [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
 
+## Araçlar
+* [blueprintUE](https://blueprintue.com/) - Blueprint paylaşma platformu, arama yaparak bir sürü blueprint koduna ulaşabilirsiniz (materyaller de dahil)
 
-## Yazılar/Bloglar/Kaynaklar
-[ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
+## Kitaplar - Pdfler
+* Damien Lappa - Photorealistic Texturing for Modern Video Games [orijinal](https://www.theseus.fi/bitstream/handle/10024/136545/Lappa_Damien.pdf) [yedek](https://files.catbox.moe/wdvfvj.pdf)
