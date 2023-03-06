@@ -1363,7 +1363,7 @@ Kameranın baktıgı yönü verir (V3).
 
 
 * #### [CameraVectorWithWPOOptions]() ❤️💛💚💙💜
-["World Position"](../Graph/Main%20Material%20Node#world-position-offset) degiştirilmiş olsa bile, [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini dogru almak için bu nodu kullanabilirsiniz. Gerçekten her pikselin konumunu hesaplar. Böylelikle World Position degiştirilmiş olsa bile [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini alabilirsiniz.
+["World Position"](../Graph/Main%20Material%20Node#world-position-offset) degiştirilmiş olsa bile, [CameraVector](#cameravectorwscameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini dogru almak için bu nodu kullanabilirsiniz. Gerçekten her pikselin konumunu hesaplar. Böylelikle World Position degiştirilmiş olsa bile [CameraVector](#cameravectorwscameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini alabilirsiniz.
 
 
 * #### [CameraWorldBlend]()
@@ -1385,8 +1385,8 @@ Verilen inputun kontrast derecesini arttırır. "Contrast" degeri default olarak
 [CheapContrast](#cheapcontrast-) noduyla aynıdır ama V3 alır.
 
 
-* #### [CheckerPattern]()
-
+* #### [CheckerPattern]() ❤️💛💚💙
+Kareli bir desen verir, "UVs" olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz ama buna hiç gerek yok "Tiling" inputuna bagladıgınız 2 boyutlu vektör (V2) ile X ve Y eksenlerindeki kare sayısını ayarlayabiliyorsunuz.
 
 * #### [ComponentBasis_Vectors]()
 
@@ -3345,7 +3345,7 @@ Kameranın baktıgı yönü verir (V3).
 Kameranın konum bilgisini verir (V3).
 
 * #### [CameraVectorWithWPOOptions]() ❤️💛💚💙💜
-["World Position"](../Graph/Main%20Material%20Node#world-position-offset) degiştirilmiş olsa bile, [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini dogru almak için bu nodu kullanabilirsiniz. Gerçekten her pikselin konumunu hesaplar. Böylelikle World Position degiştirilmiş olsa bile [CameraVector](#cameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini alabilirsiniz.
+["World Position"](../Graph/Main%20Material%20Node#world-position-offset) degiştirilmiş olsa bile, [CameraVector](#cameravectorwscameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini dogru almak için bu nodu kullanabilirsiniz. Gerçekten her pikselin konumunu hesaplar. Böylelikle World Position degiştirilmiş olsa bile [CameraVector](#cameravectorwscameravector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) bilgisini alabilirsiniz.
 
 * #### [CameraVectorWS(CameraVector)]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Her piksel için, kameranın piksele göre yönünü verir. Yani bu materyale sahip olan objeden kameraya dogru olan yönün bilgisi (V3).
