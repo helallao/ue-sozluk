@@ -2201,7 +2201,7 @@ Length==0 | Sonuç 0 a eşitse 1, degilse 0
 
 
 * #### [SchlickPhase]()
-
+Işıgın dagılımıyla ilgili bişeler.
 
 * #### [ScreenAlignedPixelToPixelUVs]()
 
@@ -2209,7 +2209,11 @@ Length==0 | Sonuç 0 a eşitse 1, degilse 0
 * #### [ScreenAlignedUVs]()
 
 
-* #### [ScreenResolution]()
+* #### [ScreenResolution]() 🤍
+Output | İçerik
+:---: | :---:
+Visible Resolution | [ViewSize](#viewsize-) noduyla aynı outputu verir
+Buffer Resolution | [View Property](#view-property-) nodunun "Render Target Size" modu ile aynı outputu verir
 
 
 * #### [SCurve](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#scurve) 
@@ -2226,7 +2230,7 @@ Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 
 * #### [Sine_Remapped]()
 
 
-* #### [SkyAtmospherelmage]()
+* #### [SkyAtmosphereImage]()
 
 
 * #### [SkyboxImage]()
@@ -2252,7 +2256,7 @@ Value | İnputunuz
 
 
 * #### [SoftOpacity]() 🤍🤍
-Yakınlaştıkça "fade out" uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
+Yakınlaştıkça ["fade out"](https://tureng.com/tr/turkce-ingilizce/fade) uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
 
 İnput | İşlem
 :---: | :---:
@@ -2513,7 +2517,7 @@ Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8
 
 
 * #### [SoftOpacity]() 🤍🤍
-Yakınlaştıkça "fade out" uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
+Yakınlaştıkça ["fade out"](https://tureng.com/tr/turkce-ingilizce/fade) uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
 
 İnput | İşlem
 :---: | :---:
