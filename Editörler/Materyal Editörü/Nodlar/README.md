@@ -2053,6 +2053,13 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [ObjectLocalBounds]()
+Bu materyale sahip olan objenin kapladıgı alanı, daha dogrusu kaplayabilecegi alanı verir. Sanırım "Local Bounds Minimum" degeri objenin eksi yönünde ulaşabilecegi en uç nokta, "Local Bounds Max" degeri ise objenin artı yönünde ulaşabilecegi en uç nokta ve "Local Bounds Size" da objenin toplamda kaplayabilecegi alan.
+
+Output | İçerik
+:---: | :---:
+Local Bounds Minimum | Objenin eksi yönünde ulaşabilecegi en uç nokta
+Local Bounds Max | Objenin artı yönünde ulaşabilecegi en uç nokta
+Local Bounds Size | Objenin toplamda kaplayabilecegi alan
 
 
 * #### [ObjectPivotPoint]()
@@ -2095,7 +2102,8 @@ Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz "Offset Amount
 Bu node hiçbir işe yaramaz, sadece pass işlemi yapar yani sadece hiçbir şey yapar. Bu nodu çok karmaşık kodlarda düzen oluşturmak ve ya açıklama yapacaksanız bu nodu koyup üzerine de açıklama yazmak için kullanabilirsiniz ama siz yine de kullanmayın çok saçma.
 
 
-* #### [PerceivedBrightness]()
+* #### [PerceivedBrightness]() 🤍
+[Luminance](#luminance-) ile aynı işi yapıyor ama döndürdügü degeri döndürmeden önce karekökünü alıyor.
 
 
 * #### [PerturbNormalHQ]()
