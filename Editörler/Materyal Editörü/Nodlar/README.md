@@ -2251,7 +2251,19 @@ Value | İnputunuz
 * #### [SmoothThreshold]()
 
 
-* #### [SoftOpacity]()
+* #### [SoftOpacity]() 🤍🤍
+Yakınlaştıkça "fade out" uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
+
+İnput | İşlem
+:---: | :---:
+DepthFadeDistance | Tamamen görünmez olma derecesi (uzaklıgı)
+OpacityIn | Başlangıçtaki "Opacity" degeri
+FadeDistance | Görünmez olmaya ne kadar uzaktan başlayacagı
+
+Output | İçerik
+:---: | :---:
+OutputUsesDepthBias | Bu deger normal output degeri, "DepthFadeDistance" degerine ulaşana kadar görünmez olmaya devam eder, ulaştıgında görünmez olur
+OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "DepthFadeDistance" kullanmaz, kamera objeye ulaşana kadar görünmez olmaya devam eder, ulaştıgında görünmez olur
 
 
 * #### [SpecGlossToMetalRoughness]()
@@ -2500,8 +2512,19 @@ Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8
 * #### [Chroma_Key_Alpha]()
 
 
-* #### [SoftOpacity]()
-The SoftOpacity function takes in an Opacity value and then runs a variety of calculations on it to give it a softer feel. It applies a Fresnel effect, and depth-based alpha, and pixel depth. The end result causes the object to fade away as the camera approaches it.
+* #### [SoftOpacity]() 🤍🤍
+Yakınlaştıkça "fade out" uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
+
+İnput | İşlem
+:---: | :---:
+DepthFadeDistance | Tamamen görünmez olma derecesi (uzaklıgı)
+OpacityIn | Başlangıçtaki "Opacity" degeri
+FadeDistance | Görünmez olmaya ne kadar uzaktan başlayacagı
+
+Output | İçerik
+:---: | :---:
+OutputUsesDepthBias | Bu deger normal output degeri, "DepthFadeDistance" degerine ulaşana kadar görünmez olmaya devam eder, ulaştıgında görünmez olur
+OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "DepthFadeDistance" kullanmaz, kamera objeye ulaşana kadar görünmez olmaya devam eder, ulaştıgında görünmez olur
 
 
 ## Parameter
