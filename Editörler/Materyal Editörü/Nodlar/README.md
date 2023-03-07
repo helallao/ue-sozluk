@@ -165,8 +165,8 @@ Eger kamera modu "Top" ise bu node 1 (S) döndürür, aksi takdirde 0 (S) dönd�
 * #### [ParticleSpeed]()
 
 
-* #### [PerInstanceFadeAmount]()
-
+* #### [PerInstanceFadeAmount](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#perinstancefadeamount) 💝
+Linkteki açıklama ve videoya bakarsanız iyi olur, bu node foliage modu için, uzaklaştıgınızda görünmez, yakınlaştıgınızda görünür olmasını saglar, dünyanızda çok fazla agaç varsa bunu kullanmanız performans açısından iyi olur. Linkteki videoda gördügünüz ayarları yaptıktan sonra bu node, uzaktayken 1 yakınlaştıkça 0a dogru kayan bir deger verir.
 
 * #### [PerInstanceRandom](https://youtu.be/_Pxwi2CAQBI) 💝
 Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger (S) döndürür.
