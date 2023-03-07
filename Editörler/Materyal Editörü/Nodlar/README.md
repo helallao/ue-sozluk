@@ -3270,8 +3270,8 @@ Max | Bu degerden büyük olanlar 1
 Value | İnputunuz
 
 
-* #### [SphereMask](https://youtu.be/xRxkcFOhNrc)
-The SphereMask expression outputs a mask value based on a distance calculation. If one input is the position of a point and the other input is the center of a sphere with some radius, the mask value is 0 outside and 1 inside with some transition area. This works on one, two, three, and four component vectors
+* #### [SphereMask](https://youtu.be/xRxkcFOhNrc) 💚💛💜
+Bu node verilen iki A ve B inputunun (aynı boyutta olmalılar) her degerini (pikselini) karşılaştırır ve eger aralarındaki fark "Radius" inputuna verdiginiz degerden azsa "Hardness" inputuna verdiginiz degerin büyüklügüne göre beyazlık (yani 1) verir. "Hardness" inputu 0 ile 100 arası deger alıyor. 0 en yavaş geçiş, 100 en hızlı, ama en hızlı olan degeri verseniz bile tamamen beyaz (1) döndürecek diye bir şey yok, sadece ne kadar hızlı bir geçiş olacagını ayarlıyor. Aslında bu node daha farklı şekillerde kullanılıyor ama özünde benim anlattıgım gibi. Bi kere daha anlatayım, verdiginiz iki A ve B inputunun, birbirine yakın olan degerlerini yani aralarındaki fark "Radius" inputuna verdiginiz degerden az olanları, gitgide beyaza dogru yakınlaştırır, yani maskeler. Böylelikle mesela texture verdiyseniz, birbirine yakın olan degerleri alabilirsiniz. Normalde ise bu node linkteki videoda göreceginiz gibi, konumları ölçmek için (yakınlıklarını) kullanılıyor.
 
 * #### [Step]() 🤍
 Bu node [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı işlemi yapıyor, "X" inputuna texture ve ya vermek istediginiz inputu veriyorsunuz, "Y" inputuna verdiginiz degere göre küçükse siyah büyükse beyaz döndürüyor. [Burdaki kodları](https://blueprintue.com/blueprint/3r2jb4ja/) kopyalayıp editöre yapıştırın, biraz oynasanız anlarsınız.
