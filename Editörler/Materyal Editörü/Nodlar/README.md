@@ -90,8 +90,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [DiffColorKeyerErodeSinglePass](https://youtu.be/CEUGMFLjc4Y) 🤍
 Kullanışsız, renkleri silmede kullanılıyor.
 
-* #### [MF_Chromakeyer](https://youtu.be/CEUGMFLjc4Y) 🤍
-Kullanışsız, renkleri silmede kullanılıyor.
+* #### [MF_Chromakeyer]()
+
 
 
 ## Color
