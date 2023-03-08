@@ -2072,17 +2072,17 @@ Local Bounds Max | Objenin artı yönünde ulaşabilecegi en uç nokta
 Local Bounds Size | Objenin toplamda kaplayabilecegi alan
 
 
-* #### [ObjectPivotPoint]()
+* #### [ObjectPivotPoint]() 💝
 Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi hareket falan ettiriyoruz) bilgisini verir (V3), yani konum degeri.
 
 
-* #### [ObjectScale]()
+* #### [ObjectScale]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bu materyale sahip olan objenin scale bilgisini verir (V3).
 
 * #### [ObjectSpaceFalloff]()
 
 
-* #### [OffsetAndScaleTo1]()
+* #### [OffsetAndScaleTo1]() 🤍🤍
 Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz "Offset Amount" degerine göre offset verir diyo ama ne anlamda offset oldugunu bilmiyorum. Offset verip sonuçları da tekrar 0-1 arasında taşıyor.
 
 
@@ -3494,10 +3494,10 @@ The CameraOffset function is great to assist with depth sorting, as it allows yo
 * #### [MS_CanopyCreatorMeshExpansion]()
 
 
-* #### [ObjectPivotPoint]()
+* #### [ObjectPivotPoint]() 💝
 Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi hareket falan ettiriyoruz) bilgisini verir (V3), yani konum degeri.
 
-* #### [ObjectScale]()
+* #### [ObjectScale]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bu materyale sahip olan objenin scale bilgisini verir (V3).
 
 * #### [OrthoFOV]()
@@ -3551,10 +3551,10 @@ The Wind function provides separate outputs for wind strength, speed multiplied 
 * #### [NewComment]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Yorum bölümü oluşturur.
 
-* #### [Sobol]() 🤍
+* #### [Sobol]()
 Kaynaksız ve anlaşılamaz durumda.
 
-* #### [TemporalSobol]() 🤍
+* #### [TemporalSobol]()
 Kaynaksız ve anlaşılamaz durumda.
 
 * #### [UnpackDirection]()
