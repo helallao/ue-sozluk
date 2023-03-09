@@ -130,7 +130,7 @@ Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk v
 Constantın 4 boyutlu hali, bu dört boyut RGBA ya denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer, bazı yerlerde V4 diye de geçer.
 
 * #### [ConstantDouble]() 💜❤️💛
-Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete "difference between float and double" yazın.
+Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete "difference between float and double" yazın. Çok kullanılmıyor, parametre hali yok.
 
 * #### [DeltaTime]() 💜💙💛❤️
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
@@ -3139,7 +3139,8 @@ Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%
 Height | Yükseklik mapi, mesela texturenin bir kanalı olabilir.
 HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı unreal enginenin önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
 
-* #### [ChannelMaskParameter]()
+* #### [ChannelMaskParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
 
 * #### [ClearCoatNormalCustomOutput]()
