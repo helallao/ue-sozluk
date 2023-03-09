@@ -130,7 +130,7 @@ Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk v
 Constantın 4 boyutlu hali, bu dört boyut RGBA ya denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer, bazı yerlerde V4 diye de geçer.
 
 * #### [ConstantDouble]() 💜❤️💛
-Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete "difference between float and double" yazın. Çok kullanılmıyor. Parametre hali yok, yani parametreye çeviremezsiniz.
+Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete "difference between float and double" yazın. Çok kullanılmıyor. Üzerine tıklayıp parametreye çeviremezsiniz ama [DoubleVectorParameter](#doublevectorparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunu kullanabilirsiniz.
 
 * #### [DeltaTime]() 💜💙💛❤️
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
@@ -2615,8 +2615,8 @@ The TextureSampleParameterSubUV expression is identical to the ParticleSubUV exc
 * #### [TextureSampleParameterVolume]()
 
 
-* #### [VectorParameter(Param)]()
-The VectorParameter expression is identical to the Constant4Vector, except that it is a parameter and can be modified in instances of the material and through code. One nicety of the VectorParameter is that its value can be set using the Color picker.
+* #### [VectorParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+Scalar (S) hariç, vektörlerden (V2, V3, V4) herhangi birini parametreye çevirirseniz bu nodu verir. Bu node [Constant4Vector](#constant4vector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır.
 
 
 ## Particles
