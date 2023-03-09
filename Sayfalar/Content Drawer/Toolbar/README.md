@@ -14,7 +14,7 @@
 
 
 ## [Add Butonu]()
-Dosya ekler/yaratır. [Dosyalar](../Dosyalar) bölümüne sag tıklayınca çıkan ekran ile aynıdır.
+Dosya ekler/yaratır. [Dosyalar](../Dosyalar) bölümünde boş bir yere sag tıklayınca çıkan ekran ile aynıdır.
 
 ## [İmport Butonu]()
 Bilgisayarınızdan dosya eklemeye yarar.
