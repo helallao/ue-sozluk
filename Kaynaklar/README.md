@@ -32,8 +32,8 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [WTF Is?](https://www.youtube.com/playlist?list=PLSlkDq2rO1t6qLf-lAiu8BszWL-7ePvco) - Unreal Engine hakkında, genellikle belirli konuya özgü videolar
 * [PrismaticaDev](https://www.youtube.com/@PrismaticaDev/videos) - Unreal Engine hakkında genel
 * [All Is Play](https://www.youtube.com/@AllIsPlay/videos) - Çogunlukla materyaller hakkında ama diger konulardan da videolar var
-* [CGHOW](https://www.youtube.com/@cghow/videos)
-* [Ben Cloward](https://www.youtube.com/@BenCloward/playlists)
+* [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine materyaller ve efektler hakkında
+* [Ben Cloward](https://www.youtube.com/@BenCloward/playlists) - Unreal Engine hakkında, genellikle materyaller hakkında dersler
 
 ## Youtube Türk
 * [ERG Digital Dev](https://www.youtube.com/@ERGDD/videos) - Unreal Engine hakkında dersler
