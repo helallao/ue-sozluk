@@ -2552,13 +2552,13 @@ OutputUsesDepthBias | Bu deger normal output degeri, "DepthFadeDistance" degerin
 OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "DepthFadeDistance" kullanmaz, kamera objeye ulaşana kadar görünmez olmaya devam eder, ulaştıgında görünmez olur
 
 
-## Parameter
+## Parameters
 
-* #### [ChannelMaskParameter]()
-
+* #### [ChannelMaskParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
 * #### [CollectionParameters](https://youtu.be/i4Z2r7mGA0o)
-A Collection Parameter expression is used to reference a Parameter Collection asset. These are groups of parameters that can easily be reused by many different assets such as Materials, Blueprints, and much more. For more information on Parameter Collections, be sure to read the Parameter Collections Documentation.
+Videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluşturdugunuz "Material Parameter Collection" dosyasından parametre almanıza yarar. Bu node instance'larda parametre olarak gözükmez.
 
 * #### [CurveAtlasRowParameter]()
 
