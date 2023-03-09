@@ -2558,7 +2558,7 @@ OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "Depth
 [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
 * #### [CollectionParameters](https://youtu.be/i4Z2r7mGA0o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluşturdugunuz "Material Parameter Collection" dosyasından parametre almanıza yarar. Bu node instance'larda parametre olarak gözükmez.
+Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluşturdugunuz ["Material Parameter Collection"](../Terimler%20Sözlügü#material-parameter-collection) dosyasından parametre almanıza yarar. Bu node instance'larda parametre olarak gözükmez.
 
 * #### [CurveAtlasRowParameter]()
 
