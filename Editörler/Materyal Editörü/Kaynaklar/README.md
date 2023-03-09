@@ -12,6 +12,8 @@
 ## Yazılar/Bloglar
 * [Unreal Docs](https://docs.unrealengine.com/5.1/en-US/unreal-engine-materials/) - Unreal Engine'nin kendi dökümanları
 * [Unreal Learning Library](https://dev.epicgames.com/community/learning?application=unreal_engine) - Unreal Engine'nin kütüphanesi, hem developerlar hem topluluk tarafından
+* [ueHow](https://uehow.web.fc2.com/Contents/Eng/Home/Root/Cone/Home.html) - Unreal Engine'deki nodlar için açıklamalar
+* [V-Ray for Unreal](https://docs.chaos.com/display/VRAYUNREAL/) - Anlatımlar, açıklamalar
 * [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
 
 ## Araçlar
