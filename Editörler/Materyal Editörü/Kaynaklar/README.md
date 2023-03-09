@@ -1,5 +1,5 @@
 # Kaynaklar
-
+Burası materyal editörü hakkında kaynakları barındıran bölümdür, içerisinde materyallerle ilgili bilgilerin oldugu kaynaklar var. Eger Unreal Engine hakkında bütün kaynaklara ulaşmak istiyorsanız [buraya](../../../Kaynaklar) bakabilirsiniz.
 
 
 # Bölümler
