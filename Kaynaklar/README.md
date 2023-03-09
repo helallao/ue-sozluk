@@ -18,6 +18,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [V-Ray for Unreal](https://docs.chaos.com/display/VRAYUNREAL/) - Anlatımlar, açıklamalar
 * [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
 * [UNF Vault](https://unf-vault.teachable.com/courses) - Unreal Engine hakkında dersler
+* [ODED MAOZ ERELL'S CG LOG](https://odederell3d.blog/category/unreal-engine/) - Unreal Engine hakkında genel
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
@@ -35,5 +36,8 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [Ben Cloward](https://www.youtube.com/@BenCloward/playlists)
 
 ## Youtube Türk
-* [Bufuak](https://www.youtube.com/@bufuak/videos) - Unreal Engine hakkında genel
-* [ERG Digital Dev](https://www.youtube.com/@ERGDD/videos)
+* [ERG Digital Dev](https://www.youtube.com/@ERGDD/videos) - Unreal Engine hakkında dersler
+* [Whitrise](https://www.youtube.com/@Whitrise/videos) - Unreal Engine hakkında dersler
+* [Bufuak](https://www.youtube.com/@bufuak/videos) - Unreal Engine hakkında genel, dersler de var
+* [UnrealCoder](https://www.youtube.com/@unrealcoder6184/videos) - Unreal Engine hakkında genel, dersler de var
+* [Unreal Engine Log](https://www.youtube.com/@unrealenginelog/videos) - Unreal Engine hakkında dersler
