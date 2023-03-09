@@ -2555,7 +2555,7 @@ OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "Depth
 ## Parameters
 
 * #### [ChannelMaskParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
+[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter]() noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
 * #### [CollectionParameters](https://youtu.be/i4Z2r7mGA0o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluşturdugunuz ["Material Parameter Collection"](../Terimler%20Sözlügü#material-parameter-collection) dosyasından parametre almanıza yarar. Bu node instance'larda parametre olarak gözükmez.
@@ -2564,7 +2564,7 @@ Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluştu
 
 
 * #### [DoubleVectorParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-
+[VectorParameter](#vectorparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun double halidir. [ConstantDouble](#constantdouble-%EF%B8%8F) nodunu parametre yapmak isterseniz bu nodu kullanabilirsiniz.
 
 * #### [DynamicParameter]()
 The DynamicParameter expression provides a conduit for particle emitters to pass up to four values to the material to be used in any manner. These values are set in Cascade via a ParameterDynamic module placed on an emitter.
@@ -2578,17 +2578,17 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 * #### [RuntimeVirtualTextureSampleParameter]()
 
 
-* #### [ScalarParameter]()
-The ScalarParameter expression outputs a single float value (Constant) that can be accessed and changed in an instance of the material or on the fly by code.
+* #### [ScalarParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+[Constant](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
 * #### [SpriteTextureSampler]()
 
 
 * #### [StaticBoolParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[StaticBoolun](#staticbool) parametre halidir.
+[StaticBool](#staticbool) nodunun parametre halidir.
 
 
-* #### [StaticComponentMaskParameter]()
+* #### [StaticComponentMaskParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 The StaticComponentMaskParameter expression behaves just like an ordinary Component Mask, except that the mask values can be set by instances.
 
 * #### [StaticSwitchParameter]()
