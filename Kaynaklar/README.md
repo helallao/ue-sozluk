@@ -19,6 +19,8 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
 * [UNF Vault](https://unf-vault.teachable.com/courses) - Unreal Engine hakkında dersler
 * [ODED MAOZ ERELL'S CG LOG](https://odederell3d.blog/category/unreal-engine/) - Unreal Engine hakkında genel
+* [Techarthub](https://www.techarthub.com/) - Unreal Engine hakkında, genellikle materyaller
+* [Kodeco](https://www.kodeco.com/library?q=unreal+engine) - Unreal Engine hakkında dersler
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
