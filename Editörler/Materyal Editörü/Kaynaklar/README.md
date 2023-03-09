@@ -17,6 +17,8 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [V-Ray for Unreal](https://docs.chaos.com/display/VRAYUNREAL/) - Anlatımlar, açıklamalar
 * [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
 * [ODED MAOZ ERELL'S CG LOG](https://odederell3d.blog/category/unreal-engine/) - Unreal Engine hakkında genel, materyaller de var
+* [Techarthub](https://www.techarthub.com/) - Unreal Engine hakkında, genellikle materyaller
+* [Kodeco](https://www.kodeco.com/library?q=unreal+engine) - Unreal Engine hakkında dersler, materyaller de var
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
