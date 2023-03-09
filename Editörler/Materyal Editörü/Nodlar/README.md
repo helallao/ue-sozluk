@@ -130,7 +130,7 @@ Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk v
 Constantın 4 boyutlu hali, bu dört boyut RGBA ya denk gelir. RGB den farklı olarak içerisinde alpha (opaklık/saydamlık) degeri tutar. İsim olarak RGBA diye geçer, bazı yerlerde V4 diye de geçer.
 
 * #### [ConstantDouble]() 💜❤️💛
-Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete "difference between float and double" yazın. Çok kullanılmıyor, parametre hali yok.
+Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete "difference between float and double" yazın. Çok kullanılmıyor. Parametre hali yok, yani parametreye çeviremezsiniz.
 
 * #### [DeltaTime]() 💜💙💛❤️
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
@@ -2563,7 +2563,7 @@ Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluştu
 * #### [CurveAtlasRowParameter]()
 
 
-* #### [DoubleVectorParameter]()
+* #### [DoubleVectorParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 
 
 * #### [DynamicParameter]()
@@ -2578,7 +2578,7 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 * #### [RuntimeVirtualTextureSampleParameter]()
 
 
-* #### [ScalarParameter(Param)]()
+* #### [ScalarParameter]()
 The ScalarParameter expression outputs a single float value (Constant) that can be accessed and changed in an instance of the material or on the fly by code.
 
 * #### [SpriteTextureSampler]()
