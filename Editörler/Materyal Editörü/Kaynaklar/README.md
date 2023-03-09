@@ -16,6 +16,7 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [ueHow](https://uehow.web.fc2.com/Contents/Eng/Home/Root/Cone/Home.html) - Unreal Engine'deki nodlar için açıklamalar
 * [V-Ray for Unreal](https://docs.chaos.com/display/VRAYUNREAL/) - Anlatımlar, açıklamalar
 * [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
+* [ODED MAOZ ERELL'S CG LOG](https://odederell3d.blog/category/unreal-engine/) - Unreal Engine hakkında genel, materyaller de var
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
@@ -27,6 +28,6 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 ## Youtube
 * [WTF Is? Materials](https://www.youtube.com/playlist?list=PLSlkDq2rO1t7Guw6DbhNVDXRxw6EtLOoF)
 * [5-Minute Materials](https://www.youtube.com/playlist?list=PLUi8nuTUEtTvrcISNaNpZwtxpQbyaBstT)
-* Hinti bi abinin [playlisti](https://www.youtube.com/playlist?list=PLNLUnEauvwCE8Se5aAZ-ioltPCIjyKNVe), tek bir [videoda](https://www.youtube.com/watch?v=BtHgF_VmaSI) neredeyse hepsini alatmış sadece onu da izleyebilirsiniz.
-* Yine Hintli bi abinin [playlisti](https://www.youtube.com/playlist?list=PLwMiBtF6WzsoE8Lr_AIJRw1Mr1czh_6kb)
-* [Ben Cloward](https://www.youtube.com/@BenCloward/playlists) - Unreal Engine materyaller hakkında
+* [All Is Play](https://www.youtube.com/@AllIsPlay/videos) - Çogunlukla materyaller hakkında ama diger konulardan da videolar var, tek bir [videoda](https://www.youtube.com/watch?v=BtHgF_VmaSI) neredeyse hepsini anlatmış sadece onu da izleyebilirsiniz.
+* [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine materyaller ve efektler hakkında
+* [Ben Cloward](https://www.youtube.com/@BenCloward/playlists) - Unreal Engine hakkında, genellikle materyaller hakkında dersler
