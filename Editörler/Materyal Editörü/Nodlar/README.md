@@ -132,7 +132,7 @@ Constantın 4 boyutlu hali, bu dört boyut RGBA ya denk gelir. RGB den farklı o
 * #### [ConstantDouble]() 💜❤️💛
 Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre daha dogru, daha detaylı, içerisinde daha fazla bilgi tutabiliyor. internete "difference between float and double" yazın. Çok kullanılmıyor. Üzerine tıklayıp parametreye çeviremezsiniz ama [DoubleVectorParameter](#doublevectorparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunu kullanabilirsiniz.
 
-* #### [DeltaTime]() 💜💙💛❤️
+* #### [DeltaTime]() 💝
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
 
 * #### [DistanceCullFade](https://www.youtube.com/watch?v=E0A9JHxHNCI) 💝
@@ -174,7 +174,7 @@ Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger (S) döndü
 * #### [PrecomputedAOMask]()
 
 
-* #### [Time](https://youtu.be/SMQI9_MEfRM) ❤️💛💚💙💜
+* #### [Time](https://youtu.be/SMQI9_MEfRM) 💝
 Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için [DebugScalarValues](#debugscalarvalues-%EF%B8%8F) nodunu kullanabilirsiniz. "Period" parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]() 💝
@@ -183,7 +183,7 @@ Bu nodu kullanabilmeniz için Ana Materyal Nodunun ["Two Sided"](../Graph/Main%2
 * #### [VertexColor](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#vertexcolor)
 
 
-* #### [View Property](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#viewproperty) 💜💙💛
+* #### [View Property](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#viewproperty) 💝
 Materyalleri sürekli degiştirebilmeniz/güncelleyebilmeniz ve işlemler yapabilmeniz için, dünya ve oyuncular hakkında bilgiler verir.
 
 Mod | İşlem
@@ -210,22 +210,22 @@ Kaynaksız ve anlaşılamaz durumda.
 * #### [3Dto1DIndex]()
 Kaynaksız ve anlaşılamaz durumda.
 
-* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💜💙💛❤️
+* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💝
 Bu materyale sahip meshin konum bilgisini verir (V3).
 
-* #### [BlurSampleOffsets]() 🤍
+* #### [BlurSampleOffsets]() 🤍🤍
 Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
 
 * #### [BoundingBoxBased_0-1_UVW](https://www.youtube.com/watch?v=M5gQMqTMkCs) 💜💛💙❤️
 Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına istediginiz ayarı yapmanızı saglar. Mesela, R (yani X) outputunu kullanıp [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) işlemi yaparak, sadece X eksenine yakın olan tarafa istediginiz rengi verebilirsiniz. Dikkat, bu node sadece yönleri yani hangi tarafa baktıgı bilgisini döndürmez, o eksene yakın olan tarafların (o eksen tarafında olan) bilgisini döndürür. Eksene yaklaştıkça 1 uzaklaştıkça 0 degerini döndürür.
 
-* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
+* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💝
 Kameranın konum bilgisini verir (V3).
 
 * #### [CameraVectorToLatLongUV]()
 
 
-* #### [LightmapUVs]()
+* #### [LightmapUVs]() 💝
 Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir vektör (V2) verir. Eger Lightmap UV açık degilse 0 verir.
 
 * #### [LocalPosition]()
@@ -270,8 +270,8 @@ Speed | Hız degerleri
 * #### [ParticleSubUVProperties]()
 
 
-* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
-Her pikselin baktıgı yönü vektör (V3) olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
+* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) 💝
+Her pikselin baktıgı yönü vektör (V3) olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
 Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. "Coordinate" olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. "Center X" ve "Center Y" şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani "Center X" ve "Center Y", eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
@@ -318,8 +318,8 @@ VTiling | Y ekseninde (dikey) takrarlama sayısı
 * #### [UVToLongLat]()
 
 
-* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
-Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
+* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) 💝
+Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
@@ -330,7 +330,7 @@ Ekran boyutunu piksel olarak verir. 2 boyutlu vektör (V2) döndürür. Eger ekr
 * #### [VirtualPlaneCoordinates]()
 
 
-* #### [WorldPosition](https://youtu.be/8aYe54XrZYI) ❤️💛💚💙💜
+* #### [WorldPosition](https://youtu.be/8aYe54XrZYI) 💝
 Pixellerin uzay boşlugu ([WS](../Terimler%20Sözlügü/README.md#world-space-uzay-boşlugu)) üzerinde konumunu döndürür. Eger materyallerinizin texture kordinatlarının aynı olmasını istiyorsanız, yani aynı datayı kullanmaları, aynı konumları kullanmaları için, bunu kullanabilirsiniz. Ya da texturelerin konumlarının kameraya göre görünmesini istiyorsanız da bunu kullanabilirsiniz. Bu dediklerim anlamsız gelebilir, linkteki videoyu izleyin.
 
 Mod | İşlem
@@ -488,7 +488,7 @@ Opacity | Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
 FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
 * #### [DepthFromWorldPosition]() 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-%EF%B8%8F) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
 
 * #### [PixelDepth](https://youtu.be/AHOidP7olg0) 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve cameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Bu node sadece materyalin yüzeyine etki eder, yani arka tarafı göstermez. Arka tarafı gösteren node [SceneDepthe](#scenedepth-) de bakabilirsiniz. Daha iyi anlamak için linkteki videoya bakın.
@@ -1044,13 +1044,13 @@ The LinearSine function takes in a scalar value and outputs the linear sine (or 
 * #### [LineIntervalIntersection]()
 
 
-* #### [Logarithm(Ln)]() 💝
+* #### [Logarithm(Ln)]() ❤️💛💚
 [Logaritma](https://tr.wikipedia.org/wiki/Logaritma)
 
-* #### [Logarithm10(Log10)]() 💝
+* #### [Logarithm10(Log10)]() 💚💙💜
 [onluk logaritma](https://tr.wikipedia.org/wiki/Logaritma) diger adıyla genel logaritma
 
-* #### [Logarithm2(Log2)]() 💝
+* #### [Logarithm2(Log2)]() 💙💜💚
 [ikilik logaritma](https://tr.wikipedia.org/wiki/Logaritma)
 
 * #### [MakeVectorsOrthogonal]()
@@ -1122,7 +1122,7 @@ Verilen inputu yuvarlar (sayıyı yuvarlar yani).
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 [Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
 
-* #### [SafeNormalize]() 🤍🤍
+* #### [SafeNormalize]() ❤️💛💚
 [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır, sadece ek özelligi var. Eger verdigimiz vektör sonuç olarak 0 döndürürse (ki zaten bildigim kadarıyla 0 veren tek input yine 0) "Default" inputuna verdiginiz vektörü sonuç olarak döndürür. Ayrıca "Length==0" diye bir output degeri veriyor, eger sonuç 0 ise "Length==0" 1 döndürür aksi takdirde 0. Yani bu node sadece [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun 0 döndürecegi durumlar için geliştirilmiş hali.
 
 İnput | İşlem
@@ -1324,7 +1324,7 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight-) ile aynı.
 * #### [BlendAngleCorrectedNormals]()
 
 
-* #### [BlurSampleOffsets]() 🤍
+* #### [BlurSampleOffsets]() 🤍🤍
 Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
 
 
@@ -1359,7 +1359,7 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 * #### [CameraDepthFade]()
 
 
-* #### [CameraDirectionVector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [CameraDirectionVector]() 💝
 Kameranın baktıgı yönü verir (V3).
 
 
@@ -1505,7 +1505,7 @@ GrayScaleOutput | Siyah beyaz
 Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da [sinüs](#sine-%EF%B8%8F) degeri alındıgından dolayı (fonksiyonda). "Speed" degeri default 0.5
 
 * #### [DepthFromWorldPosition]() 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-%EF%B8%8F) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
 
 * #### [DeriveHDRfromLDR]()
 
@@ -1552,8 +1552,8 @@ Bu nodun tam olarak yaptıgı işlem "Alpha Threshold" inputuna verilen degere g
 * #### [FlattenNormal]()
 
 
-* #### [FlipBook]()
-Bu node hareketli resimler/animasyon oluşturmanıza yarar. [Sprite Sheet](../Terimler%20Sözlügü/README.md#sprite-sheet) yöntemini kullanır. "Animation Phase" degeri animasyon fazını belirler, yani mesela diyelim ki 2x2 yani 4 tane resimden oluşan bir flipbook yapmak istiyorsunuz, 1 saniyeye 4e bölersek ilk animasyon 0 ile 0.25 arasında (0 dahil) iken gösterilecek, yani "Animation Phase" degeri bu aralıkta ise ilk resim gösterilir. 0.25 degeri verildigi anda 2. resime geçer ve bu şekilde ilerler. "Animation Phase" degerinin sürekli degişmesi için [Time](#time-%EF%B8%8F) kullanırız. Az önceki örnekte eger fark ettiyseniz, tam 1 sayısında iken bu deger 5. bölüme denk gelir ve böyle bi bölüm olmadıgı için 1 sayısında da ilk resim kullanılır. Bunu engellemek için "Clamp Anim" diye bir input var, eger bu seçenegi aktifleştirirseniz sayılar 0 ve 0.99 arasında [Clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) edilir ve 1 degeri olmaz ama bu seçenegi aktifleştirdiginizde "Animation Phase" degeri olarak [Time](#time-%EF%B8%8F) kullanamazsınız, [Time](#time-%EF%B8%8F) nodunuza "Period" vermelisiniz ve bu deger de 0.99 olmalı çünkü "Clamp Anim" seçenegini aktifleştirdigimiz için [Time](#time-%EF%B8%8F) nodundan gelen sayı 0.99 dan büyükse yine en son resimi döndürecek o yüzden son resimden sonra tekrar başa dönmeyecek işte bu yüzden "Clamp Anim" seçenegi açıksa "Period" belirlemeniz gerek.
+* #### [FlipBook]() 💝
+Bu node hareketli resimler/animasyon oluşturmanıza yarar. [Sprite Sheet](../Terimler%20Sözlügü/README.md#sprite-sheet) yöntemini kullanır. "Animation Phase" degeri animasyon fazını belirler, yani mesela diyelim ki 2x2 yani 4 tane resimden oluşan bir flipbook yapmak istiyorsunuz, 1 saniyeye 4e bölersek ilk animasyon 0 ile 0.25 arasında (0 dahil) iken gösterilecek, yani "Animation Phase" degeri bu aralıkta ise ilk resim gösterilir. 0.25 degeri verildigi anda 2. resime geçer ve bu şekilde ilerler. "Animation Phase" degerinin sürekli degişmesi için [Time](#time-) kullanırız. Az önceki örnekte eger fark ettiyseniz, tam 1 sayısında iken bu deger 5. bölüme denk gelir ve böyle bi bölüm olmadıgı için 1 sayısında da ilk resim kullanılır. Bunu engellemek için "Clamp Anim" diye bir input var, eger bu seçenegi aktifleştirirseniz sayılar 0 ve 0.99 arasında [Clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) edilir ve 1 degeri olmaz ama bu seçenegi aktifleştirdiginizde "Animation Phase" degeri olarak [Time](#time-) kullanamazsınız, [Time](#time-) nodunuza "Period" vermelisiniz ve bu deger de 0.99 olmalı çünkü "Clamp Anim" seçenegini aktifleştirdigimiz için [Time](#time-) nodundan gelen sayı 0.99 dan büyükse yine en son resimi döndürecek o yüzden son resimden sonra tekrar başa dönmeyecek işte bu yüzden "Clamp Anim" seçenegi açıksa "Period" belirlemeniz gerek.
 
 İnput | İşlem
 :---: | :---:
@@ -2066,7 +2066,7 @@ Bu node bir yazılım hatası.
 * #### [NormalFromHeightmapChaos]()
 
 
-* #### [ObjectLocalBounds]()
+* #### [ObjectLocalBounds]() 💝
 Bu materyale sahip olan objenin kapladıgı alanı, daha dogrusu kaplayabilecegi alanı verir. Sanırım "Local Bounds Minimum" degeri objenin eksi yönünde ulaşabilecegi en uç nokta, "Local Bounds Max" degeri ise objenin artı yönünde ulaşabilecegi en uç nokta ve "Local Bounds Size" da objenin toplamda kaplayabilecegi alan.
 
 Output | İçerik
@@ -2080,7 +2080,7 @@ Local Bounds Size | Objenin toplamda kaplayabilecegi alan
 Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi hareket falan ettiriyoruz) bilgisini verir (V3), yani konum degeri.
 
 
-* #### [ObjectScale]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [ObjectScale]() 💝
 Bu materyale sahip olan objenin scale bilgisini verir (V3).
 
 * #### [ObjectSpaceFalloff]()
@@ -2195,7 +2195,7 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 [Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
 
 
-* #### [SafeNormalize]() 🤍🤍
+* #### [SafeNormalize]() ❤️💛💚
 [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır, sadece ek özelligi var. Eger verdigimiz vektör sonuç olarak 0 döndürürse (ki zaten bildigim kadarıyla 0 veren tek input yine 0) "Default" inputuna verdiginiz vektörü sonuç olarak döndürür. Ayrıca "Length==0" diye bir output degeri veriyor, eger sonuç 0 ise "Length==0" 1 döndürür aksi takdirde 0. Yani bu node sadece [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun 0 döndürecegi durumlar için geliştirilmiş hali.
 
 İnput | İşlem
@@ -2221,7 +2221,7 @@ Length==0 | Sonuç 0 a eşitse 1, degilse 0
 * #### [SceneTextureAverage]()
 
 
-* #### [SchlickPhase]()
+* #### [SchlickPhase]() 🤍
 Işıgın dagılımıyla ilgili bişeler.
 
 * #### [ScreenAlignedPixelToPixelUVs]()
@@ -2284,7 +2284,7 @@ Gradient | İnput olarak verdiginiz texture ve ya gradient
 
 
 * #### [SoftOpacity]() 🤍🤍
-Yakınlaştıkça ["fade out"](https://tureng.com/tr/turkce-ingilizce/fade) uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
+Yakınlaştıkça ["fade out"](https://tureng.com/tr/turkce-ingilizce/fade) uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı.
 
 İnput | İşlem
 :---: | :---:
@@ -2379,7 +2379,7 @@ Bu node [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%
 * #### [SumOfAConsecutiveNumberSequence]()
 
 
-* #### [Swizzle](https://youtu.be/DdyvDf442a0)
+* #### [Swizzle](https://youtu.be/DdyvDf442a0) 🤍🤍
 Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür). Linkteki videodan pek bişe anlayamadım ama [bu abiye](https://www.youtube.com/watch?v=hxIl52S-hzM&t=791s) de bakabilirsiniz, güzel anlatmış.
 
 
@@ -2390,7 +2390,7 @@ Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (d�
 
 
 * #### [TimeWithSpeedVariable]() 🤍🤍
-Bu node [Time](#time-%EF%B8%8F) noduyla aynıdır. Sadece bir kaç özellik eklenmiş. Verdiginiz "Speed" degerini "Time" degeri ile çarpıyor böylelikle mesela 2 kat hızlı Time degeri istiyorsanız iki ile çarpıp iki kat hızlı Time degeri alabilirsiniz. Bir de "Frac Time" diye output var, time degerinin noktadan sonraki kısmını ([kesirli kısmını](#frac-%EF%B8%8F)) veriyor. Kullanışsız.
+Bu node [Time](#time-) noduyla aynıdır. Sadece bir kaç özellik eklenmiş. Verdiginiz "Speed" degerini "Time" degeri ile çarpıyor böylelikle mesela 2 kat hızlı Time degeri istiyorsanız iki ile çarpıp iki kat hızlı Time degeri alabilirsiniz. Bir de "Frac Time" diye output var, time degerinin noktadan sonraki kısmını ([kesirli kısmını](#frac-%EF%B8%8F)) veriyor. Kullanışsız.
 
 
 * #### [Transform3x3Matrix]()
@@ -2542,7 +2542,7 @@ Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8
 
 
 * #### [SoftOpacity]() 🤍🤍
-Yakınlaştıkça ["fade out"](https://tureng.com/tr/turkce-ingilizce/fade) uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı, ama tam çalışmıyor gibi.
+Yakınlaştıkça ["fade out"](https://tureng.com/tr/turkce-ingilizce/fade) uygular yani yavaş yavaş görünmeze kaymaya başlar. "OpacityIn" degeri başlangıç degerini temsil ediyor, "FadeDistance" ne kadar yakınlaşınca fade out olmaya başlayacagını temsil ediyor yani uzaklık degeri, görünmez olmaya ne kadar uzaktan başlayacagı, "DepthFadeDistance" tamamen görünmez olma uzaklıgı, yani ne kadar yakınlaşınca tamamen görünmez olacagı.
 
 İnput | İşlem
 :---: | :---:
@@ -2558,17 +2558,17 @@ OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "Depth
 
 ## Parameters
 
-* #### [ChannelMaskParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter](#staticcomponentmaskparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
+* #### [ChannelMaskParameter]() 💝
+[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter](#staticcomponentmaskparameter-) noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
-* #### [CollectionParameters](https://youtu.be/i4Z2r7mGA0o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [CollectionParameters](https://youtu.be/i4Z2r7mGA0o) 💝
 Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluşturdugunuz ["Material Parameter Collection"](../Terimler%20Sözlügü#material-parameter-collection) dosyasından parametre almanıza yarar. Bu node instance'larda parametre olarak gözükmez.
 
 * #### [CurveAtlasRowParameter]()
 
 
-* #### [DoubleVectorParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[VectorParameter](#vectorparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun double halidir. [ConstantDouble](#constantdouble-%EF%B8%8F) nodunu parametre yapmak isterseniz bu nodu kullanabilirsiniz.
+* #### [DoubleVectorParameter]() 💝
+[VectorParameter](#vectorparameter-) nodunun double halidir. [ConstantDouble](#constantdouble-%EF%B8%8F) nodunu parametre yapmak isterseniz bu nodu kullanabilirsiniz.
 
 * #### [DynamicParameter]()
 The DynamicParameter expression provides a conduit for particle emitters to pass up to four values to the material to be used in any manner. These values are set in Cascade via a ParameterDynamic module placed on an emitter.
@@ -2582,26 +2582,25 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 * #### [RuntimeVirtualTextureSampleParameter]()
 
 
-* #### [ScalarParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [ScalarParameter]() 💝
 [Constant](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
 * #### [SpriteTextureSampler]()
 
 
-* #### [StaticBoolParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [StaticBoolParameter]() 💝
 [StaticBool](#staticbool) nodunun parametre halidir.
 
-
-* #### [StaticComponentMaskParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [StaticComponentMaskParameter]() 💝
 [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
-* #### [StaticSwitchParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [StaticSwitchParameter]() 💝
 [StaticSwitch](#staticswitch-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
-* #### [TextureObjectParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [TextureObjectParameter]() 💝
 [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
-* #### [TextureSampleParameter2D]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [TextureSampleParameter2D]() 💝
 [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
 * #### [TextureSampleParameter2DArray]()
@@ -2619,7 +2618,7 @@ The TextureSampleParameterSubUV expression is identical to the ParticleSubUV exc
 * #### [TextureSampleParameterVolume]()
 
 
-* #### [VectorParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [VectorParameter]() 💝
 Scalar (S) hariç, vektörlerden (V2, V3, V4) herhangi birini parametreye çevirirseniz bu nodu verir. Bu node [Constant4Vector](#constant4vector-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır.
 
 
@@ -2872,8 +2871,8 @@ A custom sprite material can be created by duplicating one of the existing ones,
 * #### [TextureObject]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bu node içerisinde gerçekten texture barındırmaz ama bir texturenin obje halini verir, yani textureyi materyal editöründe bi degişkene kaydediyoruz gibi düşünün, o texturenin objesini oluşturuyoruz, [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun "Tex" inputuna texture objesini vererek içerisinden textureyi alabiliriz. Yani bu node [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) birlikte kullanılmak zorunda (eger içindeki textureyi almak istiyorsanız).
 
-* #### [TextureObjectParameter]()
-The TextureObjectParameter expression defines a texture parameter and outputs the texture object, used in materials that call a function with texture inputs. This node does not actually sample the texture, so it must be used in conjunction with a TextureSample node.
+* #### [TextureObjectParameter]() 💝
+[TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
 * #### [TextureProperty]()
 The TextureProperty exposes a texture's property of your choice such as the texture's size or texel size.
@@ -2881,8 +2880,8 @@ The TextureProperty exposes a texture's property of your choice such as the text
 * #### [TextureSample]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bir texture içinden renk degerlerini (pikseller) almamıza yarar. Texture seçmek için details panelinden Texture seçebilir ve ya "Tex" inputuna [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz.
 
-* #### [TextureSampleParameter2D]()
-The TextureSampleParameter2D expression is identical to the TextureSample except that it is a parameter that can be modified in instances of the material and through code.
+* #### [TextureSampleParameter2D]() 💝
+[TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
 * #### [TextureSampleParameter2DArray]()
 
@@ -3010,7 +3009,7 @@ SubUV_Function is perfect for handling animation across a sprite sheet or textur
 * #### [SubUV_Function_MipDerivative]()
 
 
-* #### [Swizzle](https://youtu.be/DdyvDf442a0)
+* #### [Swizzle](https://youtu.be/DdyvDf442a0) 🤍🤍
 Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür). Linkteki videodan pek bişe anlayamadım ama [bu abiye](https://www.youtube.com/watch?v=hxIl52S-hzM&t=791s) de bakabilirsiniz, güzel anlatmış.
 
 
@@ -3143,8 +3142,8 @@ Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%
 Height | Yükseklik mapi, mesela texturenin bir kanalı olabilir.
 HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı unreal enginenin önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
 
-* #### [ChannelMaskParameter]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter](#staticcomponentmaskparameter-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
+* #### [ChannelMaskParameter]() 💝
+[ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter](#staticcomponentmaskparameter-) noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
 
 * #### [ClearCoatNormalCustomOutput]()
@@ -3170,7 +3169,7 @@ FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0
 * #### [DepthOfFieldFunction](https://youtu.be/YUvQHmjpeJ8) 💝
 Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
 
-* #### [Distance](https://youtu.be/ZINJAvhQilg) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [Distance](https://youtu.be/ZINJAvhQilg) ❤️💛💚💜💙
 Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır.
 
 * #### [DistanceFieldGradient]()
@@ -3179,7 +3178,7 @@ The DistanceFieldGradient Material Expression node, when normalized, outputs the
 * #### [DistanceToNearestSurface]()
 The Distance To Nearest Surface Material Expression node allows Materials to sample any point in the levels Global Distance Field. This Material Expression works by outputting the signed distance in world space units from the distance field to the nearest occluders in the scene.
 
-* #### [EyeAdaptation]()
+* #### [EyeAdaptation]() 💝
 [Eye adaptation](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#eye-adaptation) degerini verir (S).
 
 * #### [FeatureLevelSwitch](https://youtu.be/wo6fSPJVp2I) 💝
@@ -3212,7 +3211,7 @@ Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir b
 * #### [MaterialProxyReplace]()
 
 
-* #### [Noise](https://youtu.be/hP3P3WH4TjM)
+* #### [Noise](https://youtu.be/hP3P3WH4TjM) ❤️💛💚💜💙
 Gürültü döndürür. Sanırım texture halinde kullanıyoruz.
 
 Parametre | İşlem
@@ -3232,7 +3231,7 @@ Position | Sanırım sadece 3 boyutlu vektör kabul ediyor, Texturenin pozisyonu
 Filter Width | Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 
 
-* #### [QualitySwitch](https://youtu.be/64I4rzyZ6_Q)
+* #### [QualitySwitch](https://youtu.be/64I4rzyZ6_Q) 💝
 İf gibi, duruma göre ayar yapmanızı saglar. Oyundaki kalite neyse, o inputa baglı olan şeyi output olarak verir. "Default" eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela "Low" a hiçbir şey baglamadınız, eger kalite Low da ise o zaman Low baglı olmadıgı için Defaulta ne baglıysa o kullanılır. Zaten Defaultu boş bırakamazsınız.
 
 * #### [RayTracingQualitySwithc]()
@@ -3241,7 +3240,7 @@ Filter Width | Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 * #### [ReflectionCapturePassSwitch]()
 
 
-* #### [RotateAboutAxis](https://youtu.be/ljWoJ7Pp9Ww)
+* #### [RotateAboutAxis](https://youtu.be/ljWoJ7Pp9Ww) ❤️💛💚💜
 Materyale dönme efekti kazandırır ama kendi çevresinde degil, dünya içinde. Ayrıca bu dönme efekti hareket olarak degil sadece görünüş olarak olan bir dönme efektidir. Yani dönme efektinden sonra materyalin yeri ne kadar degişse de aslında materiyal ilk koydugunuz konumdadır. Bu node ile materyale istediginiz yönde dönme efekti verebilir bunu otomatikleştirebilirsiniz de. Linkteki videoyu izleyin çünkü yazı ile anlatmak bi anlam ifade etmiyor, eger izlediyseniz yazdıklarımı anlayacaksınız.
 
 Parametre | İşlem
@@ -3340,13 +3339,13 @@ The TransformPosition expression can transform any position from screen space to
 
 ## Vectors
 
-* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💜💙💛❤️
+* #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💝
 Bu materyale sahip meshin konum bilgisini verir (V3).
 
-* #### [CameraDirectionVector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [CameraDirectionVector]() 💝
 Kameranın baktıgı yönü verir (V3).
 
-* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
+* #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💝
 Kameranın konum bilgisini verir (V3).
 
 * #### [CameraVectorWithWPOOptions]() ❤️💛💚💙💜
@@ -3367,7 +3366,7 @@ Constantın 4 boyutlu hali, bu dört boyut RGBA ya denk gelir. RGB den farklı o
 * #### [LightVector]()
 This expression has been deprecated in Unreal Engine 4 as lighting calculations are now deferred.
 
-* #### [ObjectBounds]()
+* #### [ObjectBounds]() 💝
 Bu materyale sahip olan objenin X, Y, Z eksenlerine göre kapladıkları alanların bilgisini verir (V3).
 
 * #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
@@ -3383,8 +3382,8 @@ Bu materyale sahip olan objenin konum bilgisini verir (V3).
 * #### [ParticlePositionWS]()
 The ParticlePositionWS expression outputs Vector3 (RGB) data representing each individual particle's position in world space.
 
-* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) ❤️💛💚💙
-Her pikselin baktıgı yönü vektör (V3) olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-%EF%B8%8F) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
+* #### [PixelNormalWS](https://youtu.be/gTK2EHj6ycg) 💝
+Her pikselin baktıgı yönü vektör (V3) olarak döndürür. Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. Eger normal map kullanırsanız, egimli noktalardaki pikseller hatalara yol açabilir, bunun olmasını istemiyorsanız [VertexNormalWS](#vertexnormalws-) kullanın. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [PreSkinnedLocalBounds]()
 
@@ -3407,8 +3406,8 @@ The Pre-Skinned Local Position Vector Expression outputs a three-channel vector 
 * #### [SkinningVertexOffsets]()
 
 
-* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) ❤️💛💚💙💜
-Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-%EF%B8%8F) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
+* #### [VertexNormalWS](https://youtu.be/sGuJxr4Bfxw) 💝
+Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, mesela x eksenine bakıyorsa 1, x ekseninin zıttına bakıyorsa -1). Mesela eger bu materyale sahip meshinizin sadece yukarı bakan tarafının istediginiz renge sahip olmasını istiyorsanız bunu kullanabilirsiniz. [PixelNormalWS](#pixelnormalws-) nin aksine bu node pixel yerine vertex kullanıldıgı için normal map kullanırken hatalar oluşmaz. Linkteki videoya bakın görseller ile anlamak daha kolay.
 
 * #### [VertexTangentWS]()
 
@@ -3502,7 +3501,7 @@ The CameraOffset function is great to assist with depth sorting, as it allows yo
 * #### [ObjectPivotPoint]() 💝
 Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi hareket falan ettiriyoruz) bilgisini verir (V3), yani konum degeri.
 
-* #### [ObjectScale]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
+* #### [ObjectScale]() 💝
 Bu materyale sahip olan objenin scale bilgisini verir (V3).
 
 * #### [OrthoFOV]()
