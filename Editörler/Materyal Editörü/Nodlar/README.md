@@ -258,11 +258,11 @@ Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%
 Time | Aldıgı zaman degerine göre pozisyonu belirler
 Speed | Hız degerleri
 
-* #### [PanTextureCoordinateChannelfrom-1ton+1]()
+* #### [PanTextureCoordinateChannelfrom-1ton+1]() 🤍
+[TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerinin tek bir kanalını -1 den "Tiling Amount" inputuna verdiginiz deger + 1 e kadar [pan](#panner-%EF%B8%8F) eder. Mantıklı bi kullanılış şekli bulamadım. [PanTextureCoordinateFrom-1toN+1](#pantexturecoordinatefrom-1ton1-) daha mantıklı.
 
-
-* #### [PanTextureCoordinateFrom-1toN+1]()
-
+* #### [PanTextureCoordinateFrom-1toN+1]() 🤍🤍
+[PanTextureCoordinateChannelfrom-1ton+1 ](#pantexturecoordinatechannelfrom-1ton1-) gibi ama tek bir kanalı degil, [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini [pan](#panner-%EF%B8%8F) eder. Kullanışlı bir şeye benzemiyor.
 
 * #### [ParticlePositionWS]()
 
@@ -309,7 +309,19 @@ Parametre | İşlem
 UTiling | X ekseninde (yatay) takrarlama sayısı
 VTiling | Y ekseninde (dikey) takrarlama sayısı
 
-* #### [UVBrickPatterns]()
+* #### [UVBrickPatterns]() 💚💙💜
+Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV degerindeki tiling yani tekrarlama şeklini degiştirir. Her satır (ve ya sütun) verilen Offset yüzdesine göre, biraz daha öne alınmış olur. Neyse bunu örnek vermeden anlatamicam. Şimdi [burdaki](https://blueprintue.com/blueprint/0lvpogfi/) kodu kopyalayıp materyal editörüne yapıştırın, texture degeri olarak bi texture verin. "Offset X (True) Or Offset Y (False)" degeri, offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler. "Offset Percentage" offset degeri, 0 - 1 arası. "Float 2 Coordinates" ise [UV](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri. Verilen offset degerine göre her satır ve ya sütun kaydırılmış olacak. Bu da brick (tugla) görünümü veriyor, fonksiyonun adı da burdan geliyor.
+
+Parametre | İşlem
+:---: | :---:
+Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
+Offset Percentage | Offset degeri 0 - 1 arası
+Float 2 Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+
+Output | İçerik
+:---: | :---:
+Frac | Degerin, noktadan sonraki kısmı (kesirli kısım)
+Non-frac | Normal deger
 
 
 * #### [UVRemap_0-1_ToRange]()
@@ -2099,10 +2111,11 @@ Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz "Offset Amount
 * #### [PackTwoNormalizedFloats]()
 
 
-* #### [PanTextureCoordinateChannelfrom-1ton+1]()
+* #### [PanTextureCoordinateChannelfrom-1ton+1]() 🤍
+[TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerinin tek bir kanalını -1 den "Tiling Amount" inputuna verdiginiz deger + 1 e kadar [pan](#panner-%EF%B8%8F) eder. Mantıklı bi kullanılış şekli bulamadım. [PanTextureCoordinateFrom-1toN+1](#pantexturecoordinatefrom-1ton1-) daha mantıklı.
 
-
-* #### [PanTextureCoordinateFrom-1toN+1]()
+* #### [PanTextureCoordinateFrom-1toN+1]() 🤍🤍
+[PanTextureCoordinateChannelfrom-1ton+1 ](#pantexturecoordinatechannelfrom-1ton1-) gibi ama tek bir kanalı degil, [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini [pan](#panner-%EF%B8%8F) eder. Kullanışlı bir şeye benzemiyor.
 
 
 * #### [ParallaxOcclusionMapping]()
@@ -2423,7 +2436,19 @@ Bu node [Time](#time-) noduyla aynıdır. Sadece bir kaç özellik eklenmiş. Ve
 * #### [UnwrapUVsForRender]()
 
 
-* #### [UVBrickPatterns]()
+* #### [UVBrickPatterns]() 💚💙💜
+Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV degerindeki tiling yani tekrarlama şeklini degiştirir. Her satır (ve ya sütun) verilen Offset yüzdesine göre, biraz daha öne alınmış olur. Neyse bunu örnek vermeden anlatamicam. Şimdi [burdaki](https://blueprintue.com/blueprint/0lvpogfi/) kodu kopyalayıp materyal editörüne yapıştırın, texture degeri olarak bi texture verin. "Offset X (True) Or Offset Y (False)" degeri, offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler. "Offset Percentage" offset degeri, 0 - 1 arası. "Float 2 Coordinates" ise [UV](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri. Verilen offset degerine göre her satır ve ya sütun kaydırılmış olacak. Bu da brick (tugla) görünümü veriyor, fonksiyonun adı da burdan geliyor.
+
+Parametre | İşlem
+:---: | :---:
+Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
+Offset Percentage | Offset degeri 0 - 1 arası
+Float 2 Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+
+Output | İçerik
+:---: | :---:
+Frac | Degerin, noktadan sonraki kısmı (kesirli kısım)
+Non-frac | Normal deger
 
 
 * #### [UVLayoutToWorldSpacePosition]()
