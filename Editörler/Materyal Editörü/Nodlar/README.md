@@ -199,12 +199,16 @@ Pre-Exposure | [Eye adaptation](../Terimler%20S%C3%B6zl%C3%BCg%C3%BC/README.md#e
 ## Coordinates
 
 * #### [1Dto2DIndex]()
+Kaynaksız ve anlaşılamaz durumda.
 
 * #### [1Dto3DIndex]()
+Kaynaksız ve anlaşılamaz durumda.
 
 * #### [2Dto1DIndex]()
+Kaynaksız ve anlaşılamaz durumda.
 
 * #### [3Dto1DIndex]()
+Kaynaksız ve anlaşılamaz durumda.
 
 * #### [ActorPositionWS](https://youtu.be/Kn3ZQ8TxZoE) 💜💙💛❤️
 Bu materyale sahip meshin konum bilgisini verir (V3).
@@ -212,7 +216,7 @@ Bu materyale sahip meshin konum bilgisini verir (V3).
 * #### [BlurSampleOffsets]() 🤍
 Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
 
-* #### [BoundingBoxBased_0-1_UVW](https://www.youtube.com/watch?v=M5gQMqTMkCs)
+* #### [BoundingBoxBased_0-1_UVW](https://www.youtube.com/watch?v=M5gQMqTMkCs) 💜💛💙❤️
 Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına istediginiz ayarı yapmanızı saglar. Mesela, R (yani X) outputunu kullanıp [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) işlemi yaparak, sadece X eksenine yakın olan tarafa istediginiz rengi verebilirsiniz. Dikkat, bu node sadece yönleri yani hangi tarafa baktıgı bilgisini döndürmez, o eksene yakın olan tarafların (o eksen tarafında olan) bilgisini döndürür. Eksene yaklaştıkça 1 uzaklaştıkça 0 degerini döndürür.
 
 * #### [CameraPositionWS](https://youtu.be/MRbjCXf1hmg) 💜💛💙❤️
@@ -1324,7 +1328,7 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight-) ile aynı.
 Kullanışsız, verilen inputu 2 boyutlu vektörler (V2) ile çarpıyor.
 
 
-* #### [BoundingBoxBased_0-1_UVW](https://www.youtube.com/watch?v=M5gQMqTMkCs)
+* #### [BoundingBoxBased_0-1_UVW](https://www.youtube.com/watch?v=M5gQMqTMkCs) 💜💛💙❤️
 Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına istediginiz ayarı yapmanızı saglar. Mesela, R (yani X) outputunu kullanıp [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) işlemi yaparak, sadece X eksenine yakın olan tarafa istediginiz rengi verebilirsiniz. Dikkat, bu node sadece yönleri yani hangi tarafa baktıgı bilgisini döndürmez, o eksene yakın olan tarafların (o eksen tarafında olan) bilgisini döndürür. Eksene yaklaştıkça 1 uzaklaştıkça 0 degerini döndürür.
 
 
