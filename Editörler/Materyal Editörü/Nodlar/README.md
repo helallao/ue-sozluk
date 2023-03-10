@@ -28,7 +28,7 @@ Spesifik Node = 💝
 <br>
 
 
-## Atomsphere
+## Atmosphere
 
 * #### [Atmospheric Fog Color (deprecated)](https://docs.unrealengine.com/5.1/en-US/atmosphere-material-expressions-in-unreal-engine/#atmosphericfogcolor) 🤍
 Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama dedigim gibi, kullanılmıyor o yüzden ben de bilmiyorum.
