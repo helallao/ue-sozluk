@@ -291,7 +291,7 @@ Time | Aldıgı zaman degerine göre pozisyonu belirler
 
 
 * #### [SceneTexelSize]() 💝
-Her piksel için geçerli olan ekranda kapladıgı alan degerini verir. Döndürdügü output degerini 1e bölerseniz, elinize toplam piksel degeri, daha dogrusu ekran boyutunuz çıkar. Yani her piksel için "1/piksel sayısı" veriyor. Tabi bu nodun ne amaçla kullanıldıgını da tam bilmiyorum, belki piksellerin boyutları birbirinden farklı olabilir, bu node size piksellerin ekranda kapladıgı alan degerini verir.
+Ekranınızın Texel degerini verir. Döndürdügü output degerini 1e bölerseniz, elinize toplam piksel degeri, daha dogrusu ekran boyutunuz çıkar. Yani her piksel için "1/piksel sayısı" veriyor. Texel konusu hakkında [buraya](https://www.beyondextent.com/deep-dives/deepdive-texeldensity) bakabilirsiniz.
 
 * #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI) 💝
 ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (V2). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, "ViewportUV" bu degeri 0 ve 1 arasında verirken, "PixelPosition" bu degeri gerçek piksel sayısına göre verir.
@@ -2899,8 +2899,14 @@ Bu node içerisinde gerçekten texture barındırmaz ama bir texturenin obje hal
 * #### [TextureObjectParameter]() 💝
 [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun parametre halidir.
 
-* #### [TextureProperty]()
-The TextureProperty exposes a texture's property of your choice such as the texture's size or texel size.
+* #### [TextureProperty]() 💝
+Verilen [texture objesine](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) göre, piksel sayısını ve ya texel sayısını verir. Texel hakkında [buraya](https://www.beyondextent.com/deep-dives/deepdive-texeldensity) bakabilirsiniz.
+
+Mod | İşlem
+:---: | :---:
+Texture Size | Piksel sayısını verir
+Texel Size | Texel sayısını verir (1 / piksel sayısı)
+
 
 * #### [TextureSample]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bir texture içinden renk degerlerini (pikseller) almamıza yarar. Texture seçmek için details panelinden Texture seçebilir ve ya "Tex" inputuna [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz.
