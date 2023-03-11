@@ -2884,8 +2884,8 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 * #### [ParticleSubUV]()
 The ParticleSubUV expression is used to render sub-images of a texture to a particle. ParticleSubUV is similar to a flipbook, except that ParticleSubUV allows the texture animation to be manipulated in Cascade.
 
-* #### [SceneColor]()
-The SceneColor expression outputs the existing scene color.
+* #### [SceneColor]() 💝
+Bu materyale sahip olan objeye baktıgınız zaman, arka taraftaki opak olan (saydamlar hariç, saydamları hesaba katmıyor) yüzeyin renk degerlerini (V3) döndürür.
 
 * #### [SceneTexture]()
 Get the scene texture
