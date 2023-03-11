@@ -9,6 +9,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [Kitaplar - Pdfler](#kitaplar---pdfler)
 * [Youtube](#youtube)
 * [Youtube Türk](#youtube-türk)
+* [Discord](#discord)
 
 
 ## Yazılar/Bloglar
@@ -42,3 +43,13 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [Bufuak](https://www.youtube.com/@bufuak/videos) - Unreal Engine hakkında genel, dersler de var
 * [UnrealCoder](https://www.youtube.com/@unrealcoder6184/videos) - Unreal Engine hakkında genel, dersler de var
 * [Unreal Engine Log](https://www.youtube.com/@unrealenginelog/videos) - Unreal Engine hakkında dersler
+
+## Discord
+* [Unreal Slackers](https://discord.gg/unreal-slackers)
+* [Unreal Engine](https://discord.gg/RhsxUpSs4b)
+* [Snappy Gurus](https://discord.gg/yaupCRVEDE)
+* [Free Console](https://discord.gg/ue5)
+* [Developers Creed](https://disboard.org/server/735642528727957516)
+* [PrismaticaDev](https://discord.gg/prismaticadevlearninghub)
+* [Bufuak](https://discord.gg/fRR8kQysSA)
+* [Mağara Dev](https://discord.gg/H46KrVT2m9)
