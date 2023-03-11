@@ -302,7 +302,7 @@ ViewportUV | ScreenPosition degerini 0 ve 1 arasında verir
 PixelPosition | ScreenPosition degerini gerçek piksel sayısına göre verir
 
 * #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. Bazı yerlerde UV ve ya UVs diye geçer.
+Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. Aslında döndürdügü deger her pikselin konum degeridir. Bu degerlerle oynamak piksellerin konumlarını degiştirir. Bazı yerlerde UV ve ya UVs diye geçer.
 
 Parametre | İşlem
 :---: | :---:
