@@ -290,8 +290,8 @@ Time | Aldıgı zaman degerine göre pozisyonu belirler
 * #### [SampleSceneDepth]()
 
 
-* #### [SceneTexelSize]()
-The SceneTexelSize expression allows you to offset by texel sizes, as you would when using the SceneColor and SceneDepth expressions. This is useful for edge detection in multi-resolution systems, as without this calculation you would be forced to use a small static value, resulting in inconsistent results at lower resolutions.
+* #### [SceneTexelSize]() 💝
+Her piksel için geçerli olan ekranda kapladıgı alan degerini verir. Döndürdügü output degerini 1e bölerseniz, elinize toplam piksel degeri, daha dogrusu ekran boyutunuz çıkar. Yani her piksel için "1/piksel sayısı" veriyor. Tabi bu nodun ne amaçla kullanıldıgını da tam bilmiyorum, belki piksellerin boyutları birbirinden farklı olabilir, bu node size piksellerin ekranda kapladıgı alan degerini verir.
 
 * #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI) 💝
 ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (V2). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, "ViewportUV" bu degeri 0 ve 1 arasında verirken, "PixelPosition" bu degeri gerçek piksel sayısına göre verir.
