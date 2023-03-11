@@ -1,4 +1,4 @@
-Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engineyi oluşturan editörler ve diger pencereler aşagıda sıralanmıştır.
+Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engineyi oluşturan editörler ve diger pencereler aşagıda sıralanmıştır. ue-sozluk, sözlük mantıgında bir dökümandır, size bütün olarak konu anlatımı sunmaz ama her parçayı tek tek anlatır, zaten önemli olan da bu oldugu için böyle bir şey yaptım. Her editör için "Kaynaklar" diye bölüm oluşturdum, ister oradan ögrenmek istediginiz editör üzerine, ister bütün kaynakları topladıgım [Kaynaklar](Kaynaklar) bölümünden konu anlatımlarına ulaşabilirsiniz.
 
 # Editörler
 
