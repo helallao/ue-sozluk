@@ -44,7 +44,7 @@ Verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gö
 Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
 
 * ### [World Position Offset](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#worldpositionoffset)
-World Position Offset konum degiştirme daha dogrusu hareket kazandırma amaçlı kullanılır. Blueprint ile yazmak yerine materyal içinde bunu yapabilmek çok büyük kolaylık. Bu materyale sahip olan meshlerin belirli hareketler yapmasını istediginizde kullanabilirsiniz. Konum degişse bile aslında meshin gerçek konumu degişmez yani aslında World Position Offset konumu degiştirmez.
+World Position Offset konum degiştirme daha dogrusu hareket kazandırma amaçlı kullanılır. Blueprint ile yazmak yerine materyal içinde bunu yapabilmek çok büyük kolaylık. Bu materyale sahip olan meshlerin belirli hareketler yapmasını istediginizde kullanabilirsiniz. Konum degişse bile aslında meshin gerçek konumu degişmez yani aslında World Position Offset konumu degiştirmez ve eger bu materyale sahip olan obje ekranınızda degilse, materyal motor tarafından hesaplanmadıgı için objeyi göremezsiniz. World Position Offset sadece bir göz yanılmasıdır/sahte konumdur.
 
 * ### [Subsurface Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#subsurfacecolor)
 Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki renge etki edecek rengi belirler. Yani arkadan bi ışık vurdugunda, materyalin içindeki şeyin rengi ortaya çıkmaya başlar, mesela insan cildi için ışık vurdugunda kan rengi olarak kırmızı rengin ortaya çıkması gibi, telefon ışıgıyla falan parmagınızı üstüne tutup görebilirsiniz.
