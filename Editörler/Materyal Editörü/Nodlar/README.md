@@ -82,7 +82,7 @@ Linkteki açıklamaya göre [Blend_PinLight](#blend_pinlight-) ile aynı.
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
 * #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 💚💛💙
-[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, "ScratchValue" olarak verdiginiz texturenin "Base" texture ile toplanmış halini, Base ile [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) eder. Yani Scratch ile Base [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmadan önce, Scratch kendisine Base textureyi de ekler. "GrimeValue" ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen Base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
+[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, "ScratchValue" olarak verdiginiz texturenin "Base" texture ile toplanmış halini, Base ile [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) eder. Yani Scratch ile Base [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmadan önce, Scratch kendisine Base textureyi de ekler. "GrimeValue" ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direktmen Base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 ## Chromakeying
@@ -1279,7 +1279,7 @@ Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30
 
 
 * #### [AppendMany]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-İnput olarak verdigimiz her sayıyı (S) birleştirir ve vektör oluşturur.
+İnput olarak verdigimiz her sayıyı (S) birleştirir ve vektör oluşturur. Tek tek [Append]() yapmamız gereken yerlerde direkt bu nodu kullanırız.
 
 * #### [AttachMeshToTheCamera]()
 
@@ -1702,7 +1702,7 @@ Eger input gerçek sayı ise 1, degilse 0 (sonsuz ve ya NaN).
 Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir texturenin üzerine çizik ve ya kir efekti uygulamamıza yarar. Ama aslında bu çok anlamsız, yani [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodu ile aynı şeyi yapıyor. Tek farkları iki input alması, yani çift lerp nodu diyebiliriz.
 
 * #### [Lerp_ScratchGrime2](https://forums.unrealengine.com/t/lerp-scratch-grime/685309/2) 💚💛💙
-[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, "ScratchValue" olarak verdiginiz texturenin "Base" texture ile toplanmış halini, Base ile [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) eder. Yani Scratch ile Base [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmadan önce, Scratch kendisine Base textureyi de ekler. "GrimeValue" ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direkmen Base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
+[Lerp_ScratchGrime](#lerp_scratchgrime-) ile aynı sayılır ama bu node, "ScratchValue" olarak verdiginiz texturenin "Base" texture ile toplanmış halini, Base ile [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) eder. Yani Scratch ile Base [lerp](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) olmadan önce, Scratch kendisine Base textureyi de ekler. "GrimeValue" ise, kendini texture ile çarpar. Yani scratch/grime olarak verdigimiz textureler direktmen Base textureye konulmak yerine toplanarak ve çarpılarak eklenir.
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
@@ -2326,7 +2326,7 @@ OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "Depth
 
 
 * #### [SphereGradient-2D]() ❤️💛💜
-[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direkmen daire şekli veriyor. "UVs" degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. "UVs" degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. "Center Position" şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. "Radius" dairenin çapı, büyüklügü yani. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+[RadialGradientExponential](#radialgradientexponential-%EF%B8%8F) gibi ama bu tam daire şekli veriyor, yani orta noktadan dışarıya dogru hafifleyen bi beyaz renk degil, direktmen daire şekli veriyor. "UVs" degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. "UVs" degerinin işlevini tam olarak anlayamadım, zaten sadece orta noktayı etkiliyen bir şey sanırım. "Center Position" şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. "Radius" dairenin çapı, büyüklügü yani. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -3449,7 +3449,7 @@ Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, 
 ## VFX
 
 * #### [AppendMany]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-İnput olarak verdigimiz her sayıyı (constant) birleştirir ve vektör oluşturur.
+İnput olarak verdigimiz her sayıyı (S) birleştirir ve vektör oluşturur. Tek tek [Append]() yapmamız gereken yerlerde direkt bu nodu kullanırız.
 
 
 ## VirtualTexture
