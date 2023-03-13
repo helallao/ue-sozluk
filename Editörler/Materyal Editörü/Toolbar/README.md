@@ -28,7 +28,7 @@ Hem [Apply](#apply-butonu) uygular hem de dosyayı kaydeder, [Apply Butonu](#app
 Şu an işlem yapılan materyalin dosya konumunu açar, eger content drawer yoksa yeni açar.
 
 ## [Apply Butonu]()
-Apply butonu, şu an bu materyale sahip olan her meshe, yani dünyanızdaki bu materyale sahip olan objelere, yaptıgınız degişiklikleri uygular, materyale yaptıgınız degişiklikleri apply yapmadan dünya üzerindeki objelerde göremezsiniz. Genellikle Apply Butonu yerine [Save Butonu](#save-butonu) kullanılır.
+Apply butonu, şu an bu materyale sahip olan her meshe, yani dünyanızdaki bu materyale sahip olan objelere, yaptıgınız degişiklikleri uygular, materyale yaptıgınız degişiklikleri apply yapmadan dünya üzerindeki objelerde göremezsiniz. Apply Butonu yerine [Save Butonu](#save-butonu) da kullanılabilir ama çok kullanılmaz çünkü save yapmak daha uzun sürer, editörde materyal tasarlarken sürekli beklemek sıkıcı olur, o yüzden Apply Butonu kullanılır.
 
 ## [Arama Butonu]()
 Arama pencerisini açar, arama penceresinde her isime göre arama yapabilir ve arama sonuçlarına tıklayıp hemen o noda gidebilirsiniz.
