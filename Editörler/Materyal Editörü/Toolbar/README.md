@@ -22,7 +22,7 @@
 
 
 ## [Save Butonu]()
-Hem [Apply](#apply-butonu) uygular hem de dosyayı kaydeder, [Apply Butonu](#apply-butonu) yerine genellikle bu kullanılır.
+Hem [Apply](#apply-butonu) uygular hem de dosyayı kaydeder.
 
 ## [Dosya Konumunu Göster]()
 Şu an işlem yapılan materyalin dosya konumunu açar, eger content drawer yoksa yeni açar.
