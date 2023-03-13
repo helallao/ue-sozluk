@@ -18,6 +18,8 @@ Sprite Sheet yapacagınız animasyonda olan bütün resimleri (frame) tek bir re
 
 <img width="150" src="../../../Dosyalar/Sprite_Sheet.jpg">
 
+## Vertex
+Vertex ingilizcede tepe, zirve anlamına gelir. Biz vertex kelimesini, XYZ eksenlerine ve bunların tam tersine bakan noktalar için kulanıcaz. Yani mesela X eksenine bakan nokta vertex ve ya X ekseninin tam zıttına (-1) bakan nokta da vertex. XYZ olarak 3 tane vertex ve bunların eksili hali yani -XYZ olarak da 3 tane vertex, toplamda 6 vertex vardır. Bunu bir küpün 6 yüzeyi olarak düşenebilirsiniz. Bu 6 yön vertex'dir.
 
 ## World Space (Uzay Boşlugu)
 World Space türkçesi ile Uzay Boşlugu, kısaltma olarak WS şeklinde kullanılır. World Space yani Uzay Boşlugu degerini materyaller arasındaki (ve ya tek bir materyal de olabilir) konum degerlerini objeye göre degil de uzay boşluguna göre ayarlamak istedigimizde kullanırız. İçerisinde WS geçen nodlar World Space degerleri döndürürler.
