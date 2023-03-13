@@ -45,6 +45,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [Unreal Engine Log](https://www.youtube.com/@unrealenginelog/videos) - Unreal Engine hakkında dersler
 
 ## Discord
+Burdaki serverlar sadece ünlü olanlar, daha fazla server için [disboard'a](https://disboard.org/) bakabilirsiniz. 
 * [Unreal Slackers](https://discord.gg/unreal-slackers)
 * [Unreal Engine](https://discord.gg/RhsxUpSs4b)
 * [Snappy Gurus](https://discord.gg/yaupCRVEDE)
