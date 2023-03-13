@@ -10,7 +10,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 # Sayfalar
 * [Project Settings](#project-settings)
 * [Content Drawer](#content-drawer)
-* [Stats (Material)](#content-drawer)
+* [Stats (Material)](#stats-material)
 
 
 
