@@ -18,7 +18,9 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [ODED MAOZ ERELL'S CG LOG](https://odederell3d.blog/category/unreal-engine/) - Unreal Engine hakkında genel, materyaller de var
 * [Techarthub](https://www.techarthub.com/) - Unreal Engine hakkında, genellikle materyaller
 * [Kodeco](https://www.kodeco.com/library?q=unreal+engine) - Unreal Engine hakkında dersler, materyaller de var
-* [O'reilly](https://www.oreilly.com/start-trial/) Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
+* [O'reilly](https://www.oreilly.com/start-trial/) - Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
+* [Tomlooman](https://www.tomlooman.com/tag/materials/) - Unreal Engine hakkında blog, materyaller de var
+* [UnrealDirective](https://www.unrealdirective.com/) - Unreal Engine hakkında blog, materyaller de var, ipuçları ile bilinir (tip)
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
