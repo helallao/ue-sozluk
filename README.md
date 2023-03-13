@@ -10,6 +10,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 # Sayfalar
 * [Project Settings](#project-settings)
 * [Content Drawer](#content-drawer)
+* [Stats (Material)](#content-drawer)
 
 
 
@@ -29,3 +30,6 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ## [Content Drawer](Sayfalar/Content%20Drawer)
 <img src="Dosyalar/Content_Drawer_Ana_Ekran.jpg">
+
+## [Stats (Material)](Sayfalar/Stats%20(Material))
+<img src="Dosyalar/Materyal_Editor_Stats.jpg">
