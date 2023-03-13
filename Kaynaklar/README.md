@@ -21,6 +21,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [ODED MAOZ ERELL'S CG LOG](https://odederell3d.blog/category/unreal-engine/) - Unreal Engine hakkında genel
 * [Techarthub](https://www.techarthub.com/) - Unreal Engine hakkında, genellikle materyaller
 * [Kodeco](https://www.kodeco.com/library?q=unreal+engine) - Unreal Engine hakkında dersler
+* [O'reilly](https://www.oreilly.com/start-trial/) Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
