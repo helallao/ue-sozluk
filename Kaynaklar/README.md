@@ -23,6 +23,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [Kodeco](https://www.kodeco.com/library?q=unreal+engine) - Unreal Engine hakkında dersler
 * [O'reilly](https://www.oreilly.com/start-trial/)  -Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
 * [Tomlooman](https://www.tomlooman.com/tag/ue4/) -Unreal Engine hakkında blog
+* [UnrealDirective](https://www.unrealdirective.com/) - Unreal Engine hakkında blog, ipuçları ile bilinir (tip)
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
