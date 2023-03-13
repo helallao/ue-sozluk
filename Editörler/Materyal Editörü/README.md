@@ -30,5 +30,5 @@
 ## [Palet](Palet)
 <img src="../../Dosyalar/Materyal_Editor_Palet.jpg">
 
-## [Stats](../../Sayfalar/Stats (Material))
+## [Stats](../../Sayfalar/Stats%20(Material))
 <img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
