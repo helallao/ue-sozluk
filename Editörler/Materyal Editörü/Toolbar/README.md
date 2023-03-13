@@ -70,7 +70,7 @@ Lock Node State = Şu an ki durumu kilitler, ilgili olan nodlardan başka node s
 Focus Whole Chain = Normalde sadece output nodlarının baglandıgı nodlar ilgili nodlardır, ama bu seçenegi açarsanız o nodlara baglanan diger nodlar da ilgili nodlar arasına girer, yani sadece output nodları degil input nodları da ilgili node olur.
 
 ## [Stats]()
-[Stats](../Stats) bölümünü açar/kapatır.
+[Stats](../../../Sayfalar/Stats%20(Material)) bölümünü açar/kapatır.
 
 ## [Platform Stats]()
 Platform Stats bölümünü açar/kapatır.
