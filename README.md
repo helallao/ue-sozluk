@@ -13,6 +13,13 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * [Stats (Material)](#stats-material)
 
 
+# Diger
+* [Top Toolbar (Araç Çubugu)](#top-toolbar-araç-çubugu)
+* [Bottom Toolbar (Araç Çubugu)](#bottom-toolbar-araç-çubugu)
+
+
+
+
 
 ## [Level Editörü](Editörler/Level%20Editörü)
 <img src="Dosyalar/Level_Editor_Ana_Ekran.jpg">
@@ -25,6 +32,8 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 
 
+
+
 ## [Project Settings](Sayfalar/Project%20Settings)
 <img src="Dosyalar/Project_Settings_Ana_Ekran.jpg">
 
@@ -33,3 +42,12 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ## [Stats (Material)](Sayfalar/Stats%20(Material))
 <img src="Dosyalar/Materyal_Editor_Stats.jpg">
+
+
+
+
+## [Top Toolbar (Araç Çubugu)](Diger/Top%20Toolbar%20(Araç%20Çubugu))
+<img src="Dosyalar/Top_Toolbar.jpg">
+
+## [Bottom Toolbar (Araç Çubugu)](Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
+<img src="Dosyalar/Bottom_Toolbar.jpg">
