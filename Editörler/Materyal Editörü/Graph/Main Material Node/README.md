@@ -166,7 +166,9 @@ Material Attributes kullanmak istiyorsanız bunu açmanız gerek. Bknz. [Materia
 ### [Dithered LOD Transition]()
 ### [Dither Opacity Mask]()
 ### [Allow Negative Emissive Color]()
-### [Num Customized Ws]()
+### [Num Customized UVs]()
+"Main Material Node" una yeni bir input ekler, bu inputa baglanan [TextureCoordinate(TexCoord)](../../Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri artık "Coordinate Index" olur, kaçıncı numaralı Customized UV'ye bagladıysanız o numaralı "Coordinate Index" degerini belirlemiş olursunuz. Bu şu anlama gelir, [TextureCoordinate(TexCoord)](../../Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun ve diger birçok nodun üzerindeki UVs inputuna [TextureCoordinate(TexCoord)](../../Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglamadan, sadece "Coordinate Index" numarası vererek, o index numarasına atanmış Customized UV'yi kullanabilirsiniz. Yani bir degişkene atamış gibi olursunuz. Ayrıca Customized UVs, UV hesaplamalarını ["Vertex Shader"](../../Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) üzerinden yapar. [VertexInterpolator](../../Nodlar#vertexinterpolator-) noduyla aynı işlevi yerine getirirler yani. [VertexInterpolator](../../Nodlar#vertexinterpolator-) kullanmak kodlarınız için daha düzenli olabilir.
+
 ### [Generate Spherical Particle Normals]()
 ### [Tangent Space Normal]()
 ### [Emissive (Dynamic Area Light)]()
