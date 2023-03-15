@@ -7,6 +7,19 @@
 * [Attributes](#attributes)
 * [Physical Material](#physical-material)
 * [Material](#material)
+* [Physical Material Mask](#physical-material-mask)
+* [Not Visible](#not-visible)
+* [Nanite](#nanite)
+* [Translucency](#translucency)
+* [Translucency Self Shadowing](#translucency-self-shadowing)
+* [Usage](#usage)
+* [Mobile](#mobile)
+* [Forward Shading](#forward-shading)
+* [Post Process Material](#post-process-material)
+* [Refraction](#refraction-1)
+* [Lightmass](#lightmass)
+* [Previewing](#previewing)
+* [Import Settings](#import-settings)
 
 
 
