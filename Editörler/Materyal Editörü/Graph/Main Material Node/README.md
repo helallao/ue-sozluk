@@ -9,6 +9,9 @@
 * [Material](#material)
 
 
+
+
+
 ## [Attributes](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/)
 
 Burdaki attributelere texture verildiginde "map" denir. Mesela Normal için texture kullanırsanız "Normal Map" kullanmış olursunuz. Attribute degerlerini, isterseniz texture verip her piksel için ayrı ayrı, isterseniz tek deger (S) baglayıp verebilirsiniz. Attributeler hakkında bir [kaynak](../../Kaynaklar/README.md#kitaplar---pdfler) olarak Damien Lappa nın pdfini okuyabilirsiniz.
@@ -61,7 +64,15 @@ Map verildiginde "AO Map" denir.
 
 
 
+
 ## [Physical Material]()
+
+* #### [Phys Material]()
+* #### [Phys Material Mask]()
+
+
+
+
 
 ## [Material]()
 
@@ -129,3 +140,171 @@ Materyali iki yüzlü yapar. Mesela küre, sadece dış yüzeyi degil iç yüzey
 
 ### [Use Material Attributes](https://docs.unrealengine.com/5.1/en-US/material-attributes-expressions-in-unreal-engine/)
 Material Attributes kullanmak istiyorsanız bunu açmanız gerek. Bknz. [Material Attributes](../../Nodlar#material-attributes)
+
+### [Cast Ray Traced Shadows]()
+### [Subsurface Profile]()
+
+
+## [Advanced]()
+
+### [Decal Response (DBuffer)]()
+### [Cast Dynamic Shadow as Masked]()
+### [Opacity Mask Clip Value]()
+### [Dithered LOD Transition]()
+### [Dither Opacity Mask]()
+### [Allow Negative Emissive Color]()
+### [Num Customized Ws]()
+### [Generate Spherical Particle Normals]()
+### [Tangent Space Normal]()
+### [Emissive (Dynamic Area Light)]()
+### [Fully Rough]()
+### [Normal Curvature to Roughness]()
+### [Wireframe]()
+### [Shading Rate]()
+### [Is Sky]()
+### [Asset User Data]()
+
+
+
+
+
+
+## [Physical Material Mask]()
+
+### [Physical Material Map]()
+
+
+
+
+## [Not Visible]()
+
+### [Strata Blend Mode]()
+
+
+
+
+## [Nanite]()
+
+### [Nanite Override Material]()
+
+
+
+## [Translucency]()
+
+### [Screen Space Reflections]()
+### [Contact Shadows]()
+### [Lighting Mode]()
+### [Directional Lighting Intensity]()
+### [Apply Fogging]()
+### [Apply Cloud Fogging]()
+### [Compute Fog Per Pixel]()
+### [Output Velocity]()
+
+
+## [Advanced]()
+
+### [Responsive AA]()
+### [Translucency Pass]()
+### [Mobile Separate Translucency]()
+### [Disable Depth Test]()
+### [Write Only Alpha]()
+### [Allow Custom Depth Writes]()
+
+
+
+
+## [Translucency Self Shadowing]()
+
+### [Shadow Density Scale]()
+### [Self Shadow Density Scale]()
+### [Second Density Scale]()
+### [Second Opacity]()
+### [Backscattering Exponent]()
+### [Multiple Scattering Extinction]()
+### [Start Offset]()
+
+
+
+
+## [Usage]()
+
+
+## [Advanced]()
+
+### [Automatically Set Usage in Editor]()
+
+
+
+
+
+## [Mobile]()
+
+### [Float Precision Mode]()
+### [Use Lightmap Directionality]()
+### [Mobile High Quality BRDF]()
+
+
+## [Advanced]()
+
+### [Use Alpha to Coverage]()
+
+
+
+
+
+## [Forward Shading]()
+
+### [PreintegratedGF For Simple IBL]()
+### [High Quality Reflections]()
+### [Blend Sky Light Cubemaps]()
+### [Planar Reflections]()
+
+
+
+
+
+## [Post Process Material]()
+
+### [Blendable Location]()
+### [Output Alpha]()
+### [Blendable Priority]()
+### [Is Blendable]()
+
+
+## [Advanced]()
+
+### [Enable Stencil Test]()
+### [Stencil Ccmpare]()
+### [Stencil Ref Value]()
+
+
+
+
+## [Refraction]()
+
+### [Refraction Mode]()
+### [Refraction Depth Bias]()
+
+
+
+
+## [Lightmass]()
+
+## [Lightmass Settings]()
+
+### [Diffuse Boost]()
+### [Export Resolution Scale]()
+### [Cast Shadow as Masked]()
+
+
+
+
+## [Previewing]()
+
+### [Preview Mesh]()
+
+
+
+## [Import Settings]()
+
+### [Asset Import Data]()
