@@ -1377,7 +1377,19 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 Kameranın baktıgı yönü verir (V3).
 
 
-* #### [CameraOffset]()
+* #### [CameraOffset]() ❤️💛💚
+Kameranın objeye bakış açısı yönünde, objeyi ileri ya da geri yani yakına ve uzaga taşımamıza yarar. Verilen "Offset Amount" degerine göre yakınlaştırır, eger deger eksilerde ise uzaklaştırır. "Offset Amount" degeri olarak cm verebilirsiniz (konum degerinde kullanılan birim). Eger obje çok yakına gelirse içimize girer ve etrafı göremeyiz ve bozulmalar olur, bunu engellemek için "Clamp Padding" diye bir input var. Ben bu sayıyı hiç degiştirmedim, zaten gerek yok, default degeri sorunsuz çalışıyor.
+
+İnput | İşlem
+:---: | :---:
+Offset Amount | Offset degeri (+ yakın, - uzak)
+Clamp Padding | Bu deger kameraya yaklaşabilecegi en yakın mesafe, mesela 20 verirseniz kamera ile obje arasındaki mesafe 20 den fazla olamaz.
+World Position | Objenin [WorldPosition](#worldposition-) degeri
+
+Output | İçerik
+:---: | :---:
+Clamped Camera Offset | Camera Offset degeri ama verilen "Clamp Padding" degerinin uygulanmış hali ile
+Camera Offset | Offset degeri, "Main Material Node" unun "World Position Offset" inputuna verebilirsiniz
 
 
 * #### [CameraVectorWithWPOOptions]() ❤️💛💚💙💜
@@ -2098,7 +2110,7 @@ Bu materyale sahip olan objenin pivot (hani şu üç tane ok varya, objeyi harek
 Bu materyale sahip olan objenin scale bilgisini verir (V3).
 
 * #### [ObjectSpaceFalloff]()
-
+Kaynaksız ve anlaşılamaz durumda.
 
 * #### [OffsetAndScaleTo1]() 🤍🤍
 Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz "Offset Amount" degerine göre offset verir diyo ama ne anlamda offset oldugunu bilmiyorum. Offset verip sonuçları da tekrar 0-1 arasında taşıyor.
@@ -2762,6 +2774,7 @@ This function serves as a quick way to make a normal map out of an existing blac
 The NormalFromHeightMapChaos function takes a heightmap and pans it in 4 directions, then blends the result back together to make a chaotically animated normal map.
 
 * #### [ObjectSpaceFalloff]()
+Kaynaksız ve anlaşılamaz durumda.
 
 
 
@@ -3505,8 +3518,20 @@ Her kenarın baktıgı yönü vektör (V3) olarak döndürür (1 ile -1 arası, 
 * #### [AttachMeshToTheCamera]()
 
 
-* #### [CameraOffset]()
-The CameraOffset function is great to assist with depth sorting, as it allows you to move an object in camera space, either toward or away from the camera.
+* #### [CameraOffset]() ❤️💛💚
+Kameranın objeye bakış açısı yönünde, objeyi ileri ya da geri yani yakına ve uzaga taşımamıza yarar. Verilen "Offset Amount" degerine göre yakınlaştırır, eger deger eksilerde ise uzaklaştırır. "Offset Amount" degeri olarak cm verebilirsiniz (konum degerinde kullanılan birim). Eger obje çok yakına gelirse içimize girer ve etrafı göremeyiz ve bozulmalar olur, bunu engellemek için "Clamp Padding" diye bir input var. Ben bu sayıyı hiç degiştirmedim, zaten gerek yok, default degeri sorunsuz çalışıyor.
+
+İnput | İşlem
+:---: | :---:
+Offset Amount | Offset degeri (+ yakın, - uzak)
+Clamp Padding | Bu deger kameraya yaklaşabilecegi en yakın mesafe, mesela 20 verirseniz kamera ile obje arasındaki mesafe 20 den fazla olamaz.
+World Position | Objenin [WorldPosition](#worldposition-) degeri
+
+Output | İçerik
+:---: | :---:
+Clamped Camera Offset | Camera Offset degeri ama verilen "Clamp Padding" degerinin uygulanmış hali ile
+Camera Offset | Offset degeri, "Main Material Node" unun "World Position Offset" inputuna verebilirsiniz
+
 
 * #### [CanopyCreator_Branches]()
 
