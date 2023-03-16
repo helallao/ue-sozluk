@@ -1367,8 +1367,8 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 * #### [BumpOffset_advanced]()
 
 
-* #### [CalcLightsourceAngle]()
-
+* #### [CalcLightsourceAngle]() 💚💛💙❤️
+Verilen "Light Position" ve "Source Radius" degerine göre ışıgın şiddetini verir. Muhtemelen bu node sadece tek bir objeye özel materyal hazırlarken, yanında ışık varsa onu hesaplamak için kullanılır.
 
 * #### [CameraDepthFade]() 💚💛💙❤️
 Kamera objeye yaklaştıkça ve uzaklaştıkça, uzaklıga göre 0 ve 1 arası deger döndürür. Yaklaştıkça 0a yakın deger verir, aradaki mesafe "Fade Offset" inputuna verilen degerden küçük olduktan sonra 0 verir. Uzaklaştıkça 1e yakın deger verir, aradaki mesafe (Fade Offset + Fade Length) den büyük olduktan sonra 1 verir. Yani "Fade Offset" ve "Fade Length" başlangıç ve son konumlarını temsil ediyor. Bir başka deyişle "Fade Offset", son noktasının bize ne kadar uzak olacagı ve "Fade Length" ise başlangıç noktasının son noktasından ne kadar uzak olacagı. Dolayısıyla "Fade Length" degeri 1 den 0 a geçişin ne kadar cm (konum degerinde kullanılan birim) uzunlugunda olacagını belirliyor.
@@ -2808,7 +2808,8 @@ This function takes in an incoming sphere-based reflection texture and aligns it
 * #### [AxisAlignedFresnel]()
 
 
-* #### [CalcLightsourceAngle]()
+* #### [CalcLightsourceAngle]() 💚💛💙❤️
+Verilen "Light Position" ve "Source Radius" degerine göre ışıgın şiddetini verir. Muhtemelen bu node sadece tek bir objeye özel materyal hazırlarken, yanında ışık varsa onu hesaplamak için kullanılır.
 
 
 * #### [Ellipsoid-ConeShadow-Texture]()
@@ -2948,7 +2949,7 @@ The TextureSampleParameterSubUV expression is identical to the ParticleSubUV exc
 * #### [3DSandMayaUVCoordinates]()
 This function flips the green channel of incoming UVs to place the 0,0 coordinate in the lower-left corner (as it is in 3ds Max and Maya) instead of the upper-left. This is important for models coming in from these applications, as it prevents you from having to flip textures.
 
-* #### [AbberatedBluer-Texture]()
+* #### [AbberatedBlur-Texture]()
 
 
 * #### [BitMask]() 🤍
