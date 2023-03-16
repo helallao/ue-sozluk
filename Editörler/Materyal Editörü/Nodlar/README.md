@@ -1370,7 +1370,8 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 * #### [CalcLightsourceAngle]()
 
 
-* #### [CameraDepthFade]()
+* #### [CameraDepthFade]() 💚💛💙❤️
+Kamera objeye yaklaştıkça ve uzaklaştıkça, uzaklıga göre 0 ve 1 arası deger döndürür. Yaklaştıkça 0a yakın deger verir, aradaki mesafe "Fade Offset" inputuna verilen degerden küçük olduktan sonra 0 verir. Uzaklaştıkça 1e yakın deger verir, aradaki mesafe (Fade Offset + Fade Length) den büyük olduktan sonra 1 verir. Yani "Fade Offset" ve "Fade Length" başlangıç ve son konumlarını temsil ediyor. Bir başka deyişle "Fade Offset", son noktasının bize ne kadar uzak olacagı ve "Fade Length" ise başlangıç noktasının son noktasından ne kadar uzak olacagı. Dolayısıyla "Fade Length" degeri 1 den 0 a geçişin ne kadar cm (konum degerinde kullanılan birim) uzunlugunda olacagını belirliyor.
 
 
 * #### [CameraDirectionVector]() 💝
