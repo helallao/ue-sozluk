@@ -1288,10 +1288,10 @@ Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30
 
 
 * #### [BellCurve]()
+[Bell Curve](https://en.wikipedia.org/wiki/Normal_distribution)
 
-
-* #### [BitMask]()
-
+* #### [BitMask]() 🤍
+"Bitmask" inputuna verilen grayscale (tek kanal (V1)) texturenin içinden, 0 - 255 arası verdigimiz "Bit" degerine eşit olan kısımları 1, diger kısımları 0 döndürür. Yani aynı degere sahip olanları döndürür, [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodu ile aynı şey.
 
 * #### [Blend_ColorBurn](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colorburn) ❤️💛💙
 Bu node "Base" textureyi verdigimiz "Blend" texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve Blend rengi ile birleşmiş bir texture olur. Eger Blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü bu node textureyi daha koyu (yogun) yapmak içindir.
@@ -2951,7 +2951,8 @@ This function flips the green channel of incoming UVs to place the 0,0 coordinat
 * #### [AbberatedBluer-Texture]()
 
 
-* #### [BitMask]()
+* #### [BitMask]() 🤍
+"Bitmask" inputuna verilen grayscale (tek kanal (V1)) texturenin içinden, 0 - 255 arası verdigimiz "Bit" degerine eşit olan kısımları 1, diger kısımları 0 döndürür. Yani aynı degere sahip olanları döndürür, [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodu ile aynı şey.
 
 
 * #### [BrickAndTileUVs]()
