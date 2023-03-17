@@ -7,13 +7,18 @@
 
 # Bölümler
 
+* [Top Toolbar](#top-toolbar)
 * [Toolbar](#toolbar)
 * [Preview Viewport](#preview-viewport)
 * [Details ve Parameters](#details-ve-parameters)
 * [Graph](#graph)
 * [Palet](#palet)
 * [Stats](#stats)
+* [Bottom Toolbar](#bottom-toolbar)
 
+
+## [Top Toolbar](../../Diger/Top%20Toolbar%20(Araç%20Çubugu))
+<img src="../../Dosyalar/Materyal_Editor_Top_Toolbar.jpg">
 
 ## [Toolbar](Toolbar)
 <img src="../../Dosyalar/Materyal_Editor_Toolbar.jpg">
@@ -32,3 +37,6 @@
 
 ## [Stats](../../Sayfalar/Stats%20(Material))
 <img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
+
+## [Bottom Toolbar](../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
+<img src="../../Dosyalar/Materyal_Editor_Bottom_Toolbar.jpg">
