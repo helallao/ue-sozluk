@@ -1,7 +1,7 @@
 # Stats
 <img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
 
-Burada materyalinizin ne kadar kompleks oldugunu, sistem (ekran kartı) için ne kadar pahalı (expensive) ve ya ucuz (cheap) oldugunu, kısacası grafik kalitesini, komplekslik seviyesini görebilirsiniz.
+Burada materyalinizin ne kadar kompleks oldugunu, sistem (ekran kartı) için ne kadar pahalı (expensive) ve ya ucuz (cheap) oldugunu, kısacası grafik kalitesini, komplekslik seviyesini görebilirsiniz. (Resmin çogu boş oldugu için kırpılmıştır.)
 
 
 
