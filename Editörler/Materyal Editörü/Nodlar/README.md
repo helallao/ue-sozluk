@@ -693,8 +693,7 @@ Verilen inputu (degerler 0-1 arası olmalı) siyahlaştırmaya ve ya beyazlaşt�
 RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüştürür.
 
 
-* #### [SCurve](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#scurve) 
-💙💜💛
+* #### [SCurve](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#scurve) 💙💜💛
 Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 dir ve degişiklik yapmaz.
 
 
@@ -2265,8 +2264,7 @@ Visible Resolution | [ViewSize](#viewsize-) noduyla aynı outputu verir
 Buffer Resolution | [View Property](#view-property-) nodunun "Render Target Size" modu ile aynı outputu verir
 
 
-* #### [SCurve](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#scurve) 
-💙💜💛
+* #### [SCurve](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/Functions/Reference/ImageAdjustment/#scurve) 💙💜💛
 Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 dir ve degişiklik yapmaz.
 
 
