@@ -73,5 +73,5 @@ Focus Whole Chain = Normalde sadece output nodlarının baglandıgı nodlar ilgi
 [Stats](../../../Sayfalar/Stats%20(Material)) bölümünü açar/kapatır.
 
 ## [Platform Stats]()
-Platform Stats bölümünü açar/kapatır.
+[Platform Stats](../../../Sayfalar/Platform%20Stats%20(Material)) bölümünü açar/kapatır. Platform Stats bölümünü Window'dan da açabilirsiniz ama kapatamazsınız (ilginç). 
 
