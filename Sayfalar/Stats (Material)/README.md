@@ -31,3 +31,15 @@ Toplamda kullanılan [Texture Sampler](../../Editörler/Materyal%20Editörü/Nod
 ## [Texture Lookups (Est.)]()
 
 [VS ve PS](../../Editörler/Materyal%20Editörü/Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) için "Texture Lookup" sayısını yani bir texturenin hesaplamaları yapılırken UVs koordinatına kaç defa bakıldıgı, yani kaç kere işlendigini verir.
+
+
+
+
+## [User interpolators]()
+
+Sanırım kullanılan [VertexInterpolator](../../Editörler/Materyal%20Editörü/Nodlar#vertexinterpolator-) noduna baglı olarak bilgiler döndürüyor. Yani Vertex Shader ile interpolate olan işlemler sayısı.
+
+
+
+
+## [Shader Count]()
