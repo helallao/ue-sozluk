@@ -3331,8 +3331,8 @@ Bu node [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla
 * #### [VectorNoise]()
 The Vector Noise Material expression adds several more 3D or 4D vector noise results to use in your Materials. Due to the run-time expense of these functions, it is recommended that once a look is developed with them, all or part of the computation be baked into a Texture using the Draw Material to Render Target Blueprint feature introduced in Unreal Engine 4.13 and later. These Material graph Expressions allow procedural looks to be developed in the engine on final assets, providing an alternative to creating procedurally generated Textures with an external tool to apply to assets in UE4. Inside of the Vector Noise Material Expression, you will find the following Vector Noise types.
 
-* #### [VertexInterpolator]() 💝
-Verilen inputu [Pixel Shader'dan Vertex shader](../Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) moduna alır. Bu nodu kullanmak performans açısından iyi olabilir. Yaptıgı işlemler [Customized UVs](../Graph/Main%20Material%20Node#num-customized-uvs) ile aynıdır denebilir.
+* #### [VertexInterpolator](https://www.youtube.com/watch?v=_z-kZPJQD4c) 💝
+Verilen inputu [Pixel Shader'dan Vertex Shader](../Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) moduna alır. Bu nodu kullanmak performans açısından iyi olabilir. Yaptıgı işlemler [Customized UVs](../Graph/Main%20Material%20Node#num-customized-uvs) ile aynıdır denebilir. Bu node meshin her vertice'ini kullandıgı için Pixel Shader kadar kaliteli olmayacagından, texture falan kullanmaya çalışırsanız çok kalitesiz olacaktır çünkü o kadar piksel sayısını Vertex Shader'da elde etmek için meshinizin çok fazla vertice'e ihtiyacı olur, bunu da yapamayız çünkü performans düşer. Dolayısıyla bu nodu kalitesinin düşük olmasını istediginiz ama bunun zaten önemsiz oldugu durumlarda kullanın.
 
 
 
