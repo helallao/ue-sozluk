@@ -1628,7 +1628,7 @@ Clamp Anim (see tooltip) | "Animation Phase" degeri için 1 sayısını devre d�
 * #### [GenerateASpline]()
 
 
-* #### [GeneratedBand](https://youtu.be/fITAkG3_qP8)
+* #### [GeneratedBand](https://youtu.be/fITAkG3_qP8) ❤️💛💚💙💜
 Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz işte. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz.
 
 İnput | İşlem
@@ -2766,7 +2766,7 @@ The outputs starting with tree process the model's UV information as it would be
 
 ## Procedurals
 
-* #### [GeneratedBand](https://youtu.be/fITAkG3_qP8)
+* #### [GeneratedBand](https://youtu.be/fITAkG3_qP8) ❤️💛💚💙💜
 Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz işte. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz.
 
 İnput | İşlem
