@@ -7,13 +7,8 @@ Burada materyalinizin ne kadar kompleks oldugunu, sistem (ekran kartı) için ne
 
 ## [Base pass shader]()
 
-Burdaki instruction sayısı, sistemin (ekran kartı) materyal için ne kadar işlem gerçekleştirdigini gösterir. İşlem sayısı materyalin tam olarak ne kadar pahalı oldugunu tam dogru göstermeyebilir çünkü instruction sayısı fazla olsa bile, mesela tek bir instruction diger instruction'lara göre 10 kat daha uzun sürüyor olabilir, bu da onu 10 tane instruction degerinde yapar. Sonuç olarak instruction sayısı materyalin pahalılıgını ölçmek için kullanılan en yaygın yöntemdir ama tahminidir.
+Burdaki instruction sayısı, sistemin (ekran kartı) materyal için ne kadar işlem gerçekleştirdigini gösterir. İşlem sayısı materyalin tam olarak ne kadar pahalı oldugunu tam dogru göstermeyebilir çünkü instruction sayısı fazla olsa bile, mesela tek bir instruction diger instruction'lara göre 10 kat daha uzun sürüyor olabilir, bu da onu 10 tane instruction degerinde yapar. Sonuç olarak instruction sayısı materyalin pahalılıgını ölçmek için kullanılan en yaygın yöntemdir ama tahminidir. "Base pass shader" ın farklı farklı durumlarda kaç instruction sayısına sahip oldugunu da Stats penceresinde görebilirsiniz, bunların hepsi "Base pass" şeklinde başlıyor.
 
-
-
-## [Base pass vertex shader]()
-
-Base Pass Shader ile aynı şey ama [vertexler](../../Editörler/Materyal%20Editörü/Terimler%20Sözlügü#vertex) için, ne ifade ettigini bilmiyorum.
 
 
 
