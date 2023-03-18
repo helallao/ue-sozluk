@@ -2530,16 +2530,20 @@ Linear Distance | İçerden dışarıya bir dairesel bir gradient veriyor
 * #### [Wind]()
 
 
-* #### [WithinRange]()
+* #### [WithinRange]() 🤍🤍
+Verilen inputun (S) verilen "RangeMin" ve "RangeMax" inputları arasında ve ya onlara eşit olup olmadıgını kontrol eder. Sadece (S) kullanabilirsiniz. Eger bu aralıkta ise "AllComponentsWithinRange" 1 döndürür, aksi takdirde 0.
 
 
-* #### [WithinRangeFloat2]()
+* #### [WithinRangeFloat2]() 🤍🤍
+Verilen inputun (V2) verilen "RangeMin" ve "RangeMax" inputları arasında ve ya onlara eşit olup olmadıgını kontrol eder. Sadece (V2) kullanabilirsiniz. İşlem her kanal için ayrı ayrı uygulanır, eger hepsi bu aralıkta ise "AllComponentsWithinRange" 1, herhangi biri bu aralıkta ise "AnyComponentsWithinRange" 1 döndürür, aksi takdirde 0.
 
 
-* #### [WithinRangeFloat3]()
+* #### [WithinRangeFloat3]() 🤍🤍
+Verilen inputun (V3) verilen "RangeMin" ve "RangeMax" inputları arasında ve ya onlara eşit olup olmadıgını kontrol eder. Sadece (V3) kullanabilirsiniz. İşlem her kanal için ayrı ayrı uygulanır, eger hepsi bu aralıkta ise "AllComponentsWithinRange" 1, herhangi biri bu aralıkta ise "AnyComponentsWithinRange" 1 döndürür, aksi takdirde 0.
 
 
-* #### [WithinRangeFloat4]()
+* #### [WithinRangeFloat4]() 🤍🤍
+Verilen inputun (V4) verilen "RangeMin" ve "RangeMax" inputları arasında ve ya onlara eşit olup olmadıgını kontrol eder. Sadece (V4) kullanabilirsiniz. İşlem her kanal için ayrı ayrı uygulanır, eger hepsi bu aralıkta ise "AllComponentsWithinRange" 1, herhangi biri bu aralıkta ise "AnyComponentsWithinRange" 1 döndürür, aksi takdirde 0.
 
 
 * #### [WorldAlignedBlend]()
