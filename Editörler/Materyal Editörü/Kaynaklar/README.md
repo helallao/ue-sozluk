@@ -25,7 +25,7 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
 * [blueprintUE](https://blueprintue.com/) - Blueprint paylaşma platformu, arama yaparak bir sürü blueprint koduna ulaşabilirsiniz (materyaller de dahil)
-* [Style Guide](https://github.com/Allar/ue5-style-guide) - Unreal engine convention (gelenek) leri ile ilgili bir kaynak, düzen ve dizayn ile ilgili, isimlendirmeler falan
+* [Style Guide](https://github.com/Allar/ue5-style-guide/tree/v2) - Unreal engine convention (gelenek) leri ile ilgili bir kaynak, düzen ve dizayn ile ilgili, isimlendirmeler falan
 
 ## Kitaplar - Pdfler
 * Damien Lappa - Photorealistic Texturing for Modern Video Games [orijinal](https://www.theseus.fi/bitstream/handle/10024/136545/Lappa_Damien.pdf) [yedek](https://files.catbox.moe/wdvfvj.pdf)
