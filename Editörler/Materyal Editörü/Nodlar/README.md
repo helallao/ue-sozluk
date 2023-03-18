@@ -1207,8 +1207,20 @@ Verilen sayının kesirli kısmını siler, tam sayı halinde verir. örnegin
 * #### [UnpackNormalFromFloat]()
 
 
-* #### [VectorToRadialValue](https://youtu.be/pVhnvs_lScE)
-The VectorToRadialValue function transforms the vector of a Vector2 into an angle, or transforms UV coordinate data into radial coordinates. In the case of a vector, the angle will output in one channel and the length of the vector in the other.
+* #### [VectorToRadialValue](https://youtu.be/pVhnvs_lScE) ❤️💛💚💙💜
+Linkteki videoyu izleyin, güzel anlatılmış. Bu node verilen vektörü (V2) ve ya [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini radial (dairesel) olarak döndürür. Dairesel olarak üç türde döndürür. "Vector or UVs" inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri verirken, dairesel output almak için bi orta noktası belirlemek gerek. Orta noktasını belirlemek için "Vector or UVs" inputuna baglanan inputun yarısını almak gerek yani mesela [TextureCoordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun tiling degerleri 1 ise [TextureCoordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan 0.5 çıkarın ve ya tiling degerleri 2 ise [TextureCoordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan 1 çıkarın, orta noktayı belirlemek için. Fonksiyonu açıp baktıgınızda böyle yapıldıgını göreceksiniz, başka nasıl yapılır bilmiyorum, zaten ben genellikle input baglamam.
+
+
+İnput | İşlem
+:---: | :---:
+Vector or UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Swizzle Coordinate Output | X ve Y nin yerini degiştirir.
+
+Output | İçerik
+:---: | :---:
+Radial Coordinates | Dairesel [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Vector Converted to Angle | Dairesel bir gradient veriyor
+Linear Distance | İçerden dışarıya bir dairesel bir gradient veriyor
 
 
 ## MAXScripts
@@ -2489,10 +2501,24 @@ Arkadaşlar bana göre bu node çok kullanışsız, oranlama yapıp texturenin d
 * #### [VectorDisplacement]()
 
 
-* #### [VectorLength]()
+* #### [VectorLength]() 💛💚💙💜
+Verilen vektörün 0 noktasına uzaklıgını yani konumsal olarak uzaklıgı verir.
 
 
-* #### [VectorToRadialValue]()
+* #### [VectorToRadialValue](https://youtu.be/pVhnvs_lScE) ❤️💛💚💙💜
+Linkteki videoyu izleyin, güzel anlatılmış. Bu node verilen vektörü (V2) ve ya [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini radial (dairesel) olarak döndürür. Dairesel olarak üç türde döndürür. "Vector or UVs" inputuna [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri verirken, dairesel output almak için bi orta noktası belirlemek gerek. Orta noktasını belirlemek için "Vector or UVs" inputuna baglanan inputun yarısını almak gerek yani mesela [TextureCoordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun tiling degerleri 1 ise [TextureCoordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan 0.5 çıkarın ve ya tiling degerleri 2 ise [TextureCoordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan 1 çıkarın, orta noktayı belirlemek için. Fonksiyonu açıp baktıgınızda böyle yapıldıgını göreceksiniz, başka nasıl yapılır bilmiyorum, zaten ben genellikle input baglamam.
+
+
+İnput | İşlem
+:---: | :---:
+Vector or UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Swizzle Coordinate Output | X ve Y nin yerini degiştirir.
+
+Output | İçerik
+:---: | :---:
+Radial Coordinates | Dairesel [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Vector Converted to Angle | Dairesel bir gradient veriyor
+Linear Distance | İçerden dışarıya bir dairesel bir gradient veriyor
 
 
 * #### [ViewAlignedReflection]()
