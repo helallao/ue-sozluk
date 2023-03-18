@@ -1629,7 +1629,16 @@ Clamp Anim (see tooltip) | "Animation Phase" degeri için 1 sayısını devre d�
 
 
 * #### [GeneratedBand](https://youtu.be/fITAkG3_qP8)
-Ya bu çok uzun anlatılmaz. Linkteki videoya bakın. Ben kullanmayı denedim ama mantıklı bişeler yapamadım.
+Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz işte. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Width | Band'ın genişligi (0'dan sonsuza, 1'de iken band textureyi tam kaplıyor)
+Sharpness | Keskinlik, şiddet degeri (eksi sonsuzdan 1'e, eksiye gittikçe şiddet azalır)
+Offset | Band'ın konumunu ileri-geri alır, Offset yani boşluk verme anlamına gelir
+Direction Switch | Band'ın yönünü degiştirir
+Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yaparsanız o eksenin başlangıcında, 1 yaparsanız o eksenin sonunda olur
+Input Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 
 * #### [GeneratedOffsetBands]()
@@ -2758,7 +2767,17 @@ The outputs starting with tree process the model's UV information as it would be
 ## Procedurals
 
 * #### [GeneratedBand](https://youtu.be/fITAkG3_qP8)
-Ya bu çok uzun anlatılmaz. Linkteki videoya bakın. Ben kullanmayı denedim ama mantıklı bişeler yapamadım.
+Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz işte. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Width | Band'ın genişligi (0'dan sonsuza, 1'de iken band textureyi tam kaplıyor)
+Sharpness | Keskinlik, şiddet degeri (eksi sonsuzdan 1'e, eksiye gittikçe şiddet azalır)
+Offset | Band'ın konumunu ileri-geri alır, Offset yani boşluk verme anlamına gelir
+Direction Switch | Band'ın yönünü degiştirir
+Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yaparsanız o eksenin başlangıcında, 1 yaparsanız o eksenin sonunda olur
+Input Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+
 
 * #### [GeneratedOffsetBands](https://youtu.be/7Ie7mrnVuy8)
 Like the GeneratedBand function, GeneratedOffsetBands creates procedurally generated bands of texture across the UV space. However, this function can produce multiple bands instead of just one.
