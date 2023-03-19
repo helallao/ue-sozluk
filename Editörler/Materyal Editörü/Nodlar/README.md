@@ -1985,7 +1985,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MF_OrenNayerView]()
 
 
-* #### [MF_PerceivedBrightness]()
+* #### [MF_PerceivedBrightness]() 🤍
+[Luminance](#luminance-) ile aynı işi yapıyor ama döndürdügü degeri döndürmeden önce karekökünü alıyor.
 
 
 * #### [MF_PuddleLayer]()
