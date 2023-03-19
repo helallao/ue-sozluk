@@ -29,6 +29,7 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 
 ## Kitaplar - Pdfler
 * Damien Lappa - Photorealistic Texturing for Modern Video Games [orijinal](https://www.theseus.fi/bitstream/handle/10024/136545/Lappa_Damien.pdf) [yedek](https://files.catbox.moe/wdvfvj.pdf)
+* THE PBR GUIDE BY ALLEGORITHMIC [part1](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1) [part2](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2) [pdf](https://files.catbox.moe/jjl5tn.pdf)
 
 ## Youtube
 * [WTF Is? Materials](https://www.youtube.com/playlist?list=PLSlkDq2rO1t7Guw6DbhNVDXRxw6EtLOoF)
