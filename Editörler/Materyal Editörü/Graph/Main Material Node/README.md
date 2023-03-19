@@ -68,7 +68,8 @@ Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki reng
 * ### [Custom Data 0](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
 * ### [Custom Data 1](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
 * ### [Ambient Occlusion](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#ambientocclusion)
-Map verildiginde "AO Map" denir.
+Ambient Occlusion girinti çıkıntı olan yerlerde, ışıgın ne kadar içeri girecegini verir, daha dogrusu ne kadar exposed (açıkta) oldugu degerini verir. Hani meshlerde girinti olan yerlerde içeri dogru boşluk olur ya, dolayısı ile ışık buraya daha az girer. İşte Ambient Occlusion bunu belirler, %99.99 Map şeklinde kullanırsınız. 1 degerine sahip olan kısımlar ışıgın kolayca gelebilecegi yani ortada olan kısımlar, 0'a dogru yaklaştıkça ise, ışıgın girmesinin zor olacagı, o noktanın etrafında geometrinin fazla oldugu yani  ışıgın ulaşamayacagı noktaları temsil eder. Map verildiginde "AO Map" denir.
+
 * ### [Refraction](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#refraction)
 * ### [Pixel Depth Offset](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#pixeldepthoffset)
 * ### [Shading Model](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#shadingmodel)
