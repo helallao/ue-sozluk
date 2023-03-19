@@ -21,15 +21,18 @@ Offset kelimesi anlam olarak bir şey dengelemek için eklenen ek, dizgin gibi b
 
 Map | Kısa İsim
 :---: | :---:
+Base Color | Color, Diffuse, Albedo, D, C, BC
 Metallic | M
-Specular |
-Roughness | R, G
+Specular | S
+Roughness | R, G, GL
 Anisotropy |
-Opacity |
+Emissive Color |
+Opacity | O
+Normal | Normal, Height, Bump, Nor_GL, Nor_DX, N
 Tangent |
-Ambient Occlusion | AO, O, 
+Ambient Occlusion | AO, O
 Refraction |
-Displacement | D, DP,
+Displacement | D, DP
 
 
 ## Sprite Sheet
