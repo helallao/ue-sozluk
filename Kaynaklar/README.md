@@ -32,6 +32,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 
 ## Kitaplar - Pdfler
 * Damien Lappa - Photorealistic Texturing for Modern Video Games [orijinal](https://www.theseus.fi/bitstream/handle/10024/136545/Lappa_Damien.pdf) [yedek](https://files.catbox.moe/wdvfvj.pdf)
+* Allegorithmic - The PBR Guide [part1](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1) [part2](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2) [pdf](https://files.catbox.moe/jjl5tn.pdf)
 
 ## Youtube
 * [WTF Is?](https://www.youtube.com/playlist?list=PLSlkDq2rO1t6qLf-lAiu8BszWL-7ePvco) - Unreal Engine hakkında, genellikle belirli konuya özgü videolar
