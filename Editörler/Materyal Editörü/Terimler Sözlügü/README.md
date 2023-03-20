@@ -34,7 +34,6 @@ Opacity | O
 Normal | Normal, N, Nor_GL, Nor_DX
 Tangent |
 Ambient Occlusion | AO, O
-Refraction |
 Displacement | D, DP
 
 
