@@ -41,6 +41,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [All Is Play](https://www.youtube.com/@AllIsPlay/videos) - Çogunlukla materyaller hakkında ama diger konulardan da videolar var
 * [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine materyaller ve efektler hakkında
 * [Ben Cloward](https://www.youtube.com/@BenCloward/playlists) - Unreal Engine hakkında, genellikle materyaller hakkında dersler, youtubenin en kaliteli materyal dersleri burada
+* [Unreal Gems](https://www.youtube.com/@UnrealGems/videos) - Çok videosu yok ama materyaller ile ilgili çok güzel 4 videosu var
 
 ## Youtube Türk
 * [ERG Digital Dev](https://www.youtube.com/@ERGDD/videos) - Unreal Engine hakkında dersler
