@@ -24,6 +24,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [O'reilly](https://www.oreilly.com/start-trial/)  -Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
 * [Tomlooman](https://www.tomlooman.com/tag/ue4/) -Unreal Engine hakkında blog
 * [UnrealDirective](https://www.unrealdirective.com/) - Unreal Engine hakkında blog, ipuçları ile bilinir (tip)
+* [Normal Vs Displacement Vs Bump Maps](https://www.cgdirector.com/normal-vs-displacement-vs-bump-maps/) - Normal, Displacement ve Bump Mapleri hakkında bilgiler
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
