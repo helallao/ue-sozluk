@@ -38,3 +38,4 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [All Is Play](https://www.youtube.com/@AllIsPlay/videos) - Çogunlukla materyaller hakkında ama diger konulardan da videolar var, tek bir [videoda](https://www.youtube.com/watch?v=BtHgF_VmaSI) neredeyse hepsini anlatmış sadece onu da izleyebilirsiniz.
 * [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine materyaller ve efektler hakkında
 * [Ben Cloward](https://www.youtube.com/@BenCloward/playlists) - Unreal Engine hakkında, genellikle materyaller hakkında dersler, youtubenin en kaliteli materyal dersleri burada
+* [Unreal Gems](https://www.youtube.com/@UnrealGems/videos) - Çok videosu yok ama materyaller ile ilgili çok güzel 4 videosu var
