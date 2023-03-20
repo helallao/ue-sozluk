@@ -74,6 +74,8 @@ Ambient Occlusion girinti çıkıntı olan yerlerde, ışıgın ne kadar içeri 
 Refraction (ışığın kırılması) hani su dolu bardagın içine kaşık koyarsınız da, bardaga bakınca kaşıgın suyun içinde olan kısmı ile dışarda olan kısmı sanki yamukmuş gibi gözükür. Refraction degeri de bu ışık kırılması degeridir.
 
 * ### [Pixel Depth Offset](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#pixeldepthoffset)
+[PixelDepth](../../Nodlar#pixeldepth-) degerini degiştiriyor, yani pikselleri yakınlaştırıyor ve ya uzaklaştırıyor, aynı [World Position Offset](#world-position-offset) gibi yani. Aslında Pixel Depth Offset, World Position Offset'e çok benzer, hatta ikisi de birbirinin zıttı gibi. Mesela World Position Offset kullanarak ne yapıyorduk, objenin görünen kısmını degiştirip, aslında olmadıgı bir yerdeymiş gibi gösteriyorduk ama orijinal konumu hiç degişmiyordu. İşte Pixel Depth Offset de bunun bir degişi, Pixel Depth Offset objenin konumunu degiştiriyor ama görüntü olarak degil konum olarak (aslında orijinal konum degil, Pixel Depth konumu). Objenin konumu da degişince, mesela objenin arkasında duvar var, objenin duvarla üst üste gelmesi için duvara dogru gitmesi lazım ama eger Pixel Depth Offset konumunu degiştirirsek, daha objenin duvara ulaşması için gitmesi gereken yol varken obje duvara ulaşmış olur. Pixel Depth Offset genellikle bir objenin diger objelerle daha güzel bi biçimde blend olması (karışması) için kullanılır ve ya materyalin yüzeyinde bozulmalar falan oluyosa bunları gidermek için kullanılır. Neyse işte, mantıgı anlattıgım gibi, kullanılış alanı çok geniş.
+
 * ### [Shading Model](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#shadingmodel)
 * ### [Front Material]()
 
