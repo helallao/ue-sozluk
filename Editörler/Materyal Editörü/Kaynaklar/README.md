@@ -21,6 +21,7 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [O'reilly](https://www.oreilly.com/start-trial/) - Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
 * [Tomlooman](https://www.tomlooman.com/tag/materials/) - Unreal Engine hakkında blog, materyaller de var
 * [UnrealDirective](https://www.unrealdirective.com/) - Unreal Engine hakkında blog, materyaller de var, ipuçları ile bilinir (tip)
+* [Normal Vs Displacement Vs Bump Maps](https://www.cgdirector.com/normal-vs-displacement-vs-bump-maps/) - Normal, Displacement ve Bump Mapleri hakkında bilgiler
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
