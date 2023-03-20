@@ -42,7 +42,7 @@ Materyalin ne kadar ışık yansıtacagını belirler. Materyalin specular olmas
 Materyalin ne kadar pürüzlü oldugunu belirler. Materyalin ne kadar pürüzlü olup olmaması materyalin yansıtma özelligini en çok etkileyen etkendir. Degerler 0-1 arasındadır. 0 pürüzssüzü (ayna gibi yansıtma), 1 pürüzlüyü (yansıtmama) temsil eder. Map verildiginde "Roughness Map" ve ya "Gloss" denir.
 
 * ### [Anisotropy](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#anisotropyandtangent)
-Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
+Anisotropy ve Tangent nodları, bakış açınıza göre ya da harekete göre falan, üzerindeki yansımaların yer degiştirmesi, hani dvdlerde falan olur ya. Neyse güzel bi kaynak olarak [bu videoyu](https://www.youtube.com/watch?v=6Q_c0zGDl_4) izleyebilirsiniz.
 
 * ### [Emissive Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#emissivecolor)
 Emissive Color neon gibidir. Degerler 0-1 arasında degildir, istediginiz kadar arttırabilirsiniz. Base Color gibi verdiginiz rengi yansıtır ama degeri arttırdıkça neon gibi olur ve parlamaya başlar, etrafına ışık saçar. Parlaklıgı arttırıyormuşsunuz gibi. Map verildiginde "Emmission" denir.
@@ -57,7 +57,7 @@ Sadece [Masked](#masked) modunda kullanılabilir. Opacity gibidir ama ya saydam 
 Verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi. Bütün açılar için ışıgın yansıma (ve ya başka bişe emin degilim) bilgisini tutar. Normal Map ile aynı işlevi gören [farklı mapler](../../Terimler%20Sözlügü#normal-map---displacement-map---bump-map---height-map) de vardır. OpenGL ve DirectX için 2 farklı Map şekli vardır [(bknz)](https://youtu.be/O7imyB-x5y4?t=1119). Map verildiginde "Normal Map" denir.
 
 * ### [Tangent](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#anisotropyandtangent)
-Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
+[Anisotropy](#anisotropy) ile alakalı bişe.
 
 * ### [World Position Offset](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#worldpositionoffset)
 World Position Offset konum degiştirme daha dogrusu hareket kazandırma amaçlı kullanılır. Blueprint ile yazmak yerine materyal içinde bunu yapabilmek çok büyük kolaylık. Bu materyale sahip olan meshlerin belirli hareketler yapmasını istediginizde kullanabilirsiniz. Konum degişse bile aslında meshin gerçek konumu degişmez yani aslında World Position Offset konumu degiştirmez ve eger bu materyale sahip olan obje ekranınızda degilse, materyal motor tarafından hesaplanmadıgı için objeyi göremezsiniz. World Position Offset sadece bir göz yanılmasıdır/sahte konumdur.
