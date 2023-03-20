@@ -71,6 +71,8 @@ Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki reng
 Ambient Occlusion girinti çıkıntı olan yerlerde, ışıgın ne kadar içeri girecegini verir, daha dogrusu ne kadar exposed (açıkta) oldugu degerini verir. Hani meshlerde girinti olan yerlerde içeri dogru boşluk olur ya, dolayısı ile ışık buraya daha az girer. İşte Ambient Occlusion bunu belirler, %99.9 Map olarak kullanıcaksınız. 1 degerine sahip olan kısımlar ışıgın kolayca ulaşabilecegi yani ortada olan kısımlar, 0'a dogru yaklaştıkça ise, ışıgın girmesinin zor olacagı, o noktanın etrafında geometrinin fazla oldugu yani ışıgın ulaşamayacagı (bloklandıgı) noktaları temsil eder. Ambient Occlusion movable rendering modunda çalışmayacaktır (yani movable objeler ve ışıklar), dolayısıyla daha [farklı bir yol](https://youtu.be/O7imyB-x5y4?t=675) izlemeniz gerek. Map verildiginde "AO Map" denir.
 
 * ### [Refraction](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#refraction)
+Refraction (ışığın kırılması) hani su dolu bardagın içine kaşık koyarsınız da, bardaga bakınca kaşıgın suyun içinde olan kısmı ile dışarda olan kısmı sanki yamukmuş gibi gözükür. Refraction degeri de bu ışık kırılması degeridir.
+
 * ### [Pixel Depth Offset](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#pixeldepthoffset)
 * ### [Shading Model](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#shadingmodel)
 * ### [Front Material]()
