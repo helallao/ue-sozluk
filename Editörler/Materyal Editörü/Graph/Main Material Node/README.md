@@ -63,7 +63,7 @@ Verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gö
 World Position Offset konum degiştirme daha dogrusu hareket kazandırma amaçlı kullanılır. Blueprint ile yazmak yerine materyal içinde bunu yapabilmek çok büyük kolaylık. Bu materyale sahip olan meshlerin belirli hareketler yapmasını istediginizde kullanabilirsiniz. Konum degişse bile aslında meshin gerçek konumu degişmez yani aslında World Position Offset konumu degiştirmez ve eger bu materyale sahip olan obje ekranınızda degilse, materyal motor tarafından hesaplanmadıgı için objeyi göremezsiniz. World Position Offset sadece bir göz yanılmasıdır/sahte konumdur.
 
 * ### [Subsurface Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#subsurfacecolor)
-Subsurface Color arkadan ışık vurdugunda, bizim gördügümüz taraftaki renge etki edecek rengi belirler. Yani arkadan bi ışık vurdugunda, materyalin içindeki şeyin rengi ortaya çıkmaya başlar, mesela insan cildi için ışık vurdugunda kan rengi olarak kırmızı rengin ortaya çıkması gibi, telefon ışıgıyla falan parmagınızı üstüne tutup görebilirsiniz.
+[Subsurface](#subsurface) modu ile kullanılır. Anlatım da orda.
 
 * ### [Custom Data 0](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
 * ### [Custom Data 1](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
@@ -144,7 +144,7 @@ Shading Model, materyalinizin tam olarak ne amaçla kullanıldıgını, ışık 
 Default Lit modu ışıgı kullanır, ışık saçar. Yani ışıkla ilgili özellikler açıktır.
 
 * #### [Subsurface](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#subsurface)
-[Opacity](#opacity) ve [Subsurface Color](#subsurface-color) seçenegini aktifleştirir. Subsurface arkadan ışık vurdugunda, bizim gördügümüz taraftaki renge etki edecek rengi ayarlamamıza yarar. Yani arkadan bi ışık vurdugunda, materyalin içindeki şeyin rengi ortaya çıkmaya başlar, mesela insan cildi için ışık vurdugunda kan rengi olarak kırmızı rengin ortaya çıkması gibi, telefon ışıgıyla falan parmagınızı üstüne tutup görebilirsiniz.
+[Opacity](#opacity) ve [Subsurface Color](#subsurface-color) seçenegini aktifleştirir. İlk baş Subsurface'in ne işe yaradıgını anlatayım, Subsurface arkadan ışık vurdugunda, bizim gördügümüz taraftaki renge etki edecek rengi ayarlamamıza yarar. Yani arkadan bi ışık vurdugunda, materyalin içindeki şeyin rengi ortaya çıkmaya başlar, mesela insan cildi için ışık vurdugunda kan rengi olarak kırmızı rengin ortaya çıkması gibi, telefon ışıgıyla falan parmagınızı üstüne tutup görebilirsiniz. İşte [Subsurface Color](#subsurface-color) inputunu bunun için. [Opacity](#opacity) inputu ise, "Subsurface" Shading Modelinde yani şu an anlattıgım, opaklık degil de, Subsurface Color degerinin şiddetini yani ışıgın ne kadar dagıldıgını belirliyor. 0 = Max Subsurface kullanımı, 1 = Min Subsurface kullanımı, gördügünüz gibi [Opacity](#opacity) degerini düşürseniz bile Subsurface Color hala kullanılmaya devam ediyor yani kapatamazsınız.
 
 * #### [Preintegrated Skin](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#preintegratedskin)
 * #### [Clear Coat](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#clearcoat)
