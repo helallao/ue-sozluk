@@ -54,7 +54,7 @@ Materyalin ne kadar opak oldugunu belirler. Degerler 0-1 arasındadır. 0 saydam
 Opacity gibidir ama ya saydam ya da opak olmak zorundadır. Yani Opacity gibi istediginiz derecede opaklık veremezsiniz. Degerler 0-1 arasındadır ama "Opacity Mask Clip Value" degerine altta olanlar 0a üstte olanlar 1e yuvarlanır. 0 saydamı, 1 opagı temsil eder.
 
 * ### [Normal](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#normal)
-Verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi. Bütün açılar için ışıgın yansıma (ve ya başka bişe emin degilim) bilgisini tutar. Normal Map'e benzeyen "Height Map" bir şey de vardır (Bump Map de denir), aslında Height Map Normal Map'in bir önceki versiyonudur denebilir. Height Map sadece yükseklik bilgisini tutar ve grayscale'dir (tek kanal). Normal Mapler daha gelişmiştir. Height Mapler bir nevi daha az bilgi tutan Normal Map gibidir. OpenGL ve DirectX için 2 farklı Map şekli vardır [(bknz)](https://youtu.be/O7imyB-x5y4?t=1119). Map verildiginde "Normal Map", "Height Map" ve ya "Bump Map" denir.
+Verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi. Bütün açılar için ışıgın yansıma (ve ya başka bişe emin degilim) bilgisini tutar. Normal Map ile aynı işlevi gören [farklı mapler](../../Terimler%20Sözlügü#normal-map---displacement-map---bump-map---height-map) de vardır. OpenGL ve DirectX için 2 farklı Map şekli vardır [(bknz)](https://youtu.be/O7imyB-x5y4?t=1119). Map verildiginde "Normal Map" denir.
 
 * ### [Tangent](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#anisotropyandtangent)
 Anisotropy ve Tangent nodlarının ne işe yaradıgını bilmiyorum, zaten çok kullanılmıyorlar, isterseniz linkten bakabilirsiniz.
