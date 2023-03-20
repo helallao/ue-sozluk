@@ -31,7 +31,7 @@ Roughness | R, G, GL
 Anisotropy |
 Emissive Color | Emmission
 Opacity | O
-Normal | Normal, Height, Bump, Nor_GL, Nor_DX, N
+Normal | Normal, N, Nor_GL, Nor_DX
 Tangent |
 Ambient Occlusion | AO, O
 Refraction |
