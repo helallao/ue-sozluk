@@ -106,6 +106,9 @@ Refraction (ışığın kırılması) hani su dolu bardagın içine kaşık koya
 
 ### [Blend Mode](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
 
+Blend Mode, materyalinizin tam olarak arka plan ile nasıl blend (karışma) olacagını belirler.
+
+
 * #### [Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/#opaque)
 Surface yani yüzey oluşturur, içerisinden ışık geçmez. Sadece bu, normal materyal.
 
@@ -130,6 +133,9 @@ Sanırım ışık ile uyumsuz oldugu için, [Shading Model](#shading-model-1)'ı
 
 
 ### [Shading Model](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/)
+
+Shading Model, materyalinizin tam olarak ne amaçla kullanıldıgını, ışık çarptıgında nasıl yansıtacagını, ne olacagını belirler.
+
 
 * #### [Unlit](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#unlit)
 [Emissive Color](#emissive-color) kullanabiliyorsunuz. Unlit modu etrafa ışık saçmaz, verilen [Emissive Color](#emissive-color) degerine göre parlama efekti uygular, ama aslında etrafa ışık saçmaz.
