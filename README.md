@@ -31,13 +31,13 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Editörler
 
-## [Level Editörü](Editörler/Level%20Editörü)
+### [Level Editörü](Editörler/Level%20Editörü)
 <img src="Dosyalar/Level_Editor_Ana_Ekran.jpg">
 
-## [Blueprint Editörü](Editörler/Blueprint%20Editörü)
+### [Blueprint Editörü](Editörler/Blueprint%20Editörü)
 <img src="Dosyalar/Blueprint_Editor_Ana_Ekran.jpg">
 
-## [Materyal Editörü](Editörler/Materyal%20Editörü)
+### [Materyal Editörü](Editörler/Materyal%20Editörü)
 <img src="Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
 
 
@@ -45,13 +45,13 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Sayfalar
 
-## [Project Settings](Sayfalar/Project%20Settings)
+### [Project Settings](Sayfalar/Project%20Settings)
 <img src="Dosyalar/Project_Settings_Ana_Ekran.jpg">
 
-## [Content Drawer](Sayfalar/Content%20Drawer)
+### [Content Drawer](Sayfalar/Content%20Drawer)
 <img src="Dosyalar/Content_Drawer_Ana_Ekran.jpg">
 
-## [Stats (Material)](Sayfalar/Stats%20(Material))
+### [Stats (Material)](Sayfalar/Stats%20(Material))
 <img src="Dosyalar/Materyal_Editor_Stats.jpg">
 
 
@@ -59,10 +59,10 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Toolbar
 
-## [Top Toolbar (Araç Çubugu)](Diger/Top%20Toolbar%20(Araç%20Çubugu))
+### [Top Toolbar (Araç Çubugu)](Diger/Top%20Toolbar%20(Araç%20Çubugu))
 <img src="Dosyalar/Top_Toolbar.jpg">
 
-## [Bottom Toolbar (Araç Çubugu)](Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
+### [Bottom Toolbar (Araç Çubugu)](Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
 <img src="Dosyalar/Bottom_Toolbar.jpg">
 
 
@@ -70,4 +70,4 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Objeler
 
-## [Materyal](Objeler/Materyal)
+### [Materyal](Objeler/Materyal)
