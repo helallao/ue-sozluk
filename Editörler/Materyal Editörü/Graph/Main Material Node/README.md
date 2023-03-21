@@ -66,7 +66,11 @@ World Position Offset konum degiştirme daha dogrusu hareket kazandırma amaçl�
 [Subsurface](#subsurface) modu ile kullanılır. Anlatım da orda.
 
 * ### [Custom Data 0](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
+Custom Data inputu [Shading Model](#shading-model-1) degiştigi zaman "Main Material Node"'a input eklemek için kullanılır. Custom Data inputunu kullanan Modeller: [Clear Coat](#clear-coat), [Subsurface Profile](#subsurface-profile), [Hair](#hair), [Cloth](#cloth), [Eye](#eye). Açıklamalar ilgili bölümlerde yazıldı.
+
 * ### [Custom Data 1](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#customdata)
+Custom Data inputu [Shading Model](#shading-model-1) degiştigi zaman "Main Material Node"'a input eklemek için kullanılır. Custom Data inputunu kullanan Modeller: [Clear Coat](#clear-coat), [Subsurface Profile](#subsurface-profile), [Hair](#hair), [Cloth](#cloth), [Eye](#eye). Açıklamalar ilgili bölümlerde yazıldı.
+
 * ### [Ambient Occlusion](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#ambientocclusion)
 Ambient Occlusion girinti çıkıntı olan yerlerde, ışıgın ne kadar içeri girecegini verir, daha dogrusu ne kadar exposed (açıkta) oldugu degerini verir. Hani meshlerde girinti olan yerlerde içeri dogru boşluk olur ya, dolayısı ile ışık buraya daha az girer. İşte Ambient Occlusion bunu belirler, %99.9 Map olarak kullanıcaksınız. 1 degerine sahip olan kısımlar ışıgın kolayca ulaşabilecegi yani ortada olan kısımlar, 0'a dogru yaklaştıkça ise, ışıgın girmesinin zor olacagı, o noktanın etrafında geometrinin fazla oldugu yani ışıgın ulaşamayacagı (bloklandıgı) noktaları temsil eder. Ambient Occlusion movable rendering modunda çalışmayacaktır (yani movable objeler ve ışıklar), dolayısıyla daha [farklı bir yol](https://youtu.be/O7imyB-x5y4?t=675) izlemeniz gerek. Map verildiginde "AO Map" denir.
 
@@ -147,7 +151,11 @@ Default Lit modu ışıgı kullanır, ışık saçar. Yani ışıkla ilgili öze
 [Opacity](#opacity) ve [Subsurface Color](#subsurface-color) seçenegini aktifleştirir. İlk baş Subsurface'in ne işe yaradıgını anlatayım, Subsurface arkadan ışık vurdugunda, bizim gördügümüz taraftaki renge etki edecek rengi ayarlamamıza yarar. Yani arkadan bi ışık vurdugunda, materyalin içindeki şeyin rengi ortaya çıkmaya başlar, mesela insan cildi için ışık vurdugunda kan rengi olarak kırmızı rengin ortaya çıkması gibi, telefon ışıgıyla falan parmagınızı üstüne tutup görebilirsiniz. İşte [Subsurface Color](#subsurface-color) inputunu bunun için. [Opacity](#opacity) inputu ise, "Subsurface" Shading Modelinde yani şu an anlattıgım, opaklık degil de, Subsurface Color degerinin şiddetini yani ışıgın ne kadar dagıldıgını belirliyor. 0 = Max Subsurface kullanımı, 1 = Min Subsurface kullanımı, gördügünüz gibi [Opacity](#opacity) degerini düşürseniz bile Subsurface Color hala kullanılmaya devam ediyor yani kapatamazsınız.
 
 * #### [Preintegrated Skin](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#preintegratedskin)
+[Subsurface](#subsurface) ile aynıdır, tek farkı işlem sayısının düşürülmüş olması yani performans bakımından iyi olmasıdır. [Subsurface](#subsurface) kadar olmasa da, ucuz ve işe yarar.
+
 * #### [Clear Coat](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#clearcoat)
+Clear Coat [Subsurface'e](#subsurface) benzer, tam olarak ne amaçla kullanıldıgını hala çözemedim. Sanki materyalin yüzeyinde bir film varmış gibi efekt verir, mesela arabaların kaplaması gibi falan. Ek bir yansıma olur. Bu modeli seçtiginiz anda iki input oluşturur. ["Clear Coat"](#custom-data-0) ve ["Clear Coat Roughness"](#custom-data-1), "Clear Coat" inputu Clear Coat'un ne kadar etkili olacagı yani ne kadar Clear Coat oldugunu belirliyor (0 - 1 arasında), "Clear Coat Roughness" inputu ise, hani demiştim ya Clear Coat sanki materyalin yüzeyinde bir film varmış gibi efekt verir, "Clear Coat Roughness" inputu işte bu film için "Roughness" degerini ayarlar, normal [Roughness](#roughness) ile aynı şekilde işler.
+
 * #### [Subsurface Profile](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#subsurfaceprofile)
 * #### [Two Sided Foliage](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#twosidedfoliage)
 * #### [Hair](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#hair)
