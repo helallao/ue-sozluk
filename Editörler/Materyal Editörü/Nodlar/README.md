@@ -3243,7 +3243,8 @@ HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyor
 [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter](#staticcomponentmaskparameter-) noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
 
-* #### [ClearCoatNormalCustomOutput]()
+* #### [ClearCoatNormalCustomOutput(ClearCoatBottomNormal)]()
+Bu node [Clear Coat](../Graph/Main%20Material%20Node#clear-coat) kullanırken Normal Map verebilmenize yarar. Bu nodu kullanmak için project settingste "Clear Coat Enable Second Normal" özelligini açmalısınız. Verdiginiz Normal Map sayesinde mesh'in geometrisine uygun olarak "Clear Coat" kullanabilirsiniz.
 
 
 * #### [ConstantBiasScale](https://youtu.be/7s0T9ckB0bw) ❤️💛💚
