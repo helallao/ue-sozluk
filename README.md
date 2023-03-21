@@ -1,4 +1,4 @@
-Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engineyi oluşturan editörler ve diger pencereler aşagıda sıralanmıştır. ue-sozluk, sözlük mantıgında bir dökümandır, size bütün olarak konu anlatımı sunmaz ama her parçayı tek tek anlatır, zaten önemli olan da bu oldugu için böyle bir şey yaptım. Her editör için "Kaynaklar" diye bölüm oluşturdum, ister oradan ögrenmek istediginiz editör üzerine, ister bütün kaynakları topladıgım [Kaynaklar](Kaynaklar) bölümünden konu anlatımlarına ulaşabilirsiniz.
+Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engineyi oluşturan editörler, diger pencereler ve objeler aşagıda sıralanmıştır. Objelerden kastım asset lardır. Her asset türüne göre obje oluşturulmuştur. ue-sozluk, sözlük mantıgında bir dökümandır, size bütün olarak konu anlatımı sunmaz ama her parçayı tek tek anlatır, zaten önemli olan da bu oldugu için böyle bir şey yaptım. Her editör için "Kaynaklar" diye bölüm oluşturdum, ister oradan ögrenmek istediginiz editör üzerine, ister bütün kaynakları topladıgım [Kaynaklar](Kaynaklar) bölümünden konu anlatımlarına ulaşabilirsiniz.
 
 
 # Unreal Engine
@@ -11,17 +11,20 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 
 ### Sayfalar
+
 * [Project Settings](#project-settings)
 * [Content Drawer](#content-drawer)
 * [Stats (Material)](#stats-material)
 
 
 ### Toolbar
+
 * [Top Toolbar (Araç Çubugu)](#top-toolbar-araç-çubugu)
 * [Bottom Toolbar (Araç Çubugu)](#bottom-toolbar-araç-çubugu)
 
 
 ### Objeler
+
 * [Materyal](#)
 
 
