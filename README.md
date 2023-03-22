@@ -13,7 +13,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 ### Sayfalar
 
 * [Project Settings](#project-settings)
-* [Content Drawer](#content-drawer)
+* [Content Browser](#content-browser)
 * [Stats (Material)](#stats-material)
 
 
@@ -51,8 +51,8 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 ### [Project Settings](Sayfalar/Project%20Settings)
 <img src="Dosyalar/Project_Settings_Ana_Ekran.jpg">
 
-### [Content Drawer](Sayfalar/Content%20Drawer)
-<img src="Dosyalar/Content_Drawer_Ana_Ekran.jpg">
+### [Content Browser](Sayfalar/Content%20Browser)
+<img src="Dosyalar/Content_Browser_Ana_Ekran.jpg">
 
 ### [Stats (Material)](Sayfalar/Stats%20(Material))
 <img src="Dosyalar/Materyal_Editor_Stats.jpg">
