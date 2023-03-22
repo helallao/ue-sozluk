@@ -101,13 +101,18 @@ Eger materyalinizin Shading Model'ini [From Material Expression](#from-material-
 ## [Material]()
 
 ### [Material Domain](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+Materyalinizin tam olarak ne için kullanılacagını belirler.
 
 * #### [Surface](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+Işık çarptıgında, yüzeyindeki görüntüyü döndürecek (ve ya başka bir şey) bir materyal, normal materyal yani.
+
 * #### [Deferred Decal](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
 * #### [Light Function](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
 * #### [Volume](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
 * #### [Post Process](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
 * #### [User Interface](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-properties/#material)
+
+
 
 
 ### [Blend Mode](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
@@ -135,6 +140,7 @@ Particle Effects için iyi oldugu söyleniyor, pek bilgim yok.
 
 * #### [AlphaHoldout](https://youtu.be/BtHgF_VmaSI?t=1914)
 Sanırım ışık ile uyumsuz oldugu için, [Shading Model](#shading-model-1)'ını ["Unlit"](#unlit) yapmak zorundasınız. AlphaHoldout'un özelligi şudur, bu materyale sahip mesh, kendisinin arkasında duran saydam (burası çok önemli) materyale sahip meshleri görünmez yapar, yani arkasını gösterir. AlphaHoldout için [Opacity](#opacity) degeri vermelisiniz, bu bir şekil olabilir ve ya başka bir şey, sizin bakış açınıza göre AlphaHoldout arkasına gelen saydam materyallerin üzerinde görünmezlik efekti uygulayacaktır yani aldıgı [Opacity](#opacity) degerini arkasındaki saydam materyallere de uygular.
+
 
 
 
