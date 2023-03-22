@@ -1,5 +1,5 @@
 # Ayarlar
-<img src="../../../Dosyalar/Content_Drawer_Ayarlar_Focused.jpg">
+<img src="../../../Dosyalar/Content_Browser_Ayarlar_Focused.jpg">
 
 
 
