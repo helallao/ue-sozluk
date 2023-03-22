@@ -23,7 +23,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * [Bottom Toolbar (Araç Çubugu)](#bottom-toolbar-araç-çubugu)
 
 
-### Objeler
+### Assetler
 
 * [Materyal](#)
 
@@ -71,6 +71,6 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 
 
-# Objeler
+# Assetler
 
 ### [Materyal](Objeler/Materyal)
