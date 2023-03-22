@@ -1,4 +1,4 @@
-# Ana Ekran
+# Content Browser
 <img src="../../Dosyalar/Content_Browser_Ana_Ekran.jpg">
 
 
