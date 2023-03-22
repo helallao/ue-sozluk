@@ -73,4 +73,4 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Assetler
 
-### [Materyal](Objeler/Materyal)
+### [Materyal](Assetler/Materyal)
