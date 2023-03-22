@@ -170,6 +170,7 @@ Subsurface Profile [Subsurface'e](#subsurface) ve [Preintegrated Skin'e](#preint
 * #### [Single Layer Water](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#singlelayerwater)
 * #### [Thin Translucent](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#thintranslucent)
 * #### [From Material Expression](https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/#frommaterialexpression)
+[Shading Model](#shading-model) inptunu etkinleştirir ve birden fazla Shading Model kullanabilme olanagı sunar, bilgi için [Shading Model](#shading-model) inptuna bakabilirsiniz.
 
 
 
