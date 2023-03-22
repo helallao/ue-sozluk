@@ -2884,8 +2884,8 @@ This function is designed to provide the diffuse portion of grass shading. Simil
 
 ## Shading Model
 
-* #### [Shading Model]()
-
+* #### [ShadingModel](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Materials/LightingModels/FromMaterialExpression/) 💝
+Bu node "Main Material Node" unun [Shading Model](../Graph/Main%20Material%20Node#shading-model) inputuna baglanıp kullanılacak [Shading Model'i](../Graph/Main%20Material%20Node#shading-model-1) seçmemize yarar. Yani bu node sadece o inputa baglanacak referans objesidir, bundan başka bir işe yaramaz. Gerekli bilgiler "Main Material Node" unun [Shading Model](../Graph/Main%20Material%20Node#shading-model) inputu bölümünde anlatıldı.
 
 
 ## Sky
