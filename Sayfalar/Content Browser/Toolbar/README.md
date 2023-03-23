@@ -215,40 +215,40 @@ Buradaki Assetleri [Create Advanced Asset](#create-advanced-asset) bölümünde 
 * ##### [Sound Concurrency]()
 * ##### [Sound Cue]()
 
-##### Analysis
+##### [Analysis]()
 * ##### [Synesthesia NRT]()
 * ##### [Synesthesia NRT Settings]()
 * ##### [Synesthesia Settings]()
 
-##### Classes
+##### [Classes]()
 * ##### [Sound Class]()
 * ##### [Sound Class Mix]()
 
-##### Dialogue
+##### [Dialogue]()
 * ##### [Dialogue Voice]()
 * ##### [Dialogue Wave]()
 
-##### Effects
+##### [Effects]()
 * ##### [Reverb Effect]()
 * ##### [Source Effect Preset]()
 * ##### [Source Effect Preset Chain]()
 * ##### [Submix Effect Preset]()
 
-##### MetaSounds
+##### [MetaSounds]()
 * ##### [MetaSound Patch]()
 
-##### Resonance
+##### [Resonance]()
 * ##### [Resonance Audio Reverb Settings]()
 * ##### [Resonance Audio Spatialization Settings]()
 
-##### Source
+##### [Source]()
 * ##### [Source Bus]()
 
-##### Synthesis
+##### [Synthesis]()
 * ##### [Modular Synth Preset Bank]()
 * ##### [Mono Wave Table Synth Preset Bank]()
 
-##### Wave Table
+##### [Wave Table]()
 * ##### [WaveTable Bank]()
 
 
