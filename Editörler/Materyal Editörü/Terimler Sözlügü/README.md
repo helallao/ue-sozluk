@@ -20,7 +20,7 @@ Normal Map içerisinde yön degerlerini (açıları) tutar ve bize bazı kısım
 Offset kelimesi anlam olarak bir şey dengelemek için eklenen ek, dizgin gibi bi anlama gelir. Biz bunu genellikle konum degerlerine eklenen offset olarak görecegiz. Offset tam olarak şu işe yarar. Mesela sürekli 2000 ve 2100 arasında dönen bi deger almak istiyorsunuz, 2000 sayısını 2100e kadar arttırıp sonra tekrar 2000e düşürmek yerine, offset mantıgını kullanıp 2000 + offset degeri şeklinde yapabilirsiniz. Biz 100 artmasını istiyoruz yani offset degerimiz 0 ile 100 arasında olacak, mesela offset degeri 50 olursa 2000 + 50 = 2050 olur. İşte konum degerlerinde de bu şekilde kullanıcaz, konumun üzerine ekleme yapmak ve ya çıkarma yapmak için offset kullanılıyor. Direk konum degerini degiştirmek yerine offset degerini yani eklenecek degeri düzenliyoruz.
 
 ## Packed Map
-[Main Material Node'un Attribute'lerine](../Graph/Main%20Material%20Node#attributes) bagladıgımız Maplerin hepsi RGB yani 3 kanala ihtiyacı duymaz. Tek kanal olanlar da vardır (grayscale) ve bu Mapler için tek tek texture oluşturup hem düzensizlik hem de performans düşüşü yapmaya gerek yok, bu tek kanallı Mapleri tek bir texturenin R,G ve B kanallarına ayrı ayrı koyabiliriz. Buna "Packed Map" denir. Texturenin ismine bu Maplerin sırasına göre baş harfleri konulur. Packed Map olabilecek Attributeler ve alabilecegi isimler aşagıda, 
+[Main Material Node'un Attribute'lerine](../Graph/Main%20Material%20Node#attributes) bagladıgımız Maplerin hepsi RGB yani 3 kanala ihtiyacı duymaz. Tek kanal olanlar da vardır (grayscale) ve bu Mapler için tek tek texture oluşturup hem düzensizlik hem de performans düşüşü yapmaya gerek yok, bu tek kanallı Mapleri tek bir texturenin R,G ve B kanallarına ayrı ayrı koyabiliriz. Buna "Packed Map" denir. Texturenin ismine bu Maplerin sırasına göre baş harfleri konulur. Packed Map olabilecek Attributeler ve alabilecegi isimler aşagıda, mesela Unreal Engine Quixel Bridge'den alının materyaller için "ORDp" adında bir texture kullanır. O -> Ambient Occlusion, R -> Roughness, Dp -> Displacement Mapini temsil eder. Sırayla RGB kanallarına konulmuşlardır.
 
 Map | Kısa İsim
 :---: | :---:
@@ -28,11 +28,8 @@ Base Color | Color, Diffuse, Albedo, D, C, BC
 Metallic | M
 Specular | S
 Roughness | R, G, GL
-Anisotropy |
 Emissive Color | Emmission
-Opacity | O
 Normal | Normal, N, Nor_GL, Nor_DX
-Tangent |
 Ambient Occlusion | AO, O
 Displacement | D, DP
 
