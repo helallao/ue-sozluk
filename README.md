@@ -26,6 +26,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 ### Assetler
 
 * [Materyal](#materyal)
+* [Materyal Fonksiyonu](#materyal-fonksiyonu)
 * [Materyal Instance](#materyal-instance)
 
 
@@ -75,4 +76,5 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 # Assetler
 
 ### [Materyal](Assetler/Materyal)
+### [Materyal Fonksiyonu](Assetler/Materyal%20Fonksiyonu)
 ### [Materyal Instance](Assetler/Materyal%20Instance)
