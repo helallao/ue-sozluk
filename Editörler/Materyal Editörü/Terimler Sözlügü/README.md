@@ -26,7 +26,7 @@ Map | Kısa İsim
 :---: | :---:
 Base Color | Color, Diffuse, Albedo, D, C, BC
 Metallic | M
-Specular | S
+Specular | S, Reflection
 Roughness | R, G, GL
 Emissive Color | E, Emmission, Glow
 Normal | Normal, N, Nor_GL, Nor_DX
