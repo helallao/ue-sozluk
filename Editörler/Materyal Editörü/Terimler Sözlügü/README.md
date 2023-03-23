@@ -28,7 +28,7 @@ Base Color | Color, Diffuse, Albedo, D, C, BC
 Metallic | M
 Specular | S
 Roughness | R, G, GL
-Emissive Color | Emmission
+Emissive Color | E, Emmission, Glow
 Normal | Normal, N, Nor_GL, Nor_DX
 Ambient Occlusion | AO, O
 Displacement | D, DP
