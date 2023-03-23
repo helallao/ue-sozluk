@@ -1,13 +1,13 @@
 # Stats
 <img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
 
-Burada materyalinizin ne kadar kompleks oldugunu, sistem (ekran kartı) için ne kadar pahalı (expensive) ve ya ucuz (cheap) oldugunu, kısacası grafik kalitesini, komplekslik seviyesini görebilirsiniz. (Resmin çogu boş oldugu için kırpılmıştır.)
+Burada [materyalinizin](../../Assetler/Materyal) ne kadar kompleks oldugunu, sistem (ekran kartı) için ne kadar pahalı (expensive) ve ya ucuz (cheap) oldugunu, kısacası grafik kalitesini, komplekslik seviyesini görebilirsiniz. (Resmin çogu boş oldugu için kırpılmıştır.)
 
 
 
 ## [Base pass shader]()
 
-Burdaki instruction sayısı, sistemin (ekran kartı) materyal için ne kadar işlem gerçekleştirdigini gösterir. İşlem sayısı materyalin tam olarak ne kadar pahalı oldugunu tam dogru göstermeyebilir çünkü instruction sayısı fazla olsa bile, mesela tek bir instruction diger instruction'lara göre 10 kat daha uzun sürüyor olabilir, bu da onu 10 tane instruction degerinde yapar. Sonuç olarak instruction sayısı materyalin pahalılıgını ölçmek için kullanılan en yaygın yöntemdir ama tahminidir. "Base pass shader" ın farklı farklı durumlarda kaç instruction sayısına sahip oldugunu da Stats penceresinde görebilirsiniz, bunların hepsi "Base pass" şeklinde başlıyor.
+Burdaki instruction sayısı, sistemin (ekran kartı) materyal için ne kadar işlem gerçekleştirdigini gösterir. İşlem sayısı materyalin tam olarak ne kadar pahalı oldugunu tam dogru göstermeyebilir çünkü instruction sayısı fazla olsa bile, mesela tek bir instruction diger instruction'lara göre 10 kat daha uzun sürüyor olabilir, bu da onu 10 tane instruction degerinde yapar. Yani instruction sayısı materyalin pahalılıgını ölçmek için kullanılan en yaygın yöntemdir ama tahminidir. "Base pass shader" ın farklı farklı durumlarda kaç instruction sayısına sahip oldugunu da Stats penceresinde görebilirsiniz, bunların hepsi "Base pass" şeklinde başlıyor.
 
 
 
@@ -32,7 +32,7 @@ Toplamda kullanılan [Texture Sampler](../../Editörler/Materyal%20Editörü/Nod
 
 ## [User interpolators]()
 
-Sanırım kullanılan [VertexInterpolator](../../Editörler/Materyal%20Editörü/Nodlar#vertexinterpolator-) noduna baglı olarak bilgiler döndürüyor. Yani Vertex Shader ile interpolate olan işlemler sayısı.
+Sanırım kullanılan [VertexInterpolator](../../Editörler/Materyal%20Editörü/Nodlar#vertexinterpolator-) noduna baglı olarak bilgiler döndürüyor. Yani [Vertex Shader](../../Editörler/Materyal%20Editörü/Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) ile interpolate olan işlemler sayısı.
 
 
 
