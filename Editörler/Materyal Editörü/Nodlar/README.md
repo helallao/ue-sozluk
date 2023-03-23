@@ -567,7 +567,13 @@ The FontSampleParameter expression provides a way to expose a font-based paramet
 * #### [MaterialFunctionCall]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Bu node ile kendi yazdıgınız materyal fonksiyonlarını çagırabilirsiniz. Materyal fonksiyonlarına iki kere tıklarsanız o fonksiyonun içerigini yeni sayfada açar. Materyal fonksiyonları ile ilgili bilmeniz gereken diger nodlar: [FunctionInput](#functioninput-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F), [FunctionOutput](#functionoutput-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 
-* #### [PreviousFrameSwitch]()
+* #### [PreviousFrameSwitch]() 💝
+Bu node Motion Blur degerini hesaplamak için kullanılır. Google'ye "Motion Blur" yazıp görsellere baktıgınız zaman anında anlarsınız ne oldugunu. İşte PreviousFrameSwitch bu efekti ölçmek için kullanılıyor. Bu materyale sahip obje eger hızlı hareket ediyorsa Motion Blur degeri yüksek, yavaş hareket ediyorsa azdır. Tabi bunu siz istediginiz gibi kodlayabilirsiniz. Motion Blur degerini hesaplamak için iki tane konum degerine (V3) ihtiyacınız var. "Current Frame" şu anki konumu, "Previous Frame" bir önceki konumu belirtir. Döndürdügü degeri [World Position Offset](../Graph/Main%20Material%20Node/README.md#world-position-offset) attribute'una baglayın. "Current Frame" ve "Previous Frame" arasındaki uzaklık arttıkça Motion Blur daha fazla olur.
+
+İnput | İşlem
+:---: | :---:
+Current Frame | Şu anki konum
+Previous Frame | Bir önceki konum
 
 
 * #### [StaticBool]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
