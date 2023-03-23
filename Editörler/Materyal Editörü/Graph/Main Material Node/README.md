@@ -188,6 +188,7 @@ Material Attributes kullanmak istiyorsanız bunu açmanız gerek. Bknz. [Materia
 
 ### [Cast Ray Traced Shadows]()
 ### [Subsurface Profile]()
+Sadece [Subsurface Profile](#subsurface-profile) Shading Model'inde kullanabilirsiniz. [Subsurface Profile](../../../../Assetler/Subsurface%20Profile) türünden bir asset verirsiniz ve materyalinizde o Subsurface Profile assetinin özelliklerini kullanırsınız.
 
 
 ## [Advanced]()
