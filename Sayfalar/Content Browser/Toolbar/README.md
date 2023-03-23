@@ -68,15 +68,15 @@ Buradaki Assetleri [Create Advanced Asset](#create-advanced-asset) bölümünde 
 * ##### [Curve Compression Settings]()
 
 
-##### Control Rig
+##### [Control Rig]()
 * ##### [Control Rig]()
 * ##### [Control Rig Shape Library]()
 
-##### IK Rig
+##### [IK Rig]()
 * ##### [IK Retargeter]()
 * ##### [IK Rig]()
 
-##### Legacy
+##### [Legacy]()
 * ##### [Aim Offset 1D]()
 * ##### [Blend Space 1D]()
 
@@ -110,7 +110,7 @@ Buradaki Assetleri [Create Advanced Asset](#create-advanced-asset) bölümünde 
 
 
 #### [Foliage]()
-* ##### [Actor Foliage
+* ##### [Actor Foliage]()
 * ##### [Landscape Grass Type]()
 * ##### [Static Mesh Foliage]()
 
