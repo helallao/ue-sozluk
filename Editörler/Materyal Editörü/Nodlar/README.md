@@ -304,7 +304,7 @@ ViewportUV | ScreenPosition degerini 0 ve 1 arasında verir
 PixelPosition | ScreenPosition degerini gerçek piksel sayısına göre verir
 
 * #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. Aslında döndürdügü deger her pikselin konum degeridir. Bu degerlerle oynamak piksellerin konumlarını degiştirir. Bazı yerlerde UV ve ya UVs diye geçer.
+Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. Aslında döndürdügü deger her pikselin konum degeridir. Bu degerlerle oynamak piksellerin konumlarını degiştirir. Bazı yerlerde UV ve ya UVs diye geçer. Ayrıca V2 de denir.
 
 Parametre | İşlem
 :---: | :---:
@@ -317,7 +317,7 @@ Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV deger
 Parametre | İşlem
 :---: | :---:
 Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
-Offset Percentage | Offset degeri 0 - 1 arası
+Offset Percentage | Offset degeri (0 - 1)
 Float 2 Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 Output | İçerik
@@ -2477,7 +2477,7 @@ Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV deger
 Parametre | İşlem
 :---: | :---:
 Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
-Offset Percentage | Offset degeri 0 - 1 arası
+Offset Percentage | Offset degeri (0 - 1)
 Float 2 Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 Output | İçerik
