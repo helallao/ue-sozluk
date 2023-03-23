@@ -280,7 +280,7 @@ Buradaki Assetleri [Create Advanced Asset](#create-advanced-asset) bölümünde 
 
 
 ## [İmport Butonu]()
-Bilgisayarınızdan dosya eklemeye yarar.
+Bilgisayarınızdan dosya eklemeye yarar. [Dosyalar](../Dosyalar) bölümünde boş bir yere dosya bırakmakla (bilgisayardan unreal engine programına, sürükle-bırak) aynıdır.
 
 ## [Save All Butonu]()
 Degişiklik yapılıp kaydedilmemiş bütün dosyaları kaydeder.
