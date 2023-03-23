@@ -16,6 +16,10 @@
 ## [Add Butonu]()
 Dosya ekler/yaratır. [Dosyalar](../Dosyalar) bölümünde boş bir yere sag tıklayınca çıkan ekran ile aynıdır.
 
+<img src="../../../Dosyalar/Content_Browser_Add_Butonu_Focused.jpg">
+
+
+
 ## [İmport Butonu]()
 Bilgisayarınızdan dosya eklemeye yarar.
 
