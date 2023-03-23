@@ -56,7 +56,7 @@ Buradaki Assetleri [Create Advanced Asset](#create-advanced-asset) bölümünde 
 * ##### [Aim Offset]()
 * ##### [Animation Blueprint]()
 * ##### [Animation Composite]()
-* ##### [of Animation Layer Interface]()
+* ##### [Animation Layer Interface]()
 * ##### [Animation Montage]()
 * ##### [Blend Space]()
 * ##### [Mirror Data Table]()
