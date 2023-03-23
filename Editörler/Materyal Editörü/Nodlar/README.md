@@ -280,8 +280,8 @@ Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F
 
 Parametre | İşlem
 :---: | :---:
-Center X | X ekseninde orta nokta
-Center Y | Y ekseninde orta nokta
+Center X | X ekseninde orta nokta (0'dan 1'e)
+Center Y | Y ekseninde orta nokta (0'dan 1'e)
 Speed | Hız degeri
 
 İnput | İşlem
@@ -504,7 +504,7 @@ Opacity | Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
 FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
 * #### [DepthFromWorldPosition]() 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir.
 
 * #### [PixelDepth](https://youtu.be/AHOidP7olg0) 💝
 (Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) Bu materyale sahip meshin, ekranınızın ortasına olan uzaklıgı ve kameranızın meshe olan uzaklıgını verir. Yanlış anlaşılmasın iki output vermiyor, bu ikisine baglı olarak ekranınızda görünen piksellerin size ve ekranınızın ortasına olan uzaklıgını veriyor. Ben baya denemeler yaptım ve çıkardıgım sonuca göre şu şekilde düşünmeniz yeterli; bu node tam olarak piksellerin ekranınızda ne kadar yer kapladıgı (yakındayken büyük uzaktayken küçük) ve ya bu piksellerin ne kadar kaliteli oldugunu veriyor ve bunu yaparken de sizin meshe olan uzaklıgınız ve kamera açınızı baz alıyor. Bu node sadece materyalin yüzeyine etki eder, yani arka tarafı göstermez. Arka tarafı gösteren node [SceneDepth'e](#scenedepth-) de bakabilirsiniz. Daha iyi anlamak için linkteki videoya bakın.
@@ -618,9 +618,9 @@ Yıldız şeklinde bir şekil döndürüyor, "Falloff (S)" degerini ayarlayarak 
 İnput | İşlem
 :---: | :---:
 UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
-Center Position | Orta nokta
-Radius | Çap
-Density | Şiddet
+Center Position | Orta nokta (0'dan 1'e)
+Radius | Çap (0'dan ∞'a)
+Density | Şiddet (0'dan ∞'a)
 Invert Density | İçerden dışarı / Dışardan içeri
 
 * #### [SmoothCurve]()🤍
@@ -1403,13 +1403,13 @@ Kameranın objeye bakış açısı yönünde, objeyi ileri ya da geri yani yakı
 İnput | İşlem
 :---: | :---:
 Offset Amount | Offset degeri (+ yakın, - uzak)
-Clamp Padding | Bu deger kameraya yaklaşabilecegi en yakın mesafe, mesela 20 verirseniz kamera ile obje arasındaki mesafe 20 den fazla olamaz.
+Clamp Padding | Bu deger kameraya yaklaşabilecegi en yakın mesafe, mesela 20 verirseniz kamera ile obje arasındaki mesafe 20'den az olamaz.
 World Position | Objenin [WorldPosition](#worldposition-) degeri
 
 Output | İçerik
 :---: | :---:
 Clamped Camera Offset | Camera Offset degeri ama verilen "Clamp Padding" degerinin uygulanmış hali ile
-Camera Offset | Offset degeri, "Main Material Node" unun "World Position Offset" inputuna verebilirsiniz
+Camera Offset | Offset degeri, Main Material Node'unun [World Position Offset](../Graph/Main%20Material%20Node/README.md#world-position-offset) inputuna verebilirsiniz
 
 
 * #### [CameraVectorWithWPOOptions]() ❤️💛💚💙💜
@@ -1474,7 +1474,7 @@ Textureyi döndürür. "UVs" inputuna [TextureCoordinate(TexCoord)](#texturecoor
 İnput | İşlem
 :---: | :---:
 UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
-Rotation Center | Dönme efektinin orta noktası
+Rotation Center | Dönme efektinin orta noktası (0'dan 1'e)
 Rotation Angle (0-1) | Döndürme degeri (0 - 1)
 
 
@@ -1551,7 +1551,7 @@ GrayScaleOutput | Siyah beyaz
 Sürekli 0 ve 1 arasında döner. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur, o da [sinüs](#sine-%EF%B8%8F) degeri alındıgından dolayı (fonksiyonda). "Speed" degeri default 0.5
 
 * #### [DepthFromWorldPosition]() 💝
-(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir. Mesela siz PixelDepth degeri üzerinde oynamak istiyorsunuz, diyelim ki konumunuzun x ekseninde -100 azalmasını istiyorsunuz, o zaman [WorldPosition](#worldposition-) kullanıp konumunuzu aldıktan sonra bunu [subtract](#subtract-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirip istediginiz konum degerini aldıktan sonra, bu konum degerine göre PixelDepth degerini bu nodu kullanarak elde edebilirsiniz.
+(Bu materyali kullanırken, output degerini 2000 gibi bi sayıya falan bölün yoksa döndürdügü deger yüksek oldugu için işlem yapamayız) [PixelDepth](#pixeldepth-) nodu ile aynı işlevi görür ama bu node size PixelDepth degerini istediginiz konumdan verir.
 
 * #### [DeriveHDRfromLDR]()
 
@@ -1653,11 +1653,11 @@ Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (ba
 
 İnput | İşlem
 :---: | :---:
-Width | Band'ın genişligi (0'dan sonsuza, 1'de iken band textureyi tam kaplıyor)
-Sharpness | Keskinlik, şiddet degeri (eksi sonsuzdan 1'e, eksiye gittikçe şiddet azalır)
-Offset | Band'ın konumunu ileri-geri alır, Offset yani boşluk verme anlamına gelir
+Width | Band'ın genişligi (0'dan ∞'a, 1'de iken band textureyi tam kaplıyor)
+Sharpness | Keskinlik, şiddet degeri (-∞'dan 1'e, eksiye gittikçe şiddet azalır)
+Offset | Band'ın konumunu ileri-geri alır, Offset yani boşluk verme anlamına gelir (0'dan 1'e)
 Direction Switch | Band'ın yönünü degiştirir
-Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yaparsanız o eksenin başlangıcında, 1 yaparsanız o eksenin sonunda olur
+Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yaparsanız o eksenin başlangıcında, 1 yaparsanız o eksenin sonunda olur (0'dan 1'e)
 Input Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 
@@ -2216,9 +2216,9 @@ Pi.
 İnput | İşlem
 :---: | :---:
 UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
-Center Position | Orta nokta
-Radius | Çap
-Density | Şiddet
+Center Position | Orta nokta (0'dan 1'e)
+Radius | Çap (0'dan ∞'a)
+Density | Şiddet (0'dan ∞'a)
 Invert Density | İçerden dışarı / Dışardan içeri
 
 
@@ -2810,11 +2810,11 @@ Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (ba
 
 İnput | İşlem
 :---: | :---:
-Width | Band'ın genişligi (0'dan sonsuza, 1'de iken band textureyi tam kaplıyor)
-Sharpness | Keskinlik, şiddet degeri (eksi sonsuzdan 1'e, eksiye gittikçe şiddet azalır)
-Offset | Band'ın konumunu ileri-geri alır, Offset yani boşluk verme anlamına gelir
+Width | Band'ın genişligi (0'dan ∞'a, 1'de iken band textureyi tam kaplıyor)
+Sharpness | Keskinlik, şiddet degeri (-∞'dan 1'e, eksiye gittikçe şiddet azalır)
+Offset | Band'ın konumunu ileri-geri alır, Offset yani boşluk verme anlamına gelir (0'dan 1'e)
 Direction Switch | Band'ın yönünü degiştirir
-Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yaparsanız o eksenin başlangıcında, 1 yaparsanız o eksenin sonunda olur
+Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yaparsanız o eksenin başlangıcında, 1 yaparsanız o eksenin sonunda olur (0'dan 1'e)
 Input Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 
@@ -3027,7 +3027,7 @@ Textureyi döndürür. "UVs" inputuna [TextureCoordinate(TexCoord)](#texturecoor
 İnput | İşlem
 :---: | :---:
 UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) baglayın
-Rotation Center | Dönme efektinin orta noktası
+Rotation Center | Dönme efektinin orta noktası (0'dan 1'e)
 Rotation Angle (0-1) | Döndürme degeri (0 - 1)
 
 * #### [CylindricalUVs]()
@@ -3584,13 +3584,13 @@ Kameranın objeye bakış açısı yönünde, objeyi ileri ya da geri yani yakı
 İnput | İşlem
 :---: | :---:
 Offset Amount | Offset degeri (+ yakın, - uzak)
-Clamp Padding | Bu deger kameraya yaklaşabilecegi en yakın mesafe, mesela 20 verirseniz kamera ile obje arasındaki mesafe 20 den fazla olamaz.
+Clamp Padding | Bu deger kameraya yaklaşabilecegi en yakın mesafe, mesela 20 verirseniz kamera ile obje arasındaki mesafe 20'den az olamaz.
 World Position | Objenin [WorldPosition](#worldposition-) degeri
 
 Output | İçerik
 :---: | :---:
 Clamped Camera Offset | Camera Offset degeri ama verilen "Clamp Padding" degerinin uygulanmış hali ile
-Camera Offset | Offset degeri, "Main Material Node" unun "World Position Offset" inputuna verebilirsiniz
+Camera Offset | Offset degeri, Main Material Node'unun [World Position Offset](../Graph/Main%20Material%20Node/README.md#world-position-offset) inputuna verebilirsiniz
 
 
 * #### [CanopyCreator_Branches]()
