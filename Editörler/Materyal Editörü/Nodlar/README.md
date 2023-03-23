@@ -3,7 +3,7 @@
 Her node kullanılırlıgına göre puana sahiptir, puanlar kalp sayısına göre belirlenir. Puanlar 1 - 5 arasıdır, 1 ve 2 çok kullanışsız ve (muhtemelen) kullanılmayan nodlardır ve beyaz kalp ile gösterilirler, 3 ve 5 arası kullanışlı ve kullanılan nodlardır ve renkli kalp ile gösterilirler.
 <br>
 <br>
-Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar işlemler yapmamıza yarayan nodlardır yani bir yazılım dilini oluşturan ana dili gibi. Spesifik nodlar kurdeleli kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar bazı (kendine has) durumlarda kullanılan nodlardır, spesifik nodlar çok kullanılmasa da yerinde kullanılan ve yarı yarıya temel node sayılabilecek nodlar oldugu için böyle bi isim koyuldu.
+Bunlardan hariç temel ve spesifik nodlar var. Temel nodlar 6 tane yanan kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar işlemler yapmamıza yarayan nodlardır yani bir yazılım dilini oluşturan ana dili gibi. Spesifik nodlar kurdeleli kalp ile gösterilirler ve puanlama sisteminden muaftırlar, bu nodlar bazı (kendine has) durumlarda kullanılan nodlardır, spesifik nodlar çok kullanılmasa da yerinde kullanılan ve yarı yarıya temel node sayılabilecek nodlar oldugu için böyle bi isim koyuldu. Spesifik nodlar çok kullanışsız da olabilir, çok kullanışlı da, hepsi spesifik noddur çünkü motor tarafından bunu yapabilecek başka bir node sunulmamıştır.
 <br>
 <br>
 <br>
