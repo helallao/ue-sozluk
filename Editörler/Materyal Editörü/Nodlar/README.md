@@ -40,7 +40,7 @@ Kullanılmıyor. Sis ve atmosferik level efektlerini etkileyen şeyler var. Ama 
 Bu node "Base" textureyi verdigimiz "Blend" texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve Blend rengi ile birleşmiş bir texture olur. Eger Blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü bu node textureyi daha koyu (yogun) yapmak içindir.
 
 * #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge) 💜💚❤️
-Blendi 1 den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), "Base" olarak verdigimiz textureyi Blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
+Blendi 1'den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), "Base" olarak verdigimiz textureyi Blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
 * #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken) 💚💛💙
 Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten-%EF%B8%8F))
@@ -97,19 +97,19 @@ Kullanışsız, renkleri silmede kullanılıyor.
 ## Color
 
 * #### [Desaturation](https://youtu.be/0pPyCZvZ05A) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-"Fraction" degeri 0 dan 1 e yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde eksilere gittikçe texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak (kontrast ayarı) için kullanabilirsiniz.
+"Fraction" degeri 0'dan 1'e yaklaştıkça texturenin renkleri solmaya başlar ve 1 olunca siyah beyaz olur. Aynı şekilde eksilere gittikçe texturenin renkleri daha da artar ve -1 de iki katı renkli olur. Bunu texturenizin renklerini arttırmak ve azaltmak (kontrast ayarı) için kullanabilirsiniz.
 
 İnput | İşlem
 :---: | :---:
 ‎ | Texture ve ya renk
-Fraction | Fraction degeri
+Fraction | Fraction degeri (-∞'dan 1'e, default 1)
 Luminance Factors | Burdaki her renk degeri, o renk kanalının ne kadar etkilenecegini belirtir
 
 * #### [LinearTosRGB]() ❤️💛💜
 [Color Space (Renk Uzayı)](https://en.wikipedia.org/wiki/Color_space) degiştirir. Linear renk uzayını sRGB ye dönüştürür. (zıttı [sRGBToLinear](#srgbtolinear-)).
 
 * #### [Luminance]() 💝
-Verilen inputun (V3 olmalı yoksa düzgün çalışmıyor) rengine göre parlaklık degeri döndürür. Yani insan gözüne ne kadar parlak göründügünü. Luminance Factors bölümünde hangi renklerin daha parlak oldugunu görebilirsiniz, burdaki orana göre parlaklık hesaplanıyor. Luminance Mode kısmında farklı renk uzaylarına (color space) göre ayarlanan Luminance Factors degerleri vardır. Zaten burdaki renk uzaylarının hepsinin degerleri birbirine çok yakın. Normalde parlaklık Yeşil > Kırmızı > Mavi şeklinde hesaplanıyor. Tabi isterseniz Luminance Factors bölümünden kendi istediginiz oranları verebilirsiniz, böylelikle "Custom" Luminance Mode kullanmış olursunuz. Bu nodu farklı şeylerde de kullanabilirsiniz.
+Verilen inputun (V3 olmalı yoksa düzgün çalışmıyor) rengine göre parlaklık degeri döndürür. Yani insan gözüne ne kadar parlak göründügünü. Luminance Factors bölümünde hangi renklerin daha parlak oldugunu görebilirsiniz, burdaki orana göre parlaklık hesaplanıyor. Luminance Mode kısmında farklı renk uzaylarına (color space) göre ayarlanan Luminance Factors degerleri vardır. Zaten burdaki renk uzaylarının hepsinin degerleri birbirine çok yakın. Normalde parlaklık Yeşil > Kırmızı > Mavi şeklinde hesaplanıyor. Tabi isterseniz Luminance Factors bölümünden kendi istediginiz oranları verebilirsiniz, böylelikle "Custom" Luminance Mode kullanmış olursunuz.
 
 * #### [sRGBToLinear]() 💜💙💛
 [Color Space (Renk Uzayı)](https://en.wikipedia.org/wiki/Color_space) degiştirir. sRGB renk uzayını Linear a dönüştürür. (zıttı [LinearTosRGB](#lineartosrgb-%EF%B8%8F)).
@@ -121,7 +121,7 @@ Verilen inputun (V3 olmalı yoksa düzgün çalışmıyor) rengine göre parlakl
 Tek bir degere sahip (1 boyutlu) degişken. İçerisinde sayı tutar. Bazı yerlerde (S) diye geçer yani skaler (scalar).
 
 * #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde V2 diye geçer.
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde V2 diye geçer. Ayrıca UV diye de geçer, açıklama için [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna bakın.
 
 * #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir, bazı yerlerde V3 diye de geçer.
@@ -136,7 +136,7 @@ Normal [Constanta](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür.
 
 * #### [DistanceCullFade](https://www.youtube.com/watch?v=E0A9JHxHNCI) 💝
-Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse bu node deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga bu nodu baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek.
+Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse bu node deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga bu nodu baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek. Linkteki videoya bakabilirsiniz.
 
 * #### [IsOrthographic]() 💝
 Eger kamera modu "Orthographic" ise (viewport'un perspective bölümünde bir kategori) bu node 1 (S) döndürür, aksi takdirde 0 (S) döndürür.
@@ -168,7 +168,7 @@ Eger kamera modu "Orthographic" ise (viewport'un perspective bölümünde bir ka
 
 
 * #### [PerInstanceFadeAmount](https://docs.unrealengine.com/5.1/en-US/constant-material-expressions-in-unreal-engine/#perinstancefadeamount) 💝
-Linkteki açıklama ve videoya bakarsanız iyi olur, bu node foliage modu için, uzaklaştıgınızda görünmez, yakınlaştıgınızda görünür olmasını saglar, dünyanızda çok fazla agaç varsa bunu kullanmanız performans açısından iyi olur. Linkteki videoda gördügünüz ayarları yaptıktan sonra bu node, uzaktayken 1 yakınlaştıkça 0a dogru kayan bir deger verir.
+Linkteki açıklama ve videoya bakarsanız iyi olur, bu node foliage modu için, uzaklaştıgınızda görünmez, yakınlaştıgınızda görünür olmasını saglar, dünyanızda çok fazla agaç varsa bunu kullanmanız performans açısından iyi olur. Linkteki videoda gördügünüz ayarları yaptıktan sonra bu node, uzaktayken 1 yakınlaştıkça 0'a dogru kayan bir deger verir.
 
 * #### [PerInstanceRandom](https://youtu.be/_Pxwi2CAQBI) 💝
 Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger (S) döndürür.
@@ -261,7 +261,7 @@ Time | Aldıgı zaman degerine göre pozisyonu belirler
 Speed | Hız degerleri
 
 * #### [PanTextureCoordinateChannelfrom-1ton+1]() 🤍
-[TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerinin tek bir kanalını -1 den "Tiling Amount" inputuna verdiginiz deger + 1 e kadar [pan](#panner-%EF%B8%8F) eder. Mantıklı bi kullanılış şekli bulamadım. [PanTextureCoordinateFrom-1toN+1](#pantexturecoordinatefrom-1ton1-) daha mantıklı.
+[TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerinin tek bir kanalını -1'den "Tiling Amount" inputuna verdiginiz deger + 1'e kadar [pan](#panner-%EF%B8%8F) eder. Mantıklı bi kullanılış şekli bulamadım. [PanTextureCoordinateFrom-1toN+1](#pantexturecoordinatefrom-1ton1-) daha mantıklı.
 
 * #### [PanTextureCoordinateFrom-1toN+1]() 🤍🤍
 [PanTextureCoordinateChannelfrom-1ton+1 ](#pantexturecoordinatechannelfrom-1ton1-) gibi ama tek bir kanalı degil, [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini [pan](#panner-%EF%B8%8F) eder. Kullanışlı bir şeye benzemiyor.
@@ -293,7 +293,7 @@ Time | Aldıgı zaman degerine göre pozisyonu belirler
 
 
 * #### [SceneTexelSize]() 💝
-Ekranınızın Texel degerini verir. Döndürdügü output degerini 1e bölerseniz, elinize toplam piksel degeri, daha dogrusu ekran boyutunuz çıkar. Yani her piksel için "1/piksel sayısı" veriyor. Texel konusu hakkında [buraya](https://www.beyondextent.com/deep-dives/deepdive-texeldensity) bakabilirsiniz.
+Ekranınızın Texel degerini verir. Döndürdügü output degerini 1'e bölerseniz, elinize toplam piksel degeri, daha dogrusu ekran boyutunuz çıkar. Yani her piksel için "1/piksel sayısı" veriyor. Texel konusu hakkında [buraya](https://www.beyondextent.com/deep-dives/deepdive-texeldensity) bakabilirsiniz.
 
 * #### [ScreenPosition](https://youtu.be/OKIJlsOxNPI) 💝
 ScreenPosition, verdiginiz materyale sahip olan meshin, sizin ekranınızda tam olarak hangi pikseller üzerinde durdugunu verir (V2). Bunu anlatması çok zor o yüzden linkteki videoya kesin bakın. Diyelim ki bir meshe bu materyali verdiniz, ekranınızı yavaşça başka bir tarafa döndürün, ScreenPosition degeri sürekli degişecektir. X ve Y olarak iki deger verir, eger mesh ekranınızın sol kenarında ve neredeyse kaybolacaksa, X degeri sıfıra çok yakın demektir, eger mesh ekranınızın üst kenarında ve neredeyse kaybolacaksa, Y degeri sıfıra çok yakın demektir. ScreenPosition iki output döndürür ama ikisi aynı anlama gelir, "ViewportUV" bu degeri 0 ve 1 arasında verirken, "PixelPosition" bu degeri gerçek piksel sayısına göre verir.
@@ -602,7 +602,7 @@ Yıldız şeklinde bir şekil döndürüyor, "Falloff (S)" degerini ayarlayarak 
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0dan 1e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0'dan 1'e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 * #### [RadialGradientExponential](https://youtu.be/0xNFriRv-Bc) ❤️💛💜💙
 [LinearGradient](#lineargradient-%EF%B8%8F) gibi ama bu daire şekli verir. UVs degerine input olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. "UVs" degerini degiştirmek bu node için tekrarlama degil X ve Y eksenlerinin boyutu anlamına geliyor, yani [şurdaki](https://youtu.be/0xNFriRv-Bc?t=355) gibi, mesela X ve Y eksenini 2 yaparsanız, o zaman daire şekli de 2 kat küçülür, buna göre ayarlamanız gerekir. "Center Position" şu anlama geliyor, default olarak 0.5, 0.5 geliyor dairenin orta noktası texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi orta noktası olarak alırdı. Yani Center X ve Center Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, daire sizin ayarladıgınız kordinatı orta noktası olarak alır. "Radius" dairenin çapı, büyüklügü yani. "Density" beyazlık şiddeti. "İnvert density", açık degilken Density degeri beyazlıgın şiddetinin temsil eder ve ortadan dışarıya dogrudur, açıkken Density degeri beyazlıgın degil beyazlıgın çevresindeki siyahlıgın şiddetinin temsil eder ve dışarıdan ortaya dogrudur. Linkteki videoyu izleyin, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
@@ -686,7 +686,7 @@ Bu node "Texture" inputuna verilen texture ve ya renk degerini "Percentage" inpu
 Verdiginiz rengi çarpıyor, bir işe yaramaz.
 
 * #### [RaiseBlackLevelsByPercentage]() 🤍
-Verilen inputu (degerler 0-1 arası olmalı) siyahlaştırmaya ve ya beyazlaştırmaya yarar. "Black intensity level" degeri arttıkça siyahlaşmaya, 1den 0a yaklaştıkça beyazlamaya başlar (0 beyaz), 1 de ise hiçbir degişiklik yapmaz (default).
+Verilen inputu (degerler 0-1 arası olmalı) siyahlaştırmaya ve ya beyazlaştırmaya yarar. "Black intensity level" degeri arttıkça siyahlaşmaya, 1'den 0'a yaklaştıkça beyazlamaya başlar (0 beyaz), 1 de ise hiçbir degişiklik yapmaz (default).
 
 
 * #### [RGBtoHSV]() 💛💚💙
@@ -965,7 +965,7 @@ Clamp Max | sadece max çalışır, input min degerinden küçük olsa bile min 
 İnput olarak verdigimiz vektörden, istedigimiz kanalları alabilmemizi saglar.
 
 * #### [Cosine](https://youtu.be/gn5Zbsq8eFs) ❤️💛💚💙
-Cosine yani kosinüs, [Sine](#sine-%EF%B8%8F) ile aynı işlevi görür ama sadece kosinüs sinüse göre biraz daha önden başlar (kosinüs 1 den, sinüs 0 dan). (Bkz. [Sine](#sine-%EF%B8%8F))
+Cosine yani kosinüs, [Sine](#sine-%EF%B8%8F) ile aynı işlevi görür ama sadece kosinüs sinüse göre biraz daha önden başlar (kosinüs 1'den, sinüs 0'dan). (Bkz. [Sine](#sine-%EF%B8%8F))
 
 <img src="../../../Dosyalar/Sine_Cosine.png">
 
@@ -988,7 +988,7 @@ Verdigimiz dereceyi (yani açıyı) [radyana](https://tr.wikipedia.org/wiki/Rady
 Bölme.
 
 * #### [DotProduct](https://youtu.be/sf3jT12pN6o) ❤️💛💚💙💜
-Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1 den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
+Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1'den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
 
 The DotProduct expression computes the dot product, which can be described as the length of one vector projected onto the other, or as the cosine between the two vectors multiplied by their magnitudes. This calculation is used by many techniques for computing falloff. DotProduct requires both vector inputs to have the same number of channels.
 
@@ -1049,7 +1049,7 @@ Sanırım [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF
 
 
 * #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
+Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0'a yaklaştıkça A, 1'e yaklaştıkça B. Ayrıca istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [LinearSine]()
 The LinearSine function takes in a scalar value and outputs the linear sine (or rounded linear sine) of that value, running between 0 and 1. If you connect a Time expression to the value input and use the Linear Sine, you can see animation in the output that coincides with a linear sine wave.
@@ -1082,11 +1082,11 @@ Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun
 "Base" olarak verilen inputu "Add" olarak verilen input ile çarpar ve sonuç ile "Add" inputunu toplar.
 
 * #### [Normalize](https://www.youtube.com/watch?v=SH4XTfPmeH4)  ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verdiginiz vektör en az 2 boyuttan oluşuyorsa (S de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
+Verdiginiz vektör en az 2 boyuttan oluşuyorsa (S de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
 
 
 * #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen inputun 1 den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0a yakın olan degerler artık 1e, 1e yakın olan degerler artık 0a yakın. Bakın,
+Verilen inputun 1'den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0'a yakın olan degerler artık 1'e, 1'e yakın olan degerler artık 0'a yakın. Bakın,
 <br>
 <br>
 1 için 1 - 1 = 0, yani 1 olan deger 0 oldu
@@ -1146,14 +1146,14 @@ Default | Sonuç 0 ise kullanılacak vektör
 Output | İçerik
 :---: | :---:
 Result | [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) edilmiş deger (eger 0 ise "Default" inputuna verdiginiz deger)
-Length==0 | Sonuç 0 a eşitse 1, degilse 0
+Length==0 | Sonuç 0'a eşitse 1, degilse 0
 
 
 * #### [Saturate]() ❤️💛💚💙💜
 Sıfır ve bir arasında [clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) yapar. [Clamp(0, 1)](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile eşit yani, ama çok kullanılan bir noddur.
 
 * #### [Sign]() 🤍
-Sayıların eksi, artı ve ya sıfıra eşit olup olmadıgını tespit etmede kullanılır. Sayı 0 a eşitse 0, düşükse -1, büyükse +1 döndürür.
+Sayıların eksi, artı ve ya sıfıra eşit olup olmadıgını tespit etmede kullanılır. Sayı 0'a eşitse 0, düşükse -1, büyükse +1 döndürür.
 
 * #### [Sine](https://youtu.be/gn5Zbsq8eFs) ❤️💙💚💛💜
 Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder, çogu durumda kullanışlıdır. İnput olarak time nodunu baglayabilirsiniz, böylelikle sürekli tekrarlayan bi deger döndürür. 1 ve 0 civarında iken birazcık yavaşlar, smooth (yumuşak) bi geçiş olur. Bu nodun kullanılma sebebi bu yumuşak efekttir. Linkteki videoda görseller ile anlatılmış kesin izleyin. (Bkz. [Cosine](#cosine-%EF%B8%8F))
@@ -1165,7 +1165,7 @@ Sine yani sinüs, sürekli 1 ve 0 arasında dönen bi dalga. Kendini tekrar eder
 
 
 * #### [SmoothStep]() 💚💛💜
-Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0 dan 1e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0 dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0 dan 1e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
+Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0'dan 1'e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0'dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0'dan 1'e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
 
 İnput | İşlem
 :---: | :---:
@@ -1308,7 +1308,7 @@ Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30
 Bu node "Base" textureyi verdigimiz "Blend" texturesi ile yogunlaştırır ve ya birleştirir. Sonuç daha renkli ve Blend rengi ile birleşmiş bir texture olur. Eger Blend olarak verdigimiz texture beyaz ise bi etki olmaz çünkü bu node textureyi daha koyu (yogun) yapmak içindir.
 
 * #### [Blend_ColorDodge](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_colordodge) 💜💚❤️
-Blendi 1 den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), "Base" olarak verdigimiz textureyi Blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
+Blendi 1'den çıkarıp ([OneMinus(1-x)](#oneminus1-x-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)), "Base" olarak verdigimiz textureyi Blende bölüyor. Sonuç olarak daha parlak bir texture döndürür. Çok denemeler yapsam da mantıgını anlayamadım, internette de kaynak yok.
 
 * #### [Blend_Darken](https://docs.unrealengine.com/5.1/en-US/blend-material-functions-in-unreal-engine/#blend_darken) 💚💛💙
 Verdigimiz iki texturenin her pikselini karşılaştırır ve koyu (yogun) olanı seçer. (zıttı [Blend_Lighten](#blend_lighten-%EF%B8%8F))
@@ -1382,7 +1382,7 @@ Bu node, materyali verdiginiz meshin XYZ yönlerine yakın olan taraflarına ist
 Verilen "Light Position" ve "Source Radius" degerine göre ışıgın şiddetini verir. Muhtemelen bu node sadece tek bir objeye özel materyal hazırlarken, yanında ışık varsa onu hesaplamak için kullanılır.
 
 * #### [CameraDepthFade]() 💚💛💙❤️
-Kamera objeye yaklaştıkça ve uzaklaştıkça, uzaklıga göre 0 ve 1 arası deger döndürür. Yaklaştıkça 0a yakın deger verir, aradaki mesafe "Fade Offset" inputuna verilen degerden küçük olduktan sonra 0 verir. Uzaklaştıkça 1e yakın deger verir, aradaki mesafe (Fade Offset + Fade Length) den büyük olduktan sonra 1 verir. Yani "Fade Offset" ve "Fade Length" başlangıç ve son konumlarını temsil ediyor. Bir başka deyişle "Fade Offset", son noktasının bize ne kadar uzak olacagı ve "Fade Length" ise başlangıç noktasının son noktasından ne kadar uzak olacagı. Dolayısıyla "Fade Length" degeri 1 den 0 a geçişin ne kadar cm (konum degerinde kullanılan birim) uzunlugunda olacagını belirliyor.
+Kamera objeye yaklaştıkça ve uzaklaştıkça, uzaklıga göre 0 ve 1 arası deger döndürür. Yaklaştıkça 0'a yakın deger verir, aradaki mesafe "Fade Offset" inputuna verilen degerden küçük olduktan sonra 0 verir. Uzaklaştıkça 1'e yakın deger verir, aradaki mesafe (Fade Offset + Fade Length) den büyük olduktan sonra 1 verir. Yani "Fade Offset" ve "Fade Length" başlangıç ve son konumlarını temsil ediyor. Bir başka deyişle "Fade Offset", son noktasının bize ne kadar uzak olacagı ve "Fade Length" ise başlangıç noktasının son noktasından ne kadar uzak olacagı. Dolayısıyla "Fade Length" degeri 1'den 0'a geçişin ne kadar cm (konum degerinde kullanılan birim) uzunlugunda olacagını belirliyor.
 
 
 * #### [CameraDirectionVector]() 💝
@@ -1739,7 +1739,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [LinearGradient](https://youtu.be/g7UreR23luA) ❤️💙💜💛
-İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0dan 1e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
+İnput olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz. U kanalı (X) için soldan saga, V kanalı (Y) için yukarıdan aşagıya 0'dan 1'e dogru deger döndürür, bu da siyahtan beyaza bir renk verir. Bu degerler ile istediginizi yapabilirsiniz, kullanışlı bir noddur. Ayrıca linkteki videoya bakın, görseller ile anlamak daha kolay. Bu node bir [gradient](../Terimler%20Sözlügü/README.md#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [SphereGradient-3D](#spheregradient-3d-%EF%B8%8F)
 
 
 * #### [LinearSine]()
@@ -2148,7 +2148,7 @@ Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz "Offset Amount
 
 
 * #### [PanTextureCoordinateChannelfrom-1ton+1]() 🤍
-[TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerinin tek bir kanalını -1 den "Tiling Amount" inputuna verdiginiz deger + 1 e kadar [pan](#panner-%EF%B8%8F) eder. Mantıklı bi kullanılış şekli bulamadım. [PanTextureCoordinateFrom-1toN+1](#pantexturecoordinatefrom-1ton1-) daha mantıklı.
+[TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerinin tek bir kanalını -1'den "Tiling Amount" inputuna verdiginiz deger + 1'e kadar [pan](#panner-%EF%B8%8F) eder. Mantıklı bi kullanılış şekli bulamadım. [PanTextureCoordinateFrom-1toN+1](#pantexturecoordinatefrom-1ton1-) daha mantıklı.
 
 * #### [PanTextureCoordinateFrom-1toN+1]() 🤍🤍
 [PanTextureCoordinateChannelfrom-1ton+1 ](#pantexturecoordinatechannelfrom-1ton1-) gibi ama tek bir kanalı degil, [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini [pan](#panner-%EF%B8%8F) eder. Kullanışlı bir şeye benzemiyor.
@@ -2215,7 +2215,7 @@ Invert Density | İçerden dışarı / Dışardan içeri
 
 
 * #### [RaiseBlackLevelsByPercentage]() 🤍
-Verilen inputu (degerler 0-1 arası olmalı) siyahlaştırmaya ve ya beyazlaştırmaya yarar. "Black intensity level" degeri arttıkça siyahlaşmaya, 1den 0a yaklaştıkça beyazlamaya başlar (0 beyaz), 1 de ise hiçbir degişiklik yapmaz (default).
+Verilen inputu (degerler 0-1 arası olmalı) siyahlaştırmaya ve ya beyazlaştırmaya yarar. "Black intensity level" degeri arttıkça siyahlaşmaya, 1'den 0'a yaklaştıkça beyazlamaya başlar (0 beyaz), 1 de ise hiçbir degişiklik yapmaz (default).
 
 * #### [RayTracedSphere]()
 
@@ -2255,7 +2255,7 @@ Default | Sonuç 0 ise kullanılacak vektör
 Output | İçerik
 :---: | :---:
 Result | [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) edilmiş deger (eger 0 ise "Default" inputuna verdiginiz deger)
-Length==0 | Sonuç 0 a eşitse 1, degilse 0
+Length==0 | Sonuç 0'a eşitse 1, degilse 0
 
 
 * #### [SampleSceneDepth]()
@@ -2312,7 +2312,7 @@ Verilen inputun kontrast derecesini arttırır. "Power" degeri default olarak 1 
 Verilen iki tangent degerine göre curve oluşturuyor. Siyahtan beyaza geçişte (ve ya tam tersi) kullanmak için.
 
 * #### [SmoothStep]() 💚💛💜
-Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0 dan 1e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0 dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0 dan 1e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
+Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0'dan 1'e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0'dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0'dan 1'e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
 
 İnput | İşlem
 :---: | :---:
@@ -3175,7 +3175,7 @@ The ZWorldSpaceFlow function pushes a texture along the tangent space of an obje
 ## Units
 
 * #### [Cm-to-Km]() 💛💚💙
-Verdigimiz inputu 1000000 a böler
+Verdigimiz inputu 1000000'a böler
 <br>
 <br>
 100cm = 1m
@@ -3283,7 +3283,7 @@ The Distance To Nearest Surface Material Expression node allows Materials to sam
 İf gibi, duruma göre ayar yapmanızı saglar. Grafikler için kullanılan uygulama (ya da işleyen birim) neyse, o inputa baglı olan şeyi output olarak verir. Default eger herhangi bir inputa bir şey baglamadıysanız çalışır. Mesela oyun telefondan oynanıyorsa daha düşük kaliteli şeyler kullanabilirsiniz. İnputların anlamları [burda](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#featurelevelswitch) yazıyor.
 
 * #### [Fresnel](https://youtu.be/PLwEwIYX454) 💝
-(İngilizcede bu nodun ismi okunurken "s" düşürülür, "frenel" şeklinde okunur) Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0a yakın, kenara yakın tarafları 1e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz.
+(İngilizcede bu nodun ismi okunurken "s" düşürülür, "frenel" şeklinde okunur) Bu materyale sahip meshe bakıldıgında, meshin orta kısımları 0'a yakın, kenara yakın tarafları 1'e yakın bir deger döndürür. Bu degerler ile meshe ayar yapabilirsiniz.
 
 Mod | İşlem
 :---: | :---:
@@ -3304,7 +3304,7 @@ Sanırım [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF
 The LightmassReplace expression simply passes through the Realtime input when compiling the material for normal rendering purposes, and passes through the Lightmass input when exporting the material to Lightmass for global illumination. This is useful to work around material expressions that the exported version cannot handle correctly, for example WorldPosition.
 
 * #### [LinearInterpolate(Lerp)](https://youtu.be/fckeT6GyvPc) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0 a yaklaştıkça A, 1 e yaklaştıkça B. Ayrıca istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
+Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir boyutlu constant yani sayı (S) kullanalım, A ve B için iki sayı girin mesela 10 ve 0. Eger alpha degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger alpha degerine 0.5 verirseniz sayımız da A ve B nin ortası yani 5 olur. Yani 0'a yaklaştıkça A, 1'e yaklaştıkça B. Ayrıca istediginiz boyutta input ve alpha verebilirsiniz. Mesela A ve B için iki tane renk (RGB yani 3 boyutlu vektör (V3)) verelim. Alpha degeri olarak da 3 boyutlu bi vektör (V3) verelim. Alphanın içindeki her kanalı degiştirdiginizde A ve B için de geçerli olan alpha degeri degişir. Mesela R (red) degiştirirseniz A ve B nin R kanalı için alpha degerini belirlemiş olursunuz ama sadece R kanalı için, diger iki kanalı da yine Alphanın içindeki kanallardan degiştirmeniz gerek.
 
 * #### [MaterialProxyReplace]()
 
@@ -3314,14 +3314,14 @@ Gürültü döndürür. Sanırım texture halinde kullanıyoruz.
 
 Parametre | İşlem
 :---: | :---:
-Scale | Texture büyüklügü, 0 dan başlar yükselttikçe texture da büyür.
+Scale | Texture büyüklügü, 0'dan başlar yükselttikçe texture da büyür.
 Quality | Kaliteyi arttırır.
 Function | Burdan deseni oluşturan fonksiyonu seçiyoruz. Bunları tek tek anlatamam kendiniz test edin ve ya [bakın](https://youtu.be/hP3P3WH4TjM?t=124).
 Turbulence | Test etsem bile anlayamadım, aralardaki boşlugu arttırıyo ve ya birleştiriyo olmalı.
 Levels | Düşükken köşeler sanki çizgi film gibi, arttırınca detaylar daha çok ortaya çıkıyor.
 Output Min | Genellikle ne kadar siyah olacagını seçersiniz, -5 ve 0 arasında denebilir.
 Output Max | Genellikle ne kadar beyaz olacagını seçersiniz, 0 ve 1 arasında denebilir.
-Level Scale | 0 dan uzaklaştıkça (eksi artı farketmez) çizgilerin köşeleri düzleşir.
+Level Scale | 0'dan uzaklaştıkça (eksi artı farketmez) çizgilerin köşeleri düzleşir.
 
 İnput | İşlem
 :---: | :---:
@@ -3363,7 +3363,7 @@ Bu node materyalin gölgesine istediginiz ayarı vermenizi saglar. Materyalinizi
 
 
 * #### [SmoothStep]() 💚💛💜
-Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0 dan 1e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0 dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0 dan 1e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
+Bu node "Value" inputuna verdiginiz texture ve ya inputun "Min" inputuna verdiginiz degerden küçük olan degerlerini siyah (yani 0),  "Max" inputuna verdiginiz degerden büyük olan degerlerini beyaz (yani 1), bunun arasında kalan degerleri ise 0'dan 1'e dogru dagıtır (Minden Maxa). Şimdi [bu kodları](https://blueprintue.com/blueprint/5be94m1c/) kopyalayıp editöre yapıştırın, "Min" olarak 0.3 "Max" olarak 0.7 kullandım, 0 olan kısımları yeşil, 1 olan kısımları mavi yaptım, aradaki kısımda da 0'dan 1 dogru bir [LinearGradient](#lineargradient-%EF%B8%8F) var. Yani 0.3 ve 0.7 bölümleri arasında kalan kısıma 0'dan 1'e dogru degerler dagıtılmış. İşte SmoothStep tam olarak bunu yapıyor.
 
 İnput | İşlem
 :---: | :---:
@@ -3420,13 +3420,13 @@ Türkçesi [Çapraz Çarpım](https://tr.wikipedia.org/wiki/%C3%87apraz_%C3%A7ar
 The DeriveNormalZ expression derives the Z component of a tangent space normal given the X and Y components and outputs the resulting three-channel tangent space normal. Z is calculated as Z = sqrt(1 - (x * x + y * y));
 
 * #### [DotProduct](https://youtu.be/sf3jT12pN6o) ❤️💛💚💙💜
-Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1 den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
+Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1'den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri 1 ve -1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi. Neyse şimdi [bu kodu](https://blueprintue.com/blueprint/5spd0l2y/) kopyalayıp editöre yapıştırın. Şimdi burda [ActorPosition](#actorpositionws-%EF%B8%8F) dan [CameraPosition](#camerapositionws-%EF%B8%8F) çıkarılıyor çünkü hani kamera arkadan bakar ya karakterimizin üstüne dogru dolayısıyla kamera pozisyonundan aktör pozisyonu çıkarılınca baktıgımız yön degerini almış oluyoruz ama aldıgımız deger yönler için uygun degil yani [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalıyız. Artık kameramızın yön degeri hazır, karşılaştıracagımız vektörün sadece X ekseni 1 bu da X eksenine baktıgımızda DotProduct 1 degeri döndürecek demektir.
 
 * #### [Fresnel_Function]()
 
 
 * #### [Normalize](https://www.youtube.com/watch?v=SH4XTfPmeH4) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verdiginiz vektör en az 2 boyuttan oluşuyorsa (S de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
+Verdiginiz vektör en az 2 boyuttan oluşuyorsa (S de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
 
 * #### [Transform]()
 The Transform expression converts a three-channel vector value from one reference coordinate system to another.By default, all shader calculations in a material are done in tangent space. The vector constants, camera vector, light vector, etc are all transformed to tangent space before being used in a material. The Transform expression allows these vectors to be transformed from tangent space to world-space, local-space, or view-space coordinate systems. In addition, it allows world-space and local-space vectors to be transformed to any of the other reference coordinate systems.
@@ -3454,7 +3454,7 @@ Kameranın konum bilgisini verir (V3).
 Her piksel için, kameranın piksele göre yönünü verir. Yani bu materyale sahip olan objeden kameraya dogru olan yönün bilgisi (V3).
 
 * #### [Constant2Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde V2 diye geçer.
+Constantın 2 boyutlu hali, içerisinde iki sayı tutar. Bazı yerlerde V2 diye geçer. Ayrıca UV diye de geçer, açıklama için [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna bakın.
 
 * #### [Constant3Vector]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Constantın 3 boyutlu hali, bu üç boyut RGB ye denk gelir. İçerisinde renk ve ya vektör tutar. Renk tutuyorsa RGB vektör tutuyorsa XYZ denir, bazı yerlerde V3 diye de geçer.
