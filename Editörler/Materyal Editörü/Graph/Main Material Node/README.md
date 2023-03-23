@@ -27,7 +27,7 @@
 
 ## [Attributes](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/)
 
-Burdaki attributelere texture verildiginde "map" denir. Mesela Normal için texture kullanırsanız "Normal Map" kullanmış olursunuz. Attribute degerlerini, isterseniz texture verip her piksel için ayrı ayrı, isterseniz tek deger (S) baglayıp verebilirsiniz. Attributeler hakkında bir [kaynak](../../Kaynaklar/README.md#kitaplar---pdfler) olarak Damien Lappa nın pdfini okuyabilirsiniz.
+Burdaki attributelere [texture](../../../../Assetler/Texture) verildiginde "map" denir. Mesela Normal için texture kullanırsanız "Normal Map" kullanmış olursunuz. Attribute degerlerini, isterseniz texture verip her piksel için ayrı ayrı, isterseniz tek deger (S) baglayıp verebilirsiniz. Attributeler hakkında bir [kaynak](../../Kaynaklar/README.md#kitaplar---pdfler) olarak Damien Lappa nın pdfini okuyabilirsiniz.
 
 * ### [Base Color](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#basecolor)
 Materyalin ana rengidir, ışık yansıdıgında görünecek rengi belirler. Degerler 0-1 arasındadır. 0 siyah, 1 beyazı temsil eder. Map verildiginde "Base Color", "Color", "Diffuse Map" ve ya "Albedo" denir.
@@ -51,7 +51,7 @@ Emissive Color neon gibidir. Degerler 0-1 arasında degildir, istediginiz kadar 
 Materyalin ne kadar opak oldugunu belirler. Degerler 0-1 arasındadır. 0 saydamı, 1 opagı temsil eder. Map verildiginde "Opacity" ve ya "Transparency Map" denir.
 
 * ### [Opacity Mask](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#opacitymask)
-Sadece [Masked](#masked) modunda kullanılabilir. Opacity gibidir ama ya saydam (görünmez) ya da opak olmak zorundadır. Yani Opacity gibi istediginiz derecede opaklık veremezsiniz, ya görünmez ya da opak olmak zorundadır. Pikseli siliyormuşsunuz gibi düşünün ve piksel silinince, silinen pikselin arkasındaki görüntüyü göreceksiniz yani opak gibi olacak (motor hesaplarken yani). Bu da bize performans artışı verir çünkü eger orta derece saydam yapsaydık motor hesaplamaları yaparken, yarı saydam olan yeri hesaplaması gerektiginde arkadaki görüntü ile saydam materyalin görüntüsünü birleştirmesi yani ekstra hesaplama yapması gerekecekti ve performans düşüşü olacaktı ama Opacity Mask sayesinde ara bir saydamlık degeri vermek yerine, ya görünmez ya da görünür (opak) olarak seçim yapıyoruz, bu da sanki pikseli siliyormuşuz gibi sonuç döndürüyor. Opacity Mask tarafından görünmez kılınan yerler motor tarafından hesaplanmıyor, sanki orta yokmuş gibi. Degerler 0-1 arasındadır ama "Opacity Mask Clip Value" degerine altta olanlar 0a üstte olanlar 1e yuvarlanır. 0 saydamı, 1 opagı temsil eder.
+Sadece [Masked](#masked) modunda kullanılabilir. Opacity gibidir ama ya saydam (görünmez) ya da opak olmak zorundadır. Yani Opacity gibi istediginiz derecede opaklık veremezsiniz, ya görünmez ya da opak olmak zorundadır. Pikseli siliyormuşsunuz gibi düşünün ve piksel silinince, silinen pikselin arkasındaki görüntüyü göreceksiniz yani opak gibi olacak (motor hesaplarken yani). Bu da bize performans artışı verir çünkü eger orta derece saydam yapsaydık motor hesaplamaları yaparken, yarı saydam olan yeri hesaplaması gerektiginde arkadaki görüntü ile saydam materyalin görüntüsünü birleştirmesi yani ekstra hesaplama yapması gerekecekti ve performans düşüşü olacaktı ama Opacity Mask sayesinde ara bir saydamlık degeri vermek yerine, ya görünmez ya da görünür (opak) olarak seçim yapıyoruz, bu da sanki pikseli siliyormuşuz gibi sonuç döndürüyor. Opacity Mask tarafından görünmez kılınan yerler motor tarafından hesaplanmıyor, sanki orda yokmuş gibi. Degerler 0-1 arasındadır ama [Opacity Mask Clip Value](#opacity-mask-clip-value) degerinin altında olanlar 0a üstünde olanlar 1e yuvarlanır. 0 saydamı, 1 opagı temsil eder.
 
 * ### [Normal](https://docs.unrealengine.com/5.1/en-US/material-inputs-in-unreal-engine/#normal)
 Verilen degerlere göre bazı kısımları yüksek bazı kısımları alçak gösterir, yani 3d gibi. Bütün açılar için ışıgın yansıma (ve ya başka bişe emin degilim) bilgisini tutar. Normal Map ile aynı işlevi gören [farklı mapler](../../Terimler%20Sözlügü#normal-map---displacement-map---bump-map---height-map) de vardır. OpenGL ve DirectX için 2 farklı Map şekli vardır [(bknz)](https://youtu.be/O7imyB-x5y4?t=1119). Map verildiginde "Normal Map" denir.
@@ -195,6 +195,8 @@ Material Attributes kullanmak istiyorsanız bunu açmanız gerek. Bknz. [Materia
 ### [Decal Response (DBuffer)]()
 ### [Cast Dynamic Shadow as Masked]()
 ### [Opacity Mask Clip Value]()
+[Opacity Mask](#opacity-mask) için threshold yani sınır degeri belirlersiniz. Bu degerin altında olanlar 0a üstte olanlar 1e yuvarlanır. 0 saydamı, 1 opagı temsil eder.
+
 ### [Dithered LOD Transition]()
 ### [Dither Opacity Mask]()
 ### [Allow Negative Emissive Color]()
