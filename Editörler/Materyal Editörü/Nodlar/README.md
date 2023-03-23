@@ -317,7 +317,7 @@ Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV deger
 Parametre | İşlem
 :---: | :---:
 Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
-Offset Percentage | Offset degeri (0 - 1)
+Offset Percentage | Offset degeri (0'dan 1'e)
 Float 2 Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 Output | İçerik
@@ -2477,7 +2477,7 @@ Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV deger
 Parametre | İşlem
 :---: | :---:
 Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
-Offset Percentage | Offset degeri (0 - 1)
+Offset Percentage | Offset degeri (0'dan 1'e)
 Float 2 Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 Output | İçerik
