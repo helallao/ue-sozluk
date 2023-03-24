@@ -12,9 +12,10 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ### Sayfalar
 
-* [Project Settings](#project-settings)
 * [Content Browser](#content-browser)
+* [Project Settings](#project-settings)
 * [Stats (Material)](#stats-material)
+* [Texture Asset Viewer](#texture-asset-viewer)
 
 
 ### Toolbar
@@ -51,11 +52,14 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Sayfalar
 
+### [Content Browser](Sayfalar/Content%20Browser)
+<img src="Dosyalar/Content_Browser_Ana_Ekran.jpg">
+
 ### [Project Settings](Sayfalar/Project%20Settings)
 <img src="Dosyalar/Project_Settings_Ana_Ekran.jpg">
 
-### [Content Browser](Sayfalar/Content%20Browser)
-<img src="Dosyalar/Content_Browser_Ana_Ekran.jpg">
+### [Texture Asset Viewer](Sayfalar/Texture%20Asset%20Viewer)
+<img src="Dosyalar/Texture_Asset_Viewer.jpg">
 
 ### [Stats (Material)](Sayfalar/Stats%20(Material))
 <img src="Dosyalar/Materyal_Editor_Stats.jpg">
