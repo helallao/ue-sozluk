@@ -3217,8 +3217,8 @@ yani 100 x 1000 = 100000.
 * #### [Add Reroute Node]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Düzenleme nodu.
 
-* #### [AntialiasedTextureMask]()
-The AntialiasedTextureMask expression allows you to create a material using a soft (anti-aliased) transition mask. The mask can be used to blend between two complex material properties or to fade out an alpha blended material (works well with SoftMasked). Simply specify a texture with the mask specified in one channel (red, green, blue, or alpha), set the used channel in the expression and specify the comparison value. Assuming the channel stores a grayscale value in the range 0 = black to 1 = white the comparison function defines if the resulting mask should be 0 or 1. This expression is a parameter, allowing the Texture property to be overridden by child MaterialInstances.
+* #### [AntialiasedTextureMask]() 💝
+Kaynaksız ve anlaşılamaz durumda.
 
 * #### [AtmosphericLightColor]()
 
