@@ -19,7 +19,7 @@
 #### [Texture Group]()
 
 
-## [Advenced]()
+## [Advanced]()
 
 #### [Preserve Border]()
 #### [Downscale]()
@@ -38,7 +38,7 @@
 #### [Compression Settings]()
 
 
-## [Advenced]()
+## [Advanced]()
 
 #### [Maximum Texture Size]()
 #### [Lossy Compression Amount]()
@@ -63,7 +63,7 @@
 #### [sRGB]()
 
 
-## [Advenced]()
+## [Advanced]()
 
 #### [X-axis Tiling Method]()
 #### [Y-axis Tiling Method]()
@@ -108,7 +108,7 @@
 #### [Composite Texture]()
 
 
-## [Advenced]()
+## [Advanced]()
 
 #### [Composite Texture Mode]()
 #### [Composite Power]()
