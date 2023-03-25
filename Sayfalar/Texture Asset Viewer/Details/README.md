@@ -122,6 +122,8 @@ Bu ayar texture'nin sRGB color space'inde (renk uzayı) olup olmayacagını beli
 #### [Alpha Coverage Thresholds]()
 #### [Use New Mip Filter]()
 #### [Flip Green Channel]()
+Bu ayar neredeyse %99.9 Normal Map'ler üzerinde kullanılıyor, Normal Map'lerde Green Channel flip edildigi zaman, içe dogru olan kısımlar dışa dogru ve ya dışa dogru olan kısımlar içe dogru dönüyor. Bu ayarı sadece, aradıgınız Normal Map kullanımına uymayan, Green Channel'ı flip edilmesi gereken textureler için kullanırsınız.
+
 #### [Filter]()
 #### [Mip Load Options]()
 #### [sRGB Use Legacy Gamma]()
