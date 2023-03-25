@@ -31,6 +31,7 @@ Dosyayı bilgisayarınızdan tekrar import (projeye aktarma) eder.
 Texture'nin renk kanallarını gösterir.
 
 ## [Mip Level]()
+Buradan texture'nin [MipMap](../../../Editörler/Materyal%20Editörü/Terimler%20Sözlügü#mipmap) Level'larını görüntüleyebilirsiniz.
 
 ## [Zoom ve Fit]()
 Zoom'u zaten biliyorsunuz. Fit bölümünde "Scale To Fit" ve "Scale To Fill" var. "Scale To Fit" resmin kendi sınırları içerisinde, resmi kırpmadan göstermektir. "Scale To Fill" ise resmi Viewport yani resmi görüntülediginiz yerin sınırları içerisinde, resmi kırpmadan göstermektir.
