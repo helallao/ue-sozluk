@@ -16,7 +16,7 @@ Material Parameter Collection oluşturmak için Content Drawer'da [Add butonunu]
 ## MipMap
 [MipMap](https://en.wikipedia.org/wiki/Mipmap), oluşturdugumuz bir texture'nin daha küçük boyutlarda versiyonlarını da oluşturmaktır. Her MipMap bir öncekinin yarısı kadar piksel sayısına sahiptir yani her MipMap oluşturmada texture kalitesi yarılanır. Orijinal kaliteden 1x1 (ya da 2x2 emin degilim) kalitesine kadar zincirleme bir MipMap oluşturma işlemi gerçekleşir. Bu işlem sadece MipMap oluşturuldugu anda olur yani siz projenizi hazırlarken. MipMap'ler şu işe yarar, mesela oyun içinde bir obje size çok uzakta ve bu obje için kullandıgınız texture'yi en son kalitede render ederek performans düşürmeye gerek yok, bunun yerine objeden uzaklaşıldıgında kalitesinin düşürülmesi performans açısından daha iyi ama bu taktik render (performans) açısından iyi olsa da, alan açısından kötüdür (yani kötü demiyelim de, projenize göre). Projenizdeki her bir texture [%33](https://en.wikipedia.org/wiki/1/4_%2B_1/16_%2B_1/64_%2B_1/256_%2B_%E2%8B%AF) daha fazla alan kaplar. Ayrıca bu teknik kaliteyi de arttırır ([aliasing](https://en.wikipedia.org/wiki/Aliasing) bakımından).
 
-<img width="150" src="../../../Dosyalar/Mipmap_Aliasing_Comparison.png">
+<img src="../../../Dosyalar/Mipmap_Aliasing_Comparison.png">
 
 
 ## Normal Map - Displacement Map - Bump Map - Height Map
