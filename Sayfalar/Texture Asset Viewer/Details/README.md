@@ -63,9 +63,10 @@ Bu ayarı sadece MipMap yoksa kullanabilirsiniz. Deger 0'ken [Texture Group'dan]
 Ne işe yaradıgını bilmiyorum.
 
 #### [Never Stream]()
-
+Eger bu seçenek açılırsa, oyun oynanırken (runtime) texture'lar ram'den silinmezler, yani tutulurlar.
 
 #### [Global Force Resident Mip Levels]()
+[Never Stream](#never-stream) gibi ama MipMap'ler için.
 
 
 
@@ -126,17 +127,37 @@ Bu ayar texture'nin sRGB color space'inde (renk uzayı) olup olmayacagını beli
 ## [Adjustments]()
 
 #### [Brightness]()
-#### [Brightness Curve]()
-#### [Vibrance]()
-#### [Saturation]()
-#### [RGBCurve]()
-#### [Hue]()
-#### [Min Alpha]()
-#### [Max Alpha]()
-#### [Chroma Key Texture]()
-#### [Chroma Key Threshold]()
-#### [Chroma Key Color]()
+Parlaklık.
 
+#### [Brightness Curve]()
+1'den az degerler parlaklıgı arttırır, 1'den büyük degerler parlaklıgı azaltır.
+
+#### [Vibrance]()
+0'dan 1'e gittikçe, doygunluk degeri düşük olan pikselleri diger pikseller gibi doygunluk derecesine getirmek için doygunluk derecesini arttırır.
+
+#### [Saturation]()
+Renklerin doygunluk degerini arttır ve ya azaltır. 0 siyah-beyaz resim demektir. 1'in üzerine gittikçe doygunluk degeri artar.
+
+#### [RGBCurve]()
+1'den az degerler parlaklıgı arttırır, 1'den büyük degerler parlaklıgı azaltır.
+
+#### [Hue]()
+[HueShift](../../../Editörler/Materyal%20Editörü/Nodlar#hueshift-%EF%B8%8F) nodunun 360 derecelik versiyonu.
+
+#### [Min Alpha]()
+Alpha degerini "Remap" etmek için "Min" degeri, Alpha degeri verilen yeni Min ve Max degerine göre şekillenecek.
+
+#### [Max Alpha]()
+Alpha degerini "Remap" etmek için "Max" degeri, Alpha degeri verilen yeni Min ve Max degerine göre şekillenecek.
+
+#### [Chroma Key Texture]()
+Texture'ye Chroma Key uygular yani verilen renkteki kısımları siler.
+
+#### [Chroma Key Threshold]()
+Texture'ye Chroma Key uygulama derecesini belirtir, arttırdıkça [Chroma Key Color](#chroma-key-color) rengine yakın olan kısımları siler. 0 da kullanabilirsiniz, 0 tam o renk degerine sahip olan kısımları siler.
+
+#### [Chroma Key Color]()
+Texture'ye Chroma Key uygulamak için renk degeri alır.
 
 
 
