@@ -99,7 +99,11 @@ Eger bu seçenek açılırsa, oyun oynanırken (runtime) texture'lar ram'den sil
 ## [Texture]()
 
 #### [Power Of Two Mode]()
+Texture'nin X ve Y eksenini 2'nin katı olacak şekilde düzenler. Bunu kullanmanın mantıksız oldugunu düşünüyorum, zaten Unreal Engine 2'nin katı olmayan texture'ların da MipMap'ini oluşturuyor.
+
 #### [Padding Color]()
+Power Of Two Mode kullanırken eklenen yeni kısımlara verilecek renk.
+
 #### [sRGB]()
 Bu ayar texture'nin sRGB color space'inde (renk uzayı) olup olmayacagını belirler. Bu tam olarak şu anlama geliyor, eger texture visual yani görsel bir şey ise, bu seçenek aktif olmalı. Mesela texture'yi materyalinizde [Base Color](../../../Editörler/Materyal%20Editörü/Graph/Main%20Material%20Node#base-color) olarak kullanacaksanız, görsel bir amaçla kullandıgınız için sRGB seçenegi açık olmalıdır. Eger texture'yi görsel degil de sayısal yani texture'nin içindeki bilgileri (sayıları) almak için kullanacaksanız (mesela [Normal Map](../../../Editörler/Materyal%20Editörü/Graph/Main%20Material%20Node#normal), sayısal deger tuttugu için) sRGB kapalı olmalıdır. sRGB seçenegini açtıgınızda texture'nin degerlerinde degişiklikler olur ([Gamma correction](https://en.wikipedia.org/wiki/Gamma_correction)). Bu degişiklikler visual (görsel) olarak dogru sonuçlar verir ama içinde sayı degerleri tutmayı amaçlayan textureler için bilginin bozulması demektir.
 
@@ -148,7 +152,7 @@ Renklerin doygunluk degerini arttır ve ya azaltır. 0 siyah-beyaz resim demekti
 Alpha degerini "Remap" etmek için "Min" degeri, Alpha degeri verilen yeni Min ve Max degerine göre şekillenecek.
 
 #### [Max Alpha]()
-Alpha degerini "Remap" etmek için "Max" degeri, Alpha degeri verilen yeni Min ve Max degerine göre şekillenecek.
+Alpha degerini "Remap" etmek için "Max" degeri, Alpha degeri verilen yeni Min ve Max degerine göre şekillenecek. Bu degeri arttırarak Alpha degerinden dolayı görünmeyen kısımları daha belirgin yapabilirsiniz, sanki doygunluk degerini ve ya parlaklık degerini arttırıyormuşsunuz gibi.
 
 #### [Chroma Key Texture]()
 Texture'ye Chroma Key uygular yani verilen renkteki kısımları siler.
