@@ -15,6 +15,32 @@
 ## [Level Of Detail]()
 
 #### [Mip Gen Settings]()
+Buradan [MipMap](../../../Editörler/Materyal%20Editörü/Terimler%20Sözlügü#mipmap) için kullanılacak ayarı yapabilirsiniz. Size uygun olanı kullanmalısınız. Yanlarında sayı olan seçenekler, o ayarın ne kadar etkili oldugunu belirtiyor. Mesela "Blur1" ve "Blur5", Blur1 az blur efekti, Blur5 çok blur efekti demektir.
+
+* ##### FromTextureGroup
+Sanırım texture'nin grubuna göre, Unreal Engine tarafından tanımlanan şekilde MipMap kullanıyor.
+
+* ##### SimpleAverage
+Normal MipMap.
+
+* ##### Sharpen
+Texture'yi keskinleştirir. Piksel sayısı azaldıkça texture blurlu gibi ve anlaşılmaz olabilir. Texture'yi keskinleştirmek, texture'yi tekrar anlaşılır yapabilir.
+
+* ##### NoMipmaps
+MipMap kullanmaz.
+
+* ##### LeaveExistingMips
+Texture'nin kendi MipMap ayarlarını degiştirmez ve onları kullanır.
+
+* ##### Blur
+Blur efekti verir.
+
+* ##### Unfiltered
+SimpleAverage'e göre biraz daha blurlu, ne farkları oldugunu bilmiyorum.
+
+* ##### Angular
+Ne oldugundan emin degilim.
+
 #### [LOD Bias]()
 #### [Texture Group]()
 
