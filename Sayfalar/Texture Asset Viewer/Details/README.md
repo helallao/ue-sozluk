@@ -42,14 +42,23 @@ SimpleAverage'e göre biraz daha blurlu, ne farkları oldugunu bilmiyorum.
 Ne oldugundan emin degilim.
 
 #### [LOD Bias]()
+LOD Bias normalde 0'dır. Oluşturulan MipMap'ler 1'den başlar yani 1 ilk oluşturulan MipMap'tir ve sonra bu sayı artarak devam eder. LOD Bias orijinal texture olarak MipMap kullanmak yani maximum kaliteyi degiştirmemize yarar. Eger LOD Bias degerini 1 yaparsanız, 1 ilk oluşturulan MipMape'e denk geldigi için texture'nin en yüksek kalitesi yarıya düşer, yani orijinal texture olarak ilk MipMap'i kullanmış olursunuz. Mesela elinizde 4k bir texture varsa ve siz de bunu sanki 2k texture'muş gibi kullanmak istiyorsanız LOD Bias degerini 1 yapabilirsiniz.
+
 #### [Texture Group]()
+Buradan texture'nizin grubunu verdiginizde bir takım degişiklikler yapıyor, ne yaptıgını tam bilmiyorum.
 
 
 ## [Advanced]()
 
 #### [Preserve Border]()
+MipMap oluştururken texture'nin köşelerini tutar yani silinmez. Eger köşelerin silinmemesi gerekiyorsa bu seçenegi açabilirsiniz.
+
 #### [Downscale]()
+Bu ayarı sadece MipMap yoksa kullanabilirsiniz. Deger 0'ken [Texture Group'dan](#texture-group) gelen scale degerine göre texture boyutlandırılır. Deger 1'ken [Texture Group'dan](#texture-group) gelen scale degerine göre texture'yi boyutlandırmayı devre dışı bırakır yani boyutlandırmaz. Deger 1'i geçtikten sonra, arttıkça texture'niz küçülür.
+
 #### [Downscale Options]()
+"Downscale" ayarını kullanırken, texture'yi boyutlandırma işlemi esnasında uygulanacak efekti belirler, [Mip Gen Settings](#mip-gen-settings) gibi.
+
 #### [Num Cinematic Mip Levels]()
 #### [Never Stream]()
 #### [Global Force Resident Mip Levels]()
@@ -127,7 +136,7 @@ Ne oldugundan emin degilim.
 
 
 ## [File Path]()
-
+Dosyanın import edildigi yol ve tarih.
 
 ## [Compositing]()
 
