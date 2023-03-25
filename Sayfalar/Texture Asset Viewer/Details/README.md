@@ -45,7 +45,7 @@ Ne oldugundan emin degilim.
 LOD Bias normalde 0'dır. Oluşturulan MipMap'ler 1'den başlar yani 1 ilk oluşturulan MipMap'tir ve sonra bu sayı artarak devam eder. LOD Bias orijinal texture olarak MipMap kullanmak yani maximum kaliteyi degiştirmemize yarar. Eger LOD Bias degerini 1 yaparsanız, 1 ilk oluşturulan MipMape'e denk geldigi için texture'nin en yüksek kalitesi yarıya düşer, yani orijinal texture olarak ilk MipMap'i kullanmış olursunuz. Mesela elinizde 4k bir texture varsa ve siz de bunu sanki 2k texture'muş gibi kullanmak istiyorsanız LOD Bias degerini 1 yapabilirsiniz.
 
 #### [Texture Group]()
-Buradan texture'nizin grubunu verdiginizde bir takım degişiklikler yapıyor, ne yaptıgını tam bilmiyorum.
+Buradan texture'nizin grubunu verdiginizde bir takım degişiklikler yapıyor, ne yaptıgını tam bilmiyorum ama muhtemelen %99 bu ayarı default yani "World" olarak kullanıcaksınız. Belki bi ihtimal UI için texture hazırlarken bu ayarı "UI" yapmanız gerekebilir, o da sorunlarla karşılaşırsanız.
 
 
 ## [Advanced]()
