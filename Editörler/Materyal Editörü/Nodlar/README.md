@@ -18,11 +18,13 @@ Spesifik Node = 💝
 <br>
 <br>
 ### Yazım şekli
+* Bu dökümanı hazırlarken başlangıçta dügümleri "Node" şeklinde yazıyordum ama kesme işareti falan koyunca çok okunmaz oluyo diyo "Node" kelimesini türkçe gibi düşünüp "Nod" diye yazmaya başladım, bunu sadece ek aldıgı zaman kullandım, ek almazsa yine "Node" diyorum.
 * Eger bi node aratırken farklı, materyal editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 * Eger bi nodun inputu belirli boyutta bir input alıyorsa açıklamada belirtilir, eger açıklamada bunun hakkında bir şey yazmıyorsa her boyutta (S, V2, V3, V4) input alıyor demektir.
 * Eger node hakkında güzel bi kaynak (genellikle video) varsa, nodun başlıgına eklerim, başlıga tıklayıp videoya gidebilirsiniz, zaten nodu anlamak için verdigim kaynaga bakmak gerekiyorsa bunu açıklamada da belirtirim. Bazı nodlarda güzel kaynak olsa bile koymadım çünkü zaten benim açıklamalarımda ögreneceginiz her şey anlatılıyor.
 * Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
 * Bazı bölümlerde "Siyahlık" - "Beyazlık" kavramlarını kullandım, anlaşılır olması için böylesi daha dogruydu, siyahlıktan kastım 0, beyazlıktan kastım 1 degeridir.
+* Bazı nodlarda inputlar nodun üzerinde, detaylar penceresinde. Bu kısımlarda "Ayar/Özellik" kelimesini kullandım. [örnek](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)
 <br>
 <br>
 <br>
@@ -250,9 +252,9 @@ Bu materyale sahip olan objenin kapladıgı alanın yarıçapını (S) verir.
 * #### [Panner](https://youtu.be/24mfLY7aQFQ) ❤️💛💚💜💙
 Texturelara hareket vermenize yarar.
 
-Parametre | İşlem
+Ayar/Özellik | İşlem
 :---: | :---:
-Fractional Part | Noktadan sonraki degeri döndürüyor diyo ama ben tam anlayamadım
+Fractional Part | Döndürdügü degerin sadece noktadan sonraki kısmını verir
 
 İnput | İşlem
 :---: | :---:
@@ -278,7 +280,7 @@ Her pikselin baktıgı yönü vektör (V3) olarak döndürür. Mesela eger bu ma
 * #### [Rotator](https://youtu.be/0wFUoN63F6I) ❤️💚💙💜
 Textureye dönme efekti kazandırır. [UVs](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) döndürür. "Coordinate" olarak [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ve ya [Coordinate Index](../Graph/Main%20Material%20Node/README.md#num-customized-uvs) verebilirsiniz, böylelikle tiling (tekrarlama) ayarlayabilirsiniz. "Center X" ve "Center Y" şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani dönme efekti texturenin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi dönme efektinin tam orta noktası olarak alırdı. Yani "Center X" ve "Center Y", eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, dönme efekti sizin ayarladıgınız kordinatı dönme efektinin orta noktası olarak alır.
 
-Parametre | İşlem
+Ayar/Özellik | İşlem
 :---: | :---:
 Center X | X ekseninde orta nokta (0'dan 1'e)
 Center Y | Y ekseninde orta nokta (0'dan 1'e)
@@ -306,7 +308,7 @@ PixelPosition | ScreenPosition degerini gerçek piksel sayısına göre verir
 * #### [TextureCoordinate(TexCoord)](https://youtu.be/_thf1Z3j73s) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Textureların UV (tekrarlama) degerini ayarlamamıza yarar. Tiling (tekrarlama) aynı materyali farklı boyutlardaki meshlerde de kullanacagımız zaman materyale meshin boyutuna göre bi oran vermemizi saglar. Aslında döndürdügü deger her pikselin konum degeridir. Bu degerlerle oynamak piksellerin konumlarını degiştirir. Bazı yerlerde UV ve ya UVs diye geçer. Ayrıca V2 de denir.
 
-Parametre | İşlem
+Ayar/Özellik | İşlem
 :---: | :---:
 UTiling | X ekseninde (yatay) takrarlama sayısı
 VTiling | Y ekseninde (dikey) takrarlama sayısı
@@ -314,7 +316,7 @@ VTiling | Y ekseninde (dikey) takrarlama sayısı
 * #### [UVBrickPatterns]() 💚💙💜
 Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV degerindeki tiling yani tekrarlama şeklini degiştirir. Her satır (ve ya sütun) verilen Offset yüzdesine göre, biraz daha öne alınmış olur. Neyse bunu örnek vermeden anlatamicam. Şimdi [burdaki](https://blueprintue.com/blueprint/0lvpogfi/) kodu kopyalayıp materyal editörüne yapıştırın, texture degeri olarak bi texture verin. "Offset X (True) Or Offset Y (False)" degeri, offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler. "Offset Percentage" offset degeri, 0 - 1 arası. "Float 2 Coordinates" ise [UV](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri. Verilen offset degerine göre her satır ve ya sütun kaydırılmış olacak. Bu da brick (tugla) görünümü veriyor, fonksiyonun adı da burdan geliyor.
 
-Parametre | İşlem
+Ayar/Özellik | İşlem
 :---: | :---:
 Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
 Offset Percentage | Offset degeri (0'dan 1'e)
@@ -2482,7 +2484,7 @@ Bu node [Time](#time-) noduyla aynıdır. Sadece bir kaç özellik eklenmiş. Ve
 * #### [UVBrickPatterns]() 💚💙💜
 Verilen Offset yönü, Offset yüzdesi ve UV degerlerini alır, verilen UV degerindeki tiling yani tekrarlama şeklini degiştirir. Her satır (ve ya sütun) verilen Offset yüzdesine göre, biraz daha öne alınmış olur. Neyse bunu örnek vermeden anlatamicam. Şimdi [burdaki](https://blueprintue.com/blueprint/0lvpogfi/) kodu kopyalayıp materyal editörüne yapıştırın, texture degeri olarak bi texture verin. "Offset X (True) Or Offset Y (False)" degeri, offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler. "Offset Percentage" offset degeri, 0 - 1 arası. "Float 2 Coordinates" ise [UV](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri. Verilen offset degerine göre her satır ve ya sütun kaydırılmış olacak. Bu da brick (tugla) görünümü veriyor, fonksiyonun adı da burdan geliyor.
 
-Parametre | İşlem
+Ayar/Özellik | İşlem
 :---: | :---:
 Offset X (True) Or Offset Y (False) | Offset verme işleminin X ve ya Y ekseninde olup olmayacagını belirler
 Offset Percentage | Offset degeri (0'dan 1'e)
@@ -3320,7 +3322,7 @@ Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir b
 * #### [Noise](https://youtu.be/hP3P3WH4TjM) ❤️💛💚💜💙
 Gürültü döndürür. Sanırım texture halinde kullanıyoruz.
 
-Parametre | İşlem
+Ayar/Özellik | İşlem
 :---: | :---:
 Scale | Texture büyüklügü, 0'dan başlar yükselttikçe texture da büyür.
 Quality | Kaliteyi arttırır.
@@ -3349,7 +3351,7 @@ Filter Width | Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
 * #### [RotateAboutAxis](https://youtu.be/ljWoJ7Pp9Ww) ❤️💛💚💜
 Materyale dönme efekti kazandırır ama kendi çevresinde degil, dünya içinde. Ayrıca bu dönme efekti hareket olarak degil sadece görünüş olarak olan bir dönme efektidir. Yani dönme efektinden sonra materyalin yeri ne kadar degişse de aslında materiyal ilk koydugunuz konumdadır. Bu node ile materyale istediginiz yönde dönme efekti verebilir bunu otomatikleştirebilirsiniz de. Linkteki videoyu izleyin çünkü yazı ile anlatmak bi anlam ifade etmiyor, eger izlediyseniz yazdıklarımı anlayacaksınız.
 
-Parametre | İşlem
+Ayar/Özellik | İşlem
 :---: | :---:
 Period | Normalde 1 dir. Eger arttırsanız, mesela 5 yaparsanız, 5 kat yavaşlar, yani 1 tur atması 5 kat daha yavaş olur. Aynı şekilde, azaltarak hızlandırabilirsiniz.
 
