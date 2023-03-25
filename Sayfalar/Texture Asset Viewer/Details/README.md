@@ -81,6 +81,8 @@ Eger bu seçenek açılırsa, oyun oynanırken (runtime) texture'lar ram'den sil
 ## [Advanced]()
 
 #### [Maximum Texture Size]()
+Texture için maximum boyutu buraya yazabilirsiniz. Boyutu düşürdüm ama sonuçta dosya aynı kalmayacak mı? demeyin çünkü projenizi bitirip, oyun halini çıkardıktan sonra, proje birleştirilirken buraya verdiginiz ayar kullanılacak yani texturenin boyutu düşmüş olacak.
+
 #### [Lossy Compression Amount]()
 #### [Oodle Texture Sdk Version]()
 #### [ASTC Compression Quality]()
@@ -111,7 +113,11 @@ Bu ayar texture'nin sRGB color space'inde (renk uzayı) olup olmayacagını beli
 ## [Advanced]()
 
 #### [X-axis Tiling Method]()
+[TextureCoordinate](../../../Editörler/Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunda bu texture'yi kullandıgınızda ne olacagını belirler. X ekseninde tiling (tekrarlama) yaptıgınız zaman burdaki ayara göre tiling uygulanır. Wrap, bildigimiz tekrarlama. Clamp, aslında Clamp'i tam anlayamadım, sanki en çok kullanılan rengi tiling olan kısımlar için kullanıyor gibi. Mirror, aynalama yapar, yani X ekseninde ters çevirir.
+
 #### [Y-axis Tiling Method]()
+[TextureCoordinate](../../../Editörler/Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunda bu texture'yi kullandıgınızda ne olacagını belirler. Y ekseninde tiling (tekrarlama) yaptıgınız zaman burdaki ayara göre tiling uygulanır. Wrap, bildigimiz tekrarlama. Clamp, aslında Clamp'i tam anlayamadım, sanki en çok kullanılan rengi tiling olan kısımlar için kullanıyor gibi. Mirror, aynalama yapar, yani Y ekseninde ters çevirir.
+
 #### [Do Scale Mips for Alpha Coverage]()
 #### [Alpha Coverage Thresholds]()
 #### [Use New Mip Filter]()
