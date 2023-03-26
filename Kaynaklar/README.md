@@ -10,6 +10,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [Youtube](#youtube)
 * [Youtube Türk](#youtube-türk)
 * [Discord](#discord)
+* [Diger](#diger)
 
 
 ## Yazılar/Bloglar
@@ -21,10 +22,10 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [ODED MAOZ ERELL'S CG LOG](https://odederell3d.blog/category/unreal-engine/) - Unreal Engine hakkında genel
 * [Techarthub](https://www.techarthub.com/) - Unreal Engine hakkında, genellikle materyaller
 * [Kodeco](https://www.kodeco.com/library?q=unreal+engine) - Unreal Engine hakkında dersler
-* [O'reilly](https://www.oreilly.com/start-trial/)  -Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
-* [Tomlooman](https://www.tomlooman.com/tag/ue4/) -Unreal Engine hakkında blog
+* [O'reilly](https://www.oreilly.com/start-trial/) - Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
+* [Tomlooman](https://www.tomlooman.com/tag/ue4/) - Unreal Engine hakkında blog
 * [UnrealDirective](https://www.unrealdirective.com/) - Unreal Engine hakkında blog, ipuçları ile bilinir (tip)
-* [Normal Vs Displacement Vs Bump Maps](https://www.cgdirector.com/normal-vs-displacement-vs-bump-maps/) - Normal, Displacement ve Bump Mapleri hakkında bilgiler
+
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
@@ -60,3 +61,9 @@ Burdaki serverlar sadece ünlü olanlar, daha fazla server için [disboard'a](ht
 * [PrismaticaDev](https://discord.gg/prismaticadevlearninghub)
 * [Bufuak](https://discord.gg/fRR8kQysSA)
 * [Mağara Dev](https://discord.gg/H46KrVT2m9)
+
+## Diger
+* [Normal Vs Displacement Vs Bump Maps](https://www.cgdirector.com/normal-vs-displacement-vs-bump-maps/) - Normal, Displacement ve Bump Mapleri hakkında bilgiler
+* [UE4 - Texture Optimizations](https://www.youtube.com/watch?v=wFhHsPrHvN4) - Texture Asset Viewer üzerine bir video (baştan sona)
+* [Texture Compression and Settings](https://www.youtube.com/watch?v=h95X255NhOo) - Texture Asset Viewer üzerine bir video
+* [Your Guide to Texture Compression in Unreal Engine](https://www.techarthub.com/your-guide-to-texture-compression-in-unreal-engine/) - Texture Asset Viewer, sıkıştırmalar üzerine
