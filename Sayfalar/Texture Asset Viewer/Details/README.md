@@ -73,15 +73,65 @@ Eger bu seçenek açılırsa, oyun oynanırken (runtime) texture'lar ram'den sil
 ## [Compression]()
 
 #### [Compress Without Alpha]()
+Alpha kanalını texture sıkıştırmanın dışında bırakır.
+
 #### [Editor Show Final Encode]()
 #### [Editor Defer Compression]()
+Bu seçenek texture sıkıştırma işlemini erteler. Normalde [Compression Settings](#compression-settings) bölümünden sıkıştırma ayarı degiştirildigi anda texture sıkıştırma işlemi gerçekleşir ama bu seçenegi açtıgınızda texture sıkıştırma işlemi siz manuel olarak (toolbar'daki [Compress](../Toolbar#compress) butonundan) sıkıştırana kadar ve ya [Save Butonuna](../Toolbar#save-butonu) basana kadar gerçekleşmez.
+
 #### [Compression Settings]()
+
+* ##### Default (DXT1/5, BC1/3 on DX11)
+En etkili sıkıştırma yöntemlerinden biri, [8 kata kadar](https://youtu.be/h95X255NhOo?t=289) sıkıştırma yapabiliyor.
+
+* ##### Normalmap (DXT5, BC5 on DX11)
+Normalmap'ler için kullanılan sıkıştırma yöntemi. Eger Normalmap kullanacaksanız en dogru seçenek budur. [4 kata kadar](https://youtu.be/h95X255NhOo?t=383) sıkıştırma yapabiliyor.
+
+* ##### Masks (no sRGB)
+asd
+
+* ##### Grayscale (G8/16, RGB8 sRGB)
+asd
+
+* ##### Displacementmap (G8/16)
+asd
+
+* ##### VectorDisplacementmap (RGBA8)
+asd
+
+* ##### HDR (RGBA16F, no sRGB)
+asd
+
+* ##### UserInterface2D (RGBA)
+asd
+
+* ##### Alpha (no sRGB, BC4 on DX11)
+asd
+
+* ##### DistanceFieldFont (G8)
+asd
+
+* ##### HDR Compressed (RGB, BC6H, DX11)
+asd
+
+* ##### BC7 (DX11, optional A)
+asd
+
+* ##### Half Float (R16F)
+asd
+
+* ##### Single Float (R32F)
+asd
+
+* ##### HDR High Precision (RGBA32F)
+asd
+
 
 
 ## [Advanced]()
 
 #### [Maximum Texture Size]()
-Texture için maximum boyutu buraya yazabilirsiniz. Boyutu düşürdüm ama sonuçta dosya aynı kalmayacak mı? demeyin çünkü projenizi bitirip, oyun halini çıkardıktan sonra, proje birleştirilirken buraya verdiginiz ayar kullanılacak yani texturenin boyutu düşmüş olacak.
+Texture için maximum boyutu buraya yazabilirsiniz. Boyutu düşürdüm ama sonuçta dosya aynı kalmayacak mı? demeyin çünkü projenizi bitirip, oyunu paketlerken, cooking aşamasında buraya verdiginiz ayar kullanılacak yani texturenin boyutu düşmüş olacak.
 
 #### [Lossy Compression Amount]()
 #### [Oodle Texture Sdk Version]()
