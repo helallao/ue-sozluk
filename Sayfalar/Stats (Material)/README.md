@@ -38,3 +38,9 @@ Sanırım kullanılan [VertexInterpolator](../../Editörler/Materyal%20Editörü
 
 
 ## [Shader Count]()
+
+
+
+
+# Kaynaklar
+* [Stats](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-editor-ui/#statspanel) - Stats Panel, Unreal Engine'in kendi dökümanı
