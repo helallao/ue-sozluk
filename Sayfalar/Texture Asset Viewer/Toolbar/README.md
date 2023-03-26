@@ -23,6 +23,7 @@ Dosyada yapılan degişiklikleri kaydeder.
 Şu an işlem yapılan texture'nin dosya konumunu açar, eger content browser yoksa yeni açar.
 
 ## [Compress]()
+Sadece [Editor Defer Compression](../Details#editor-defer-compression) seçenegini aktifleştirdiginizde açılır. Gerekli açıklamayı oradan bulabilirsiniz.
 
 ## [Reimport]()
 Dosyayı bilgisayarınızdan tekrar import (projeye aktarma) eder.
