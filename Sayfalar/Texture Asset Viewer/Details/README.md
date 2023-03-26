@@ -82,43 +82,43 @@ Bu seçenek texture sıkıştırma işlemini erteler. Normalde [Compression Sett
 #### [Compression Settings]()
 
 * ##### Default (DXT1/5, BC1/3 on DX11)
-En etkili sıkıştırma yöntemlerinden biri, [8 kata kadar](https://youtu.be/h95X255NhOo?t=289) sıkıştırma yapabiliyor.
+En etkili sıkıştırma yöntemlerinden biri, [6](https://www.techarthub.com/your-guide-to-texture-compression-in-unreal-engine/) - [8](https://youtu.be/h95X255NhOo?t=289) kata kadar sıkıştırma yapabiliyor. Eger Alpha kanalı yoksa DXT1, varsa DXT5 ([4](https://www.techarthub.com/your-guide-to-texture-compression-in-unreal-engine/) kata kadar sıkıştırma yapabiliyor) kullanır. Eger sisteminiz DirectX 11 üzeriyse, Alpha kanalı yoksa BC1, varsa BC3 kullanır.
 
 * ##### Normalmap (DXT5, BC5 on DX11)
-Normalmap'ler için kullanılan sıkıştırma yöntemi. Eger Normalmap kullanacaksanız en dogru seçenek budur çünkü Normalmap'ler daha farklı şekilde sıkıştırılma işleminden geçiyorlar. [4 kata kadar](https://youtu.be/h95X255NhOo?t=383) sıkıştırma yapabiliyor. Herhangi bir Normalmap import ettiginizde Unreal Engine otomatikmen bu sıkıştırma yöntemini kullanıyor ama eger olur da kullanmazsa, o zaman manuel olarak buraya gelip kendiniz bu ayarı seçmelisiniz, Normalmap ile ilgili sorun yaşarsanız bakacagınız ilk ayar budur.
+Normalmap'ler için kullanılan sıkıştırma yöntemi. Eger Normalmap kullanacaksanız en dogru seçenek budur çünkü Normalmap'ler daha farklı şekilde sıkıştırılma işleminden geçiyorlar. [4 kata kadar](https://www.techarthub.com/your-guide-to-texture-compression-in-unreal-engine/) sıkıştırma yapabiliyor. Herhangi bir Normalmap import ettiginizde Unreal Engine otomatikmen bu sıkıştırma yöntemini kullanıyor ama eger olur da kullanmazsa, o zaman manuel olarak buraya gelip kendiniz bu ayarı seçmelisiniz, Normalmap ile ilgili sorun yaşarsanız bakacagınız ilk ayar budur.
 
 * ##### Masks (no sRGB)
-Siyah-beyaz yani grayscale texturelar için, bu grayscale texturelarda sRGB ye gerek yok çünkü içinde matematiksel bi bilgi taşıyor (bkz. [sRGB](#srgb)) ve grayscale texturelar tek kanaldır, dolayısıyla texture'nizde en az 3 grayscale texture var demektir, Alpha ile 4. Zaten bu yüzden ismi Mask degil de Masks.
+Siyah-beyaz yani grayscale texturelar için, bu grayscale texturelarda sRGB ye gerek yok çünkü içinde matematiksel bi bilgi taşıyor (bkz. [sRGB](#srgb)) ve grayscale texturelar tek kanaldır, dolayısıyla texture'nizde en az 3 grayscale texture var demektir, Alpha ile 4. Zaten bu yüzden ismi Mask degil de Masks. Özünde Default ile aynı sıkıştırmaları yapar yani sRGB kullanmadan Default sıkıştırmayı kullanırsanız Masks ile aynı sıkıştırma yöntemini kullanmış olursunuz.
 
 * ##### Grayscale (G8/16, RGB8 sRGB)
-Siyah-beyaz yani grayscale texturelar için, textureyi tek bir kanala indirir, zaten adı üstünde Grayscale ve oluşturdugu bu kanalın kalitesini yüksek tutar, olabilecek en az seviyede sıkıştırır, texturenin kapladıgı alan artabilir ama tek bir kanal.
+Siyah-beyaz yani grayscale texturelar için, textureyi tek bir kanala indirir, zaten adı üstünde Grayscale ve oluşturdugu bu kanalın kalitesini yüksek tutar, olabilecek en az seviyede sıkıştırır, texturenin kapladıgı alan artabilir ama tek bir kanal. Hatta belki sıkıştırma yapmıyor da olabilir. Bu sıkıştırmayı kullanırken bide [sRGB'yi](#srgb) açarsanız texture çok fena yer kaplar.
 
 * ##### Displacementmap (G8/16)
-asd
+Grayscale ile aynı diye düşünüyorum. Displacement Mapler için kullanılan sıkıştırma yöntemi.
 
 * ##### VectorDisplacementmap (RGBA8)
-asd
+Sıkıştırılmamış 32-bit RGBA, Grayscale ve ya Displacementmap gibi. Ayrıca Alpha kanalı zorunlu.
 
 * ##### HDR (RGBA16F, no sRGB)
-asd
+Hdri texturelar için. Integer yerine float tutar ve çok yüksek alan kaplayan texturelerdir. Ayrıca Alpha kanalı zorunlu.
 
 * ##### UserInterface2D (RGBA)
 Eger UI için kullanılacak bir texture hazırlıyorsanız bunu kullanmalısınız. Bu ayar UI içinde kullanılan texture'de MipMap ayarlarını devre dışı bırakır ve UI içinde görüntülenen texture'un kalitesi düşmez.
 
 * ##### Alpha (no sRGB, BC4 on DX11)
-asd
+Sanırım sadece Alpha kanalı.
 
 * ##### DistanceFieldFont (G8)
-asd
+Displacementmap ile aynı.
 
 * ##### HDR Compressed (RGB, BC6H, DX11)
-asd
+HDR ile aynı. Tek farkı "Yarım" float'lar kullanması ve böylelikle texture'nin kapladıgı alanı yarıya düşürmesi.
 
 * ##### BC7 (DX11, optional A)
-Yeni çıkan bi sıkıştırma yöntemi. Bunu Default'un daha kalitesi daha yüksek ama daha fazla alan tutan versiyonu gibi düşünebilirsiniz. [4 kata kadar](https://youtu.be/h95X255NhOo?t=838) sıkıştırma yapabiliyor.
+Yeni çıkan bi sıkıştırma yöntemi. Bunu Default'un daha kalitesi daha yüksek ama daha fazla alan tutan versiyonu gibi düşünebilirsiniz. [4 kata kadar](https://youtu.be/h95X255NhOo?t=838) sıkıştırma yapabiliyor. Ayrıca Alpha kanalı zorunlu. Eger kullanmazsanız sistem oluşturur.
 
 * ##### Half Float (R16F)
-asd
+Siyah-beyaz tek kanallı bir texture. "Yarım" float türünden bilgi tutuyor. Ayrıca Alpha kanalı zorunlu.
 
 * ##### Single Float (R32F)
 asd
