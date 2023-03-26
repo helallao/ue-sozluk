@@ -3338,23 +3338,23 @@ Verilen alpha degerine göre iki inputu birbirine karıştırır. Örnegin bir b
 
 
 * #### [Noise](https://youtu.be/hP3P3WH4TjM) ❤️💛💚💜💙
-Gürültü döndürür. Sanırım texture halinde kullanıyoruz.
+Gürültü döndürür. [Gradient](../Terimler%20Sözlügü/README.md#gradient) mantıgıyla kullanılır. Ayarları ve açıklamaları aşagıda görebilirsiniz, sadece "Turbulence" hakkında bi açıklama yapmam gerek. "Turbulance" gradient'ın içindeki şekillerin birbirleriyle karışmasını engeller. Mesela, bu ayar kapalıyken siyah olan kısımlar birbirleriyle birleşip daha çok siyah ve beyaz olan kısımlar birbirleriyle birleşip daha çok beyaz bir şekil çıkarıyorlar, yani aynı türden olan kısımlar birleşip, normalde küçük ve çok olacakken büyük ve az oluyorlar. "Turbulance" buna engel olur.
 
 Ayar/Özellik | İşlem
 :---: | :---:
-Scale | Texture büyüklügü, 0'dan başlar yükselttikçe texture da büyür.
+Scale | Texture büyüklügü, 0'dan başlar yükselttikçe texture da büyür. (0'dan ∞'a)
 Quality | Kaliteyi arttırır.
-Function | Burdan deseni oluşturan fonksiyonu seçiyoruz. Bunları tek tek anlatamam kendiniz test edin ve ya [bakın](https://youtu.be/hP3P3WH4TjM?t=124).
-Turbulence | Test etsem bile anlayamadım, aralardaki boşlugu arttırıyo ve ya birleştiriyo olmalı.
-Levels | Düşükken köşeler sanki çizgi film gibi, arttırınca detaylar daha çok ortaya çıkıyor.
-Output Min | Genellikle ne kadar siyah olacagını seçersiniz, -5 ve 0 arasında denebilir.
-Output Max | Genellikle ne kadar beyaz olacagını seçersiniz, 0 ve 1 arasında denebilir.
-Level Scale | 0'dan uzaklaştıkça (eksi artı farketmez) çizgilerin köşeleri düzleşir.
+Function | Burdan deseni oluşturan fonksiyonu seçiyoruz. Bunları kendiniz test edin ve ya videoya [bakın](https://youtu.be/hP3P3WH4TjM?t=124).
+Turbulence | Gradient'ın içindeki şekillerin birbirleriyle karışmasını engeller.
+Levels | Köşelerin ne kadar dagılacagını belirliyor. Büyük level fazla dagılma demektir.
+Output Min | En düşük deger yani siyah
+Output Max | En yüksek deger yani beyaz
+Level Scale | Arttırdıkça çizgiler genişler
 
 İnput | İşlem
 :---: | :---:
 Position | Sanırım sadece 3 boyutlu vektör kabul ediyor, Texturenin pozisyonunu ayarlar.
-Filter Width | Her nokta (ve ya çizgi) arasındaki mesafeyi arttırır.
+Filter Width | Arttırdıkça çizgiler birbiriyle birleşir
 
 
 * #### [QualitySwitch](https://youtu.be/64I4rzyZ6_Q) 💝
