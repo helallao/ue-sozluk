@@ -8,6 +8,7 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [Araçlar](#araçlar)
 * [Kitaplar - Pdfler](#kitaplar---pdfler)
 * [Youtube](#youtube)
+* [Diger](#diger)
 
 
 ## Yazılar/Bloglar
@@ -21,7 +22,6 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [O'reilly](https://www.oreilly.com/start-trial/) - Unreal Engine hakkında dersler, [gmailnator](https://www.emailnator.com/) sitesinden bir gmail alın ve siteye kaydolun, açılan her hesaba 10 günlük free-trial veriyorlar
 * [Tomlooman](https://www.tomlooman.com/tag/materials/) - Unreal Engine hakkında blog, materyaller de var
 * [UnrealDirective](https://www.unrealdirective.com/) - Unreal Engine hakkında blog, materyaller de var, ipuçları ile bilinir (tip)
-* [Normal Vs Displacement Vs Bump Maps](https://www.cgdirector.com/normal-vs-displacement-vs-bump-maps/) - Normal, Displacement ve Bump Mapleri hakkında bilgiler
 
 ## Araçlar
 * [Unreal Forum](https://forums.unrealengine.com/search) - Soru/Cevap platformu, bir çok sorunu buradan çözeceksiniz
@@ -39,3 +39,9 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine materyaller ve efektler hakkında
 * [Ben Cloward](https://www.youtube.com/@BenCloward/playlists) - Unreal Engine hakkında, genellikle materyaller hakkında dersler, youtubenin en kaliteli materyal dersleri burada
 * [Unreal Gems](https://www.youtube.com/@UnrealGems/videos) - Çok videosu yok ama materyaller ile ilgili çok güzel 4 videosu var
+
+## Diger
+* [Normal Vs Displacement Vs Bump Maps](https://www.cgdirector.com/normal-vs-displacement-vs-bump-maps/) - Normal, Displacement ve Bump Mapleri hakkında bilgiler
+* [UE4 - Texture Optimizations](https://www.youtube.com/watch?v=wFhHsPrHvN4) - Texture Asset Viewer üzerine bir video (baştan sona)
+* [Texture Compression and Settings](https://www.youtube.com/watch?v=h95X255NhOo) - Texture Asset Viewer üzerine bir video
+* [Your Guide to Texture Compression in Unreal Engine](https://www.techarthub.com/your-guide-to-texture-compression-in-unreal-engine/) - Texture Asset Viewer, sıkıştırmalar üzerine
