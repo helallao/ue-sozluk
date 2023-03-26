@@ -85,13 +85,13 @@ Bu seçenek texture sıkıştırma işlemini erteler. Normalde [Compression Sett
 En etkili sıkıştırma yöntemlerinden biri, [8 kata kadar](https://youtu.be/h95X255NhOo?t=289) sıkıştırma yapabiliyor.
 
 * ##### Normalmap (DXT5, BC5 on DX11)
-Normalmap'ler için kullanılan sıkıştırma yöntemi. Eger Normalmap kullanacaksanız en dogru seçenek budur. [4 kata kadar](https://youtu.be/h95X255NhOo?t=383) sıkıştırma yapabiliyor.
+Normalmap'ler için kullanılan sıkıştırma yöntemi. Eger Normalmap kullanacaksanız en dogru seçenek budur çünkü Normalmap'ler daha farklı şekilde sıkıştırılma işleminden geçiyorlar. [4 kata kadar](https://youtu.be/h95X255NhOo?t=383) sıkıştırma yapabiliyor. Herhangi bir Normalmap import ettiginizde Unreal Engine otomatikmen bu sıkıştırma yöntemini kullanıyor ama eger olur da kullanmazsa, o zaman manuel olarak buraya gelip kendiniz bu ayarı seçmelisiniz, Normalmap ile ilgili sorun yaşarsanız bakacagınız ilk ayar budur.
 
 * ##### Masks (no sRGB)
-asd
+Siyah-beyaz yani grayscale texturelar için, bu grayscale texturelarda sRGB ye gerek yok çünkü içinde matematiksel bi bilgi taşıyor (bkz. [sRGB](#srgb)) ve grayscale texturelar tek kanaldır, dolayısıyla texture'nizde en az 3 grayscale texture var demektir, Alpha ile 4. Zaten bu yüzden ismi Mask degil de Masks.
 
 * ##### Grayscale (G8/16, RGB8 sRGB)
-asd
+Siyah-beyaz yani grayscale texturelar için, textureyi tek bir kanala indirir, zaten adı üstünde Grayscale ve oluşturdugu bu kanalın kalitesini yüksek tutar, olabilecek en az seviyede sıkıştırır, texturenin kapladıgı alan artabilir ama tek bir kanal.
 
 * ##### Displacementmap (G8/16)
 asd
@@ -103,7 +103,7 @@ asd
 asd
 
 * ##### UserInterface2D (RGBA)
-asd
+Eger UI için kullanılacak bir texture hazırlıyorsanız bunu kullanmalısınız. Bu ayar UI içinde kullanılan texture'de MipMap ayarlarını devre dışı bırakır ve UI içinde görüntülenen texture'un kalitesi düşmez.
 
 * ##### Alpha (no sRGB, BC4 on DX11)
 asd
@@ -115,7 +115,7 @@ asd
 asd
 
 * ##### BC7 (DX11, optional A)
-asd
+Yeni çıkan bi sıkıştırma yöntemi. Bunu Default'un daha kalitesi daha yüksek ama daha fazla alan tutan versiyonu gibi düşünebilirsiniz. [4 kata kadar](https://youtu.be/h95X255NhOo?t=838) sıkıştırma yapabiliyor.
 
 * ##### Half Float (R16F)
 asd
