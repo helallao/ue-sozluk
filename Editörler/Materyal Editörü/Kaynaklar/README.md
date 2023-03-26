@@ -46,3 +46,4 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [Texture Compression and Settings](https://www.youtube.com/watch?v=h95X255NhOo) - Texture Asset Viewer üzerine bir video
 * [Your Guide to Texture Compression in Unreal Engine](https://www.techarthub.com/your-guide-to-texture-compression-in-unreal-engine/) - Texture Asset Viewer, sıkıştırmalar üzerine
 * [Content Browser](https://docs.unrealengine.com/5.1/en-US/content-browser-in-unreal-engine/) - Content Browser, Unreal Engine'in kendi dökümanı
+* [Platform Stats](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-editor-ui/#platformstats) - Platform Stats, Unreal Engine'in kendi dökümanı
