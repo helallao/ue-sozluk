@@ -1964,16 +1964,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MF_Iridescence]()
 
 
-* #### [MF_MapAdjustments]()
-
-
-* #### [MF_MapAdjustments]()
-
-
-* #### [MF_MapAdjustments]()
-
-
-* #### [MF_MapAdjustments]()
+* #### [MF_MapAdjustments]() ❤️💛💚💙💜
+Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Mapler için bir sürü parametre ekler. [MF_ObjAdjustments](#mf_objadjustments-%EF%B8%8F) nodunun daha fazla Map eklenmiş halidir.
 
 
 * #### [MF_MaterialBlend]()
@@ -1988,16 +1980,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MF_NormalStrength_WS]()
 
 
-* #### [MF_ObjAdjustments]()
-
-
-* #### [MF_ObjAdjustments]()
-
-
-* #### [MF_ObjAdjustments]()
-
-
-* #### [MF_ObjAdjustments]()
+* #### [MF_ObjAdjustments]() ❤️💛💚💙💜
+Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Mapler için bir sürü parametre ekler. Süper bi [Master Material](../Terimler%20Sözlügü#master-material-fonksiyonları) nodudur.
 
 
 * #### [MF_OrenNayerView]()
