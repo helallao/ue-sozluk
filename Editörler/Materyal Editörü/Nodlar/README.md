@@ -1601,7 +1601,7 @@ Bu nodun tam olarak yaptıgı işlem "Alpha Threshold" inputuna verilen degere g
 * #### [FlattenNormal]()
 
 
-* #### [FlipBook]() 💝
+* #### [FlipBook]() ❤️💛💚💙💜
 Bu node hareketli resimler/animasyon oluşturmanıza yarar. [Sprite Sheet](../Terimler%20Sözlügü#sprite-sheet) yöntemini kullanır. "Animation Phase" degeri animasyon fazını belirler, yani mesela diyelim ki 2x2 yani 4 tane resimden oluşan bir flipbook yapmak istiyorsunuz, 1 saniyeye 4e bölersek ilk animasyon 0 ile 0.25 arasında (0 dahil) iken gösterilecek, yani "Animation Phase" degeri bu aralıkta ise ilk resim gösterilir. 0.25 degeri verildigi anda 2. resime geçer ve bu şekilde ilerler. "Animation Phase" degerinin sürekli degişmesi için [Time](#time-) kullanırız. Az önceki örnekte eger fark ettiyseniz, tam 1 sayısında iken bu deger 5. bölüme denk gelir ve böyle bi bölüm olmadıgı için 1 sayısında da ilk resim kullanılır. Bunu engellemek için "Clamp Anim" diye bir input var, eger bu seçenegi aktifleştirirseniz sayılar 0 ve 0.99 arasında [Clamp](#clamp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) edilir ve 1 degeri olmaz ama bu seçenegi aktifleştirdiginizde "Animation Phase" degeri olarak [Time](#time-) kullanamazsınız, [Time](#time-) nodunuza "Period" vermelisiniz ve bu deger de 0.99 olmalı çünkü "Clamp Anim" seçenegini aktifleştirdigimiz için [Time](#time-) nodundan gelen sayı 0.99 dan büyükse yine en son resimi döndürecek o yüzden son resimden sonra tekrar başa dönmeyecek işte bu yüzden "Clamp Anim" seçenegi açıksa "Period" belirlemeniz gerek.
 
 İnput | İşlem
@@ -1915,11 +1915,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MF_BaseLayerTextures]()
 
 
-* #### [MF_DetailNormalTiling]()
-
-
-* #### [MF_DetailNormalTiling]()
-
+* #### [MF_DetailNormalTiling]() 💛💚💜
+Özünde [MF_Tiling](#mf_tiling-%EF%B8%8F) ile aynıdır. İşlem olarak tek farkı Rotation yapılırken orta noktanın [MF_Tiling](#mf_tiling-%EF%B8%8F) gibi ortada kalmaması, yani parametrelerden Tiling ve ya Offset degiştirilirse Rotation yapıldıgında orta nokta da ortada olmayacak. Bu nodun yerine [MF_Tiling](#mf_tiling-%EF%B8%8F) kullanabilirsiniz. Sanırım bu node sadece [Detail Texturing](../Terimler%20Sözlügü#detail-texturing) işlemi gerçekleştirilen Normal Map için, ayırt edilmek amacıyla [yapılmış](https://help.quixel.com/hc/en-us/community/posts/360014954037-Tiling-Why-is-there-a-differenz-between-Rotation-Angle-and-Detail-Normal-Rotation-Angle-).
 
 * #### [MF_Displacement]()
 
@@ -1939,7 +1936,8 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MF_DisplacementBlend]()
 
 
-* #### [MF_FlipBook]()
+* #### [MF_FlipBook]() ❤️💛💚💙💜
+[Flipbook]()
 
 
 * #### [MF_FrameBlend]()
@@ -2037,51 +2035,6 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [MF_Temporal_Blur]()
-
-
-* #### [MF_Tiling]() ❤️💛💚💜💙
-Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Tiling ve rotation (döndürme) yapabilelim diye parametreler ekler. [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri döndürür, "Rotation Angle" outputu ise, parametre olarak verilen degerin aynısını döndürür. 0 - 1 arasında döndürme derecesi, tabi kullanıcı bunu 1'den fazlaya çıkarmış olabilir, eger bu degerle bi işlem yapacaksanız [Frac](#frac-%EF%B8%8F) nodundan geçirin.
-
-Output | İçerik
-:---: | :---:
-Result | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
-Rotation Angle | Döndürme derecesi, direktmen parametrede verilen degeri döndürür.
-
-
-* #### [MF_Tiling]() ❤️💛💚💜💙
-Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Tiling ve rotation (döndürme) yapabilelim diye parametreler ekler. [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri döndürür, "Rotation Angle" outputu ise, parametre olarak verilen degerin aynısını döndürür. 0 - 1 arasında döndürme derecesi, tabi kullanıcı bunu 1'den fazlaya çıkarmış olabilir, eger bu degerle bi işlem yapacaksanız [Frac](#frac-%EF%B8%8F) nodundan geçirin.
-
-Output | İçerik
-:---: | :---:
-Result | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
-Rotation Angle | Döndürme derecesi, direktmen parametrede verilen degeri döndürür.
-
-
-* #### [MF_Tiling]() ❤️💛💚💜💙
-Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Tiling ve rotation (döndürme) yapabilelim diye parametreler ekler. [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri döndürür, "Rotation Angle" outputu ise, parametre olarak verilen degerin aynısını döndürür. 0 - 1 arasında döndürme derecesi, tabi kullanıcı bunu 1'den fazlaya çıkarmış olabilir, eger bu degerle bi işlem yapacaksanız [Frac](#frac-%EF%B8%8F) nodundan geçirin.
-
-Output | İçerik
-:---: | :---:
-Result | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
-Rotation Angle | Döndürme derecesi, direktmen parametrede verilen degeri döndürür.
-
-
-* #### [MF_Tiling]() ❤️💛💚💜💙
-Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Tiling ve rotation (döndürme) yapabilelim diye parametreler ekler. [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri döndürür, "Rotation Angle" outputu ise, parametre olarak verilen degerin aynısını döndürür. 0 - 1 arasında döndürme derecesi, tabi kullanıcı bunu 1'den fazlaya çıkarmış olabilir, eger bu degerle bi işlem yapacaksanız [Frac](#frac-%EF%B8%8F) nodundan geçirin.
-
-Output | İçerik
-:---: | :---:
-Result | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
-Rotation Angle | Döndürme derecesi, direktmen parametrede verilen degeri döndürür.
-
-
-* #### [MF_Tiling]() ❤️💛💚💜💙
-Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Tiling ve rotation (döndürme) yapabilelim diye parametreler ekler. [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri döndürür, "Rotation Angle" outputu ise, parametre olarak verilen degerin aynısını döndürür. 0 - 1 arasında döndürme derecesi, tabi kullanıcı bunu 1'den fazlaya çıkarmış olabilir, eger bu degerle bi işlem yapacaksanız [Frac](#frac-%EF%B8%8F) nodundan geçirin.
-
-Output | İçerik
-:---: | :---:
-Result | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
-Rotation Angle | Döndürme derecesi, direktmen parametrede verilen degeri döndürür.
 
 
 * #### [MF_Tiling]() ❤️💛💚💜💙
