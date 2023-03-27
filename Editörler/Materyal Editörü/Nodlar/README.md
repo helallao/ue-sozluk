@@ -1937,7 +1937,7 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 
 
 * #### [MF_FlipBook]() ❤️💛💚💙💜
-[Flipbook]()
+[Flipbook](#flipbook-%EF%B8%8F) nodu ile aynıdır. Tek farkı "Spacing System". [Flipbook](#flipbook-%EF%B8%8F) noduna göre iki ek input var, "UseSpacing" ve "SpacesProportionsPerCell". "SpacesProportionsPerCell" inputu verilen vektöre göre X ve Y eksenlerinde uzaklaştırma/yakınlaştırma uygular. Default degeri 0'dır. 1'e gittikçe yakınlaştırır ve fazla arttırırsanız texture tersine döner. -1'e gittikçe uzaklaştırır ve -1'e ulaştıgınızda o eksende iki uçta da texture'nin kendisi kadar boşluk oluşturur.
 
 
 * #### [MF_FrameBlend]()
