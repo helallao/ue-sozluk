@@ -1,3 +1,6 @@
+## Detail Texturing
+Detail Texturing, kullanıdıgınız Base Color ve Normal Map üzerine, yeni Base Color ve Normal Map eklemek (bazen, sadece Normal Map de yeterli olur) ve texture üzerinde, texture'a çok yaklaşsak bile görülebilecek detaylar oluşturmaktır. Detail Texturing yapmadıgımız materyallerde, eger texture'a çok yakından bakarsanız üzerindeki detayların çok olmadıgını görebilirsiniz (aslında bu kullanılan texture'a göre). Böyle durumlarda texture üzerine, ikincil Normal Map ekleriz ve bu Normal Map'in tiling (tekrarlama) ayarını yükseltiriz. Bu da bize çok küçük küçük detaylar verir ve texture daha gerçekçi olur. Tabi Detail Texturing sadece yakından görülecek texture'lar için gereken bi durum. Daha fazla bilgi için [buraya](https://docs.unrealengine.com/5.1/en-US/adding-detail-textures-to-unreal-engine-materials/) bakın.
+
 ## Eye Adaptation
 Eye adaption, yani ışıksız ortamdan ışıklı ortama girince ve ya ışıklı ortamdan ışıksız ortama girince olan göz adatasyonu. Kısaca gerçek hayatta gözlerimiz nasıl ışıga alışıyorsa, oyun içinde de Eye Adaptation budur.
 
