@@ -33,6 +33,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * [Materyal Layer Blend](#materyal-layer-blend)
 * [Materyal Layer Blend Instance](#materyal-layer-blend-instance)
 * [Materyal Layer Instance](#materyal-layer-instance)
+* [Materyal Parametre Koleksiyonu](#materyal-parametre-koleksiyonu)
 * [Subsurface Profile](#subsurface-profile)
 * [Texture](#texture)
 
@@ -91,5 +92,6 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * #### [Materyal Layer Blend](Assetler/Materyal%20Layer%20Blend)
 * #### [Materyal Layer Blend Instance](Assetler/Materyal%20Layer%20Blend%20Instance)
 * #### [Materyal Layer Instance](Assetler/Materyal%20Layer%20Instance)
+* #### [Materyal Parametre Koleksiyonu](Assetler/Materyal%20Parametre%20Koleksiyonu)
 * #### [Subsurface Profile](Assetler/Subsurface%20Profile)
 * #### [Texture](Assetler/Texture)
