@@ -1105,7 +1105,7 @@ Verilen inputun 1'den çıkarılmış halini döndürür. Aslında bu node 0 ve 
 <br>
 0.3 için 1 - 0.3 = 0.7, yani 0.3 olan deger 0.7 oldu
 
-* #### [Pi]() 💝
+* #### [Pi]() 🤍🤍
 Pi.
 
 * #### [Power](https://youtu.be/zR7ZjwpNV5c) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -1145,7 +1145,7 @@ Verilen inputu yuvarlar (sayıyı yuvarlar yani).
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 [Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar.
 
-* #### [SafeNormalize]() ❤️💛💚
+* #### [SafeNormalize]() ❤️💛💚💙
 [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır, sadece ek özelligi var. Eger verdigimiz vektör sonuç olarak 0 döndürürse (ki zaten bildigim kadarıyla 0 veren tek input yine 0) "Default" inputuna verdiginiz vektörü sonuç olarak döndürür. Ayrıca "Length==0" diye bir output degeri veriyor, eger sonuç 0 ise "Length==0" 1 döndürür aksi takdirde 0. Yani bu node sadece [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun 0 döndürecegi durumlar için geliştirilmiş hali.
 
 İnput | İşlem
@@ -1308,7 +1308,7 @@ Verdiginiz vektörden (V2, V3, V4) her boyutundaki sayıları toplar. mesela (30
 * #### [BakedDisplacement]()
 
 
-* #### [BellCurve]()
+* #### [BellCurve]() 🤍🤍
 [Bell Curve](https://en.wikipedia.org/wiki/Normal_distribution)
 
 * #### [BitMask]() 🤍
@@ -1663,7 +1663,7 @@ Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yapa
 Input Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 
-* #### [GeneratedOffsetBands](https://youtu.be/7Ie7mrnVuy8) 🤍🤍
+* #### [GeneratedOffsetBands](https://youtu.be/7Ie7mrnVuy8) 💛💙❤️
 Bu node [GeneratedBand](#generatedband-%EF%B8%8F) gibi ama çifter çifter band veriyor. Kullanışlı görmedigim bir node, [GeneratedBand'den](#generatedband-%EF%B8%8F) tek farkı "Bands" inputu. Verdiginiz sayı kadar çifter band oluşturuyor.
 
 
@@ -2163,7 +2163,7 @@ Bu node hiçbir işe yaramaz, sadece pass işlemi yapar yani sadece hiçbir şey
 * #### [PerturbNormalHQ]()
 
 
-* #### [Pi]() 💝
+* #### [Pi]() 🤍🤍
 Pi.
 
 
@@ -2236,7 +2236,7 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 [Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar.
 
 
-* #### [SafeNormalize]() ❤️💛💚
+* #### [SafeNormalize]() ❤️💛💚💙
 [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır, sadece ek özelligi var. Eger verdigimiz vektör sonuç olarak 0 döndürürse (ki zaten bildigim kadarıyla 0 veren tek input yine 0) "Default" inputuna verdiginiz vektörü sonuç olarak döndürür. Ayrıca "Length==0" diye bir output degeri veriyor, eger sonuç 0 ise "Length==0" 1 döndürür aksi takdirde 0. Yani bu node sadece [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun 0 döndürecegi durumlar için geliştirilmiş hali.
 
 İnput | İşlem
@@ -2548,7 +2548,7 @@ Verilen inputun (V4) verilen "RangeMin" ve "RangeMax" inputları arasında ve ya
 * #### [WorldAlignedReflection]()
 
 
-* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) 💝
+* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) ❤️💛💚💙💜
 Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz." TextureSize" inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel "TextureSize" kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 
@@ -2802,7 +2802,7 @@ Compare | Band'ın orta noktası, Offset ile karıştırmayın, bu degeri 0 yapa
 Input Coordinates | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 
 
-* #### [GeneratedOffsetBands](https://youtu.be/7Ie7mrnVuy8) 🤍🤍
+* #### [GeneratedOffsetBands](https://youtu.be/7Ie7mrnVuy8) 💛💙❤️
 Bu node [GeneratedBand](#generatedband-%EF%B8%8F) gibi ama çifter çifter band veriyor. Kullanışlı görmedigim bir node, [GeneratedBand'den](#generatedband-%EF%B8%8F) tek farkı "Bands" inputu. Verdiginiz sayı kadar çifter band oluşturuyor.
 
 * #### [NormalFromFunction]()
@@ -2816,7 +2816,6 @@ The NormalFromHeightMapChaos function takes a heightmap and pans it in 4 directi
 
 * #### [ObjectSpaceFalloff]()
 Kaynaksız ve anlaşılamaz durumda.
-
 
 
 ## Reflections
@@ -3129,7 +3128,7 @@ The TwoSidedTexturing function provides individual texture inputs for both sides
 * #### [WorldAlignedNormal]() 💝
 [WorldAlignedTexture](#worldalignedtexture-) nodunun normal mapler için olan versiyonu, özünde aynı denebilir ama farklılıklar var.
 
-* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) 💝
+* #### [WorldAlignedTexture](https://www.youtube.com/watch?v=MfJ_1LWe2Q4) ❤️💛💚💙💜
 Verilen texture objesinin her yüzeyini [World Position](#worldposition-%EF%B8%8F) nodu kullanarak yerleştirir. İki materyali iç içe koysanız bile, eger iki materyal de WorldAlignedTexture kullanıyorsa textureler aynı düzlemde olacagı için texturelerin görünümünde düzensizlik çıkmaz." TextureSize" inputuna gelirsek, bunu tiling (tekrarlama) gibi düşünebilirsiniz. Default olarak 64, arttırdıkça texturenin de boyutu büyür, yani tiling azalmış gibi olur, azaltırsanız da tiling artıyormuş gibi olur, 3 boyutlu vektör verip her yöndeki kenarlar için özel "TextureSize" kullanabilirsiniz ama bu genellikle hatalar çıkarıyor bu yüzden constant kullanın. Eger [World Position](#worldposition-%EF%B8%8F) nodunu biliyorsanız bunları anlaması çok kolay, bilmiyosanız bile linkteki videoya bakabilirsiniz.
 
 * #### [WorldAlignedTexture_Complex]()
@@ -3380,7 +3379,7 @@ Bu node verilen iki A ve B inputunun (aynı boyutta olmalılar) her degerini (pi
 Bu node [if](#if-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı işlemi yapıyor, "X" inputuna texture ve ya vermek istediginiz inputu veriyorsunuz, "Y" inputuna verdiginiz degere göre küçükse siyah büyükse beyaz döndürüyor. [Burdaki kodları](https://blueprintue.com/blueprint/3r2jb4ja/) kopyalayıp editöre yapıştırın, biraz oynasanız anlarsınız.
 
 
-* #### [VectorNoise](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/ExpressionReference/Vector/#vectornoise) 💜💙❤️
+* #### [VectorNoise](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/ExpressionReference/Vector/#vectornoise) 💙❤️💛💚
 Normal [Noise](#noise-%EF%B8%8F) noduyla aynı, ben bir fark göremedim. 3 boyutlu vektör (V3) veriyor. Farklı farklı noise function'ları var, bunları kendiniz test etmelisiniz.
 
 * #### [VertexInterpolator](https://www.youtube.com/watch?v=_z-kZPJQD4c) 💝
