@@ -1132,7 +1132,7 @@ Verdigimiz inputtaki belirli bir aralıgı (range) başka bi aralıga almamızı
 
 
 * #### [RemapValueRangeNormalized]() 🤍
-"Input" olarak verilen sayıyının (S) "Input Low" ve "Input High" sayılarına göre oranını verir. Yani mesela şöyle düşünün, formül tam olarak şu, "Input Low" olarak verdiginiz sayıyı "Input" olarak verdiginiz sayıdan çıkarın, işte o sayının oranını alıyoruz. Oranını aldıgımız sayı da "Input High" olarak verigimiz sayıdan "Input Low" u çıkarınca çıkan sonuç. Tamam şimdi bi deneme yapalım, [bu kodları](https://blueprintue.com/blueprint/noald93q/) alın ve editöre yapıştırın. Şimdi olan şey şu, 100 - 50 = 50, bu oranını alacagımız sayı. 150 - 50 de oranı belirleyen sayı, 150 - 50 = 100 yani 100e göre 50 nin oranını alıyoruz, bu da %50 demektir. Sonuç 0.5 olacak. Anladın demi?
+"Input" olarak verilen sayıyının (S) "Input Low" ve "Input High" sayılarına göre oranını verir. Yani mesela şöyle düşünün, formül tam olarak şu, "Input Low" olarak verdiginiz sayıyı "Input" olarak verdiginiz sayıdan çıkarın, işte o sayının oranını alıyoruz. Oranını aldıgımız sayı da "Input High" olarak verigimiz sayıdan "Input Low" u çıkarınca çıkan sonuç. Tamam şimdi bi deneme yapalım, [bu kodları](https://blueprintue.com/blueprint/noald93q/) alın ve editöre yapıştırın. Şimdi olan şey şu, 100 - 50 = 50, bu oranını alacagımız sayı. 150 - 50 de oranı belirleyen sayı, 150 - 50 = 100 yani 100e göre 50 nin oranını alıyoruz, bu da %50 demektir. Sonuç 0.5 olacak.
 
 
 * #### [RGBtoHSV]() 💛💚💙
@@ -1143,7 +1143,7 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 Verilen inputu yuvarlar (sayıyı yuvarlar yani).
 
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
+[Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar.
 
 * #### [SafeNormalize]() ❤️💛💚
 [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) ile aynıdır, sadece ek özelligi var. Eger verdigimiz vektör sonuç olarak 0 döndürürse (ki zaten bildigim kadarıyla 0 veren tek input yine 0) "Default" inputuna verdiginiz vektörü sonuç olarak döndürür. Ayrıca "Length==0" diye bir output degeri veriyor, eger sonuç 0 ise "Length==0" 1 döndürür aksi takdirde 0. Yani bu node sadece [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun 0 döndürecegi durumlar için geliştirilmiş hali.
@@ -1651,7 +1651,7 @@ Clamp Anim (see tooltip) | "Animation Phase" degeri için 1 sayısını devre d�
 
 
 * #### [GeneratedBand](https://youtu.be/fITAkG3_qP8) ❤️💛💚💙💜
-Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz işte. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz. Bu node bir [gradient](../Terimler%20Sözlügü#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [GeneratedRoundRect](#generatedroundrect-%EF%B8%8F)
+Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz. Bu node bir [gradient](../Terimler%20Sözlügü#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [GeneratedRoundRect](#generatedroundrect-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -1980,7 +1980,7 @@ Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-mat
 
 
 * #### [MF_ObjAdjustments]() ❤️💛💚💙💜
-Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Mapler için bir sürü parametre ekler. Süper bi [Master Material](../Terimler%20Sözlügü#master-material-fonksiyonları) nodudur.
+Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Mapler için bir sürü parametre ekler. Çok kullanışlı bi [Master Material](../Terimler%20Sözlügü#master-material-fonksiyonları) nodudur.
 
 
 * #### [MF_OrenNayerView]()
@@ -2233,7 +2233,7 @@ RGB degerini [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) degerine dönüşt
 
 
 * #### [Round]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar. İçersinde "Done to match the hlsl functionality" yazıyor. Hlsl ile ilgili bilgim olmadıgı için bişe diyemicem.
+[Round](#round-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodunun fonksiyon halini de yapmışlar.
 
 
 * #### [SafeNormalize]() ❤️💛💚
@@ -2420,7 +2420,7 @@ Bu node [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%
 
 
 * #### [Swizzle](https://youtu.be/DdyvDf442a0) 🤍🤍
-Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür). Linkteki videodan pek bişe anlayamadım ama [bu abiye](https://www.youtube.com/watch?v=hxIl52S-hzM&t=791s) de bakabilirsiniz, güzel anlatmış.
+Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür).
 
 
 * #### [TangentBasis]()
@@ -2790,7 +2790,7 @@ The outputs starting with tree process the model's UV information as it would be
 ## Procedurals
 
 * #### [GeneratedBand](https://youtu.be/fITAkG3_qP8) ❤️💛💚💙💜
-Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz işte. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz. Bu node bir [gradient](../Terimler%20Sözlügü#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [GeneratedRoundRect](#generatedroundrect-%EF%B8%8F)
+Linkteki videoya bakın, çok güzel anlatılmış. Bu node bize düz çizgi (band) veriyor, bununla ilgili bütün ayarları inputlar üzerinden yapabiliyoruz. Anlatılacak pek bir şey yok, zaten gerek de yok, aşagıdaki inputlar her şeyi anlatıyor, illaki anlatım görmek istiyorum diyosanız linkteki videoya bakabilirsiniz. Aklınızı karıştırabilecek tek bir şey var o da "Compare" ve "Offset" inputlarının işlevleri, videoyu izlediyeniz [tam bu saniyede](https://youtu.be/fITAkG3_qP8?t=356) anlatılıyor, "Compare" inputu orta noktayı temsil ediyor, "Offset" ise sadece ileri geri alma, yani boşluk verme işlemi yapıyor. Anlamak için [bu](https://blueprintue.com/blueprint/u5x4pq2b/) kodu alıp editöre yapıştırın, burda olan şey şu "Compare" inputuna 0 verildigi için, band o eksenin başlangıcında olacak, dolayısıyla bandın yarısı yok ve "Offset" verdigimizde band'ın yarısının olmadıgını görebilirsiniz. Bu node bir [gradient](../Terimler%20Sözlügü#gradient) nodudur. Diger gradient nodları: [DiamondGradient](#diamondgradient-%EF%B8%8F), [LinearGradient](#lineargradient-%EF%B8%8F), [RadialGradientExponential](#radialgradientexponential-%EF%B8%8F), [SphereGradient-2D](#spheregradient-2d-%EF%B8%8F), [GeneratedRoundRect](#generatedroundrect-%EF%B8%8F)
 
 İnput | İşlem
 :---: | :---:
@@ -3099,7 +3099,7 @@ SubUV_Function is perfect for handling animation across a sprite sheet or textur
 
 
 * #### [Swizzle](https://youtu.be/DdyvDf442a0) 🤍🤍
-Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür). Linkteki videodan pek bişe anlayamadım ama [bu abiye](https://www.youtube.com/watch?v=hxIl52S-hzM&t=791s) de bakabilirsiniz, güzel anlatmış.
+Verilen inputun X ve Y boyutlarının yerlerini degiştirir, yani flip yapar (döndürür).
 
 
 * #### [TextureCropping]()
@@ -3223,13 +3223,13 @@ Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kulla
 
 
 * #### [BumpOffset](https://youtu.be/70EzAb4CrmA) 💝
-Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya normal mapler için UV olarak kullanabilirsiniz.
+Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine (height map) göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya Normal Mapler için UV olarak kullanabilirsiniz.
 
 İnput | İşlem
 :---: | :---:
 Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz.
 Height | Yükseklik mapi, mesela texturenin bir kanalı olabilir.
-HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı unreal enginenin önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
+HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı Unreal Engine'in önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
 
 * #### [ChannelMaskParameter]() 💝
 [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter](#staticcomponentmaskparameter-) noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
@@ -3257,7 +3257,7 @@ Opacity | Opaklık, sıfırdan (saydam) başlar, arttırdıkça opak olur.
 FadeDistance | Saydamlık efektinin ne kadar uzaga kadar etkili olacagı, bunu 0 yapmayın çünkü 0 yapınca hareket ederken renkler sürekli birbirine giriyor. En az 0.1 yapın.
 
 * #### [DepthOfFieldFunction](https://youtu.be/YUvQHmjpeJ8) 💝
-Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal enginenin [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
+Depth Of Field (odak noktası) degerini verir (bilmiyorsanız google görsellerden bakabilirsiniz). 0 tam odaklanılmış, 1 tamamen blurlu anlamına gelir. Output olarak gelen deger bu ikisi arasındadır. Unreal Engine'in [kendi sayfasında](https://docs.unrealengine.com/5.1/en-US/utility-material-expressions-in-unreal-engine/#depthoffieldfunction) da örnek var.
 
 * #### [Distance](https://youtu.be/ZINJAvhQilg) ❤️💛💚💜💙
 Verilen inputların birbirlerine olan uzaklıgını (öklidyen) döndürür. İki inputun da boyut sayısı aynı olmalıdır.
@@ -3295,7 +3295,7 @@ Center | Orta Nokta (0'dan 1'e)
 
 
 * #### [GIReplace](https://youtu.be/Yb9fiof97xQ) 💝
-Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve siz de bu duvarın yanına başka bir mesh daha koydunuz, biliyorsunuz ki unreal engine duvar ne renkse duvarın yanındaki meshe de o rengin biraz yansımasını verecek. İşte yansıma rengini ayarlamak için bu nodu kullanıyoruz. Linkteki videoyu izleyin, görsellerle anlaması daha kolay.
+Bu materyale sahip meshin, diyelim ki bu materyale sahip olan mesh bir duvar ve siz de bu duvarın yanına başka bir mesh daha koydunuz, biliyorsunuz ki Unreal Engine duvar ne renkse duvarın yanındaki meshe de o rengin biraz yansımasını verecek. İşte yansıma rengini ayarlamak için bu nodu kullanıyoruz. Linkteki videoyu izleyin, görsellerle anlaması daha kolay.
 
 * #### [InverseLinearInterpolate(InvLerp)]() 🤍
 Sanırım [LinearInterpolate(Lerp)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynı. Bi fark bulamadım.
