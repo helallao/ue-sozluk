@@ -29,6 +29,8 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * [Materyal](#materyal)
 * [Materyal Fonksiyonu](#materyal-fonksiyonu)
 * [Materyal Instance](#materyal-instance)
+* [Materyal Layer](#materyal-layer)
+* [Materyal Layer Blend](#materyal-layer-blend)
 * [Subsurface Profile](#subsurface-profile)
 * [Texture](#texture)
 
