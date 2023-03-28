@@ -180,7 +180,7 @@ Her instance oluşturdugunuzda bu node 0 ve 1 arasında random deger (S) döndü
 
 
 * #### [Time](https://youtu.be/SMQI9_MEfRM) 💝
-Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için [DebugScalarValues](#debugscalarvalues-%EF%B8%8F) nodunu kullanabilirsiniz. "Period" parametresi ile kaç saniyede bir sıfılanacagı, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
+Oyun başladıgı andan itibaren geçen süreyi verir. Eger editördeyseniz editörde geçen süreyi verir. Degeri görüntülemek için [DebugScalarValues](#debugscalarvalues-%EF%B8%8F) nodunu kullanabilirsiniz. "Period" parametresi ile kaç saniyede bir sıfırlanacagını, daha dogrusu kaça kadar sayacagını belirleyebilirisiniz.
 
 * #### [TwoSidedSign]() 💝
 Bu nodu kullanabilmeniz için Main Material Node'un ["Two Sided"](../Graph/Main%20Material%20Node#two-sided) özelligini açmanız gerek. Eger materyalinizin iki yüzlü ve iki yüzünde ayrı texture'ler olmasını istiyorsanız bunu kullanabilirisiniz. [Lerp (LinearInterpolate)](#linearinterpolatelerp-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduna "Alpha" degeri olarak bu nodu baglayın. Verdiginiz iki input, iki yüzeyi temsil ediyor. Normal yüz için 1, oluşturdugu yeni yüz için -1 degeri döndürür.
