@@ -242,7 +242,7 @@ Lightmap UV için texture coordinatelerini verir. X ve Y için iki boyutlu bir v
 * #### [ObjectAlignedVirtualPlaneCoordinates]()
 
 * #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
-Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir (0-1), obejenin yönüne göre.
+Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Eger o eksenlerin tam tersine bakıyorsa, o zaman eksili degerler verir. Mesela eger X ekseninin tersine dönükse (-1, 0, 0), Y ekseninin tersine dönükse (0, -1, 0), Z ekseninin tersine dönükse (0, 0, -1) verir. Bu deger aralarda da olabilir (-1 ve 1 arası), obejenin yönüne göre.
 
 * #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💝
 Bu materyale sahip olan objenin konum bilgisini verir (V3).
@@ -3471,7 +3471,7 @@ This expression has been deprecated in Unreal Engine 4 as lighting calculations 
 Bu materyale sahip olan objenin X, Y, Z eksenlerine göre kapladıkları alanların bilgisini verir (V3).
 
 * #### [ObjectOrientation](https://youtu.be/eDlSIm0BL6g) 💝
-Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Bu deger aralarda da olabilir (0-1), obejenin yönüne göre.
+Bu materyale sahip olan objenin yön bilgisini verir (V3). Mesela eger X eksenine dönükse (1, 0, 0), Y eksenine dönükse (0, 1, 0), Z eksenine dönükse (0, 0, 1) verir. Eger o eksenlerin tam tersine bakıyorsa, o zaman eksili degerler verir. Mesela eger X ekseninin tersine dönükse (-1, 0, 0), Y ekseninin tersine dönükse (0, -1, 0), Z ekseninin tersine dönükse (0, 0, -1) verir. Bu deger aralarda da olabilir (-1 ve 1 arası), obejenin yönüne göre.
 
 * #### [ObjectPositionWS](https://youtu.be/P530OKEXCJo) 💝
 Bu materyale sahip olan objenin konum bilgisini verir (V3).
