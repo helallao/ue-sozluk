@@ -87,5 +87,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * #### [Materyal Instance](Assetler/Materyal%20Instance)
 * #### [Materyal Layer](Assetler/Materyal%20Layer)
 * #### [Materyal Layer Blend](Assetler/Materyal%20Layer%20Blend)
+* #### [Materyal Layer Blend Instance](Assetler/Materyal%20Layer%20Blend%20Instance)
+* #### [Materyal Layer Instance](Assetler/Materyal%20Layer%20Instance)
 * #### [Subsurface Profile](Assetler/Subsurface%20Profile)
 * #### [Texture](Assetler/Texture)
