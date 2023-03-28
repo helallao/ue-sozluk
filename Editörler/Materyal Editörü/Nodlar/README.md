@@ -139,7 +139,7 @@ Normal [Constant'a](#constant-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B
 İki fps arasındaki süreyi gösterir, her fpsde deger döndürür (S).
 
 * #### [DistanceCullFade](https://www.youtube.com/watch?v=E0A9JHxHNCI) 💝
-Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse bu node deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga bu nodu baglayın ve volume içerisine giridiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek. Linkteki videoya bakabilirsiniz.
+Bunu kullanabilmeniz için ilk baş dünyanıza [CullDistanceVolume](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/) eklemelisiniz. Ardından bu volume içinde sizin oluşturdugunuz materyale sahip meshler olacak. Ne zaman ki bir oyuncu bu volume içine girerse bu node deger döndürür ve bu degeri kullanarak oyuncu bu volume içine girdiginde yapmak istediginiz basit efektleri uygulayabilirsiniz. Mesela opaklıga bu nodu baglayın ve volume içerisine girdiginiz anda içerdeki mesh görünmez iken yavaşça görünür hale gelicek. Linkteki videoya bakabilirsiniz.
 
 * #### [IsOrthographic]() 💝
 Eger kamera modu "Orthographic" ise (viewport'un perspective bölümünde bir kategori) bu node 1 (S) döndürür, aksi takdirde 0 (S) döndürür.
