@@ -785,7 +785,7 @@ Bu node ile oluşturdugunuz [MaterialAttributes'dan](../Terimler%20Sözlügü#ma
 [MaterialAttributes](../Terimler%20Sözlügü#material-attributes) oluşturmanıza yarar. MaterialAttributes kullanmak için ana materyal nodunuzdaki ["Use Material Attributes"](../Graph/Main%20Material%20Node#use-material-attributes) seçenegini aktifleştirin. Bu nodu kullanmak yerine [SetMaterialAttributes](#setmaterialattributes-%EF%B8%8F) nodunu kullanabilirsiniz.
 
 * #### [MaterialAttributeLayers]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[Materyal Layer'larını]() kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek.
+[Materyal Layer'larını](../../../Assetler/Materyal%20Layer) kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek.
 
 * #### [SetMaterialAttributes]() ❤️💚💙💛💜
 [MakeMaterialAttributes](#makematerialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynıdır ama bu nodda kullanacagınız attribute'leri kendiniz seçebilirsiniz.
@@ -2647,7 +2647,7 @@ The DynamicParameter expression provides a conduit for particle emitters to pass
 The FontSampleParameter expression provides a way to expose a font-based parameter in a material instance constant, making it easy to use different fonts in different instances. The alpha channel of the font will contain the font outline value. Only valid font pages are allowed to be specified.
 
 * #### [MaterialAttributeLayers]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[Materyal Layer'larını]() kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek.
+[Materyal Layer'larını](../../../Assetler/Materyal%20Layer) kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek.
 
 
 * #### [RuntimeVirtualTextureSampleParameter]()
