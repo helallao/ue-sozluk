@@ -1999,8 +1999,8 @@ Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-mat
 * #### [MF_QuixelDecalPOM]()
 
 
-* #### [MF_Refraction]()
-
+* #### [MF_Refraction]() ❤️💛💚💙💜
+Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). [Refraction](../Graph/Main%20Material%20Node#refraction) degerini ayarlayabilmemiz için parametreler ekler.
 
 * #### [MF_RotateVector_90]()
 
@@ -2012,9 +2012,7 @@ Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-mat
 
 
 * #### [MF_SSSObjAdjustments]()
-
-
-* #### [MF_SSSObjAdjustments]()
+[MF_ObjAdjustments](#mf_objadjustments-%EF%B8%8F) ile aynıdır.
 
 
 * #### [MF_Temporal_Blur]()
