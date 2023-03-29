@@ -1942,23 +1942,14 @@ Scratch/grime türkçeye çevirirsek çizik/kir demektir. Aslında bu node bir t
 * #### [MF_FrameBlend]()
 
 
-* #### [MF_FrameTextures]()
-
-
-* #### [MF_Fuzz]()
-
+* #### [MF_FrameTextures]() ❤️💛💚💙
+Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Mapler için parametre ekler. [MF_ObjAdjustments](#mf_objadjustments-%EF%B8%8F) nodunun sadece Map texture'leri için parametre ekleyen versiyonudur, yani herhangi bir ayar parametresi eklemez, sadece Mapler için parametre ekler ve output olarak Mapleri verir.
 
 * #### [MF_Fuzz]()
 
 
-* #### [MF_Fuzz]()
-
-
-* #### [MF_Fuzz]()
-
-
-* #### [MF_Imperfection]()
-
+* #### [MF_Imperfection]() 🤍🤍
+Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). Imperfection Map ve ya Imperfection Mask, materyali çok düz olmaktan, çok mükemmel olmaktan kurtarır ve gerçekçilik ekler. Kısacası bozulma ekler. MF_Imperfection nodu ise bu map için parametreler ekler, bu parametrelerden Imperfection Map'inin şiddetini falan ayarlayabiliriz.
 
 * #### [MF_Iridescence]()
 
@@ -2002,8 +1993,8 @@ Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-mat
 * #### [MF_Refraction]() ❤️💛💚💙💜
 Bu node bir [Master Material Fonksiyonu'dur](../Terimler%20Sözlügü#master-material-fonksiyonları). [Refraction](../Graph/Main%20Material%20Node#refraction) degerini ayarlayabilmemiz için parametreler ekler.
 
-* #### [MF_RotateVector_90]()
-
+* #### [MF_RotateVector_90]() 🤍🤍
+Verilen vektörü XYZ eksenlerinde 90 derece döndürür. CW clockwise yani saat yönü, CCW counter clockwise yani saat yönünün tersi.
 
 * #### [MF_SchlickApprox]()
 
@@ -2078,8 +2069,7 @@ Rotation Angle | Döndürme derecesi, direktmen parametrede verilen degeri dönd
 * #### [MS_SequencePainter_SequenceFlipbook]()
 
 
-* #### [MulM4V4]() 🤍
-Bu node bir yazılım hatası.
+* #### [MulM4V4]()
 
 
 * #### [MultiplyAdd]() 🤍
