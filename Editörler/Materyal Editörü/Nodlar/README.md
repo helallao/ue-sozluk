@@ -2134,7 +2134,18 @@ Tam olarak ne amaçla kullanıldıgını anlayamadım, verdigimiz "Offset Amount
 [PanTextureCoordinateChannelfrom-1ton+1 ](#pantexturecoordinatechannelfrom-1ton1-) gibi ama tek bir kanalı degil, [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini [pan](#panner-%EF%B8%8F) eder. Kullanışlı bir şeye benzemiyor.
 
 
-* #### [ParallaxOcclusionMapping]()
+* #### [ParallaxOcclusionMapping](https://www.youtube.com/watch?v=wc0StMr3CQo) ❤️💛💚💙💜
+[BumpOffset](#bumpoffset-) nodunun gelişmiş halidir ve daha pahalıdır.
+
+İnput | İşlem
+:---: | :---:
+Heightmap Texture | Yükseklik mapi, [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) vermelisiniz, [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanamazsınız
+Height Ratio | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı Unreal Engine'in önerilen ayar aralıgında, 0.05 ve 0.1 arasında kullanın.
+Min Steps | Minimum hesaplama sayısı
+Max Steps | Maximum hesaplama sayısı
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Heightmap Channel | "Heightmap Texture" inputu için, Map olarak kullanılacak kanal 1, digerleri 0
+Reference Plane | Parallax efektinin uygulandıgı noktayı degiştirir, ileri-geri alır
 
 
 * #### [ParticleDOF]()
@@ -3047,7 +3058,18 @@ The LocalAlignedTexture function tiles a texture on an object in local space.
 * #### [PackedDistanceField]()
 
 
-* #### [ParallaxOcclusionMapping]()
+* #### [ParallaxOcclusionMapping](https://www.youtube.com/watch?v=wc0StMr3CQo) ❤️💛💚💙💜
+[BumpOffset](#bumpoffset-) nodunun gelişmiş halidir ve daha pahalıdır.
+
+İnput | İşlem
+:---: | :---:
+Heightmap Texture | Yükseklik mapi, [TextureObject](#textureobject-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) vermelisiniz, [TextureSample](#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanamazsınız
+Height Ratio | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı Unreal Engine'in önerilen ayar aralıgında, 0.05 ve 0.1 arasında kullanın.
+Min Steps | Minimum hesaplama sayısı
+Max Steps | Maximum hesaplama sayısı
+UVs | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
+Heightmap Channel | "Heightmap Texture" inputu için, Map olarak kullanılacak kanal 1, digerleri 0
+Reference Plane | Parallax efektinin uygulandıgı noktayı degiştirir, ileri-geri alır
 
 
 * #### [ScreenAlignedPixelToPixelUVs]()
@@ -3211,11 +3233,11 @@ Verilen sıcaklık derecesine göre (sanırım kelvin) renk döndürüyor. Kulla
 
 
 * #### [BumpOffset](https://youtu.be/70EzAb4CrmA) 💝
-Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine (height map) göre siyah olan kısımları geride, beyaz olan kısımları daha önde gösteren bi efekt verir. Mesela yükseklik mapi, texturenin bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya Normal Mapler için UV olarak kullanabilirsiniz.
+Bu node ek ayar yapmadan derinlik efekti vermenize yarar. Aslında sadece [TextureCoordinate](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini degiştirir. Mesela duvar yaptınız, tuglalar arasında derinlik olmasını istiyorsunuz. Bu node verilen yükseklik mapine (height map) göre açık (beyaz) renkli kısımları daha geriye, koyu (siyah) kısımları ise sadece biraz geriye iter, yani beyaz olan kısımlar çok geriye giderken, koyu olan kısımlar azıcık geriye gider. Yani sonuç olarak, renkli (siyah) olan kısımları öne, beyaz olan kısımları geriye alınmış olur, böylelikle derinlik efekti vermiş olursunuz. Yükseklik mapi texturenin herhangi bir kanalı olabilir, eger siyah ve beyaz kısımlar güzel görünüyorsa çalışacaktır. Output olarak gelen degeri texturelar için UV olarak ve ya Normal Mapler için UV olarak kullanabilirsiniz.
 
 İnput | İşlem
 :---: | :---:
-Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) verebilirsiniz.
+Coordinate | [TextureCoordinate(TexCoord)](#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri
 Height | Yükseklik mapi, mesela texturenin bir kanalı olabilir.
 HeightRatioInput | Artıya gittikçe efektin etkisi artar. Eksileri kullanmıyoruz. Ayrıca bu ayarı Unreal Engine'in önerilen ayar aralıgında, 0.02 ve 0.1 arasında kullanın.
 
