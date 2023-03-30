@@ -27,14 +27,14 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ### Assetler
 
-* [Materyal](#materyal)
-* [Materyal Fonksiyonu](#materyal-fonksiyonu)
-* [Materyal Instance](#materyal-instance)
-* [Materyal Layer](#materyal-layer)
-* [Materyal Layer Blend](#materyal-layer-blend)
-* [Materyal Layer Blend Instance](#materyal-layer-blend-instance)
-* [Materyal Layer Instance](#materyal-layer-instance)
-* [Materyal Parametre Koleksiyonu](#materyal-parametre-koleksiyonu)
+* [Material](#materyal)
+* [Material Function](#material-function)
+* [Material Instance](#material-instance)
+* [Material Layer](#material-layer)
+* [Material Layer Blend](#material-layer-blend)
+* [Material Layer Blend Instance](#material-layer-blend-instance)
+* [Material Layer Instance](#material-layer-instance)
+* [Material Parameter Collection](#material-parameter-collection)
 * [Subsurface Profile](#subsurface-profile)
 * [Texture](#texture)
 
@@ -88,13 +88,13 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Assetler
 
-* #### [Materyal](Assetler/Materyal)
-* #### [Materyal Fonksiyonu](Assetler/Materyal%20Fonksiyonu)
-* #### [Materyal Instance](Assetler/Materyal%20Instance)
-* #### [Materyal Layer](Assetler/Materyal%20Layer)
-* #### [Materyal Layer Blend](Assetler/Materyal%20Layer%20Blend)
-* #### [Materyal Layer Blend Instance](Assetler/Materyal%20Layer%20Blend%20Instance)
-* #### [Materyal Layer Instance](Assetler/Materyal%20Layer%20Instance)
-* #### [Materyal Parametre Koleksiyonu](Assetler/Materyal%20Parametre%20Koleksiyonu)
+* #### [Material](Assetler/Materyal)
+* #### [Material Function](Assetler/Materyal%20Fonksiyonu)
+* #### [Material Instance](Assetler/Materyal%20Instance)
+* #### [Material Layer](Assetler/Materyal%20Layer)
+* #### [Material Layer Blend](Assetler/Materyal%20Layer%20Blend)
+* #### [Material Layer Blend Instance](Assetler/Materyal%20Layer%20Blend%20Instance)
+* #### [Material Layer Instance](Assetler/Materyal%20Layer%20Instance)
+* #### [Material Parameter Collection](Assetler/Materyal%20Parametre%20Koleksiyonu)
 * #### [Subsurface Profile](Assetler/Subsurface%20Profile)
 * #### [Texture](Assetler/Texture)
