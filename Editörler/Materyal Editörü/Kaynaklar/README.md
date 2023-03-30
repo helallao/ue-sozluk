@@ -48,3 +48,11 @@ Burası materyal editörü hakkında kaynakları barındıran bölümdür, içer
 * [Content Browser](https://docs.unrealengine.com/5.1/en-US/content-browser-in-unreal-engine/) - Content Browser, Unreal Engine'in kendi dökümanı
 * [Platform Stats](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-editor-ui/#platformstats) - Platform Stats, Unreal Engine'in kendi dökümanı
 * [Stats](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-editor-ui/#statspanel) - Stats Panel, Unreal Engine'in kendi dökümanı
+* [Layered Materials](https://www.youtube.com/watch?v=UZghyZLzRyM) - Material Layers hakkında video
+* [Layered Materials](https://www.youtube.com/watch?v=ViBUxByc4gw) - Material Layers hakkında video
+
+
+
+
+
+
