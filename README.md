@@ -27,7 +27,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ### Assetler
 
-* [Material](#materyal)
+* [Material](#material)
 * [Material Function](#material-function)
 * [Material Instance](#material-instance)
 * [Material Layer](#material-layer)
