@@ -5,9 +5,9 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ### Editörler
 
-* [Level Editörü](#level-edit%C3%B6r%C3%BC)
-* [Blueprint Editörü](#blueprint-edit%C3%B6r%C3%BC)
-* [Materyal Editörü](#materyal-edit%C3%B6r%C3%BC)
+* [Level Editor](#level-editor)
+* [Blueprint Editor](#blueprint-editor)
+* [Material Editor](#material-editor)
 
 
 ### Sayfalar
@@ -44,13 +44,13 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Editörler
 
-### [Level Editörü](Editörler/Level%20Editörü)
+### [Level Editor](Editörler/Level%20Editörü)
 <img src="Dosyalar/Level_Editor_Ana_Ekran.jpg">
 
-### [Blueprint Editörü](Editörler/Blueprint%20Editörü)
+### [Blueprint Editor](Editörler/Blueprint%20Editörü)
 <img src="Dosyalar/Blueprint_Editor_Ana_Ekran.jpg">
 
-### [Materyal Editörü](Editörler/Materyal%20Editörü)
+### [Material Editor](Editörler/Materyal%20Editörü)
 <img src="Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
 
 
