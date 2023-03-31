@@ -13,6 +13,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 ### Sayfalar
 
 * [Content Browser](#content-browser)
+* [Material Instance Viewer](#material-instance-viewer)
 * [Project Settings](#project-settings)
 * [Texture Asset Viewer](#texture-asset-viewer)
 
@@ -42,11 +43,11 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 # Editörler
 
-### [Level Editor](Editörler/Level%20Editörü)
-<img src="Dosyalar/Level_Editor_Ana_Ekran.jpg">
-
 ### [Blueprint Editor](Editörler/Blueprint%20Editörü)
 <img src="Dosyalar/Blueprint_Editor_Ana_Ekran.jpg">
+
+### [Level Editor](Editörler/Level%20Editörü)
+<img src="Dosyalar/Level_Editor_Ana_Ekran.jpg">
 
 ### [Material Editor](Editörler/Materyal%20Editörü)
 <img src="Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
@@ -58,6 +59,9 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ### [Content Browser](Sayfalar/Content%20Browser)
 <img src="Dosyalar/Content_Browser_Ana_Ekran.jpg">
+
+### [Material Instance Viewer](Sayfalar/Material%20Instance%20Viewer)
+<img src="Dosyalar/Material_Instance_Viewer_Ana_Ekran.jpg">
 
 ### [Project Settings](Sayfalar/Project%20Settings)
 <img src="Dosyalar/Project_Settings_Ana_Ekran.jpg">
