@@ -14,6 +14,7 @@
 * [Graph](#graph)
 * [Palet](#palet)
 * [Stats](#stats)
+* [Platform Stats](#platform-stats)
 * [Bottom Toolbar](#bottom-toolbar)
 
 
@@ -37,6 +38,9 @@
 
 ## [Stats](Stats)
 <img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
+
+## [Platform Stats](Platform%20Stats)
+<img src="../../Dosyalar/Materyal_Editor_Platform_Stats.jpg">
 
 ## [Bottom Toolbar](../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
 <img src="../../Dosyalar/Materyal_Editor_Bottom_Toolbar.jpg">
