@@ -1,4 +1,4 @@
-# Find Results
+# Preview Scene Settings
 
 <img src="../../../Dosyalar/Material_Editor_Preview_Scene_Settings.jpg">
 
