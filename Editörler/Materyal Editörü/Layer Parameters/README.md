@@ -1,4 +1,4 @@
-# Stats
+# Layer Parameters
 <img src="../../../Dosyalar/Material_Editor_Layer_Parameters.jpg">
 
 * Bu sayfa default layout'da açık degildir. Yani manuel olarak açmanız gerek, Top Tool Bar'ın Window bölümünden açabilirsiniz
