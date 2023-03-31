@@ -19,20 +19,20 @@ Burdaki instruction sayısı, sistemin (ekran kartı) materyal için ne kadar i�
 
 ## [Texture samplers]()
 
-Toplamda kullanılan [Texture Sampler](../../Editörler/Materyal%20Editörü/Nodlar#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) sayısını verir. En başta 2 dir, her [Save](../../Editörler/Materyal%20Editörü/Toolbar#save-butonu) yapmaya 1 artar, sanırım sonuç olarak verilen texture da bir "Texture Sampler" dolayısıyla hiç "Texture Sampler" kullanmasanız bile 2 + 1 = 3 oluyor. Tabi bu benim durumuma özel, daha farklı sebeplerden dolayı daha farklı sonuçlar alabilirsiniz, karşılaştıkça buraya yazıcam.
+Toplamda kullanılan [Texture Sampler](../Nodlar#texturesample-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) sayısını verir. En başta 2 dir, her [Save](../Toolbar#save-butonu) yapmaya 1 artar, sanırım sonuç olarak verilen texture da bir "Texture Sampler" dolayısıyla hiç "Texture Sampler" kullanmasanız bile 2 + 1 = 3 oluyor. Tabi bu benim durumuma özel, daha farklı sebeplerden dolayı daha farklı sonuçlar alabilirsiniz, karşılaştıkça buraya yazıcam.
 
 
 
 ## [Texture Lookups (Est.)]()
 
-[VS ve PS](../../Editörler/Materyal%20Editörü/Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) için "Texture Lookup" sayısını yani bir texturenin hesaplamaları yapılırken UVs koordinatına kaç defa bakıldıgı, yani kaç kere işlendigini verir.
+[VS ve PS](../Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) için "Texture Lookup" sayısını yani bir texturenin hesaplamaları yapılırken UVs koordinatına kaç defa bakıldıgı, yani kaç kere işlendigini verir.
 
 
 
 
 ## [User interpolators]()
 
-Sanırım kullanılan [VertexInterpolator](../../Editörler/Materyal%20Editörü/Nodlar#vertexinterpolator-) noduna baglı olarak bilgiler döndürüyor. Yani [Vertex Shader](../../Editörler/Materyal%20Editörü/Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) ile interpolate olan işlemler sayısı.
+Sanırım kullanılan [VertexInterpolator](../Nodlar#vertexinterpolator-) noduna baglı olarak bilgiler döndürüyor. Yani [Vertex Shader](../Terimler%20Sözlügü#vertex-shader-ve-pixel-shader) ile interpolate olan işlemler sayısı.
 
 
 
