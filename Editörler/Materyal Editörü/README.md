@@ -35,7 +35,7 @@
 ## [Palet](Palet)
 <img src="../../Dosyalar/Materyal_Editor_Palet.jpg">
 
-## [Stats](../../Sayfalar/Stats%20(Material))
+## [Stats](Stats)
 <img src="../../Dosyalar/Materyal_Editor_Stats.jpg">
 
 ## [Bottom Toolbar](../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
