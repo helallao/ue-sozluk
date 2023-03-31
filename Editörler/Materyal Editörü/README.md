@@ -15,6 +15,10 @@
 * [Palet](#palet)
 * [Stats](#stats)
 * [Platform Stats](#platform-stats)
+* [Find Results](#find-results)
+* [Layer Parameters](#layer-parameters)
+* [Preview Scene Settings](#preview-scene-settings)
+* [Custom Primitive Data](#custom-primitive-data)
 * [Bottom Toolbar](#bottom-toolbar)
 
 
@@ -41,6 +45,21 @@
 
 ## [Platform Stats](Platform%20Stats)
 <img src="../../Dosyalar/Materyal_Editor_Platform_Stats.jpg">
+
+## [Find Results](Find%20Results)
+<img src="../../Dosyalar/Material_Editor_Find_Results.jpg">
+
+## [Layer Parameters](Layer%20Parameters)
+<img src="../../Dosyalar/Material_Editor_Layer_Parameters.jpg">
+
+## [Preview Scene Settings](Preview%20Scene%20Settings)
+<img src="../../Dosyalar/Material_Editor_Preview_Scene_Settings.jpg">
+
+## [Custom Primitive Data](Custom%20Primitive%20Data)
+<img src="../../Dosyalar/Material_Editor_Custom_Primitive_Data.jpg">
+
+
+
 
 ## [Bottom Toolbar](../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
 <img src="../../Dosyalar/Materyal_Editor_Bottom_Toolbar.jpg">
