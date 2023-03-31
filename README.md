@@ -14,8 +14,6 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 * [Content Browser](#content-browser)
 * [Project Settings](#project-settings)
-* [Stats (Material)](#stats-material)
-* [Platform Stats (Material)](#platform-stats-material)
 * [Texture Asset Viewer](#texture-asset-viewer)
 
 
@@ -66,12 +64,6 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ### [Texture Asset Viewer](Sayfalar/Texture%20Asset%20Viewer)
 <img src="Dosyalar/Texture_Asset_Viewer.jpg">
-
-### [Stats (Material)](Sayfalar/Stats%20(Material))
-<img src="Dosyalar/Materyal_Editor_Stats.jpg">
-
-### [Platform Stats (Material)](Sayfalar/Platform%20Stats%20(Material))
-<img src="Dosyalar/Materyal_Editor_Platform_Stats.jpg">
 
 
 
