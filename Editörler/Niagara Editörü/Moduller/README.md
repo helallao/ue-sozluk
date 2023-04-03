@@ -3,7 +3,7 @@
 
 ## [Spawn Burst Instantaneous]()
 
-Spawn Burst Instantaneous oldugu yerde parçacıkların hepsini aynı anda spawn eder.
+Oldugu yerde parçacıkların hepsini aynı anda spawn eder.
 
 
 * #### Spawn Count
@@ -24,7 +24,7 @@ Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok mo
 
 ## [Spawn Rate](https://youtu.be/_18Y4-jeXUs?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=68)
 
-Spawn Rate oldugu yerde parçacık spawn eder.
+Oldugu yerde sürekli parçacık spawn eder.
 
 
 * #### SpawnRate
