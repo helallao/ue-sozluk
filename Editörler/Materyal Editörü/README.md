@@ -1,4 +1,4 @@
-# Ana Ekran
+# Materyal Editörü
 <img src="../../Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
 
 * Materyal editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
