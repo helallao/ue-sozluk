@@ -10,7 +10,8 @@
 * [Top Toolbar](#top-toolbar)
 * [Toolbar](#toolbar)
 * [Preview Viewport](#preview-viewport)
-* [Details ve Parameters](#details-ve-parameters)
+* [Details](#details)
+* [Parameters](#parameters)
 * [Graph](#graph)
 * [Palet](#palet)
 * [Stats](#stats)
@@ -31,8 +32,11 @@
 ## [Preview Viewport](Preview%20Viewport)
 <img src="../../Dosyalar/Materyal_Editor_Preview_Viewport.jpg">
 
-## [Details ve Parameters](Details%20ve%20Parameters)
-<img src="../../Dosyalar/Materyal_Editor_Details_ve_Parameters.jpg">
+## [Details](Details)
+<img src="../../Dosyalar/Materyal_Editor_Details.jpg">
+
+## [Parameters](Parameters)
+<img src="../../Dosyalar/Materyal_Editor_Parameters.jpg">
 
 ## [Graph](Graph)
 <img src="../../Dosyalar/Materyal_Editor_Graph.jpg">
