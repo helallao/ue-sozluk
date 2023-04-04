@@ -5,9 +5,10 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 ### Editörler
 
-* [Level Editor](#level-editor)
 * [Blueprint Editor](#blueprint-editor)
+* [Level Editor](#level-editor)
 * [Material Editor](#material-editor)
+* [Niagara Editor](#niagara-editor)
 
 
 ### Sayfalar
@@ -52,6 +53,8 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 ### [Material Editor](Editörler/Materyal%20Editörü)
 <img src="Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
 
+### [Niagara Editor](Editörler/Niagara%20Editörü)
+<img src="Dosyalar/Niagara_Editor_Ana_Ekran.jpg">
 
 
 
