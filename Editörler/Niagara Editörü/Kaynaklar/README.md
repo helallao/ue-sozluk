@@ -10,7 +10,7 @@ Burası niagara editörü hakkında kaynakları barındıran bölümdür, içeri
 
 
 ## Yazılar/Bloglar
-* [Unreal Docs](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Niagara/) - Unreal Engine'nin kendi dökümanları
+* [Unreal Docs](https://docs.unrealengine.com/5.1/en-US/creating-visual-effects-in-niagara-for-unreal-engine/) - Unreal Engine'nin kendi dökümanları
 * [Unreal Learning Library](https://dev.epicgames.com/community/learning?application=unreal_engine) - Unreal Engine'nin kütüphanesi, hem developerlar hem topluluk tarafından
 
 
