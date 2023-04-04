@@ -14,7 +14,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 
 
 ## Yazılar/Bloglar
-* [Unreal Docs](https://docs.unrealengine.com/5.1/en-US/unreal-engine-materials/) - Unreal Engine'nin kendi dökümanları
+* [Unreal Docs](https://docs.unrealengine.com/5.1/en-US) - Unreal Engine'nin kendi dökümanları
 * [Unreal Learning Library](https://dev.epicgames.com/community/learning?application=unreal_engine) - Unreal Engine'nin kütüphanesi, hem developerlar hem topluluk tarafından
 * [ueHow](https://uehow.web.fc2.com/Contents/Eng/Home/Root/Cone/Home.html) - Unreal Engine'deki nodlar için açıklamalar
 * [ryandowlingsoka](https://ryandowlingsoka.com/unreal/) - Unreal Engine materyaller hakkında blog
