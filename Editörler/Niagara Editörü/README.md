@@ -2,6 +2,9 @@
 <img src="../../Dosyalar/Niagara_Editor_Ana_Ekran.jpg">
 
 
+* Niagara editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
+* Niagara editörü modullerine [Moduller](Moduller) bölümünden ulaşabilirsiniz.
+
 
 # Bölümler
 
