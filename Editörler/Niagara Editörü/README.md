@@ -14,6 +14,12 @@
 * [Parameters](#parameters)
 * [User Parameters](#user-parameters)
 * [Local Modules](#local-modules)
+* [Graph](#graph)
+* [Selection](#selection)
+* [Timeline](#timeline)
+* [Curves](#curves)
+* [Log](#log)
+* [Script Stats](#script-stats)
 * [Bottom Toolbar](#bottom-toolbar)
 
 
@@ -34,6 +40,24 @@
 
 ## [Local Modules](Local%20Modules)
 <img src="../../Dosyalar/Niagara_Editor_Local_Modules.jpg">
+
+## [Graph](Graph)
+<img src="../../Dosyalar/Niagara_Editor_Graph.jpg">
+
+## [Selection](Selection)
+<img src="../../Dosyalar/Niagara_Editor_Selection.jpg">
+
+## [Timeline](Timeline)
+<img src="../../Dosyalar/Niagara_Editor_Timeline.jpg">
+
+## [Curves](Curves)
+<img src="../../Dosyalar/Niagara_Editor_Curves.jpg">
+
+## [Log](Log)
+<img src="../../Dosyalar/Niagara_Editor_Log.jpg">
+
+## [Script Stats](Script&20Stats)
+<img src="../../Dosyalar/Niagara_Editor_Script_Stats.jpg">
 
 ## [Bottom Toolbar](../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
 <img src="../../Dosyalar/Niagara_Editor_Bottom_Toolbar.jpg">
