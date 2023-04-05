@@ -496,7 +496,33 @@ Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok mo
 
 # Velocity
 
-## [Add Velocity]()
+## [Add Velocity](https://youtu.be/BadHGIYkrMw?list=PLUi8nuTUEtTshYxpmR7brPE3tV7JsO0VP&t=41)
+
+([Particle Spawn](../Graph#particle-spawn)) Parçacıklara velocity (hız) ekler, başka bir yönden güç uygular da denebilir. Birden fazla "Velocity Mode" a sahiptir. Bu yüzden her birinin inputlarını ayrı ayrı anlattım.
+
+
+### Linear (Velocity Mode)
+Tek yöne dogru velocity ekler.
+
+* #### Velocity
+1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+
+* #### Velocity Speed Scale
+Yukarıda 1 saniye dedim ya, işte bu ayar velocity speed'ini arttırıyor. Bunu 2 yaparsanız, o zaman 2 kat hızlı olur, yani ulaşacagı yere 1 degil yarım saniyede ulaşır.
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+
+
+### From Point (Velocity Mode)
+Belirli bir noktadan etrafa dogru güç uygular, yani itme kuvveti oluşturur.
+
+* #### Velocity Speed
+1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+
+
+
 ## [Inherit Velocity]()
 ## [Scale Velocity]()
 ## [Static Mesh Velocity]()
