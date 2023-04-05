@@ -501,7 +501,9 @@ Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok mo
 ([Particle Spawn](../Graph#particle-spawn)) Parçacıklara velocity (hız) ekler, başka bir yönden güç uygular da denebilir. Birden fazla "Velocity Mode" a sahiptir. Bu yüzden her birinin inputlarını ayrı ayrı anlattım.
 
 
-### Linear (Velocity Mode)
+<br>
+
+### Linear
 Tek yöne dogru velocity ekler.
 
 * #### Velocity
@@ -514,8 +516,9 @@ Yukarıda 1 saniye dedim ya, işte bu ayar velocity speed'ini arttırıyor. Bunu
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 
 
+<br>
 
-### From Point (Velocity Mode)
+### From Point
 Belirli bir noktadan etrafa dogru güç uygular, yani itme kuvveti oluşturur.
 
 * #### Velocity Speed
