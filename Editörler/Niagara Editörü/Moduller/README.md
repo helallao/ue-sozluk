@@ -358,6 +358,12 @@ Spawn işleminin gerçekleşecegi zaman (saniye).
 * #### SpawnGroup
 Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
 
+* #### Age
+parametre
+
+* #### Loop Count Limit
+yazılacak
+
 
 
 
@@ -403,6 +409,12 @@ Eger tek bir frame'deki (fps, kare) hız degeri bu degerden azsa, o zaman parça
 
 * #### Spawn Probability
 0 - 1 arasında, spawn olma ihtimali.
+
+* #### Velocity Vector
+parametre
+
+* #### Delta Time
+parametre
 
 * #### SpawnGroup
 Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
@@ -523,6 +535,84 @@ Belirli bir noktadan etrafa dogru güç uygular, yani itme kuvveti oluşturur.
 
 * #### Velocity Speed
 1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+
+* #### Constrain To Radius
+Uygulanan kuvvetin (velocity) alanını daraltır, kuvvetin uygulanacagı bir küre alanı oluşturur.
+
+* #### Radius Falloff Near / Far
+"Constrain To Radius" seçenegini açtıgınızda gelir. Oluşturdugunuz kürenin orta noktasına yakın/uzak olan noktalarında uygulanacak kuvveti (velocity) belirler.
+
+* #### Radius Falloff Exponent
+Constrain To Radius seçenegini açtıgınızda gelir. "Radius Falloff Near / Far" ayarının katsayısnı arttırır. Böylelikle daha fazla etki eder.
+
+* #### Invert Velocity Falloff
+Ne işe yaradıgını bilmiyorum.
+
+* #### Random Seed
+Ne işe yaradıgını bilmiyorum.
+
+* #### Fixed Random Seed
+Ne işe yaradıgını bilmiyorum.
+
+* #### Velocity Origin
+Orijin noktası, yani orta nokta.
+
+* #### Origin Offset
+Orijin noktasına offset vermenize yarar.
+
+* #### Origin Offset Coordinate Space
+Ne işe yaradıgını bilmiyorum.
+
+* #### Default Position
+Ne işe yaradıgını bilmiyorum.
+
+
+<br>
+
+### In Cone
+Koni şeklinde velocity ekler.
+
+* #### Velocity Speed
+1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+
+* #### Distribution Along Cone Axis
+Koni içindeki kuvvetin ne kadar dagınık şekilde uygulanacagını belirler. Eger 0 yaparsanız dagınık yani kuvvet koninin herhangi bir yönüne olabilir, 1 yaparsanız düze yakın yani kuvvet koninin baktıgı yöne (orta nokta) dogru olur.
+
+* #### Speed Falloff From Cone Axis
+Koni içindeki parçacıkların yönü koninin baktıgı yöne (orta nokta) dogru degil ise, onları yavaşlatır, yönü koninin baktıgı yöne bakan parçacıkları hızlandırır. 0'da iken yavaşlatma uygulanmaz, 1'de iken maximum yavaşlatma uygulanır.
+
+* #### Random Seed
+Ne işe yaradıgını bilmiyorum.
+
+* #### Fixed Random Seed
+Ne işe yaradıgını bilmiyorum.
+
+* #### Randomness Mode
+Ne işe yaradıgını bilmiyorum.
+
+* #### Cone Axis
+Koninin yönü.
+
+* #### Cone Angle
+Koninin genişligi (açı)
+
+* #### Inner Cone Angle
+Koninin başlangıç noktasındaki genişligi (açı)
+
+* #### Cone Angle Mode
+Açı degerlerinin türünü degiştirir.
+<br>
+<br>
+Degrees = Derece
+<br>
+Normalized Angle (0-1) = 0 - 360 yerine 0 - 1 arası degerler.
+<br>
+Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+
 
 
 
