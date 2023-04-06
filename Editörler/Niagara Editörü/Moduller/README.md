@@ -202,7 +202,29 @@
 ## [Jitter Position]()
 ## [Place Particles on Depth Buffer GPU]()
 ## [Rotate Around Point]()
+
 ## [Shape Location]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların spawn olacagı bölgeyi belirler. Birden fazla "Shape Primitive" a sahiptir. Bu yüzden her birinin inputlarını ayrı ayrı anlattım. Location modullerinde, şekilleri tam olarak anlamak için parçacık sayısını arttırabilir ve bütün hareketleri kapatabilirsiniz.
+
+
+<br>
+
+### Sphere
+Küre şeklinde alan oluşturur.
+
+* #### Sphere Radius
+Kürenin çapı.
+
+* #### Apply To Particle Position
+Bilmiyorum.
+
+* #### Sphere Distribution
+
+
+
+
+
 ## [Skeletal Mesh Location]()
 ## [Spawn Particles in Grid]()
 ## [Static Mesh Location]()
