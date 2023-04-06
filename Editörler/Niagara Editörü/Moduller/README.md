@@ -543,7 +543,7 @@ Uygulanan kuvvetin (velocity) alanını daraltır, kuvvetin uygulanacagı bir k�
 "Constrain To Radius" seçenegini açtıgınızda gelir. Oluşturdugunuz kürenin orta noktasına yakın/uzak olan noktalarında uygulanacak kuvveti (velocity) belirler.
 
 * #### Radius Falloff Exponent
-Constrain To Radius seçenegini açtıgınızda gelir. "Radius Falloff Near / Far" ayarının katsayısnı arttırır. Böylelikle daha fazla etki eder.
+"Constrain To Radius" seçenegini açtıgınızda gelir. "Radius Falloff Near / Far" ayarının katsayısnı arttırır. Böylelikle daha fazla etki eder.
 
 * #### Invert Velocity Falloff
 Ne işe yaradıgını bilmiyorum.
@@ -619,7 +619,37 @@ Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 ## [Inherit Velocity]()
 ## [Scale Velocity]()
 ## [Static Mesh Velocity]()
-## [Vortex Velocity]()
+
+
+
+## [Vortex Velocity](https://youtu.be/BadHGIYkrMw?list=PLUi8nuTUEtTshYxpmR7brPE3tV7JsO0VP&t=375)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara girdap şeklinde velocity (hız) ekler.
+
+
+* #### Velocity Amount
+1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+
+* #### Vortex Axis
+Yön degerleri.
+
+* #### Vortex Origin
+Orijin noktası, yani orta nokta.
+
+* #### Vortex Axis Coordinate Space
+Ne işe yaradıgını bilmiyorum.
+
+* #### Influence Falloff Exponent
+"Influence Falloff Radius" seçenegini açtıgınızda gelir. "Influence Falloff Radius" degeri için katsayıdır, yani degeri bu sayı ile katlar, gereksiz.
+
+* #### Influence Falloff Radius
+Parçacıkların girdapda kalma süresini arttırır. Deger yükseldikçe parçacıklar daha kısa süre girdapta kalır, azaldıkça parçacıklar daha uzun süre girdapta kalır. Yani girdaptan çıkma süresini belirler.
+
+* #### Invert Influence Falloff
+"Influence Falloff Radius" degerinin çalışma mantıgını tersine çevirir. Default olarak zaten açıktır. Deger yükseldikçe parçacıklar daha uzun süre girdapta kalır, azaldıkça parçacıklar daha kısa süre girdapta kalır. Yani girdapta kalma süresini belirler.
+
+
+
 
 
 
