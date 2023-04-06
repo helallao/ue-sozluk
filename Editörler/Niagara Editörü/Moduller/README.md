@@ -219,53 +219,60 @@ Kürenin çapı.
 * #### Apply To Particle Position
 Bilmiyorum.
 
-* #### Sphere Distribution
-Bilmiyorum.
-
 * #### Sphere Surface Distribution
-Sadece "Sphere Distribution" "Random" modundayken vardır.
+Sadece "Sphere Distribution" "Random" modundayken vardır. Bu ayar 0 - 1 arası olmak zorundadır. 0'dayken parçacıklar kürenin her noktasında spawn olabilir. Eger bu degeri yükseltirseniz, mesela 0.1 yaparsanız, kürenin tam orta noktasında bir boşluk oluşacaktır. Degeri arttırdıkça boşluk büyür ve 1 yaptıgınızda, artık parçacıklar sadece kürenin çevresinde yani yüzeyinde oluşur. Kısacası bu ayar parçacıkları 0 degerinden 1 degerine dogru yükseldikçe, kürenin çevresine yaklaştırır.
 
 * #### Hemisphere Distribution
-Sadece "Sphere Distribution" "Random" modundayken vardır.
+Sadece "Sphere Distribution" "Random" modundayken vardır. X ve Y olarak iki inputu vardır ve degerler 0 - 1 arası olmak zorundadır. X küreyi X ekseninde, Y ise Y ekseninde oranlar. Bunu sanki pastayı dilimliyormuşsunuz gibi düşünebilirsiniz. Kendiniz test etmeden size bunu anlatamam, parçacıkların sayısını yükseltip bu degerler ile oynayın.
 
 * #### Hemisphere Angle Type
-Sadece "Sphere Distribution" "Random" modundayken vardır.
+Sadece "Sphere Distribution" "Random" modundayken vardır. "Hemisphere Distribution" için kullanılacak degerin türünü belirler.
+<br>
+<br>
+Degrees = Derece
+<br>
+Normalized Angle (0-1) = 0 - 360 yerine 0 - 1 arası degerler.
+<br>
+Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
-* #### Spawn Group
+* #### Spawn Group Mask
 Sadece "Sphere Distribution" "Random" modundayken vardır.
 
 * #### Randomness Mode
 Sadece "Sphere Distribution" "Random" modundayken vardır.
 
-* #### Randam Seed
+* #### Random Seed
+Sadece "Sphere Distribution" "Random" modundayken vardır.
+
+* #### Fixed Random Seed
 Sadece "Sphere Distribution" "Random" modundayken vardır.
 
 * #### U Position
-Sadece "Sphere Distribution" "Direct" modundayken vardır.
+Sadece "Sphere Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
 
 * #### V Position
-Sadece "Sphere Distribution" "Direct" modundayken vardır.
+Sadece "Sphere Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
 
 * #### Sphere Radius Position
-Sadece "Sphere Distribution" "Direct" modundayken vardır.
+Sadece "Sphere Distribution" "Direct" modundayken vardır. Kürenin çapını temsil eder.
 
 * #### Spawn Group Mask
 Sadece "Sphere Distribution" "Direct" modundayken vardır.
 
 * #### Uniform Distribution
-Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniform modu noktaları eşit aralıklarla dagıtmaya yarar (bazen tek sayı geldiginde falan bozulabilir ama sonuç olarak eşit dagıtır). Bu ayar kürenin ne kadarı üzerinde dagıtma işleminin uygulanacagını belirler. 1 tam küre, 0.5 yarım küre anlamına gelir.
 
 * #### Uniform Spiral Amount
-Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+Sadece "Sphere Distribution" "Uniform" modundayken vardır. Kaç tane spiralden oluşacagını ayarlarsınız.
 
 * #### Uniform Count
-Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniform sayısı, parçacıklar bu deger kadar uniforma dagıtılacak.
 
 * #### Uniform Particle Index
-Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+Sadece "Sphere Distribution" "Uniform" modundayken vardır. Bu bizi ilgilendiren bir şey degil. Parçacıkların index numarası.
 
 * #### Uniform Endpoint Offset
-Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniformlar için offset verir.
 
 * #### Spawn Group Mask
 Sadece "Sphere Distribution" "Uniform" modundayken vardır.
