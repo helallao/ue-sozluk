@@ -640,7 +640,21 @@ parametre
 
 
 ## [Scale Velocity]()
+
+([Particle Update](../Graph#particle-update)) Parçacıgın sahip oldugu velocity degerini scale etmemize yani azaltmamıza/arttırmamıza yarar.
+
+
+* #### Coordinate Space
+Ne işe yaradıgını bilmiyorum.
+
+* #### Velocity Scale
+Yönlere göre hız degeri çarpanı. Mesela diyelim ki X degerini 2 yaptınız, o zaman X ekseninde sahip olunan velocity degeri 2 ile çarpılır. Bu şekilde XYZ olmak üzere 3 yön için hız degeri çarpanı ayarlayabilirsiniz.
+
+
+
+
 ## [Static Mesh Velocity]()
+
 
 
 
