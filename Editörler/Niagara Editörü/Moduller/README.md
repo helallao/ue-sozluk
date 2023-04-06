@@ -220,6 +220,80 @@ Kürenin çapı.
 Bilmiyorum.
 
 * #### Sphere Distribution
+Bilmiyorum.
+
+* #### Sphere Surface Distribution
+Sadece "Sphere Distribution" "Random" modundayken vardır.
+
+* #### Hemisphere Distribution
+Sadece "Sphere Distribution" "Random" modundayken vardır.
+
+* #### Hemisphere Angle Type
+Sadece "Sphere Distribution" "Random" modundayken vardır.
+
+* #### Spawn Group
+Sadece "Sphere Distribution" "Random" modundayken vardır.
+
+* #### Randomness Mode
+Sadece "Sphere Distribution" "Random" modundayken vardır.
+
+* #### Randam Seed
+Sadece "Sphere Distribution" "Random" modundayken vardır.
+
+* #### U Position
+Sadece "Sphere Distribution" "Direct" modundayken vardır.
+
+* #### V Position
+Sadece "Sphere Distribution" "Direct" modundayken vardır.
+
+* #### Sphere Radius Position
+Sadece "Sphere Distribution" "Direct" modundayken vardır.
+
+* #### Spawn Group Mask
+Sadece "Sphere Distribution" "Direct" modundayken vardır.
+
+* #### Uniform Distribution
+Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+
+* #### Uniform Spiral Amount
+Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+
+* #### Uniform Count
+Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+
+* #### Uniform Particle Index
+Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+
+* #### Uniform Endpoint Offset
+Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+
+* #### Spawn Group Mask
+Sadece "Sphere Distribution" "Uniform" modundayken vardır.
+
+* #### Transform Order
+Bilmiyorum.
+
+* #### Non Uniform Scale
+Sadece "Scale Mode" "Default" modundayken vardır.
+
+* #### Apply Owner Scale
+Sadece "Scale Mode" "Default" modundayken vardır.
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+* #### Shape Origin
+Sadece "Offset Mode" "Default" modundayken vardır.
+
+* #### Offset
+Sadece "Offset Mode" "Default" modundayken vardır.
+
+* #### Offset Coordinate Space
+Sadece "Offset Mode" "Default" modundayken vardır.
+
+
+
+
 
 
 
