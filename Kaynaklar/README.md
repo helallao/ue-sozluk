@@ -56,7 +56,6 @@ Burdaki serverlar sadece ünlü olanlar, daha fazla server için [disboard'a](ht
 * [Unreal Slackers](https://discord.gg/unreal-slackers)
 * [Unreal Engine](https://discord.gg/RhsxUpSs4b)
 * [Snappy Gurus](https://discord.gg/yaupCRVEDE)
-* [Free Console](https://discord.gg/ue5)
 * [Developers Creed](https://disboard.org/server/735642528727957516)
 * [PrismaticaDev](https://discord.gg/prismaticadevlearninghub)
 * [Bufuak](https://discord.gg/fRR8kQysSA)
