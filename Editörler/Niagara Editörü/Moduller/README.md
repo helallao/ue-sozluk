@@ -278,10 +278,10 @@ Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniformlar için off
 Sadece "Sphere Distribution" "Uniform" modundayken vardır.
 
 * #### Transform Order
-Bilmiyorum.
+Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
 
 * #### Non Uniform Scale
-Sadece "Scale Mode" "Default" modundayken vardır.
+Sadece "Scale Mode" "Default" modundayken vardır. Kürenin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
 Sadece "Scale Mode" "Default" modundayken vardır.
@@ -290,14 +290,34 @@ Sadece "Scale Mode" "Default" modundayken vardır.
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 
 * #### Shape Origin
-Sadece "Offset Mode" "Default" modundayken vardır.
+Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
 
 * #### Offset
-Sadece "Offset Mode" "Default" modundayken vardır.
+Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
 Sadece "Offset Mode" "Default" modundayken vardır.
 
+
+
+
+
+<br>
+
+### Cylinder
+Silindir şeklinde alan oluşturur.
+
+* #### Cylinder Height
+Silindirin yüksekligi.
+
+* #### Cylinder Radius
+Silindirin çapı/genişligi.
+
+* #### Cylinder Height Midpoint
+Silindirin yükseklik degerinin ne yöne olacagını belirtir. Default olarak 0.5 tir ve iki yöne dogru da olur. Eger 1 yaparsanız yükseklik arttıkça silindir aşagıya dogru uzar. Eger 0 yaparsanız yükseklik arttıkça silindir yukarıya dogru uzar.
+
+* #### Apply To Particle Position
+Bilmiyorum.
 
 
 
