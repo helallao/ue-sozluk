@@ -628,10 +628,10 @@ Yönlere göre hız degeri çarpanı. Mesela diyelim ki X degerini 2 yaptınız,
 En fazla bu hız degerini alabilir, bundan fazla olan hız degerleri yerine bu deger kullanılır, yani limit.
 
 * #### Source Speed Threshold
-1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+Minimum hız degerini belirtir. Eger hız degeri bu degerin altındaysa parçacıga hiç hız uygulamaz. Yani en az bu deger kadar hızlı olmak gerek, yoksa "Inherit Velocity" çalışmaz.
 
 * #### Velocity Source
-1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+parametre
 
 
 
