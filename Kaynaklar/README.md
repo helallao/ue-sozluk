@@ -54,10 +54,10 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 ## Discord
 Burdaki serverlar sadece ünlü olanlar, daha fazla server için [disboard'a](https://disboard.org/) bakabilirsiniz. 
 * [Unreal Slackers](https://discord.gg/unreal-slackers)
-* [Unreal Engine](https://discord.gg/RhsxUpSs4b)
-* [Snappy Gurus](https://discord.gg/yaupCRVEDE)
-* [Developers Creed](https://disboard.org/server/735642528727957516)
 * [PrismaticaDev](https://discord.gg/prismaticadevlearninghub)
+* [Snappy Gurus](https://discord.gg/yaupCRVEDE)
+* [Unreal Engine](https://discord.gg/RhsxUpSs4b)
+* [Developers Creed](https://disboard.org/server/735642528727957516)
 * [Bufuak](https://discord.gg/fRR8kQysSA)
 * [Mağara Dev](https://discord.gg/H46KrVT2m9)
 
