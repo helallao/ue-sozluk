@@ -616,7 +616,29 @@ Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 
 
 
-## [Inherit Velocity]()
+## [Inherit Velocity](https://youtu.be/BadHGIYkrMw?list=PLUi8nuTUEtTshYxpmR7brPE3tV7JsO0VP&t=488)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara şu anki hareket hızı kadar velocity (hız) ekler. Her bir frame (fps, kare) arasındaki hız kadar, parçacıklara hız ekler. Linkteki videoya bakın.
+
+
+* #### Inherited Velocity Amount Scale
+Yönlere göre hız degeri çarpanı. Mesela diyelim ki X degerini 2 yaptınız, o zaman X ekseninde uygulanan velocity degeri 2 ile çarpılır. Bu şekilde XYZ olmak üzere 3 yön için hız degeri çarpanı ayarlayabilirsiniz. "Inherited Velocity Amount Scale" ayarı "Inherited Velocity Speed Limit" den sonra gelir. Yani hız limiti koymuşsanız, ilk baş hız limiti hesaplanır, ardından "Inherited Velocity Amount Scale" ayarına verdiginiz degere göre hız degeri çarpılır. Kısacası bu ayar limit ayarından sonra uygulanır yani limitten bagımsızdır.
+
+* #### Inherited Velocity Speed Limit
+En fazla bu hız degerini alabilir, bundan fazla olan hız degerleri yerine bu deger kullanılır, yani limit.
+
+* #### Source Speed Threshold
+1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+
+* #### Velocity Source
+1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
+
+
+
+
+
+
+
 ## [Scale Velocity]()
 ## [Static Mesh Velocity]()
 
