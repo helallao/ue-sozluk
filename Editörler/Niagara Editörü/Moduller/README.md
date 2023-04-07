@@ -319,7 +319,230 @@ Silindirin yükseklik degerinin ne yöne olacagını belirtir. Default olarak 0.
 * #### Apply To Particle Position
 Bilmiyorum.
 
+* #### Surface Only Band Thickness
+Parçacıkları sadece silindirin yüzeyinde/çevresinde spawn eder. 0 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı yükseltirseniz bu katman büyür, yani dıştan içe dogru genişler ve 1 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
 
+* #### Use Endcaps In Surface Only Mode
+Sadece "Surface Only Band Thickness" ayarı açıkken vardır. Silindirin uç noktalarını (tabanlarını) açar/kapatır.
+
+* #### Hemicircle X
+Sadece "Cylinder Distribution" "Random" modundayken vardır. X ekseninde silindirin yarısını keser.
+
+* #### Hemicircle Y
+Sadece "Cylinder Distribution" "Random" modundayken vardır. Y ekseninde silindirin yarısını keser.
+
+* #### Enable Lathe Profile
+Sadece "Cylinder Distribution" "Random" modundayken vardır.
+
+* #### Spawn Group Mask
+bilmiyorum.
+
+* #### Randomness Mode
+Sadece "Cylinder Distribution" "Random" modundayken vardır.
+
+* #### Random Seed
+Sadece "Cylinder Distribution" "Random" modundayken vardır.
+
+* #### Fixed Random Seed
+Sadece "Cylinder Distribution" "Random" modundayken vardır.
+
+* #### U Position
+Sadece "Cylinder Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
+
+* #### V Position
+Sadece "Cylinder Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
+
+* #### Transform Order
+Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
+
+* #### Non Uniform Scale
+Sadece "Scale Mode" "Default" modundayken vardır. Silindirin boyut degerlerini ayarlarsınız.
+
+* #### Apply Owner Scale
+Sadece "Scale Mode" "Default" modundayken vardır.
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+* #### Shape Origin
+Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
+
+* #### Offset
+Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+
+* #### Offset Coordinate Space
+Sadece "Offset Mode" "Default" modundayken vardır.
+
+
+
+
+
+<br>
+
+### Box / Plane
+Kutu/dörtgen şeklinde alan oluşturur. Sadece Box'u anlatıcam, zaten box ile plane'in yaptıklarını yapabiliyorsunuz, aynı şeyler. Aşagıdaki inputlar "Box / Plane Mode" ayarı "Box" iken gelen inputlardır.
+
+* #### Cylinder Height
+Silindirin yüksekligi.
+
+* #### Box Size
+Dörtgenin boyut degerlerini ayarlarsınız.
+
+* #### Box Midpoint
+Dörtgenin XYZ olmak üzere her eksen için orta noktasını belirtir yani boyut degerlerini degiştirdiginizde ne yöne dogru genişleyecegini belirtir. Default olarak 0.5 tir ve iki yöne dogru da olur. Eger 0 yaparsanız o eksenin boyut degeri arttıkça o eksen tarafına dogru uzar çünkü 0 yaptıgınızda o eksenin tabanını başlangıç noktası olarak almışsınızdır. Eger 1 yaparsanız o eksenin boyut degeri arttıkça o eksenin tersi tarafına dogru uzar çünkü 1 yaptıgınızda o eksenin ucunu başlangıç noktası olarak almışsınızdır.
+
+* #### Apply To Particle Position
+Bilmiyorum.
+
+* #### Surface Only Band Thickness
+Parçacıkları sadece dörtgenin yüzeyinde/çevresinde spawn eder. 0 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı yükseltirseniz bu katman büyür, yani dıştan içe dogru genişler. Sayı bu katmanın içeriye dogru kaç birim genişleyecegini belirtiyor, eger katmanı dörtgeni kaplayacak kadar genişletirseniz yine dörtgen şekli elde etmiş olursunuz.
+
+* #### Surface Expansion Mode
+Sadece "Surface Only Band Thickness" ayarı açıkken vardır. "Surface Only Band Thickness" ayarının modunu degiştirir. Default olarak "Inside" yani degeri arttırdıkça katman içeriye dogru genişler. Eger "Outside" yaparsanız degeri arttırdıkça katman dışarıya dogru genişler. Eger "Centered" yaparsanız degeri arttırdıkça katman iki yöne dogru genişler.
+
+* #### Spawn Group Mask
+bilmiyorum.
+
+* #### Randomness Mode
+Bilmiyorum.
+
+* #### Random Seed
+Bilmiyorum.
+
+* #### Fixed Random Seed
+Bilmiyorum.
+
+* #### Transform Order
+Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
+
+* #### Non Uniform Scale
+Sadece "Scale Mode" "Default" modundayken vardır. Dörtgenin boyut degerlerini ayarlarsınız.
+
+* #### Apply Owner Scale
+Sadece "Scale Mode" "Default" modundayken vardır.
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+* #### Shape Origin
+Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
+
+* #### Offset
+Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+
+* #### Offset Coordinate Space
+Sadece "Offset Mode" "Default" modundayken vardır.
+
+
+
+
+
+<br>
+
+### Torus
+"Torus" modunda simit/donut şeklinde alan oluşturur. "TorusKnot" modunda ise etrafından [sarmallar](https://en.wikipedia.org/wiki/Helix) geçen [simit benzeri bir şekil](https://en.wikipedia.org/wiki/Torus_knot) oluşturur.
+
+* #### Knot Helix Loops
+Sadece "Torus Mode" "TorusKnot" modundayken vardır. [Sarmal](https://en.wikipedia.org/wiki/Helix) sayısını belirtir.
+
+* #### Knot Ring Loops
+Sadece "Torus Mode" "TorusKnot" modundayken vardır. "TorusKnot" ismindeki "Knot" kısımları belirtir, köşe/dügüm sayısını belirtir.
+
+* #### Torus Knot Tube Radius
+Sadece "Torus Mode" "TorusKnot" modundayken vardır. TorusKnot'un çapı.
+
+* #### Large Radius
+Torus'un çapı.
+
+* #### Handle Radius
+Torus'un genişligi/kalınlıgı.
+
+* #### Apply To Particle Position
+Bilmiyorum.
+
+* #### Surface Distribution
+Parçacıkları sadece torus'un yüzeyinde/çevresinde spawn eder. 1 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı azaltırsanız bu katman büyür, yani dıştan içe dogru genişler ve 0 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
+
+* #### U Distribution
+U Distribution ve V Distribution, torus'u X ve Y ekseninde oranlar/böler.
+
+* #### V Distribution
+U Distribution ve V Distribution, torus'u X ve Y ekseninde oranlar/böler.
+
+* #### Spawn Group Mask
+bilmiyorum.
+
+* #### Randomness Mode
+Sadece "Torus Distribution Mode" "Random" modundayken vardır.
+
+* #### Random Seed
+Sadece "Torus Distribution Mode" "Random" modundayken vardır.
+
+* #### Fixed Random Seed
+Sadece "Torus Distribution Mode" "Random" modundayken vardır.
+
+* #### Transform Order
+Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
+
+* #### Non Uniform Scale
+Sadece "Scale Mode" "Default" modundayken vardır. Torus'un boyut degerlerini ayarlarsınız.
+
+* #### Apply Owner Scale
+Sadece "Scale Mode" "Default" modundayken vardır.
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+* #### Shape Origin
+Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
+
+* #### Offset
+Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+
+* #### Offset Coordinate Space
+Sadece "Offset Mode" "Default" modundayken vardır.
+
+
+
+
+
+<br>
+
+### Ring / Disc
+"Circle" modunda simit/donut şeklinde alan oluşturur. "Hexagon" modunda ise çokgen şekli oluşturur.
+
+* #### Knot Helix Loops
+Sadece "Torus Mode" "TorusKnot" modundayken vardır. [Sarmal](https://en.wikipedia.org/wiki/Helix) sayısını belirtir.
+
+* #### Ring Radius
+Çap degeri.
+
+* #### Apply To Particle Position
+Bilmiyorum.
+
+* #### Disc Coverage
+Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. Deger 0'dan 1'e dogru yaklaştıkça, simit/çokgen şeklinin ortası dolar, yani ortaya dogru yaklaşır.
+
+* #### U Distribution
+Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. Simit/çokgen şeklini oranlar/böler.
+
+* #### Spawn Group Mask
+bilmiyorum.
+
+* #### Randomness Mode
+bilmiyorum.
+
+* #### Random Seed
+bilmiyorum.
+
+* #### Fixed Random Seed
+bilmiyorum.
+
+* #### U Position
+Sadece "Ring / Disc Distribution Mode" "Direct" modundayken vardır. Simit/çokgen şeklini oranlar/böler.
+
+* #### Radius Position
+Sadece "Ring / Disc Distribution Mode" "Direct" modundayken vardır. Çap degeri.
 
 
 
