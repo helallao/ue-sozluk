@@ -236,7 +236,7 @@ Normalized Angle (0-1) = 0 - 360 yerine 0 - 1 arası degerler.
 Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
 * #### Spawn Group Mask
-Sadece "Sphere Distribution" "Random" modundayken vardır.
+Bilmiyorum.
 
 * #### Randomness Mode
 Sadece "Sphere Distribution" "Random" modundayken vardır.
@@ -256,9 +256,6 @@ Sadece "Sphere Distribution" "Direct" modundayken vardır. Direct modu U ve V in
 * #### Sphere Radius Position
 Sadece "Sphere Distribution" "Direct" modundayken vardır. Kürenin çapını temsil eder.
 
-* #### Spawn Group Mask
-Sadece "Sphere Distribution" "Direct" modundayken vardır.
-
 * #### Uniform Distribution
 Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniform modu noktaları eşit aralıklarla dagıtmaya yarar (bazen tek sayı geldiginde falan bozulabilir ama sonuç olarak eşit dagıtır). Bu ayar kürenin ne kadarı üzerinde dagıtma işleminin uygulanacagını belirler. 1 tam küre, 0.5 yarım küre anlamına gelir.
 
@@ -274,29 +271,26 @@ Sadece "Sphere Distribution" "Uniform" modundayken vardır. Bu bizi ilgilendiren
 * #### Uniform Endpoint Offset
 Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniformlar için offset verir.
 
-* #### Spawn Group Mask
-Sadece "Sphere Distribution" "Uniform" modundayken vardır.
-
 * #### Transform Order
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
 
 * #### Non Uniform Scale
-Sadece "Scale Mode" "Default" modundayken vardır. Kürenin boyut degerlerini ayarlarsınız.
+Kürenin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Sadece "Scale Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 
 * #### Shape Origin
-Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
+Orijin noktası.
 
 * #### Offset
-Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Sadece "Offset Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 
 
@@ -321,7 +315,7 @@ Silindirin yükseklik degerinin ne yöne olacagını belirtir. Default olarak 0.
 Bilmiyorum.
 
 * #### Surface Only Band Thickness
-Parçacıkları sadece silindirin yüzeyinde/çevresinde spawn eder. 0 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı yükseltirseniz bu katman büyür, yani dıştan içe dogru genişler ve 1 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
+Sadece "Cylinder Distribution" "Random" modundayken vardır. Parçacıkları sadece silindirin yüzeyinde/çevresinde spawn eder. 0 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı yükseltirseniz bu katman büyür, yani dıştan içe dogru genişler ve 1 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
 
 * #### Use Endcaps In Surface Only Mode
 Sadece "Surface Only Band Thickness" ayarı açıkken vardır. Silindirin uç noktalarını (tabanlarını) açar/kapatır.
@@ -357,22 +351,22 @@ Sadece "Cylinder Distribution" "Direct" modundayken vardır. Direct modu U ve V 
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
 
 * #### Non Uniform Scale
-Sadece "Scale Mode" "Default" modundayken vardır. Silindirin boyut degerlerini ayarlarsınız.
+Silindirin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Sadece "Scale Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 
 * #### Shape Origin
-Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
+Orijin noktası.
 
 * #### Offset
-Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Sadece "Offset Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 
 
@@ -418,22 +412,22 @@ Bilmiyorum.
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
 
 * #### Non Uniform Scale
-Sadece "Scale Mode" "Default" modundayken vardır. Dörtgenin boyut degerlerini ayarlarsınız.
+Dörtgenin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Sadece "Scale Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 
 * #### Shape Origin
-Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
+Orijin noktası.
 
 * #### Offset
-Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Sadece "Offset Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 
 
@@ -464,13 +458,13 @@ Torus'un genişligi/kalınlıgı.
 Bilmiyorum.
 
 * #### Surface Distribution
-Parçacıkları sadece torus'un yüzeyinde/çevresinde spawn eder. 1 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı azaltırsanız bu katman büyür, yani dıştan içe dogru genişler ve 0 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
+Sadece "Torus Distribution Mode" "Random" modundayken vardır. Parçacıkları sadece torus'un yüzeyinde/çevresinde spawn eder. 1 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı azaltırsanız bu katman büyür, yani dıştan içe dogru genişler ve 0 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
 
 * #### U Distribution
-U Distribution ve V Distribution, torus'u X ve Y ekseninde oranlar/böler.
+Sadece "Torus Distribution Mode" "Random" modundayken vardır. U Distribution ve V Distribution, torus'u X ve Y ekseninde oranlar/böler.
 
 * #### V Distribution
-U Distribution ve V Distribution, torus'u X ve Y ekseninde oranlar/böler.
+Sadece "Torus Distribution Mode" "Random" modundayken vardır. U Distribution ve V Distribution, torus'u X ve Y ekseninde oranlar/böler.
 
 * #### Spawn Group Mask
 bilmiyorum.
@@ -484,26 +478,32 @@ Sadece "Torus Distribution Mode" "Random" modundayken vardır.
 * #### Fixed Random Seed
 Sadece "Torus Distribution Mode" "Random" modundayken vardır.
 
+* #### U Position
+Sadece "Torus Distribution Mode" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
+
+* #### V Position
+Sadece "Torus Distribution Mode" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
+
 * #### Transform Order
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
 
 * #### Non Uniform Scale
-Sadece "Scale Mode" "Default" modundayken vardır. Torus'un boyut degerlerini ayarlarsınız.
+Torus'un boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Sadece "Scale Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 
 * #### Shape Origin
-Sadece "Offset Mode" "Default" modundayken vardır. Orijin noktası.
+Orijin noktası.
 
 * #### Offset
-Sadece "Offset Mode" "Default" modundayken vardır. Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Sadece "Offset Mode" "Default" modundayken vardır.
+Bilmiyorum.
 
 
 
@@ -515,8 +515,6 @@ Sadece "Offset Mode" "Default" modundayken vardır.
 ## Ring / Disc
 "Circle" modunda simit/donut şeklinde alan oluşturur. "Hexagon" modunda ise çokgen şekli oluşturur.
 
-* #### Knot Helix Loops
-Sadece "Torus Mode" "TorusKnot" modundayken vardır. [Sarmal](https://en.wikipedia.org/wiki/Helix) sayısını belirtir.
 
 * #### Ring Radius
 Çap degeri.
@@ -547,6 +545,122 @@ Sadece "Ring / Disc Distribution Mode" "Direct" modundayken vardır. Simit/çokg
 
 * #### Radius Position
 Sadece "Ring / Disc Distribution Mode" "Direct" modundayken vardır. Çap degeri.
+
+* #### Uniform Spiral Amount
+Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Spiral sayısı.
+
+* #### Uniform Spiral Falloff
+Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Spirallerin ne kadar kıvrılacagını ayarlar. Daha fazla kıvrılırsa daha kısa olur.
+
+* #### Uniform Count
+Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Uniform sayısı, parçacıklar bu deger kadar uniforma dagıtılacak.
+
+* #### Uniform Particle Index
+Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Bu bizi ilgilendiren bir şey degil. Parçacıkların index numarası.
+
+* #### Transform Order
+Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
+
+* #### Non Uniform Scale
+Torus'un boyut degerlerini ayarlarsınız.
+
+* #### Apply Owner Scale
+Bilmiyorum.
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+* #### Shape Origin
+Orijin noktası.
+
+* #### Offset
+Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+
+* #### Offset Coordinate Space
+Bilmiyorum.
+
+
+
+
+
+<br>
+<br>
+
+## Cone
+"Spherical Cone" modunda bildigimiz normal koni şeklinde alan oluşturur. "Spherical Wedge" modunda ise ucu kare koni oluşturur, türkçesinden tam emin degilim.
+
+
+* #### Cone Length
+Koni uzunlugu.
+
+* #### Cone Angle
+Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Koninin çapı.
+
+* #### Cone Inner Angle
+Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Koninin iç çapı.
+
+* #### Cone Radial Angle
+Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Koniyi oranlar/böler/keser.
+
+* #### Cone Angle Type
+Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Açı degerleri için kullanılacak degerin türünü belirler.
+<br>
+<br>
+Degrees = Derece
+<br>
+Normalized Angle (0-1) = 0 - 360 yerine 0 - 1 arası degerler.
+<br>
+Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
+
+* #### Flatten Endcaps
+Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Koninin uç kısımlarını düzleştirir.
+
+* #### Wedge Horizontal Angle
+Sadece "Cone Mode" "Spherical Wedge" modundayken vardır. Koninin açısının yatay eksende büyüklügünü ayarlamamıza yarar.
+
+* #### Wedge Vertical Angle
+Sadece "Cone Mode" "Spherical Wedge" modundayken vardır. Koninin açısının dikey eksende büyüklügünü ayarlamamıza yarar.
+
+* #### Apply To Particle Position
+Bilmiyorum.
+
+* #### Cone Surface Distribution
+Bu ayar sanırım bozuk, düzgün çalışmıyor.
+
+* #### Spawn Group Mask
+bilmiyorum.
+
+* #### Randomness Mode
+Bilmiyorum.
+
+* #### Random Seed
+Bilmiyorum.
+
+* #### Fixed Random Seed
+Bilmiyorum.
+
+* #### Transform Order
+Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
+
+* #### Non Uniform Scale
+Torus'un boyut degerlerini ayarlarsınız.
+
+* #### Apply Owner Scale
+Bilmiyorum.
+
+* #### Rotation
+Rotation ile ilgili bir açıklama yapmicam, gereksiz.
+
+* #### Shape Origin
+Orijin noktası.
+
+* #### Offset
+Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
+
+* #### Offset Coordinate Space
+Bilmiyorum.
+
+
 
 
 
