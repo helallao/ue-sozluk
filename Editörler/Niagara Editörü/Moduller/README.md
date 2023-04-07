@@ -210,7 +210,7 @@
 
 <br>
 
-### Sphere
+## Sphere
 Küre şeklinde alan oluşturur.
 
 * #### Sphere Radius
@@ -303,8 +303,9 @@ Sadece "Offset Mode" "Default" modundayken vardır.
 
 
 <br>
+<br>
 
-### Cylinder
+## Cylinder
 Silindir şeklinde alan oluşturur.
 
 * #### Cylinder Height
@@ -378,8 +379,9 @@ Sadece "Offset Mode" "Default" modundayken vardır.
 
 
 <br>
+<br>
 
-### Box / Plane
+## Box / Plane
 Kutu/dörtgen şeklinde alan oluşturur. Sadece Box'u anlatıcam, zaten box ile plane'in yaptıklarını yapabiliyorsunuz, aynı şeyler. Aşagıdaki inputlar "Box / Plane Mode" ayarı "Box" iken gelen inputlardır.
 
 * #### Cylinder Height
@@ -438,8 +440,9 @@ Sadece "Offset Mode" "Default" modundayken vardır.
 
 
 <br>
+<br>
 
-### Torus
+## Torus
 "Torus" modunda simit/donut şeklinde alan oluşturur. "TorusKnot" modunda ise etrafından [sarmallar](https://en.wikipedia.org/wiki/Helix) geçen [simit benzeri bir şekil](https://en.wikipedia.org/wiki/Torus_knot) oluşturur.
 
 * #### Knot Helix Loops
@@ -507,8 +510,9 @@ Sadece "Offset Mode" "Default" modundayken vardır.
 
 
 <br>
+<br>
 
-### Ring / Disc
+## Ring / Disc
 "Circle" modunda simit/donut şeklinde alan oluşturur. "Hexagon" modunda ise çokgen şekli oluşturur.
 
 * #### Knot Helix Loops
