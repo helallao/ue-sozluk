@@ -199,6 +199,43 @@
 # Location
 
 ## [Grid Location]()
+
+([Particle Spawn](../Graph#particle-spawn)) Bu modul [Spawn Particles in Grid](#spawn-particles-in-grid) ile birlikte kullanılmak zorundadır. Grid şekli ile ilgili ayarları barındırır.
+
+* #### Grid Origin
+Grid'in orijin noktası.
+
+* #### Coordinate Space
+bilmiyorum.
+
+* #### Placement Randomness Mode
+"Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Placement Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Placement Seed" kullanımını kapatır.
+
+* #### Random Placement Seed
+"Placement Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
+
+* #### Randomize Overriden Seed
+bilmiyorum
+
+* #### Normalize Offsets
+Eger bu ayar açıksa, offset degerlerini cell degerlerine göre düzenler ve 1 offset degeri 1 cell boyutuna eşit hale getirilir.
+
+* #### Randomize Placement Within Cell
+Parçacıklara rastgele offset degeri verir. XYZ eksenleri olmak üzere bütün eksenlerdeki rastgele offset verme derecesini ayarlayabilirsiniz. "Normalize Offsets" ayarı açıksa bu degeri 0 - 1 arasında kullanın. 0 = offset yok, 1 = en fazla rastgele offset demektir.
+
+* #### Offset
+XYZ eksenleri olmak üzere bütün eksenlerde offset verebilirsiniz.
+
+* #### Dimensions Definition
+asd
+
+
+
+
+
+
+
+
 ## [Jitter Position]()
 ## [Place Particles on Depth Buffer GPU]()
 ## [Rotate Around Point]()
@@ -669,6 +706,34 @@ Bilmiyorum.
 
 ## [Skeletal Mesh Location]()
 ## [Spawn Particles in Grid]()
+
+([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update)) Bu modul [Grid Location](#grid-location) ile birlikte kullanılmak zorundadır. Grid şekli bir alanda parçacıkların hepsini aynı anda spawn eder, sadece spawn ayarlarını barındırır, grid şekli ile ilgili ayarları [Grid Location](#grid-location) üzerinden yaparsınız.
+
+
+* #### X Count
+X ekseninde spawn edilecek parçacık sayısı.
+
+* #### Y Count
+Y ekseninde spawn edilecek parçacık sayısı.
+
+* #### Z Count
+Z ekseninde spawn edilecek parçacık sayısı.
+
+* #### Spawn Time
+Spawn edecegi saniye.
+
+* #### Age
+Bilmiyorum.
+
+* #### SpawnGroup
+Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+
+
+
+
+
+
+
 ## [Static Mesh Location]()
 ## [System Location]()
 
