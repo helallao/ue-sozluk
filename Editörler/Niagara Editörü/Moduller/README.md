@@ -239,13 +239,13 @@ Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 Bilmiyorum.
 
 * #### Randomness Mode
-Sadece "Sphere Distribution" "Random" modundayken vardır.
+Sadece "Sphere Distribution" "Random" modundayken vardır. "Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Random Seed
-Sadece "Sphere Distribution" "Random" modundayken vardır.
+Sadece "Sphere Distribution" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Sadece "Sphere Distribution" "Random" modundayken vardır.
+Sadece "Sphere Distribution" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
 
 * #### U Position
 Sadece "Sphere Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
@@ -333,13 +333,13 @@ Sadece "Cylinder Distribution" "Random" modundayken vardır.
 bilmiyorum.
 
 * #### Randomness Mode
-Sadece "Cylinder Distribution" "Random" modundayken vardır.
+Sadece "Cylinder Distribution" "Random" modundayken vardır. "Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Random Seed
-Sadece "Cylinder Distribution" "Random" modundayken vardır.
+Sadece "Cylinder Distribution" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Sadece "Cylinder Distribution" "Random" modundayken vardır.
+Sadece "Cylinder Distribution" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
 
 * #### U Position
 Sadece "Cylinder Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
@@ -400,13 +400,13 @@ Sadece "Surface Only Band Thickness" ayarı açıkken vardır. "Surface Only Ban
 bilmiyorum.
 
 * #### Randomness Mode
-Bilmiyorum.
+"Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Random Seed
-Bilmiyorum.
+"Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Bilmiyorum.
+Ne işe yaradıgını bilmiyorum.
 
 * #### Transform Order
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
@@ -470,13 +470,13 @@ Sadece "Torus Distribution Mode" "Random" modundayken vardır. U Distribution ve
 bilmiyorum.
 
 * #### Randomness Mode
-Sadece "Torus Distribution Mode" "Random" modundayken vardır.
+Sadece "Torus Distribution Mode" "Random" modundayken vardır. "Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Random Seed
-Sadece "Torus Distribution Mode" "Random" modundayken vardır.
+Sadece "Torus Distribution Mode" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Sadece "Torus Distribution Mode" "Random" modundayken vardır.
+Sadece "Torus Distribution Mode" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
 
 * #### U Position
 Sadece "Torus Distribution Mode" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
@@ -532,13 +532,13 @@ Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. Simit/çokg
 bilmiyorum.
 
 * #### Randomness Mode
-bilmiyorum.
+Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. "Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Random Seed
-bilmiyorum.
+Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-bilmiyorum.
+Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
 
 * #### U Position
 Sadece "Ring / Disc Distribution Mode" "Direct" modundayken vardır. Simit/çokgen şeklini oranlar/böler.
@@ -631,13 +631,13 @@ Bu ayar sanırım bozuk, düzgün çalışmıyor.
 bilmiyorum.
 
 * #### Randomness Mode
-Bilmiyorum.
+"Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Random Seed
-Bilmiyorum.
+"Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Bilmiyorum.
+Ne işe yaradıgını bilmiyorum.
 
 * #### Transform Order
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
@@ -1013,10 +1013,13 @@ Uygulanan kuvvetin (velocity) alanını daraltır, kuvvetin uygulanacagı bir k�
 Ne işe yaradıgını bilmiyorum.
 
 * #### Random Seed
-Ne işe yaradıgını bilmiyorum.
+"Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
 Ne işe yaradıgını bilmiyorum.
+
+* #### Randomness Mode
+"Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Velocity Origin
 Orijin noktası, yani orta nokta.
@@ -1046,13 +1049,13 @@ Koni içindeki kuvvetin ne kadar dagınık şekilde uygulanacagını belirler. E
 Koni içindeki parçacıkların yönü koninin baktıgı yöne (orta nokta) dogru degil ise, onları yavaşlatır, yönü koninin baktıgı yöne bakan parçacıkları hızlandırır. 0'da iken yavaşlatma uygulanmaz, 1'de iken maximum yavaşlatma uygulanır.
 
 * #### Random Seed
-Ne işe yaradıgını bilmiyorum.
+"Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
 Ne işe yaradıgını bilmiyorum.
 
 * #### Randomness Mode
-Ne işe yaradıgını bilmiyorum.
+"Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
 
 * #### Cone Axis
 Koninin yönü.
