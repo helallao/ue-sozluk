@@ -143,10 +143,23 @@
 
 # Forces
 
-## [Acceleration Force]()
+## [Acceleration Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=79)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara hız ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
+
+
+* #### Acceleration
+XYZ olmak üzere her eksende hız degerleri.
+
+* #### Coordinate Space
+bilmiyorum.
+
+
+
+
 ## [Aerodynamic Drag]()
 ## [Apply Initial Forces]()
-## [Curl Noise Force]()
+## [Curl Noise Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=464)
 ## [Drag]()
 ## [Gravity Force]()
 ## [Inherit Source Movement]()
@@ -780,7 +793,7 @@ Bilmiyorum.
 
 
 
-## [Skeletal Mesh Location]()
+## [Skeletal Mesh Location](https://youtu.be/btUjODoqSnI?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1070)
 ## [Spawn Particles in Grid]()
 
 ([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update)) Bu modul [Grid Location](#grid-location) ile birlikte kullanılmak zorundadır. Grid şekli bir alanda parçacıkların hepsini aynı anda spawn eder, sadece spawn ayarlarını barındırır, grid şekli ile ilgili ayarları [Grid Location](#grid-location) üzerinden yaparsınız.
@@ -813,6 +826,17 @@ Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok mo
 ## [Static Mesh Location]()
 ## [System Location]()
 
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Tek bir nokta konum belirler.
+
+
+* #### Offset
+Offset verebilirsiniz.
+
+* #### Offset Coordinate Space
+Bilmiyorum.
+
+* #### Spawn Group Mask
+Bilmiyorum.
 
 
 
