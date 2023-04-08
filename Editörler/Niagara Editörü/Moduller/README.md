@@ -227,7 +227,25 @@ Parçacıklara rastgele offset degeri verir. XYZ eksenleri olmak üzere bütün 
 XYZ eksenleri olmak üzere bütün eksenlerde offset verebilirsiniz.
 
 * #### Dimensions Definition
-asd
+Parçacıklar arasındaki boşluk ayarı, "Padding Per Cell" modunda iken her parçacık arasındaki boşlugu, "Bounding Box Size" modunda iken bütün grid'in büyüklügüne göre parçacıklar arasındaki boşlugu ayarlar. Zaten bunları test edip anlarsınız.
+
+* #### XYZ Dimensions
+"Dimensions Definition" için XYZ yönlerinde boşluk degerleri.
+
+* #### Use A Custom Transformation Matrix
+bilmiyorum.
+
+* #### Exec Index
+bilmiyorum.
+
+* #### Grid X Count
+bilmiyorum.
+
+* #### Grid Y Count
+bilmiyorum.
+
+* #### Grid Z Count
+bilmiyorum.
 
 
 
@@ -236,9 +254,67 @@ asd
 
 
 
-## [Jitter Position]()
+
+
+## [Jitter Position](https://youtu.be/btUjODoqSnI?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=941)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara titreşim (jitter) ekler.
+
+
+* #### Jitter Amount
+Titreşim derecesi, kaç cm hareket edecegi bilgisi de olabilir ama emin degilim. 
+
+* #### Jitter Offset
+Bilmiyorum.
+
+* #### Jitter Delay
+Bilmiyorum.
+
+
+
+
+
+
+
 ## [Place Particles on Depth Buffer GPU]()
-## [Rotate Around Point]()
+## [Rotate Around Point](https://youtu.be/btUjODoqSnI?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=995)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkları tek bir nokta etrafında döndürür.
+
+
+* #### Rotation Phase
+Başlangıç noktası (0 - 1).
+
+* #### Rotation Rate
+Saniye başına atılacak tur sayısı.
+
+* #### Delta Time
+bilmiyorum.
+
+* #### Set Particle Position
+bilmiyorum.
+
+* #### Radius
+Çap.
+
+* #### Rotation Center
+Orta nokta, parçacıklar bu nokta etrafında dönecek.
+
+* #### Derive the Rotation Axis
+X Axis ve Y Axis kullanımı açar.
+
+* #### X Axis
+X Axis ve Y Axis, dönüş efekti için vektörleri ayarlamanıza yarar.
+
+* #### Y Axis
+X Axis ve Y Axis, dönüş efekti için vektörleri ayarlamanıza yarar.
+
+
+
+
+
+
+
 
 ## [Shape Location]()
 
