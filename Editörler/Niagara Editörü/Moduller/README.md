@@ -252,7 +252,15 @@ bilmiyorum.
 
 
 ## [Inherit Source Movement]()
-## [Limit Force]()
+## [Limit Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=814)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların üstündeki bütün [force etkilerini](../Terimler%20Sözlügü#force-ve-velocity) sınırlar.
+
+
+* #### Force Limit
+[Force etkileri](../Terimler%20Sözlügü#force-ve-velocity) bu degerden fazla olamaz. Sanırım deger cm türünden.
+
+
 ## [Line Attraction Force]()
 ## [Linear Force]()
 ## [Mesh Rotation Force]()
