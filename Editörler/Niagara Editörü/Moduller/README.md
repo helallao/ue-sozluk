@@ -261,10 +261,47 @@ bilmiyorum.
 [Force etkileri](../Terimler%20Sözlügü#force-ve-velocity) bu degerden fazla olamaz. Sanırım deger cm türünden.
 
 
-## [Line Attraction Force]()
-## [Linear Force]()
+
+
+## [Line Attraction Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=897)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Başlangıç ve bitiş noktalarını belirleyebildigimiz bir çizgi/dogru (line) oluşturur ve bu çizgi boyuna force uygular, yani tek noktadan degil de çizgi şeklinde.
+
+
+* #### Attraction Strength
+Çekim şiddeti.
+
+* #### Line Start
+Çizgi/dogru'nun başlangıç noktası.
+
+* #### Line End
+Çizgi/dogru'nun bitiş noktası.
+
+* #### Line Segment in Localspace
+bilmiyorum.
+
+* #### Attraction Falloff
+Bu ayarın tam olarak ne amaçla oldugunu bilmiyorum ama şöyle bi kullanılış şekli var, degeri eksilere indirirseniz çekim gücü uygulamak yerine itim gücü uyguluyor.
+
+
+
+
+## [Linear Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1038)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır, tek bir farkı vardır, parçacıklara sürekli hız eklemez, sadece bir kere ekler. Dolayısıyla parçacıklar hep aynı hızdadır, sadece en başta spawn olduklarında, bu hız eklendigi zaman bu hıza ulaşana kadar yavaş yavaş hızlanırlar, bu hıza ulaştıklarında artık hep bu hızda giderler.
+
+
+* #### Force
+Şiddet.
+
+* #### Coordinate Space
+bilmiyorum.
+
+
+
+
 ## [Mesh Rotation Force]()
-## [Point Attraction Force]()
+## [Point Attraction Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1146)
 ## [Point Force]()
 ## [Solve Forces and Velocity]()
 ## [Spring Force]()
