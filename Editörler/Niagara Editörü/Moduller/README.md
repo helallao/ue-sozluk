@@ -1,3 +1,16 @@
+### Yazım şekli
+* Her modul için, [Emitter](../Graph#emitter) üzerinde hangi kategorilerde yer alabildigini açıklamanın başına ekledim.
+* Eger modul hakkında güzel bi kaynak (genellikle video) varsa, modul'un başlıgına eklerim, başlıga tıklayıp videoya gidebilirsiniz, zaten modul'u anlamak için verdigim kaynaga bakmak gerekiyorsa bunu açıklamada da belirtirim. Bazı modul'lerde güzel kaynak olsa bile koymadım çünkü zaten benim açıklamalarımda ögreneceginiz her şey anlatılıyor.
+* Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
+<br>
+<br>
+<br>
+
+
+
+
+
+
 # Attribute Reader
 
 ## [Sample Particles from Other Emitter]()
