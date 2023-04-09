@@ -160,8 +160,84 @@ bilmiyorum.
 ## [Aerodynamic Drag]()
 ## [Apply Initial Forces]()
 ## [Curl Noise Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=464)
-## [Drag]()
-## [Gravity Force]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara rastgele yönlere dogru force ekler.
+
+
+* #### Noise Strength
+Şiddet.
+
+* #### Noise Frequency
+bilmiyorum.
+
+* #### Noise Quality / Cost
+Noise efekti kalitesi, degerlendirmeler aşagıda,
+<br>
+<br>
+Low --> 65KB
+<br>
+Medium --> 524KB
+<br>
+High --> 4.2MB
+<br>
+Ultra --> ?
+
+* #### Pan Noise Field
+Bunu noise deseninde hareket etmek gibi düşünebilirsiniz. Yani oluşturulan desen üzerinde hareket edip, diger kısımlardan geçiyormuşsunuz gibi, kısacası noise deseninin ilerleme hızı.
+
+* #### Sample Position
+Curl noise'inin uygulandıgı pozisyon.
+
+* #### Randomize Noise Sample
+Bu seçenek açıksa, emitter noise degerlerini rastgele offsetler yani rastgele olan degerler ekler, böylelikle diger emitter'lar ile aynı noise'yi kullanmaz. Eger bütün emitterların aynı noise'yi kullanmasını istiyorsanız bu seçenegi kapatabilirsiniz.
+
+* #### Random Seed
+Seed vermenize yarar ama ben test etsem bile göremedim, muhtemelen sadece farklı bir noise desenine geçmek için kullanılıyor.
+
+* #### Randomization Vector
+Bu deger "Randomize Noise Sample" açıkken kullanılan deger. Tam olarak nasıl çalıştıgını bilmiyorum.
+
+* #### Scale Curl Lookup By Engine Owner Scale
+Bilmiyorum.
+
+* #### Mask Curl Noise
+Bilmiyorum.
+
+
+
+
+
+## [Drag](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=703)
+
+([Particle Update](../Graph#particle-update)) Parçacıkların hızını azaltır (sürekli).
+
+
+* #### Drag
+Azaltma degeri, 1'de iken parçacıkların hızını yarıya düşürüyor denebilir, 2'de iken 4/1'e, 3'de iken 8/1 ... gibi. Tabi bu süreye ve hız degerine göre degişir, kullanıp anlamalısınız.
+
+* #### Rotational Drag
+bilmiyorum.
+
+* #### Ignore Mass
+Parçacıkların kütlesini dikkate almaz, bütün parçacıklara aynı drag etkisini uygular.
+
+
+
+
+## [Gravity Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=743)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır. Parçacıklara hız ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
+
+
+* #### Gravity
+Verilen konumdan parçacıklara çekim gücü uygulanır. Gücü arttırmak için konumu daha da uzaklaştırırız.
+
+* #### Coordinate Space
+bilmiyorum.
+
+
+
+
 ## [Inherit Source Movement]()
 ## [Limit Force]()
 ## [Line Attraction Force]()
