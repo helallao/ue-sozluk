@@ -158,11 +158,11 @@
 
 ## [Acceleration Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=79)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara hız ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
 
 
 * #### Acceleration
-XYZ olmak üzere her eksende hız degerleri.
+XYZ olmak üzere her eksende force degerleri.
 
 * #### Coordinate Space
 bilmiyorum.
@@ -174,7 +174,7 @@ bilmiyorum.
 ## [Apply Initial Forces]()
 ## [Curl Noise Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=464)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara rastgele yönlere dogru force ekler.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara rastgele yönlere dogru [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler.
 
 
 * #### Noise Strength
@@ -184,7 +184,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### Noise Quality / Cost
-Noise efekti kalitesi, degerlendirmeler aşagıda,
+Noise efekti kalitesi, ram'de tuttukları alan degerleri aşagıda, High ve Ultra sadece sinematik yani yüksek kalite gerektiren durumlarda kullanılmalıdır.
 <br>
 <br>
 Low --> 65KB
@@ -239,7 +239,7 @@ Parçacıkların kütlesini dikkate almaz, bütün parçacıklara aynı drag etk
 
 ## [Gravity Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=743)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır. Parçacıklara hız ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır. Parçacıklara [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
 
 
 * #### Gravity
@@ -302,7 +302,7 @@ bilmiyorum.
 
 ## [Grid Location]()
 
-([Particle Spawn](../Graph#particle-spawn)) Bu modul [Spawn Particles in Grid](#spawn-particles-in-grid) ile birlikte kullanılmak zorundadır. Grid şekli ile ilgili ayarları barındırır.
+([Particle Spawn](../Graph#particle-spawn)) Bu modül [Spawn Particles in Grid](#spawn-particles-in-grid) ile birlikte kullanılmak zorundadır. Grid şekli ile ilgili ayarları barındırır.
 
 * #### Grid Origin
 Grid'in orijin noktası.
@@ -329,7 +329,7 @@ Parçacıklara rastgele offset degeri verir. XYZ eksenleri olmak üzere bütün 
 XYZ eksenleri olmak üzere bütün eksenlerde offset verebilirsiniz.
 
 * #### Dimensions Definition
-Parçacıklar arasındaki boşluk ayarı, "Padding Per Cell" modunda iken her parçacık arasındaki boşlugu, "Bounding Box Size" modunda iken bütün grid'in büyüklügüne göre parçacıklar arasındaki boşlugu ayarlar. Zaten bunları test edip anlarsınız.
+Parçacıklar arasındaki boşluk ayarı, "Padding Per Cell" modunda iken her parçacık arasındaki boşlugu, "Bounding Box Size" modunda iken bütün grid'in büyüklügüne göre parçacıklar arasındaki boşlugu ayarlar. Kendiniz test edip anlamalısınız.
 
 * #### XYZ Dimensions
 "Dimensions Definition" için XYZ yönlerinde boşluk degerleri.
@@ -364,7 +364,7 @@ bilmiyorum.
 
 
 * #### Jitter Amount
-Titreşim derecesi, kaç cm hareket edecegi bilgisi de olabilir ama emin degilim. 
+Titreşim derecesi, kaç cm hareket edecegi bilgisi de olabilir ama emin degilim.
 
 * #### Jitter Offset
 Bilmiyorum.
@@ -397,7 +397,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### Radius
-Çap.
+Çap degeri.
 
 * #### Rotation Center
 Orta nokta, parçacıklar bu nokta etrafında dönecek.
@@ -420,7 +420,7 @@ X Axis ve Y Axis, dönüş efekti için vektörleri ayarlamanıza yarar.
 
 ## [Shape Location]()
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların spawn olacagı bölgeyi belirler. Birden fazla "Shape Primitive" a sahiptir. Bu yüzden her birinin inputlarını ayrı ayrı anlattım. Location modullerinde, şekilleri tam olarak anlamak için parçacık sayısını arttırabilir ve bütün hareketleri kapatabilirsiniz.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların spawn olacagı bölgeyi belirler. Birden fazla "Shape Primitive" a sahiptir. Bu yüzden her birinin inputlarını ayrı ayrı anlattım. Location modüllerinde, şekilleri tam olarak anlamak için parçacık sayısını arttırabilir ve bütün hareket etkilerini kapatabilirsiniz.
 
 
 <br>
@@ -885,7 +885,7 @@ Bilmiyorum.
 ## [Skeletal Mesh Location](https://youtu.be/btUjODoqSnI?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1070)
 ## [Spawn Particles in Grid]()
 
-([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update)) Bu modul [Grid Location](#grid-location) ile birlikte kullanılmak zorundadır. Grid şekli bir alanda parçacıkların hepsini aynı anda spawn eder, sadece spawn ayarlarını barındırır, grid şekli ile ilgili ayarları [Grid Location](#grid-location) üzerinden yaparsınız.
+([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update)) Bu modül [Grid Location](#grid-location) ile birlikte kullanılmak zorundadır. Grid şekli bir alanda parçacıkların hepsini aynı anda spawn eder, sadece spawn ayarlarını barındırır, grid şekli ile ilgili ayarları [Grid Location](#grid-location) üzerinden yaparsınız.
 
 
 * #### X Count
@@ -904,7 +904,7 @@ Spawn edecegi saniye.
 Bilmiyorum.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
 
 
 
@@ -1074,7 +1074,7 @@ Spawn işleminin gerçekleşecegi zaman (saniye).
 0 - 1 arasında, spawn olma ihtimali. Bu ihtimal bütün parçacıkları kapsar.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
 
 * #### Age
 parametre
@@ -1100,7 +1100,7 @@ yazılacak
 Her frame'de spawn edilecek parçacık sayısı.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
 
 * #### Spawn Probability
 0 - 1 arasında, spawn olma ihtimali.
@@ -1135,7 +1135,7 @@ parametre
 parametre
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
 
 
 
@@ -1153,7 +1153,7 @@ Saniye başına spawn olacak parçacık sayısı.
 0 - 1 arasında, her parçacık için spawn olma ihtimali.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modul'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
 
 
 
@@ -1228,7 +1228,7 @@ Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok mo
 
 ## [Add Velocity](https://youtu.be/BadHGIYkrMw?list=PLUi8nuTUEtTshYxpmR7brPE3tV7JsO0VP&t=41)
 
-([Particle Spawn](../Graph#particle-spawn)) Parçacıklara velocity (hız) ekler, başka bir yönden güç uygular da denebilir. Birden fazla "Velocity Mode" a sahiptir. Bu yüzden her birinin inputlarını ayrı ayrı anlattım.
+([Particle Spawn](../Graph#particle-spawn)) Parçacıklara velocity (hız) ekler. Birden fazla "Velocity Mode" a sahiptir. Bu yüzden her birinin inputlarını ayrı ayrı anlattım.
 
 
 <br>
@@ -1240,7 +1240,7 @@ Tek yöne dogru velocity ekler.
 1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
 
 * #### Velocity Speed Scale
-Yukarıda 1 saniye dedim ya, işte bu ayar velocity speed'ini arttırıyor. Bunu 2 yaparsanız, o zaman 2 kat hızlı olur, yani ulaşacagı yere 1 degil yarım saniyede ulaşır.
+Yukarıda 1 saniye dedim ya, işte bu ayar velocity speed'ini arttırıyor. Bunu 2 yaparsanız, o zaman 2 kat hızlı olur, yani ulaşacagı yere 1 degil 0.5 saniyede ulaşır.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
@@ -1249,7 +1249,7 @@ Rotation ile ilgili bir açıklama yapmicam, gereksiz.
 <br>
 
 ### From Point
-Belirli bir noktadan etrafa dogru güç uygular, yani itme kuvveti oluşturur.
+Belirli bir noktadan etrafa dogru güç uygular, yani itme kuvveti oluşturur. İtme kuvveti oluştursa bile bu bir [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) degildir, velocity'dir.
 
 * #### Velocity Speed
 1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
