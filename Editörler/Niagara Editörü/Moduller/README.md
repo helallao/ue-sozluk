@@ -302,7 +302,35 @@ bilmiyorum.
 
 ## [Mesh Rotation Force]()
 ## [Point Attraction Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1146)
-## [Point Force]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Tek bir noktadan parçacıklara çekim gücü uygular.
+
+
+* #### Attraction Strength
+Çekim şiddeti.
+
+* #### Attraction Radius
+Şiddetin uygulanacagı uzaklık/çap degeri.
+
+* #### Falloff Exponent
+Falloff yani düşüş degeri, falloff degeri arttıkça ortaya kenarlardaki degerler düşecegi için geriye orta nokta kalır ve degeri yükselttikçe orta nokta gitgide küçülür, aynı zamanda orta nokta küçülürken parçacıkların da hızı artar.
+
+* #### Attraction Position
+Çekim gücü uygulayan noktanın konumu.
+
+* #### Kill Radius
+Bu ayarı anlamak için linkteki videoya bakın. Çap degeri, orta noktaya bu degerden fazla yaklaşan parçacıklar yok edilir.
+
+* #### Kill Radius Overshoot Correction
+Sadece "Kill Radius" ayarı açıkken vardır. Bu ayarı anlamak için linkteki videoya bakın. Overshoot olan yani oluşturdugumuz "Kill Radius" çapını tek bir frame'de (kare, fps) geçebilen parçacıkları da yakalayabilmek için vardır. Oluşturdugumuz "Kill Radius" çapını, parçacıkların hızına göre genişletir (ya da başka bişe bilmiyorum) ve parçacıgı ne kadar hızlı olsa da yakalar.
+
+* #### Position To Attract
+Bilmiyorum.
+
+
+
+
+## [Point Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1275)
 ## [Solve Forces and Velocity]()
 ## [Spring Force]()
 ## [Vector Noise Force]()
