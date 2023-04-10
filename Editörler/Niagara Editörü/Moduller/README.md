@@ -331,7 +331,41 @@ Bilmiyorum.
 
 
 ## [Point Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1275)
-## [Solve Forces and Velocity]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Tek bir noktadan parçacıklara itim/çekim gücü uygular.
+
+
+* #### Force Strength
+İtim/Çekim şiddeti. Eger eksilere inerseniz çekim, artılara giderseniz itim gücü uygular.
+
+* #### Force Falloff Distance
+Falloff alanı oluşturur, bu deger ise bu alanın çap degeri.
+
+* #### Linear Force Vector
+"Force Falloff Distance" alanı içine giren parçacıkları orta noktaya dogru çekmek yerine, istediginiz yönde force eklemeye yarar.
+
+* #### Invert Falloff
+Default olarak açıktır ve normal falloff işlevi görür. Falloff orta noktaya yakın olan parçacıklara daha fazla, uzak olan parçacıklara daha az force uygulanması anlamına gelir, eger bu seçenegi açarsanız falloff kapatılır yani alan içindeki bütün parçacıklara aynı etki uygulanır.
+
+* #### Fallback Vector
+bilmiyorum.
+
+* #### Force Origin
+bilmiyorum.
+
+* #### Draw Line to Force Origin
+bilmiyorum.
+
+
+
+
+
+## [Solve Forces and Velocity](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1368)
+
+
+
+
+
 ## [Spring Force]()
 ## [Vector Noise Force]()
 ## [Vortex Force]()
