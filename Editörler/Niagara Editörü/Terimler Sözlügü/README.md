@@ -1,3 +1,8 @@
 ## Force ve Velocity
 
 Velocity parçacıgın üzerindeki hız degerini ifade ederken, force çekim/itim gücünü ifade eder. Bu ikisi iki ayrı etki olarak hesaplanır.
+
+
+## Local ve World Coordinate Space
+
+Bunun hakkında [şöyle](https://youtu.be/KEJx7ZX25gY) bi video var, isterseniz onu da izleyebilirsiniz. Local ve World arasında 2 fark vardır, World space kullanılırken eger level editörünüzde niagara objesini hareket ettirirseniz spawn olmuş parçacıklar da niagara objesi ile beraber hareket etmez yani spawn olduktan sonra niagara objesine baglı degillerdir. Local space kullanırken bunun tam tersi olur, eger niagara objesini hareket ettirirseniz spawn olmuş parçacıklar da niagara objesine baglı olarak hareket eder. Local ve World space arasındaki ikinci fark ise, World space kullanırken niagara objesinin scale (boyut) degerini degiştirseniz bile niagara sistemindeki hiçbir boyut degeri degişmez. Local space kullanırken bunun tam tersi olur, niagara objesinin scale (boyut) degerini istediginiz gibi degiştirebilirsiniz.
