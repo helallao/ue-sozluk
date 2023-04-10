@@ -426,9 +426,56 @@ Kaç saniyede bir parçacıkların yönünü degiştirecegini belirler.
 
 
 ## [Vortex Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1547)
-## [Wind Force]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Vortex Velocity'e](#vortex-velocity) benzer.
 
 
+* #### Vortex Force Amount
+Şiddet.
+
+* #### Vortex Axis
+Girdapın oryantasyonu yani yönü.
+
+* #### Vortex Axis Coordinate Space
+bilmiyorum.
+
+* #### Vortex Influence Position
+bilmiyorum.
+
+* #### Vortex Origin
+Orijin noktası.
+
+* #### Origin Pull Amount
+Arttırdıkça orijin noktasına yani orta noktaya dogru çekim gücü uygular. Eger eksilere giderseniz itim gücü uygular.
+
+* #### Origin Pull Only On Vortex Axis
+bilmiyorum.
+
+* #### Vortex Origin Offset
+Orijin noktasına offset vermenize yarar.
+
+* #### Vortex Origin Offset Coordinate Space
+bilmiyorum.
+
+* #### Use Influence Falloff
+Force etki alanını belirler.
+
+* #### Influence Falloff Radius
+Sadece "Use Influence Falloff" ayarı açıkken vardır. "Influence Falloff" alanının çap degeri. Bu alan içindekiler Vortex Force'dan etkilenir.
+
+* #### Influence Falloff Exponent
+Sadece "Use Influence Falloff" ayarı açıkken vardır. "Influence Falloff" alanı için falloff katsayı degeri. Falloff etkisini arttırır, falloff yani düşüş degeri arttıgı için, deger arttıkça uzaktaki parçacıklar çok az etkilenir.
+
+* #### Invert Influence Falloff
+Falloff etkisini tersine çevirir yani uzaktaki parçacıklar daha çok, yakındaki parçacıklar daha az etkilenir.
+
+
+
+
+
+## [Wind Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1605)
+
+([Particle Update](../Graph#particle-update))
 
 
 
