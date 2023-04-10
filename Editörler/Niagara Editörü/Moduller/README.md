@@ -181,7 +181,7 @@ bilmiyorum.
 Şiddet.
 
 * #### Noise Frequency
-bilmiyorum.
+Noise yani rastgele yön verme işleminin ne kadar sık olacagını belirler, eger çok sık olursa parçacıklar sürekli her yöne döndügü için hızları yavaşlayacaktır, eger az olursa parçacıkların tek bi yöne gitme süreleri artacagı için hızları artacaktır.
 
 * #### Noise Quality / Cost
 Noise efekti kalitesi, ram'de tuttukları alan degerleri aşagıda, High ve Ultra sadece sinematik yani yüksek kalite gerektiren durumlarda kullanılmalıdır.
@@ -362,13 +362,70 @@ bilmiyorum.
 
 ## [Solve Forces and Velocity](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1368)
 
+([Particle Update](../Graph#particle-update)) bilmiyorum
+
+
+* #### Speed Limit
+bilmiyorum.
+
+* #### Acceleration Limit
+bilmiyorum.
 
 
 
 
-## [Spring Force]()
-## [Vector Noise Force]()
-## [Vortex Force]()
+## [Spring Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1396)
+
+([Particle Update](../Graph#particle-update))
+
+
+* #### Particle Position
+bilmiyorum.
+
+* #### Particle Velocity
+bilmiyorum.
+
+* #### Force Strength
+Çekim şiddeti, eksilere gidince itim şiddetine dönüşür.
+
+* #### Particle Equilibrium Position
+Orta noktanın konumu.
+
+* #### Spring Tightness
+"Force Strength" ile aynı işlevi görüyor, parçacıkların ne kadar hızlı olacagını ayarlıyor.
+
+* #### Attachment Point Velocity
+bilmiyorum.
+
+* #### Dampening Coefficient
+bilmiyorum.
+
+* #### Desired Minimum Separation Distance
+bilmiyorum.
+
+* #### Write to Intrinsic Parameters
+bilmiyorum.
+
+
+
+
+
+## [Vector Noise Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1494)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Curl Noise Force'a](#curl-noise-force) benzer.
+
+
+* #### Force Amount
+Şiddet.
+
+* #### Random Noise Time Interval
+Kaç saniyede bir parçacıkların yönünü degiştirecegini belirler.
+
+
+
+
+
+## [Vortex Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1547)
 ## [Wind Force]()
 
 
