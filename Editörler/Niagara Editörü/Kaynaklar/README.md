@@ -23,8 +23,7 @@ Burası niagara editörü hakkında kaynakları barındıran bölümdür, içeri
 * [All Is Play](https://www.youtube.com/@AllIsPlay/videos) - Unreal Engine niagara hakkında videolar var
 * [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine niagara hakkında, niagara için [tutorial playlisti](https://www.youtube.com/watch?v=ivfdCviqS9Y&list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV) var
 * [PrismaticaDev](https://www.youtube.com/@PrismaticaDev/videos) - Unreal Engine materyaller ve niagara hakkında
-
-
+* [UE4 - VFX](https://www.youtube.com/playlist?list=PLomQNLPOWtzYXU_pRIUVVEV9uY7bjENZ5) - gameDev Outpost kanalının vfx playlisti
 
 
 
