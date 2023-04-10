@@ -165,7 +165,7 @@
 XYZ olmak üzere her eksende force degerleri.
 
 * #### Coordinate Space
-bilmiyorum.
+Acceleration Force'unun uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -716,7 +716,7 @@ Orijin noktası.
 Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -792,7 +792,7 @@ Orijin noktası.
 Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -853,7 +853,7 @@ Orijin noktası.
 Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -929,7 +929,7 @@ Orijin noktası.
 Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -1003,7 +1003,7 @@ Orijin noktası.
 Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -1084,7 +1084,7 @@ Orijin noktası.
 Offset vermenize yarar, yani konum üzerine ekleme yapmanıza.
 
 * #### Offset Coordinate Space
-Bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -1133,7 +1133,7 @@ Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok mo
 Offset verebilirsiniz.
 
 * #### Offset Coordinate Space
-Bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Spawn Group Mask
 Bilmiyorum.
