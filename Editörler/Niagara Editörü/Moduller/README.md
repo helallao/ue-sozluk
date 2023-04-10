@@ -362,13 +362,16 @@ bilmiyorum.
 
 ## [Solve Forces and Velocity](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1368)
 
-([Particle Update](../Graph#particle-update)) bilmiyorum
+([Particle Update](../Graph#particle-update)) Bütün velocity ve force etkilerini hesaplayıp sistem parametrelerine ekler/günceller. Sürekli çalıştıgı için sadece [Particle Update'de](../Graph#particle-update) kullanılır, en alta (yani en son sıraya) konulması gerekir.
 
 
 * #### Speed Limit
-bilmiyorum.
+Hem velocity hem de [force](../Terimler%20Sözlügü#force-ve-velocity) için geçerli olan maximum hız limiti (saniye başına).
 
 * #### Acceleration Limit
+Sadece [force etkileri](../Terimler%20Sözlügü#force-ve-velocity) için geçerli olan maximum hızlanma limiti (saniye başına). İsmi "Acceleration Limit" çünkü force etkileri velocity gibi birden uygulanmaz, çekim/itim etkisi gibi zamanla artar, bu yüzden force etkileri için "Acceleration Limit" ismi kullanılmış.
+
+* #### Manually Enable Rotational Solver
 bilmiyorum.
 
 
