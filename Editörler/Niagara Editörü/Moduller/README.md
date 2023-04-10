@@ -246,7 +246,7 @@ Parçacıkların kütlesini dikkate almaz, bütün parçacıklara aynı drag etk
 Verilen konumdan parçacıklara çekim gücü uygulanır. Gücü arttırmak için konumu daha da uzaklaştırırız.
 
 * #### Coordinate Space
-bilmiyorum.
+Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -295,7 +295,7 @@ Bu ayarın tam olarak ne amaçla oldugunu bilmiyorum ama şöyle bi kullanılı�
 Şiddet.
 
 * #### Coordinate Space
-bilmiyorum.
+Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -434,10 +434,10 @@ Kaç saniyede bir parçacıkların yönünü degiştirecegini belirler.
 Şiddet.
 
 * #### Vortex Axis
-Girdapın oryantasyonu yani yönü.
+Girdabın oryantasyonu yani yönü.
 
 * #### Vortex Axis Coordinate Space
-bilmiyorum.
+Girdabın yönünün uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Vortex Influence Position
 bilmiyorum.
@@ -519,7 +519,7 @@ Falloff etkisini tersine çevirir yani uzaktaki parçacıklar daha çok, yakınd
 Grid'in orijin noktası.
 
 * #### Coordinate Space
-bilmiyorum.
+[Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Placement Randomness Mode
 "Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Placement Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Placement Seed" kullanımını kapatır.
@@ -1493,7 +1493,7 @@ Orijin noktası, yani orta nokta.
 Orijin noktasına offset vermenize yarar.
 
 * #### Origin Offset Coordinate Space
-Ne işe yaradıgını bilmiyorum.
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Default Position
 Ne işe yaradıgını bilmiyorum.
@@ -1577,7 +1577,7 @@ parametre
 
 
 * #### Coordinate Space
-Ne işe yaradıgını bilmiyorum.
+[Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Velocity Scale
 Yönlere göre hız degeri çarpanı. Mesela diyelim ki X degerini 2 yaptınız, o zaman X ekseninde sahip olunan velocity degeri 2 ile çarpılır. Bu şekilde XYZ olmak üzere 3 yön için hız degeri çarpanı ayarlayabilirsiniz.
@@ -1599,13 +1599,13 @@ Yönlere göre hız degeri çarpanı. Mesela diyelim ki X degerini 2 yaptınız,
 1 saniyede hangi yöne kaç birim (cm) ilerleyecegini ayarlarsınız, yani hızını.
 
 * #### Vortex Axis
-Yön degerleri.
+Girdabın oryantasyonu yani yönü.
 
 * #### Vortex Origin
 Orijin noktası, yani orta nokta.
 
 * #### Vortex Axis Coordinate Space
-Ne işe yaradıgını bilmiyorum.
+Girdabın yönünün uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Influence Falloff Exponent
 "Influence Falloff Radius" seçenegini açtıgınızda gelir. "Influence Falloff Radius" degeri için katsayıdır, yani degeri bu sayı ile katlar, gereksiz.
