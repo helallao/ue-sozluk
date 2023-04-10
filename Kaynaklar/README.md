@@ -43,6 +43,7 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 * [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine materyaller ve niagara hakkında
 * [Ben Cloward](https://www.youtube.com/@BenCloward/playlists) - Unreal Engine hakkında, genellikle materyaller hakkında dersler, youtubenin en kaliteli materyal dersleri burada
 * [Unreal Gems](https://www.youtube.com/@UnrealGems/videos) - Çok videosu yok ama materyaller ile ilgili çok güzel 4 videosu var
+* [gameDev Outpost](https://www.youtube.com/@gamedevoutpost9270/videos) - Unreal Engine vfx hakkında (niagara) videolar var
 
 ## Youtube Türk
 * [ERG Digital Dev](https://www.youtube.com/@ERGDD/videos) - Unreal Engine hakkında dersler
@@ -71,3 +72,4 @@ Burdaki serverlar sadece ünlü olanlar, daha fazla server için [disboard'a](ht
 * [Stats](https://docs.unrealengine.com/5.1/en-US/unreal-engine-material-editor-ui/#statspanel) - Stats Panel, Unreal Engine'in kendi dökümanı
 * [Layered Materials](https://www.youtube.com/watch?v=UZghyZLzRyM) - Material Layers hakkında video
 * [Layered Materials](https://www.youtube.com/watch?v=ViBUxByc4gw) - Material Layers hakkında video
+* [UE4 - VFX](https://www.youtube.com/playlist?list=PLomQNLPOWtzYXU_pRIUVVEV9uY7bjENZ5) - gameDev Outpost kanalının vfx playlisti
