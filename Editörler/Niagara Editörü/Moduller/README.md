@@ -503,6 +503,76 @@ Sadece "Lifetime Mode" "Random" modundayken vardır. Parçacıgın lifetime yani
 * #### Lifetime Randomness Mode
 Sadece "Lifetime Mode" "Random" modundayken vardır. bilmiyorum.
 
+* #### Color
+Sadece "Color Mode" "Direct Set" modundayken vardır. Parçacıgın renk degeri.
+
+* #### Color Minimum
+Sadece "Color Mode" "Random Range" modundayken vardır. Parçacıgın sanip olabilecegi minimum renk degeri.
+
+* #### Color Maximum
+Sadece "Color Mode" "Random Range" modundayken vardır. Parçacıgın sanip olabilecegi maximum renk degeri.
+
+* #### Color Channel Mode
+Sadece "Color Mode" "Random Range" modundayken vardır. Verilen "Color Minimum" ve "Color Maximum" renklerinin karışımından nasıl bir renk çıkacagını belirler. 3 modu vardır,
+<br>
+<br>
+RGBA = Minimum ve maximum arasından rastgele tek bir seçim yapar ve bunu RGBA olmak üzere bütün kanallarda kullanır.
+<br>
+RGB/A = Minimum ve maximum arasından rastgele iki seçim yapar, birini RGB kanallarında (yani renk), digerini Alpha kanalında kullanır. Yani RGB ve A kanalı için iki ayrı rastgele seçim yapar.
+<br>
+Random individual Channels = Minimum ve maximum arasından rastgele 4 seçim yapar, RGBA kanallarının her biri için ayrı ayrı kullanır. En çok rastgelelige sahip olan seçenek budur ama minimum ve maximum arasındaki range (aralık) genişse, minimum ve maximum olarak verdiginiz renkler birbirine benzer olsa bile rastgele seçilen sayılardan ortaya çıkan renk bu renklere benzemeyebilir.
+
+* #### Hue Shift Range
+Sadece "Color Mode" "Random Hue/Saturation/Value" modundayken vardır. Renk degişimi, bunu anlamak için materyal editöründeki [HueShift](../../Materyal%20Editörü/Nodlar#hueshift-%EF%B8%8F) nodu için yazdıgım açıklamaya bakabilirsiniz.
+
+* #### Saturation Range
+Sadece "Color Mode" "Random Hue/Saturation/Value" modundayken vardır. Renk yogunlugu/doygunlugu yani renklilik degeri.
+
+* #### Value Range
+Sadece "Color Mode" "Random Hue/Saturation/Value" modundayken vardır. Renk degerini degiştirir, 0 iken siyah, 1 iken renkli ve arttırdıkça da, emissive gibi renklenir/parıldar.
+
+* #### Alpha Scale Range
+Sadece "Color Mode" "Random Hue/Saturation/Value" modundayken vardır. Alpha degeri.
+
+* #### Position Mode
+Parçacıgın konumunu ayarlamak için kullanılacak mod, 2 modu vardır,
+<br>
+<br>
+Direct Set = İstediginiz konumu verirsiniz, bu modu seçince "Position" inputu açılır.
+<br>
+Simulation Position = Eger Worldspace ise dünyadaki konumunu, local ise 0,0,0 döndürür. Yani simulasyon konumunu.
+
+* #### Position
+Sadece "Position Mode" "Direct Set" modundayken vardır. Parçacıgın konumunu ayarlar.
+
+* #### Position Offset
+Konuma offset vermenize yarar.
+
+* #### Position Offset Coordinate Space
+Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+* #### Mass Mode
+.... için kullanılacak mod, 3 modu vardır,
+<br>
+<br>
+Unset = Mass olarak 1 verir.
+<br>
+Direct Set = İstediginiz mass degerini verirsiniz, bu modu seçince "Mass" inputu açılır.
+<br>
+Random = İstediginiz aralıkta rastgele mass degerini verirsiniz, bu modu seçince "Mass Min" ve "Mass Max" inputları açılır.
+
+* #### Mass
+Sadece "Mass Mode" "Direct Set" modundayken vardır. Parçacıgın mass degerini ayarlar.
+
+* #### Mass Min
+Sadece "Mass Mode" "Random" modundayken vardır. Parçacıgın sanip olabilecegi minimum mass degeri.
+
+* #### Mass Max
+Sadece "Mass Mode" "Random" modundayken vardır. Parçacıgın sanip olabilecegi maximum mass degeri.
+
+
+
+
 
 
 
