@@ -483,11 +483,25 @@ Falloff etkisini tersine çevirir yani uzaktaki parçacıklar daha çok, yakınd
 
 
 
+
 # Initialization
 
 ## [Initialize Particle]()
 
+([Particle Spawn](../Graph#particle-spawn)) Parçacık spawn oldugunda gerekli olan bütün ayarları yapar. Her parçacık spawn oldugunda çagrıldıgı için sadece [Particle Spawn'da](../Graph#particle-spawn) kullanılır, en üste (yani ilk sıraya) konulması gerekir.
 
+
+* #### Lifetime
+Sadece "Lifetime Mode" "Direct Set" modundayken vardır. Parçacıgın lifetime yani yaşam süresini ayarlar.
+
+* #### Lifetime Min
+Sadece "Lifetime Mode" "Random" modundayken vardır. Parçacıgın lifetime yani yaşam süresi için minimum süreyi ayarlar.
+
+* #### Lifetime Max
+Sadece "Lifetime Mode" "Random" modundayken vardır. Parçacıgın lifetime yani yaşam süresi için maximum süreyi ayarlar.
+
+* #### Lifetime Randomness Mode
+Sadece "Lifetime Mode" "Random" modundayken vardır. bilmiyorum.
 
 
 
