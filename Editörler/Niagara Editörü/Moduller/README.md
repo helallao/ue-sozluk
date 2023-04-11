@@ -72,7 +72,43 @@
 # Color
 
 ## [Color]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların rengini ayarlar.
+
+
+* #### Color
+Renk degeri.
+
+* #### Scale Color
+Renk degeri çarpanı, mesela X (yani R) degerini 10 yaparsanız, "Color" inputuna verdiginiz renk degerinin X (yani R) kanalı 10 ile çarpılır.
+
+* #### Scale Alpha
+Alpha degeri çarpanı, mesela 10 yaparsanız, "Color" inputuna verdiginiz renk degerinin Alpha kanalı 10 ile çarpılır.
+
+
+
+
 ## [Scale Color]()
+
+([Particle Update](../Graph#particle-update)) Parçacıkların rengini scale eder yani boyutlandırır (verilen degerle çarpar).
+
+
+* #### Scaıe RGB
+Sadece "Scale Mode" "RGB and Alpha Separately" modundayken vardır. RGB kanallarını scale eder (verilen degerle çarpar).
+
+* #### Scale Alpha
+Sadece "Scale Mode" "RGB and Alpha Separately" modundayken vardır. Alpha kanalını scale eder (verilen degerle çarpar).
+
+* #### Scale RGBA
+Sadece "Scale Mode" "RGBA Together" modundayken vardır. RGBA kanallarını scale eder (verilen degerle çarpar).
+
+* #### Color Value To Scale
+Scale edilecek renk degeri.
+
+
+
+
+
 ## [Scale Color by Speed]()
 
 
