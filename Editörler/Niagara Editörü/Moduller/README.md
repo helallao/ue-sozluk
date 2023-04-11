@@ -570,8 +570,44 @@ Sadece "Mass Mode" "Random" modundayken vardır. Parçacıgın sanip olabilecegi
 * #### Mass Max
 Sadece "Mass Mode" "Random" modundayken vardır. Parçacıgın sanip olabilecegi maximum mass degeri.
 
+* #### Mass Randomness Mode
+bilmiyorum.
 
+* #### Material Random
+bilmiyorum.
 
+* #### Uniform Sprite Size
+Sadece "Sprite Size Mode" "Uniform" modundayken vardır. Sprite için boyut degeri, tek bir input alır, X ve Y degerleri için kullanır yani kare şeklinde.
+
+* #### Uniform Sprite Size Min
+Sadece "Sprite Size Mode" "Random Uniform" modundayken vardır. Sprite için minimum boyut degeri, tek bir input alır, X ve Y degerleri için kullanır yani kare şeklinde.
+
+* #### Uniform Sprite Size Max
+Sadece "Sprite Size Mode" "Random Uniform" modundayken vardır. Sprite için maximum boyut degeri, tek bir input alır, X ve Y degerleri için kullanır yani kare şeklinde.
+
+* #### Sprite Size Min
+Sadece "Sprite Size Mode" "Random Non-Uniform" modundayken vardır. Sprite için minimum boyut degeri, X ve Y degerleri en ve boyu temsil ediyor.
+
+* #### Sprite Size Max
+Sadece "Sprite Size Mode" "Random Non-Uniform" modundayken vardır. Sprite için maximum boyut degeri, X ve Y degerleri en ve boyu temsil ediyor.
+
+* #### Sprite Size Randomness Mode
+Sadece "Sprite Size Mode" "Random Uniform" ve "Random Non-Uniform" modundayken vardır. bilmiyorum.
+
+* #### Sprite Rotation Angle Min
+Sadece "Sprite Rotation Mode" "Random" modundayken vardır. Sprite için minimum açı (yön) degeri.
+
+* #### Sprite Rotation Angle Max
+Sadece "Sprite Rotation Mode" "Random" modundayken vardır. Sprite için maximum açı (yön) degeri.
+
+* #### Sprite Rotation Randomness Mode
+Sadece "Sprite Rotation Mode" "Random" modundayken vardır. bilmiyorum.
+
+* #### Sprite Rotation Angle
+Sadece "Sprite Rotation Mode" "Direct Angle (Degrees)" modundayken vardır. Sprite için açı (yön) degeri.
+
+* #### Sprite Rotation Angle
+Sadece "Sprite Rotation Mode" "Direct Normalized Angle (0-1)" modundayken vardır. Sprite için açı (yön) degeri ama 0 - 360 derece yerine 0 - 1 arası.
 
 
 
