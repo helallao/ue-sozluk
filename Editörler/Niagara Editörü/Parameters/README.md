@@ -14,15 +14,19 @@ Bu parametreler kullanıcı tarafından degiştirilemez. Yanlarında kilit vard�
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Parameter_Focus.jpg">
 
 
-Bu üç işaret okuma, yazma ve hem okuma hem yazmayı ifade eder.
+Soldaki üç işaret okuma, yazma ve hem okuma hem yazmayı ifade eder.
 
-
+* okuma
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Read.jpg">
+
+* yazma
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Write.jpg">
+
+* okuma/yazma
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Read_Write.jpg">
 
 
-
+<br>
 
 Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda bulabilirsiniz.
 
