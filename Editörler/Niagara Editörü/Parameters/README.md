@@ -8,7 +8,23 @@ Niagara'da parametreler çok önemlidir, parametreleri inputların yerine kullan
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Age.jpg">
 
 
-Bu parametreler kullanıcı tarafından degiştirilemez. Yanlarında kilit vardır. Resimde en solda gördügünüz küçük renk parametrenin türünü belirtiyor, imlecinizi üerine getirirseniz türünü görebilirsiniz. Bir sagında "System" yazıyor, bu parametrenin tag'i, parametreler [modüller](../Moduller) tarafından oluşturuldugunda tag'lere sahip olurlar. En sagda ise "5" yazıyor, bu parametrenin kaç defa kullanıldıgının/referans verildiginin sayısıdır. Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda bulabilirsiniz.
+Bu parametreler kullanıcı tarafından degiştirilemez. Yanlarında kilit vardır. Resimde en solda gördügünüz küçük renk parametrenin türünü belirtiyor, imlecinizi üerine getirirseniz türünü görebilirsiniz. Bir sagında "System" yazıyor, bu parametrenin tag'i, parametreler [modüller](../Moduller) tarafından oluşturuldugunda tag'lere sahip olurlar. En sagda ise "5" yazıyor, bu parametrenin kaç defa kullanıldıgının/referans verildiginin sayısıdır. Eger [Graph](../Graph) üzerinde bir şey seçmediyseniz bütün parametreleri göremeyebilirsiniz, bütün parametrelerini görmek için [Graph](../Graph) üzerinde bir şey seçmelisiniz (emitter ve ya system). Parametreler ekranında bir parametreyi seçtiginiz zaman aşagıdaki resimdeki gibi işaretler çıkar.
+
+
+<img src="../../../Dosyalar/Niagara_Editor_Parameters_Parameter_Focus.jpg">
+
+
+Bu üç işaret okuma, yazma ve hem okuma hem yazmayı ifade eder.
+
+
+<img src="../../../Dosyalar/Niagara_Editor_Parameters_Read.jpg">
+<img src="../../../Dosyalar/Niagara_Editor_Parameters_Write.jpg">
+<img src="../../../Dosyalar/Niagara_Editor_Parameters_Read_Write.jpg">
+
+
+
+
+Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda bulabilirsiniz.
 
 
 
