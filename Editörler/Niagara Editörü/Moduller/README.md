@@ -662,6 +662,9 @@ Sadece "Sprite Rotation Mode" "Direct Normalized Angle (0-1)" modundayken vardı
 
 ## [Particle State]()
 
+## [System State]()
+([System Update](../Graph#system-update))
+
 
 
 
