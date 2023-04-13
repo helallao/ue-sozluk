@@ -663,7 +663,9 @@ Sadece "Sprite Rotation Mode" "Direct Normalized Angle (0-1)" modundayken vardı
 ## [Particle State]()
 
 ## [System State]()
+
 ([System Update](../Graph#system-update)) Sistemin genel ayarları.
+
 
 * #### Inactive Response
 "Inactive Response" durumunda yapılacak işlemi seçer. "Inactive Response" durumu demek, System'ın kendi loop süresinin bittigi zaman demektir, System ve Emitter'ların loopları ayrıdır. Emitter hala çalışıyor olsa bile System "Inactive Response" durumuna girebilir çünkü loop süresi bitmiş olabilir.
@@ -707,6 +709,7 @@ Sadece "Loop Delay" ayarı açıkken vardır. Eger bu seçenek açıksa sadece i
 ## [Grid Location]()
 
 ([Particle Spawn](../Graph#particle-spawn)) Bu modül [Spawn Particles in Grid](#spawn-particles-in-grid) ile birlikte kullanılmak zorundadır. Grid şekli ile ilgili ayarları barındırır.
+
 
 * #### Grid Origin
 Grid'in orijin noktası.
