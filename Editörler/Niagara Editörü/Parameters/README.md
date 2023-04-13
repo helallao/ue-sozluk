@@ -8,7 +8,7 @@ Niagara'da parametreler çok önemlidir, parametreleri inputların yerine kullan
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Age.jpg">
 
 
-Bu parametreler kullanıcı tarafından degiştirilemez. Yanlarında kilit vardır. Resimde en solda gördügünüz küçük renk parametrenin türünü belirtiyor, imlecinizi üerine getirirseniz türünü görebilirsiniz. Bir sagında "System" yazıyor, bu parametrenin tag'i, parametreler [modüller](../Moduller) tarafından oluşturuldugunda tag'lere sahip olurlar. En sagda ise "5" yazıyor, bu parametrenin kaç defa kullanıldıgının/referans verildiginin sayısıdır. Eger [Graph](../Graph) üzerinde bir şey seçmediyseniz bütün parametreleri göremeyebilirsiniz, bütün parametrelerini görmek için [Graph](../Graph) üzerinde bir şey seçmelisiniz (emitter ve ya system). Parametreler ekranında bir parametreyi seçtiginiz zaman aşagıdaki resimdeki gibi işaretler çıkar.
+Bu parametreler kullanıcı tarafından degiştirilemez. Yanlarında kilit vardır. Resimde en solda gördügünüz küçük renk parametrenin türünü belirtiyor, imlecinizi üzerine getirirseniz türünü görebilirsiniz. Bir sagında "System" yazıyor, bu parametrenin dalı, her parametre dallara sahiptir (motor tarafından oluşturulanlar, kullanıcının oluşturduklarının dışındakiler), mesela resimdeki parametrenin adı "Age" ve dalı "System" o zaman bu parametrenin gerçek ismi "System.Age" dir. Eger parametreye sag tıklayıp "Copy Reference" derseniz, parametrenin tam ismini, dalları ile birlikte kopyalamış olursunuz. Bir yere yapıştırırsanız, isminin "System.Age" oldugunu görürsünüz. Dalları klasör gibi düşünebilirsiniz. En sagda ise "5" yazıyor, bu parametrenin kaç defa kullanıldıgının/referans verildiginin sayısıdır. Eger [Graph](../Graph) üzerinde bir şey seçmediyseniz bütün parametreleri göremeyebilirsiniz, bütün parametrelerini görmek için [Graph](../Graph) üzerinde bir şey seçmelisiniz (emitter ve ya system). Parametreler ekranında bir parametreyi seçtiginiz zaman modüllerin üzerinde aşagıdaki resimdeki gibi işaretler çıkar.
 
 
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Parameter_Focus.jpg">
@@ -37,6 +37,11 @@ Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda 
 
 
 ## System Attributes
+
+* #### System.Age
+Sistemin yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden).
+
+
 ## Emitter Attributes
 ## Particle Attributes
 ## Module Outputs
