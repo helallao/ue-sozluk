@@ -38,7 +38,7 @@ Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda 
 
 ## System Attributes
 
-* #### System.Age
+* #### [System.Age](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
 Sistemin yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden).
 
 
