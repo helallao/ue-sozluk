@@ -165,8 +165,46 @@ Scale edilecek renk degeri.
 
 ## [Emitter State]()
 
+([Emitter Update](../Graph#emitter-update)) Emitter'ın genel ayarları.
 
 
+* #### Life Cycle Mode
+Emitter'ın System'ın loop'una baglı mı yoksa bagımsız mı olacagını belirler. Eger "System" modunu kullanırsanız, Emitter System'ın loop'una baglı olur, eger "Self" modunu kullanırsanız, Emitter kendi loop'unu oluşturur ve kullanır. Tabi ki System Emitter'dan daha üsttedir, dolayısıyla her şeyin nasıl işleyecegini System belirler. Eger System bu Emitter'ı kill ederse, Emitter'ın loopu bitmeden de kapatılabilir. System ve Emitter arasındaki işleyişi anlamak için [System State'e](#system-state) de bakın.
+
+* #### Inactive Response
+"Inactive Response" durumunda yapılacak işlemi seçer. "Inactive Response" durumu demek, Emitter'ın loop süresinin bittigi zaman demektir.
+<br>
+<br>
+Complete (Let Particles Finish then Kill Emitter) = Emitter'ın loop süresi bitse bile, hala parçacık var ise, parçacık yok olana kadar bekle demektir.
+<br>
+Kill (Emitter and Particles Die Immediately) = Emitter'ın loop süresi bittigi anda bütün parçacıkları yok eder (kill).
+<br>
+Continue (Emitter Deactivates But Doesn't Die Until System Does) = Bilmiyorum.
+
+* #### Loop Behavior
+Emitter'ın loop süresinin nasıl olacagını belirler.
+<br>
+<br>
+Once = Sadece bir kere oynatır. Sonra "Inactive Response" durumuna girer.
+<br>
+Multiple = "Loop Count" ve "Recalculate Duration Each Loop" inputlarını açar. Verdiginiz sayı kadar oynatır. Sonra "Inactive Response" durumuna girer.
+<br>
+Infinite = "Recalculate Duration Each Loop" inputunu açar. Hiç "Inactive Response" durumuna girmez.
+
+* #### Loop Count
+Sadece "Loop Behavior" "Multiple" modundayken vardır. Loop'un kaç defa oynatılacagını belirler.
+
+* #### Loop Duration
+Loop'un kaç saniye olacagını belirler.
+
+* #### Recalculate Duration Each Loop
+Sadece "Loop Behavior" "Multiple" ve "Infinite" modundayken vardır. Bu ayar şu işe yarar, yürütme esnasında eger Emitter'ın (belki System'ı da kapsıyordur, bilmiyorum) loop süresi degişirse bunu tespit edip yeni loop süresini kullanmak için, her loop bittiginde (ve ya başlarken) loop sürelerini kontrol eder (recalculate).
+
+* #### Loop Delay
+Loop'un başlayacagı saniyeyi ileri alır, delay verir.
+
+* #### Delay First Loop Only
+Sadece "Loop Delay" ayarı açıkken vardır. Eger bu seçenek açıksa sadece ilk loop'a delay eklenir, digerlerine eklenmez.
 
 
 
