@@ -663,10 +663,41 @@ Sadece "Sprite Rotation Mode" "Direct Normalized Angle (0-1)" modundayken vardı
 ## [Particle State]()
 
 ## [System State]()
-([System Update](../Graph#system-update))
+([System Update](../Graph#system-update)) Sistemin genel ayarları.
+
+* #### Inactive Response
+"Inactive Response" durumunda yapılacak işlemi seçer. "Inactive Response" durumu demek, System'ın kendi loop süresinin bittigi zaman demektir, System ve Emitter'ların loopları ayrıdır. Emitter hala çalışıyor olsa bile System "Inactive Response" durumuna girebilir çünkü loop süresi bitmiş olabilir.
+<br>
+<br>
+Complete (Let Emitters Finish then Kill The System) = System'ın loop süresi bitse bile, eger loop süresi bitmemiş Emitter var ise onun bitmesini bekle demektir.
+<br>
+Kill (System and Emitters Die Immediately) = System'ın loop süresi bittigi anda her şeyi bitir (emitterları) demektir.
 
 
+* #### Loop Behavior
+System'ın loop süresinin nasıl olacagını belirler.
+<br>
+<br>
+Once = Sadece bir kere oynatır.
+<br>
+Multiple = "Loop Count" ve "Recalculate Duration Each Loop" inputlarını açar. Verdiginiz sayı kadar oynatır.
+<br>
+Infinite = "Recalculate Duration Each Loop" inputunu açar. Bütün emitterlar bitene kadar oynatır.
 
+* #### Loop Count
+Sadece "Loop Behavior" "Multiple" modundayken vardır. Loop'un kaç defa oynatılacagını belirler.
+
+* #### Loop Duration
+Loop'un kaç saniye olacagını belirler.
+
+* #### Recalculate Duration Each Loop
+Sadece "Loop Behavior" "Multiple" ve "Infinite" modundayken vardır. Bu ayar şu işe yarar, yürütme esnasında eger Emitter'ın (belki System'ı da kapsıyordur, bilmiyorum) loop süresi degişirse bunu tespit edip yeni loop süresini kullanmak için, her loop bittiginde (ve ya başlarken) loop sürelerini kontrol eder (recalculate).
+
+* #### Loop Delay
+Loop'un başlayacagı saniyeyi ileri alır, delay verir.
+
+* #### Delay First Loop Only
+Sadece "Loop Delay" ayarı açıkken vardır. Eger bu seçenek açıksa sadece ilk loop'a delay eklenir, digerlerine eklenmez.
 
 
 
