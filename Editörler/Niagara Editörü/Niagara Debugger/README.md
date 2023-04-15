@@ -18,31 +18,8 @@
 <br>
 
 
-## Toolbar
-
+## [Toolbar](Toolbar)
 <img src="../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Toolbar.jpg">
-
-
-* #### Refresh
-Refresh atar.
-
-* #### Play
-Bilmiyorum.
-
-* #### Pause
-Bilmiyorum.
-
-* #### Loop
-Bilmiyorum.
-
-* #### Step
-Bilmiyorum.
-
-* #### Speed
-Bilmiyorum.
-
-
-
 
 ## [Debug Hud](Debug%20Hud)
 <img src="../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Debug_Hud.jpg">
