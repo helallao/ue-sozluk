@@ -110,10 +110,67 @@ Bu ayar açıldıgında System'lar için System parametrelerini gösterir.
 * #### System Attributes
 Gösterilecek System parametrelerinin listesi ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
 
+* #### System Text Options
+System'ler için gösterilen yazıların ayarları,
+<br>
+<br>
+Font = Font büyüklügü
+<br>
+Horizontal Alignment = Yazının yatay hizası.
+<br>
+Vertical Alignment = Yazının dikey hizası.
+<br>
+Screen Offset = Yazının konumuna offset ekler.
+
 
 
 
 ## [Debug Particles]()
+
+* #### Show Particle Attributes
+Bu ayar açıldıgında parçacıklar için parçacık parametrelerini gösterir.
+
+* #### Enable Gpu Particle Readback
+Parçacıkları Gpu'dan Cpu'ya kopyalar, ne işe yaradıgını bilmiyorum.
+
+* #### Show Particle Index
+Bu ayar açıldıgında her parçacık için gösterilen yazıların en üstüne parçacık numarasını da ekler.
+
+* #### Particle Attributes
+Gösterilecek parçacık parametrelerinin listesi ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
+
+* #### Particle Text Options
+Parçacıklar için gösterilen yazıların ayarları,
+<br>
+<br>
+Font = Font büyüklügü
+<br>
+Horizontal Alignment = Yazının yatay hizası.
+<br>
+Vertical Alignment = Yazının dikey hizası.
+<br>
+Screen Offset = Yazının konumuna offset ekler.
+
+* #### Show Particles Attributes With System
+Parçacıklar için gösterilen yazıları dünyada, parçacıkların üzerinde göstermek yerine System ile birlikte gösterir.
+
+* #### Show Particle Attributes Vertical
+Parçacıklar için gösterilen yazıları alt alta gösterir, kapatırsanız tek satırda (anlaşılmaz) olur.
+
+* #### Use Max Particles to Display
+Parçacıklar için gösterilen yazılara bir sınır getirir, çok fazla parçacık olursa bir yerden sonra parçacıklar için yazıları göstermez.
+
+* #### Use Particle Display Clip
+Particle Display Clip kullanımını açar. Parçacıkların konumlarının bize uzaklıgına göre bazılarını gösterir bazılarını göstermez.
+
+* #### Particle Display Clip
+Parçacıkların konumlarının bize uzaklıgına göre bazılarını gösterir bazılarını göstermez. "X" inputu, parçacık ile aramızda olması gereken minimum mesafe, "Y" inputu, parçacık ile aramızda olması gereken maximum mesafe.
+
+
+
+
+
+
 ## [Perf Overview]()
 ## [Colors]()
 ## [Performance]()
