@@ -1,17 +1,30 @@
 # Debug Hud
-<img src="../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Debug_Hud.jpg">
+<img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Debug_Hud.jpg">
 
 
 
 # Bölümler
 
-* [Toolbar](#toolbar)
-
+* [Debug General](#debug-general)
+* [Debug Overview](#debug-overview)
+* [Debug Filter](#debug-filter)
+* [Debug System](#debug-system)
+* [Debug Particles](#debug-particles)
+* [Perf Overview](#perf-overview)
+* [Colors](#colors)
+* [Performance](#performance)
 
 
 <br>
 <br>
 
 
-## [Toolbar](Toolbar)
-<img src="../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Toolbar.jpg">
+
+## Debug General
+## Debug Overview
+## Debug Filter
+## Debug System
+## Debug Particles
+## Perf Overview
+## Colors
+## Performance
