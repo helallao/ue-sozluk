@@ -1,6 +1,7 @@
 # Debug Hud
 <img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Debug_Hud.jpg">
 
+Debug Hud, [Level Editörünüzde](../../../Level%20Editörü) niagaralar üzerinde debug yapabilmeniz için gerekli şeyleri sunar.
 
 
 # Bölümler
@@ -131,7 +132,7 @@ Screen Offset = Yazının konumuna offset ekler.
 Bu ayar açıldıgında parçacıklar için parçacık parametrelerini gösterir.
 
 * #### Enable Gpu Particle Readback
-Parçacıkları Gpu'dan Cpu'ya kopyalar, ne işe yaradıgını bilmiyorum.
+Bu ayar Gpu kullanan Emitter'lar içindir. Gpu kullanan Emitter'ların parçacıklarının bilgisini görüntülemek için bu ayarı açmalısınız. Parçacıkları Gpu'dan Cpu'ya kopyalar, bu da biraz gecikmeye sebep olur, ayrıca bu ayarı açmak performans ve ram üzerine de biraz etki uygulayabilir.
 
 * #### Show Particle Index
 Bu ayar açıldıgında her parçacık için gösterilen yazıların en üstüne parçacık numarasını da ekler.
