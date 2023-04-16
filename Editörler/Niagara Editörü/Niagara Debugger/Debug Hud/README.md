@@ -166,7 +166,14 @@ Particle Display Clip kullanımını açar. Parçacıkların konumlarının bize
 * #### Particle Display Clip
 Parçacıkların konumlarının bize uzaklıgına göre bazılarını gösterir bazılarını göstermez. "X" inputu, parçacık ile aramızda olması gereken minimum mesafe, "Y" inputu, parçacık ile aramızda olması gereken maximum mesafe.
 
+* #### Use Particle Display Center Radius
+Bu ayar açıldıgında sadece ekranınızın orta taraflarında olan parçacıklar için bilgiler gösterilir.
 
+* #### Particle Display Center Radius
+Yukardaki ayar için geçerli olan alanın radius degeri yani çapı, azaltırsanız sadece tam orta kısımlarda olan parçacıkların bilgileri gösterilir, arttırırsanız bu alan genişler.
+
+* #### Max Particles to Display
+Gösterilecek maximum parçacık bilgisi sayısı.
 
 
 
