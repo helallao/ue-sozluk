@@ -72,7 +72,7 @@ Bu seçenek açıldıgında overview degerlendirmelerinde sadece [System Filter]
 ## [Debug Filter]()
 
 * #### System Filter
-Sadece ismini verdiginiz System için Debug Hud gösterir.
+Sadece ismini verdiginiz System için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
 
 
 
