@@ -74,6 +74,10 @@ Bu seçenek açıldıgında overview degerlendirmelerinde sadece [System Filter]
 * #### System Filter
 Sadece ismini verdiginiz System için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
 
+* #### Emitter Filter
+Emitter'lar için filtreleme yapar ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz. Emitter'lar için filtreleme yapmak, [Show Particle Attributes]() kullanırken sadece belirli Emitter'ların particle attributes'larını görmenize yarar. Yani sadece filtrelenmiş Emitter'ların parçacıkları.
+
+
 
 
 ## [Debug System]()
