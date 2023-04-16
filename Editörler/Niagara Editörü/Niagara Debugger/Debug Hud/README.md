@@ -180,5 +180,11 @@ Gösterilecek maximum parçacık bilgisi sayısı.
 
 
 ## [Perf Overview]()
+
+Bu kategorideki ayarlar [Debug Overview Mode](#debug-overview-mode) "Performance" modundayken uygulanacak ayarları etkiler.
+
+
+
+
 ## [Colors]()
 ## [Performance]()
