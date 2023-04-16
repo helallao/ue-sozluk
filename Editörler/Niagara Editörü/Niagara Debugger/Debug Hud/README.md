@@ -183,8 +183,43 @@ Gösterilecek maximum parçacık bilgisi sayısı.
 
 Bu kategorideki ayarlar [Debug Overview Mode](#debug-overview-mode) "Performance" modundayken uygulanacak ayarları etkiler.
 
+* #### Perf Report Frames
+bilmiyorum.
+
+* #### Perf Sample Mode
+bilmiyorum.
+
+* #### Perf Graph Mode
+bilmiyorum.
+
+* #### Perf History Frames
+Tabloda gösterilecek geçmiş frame sayısı.
+
+* #### Perf Graph Time Range
+Tablonun range degerleri, sanırım ms (milisaniye) cinsinden.
+
+* #### Perf Graph Size
+Tablo boyutu.
+
+* #### Perf Graph Axis Color
+Tablo rengi.
+
+* #### Smoothing Width
+Tablo degerleri için yumuşatma uygular.
+
+
 
 
 
 ## [Colors]()
+
+Bu kategorideki ayarlar ile renkleri ayarlayabilirsiniz.
+
+
+
 ## [Performance]()
+
+* #### Show Global Budget Info
+bilmiyorum.
+
+
