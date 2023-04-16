@@ -1,7 +1,7 @@
 # Debug Hud
 <img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Debug_Hud.jpg">
 
-Debug Hud, [Level Editörünüzde](../../../Level%20Editörü) niagaralar üzerinde debug yapabilmeniz için gerekli şeyleri sunar.
+Debug Hud, [Level Editörünüzde](../../../Level%20Editörü) niagaralar üzerinde debug yapabilmeniz için gerekli bilgileri ekranda gösterir.
 
 
 # Bölümler
