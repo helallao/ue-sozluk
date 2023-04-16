@@ -20,7 +20,7 @@
 
 
 
-## Debug General
+## [Debug General]()
 
 * #### Debug Hud Enabled
 Bu ayar ve "Debug HUD Rendering Enabled" ayarı, Debug Hud'u kullanmak için gerekli olan iki ayardır, Debug Hud'u aktifleştirirler.
@@ -36,7 +36,7 @@ bilmiyorum.
 
 
 
-## Debug Overview
+## [Debug Overview]()
 
 * #### Debug Overview Enabled
 Bu seçenek açıldıgında, Debug Hud'un altında bir overview yani degerlendirmeler gibi bi kısım çıkar.
@@ -69,15 +69,15 @@ Bu seçenek açıldıgında overview degerlendirmelerinde sadece [System Filter]
 
 
 
-## Debug Filter
+## [Debug Filter]()
 
 * #### System Filter
 Sadece ismini verdiginiz System için Debug Hud gösterir.
 
 
 
-## Debug System
-## Debug Particles
-## Perf Overview
-## Colors
-## Performance
+## [Debug System]()
+## [Debug Particles]()
+## [Perf Overview]()
+## [Colors]()
+## [Performance]()
