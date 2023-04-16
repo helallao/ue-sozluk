@@ -77,10 +77,42 @@ Sadece ismini verdiginiz System için Debug Hud gösterir ve [Wildcard](../../Te
 * #### Emitter Filter
 Emitter'lar için filtreleme yapar ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz. Emitter'lar için filtreleme yapmak, [Show Particle Attributes]() kullanırken sadece belirli Emitter'ların particle attributes'larını görmenize yarar. Yani sadece filtrelenmiş Emitter'ların parçacıkları.
 
+* #### Actor Filter
+Sadece ismini verdiginiz Aktörler için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
+
+* #### Component Filter
+Sadece ismini verdiginiz Componentler için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
+
+
 
 
 
 ## [Debug System]()
+
+* #### System Debug Verbosity
+System hakkında gösterilen bilgilerin detay derecesi.
+
+* #### System Emitter Verbosity
+Emitter hakkında gösterilen bilgilerin detay derecesi.
+
+* #### Data Interface Verbosity
+bilmiyorum.
+
+* #### System Show Bounds
+Bu ayar açıldıgında System için sınırları gösterir.
+
+* #### System Show Active Only in World
+Bu ayar açıldıgında sadece aktif System'lar (yani kill edilmemiş ve ya inactive mode'a girmemiş) gösterilir.
+
+* #### Show System Attributes
+Bu ayar açıldıgında System'lar için System parametrelerini gösterir.
+
+* #### System Attributes
+Gösterilecek System parametrelerinin listesi ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
+
+
+
+
 ## [Debug Particles]()
 ## [Perf Overview]()
 ## [Colors]()
