@@ -7,6 +7,7 @@ FX Outliner, istediginiz frame'i ve ya frame'leri (kare) capture edip, sonra da 
 # Bölümler
 
 * [Toolbar](#toolbar)
+* [Simulasyon Ögeleri](#simulasyon-ögeleri)
 
 
 <br>
@@ -67,13 +68,15 @@ Zaman degerlerinin gösterilecegi birim (genellikle performans modunda zaman deg
 
 
 
-## [Simulasyon ögeleri]()
+## [Simulasyon Ögeleri]()
 
-<img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_FX_Outliner_Toolbar.jpg">
+<img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_FX_Outliner_Simulasyon_Ogeleri.jpg">
 
+* Eger sizde de fotograftaki gibi ögeler listelenmemişse [Capture](#capture) işlemi yapmamışsınız demektir.
 
-* #### Capture
-Tıkladıgınız anda capture işlemini tetikler.
+Simulasyon Ögeleri ekranı size dünyanızdaki niagara'ları gösterir.
 
+<img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_FX_Outliner_Simulasyon_Ogeleri_2.jpg">
 
+Yukardaki fotografta görebileceginiz gibi, en üstte level (map), onun altında niagara sistemleri kırmızı renkle, sistemin altında o sistem'in instance'ları mavi renkle, sistem instance'larının altında emitter'lar turuncu renkle gösterilir. Üzerine tıkladıgınızda sag taraftaki boşlukta bilgiler çıkar.
 
