@@ -78,5 +78,5 @@ Simulasyon Ögeleri ekranı size dünyanızdaki niagara'ları gösterir.
 
 <img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_FX_Outliner_Simulasyon_Ogeleri_2.jpg">
 
-Yukardaki fotografta görebileceginiz gibi, en üstte level (map), onun altında niagara sistemleri kırmızı renkle, sistemin altında o sistem'in instance'ları mavi renkle, sistem instance'larının altında emitter'lar turuncu renkle gösterilir. Üzerine tıkladıgınızda sag taraftaki boşlukta bilgiler çıkar.
+Yukardaki fotografta görebileceginiz gibi, en üstte level (map), onun altında niagara sistemleri kırmızı renkle, sistemin altında o sistem'in instance'ları mavi renkle, sistem instance'larının altında emitter'lar turuncu renkle gösterilir. Üzerine tıkladıgınızda sag taraftaki boşlukta bilgiler çıkar. [View Mode](#view-mode) "Debug" modundayken, sistem instance'ları için yukardaki fotografta görebileceginiz gibi "Capture" butonu çıkar. Bu butona tıkladıgınız zaman [Sim Cache Frames](#sim-cache-frames) inputuna verdiginiz sayı kadar frame capture edilir (capture edilebilmesi için simulasyonun oynatılıyor olması gerekli) ve yanındaki "Sim Cache" butonu aktifleşir (aktif degilse), bu butona tıklayarak simulasyon bilgilerini görebilirsiniz.
 
