@@ -28,9 +28,22 @@ Soldaki üç işaret okuma, yazma ve hem okuma hem yazmayı ifade eder.
 
 <br>
 
-Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda bulabilirsiniz.
 
+Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda bulabilirsiniz. Parametreleri "Degişken", "Durumsal" ve "Sabit" olmak üzere 3 türe ayırdım ve her parametrenin başında parantez içinde türünü görebilirsiniz, bu türlerin anlamları şunlardır,
 
+<br>
+
+* Degişken
+
+Simulasyon ilerledikçe ve ya olaylar gerçekleştikçe sürekli degişen parametrelerdir, mesela [System.Age](#systemage) sürekli güncellenir.
+
+* Durumsal
+
+Simulasyon esnasında degişebilen parametrelerdir ama sürekli degişmezler, sadece belirli durumlarda degişirler.
+
+* Sabit
+
+Sabit parametreler genellikle bilgi sunan parametrelerdir, belki simulasyon esnasında degişebilirler ama genellikle degişmezler. Sabit parametreler genellikle niagara sisteminiz ve ya emitter üzerinde bi degişiklik yaptıgınızda degişirler. Mesela bir modülün inputunu degiştirmek gibi.
 
 <br>
 <br>
@@ -39,7 +52,25 @@ Bütün bu parametrelerin içeriklerini ve kullanılış şekillerini aşagıda 
 ## System Attributes
 
 * #### [System.Age](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
-Sistemin yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden).
+(Degişken) Sistemin yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
+
+* #### [System.bCompleteOnInactive]()
+bilmiyorum.
+
+* #### [System.CurrentLoopDelay](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
+(Sabit) Sistem'in [Loop Delay](../Moduller#loop-delay-1) inputuna baglıdır.
+
+* #### [System.CurrentLoopDuration](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
+(Sabit) Sistem'in [Loop Duration](../Moduller#loop-duration-1) inputuna baglıdır.
+
+
+ExecutionState
+ExecutionStateSource
+LoopCount
+LoopedAge
+New bool
+NormalizedLoopAge
+
 
 
 ## Emitter Attributes
