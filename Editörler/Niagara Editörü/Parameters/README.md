@@ -90,8 +90,13 @@ bilmiyorum.
 
 
 
-
 ## Emitter Attributes
+
+* #### [Emitter.Age]()
+(Degişken) Emitter'ın yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
+
+
+
 ## Particle Attributes
 ## Module Outputs
 ## Engine Provided
