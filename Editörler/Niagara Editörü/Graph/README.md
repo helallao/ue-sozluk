@@ -11,24 +11,74 @@ Sadece Emitter ve System'lerden oluşur. Niagara Editör'ünde diger editörler 
 * [Emitter](#emitter)
 
 
-## [System](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#systems)
+# [System](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#systems)
 System, efekti baştan sona yapabilmemiz için gerekli olan her şeyi birleştiren sistemdir. Birden fazla Emitter kullanabilir ve bunları düzenleyebiliriz.
 
-* ### [Properties]()
-* ### [User Parameters]()
-* ### [System Spawn]()
-* ### [System Update]()
+## [Properties]()
+## [User Parameters]()
+## [System Spawn]()
+## [System Update]()
 
 
-## [Emitter](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+<br>
+<br>
+
+
+# [Emitter](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
 
 Emitter parçacıkları yönetir. Parçacıkların bütün ayarlarını Emitter üzerinden yaparız. Bunun için [Modul'leri](../Moduller) kullanırız. Emitter yukardan aşagı dogru ilerler, zaten bütün adımlar kategorilere ayrılmış. Kategorilere aşagıdan ulaşabilirsiniz.
 
-* ### [Properties]()
-* ### [Emitter Summary]()
-* ### [Emitter Spawn](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
-* ### [Emitter Update](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
-* ### [Particle Spawn](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
-* ### [Particle Update](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
-* ### [Event Handler](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
-* ### [Render](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+
+## [Properties]()
+
+* #### Local Space
+Bu seçenek açıkken [Local Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space) kullanılır. Kapalıyken ise World Space.
+
+* #### Determinism
+bilmiyorum.
+
+* #### Interpolated Spawning
+bilmiyorum.
+
+* #### Sim Target
+bilmiyorum.
+
+* #### Calculate Bounds Mode
+bilmiyorum.
+
+* #### Fixed Bounds
+Sadece "Calculate Bounds Mode" "Fixed" modundayken vardır. bilmiyorum.
+
+* #### Requires Persistent IDs
+bilmiyorum.
+
+* #### Combine Event Spawn
+bilmiyorum.
+
+* #### Max GPU Particles Spawn per Frame
+bilmiyorum.
+
+* #### Max Delta Time Per Tick
+bilmiyorum.
+
+* #### Allocation Mode
+bilmiyorum.
+
+* #### Pre Allocation Count
+bilmiyorum.
+
+* #### Attributes to Preserve
+bilmiyorum.
+
+
+
+
+
+
+## [Emitter Summary]()
+## [Emitter Spawn](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+## [Emitter Update](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+## [Particle Spawn](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+## [Particle Update](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+## [Event Handler](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+## [Render](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
