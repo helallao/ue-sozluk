@@ -90,10 +90,36 @@ bilmiyorum.
 
 
 
+
 ## Emitter Attributes
 
 * #### [Emitter.Age]()
 (Degişken) Emitter'ın yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
+
+* #### [Emitter.CurrentLoopDelay]()
+(Sabit) Emitter'ın [Loop Delay](../Moduller#loop-delay) inputuna baglıdır.
+
+* #### [Emitter.CurrentLoopDuration]()
+(Sabit) Emitter'ın [Loop Duration](../Moduller#loop-duration) inputuna baglıdır.
+
+* #### [Emitter.DistanceTraveled]()
+(Degişken) Emitter'ın toplamda hareket ettigi mesafeyi verir (cm). Hareket ettikçe artar.
+
+* #### [Emitter.ExecutionState]()
+(Durumsal) Emitter'ın yürütülme durumuna baglıdır. Emitter'ın yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
+<br>
+<br>
+Active = Aktif
+<br>
+Inactive = Aktif degil, "Inactive" modunda olan Sistem/Emitter parçacık spawn edemez.
+<br>
+Inactive Clear = "Inactive Clear" moduna geçildiginde bütün parçacıklar silinir ve "Inactive" moduna geçilir.
+<br>
+Complete = Tamamlanmış
+
+* #### [Emitter.ExecutionStateSource]()
+bilmiyorum.
+
 
 
 
