@@ -135,4 +135,4 @@ Parçacık spawn olduktan sonra çalışmaya başlar, her frame'de (kare, fps) �
 ## [Event Handler](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
 ## [Render](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
 
-Parçacıkların türünü, nasıl gösterilecegini/sunulacagını belirler. Mesela [Sprite Renderer](../Moduller#sprite-renderer) kullanıldıgında, parçacıkların üzerine materyal ekler, ve ya [Mesh Renderer](../Moduller#mesh-renderer) kullanıldıgında, parçacıkları mesh olarak gösterir. Renderer türlerini ve açıklamalarını modüllerde [Render](../Moduller#render) kategorisinde bulabilirsiniz.
+Parçacıkların türünü, nasıl gösterilecegini/sunulacagını belirler. Mesela [Sprite Renderer](../Moduller#sprite-renderer) kullanıldıgında parçacıkların üzerine materyal ekler, ve ya [Mesh Renderer](../Moduller#mesh-renderer) kullanıldıgında parçacıkları mesh olarak gösterir. Renderer türlerini ve açıklamalarını modüllerde [Render](../Moduller#render) kategorisinde bulabilirsiniz.
