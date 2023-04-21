@@ -81,7 +81,7 @@ Emitter Summary şu işe yarar, çok kullanılan ve ya sürekli degiştirdiginiz
 
 <img src="../../../Dosyalar/Niagara_Editor_Emitter_Summary_Selection.jpg">
 
-Seçtiginiz bütün parametreler burada gözükür ve buradan degiştirebilirsiniz. Emitter Summary'nin [Selection penceresinde](../Selection) sag üstteki kalem işaretine basarak parametreleri section'lara (bölüm) ayırabilirsiniz. Kalem işaretine bastıgınızda edit moduna geçmiş olursunuz, edit modundayken "Summary Sections" bölümündeki artı işaretine basarak section'lar ekleyebilirsiniz. Section denen şey aşagıdaki resimde gördügünüz gibi en üstte çıkan ana bölümlerdir,
+Seçtiginiz bütün parametreler Emitter Summary'de gözükür ve buradan degiştirebilirsiniz. Emitter Summary'nin [Selection penceresinde](../Selection) sag üstteki kalem işaretine basarak parametreler için section'lar (bölüm) oluşturabilirsiniz. Kalem işaretine bastıgınızda edit moduna geçmiş olursunuz, edit modundayken "Summary Sections" bölümündeki artı işaretine basarak section'lar ekleyebilirsiniz. Section denen şey aşagıdaki resimde gördügünüz gibi en üstte çıkan ana bölümlerdir,
 
 <img src="../../../Dosyalar/Niagara_Editor_Emitter_Summary_Selection_Sections.jpg">
 
