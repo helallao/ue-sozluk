@@ -16,8 +16,21 @@ System, efekti baştan sona yapabilmemiz için gerekli olan her şeyi birleştir
 
 ## [Properties]()
 ## [User Parameters]()
-## [System Spawn]()
-## [System Update]()
+
+Tıklandıgı anda [User Parameters](../User%20Parameters) penceresini öne getirir/seçer.
+
+
+
+## [System Spawn](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#systems)
+
+System spawn oldugu anda çagrılır, sadece 1 kere.
+
+
+
+## [System Update](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#systems)
+
+System spawn olduktan sonra çalışmaya başlar, her frame'de (kare, fps) çagrılır.
+
 
 
 <br>
