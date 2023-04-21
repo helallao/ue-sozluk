@@ -94,9 +94,30 @@ Yani Emitter Summary önemli parametrelerin toplandıgı bir "Özet" bölümüd�
 
 
 
+
 ## [Emitter Spawn](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+
+Emitter spawn oldugu anda çagrılır, sadece 1 kere.
+
+
+
 ## [Emitter Update](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+
+Emitter spawn olduktan sonra çalışmaya başlar, her frame'de (kare, fps) çagrılır.
+
+
+
 ## [Particle Spawn](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+
+Parçacık spawn oldugu anda çagrılır, sadece 1 kere.
+
+
+
 ## [Particle Update](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
+
+Parçacık spawn olduktan sonra çalışmaya başlar, her frame'de (kare, fps) çagrılır.
+
+
+
 ## [Event Handler](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
 ## [Render](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
