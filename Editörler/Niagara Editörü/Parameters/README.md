@@ -140,6 +140,15 @@ bilmiyorum.
 
 
 ## Particle Attributes
+
+* #### [Particles.Age]()
+(Degişken) Parçacıgın yaşını, yaşam süresini, yaşadıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
+
+* #### [Particles.Lifetime]()
+(Sabit) Initialize Particle'ın [Lifetime](../Moduller#lifetime) inputuna baglıdır.
+
+
+
 ## Module Outputs
 ## Engine Provided
 ## Stack Context Sensitive
