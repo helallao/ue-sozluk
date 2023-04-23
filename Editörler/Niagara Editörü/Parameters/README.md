@@ -58,10 +58,10 @@ Sabit parametreler genellikle bilgi sunan parametrelerdir, belki simulasyon esna
 bilmiyorum.
 
 * #### [System.CurrentLoopDelay](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
-(Sabit) Sistemin [Loop Delay](../Moduller#loop-delay-1) inputuna baglıdır.
+(Sabit) System State'in [Loop Delay](../Moduller#loop-delay-1) inputuna baglıdır.
 
 * #### [System.CurrentLoopDuration](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
-(Sabit) Sistemin [Loop Duration](../Moduller#loop-duration-1) inputuna baglıdır.
+(Sabit) System State'in [Loop Duration](../Moduller#loop-duration-1) inputuna baglıdır.
 
 * #### [System.ExecutionState](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
 (Durumsal) Sistemin yürütülme durumuna baglıdır. Sistemin yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
@@ -97,10 +97,10 @@ bilmiyorum.
 (Degişken) Emitter'ın yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
 
 * #### [Emitter.CurrentLoopDelay]()
-(Sabit) Emitter'ın [Loop Delay](../Moduller#loop-delay) inputuna baglıdır.
+(Sabit) Emitter State'in [Loop Delay](../Moduller#loop-delay) inputuna baglıdır.
 
 * #### [Emitter.CurrentLoopDuration]()
-(Sabit) Emitter'ın [Loop Duration](../Moduller#loop-duration) inputuna baglıdır.
+(Sabit) Emitter State'in [Loop Duration](../Moduller#loop-duration) inputuna baglıdır.
 
 * #### [Emitter.DistanceTraveled]()
 (Degişken) Emitter'ın toplamda hareket ettigi mesafeyi verir (cm). Hareket ettikçe artar.
