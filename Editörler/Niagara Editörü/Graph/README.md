@@ -48,7 +48,10 @@ Emitter parçacıkları yönetir. Parçacıkların bütün ayarlarını Emitter 
 Bu seçenek açıkken [Local Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space) kullanılır. Kapalıyken ise World Space.
 
 * #### Determinism
-bilmiyorum.
+Determinizm'i açar yani rastgele olan her şey rastgele degil de bi düzene göre olur, RNG (Random Number Generator) rastgele numaralar üretmeye devam eder ama artık bir seed'e baglıdır, verdiginiz seed Emitter'ın üzerinde herhangi bir degişiklik yapmadıgınız sürece RNG (Random Number Generator) tarafından aynı numaraların üretilmesine sebep olur.
+
+* #### Random Seed
+Sadece "Determinism" ayarı açıkken vardır. RNG (Random Number Generator) tarafından kullanılması için seed numarası.
 
 * #### Interpolated Spawning
 bilmiyorum.
