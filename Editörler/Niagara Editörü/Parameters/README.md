@@ -132,6 +132,9 @@ bilmiyorum.
 * #### [Emitter.NormalizedLoopAge]()
 (Degişken) Emitter'ın şu anki loop için yaşını, yaşam süresini, çalıştıgı süreyi normalized olarak verir. Normalize işlemi, degeri 0 - 1 arasına taşır. Mesela diyelim simulasyonun 3. saniyesindeyiz ve [emitter'ın loop süresi](../Moduller#loop-duration) 5 saniye, bu durumda deger 3/5 = 0.6 olur. Normalize yani 0 - 1 arasına taşıma işlemini yüzde olarak almak gibi düşünebilirsiniz, yani 0.6 = %60.
 
+* #### [Emitter.Scalability.DistanceFraction]()
+bilmiyorum.
+
 
 
 
