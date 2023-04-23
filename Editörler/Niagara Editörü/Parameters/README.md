@@ -147,10 +147,77 @@ bilmiyorum.
 * #### [Particles.Lifetime]()
 (Sabit) Initialize Particle'ın [Lifetime](../Moduller#lifetime) inputuna baglıdır.
 
+* #### [Particles.Mass]()
+bilmiyorum.
+
+* #### [Particles.MaterialRandom]()
+bilmiyorum.
+
+* #### [Particles.NormalizedAge]()
+(Degişken) Parçacıgın şu anki yaşını, yaşam süresini, çalıştıgı süreyi normalized olarak verir. Normalize işlemi, degeri 0 - 1 arasına taşır. Mesela diyelim ki parçacık spawn olalı 3 saniye oldu ve [parçacıgın lifetime süresi](../Moduller#lifetime) 5 saniye, bu durumda deger 3/5 = 0.6 olur. Normalize yani 0 - 1 arasına taşıma işlemini yüzde olarak almak gibi düşünebilirsiniz, yani 0.6 = %60.
+
+* #### [Particles.Position]()
+(Degişken) Parçacıgın konumunu verir, eger Emitter'ın [Local Space](../Graph#local-space) seçenegi açıksa konumu 0,0,0'a göre verir, eger kapalıysa dünya üzerindeki konumunu verir.
+
+* #### [Particles.RibbonUVDistance]()
+bilmiyorum.
+
+
+
 
 
 ## Module Outputs
+
+* #### [Output.ParticleState.FirstFrame]()
+(Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
+
+
+
+
+
 ## Engine Provided
+
+* #### [Engine.DeltaTime]()
+(Degişken) Her frame (kare, fps) arasındaki DeltaTime yani gecikme süresini verir.
+
+* #### [Engine.Emitter.NumParticles]()
+(Degişken) Şu anki parçacık sayısını verir.
+
+* #### [Engine.Owner.ExecutionState]()
+(Durumsal) Yürütülme durumuna baglıdır. Yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
+<br>
+<br>
+Active = Aktif
+<br>
+Inactive = Aktif degil, "Inactive" modunda olan Sistem/Emitter parçacık spawn edemez.
+<br>
+Inactive Clear = "Inactive Clear" moduna geçildiginde bütün parçacıklar silinir ve "Inactive" moduna geçilir.
+<br>
+Complete = Tamamlanmış
+
+* #### [Engine.Owner.LODDistanceFraction]()
+bilmiyorum.
+
+* #### [Engine.Owner.Velocity]()
+bilmiyorum.
+
+
+
+
+
 ## Stack Context Sensitive
 ## Stage Transients
+
+* #### [Transient.FirstFrame]()
+(Durumsal) Sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
+
+* #### [Transient.ScalabilityEmitterExecutionState]()
+bilmiyorum.
+
+* #### [Transient.ScalabilityExecutionState]()
+bilmiyorum.
+
+
+
+
 ## Niagara Parameter Collection
