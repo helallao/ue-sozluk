@@ -120,6 +120,8 @@ Complete = Tamamlanmış
 * #### [Emitter.ExecutionStateSource]()
 bilmiyorum.
 
+* #### [Emitter.LocalSpace]()
+(Sabit) Emitter'ın [Loop Duration](../Graph#local-space) inputuna baglıdır.
 
 
 
