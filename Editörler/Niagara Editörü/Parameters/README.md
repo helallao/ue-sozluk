@@ -167,7 +167,7 @@ bilmiyorum.
 (Durumsal) Parçacıgın renk degeri.
 
 * #### [Particles.Initial.Color]()
-(Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, Initialize Particle'ın [Color](#color-3) degerine baglıdır da denebilir.
+(Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, Initialize Particle'ın [Color](../Moduller#color-3) degerine baglıdır da denebilir.
 
 * #### [Particles.Lifetime]()
 (Sabit) Initialize Particle'ın [Lifetime](../Moduller#lifetime) inputuna baglıdır.
