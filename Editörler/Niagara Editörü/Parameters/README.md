@@ -138,6 +138,12 @@ bilmiyorum.
 * #### [Emitter.SpawnBurst_Instantaneous.SpawnBurst]()
 [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. bilmiyorum.
 
+* #### [Emitter.SpawnPerUnit.SpawnOutputInfo]()
+[SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. bilmiyorum.
+
+* #### [Emitter.SpawnPerUnit.SpawnRemainder]()
+[SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. Bir sonraki parçacıgı spawn etmeye kalan mesafeyi belirtir (cm cinsinden).
+
 * #### [Emitter.SpawnRate.SpawnOutputInfo]()
 [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. bilmiyorum.
 
@@ -181,6 +187,9 @@ bilmiyorum.
 * #### [Output.SpawnBurst_Instantaneous.HasSpawnedThisFrame]()
 (Durumsal) [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
 
+* #### [Output.SpawnPerUnit.HasSpawnedThisFrame]()
+(Durumsal) [Spawn Per Unit](../Moduller#spawn-per-unit) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
+
 * #### [Output.SpawnRate.HasSpawnedThisFrame]()
 (Durumsal) [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
 
@@ -214,7 +223,7 @@ Complete = Tamamlanmış
 bilmiyorum.
 
 * #### [Engine.Owner.Velocity]()
-bilmiyorum.
+(Degişken) Owner için (Emitter/System, yani direktmen simulasyon) her frame arasındaki hareket edilen mesafeyi hesaplayıp, şu anki hızı (velocity) verir.
 
 
 
