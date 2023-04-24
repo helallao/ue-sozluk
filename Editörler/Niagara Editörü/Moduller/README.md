@@ -93,7 +93,7 @@ Alpha degeri çarpanı, mesela 10 yaparsanız, "Color" inputuna verdiginiz renk 
 ([Particle Update](../Graph#particle-update)) Parçacıkların rengini scale eder yani boyutlandırır (verilen degerle çarpar).
 
 
-* #### Scaıe RGB
+* #### Scale RGB
 Sadece "Scale Mode" "RGB and Alpha Separately" modundayken vardır. RGB kanallarını scale eder (verilen degerle çarpar).
 
 * #### Scale Alpha
@@ -103,7 +103,7 @@ Sadece "Scale Mode" "RGB and Alpha Separately" modundayken vardır. Alpha kanal�
 Sadece "Scale Mode" "RGBA Together" modundayken vardır. RGBA kanallarını scale eder (verilen degerle çarpar).
 
 * #### Color Value To Scale
-Scale edilecek renk degeri.
+Scale edilecek renk degeri. Default olarak [Particles.Initial.Color](../Parameters#particlesinitialcolor) parametresini kullanır, yani Initialize Particle'ın [Color](#color-3) degerini kullanır da denebilir. Bu degeri isterseniz degiştirebilirsiniz (mesela şu anki renk degerini degiştirmek için [Particles.Color](../Parameters#particlescolor)).
 
 
 
