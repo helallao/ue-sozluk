@@ -1611,7 +1611,7 @@ Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok mo
 
 ## [Spawn Rate](https://youtu.be/_18Y4-jeXUs?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=68)
 
-([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update)) Oldugu yerde sürekli parçacık spawn eder.
+([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update)) Sürekli parçacık spawn eder.
 
 
 * #### SpawnRate
@@ -1621,7 +1621,7 @@ Saniye başına spawn olacak parçacık sayısı.
 0 - 1 arasında, her parçacık için spawn olma ihtimali.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
 
 
 
