@@ -1529,7 +1529,7 @@ Bilmiyorum.
 
 ## [Spawn Burst Instantaneous](https://youtu.be/JepePaqD7-Y?list=PLUi8nuTUEtTshYxpmR7brPE3tV7JsO0VP&t=640)
 
-([Emitter Update](../Graph#emitter-update)) Oldugu yerde parçacıkların hepsini aynı anda spawn eder.
+([Emitter Update](../Graph#emitter-update)) Parçacıkların hepsini aynı anda spawn eder.
 
 
 * #### Spawn Count
@@ -1542,13 +1542,13 @@ Spawn işleminin gerçekleşecegi zaman (saniye).
 0 - 1 arasında, spawn olma ihtimali. Bu ihtimal bütün parçacıkları kapsar.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
 
 * #### Age
-parametre
+Ne işe yaradıgını bilmiyorum.
 
 * #### Loop Count Limit
-yazılacak
+Çalışacagı loop sayısını belirtir, mesela Emitter'ın loop sayısı 5 olabilir ama siz bu degeri 2 yaparsanız sadece ilk 2 loop'da çalışır, digerlerinde çalışmaz.
 
 
 
