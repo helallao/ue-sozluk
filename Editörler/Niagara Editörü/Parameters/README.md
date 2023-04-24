@@ -97,7 +97,7 @@ bilmiyorum.
 (Degişken) Emitter'ın yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
 
 * #### [Emitter.AlphaScale]()
-bilmiyorum.
+(Durumsal) Parçacıkların renkleri için Alpha kanalı degeri.
 
 * #### [Emitter.CurrentLoopDelay]()
 (Sabit) Emitter State'in [Loop Delay](../Moduller#loop-delay) inputuna baglıdır.
@@ -162,6 +162,12 @@ bilmiyorum.
 
 * #### [Particles.Age]()
 (Degişken) Parçacıgın yaşını, yaşam süresini, yaşadıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
+
+* #### [Particles.Color]()
+(Durumsal) Parçacıgın renk degeri.
+
+* #### [Particles.Initial.Color]()
+(Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, Initialize Particle'ın [Color](#color-3) degerine baglıdır da denebilir.
 
 * #### [Particles.Lifetime]()
 (Sabit) Initialize Particle'ın [Lifetime](../Moduller#lifetime) inputuna baglıdır.
@@ -240,6 +246,9 @@ bilmiyorum.
 
 * #### [Transient.FirstFrame]()
 (Durumsal) Sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
+
+* #### [Transient.ParticleColorScaleFactor]()
+(Durumsal) [Scale Color](#scale-color-1) modülü kullanıldıgında, kullanılan scale degerlerini (RGBA) bu parametreye kaydeder.
 
 * #### [Transient.ScalabilityEmitterExecutionState]()
 bilmiyorum.
