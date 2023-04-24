@@ -1597,13 +1597,13 @@ Eger tek bir frame'deki (fps, kare) hız degeri bu degerden azsa, o zaman parça
 0 - 1 arasında, spawn olma ihtimali.
 
 * #### Velocity Vector
-parametre
+Hız degeri bu inputa göre belirlenir, default olarak [Engine.Owner.Velocity](../Parameters#engineownervelocity) parametresine baglıdır.
 
 * #### Delta Time
-parametre
+Delta Time, default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
 
 
 
