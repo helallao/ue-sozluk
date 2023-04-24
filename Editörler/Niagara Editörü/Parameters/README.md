@@ -135,8 +135,11 @@ bilmiyorum.
 * #### [Emitter.Scalability.DistanceFraction]()
 bilmiyorum.
 
+* #### [Emitter.SpawnBurst_Instantaneous.SpawnBurst]()
+[Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. bilmiyorum.
+
 * #### [Emitter.SpawnRate.SpawnOutputInfo]()
-bilmiyorum.
+[SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. bilmiyorum.
 
 * #### [Emitter.SpawnRate.SpawnRemainder]()
 (Degişken) [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. Bir sonraki parçacıgı spawn etmeye kalan süreyi belirtir (saniye cinsinden).
@@ -175,6 +178,9 @@ bilmiyorum.
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
 
+* #### [Output.SpawnBurst_Instantaneous.HasSpawnedThisFrame]()
+(Durumsal) [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
+
 * #### [Output.SpawnRate.HasSpawnedThisFrame]()
 (Durumsal) [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
 
@@ -188,6 +194,9 @@ bilmiyorum.
 
 * #### [Engine.Emitter.NumParticles]()
 (Degişken) Şu anki parçacık sayısını verir.
+
+* #### [Engine.Emitter.SpawnCountScale]()
+bilmiyorum.
 
 * #### [Engine.Owner.ExecutionState]()
 (Durumsal) Yürütülme durumuna baglıdır. Yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
