@@ -96,6 +96,9 @@ bilmiyorum.
 * #### [Emitter.Age]()
 (Degişken) Emitter'ın yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
 
+* #### [Emitter.AlphaScale]()
+bilmiyorum.
+
 * #### [Emitter.CurrentLoopDelay]()
 (Sabit) Emitter State'in [Loop Delay](../Moduller#loop-delay) inputuna baglıdır.
 
@@ -137,6 +140,9 @@ bilmiyorum.
 
 * #### [Emitter.SpawnBurst_Instantaneous.SpawnBurst]()
 [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. bilmiyorum.
+
+* #### [Emitter.SpawnPerFrame.SpawnBurst]()
+[Spawn Per Frame](../Moduller#spawn-per-frame) tarafından oluşturulur. bilmiyorum.
 
 * #### [Emitter.SpawnPerUnit.SpawnOutputInfo]()
 [SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. bilmiyorum.
