@@ -1561,14 +1561,14 @@ Ne işe yaradıgını bilmiyorum.
 
 ## [Spawn Per Frame](https://youtu.be/_18Y4-jeXUs?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=726)
 
-([Emitter Update](../Graph#emitter-update)) Oldugu yerde, her frame'de parçacık spawn eder. Frame degerini oyunun fps'i gibi düşünebilirsiniz.
+([Emitter Update](../Graph#emitter-update)) Her frame'de parçacık spawn eder. Frame'i oyunun fps'i gibi düşünebilirsiniz.
 
 
 * #### Spawn Count
 Her frame'de spawn edilecek parçacık sayısı.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
 
 * #### Spawn Probability
 0 - 1 arasında, spawn olma ihtimali.
