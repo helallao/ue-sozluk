@@ -175,6 +175,8 @@ bilmiyorum.
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
 
+* #### [Output.SpawnRate.HasSpawnedThisFrame]()
+(Durumsal) [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
 
 
 
@@ -218,9 +220,14 @@ bilmiyorum.
 * #### [Transient.ScalabilityEmitterExecutionState]()
 bilmiyorum.
 
+* #### [Transient.ScalabilityEmitterSpawnCountScale]()
+bilmiyorum.
+
 * #### [Transient.ScalabilityExecutionState]()
 bilmiyorum.
 
+* #### [Transient.SpawningbCanEverSpawn]()
+bilmiyorum.
 
 
 
