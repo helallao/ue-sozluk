@@ -135,7 +135,11 @@ bilmiyorum.
 * #### [Emitter.Scalability.DistanceFraction]()
 bilmiyorum.
 
+* #### [Emitter.SpawnRate.SpawnOutputInfo]()
+bilmiyorum.
 
+* #### [Emitter.SpawnRate.SpawnRemainder]()
+(Degişken) [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. Bir sonraki parçacıgı spawn etmeye kalan süreyi belirtir (saniye cinsinden).
 
 
 
