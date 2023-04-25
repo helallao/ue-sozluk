@@ -248,7 +248,7 @@ bilmiyorum.
 (Durumsal) Sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
 
 * #### [Transient.ParticleColorScaleFactor]()
-(Durumsal) [Scale Color](#scale-color-1) modülü kullanıldıgında, kullanılan scale degerlerini (RGBA) bu parametreye kaydeder.
+(Durumsal) [Scale Color](../Moduller#scale-color-1) ve ya [Scale Color by Speed](../Moduller#scale-color-by-speed) modülü kullanıldıgında, kullanılan scale degerlerini (RGBA) bu parametreye kaydeder.
 
 * #### [Transient.ScalabilityEmitterExecutionState]()
 bilmiyorum.
