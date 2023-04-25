@@ -111,6 +111,29 @@ Scale edilecek renk degeri. Default olarak [Particles.Initial.Color](../Paramete
 
 ## [Scale Color by Speed]()
 
+([Particle Update](../Graph#particle-update)) Parçacıkların rengini hıza (velocity) göre scale eder yani boyutlandırır (degerle çarpar). Bu modül ile ilgili biraz açıklama yapmam lazım, bu modülde min ve max diye iki hız degeri ve iki renk degeri belirlersiniz, parçacıgın hızı minimum hızda iken ve ya düşükken minimum için verdiginiz renk kullanılır. Parçacıgın hızı maximum hızda iken ve ya yüksekken maximum için verdiginiz renk kullanılır. Eger parçacıgın hızı minimum ve maximum hız degerlerinin arasında ise, o zaman oranlama yapılır ve bu orana göre minimum ve maximum için verdiginiz renk degerlerinin arasında bir deger seçilir.
+
+
+* #### Min Speed Threshold
+Minimum hız degeri, parçacıgın hızı tam bu degere eşitken "RGB Scale Min" inputuna verilen deger ile çarpılır.
+
+* #### Max Speed Threshold
+Maximum hız degeri, parçacıgın hızı tam bu degere eşitken "RGB Scale Max" inputuna verilen deger ile çarpılır.
+
+* #### RGB Scale Min
+Parçacıgın hızı "Min Speed Threshold" degerine eşit ve küçük iken kullanılacak scale degeri, yani parçacıgın hızı "Min Speed Threshold" degerine eşit ve ya küçük iken bu inputa verilen deger kadar scale uygulanır.
+
+* #### RGB Scale Max
+Parçacıgın hızı "Max Speed Threshold" degerine eşit ve büyük iken kullanılacak scale degeri, yani parçacıgın hızı "Max Speed Threshold" degerine eşit ve ya büyük iken bu inputa verilen deger kadar scale uygulanır.
+
+* #### A Scale Min
+"RGB Scale Min" inputu ile aynı şekilde çalışır, Alpha kanalı içindir.
+
+* #### A Scale Max
+"RGB Scale Max" inputu ile aynı şekilde çalışır, Alpha kanalı içindir.
+
+* #### Source Velocity
+Kullanılacak hız degeri.
 
 
 
