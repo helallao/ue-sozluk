@@ -169,6 +169,9 @@ bilmiyorum.
 * #### [Particles.Initial.Color]()
 (Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, Initialize Particle'ın [Color](../Moduller#color-3) degerine baglıdır da denebilir.
 
+* #### [Particles.ID]()
+(Sabit) Emitter'ın [Requires Persistent IDs](../Graph#requires-persistent-ids) ayarı açık iken her parçacıga id verilir ve bu id "Particles.ID" parametresinde tutulur.
+
 * #### [Particles.Lifetime]()
 (Sabit) Initialize Particle'ın [Lifetime](../Moduller#lifetime) inputuna baglıdır.
 
