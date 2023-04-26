@@ -216,6 +216,9 @@ bilmiyorum.
 * #### [Engine.Emitter.NumParticles]()
 (Degişken) Şu anki parçacık sayısını verir.
 
+* #### [Engine.Emitter.SimulationPosition]()
+(Sabit) Simulasyon konumunu verir. Emitter'ın [Local Space](../Graph#local-space) inputuna baglıdır. [Local Space](../Graph#local-space) açık ise (0,0,0), kapalı ise dünya üzerindeki konumu verir.
+
 * #### [Engine.Emitter.SpawnCountScale]()
 bilmiyorum.
 
