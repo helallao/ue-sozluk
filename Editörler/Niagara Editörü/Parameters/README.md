@@ -234,6 +234,18 @@ Complete = Tamamlanmış
 * #### [Engine.Owner.LODDistanceFraction]()
 bilmiyorum.
 
+* #### [Engine.Owner.SystemLocalToWorld]()
+bilmiyorum.
+
+* #### [Engine.Owner.SystemLocalToWorldNoScale]()
+bilmiyorum.
+
+* #### [Engine.Owner.SystemWorldToLocal]()
+bilmiyorum.
+
+* #### [Engine.Owner.SystemWorldToLocalNoScale]()
+bilmiyorum.
+
 * #### [Engine.Owner.Velocity]()
 (Degişken) Owner için (Emitter/System, yani direktmen simulasyon) her frame arasındaki hareket edilen mesafeyi hesaplayıp, şu anki hızı (velocity) verir.
 
