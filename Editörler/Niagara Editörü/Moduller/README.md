@@ -412,8 +412,11 @@ Linear Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-
 * #### Falloff Exponent
 Falloff yani düşüş degeri, falloff degeri arttıkça ortaya kenarlardaki degerler düşecegi için geriye orta nokta kalır ve degeri yükselttikçe orta nokta gitgide küçülür, aynı zamanda orta nokta küçülürken parçacıkların da hızı artar.
 
-* #### Attraction Position
-Çekim gücü uygulayan noktanın konumu.
+* #### Attractor Position Offset
+Çekim gücü uygulayan noktanın konumu üzerine offset vermemize yarar, "Attraction Position" yani çekim gücü uygulayan noktanın konumu default olarak [Engine.Emitter.SimulationPosition](../Parameters#engineemittersimulationposition) parametresine baglı oldugu için simulasyonun 0,0,0 konumundadır (yani simulasyon konumundadır). Dolayısıyla çekim gücü uygulayan noktanın konumunu degiştirmek istedigimizde genellikle offset veririz.
+
+* #### Attractor Position Offset Coordinate Space
+Sadece "Attractor Position Offset" ayarı açıkken vardır. Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Kill Radius
 Bu ayarı anlamak için linkteki videoya bakın. Çap degeri, orta noktaya bu degerden fazla yaklaşan parçacıklar yok edilir.
@@ -422,8 +425,10 @@ Bu ayarı anlamak için linkteki videoya bakın. Çap degeri, orta noktaya bu de
 Sadece "Kill Radius" ayarı açıkken vardır. Bu ayarı anlamak için linkteki videoya bakın. Overshoot olan yani oluşturdugumuz "Kill Radius" çapını tek bir frame'de (kare, fps) geçebilen parçacıkları da yakalayabilmek için vardır. Oluşturdugumuz "Kill Radius" çapını, parçacıkların hızına göre genişletir (ya da başka bişe bilmiyorum) ve parçacıgı ne kadar hızlı olsa da yakalar.
 
 * #### Position To Attract
-Bilmiyorum.
+Çekim gücünün uygulayandıgı noktanın konumu. Default olarak parçacıgın konumuna baglıdır.
 
+* #### Attractor Position
+Çekim gücü uygulayan noktanın konumu.
 
 
 
