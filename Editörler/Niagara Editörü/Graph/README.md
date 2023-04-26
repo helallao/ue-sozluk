@@ -66,7 +66,7 @@ bilmiyorum.
 Sadece "Calculate Bounds Mode" "Fixed" modundayken vardır. bilmiyorum.
 
 * #### Requires Persistent IDs
-bilmiyorum.
+Bu ayar açık iken her parçacıga id verilir ve bu id [Particles.ID](../Parameters#particlesid) parametresinde tutulur. Bu ayarı parçacıkları birbirinden ayırt etmeniz gerektiginde açarsınız.
 
 * #### Combine Event Spawn
 bilmiyorum.
