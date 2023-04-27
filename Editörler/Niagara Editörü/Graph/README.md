@@ -56,7 +56,7 @@ Sadece "Determinism" ayarı açıkken vardır. RNG (Random Number Generator) tar
 * #### Interpolated Spawning
 Bu ayar açık iken motor tarafından parçacıkların konumsal degerleri için (ve ya başka ayarları da) diger parçacıkların (ve ya kendisinin) sahip oldugu ve ya sahip olacagı ve ya bunların haricinde herhangi bir bilgiye dayanarak "interpolated" yani degiştirilmiş/karıştırılmış/kaydırılmış, iki degerin arasına alınmış degerler kullanır. Yani bir nevi efekt uygular, parçacıklar ve ya emitter çok hızlı hareket ederken degerleri hesaplayıp, sadece parçacıgı oldugu gibi göstermek yerine hızına göre efekt ekler. Eger parçacıklarınız aşagıdaki resimdeki gibi saga sola dogru ışınlanıyor gibi oluyorsa bu ayarı kapatmak işe yarayabilir. Bu ayarın açık olması içerigin kalitesini arttıracaktır ama performansa da sebep olur, eger bu ayarı kapatırsanız performans artacak ve muhtemelen daha fazla parçacıgı spawn edebilecek duruma geleceksiniz ama dedigim gibi, bu içerigin kalitesinin düşmesine de sebep olur. Ayrıca bu ayar adı gibi sadece "Spawn" anında çalışmıyor olabilir, yani sadece spawn degil update olurken (yani sürekli) de çalışıyor olabilir, emin degilim.
 
-<img src="../../../Dosyalar/niagara_popping_particles.gif">
+<img width="300" src="../../../Dosyalar/niagara_popping_particles.gif">
 
 
 * #### Sim Target
