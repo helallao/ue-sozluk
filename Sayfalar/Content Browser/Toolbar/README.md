@@ -14,7 +14,7 @@
 
 
 ## [Add Butonu]()
-Dosya ekler/yaratır. [Dosyalar](../Dosyalar) bölümünde boş bir yere sag tıklayınca çıkan ekran ile aynıdır.
+Dosya ekler/yaratır. [Dosyalar](../Dosyalar) bölümünde boş bir yere sag tıklayınca çıkan ekran ile aynıdır. Ekranda yazı yazma yeri gözükmese bile siz yazmaya başladıgınızda ortaya çıkacaktır yani arama yapabilirsiniz.
 
 <img src="../../../Dosyalar/Content_Browser_Add_Butonu_Focused.jpg">
 
