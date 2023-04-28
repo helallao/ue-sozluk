@@ -85,7 +85,7 @@ Bu ayar hakkında neredeyse hiç kaynak bulamadım, Unreal'in kendi dökümanın
 Sadece "Sim Target" gpu modundayken vardır. Her frame (kare, fps) başına spawn edilecek maximum parçacık sayısını belirler.
 
 * #### Max Delta Time Per Tick
-bilmiyorum.
+Her frame için maximum "delta time" süresini belirler (yani limitler).
 
 * #### Allocation Mode
 Emitter'ın hafıza (ram) üzerinde parçacıklar için yer ayırması gerekir. Bu ayar hafızada yer ayırma işlemini ayarlar. 3 farklı modu vardır,
@@ -101,10 +101,26 @@ Fixed Count = Bu modda iken "Pre Allocation Count" inputu açılır ve simulasyo
 "Allocation Mode" ayarı için, hafızada alan ayırılacak parçacık sayısı.
 
 * #### Attributes to Preserve
-bilmiyorum.
+Simulasyon tarafından okunmasa bile silinmeyecek olan parametreleri buraya yazabilirsiniz.
 
+* #### Category
+Bu ayar System içersinde olan Emitter'lar için geçersizdir, eger Emitter'ı tek başına yani Emitter asseti olarak oluşturduysanız işe yarar. Bu ayar yeni sistem ve ya emitter oluştururken ya da varolan sisteme emitter eklerken (kütüphaneden ekle bölümü), bu Emitter'ın hangi kategoride görünecegini belirler.
 
+* #### Template Specification
+Bu ayar "Category" ayarına benzer, kategoriyi ayarlamak yerine hangi section'da (kütüphaneden ekle bölümünde) gösterilecegini belirler.
 
+* #### Template Specification
+Bu ayar "Category" ve "Template Specification" ayarına benzer, imlecinizi emitter'ın üzerine geldiginizde çıkacak açıklamayı buraya yazabilirsiniz (kütüphaneden ekle bölümünde).
+
+* #### Library Visibility
+Bu ayar Emitter'ın görünürlügünü ayarlar (kütüphaneden ekle bölümünde). 3 modu vardır,
+<br>
+<br>
+Unexposed = Emitter kullanıcıya görünmez ama üst köşedeki "Library Only" seçenegi kapatılırsa görünür.
+<br>
+Exposed = Emitter kullanıcıya görünür.
+<br>
+Hidden = Emitter kullanıcıya görünmez.
 
 
 
