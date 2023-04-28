@@ -82,7 +82,7 @@ Bu ayar açık iken her parçacıga id verilir ve bu id [Particles.ID](../Parame
 Bu ayar hakkında neredeyse hiç kaynak bulamadım, Unreal'in kendi dökümanında yazanlara göre bu ayar parçacık spawn işlemini tek bir işleme dönüştürüyormuş yani defalarca kez spawn işlemini çalıştırmak yerine tek bir spawn işlemi olarak çalıştırıyor. Performans açısından yararı olabilir.
 
 * #### Max GPU Particles Spawn per Frame
-bilmiyorum.
+Sadece "Sim Target" gpu modundayken vardır. Her frame (kare, fps) başına spawn edilecek maximum parçacık sayısını belirler.
 
 * #### Max Delta Time Per Tick
 bilmiyorum.
