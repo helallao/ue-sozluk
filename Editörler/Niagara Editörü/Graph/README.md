@@ -88,10 +88,17 @@ Sadece "Sim Target" gpu modundayken vardır. Her frame (kare, fps) başına spaw
 bilmiyorum.
 
 * #### Allocation Mode
-bilmiyorum.
+Emitter'ın hafıza (ram) üzerinde parçacıklar için yer ayırması gerekir. Bu ayar hafızada yer ayırma işlemini ayarlar. 3 farklı modu vardır,
+<br>
+<br>
+Automatic Estimate = Default olarak bu mod seçilidir. Bu modda iken simulasyonun maximum parçacık sayısı tahmin edilir ve buna göre hafızada yer ayırılır.
+<br>
+Manual Estimate = Bu modda iken "Pre Allocation Count" inputu açılır ve manuel olarak hafızada ayırılması gereken tahmini parçacık sayısını ayarlayabilirsiniz.
+<br>
+Fixed Count = Bu modda iken "Pre Allocation Count" inputu açılır ve simulasyonda aynı anda olabilecek maximum parçacık sayısını ayarlayabilirsiniz.
 
 * #### Pre Allocation Count
-bilmiyorum.
+"Allocation Mode" ayarı için, hafızada alan ayırılacak parçacık sayısı.
 
 * #### Attributes to Preserve
 bilmiyorum.
