@@ -60,7 +60,7 @@ Bu ayar açık iken motor tarafından parçacıkların konumsal degerleri için 
 
 
 * #### Sim Target
-bilmiyorum.
+Simulasyonun cpu (işlemci) ve ya gpu (ekran kartı) üzerinde olacagını belirler. Performans açısından gpu cpu'dan daha iyidir, daha hızlıdır, daha fazla parçacık spawn edebilir ama cpu kadar dogru bilgi saglayamayabilir ve bazı özellikleri kullanamaz.
 
 * #### Calculate Bounds Mode
 bilmiyorum.
