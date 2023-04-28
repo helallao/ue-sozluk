@@ -63,10 +63,17 @@ Bu ayar açık iken motor tarafından parçacıkların konumsal degerleri için 
 Simulasyonun cpu (işlemci) ve ya gpu (ekran kartı) üzerinde olacagını belirler. Performans açısından gpu cpu'dan daha iyidir, daha hızlıdır, daha fazla parçacık spawn edebilir ama cpu kadar dogru bilgi saglayamayabilir ve bazı özellikleri kullanamaz.
 
 * #### Calculate Bounds Mode
-bilmiyorum.
+"Bounds" simulasyonun sınırlarını belirtir, sınırlar şu anlama gelir, eger sınır ekranımızın üzerine geliyorsa yani baktıgımız yönde/bakış açımızda ise (önümüzde ise) simulasyonu ekranda gösterir (render eder). 3 farklı "Bounds" modu vardır,
+<br>
+<br>
+Dynamic = Default olarak bu mod seçilidir. Bu modda iken sınırlar otomatik olarak sürekli hesaplanır yani simulasyonun herhangi bir kısmı ekrana girerse render edilir.
+<br>
+Fixed = Sınırları kendiniz belirlersiniz, eger bu sınır ekrana girerse render edilir.
+<br>
+Programmable = Bilmiyorum.
 
 * #### Fixed Bounds
-Sadece "Calculate Bounds Mode" "Fixed" modundayken vardır. bilmiyorum.
+Sadece "Calculate Bounds Mode" "Fixed" modundayken vardır. Fixed modu için sınır ayarlamanıza yarar, iki nokta belirlersiniz, bu noktalar bir küpün birbirine karşıt iki ucudur.
 
 * #### Requires Persistent IDs
 Bu ayar açık iken her parçacıga id verilir ve bu id [Particles.ID](../Parameters#particlesid) parametresinde tutulur. Bu ayarı parçacıkları birbirinden ayırt etmeniz gerektiginde açarsınız.
