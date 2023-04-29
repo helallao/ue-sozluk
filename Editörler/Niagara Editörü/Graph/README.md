@@ -15,6 +15,49 @@ Sadece Emitter ve System'lerden oluşur. Niagara Editör'ünde diger editörler 
 System, efekti baştan sona yapabilmemiz için gerekli olan her şeyi birleştiren sistemdir. Birden fazla Emitter kullanabilir ve bunları düzenleyebiliriz.
 
 ## [Properties]()
+
+* #### Require Current Frame Data
+bilmiyorum.
+
+* #### Auto Deactivate
+bilmiyorum.
+
+* #### Max Pool Size
+bilmiyorum.
+
+* #### Pool Prime Size
+bilmiyorum.
+
+* #### Bake Rapid Iteration Parameters During Edit
+bilmiyorum.
+
+* #### Bake Rapid Iteration Parameters
+bilmiyorum.
+
+* #### Compress Attributes
+bilmiyorum.
+
+* #### Trim Attributes During Edit
+bilmiyorum.
+
+* #### Trim Attributes
+bilmiyorum.
+
+* #### Ignore Particle Reads for Attribute Trim
+bilmiyorum.
+
+* #### Disable Debug Switches During Edit
+bilmiyorum.
+
+* #### Disable Debug Switches
+bilmiyorum.
+
+* #### Disable Experimental VM
+bilmiyorum.
+
+
+
+
 ## [User Parameters]()
 
 Tıklandıgı anda [User Parameters](../User%20Parameters) penceresini öne getirir/seçer.
