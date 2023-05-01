@@ -29,31 +29,31 @@ bilmiyorum.
 bilmiyorum.
 
 * #### Bake Rapid Iteration Parameters During Edit
-bilmiyorum.
+"Bake Rapid Iteration Parameters" ile aynı ama editlerken de işlemi gerçekleştirir, tam olarak ne oldugunu bilmiyorum, belki "Bake Rapid Iteration Parameters" sadece dosya kaydedildiginde falan gerçekleşiyor "Bake Rapid Iteration Parameters During Edit" ise her degişiklikte yani editlerken gerçekleşiyor olabilir, ama emin degilim.
 
 * #### Bake Rapid Iteration Parameters
-bilmiyorum.
+Aktifleştirildiginde constant degerleri (neyi kastettiklerini bilmiyorum) script'lere dönüştürür, performans bakımından yararı olması için.
 
 * #### Compress Attributes
-bilmiyorum.
+Aktifleştirildiginde emitter'lar parçacıkların sahip oldugu attribute'ları (sanırım parametreler) sıkıştırır. Hafıza (ram) ve performans bakımından artışa sebep olur.
 
 * #### Trim Attributes During Edit
-bilmiyorum.
+"Trim Attributes" ile aynı ama editlerken de işlemi gerçekleştirir, tam olarak ne oldugunu bilmiyorum, belki "Trim Attributes" sadece dosya kaydedildiginde falan gerçekleşiyor "Trim Attributes During Edit" ise her degişiklikte yani editlerken gerçekleşiyor olabilir, ama emin degilim.
 
 * #### Trim Attributes
-bilmiyorum.
+Aktifleştirildiginde gereksiz attribute'lar (sanırım parametreler) silinir.
 
 * #### Ignore Particle Reads for Attribute Trim
-bilmiyorum.
+Emin degilim ama sanırım, sadece okuma işleminde kullanılmış parametreleri de siler yani normalde bu parametreler silinmezken bu ayarı aktifleştirdiginizde silinir. Hatalara sebep olabilir.
 
 * #### Disable Debug Switches During Edit
-bilmiyorum.
+"Disable Debug Switches" ile aynı ama editlerken de "Debug Switch" leri devre dışı bırakır, tam olarak ne oldugunu bilmiyorum.
 
 * #### Disable Debug Switches
-bilmiyorum.
+Aktifleştirildiginde compile işlemi gerçekleşirken "Debug Switch" leri devre dışı bırakır, ne oldugundan emin degilim.
 
 * #### Disable Experimental VM
-bilmiyorum.
+Experimental VM'leri (sanırım Virtual Machine yani Sanal Makine) devre dışı bırakır.
 
 
 
