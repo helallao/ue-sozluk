@@ -240,6 +240,9 @@ Complete = Tamamlanmış
 * #### [Engine.Owner.LODDistanceFraction]()
 bilmiyorum.
 
+* #### [Engine.Owner.Scale]()
+bilmiyorum.
+
 * #### [Engine.Owner.SystemLocalToWorld]()
 bilmiyorum.
 
