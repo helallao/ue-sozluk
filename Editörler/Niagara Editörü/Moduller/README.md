@@ -308,10 +308,20 @@ Seed vermenize yarar ama ben test etsem bile göremedim, muhtemelen sadece farkl
 Bu deger "Randomize Noise Sample" açıkken kullanılan deger. Tam olarak nasıl çalıştıgını bilmiyorum.
 
 * #### Scale Curl Lookup By Engine Owner Scale
-Bilmiyorum.
+Çok ilginç bir şey, ne oldugunu bi türlü çözemedim. Dünyanıza koydugunuz niagara'nın scale degerine göre (yani [Engine.Owner.Scale](../Parameters#engineownerscale) parametresi) noise efektini belirli bir yöne uyguluyor.
 
 * #### Mask Curl Noise
-Bilmiyorum.
+Eger parçacıklar belirli bir yöne dogru hareket ederken noise efekti yüzünden o yönden sapmamasını (dagılmamasını) ve ya noise efektinin sadece belirli bir yöne dogru olmasını istiyorsanız bu ayarı açabilirsiniz. Bu ayar "Curl Noise Cone Mask Axis" inputundaki yön degerine göre, koni şeklinde bir dagılma alanı oluşturur. Koninin uç genişligini "Curl Noise Cone Mask Angle" ile ayarlayıp, dagılma oranını arttırabilir/azalatabilirsiniz.
+
+* #### Curl Noise Cone Mask Angle
+Sadece "Mask Curl Noise" ayarı açıkken vardır. Oluşturulan koni için açı degeri, arttırırsanız koninin uç genişligini de büyür yani dagılma oranı artar.
+
+* #### Curl Noise Cone Mask Falloff Angle
+Sadece "Mask Curl Noise" ayarı açıkken vardır. Bunu söyle düşünebilirsiniz, bu ayar ikinci bir koni oluşturur, ne zaman bu ikinci koninin açısı "Curl Noise Cone Mask Angle" yani birinci koniden büyük olursa, birinci koninin içinde dagılan parçacıkların bazıları ikinci koninin sınırlarına da girebilir. Yani "falloff" olmaları için kullanılan koninin içine de girebilirler ama hepsi girmez, böylelikle oluşturulan ikinci "falloff" konisi ile, kenarlara dogru dagılma efekti vermiş oluruz.
+
+* #### Curl Noise Cone Mask Axis
+Sadece "Mask Curl Noise" ayarı açıkken vardır. Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır. Yani parçacıkların şu an gittikleri yöne, isterseniz bunu degiştirip istediginiz yön degerini verebilirsiniz.
+
 
 
 
