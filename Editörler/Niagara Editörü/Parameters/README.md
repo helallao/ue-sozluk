@@ -198,6 +198,9 @@ bilmiyorum.
 
 ## Module Outputs
 
+* #### [Output.CurlNoiseForce.CurlNoiseForce]()
+(Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
+
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
 
@@ -260,6 +263,8 @@ bilmiyorum.
 * #### [Engine.Owner.Velocity]()
 (Degişken) Owner için (Emitter/System, yani direktmen simulasyon) her frame arasındaki hareket edilen mesafeyi hesaplayıp, şu anki hızı (velocity) verir.
 
+* #### [Engine.Time]()
+Oyunda geçen toplam süreyi (saniye cinsinden) verir. Blueprint'deki "Game Time in Seconds" ile aynıdır.
 
 
 
