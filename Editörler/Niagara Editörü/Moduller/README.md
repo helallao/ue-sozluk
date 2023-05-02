@@ -372,7 +372,7 @@ Gravity Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local
 
 ## [Line Attraction Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=897)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Başlangıç ve bitiş noktalarını belirleyebildigimiz bir çizgi/dogru (line) oluşturur ve bu çizgi boyuna force uygular, yani tek noktadan degil de çizgi şeklinde.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Başlangıç ve bitiş noktalarını belirleyebildigimiz bir çizgi/dogru (line) oluşturur ve bu çizgi boyunca force uygular, yani tek noktadan degil de çizgi şeklinde.
 
 
 * #### Attraction Strength
@@ -385,7 +385,7 @@ Gravity Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local
 Çizgi/dogru'nun bitiş noktası.
 
 * #### Line Segment in Localspace
-bilmiyorum.
+Linear Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). Bu ayar kapalı iken "Line Start" ve "Line End" inputuna verdiginiz konumlar World Space (yani dünya konumu) olarak hesaplanır. Bu ayarı açtıgınızda ise Local Space olarak hesaplanır.
 
 * #### Attraction Falloff
 Bu ayarın tam olarak ne amaçla oldugunu bilmiyorum ama şöyle bi kullanılış şekli var, degeri eksilere indirirseniz çekim gücü uygulamak yerine itim gücü uyguluyor.
