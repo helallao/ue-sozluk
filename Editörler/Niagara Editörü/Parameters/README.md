@@ -204,6 +204,18 @@ bilmiyorum.
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
 
+* #### [Output.PointForce.NormalizedDistance]()
+(Degişken) [Point Force](../Moduller#point-force) tarafından oluşturulur. Eger Point Force'un [Force Falloff Distance](../Moduller#force-falloff-distance) ayarı açılmış ise, falloff çapını belirlemişsiniz demektir ve Output.PointForce.NormalizedDistance parametresi Point Force'un orijin noktası ile bu uzaklık degerinin arasındaki mesafeyi normalized olarak verir. Eger Point Force'un [Force Falloff Distance](../Moduller#force-falloff-distance) ayarı açılmış ise, default olarak bunu 1000 varsayar (bu Point Force'un sadece bu çapta etkili olacagı anlamına gelmiyor, sadece bu paramtrede 1000 kullanılmış). Normalize işlemi, degeri 0 - 1 arasına taşır. Mesela diyelim ki parçacık Point Force'un orijin noktası ile Falloff Distance için belirlenen uzaklıklıgın tam ortasında, bu durumda deger 0.5 olur. Normalize yani 0 - 1 arasına taşıma işlemini yüzde olarak almak gibi düşünebilirsiniz, yani 0.5 = %50.
+
+* #### [Output.PointForce.NormalizedDistanceInverted]()
+(Degişken) Output.PointForce.NormalizedDistance parametresi ile aynıdır ama uzaklıgı degil yakınlıgı verir, yani tam tersini verir. Yakındayken 1, uzaklaştıkça 0'a dogru kayar ve Falloff Distance olarak belirlenen uzaklık degerini geçtikten sonra 0 verir.
+
+* #### [Output.PointForce.NormalizedFalloff]()
+(Degişken) Parçacık için Point Force'un şu anki Falloff (etkisi) degerini verir. Bunu parçacıgın Falloff Distance olarak belirlenen uzaklık degerine olan uzaklıgı gibi düşünebilirsiniz. Falloff çapına yaklaştıkça bu deger de azalır ve Falloff Distance çapını geçtikten sonra 0 olur.
+
+* #### [Output.PointForce.WithinRange]()
+(Durumsal) Parçacıgın force etkisi alanının içinde olup olmadıgı bilgisini verir. Yani Falloff Distance olarak belirlenen uzaklık degerini geçmedigi sürece true, geçtikten sonra false verir.
+
 * #### [Output.SpawnBurst_Instantaneous.HasSpawnedThisFrame]()
 (Durumsal) [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
 
