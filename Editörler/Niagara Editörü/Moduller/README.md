@@ -451,22 +451,25 @@ Sadece "Kill Radius" ayarı açıkken vardır. Bu ayarı anlamak için linkteki 
 İtim/Çekim şiddeti. Eger eksilere inerseniz çekim, artılara giderseniz itim gücü uygular.
 
 * #### Force Falloff Distance
-Falloff alanı oluşturur, bu deger ise bu alanın çap degeri.
+Falloff alanı oluşturur, bu deger ise bu alanın çap degeri. Force etkisi sadece Falloff alanı içindeyken uygulanır ve ortadan uca dogru yaklaştıkça azalır.
 
 * #### Linear Force Vector
-"Force Falloff Distance" alanı içine giren parçacıkları orta noktaya dogru çekmek yerine, istediginiz yönde force eklemeye yarar.
+Çekmek/itmek yerine, istediginiz yönde force eklemeye yarar.
+
+* #### Particle Position
+Parçacıkların konum degeri.
 
 * #### Invert Falloff
-Default olarak açıktır ve normal falloff işlevi görür. Falloff orta noktaya yakın olan parçacıklara daha fazla, uzak olan parçacıklara daha az force uygulanması anlamına gelir, eger bu seçenegi açarsanız falloff kapatılır yani alan içindeki bütün parçacıklara aynı etki uygulanır.
+Default olarak açıktır ve normal falloff işlevi görür. Falloff orta noktaya yakın olan parçacıklara daha fazla, uzak olan parçacıklara daha az force uygulanması anlamına gelir, eger bu seçenegi kapatırsanız falloff tersine döner yani ortaya yakın olan kısımlar daha az, uzak olan kısımlar daha çok etkilenir.
 
 * #### Fallback Vector
-bilmiyorum.
+Eger parçacık ile force'un orijin noktası üstüste gelirse (yani aynı konumadalarsa) kullanılacak vectör. Default olarak random.
 
 * #### Force Origin
-bilmiyorum.
+Çekim gücü uygulayan noktanın konumu.
 
 * #### Draw Line to Force Origin
-bilmiyorum.
+Aktifleştirildiginde parçacık ve force konumu arasında çizgi çizer.
 
 
 
