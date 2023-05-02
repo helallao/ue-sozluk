@@ -241,7 +241,7 @@ Complete = Tamamlanmış
 bilmiyorum.
 
 * #### [Engine.Owner.Scale]()
-bilmiyorum.
+(Sabit) Dünyanıza koydugunuz niagara'nın scale degerini verir.
 
 * #### [Engine.Owner.SystemLocalToWorld]()
 bilmiyorum.
