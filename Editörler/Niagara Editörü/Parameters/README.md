@@ -245,6 +245,9 @@ Complete = Tamamlanmış
 * #### [Engine.Owner.LODDistanceFraction]()
 bilmiyorum.
 
+* #### [Engine.Owner.Position]()
+(Sabit) Dünyanıza koydugunuz niagara'nın konum degerini verir.
+
 * #### [Engine.Owner.Scale]()
 (Sabit) Dünyanıza koydugunuz niagara'nın scale degerini verir.
 
