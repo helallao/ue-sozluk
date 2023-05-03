@@ -35,7 +35,7 @@ Yapılan degişiklikleri uygular. Üç noktaya tıkladıgınızda iki seçenek v
 Buna tıkladıgınız anda bu niagara asset'i için [Preview Viewport](../Preview%20Viewport) üzerindeki görüntüyü thumbnail yani kapak fotografı olarak ayarlar, yani content browser'daki kapak fotografı.
 
 ## [Bounds]()
-[Preview Viewport](../Preview%20Viewport) üzerinde sınırları gösterir.
+[Preview Viewport](../Preview%20Viewport) üzerinde sınırları gösterir. Ayrıca yandaki üç noktadan [sistem](../Graph#fixed-bounds) ve [emitter](../Graph#fixed-bounds-1) için Fixed Bounds ayarını açabilirsiniz (tıkladıgınızda sadece açar, başka bir şey yapmaz).
 
 ## [Performance]()
 Performans degerlerini gösterir. Degerler modüller için ayrı, kategoriler için ayrı gösterilir. Eger üç noktaya tıklarsanız şu seçenekler çıkar,
