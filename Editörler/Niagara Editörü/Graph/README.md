@@ -55,6 +55,49 @@ Aktifleştirildiginde compile işlemi gerçekleşirken "Debug Switch" leri devre
 * #### Disable Experimental VM
 Experimental VM'leri (sanırım Virtual Machine yani Sanal Makine) devre dışı bırakır.
 
+* #### Default Cast Shadows
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+
+* #### Default Receives Decals
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+
+* #### Default Render CustomDepth Pass
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+
+* #### Support Large World Coordinates
+bilmiyorum.
+
+* #### Default CustomDepthStencil Write Mask
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+
+* #### Default CustomDepthStencil Value
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+
+* #### Translucency Sort Priority
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+
+* #### Translucency Sort Distance Offset
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+
+* #### Dump Debug System Info
+Aktifleştirildiginde sistem info'sunu [Output Log'a](../../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu)#output-log) yazdırır, çok az parçacıgınız olsa bile Unreal Engine'in çökmesine sebep olabilir, isterseniz bu ayarı açın, loglar yazılsın, sonra bu ayarı kapattıktan sonra loglara bakın.
+
+* #### Dump Debug Emitter Info
+Aktifleştirildiginde emitter info'sunu [Output Log'a](../../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu)#output-log) yazdırır, çok az parçacıgınız olsa bile Unreal Engine'in çökmesine sebep olabilir, isterseniz bu ayarı açın, loglar yazılsın, sonra bu ayarı kapattıktan sonra loglara bakın.
+
+* #### Effect Type
+bilmiyorum.
+
+* #### Parameter Collection Overrides
+bilmiyorum.
+
+* #### Fixed Bounds
+"Bounds" simulasyonun sınırlarını belirtir, sınırlar şu anlama gelir, eger sınır ekranımızın üzerine geliyorsa yani baktıgımız yönde/bakış açımızda ise (önümüzde ise) simulasyonu ekranda gösterir (render eder). Bu ayar da sınırları ayarlamanıza yarar, iki nokta belirlersiniz, bu noktalar bir küpün birbirine karşıt iki ucudur.
+
+* #### Fixed Tick Delta Time
+bilmiyorum.
+
+
 
 
 
