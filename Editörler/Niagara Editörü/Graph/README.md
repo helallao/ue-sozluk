@@ -95,7 +95,7 @@ bilmiyorum.
 "Bounds" simulasyonun sınırlarını belirtir, sınırlar şu anlama gelir, eger sınır ekranımızın üzerine geliyorsa yani baktıgımız yönde/bakış açımızda ise (önümüzde ise) simulasyonu ekranda gösterir (render eder). Bu ayar da sınırları ayarlamanıza yarar, iki nokta belirlersiniz, bu noktalar bir küpün birbirine karşıt iki ucudur.
 
 * #### Fixed Tick Delta Time
-bilmiyorum.
+Bu ayar ile Delta Time süresini yani iki frame (kare) arasındaki süreyi ayarlayabilirsiniz. Mesela default olarak 0.01667 konulmuş, eger bu 1'i bu sayıya bölerseniz (yani 1/0.01667) 59.988 yani 60 fps oldugunu görebilirsiniz. Eger delta time süresini oyunun frame süresinden (game thread) küçük yaparsanız, tek bir frame içerisinde birden fazla tick gerçekleşebilir (substepping), yani stabildir ve kesin çalışır.
 
 
 
