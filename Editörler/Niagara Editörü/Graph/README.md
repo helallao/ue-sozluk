@@ -97,6 +97,35 @@ bilmiyorum.
 * #### Fixed Tick Delta Time
 Bu ayar ile Delta Time süresini yani iki frame (kare) arasındaki süreyi ayarlayabilirsiniz. Mesela default olarak 0.01667 konulmuş, eger bu 1'i bu sayıya bölerseniz (yani 1/0.01667) 59.988 yani 60 fps oldugunu görebilirsiniz. Eger delta time süresini oyunun frame süresinden (game thread) küçük yaparsanız, tek bir frame içerisinde birden fazla tick gerçekleşebilir (substepping), yani stabildir ve kesin çalışır.
 
+* #### Determinism
+bilmiyorum.
+
+* #### Random Seed
+Determinism için seed numarası.
+
+* #### Warmup Time
+Warmup simulasyonun kaçıncı saniyeden başlayacagını belirler. Normalde bu deger 0'dır, yani simulasyon baştan başlar. Warmup degerini ilerleterek simulasyonun başlangıç noktasını öne alabilirsiniz. "Warmup Time" inputu Warmup degerini saniye olarak gösterir ve deger girdiginiz zaman otomatikmen Tick sayısına dönüştürür ve "Warmup Tick Count" degerine ayarlar, ama bu çevirme işlemi yuvarlama olarak yapılır yani en yakın sayıya yuvarlıyo da denebilir. Kesin deger vermek istiyorsanız alttaki 2 inputu kullanın.
+
+* #### Warmup Tick Count
+"Warmup Time" inputu Warmup degerini saniye olarak gösterir ama özünde Warmup degerini Tick sayısı vererek ayarlarız. "Warmup Tick Count" inputunu kullanarak Tick sayısını ayarlayabilirsiniz.
+
+* #### Warmup Tick Delta
+Warmup degerini ayarlarken Tick'ler kullanırız. "Warmup Tick Delta" inputu bize her bir Tick'in kaç saniye olacagını söyler. Yani mesela bu degeri 0.1 yaptınız, o zaman her bir Tick 0.1 saniye olur. Diyelim ki "Warmup Tick Count" inputuna da 15 girdiniz, o zaman 15 * 0.1 = 1.5 saniye eder, isterseniz bu hesaplamaları yapmadan direktmen "Warmup Time" inputuna istediginiz süreyi saniye bazlı olarak verebilirsiniz (ama yuvarlama işlemi uygular).
+
+* #### Library Visibility
+bilmiyorum.
+
+* #### Template Specification
+bilmiyorum.
+
+* #### Template Asset Description
+bilmiyorum.
+
+* #### Category
+bilmiyorum.
+
+
+
 
 
 
