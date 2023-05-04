@@ -225,6 +225,11 @@ bilmiyorum.
 * #### [Output.SpawnRate.HasSpawnedThisFrame]()
 (Durumsal) [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
 
+* #### [Output.SpringForce.PotentialEnergy]()
+[Spring Force](../Moduller#spring-force) tarafından oluşturulur.
+
+* #### [Output.SpringForce.SpringForce]()
+[Spring Force](../Moduller#spring-force) tarafından oluşturulur.
 
 
 
@@ -292,6 +297,12 @@ Oyunda geçen toplam süreyi (saniye cinsinden) verir. Blueprint'deki "Game Time
 
 * #### [Transient.ParticleColorScaleFactor]()
 (Durumsal) [Scale Color](../Moduller#scale-color-1) ve ya [Scale Color by Speed](../Moduller#scale-color-by-speed) modülü kullanıldıgında, kullanılan scale degerlerini (RGBA) bu parametreye kaydeder.
+
+* #### [Transient.PhysicsForce]()
+bilmiyorum.
+
+* #### [Transient.PhysicsPotentialEnergy]()
+bilmiyorum.
 
 * #### [Transient.ScalabilityEmitterExecutionState]()
 bilmiyorum.
