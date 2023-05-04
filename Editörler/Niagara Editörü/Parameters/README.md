@@ -190,6 +190,9 @@ bilmiyorum.
 * #### [Particles.RibbonUVDistance]()
 bilmiyorum.
 
+* #### [Particles.VectorNoiseInterval]()
+(Degişken) [Vector Noise Force](../Moduller#vector-noise-force) kullanıldıgı zaman oluşturulur. Sıradaki yön degiştirme zamanına kalan süreyi tutar.
+
 * #### [Particles.Velocity]()
 bilmiyorum.
 
