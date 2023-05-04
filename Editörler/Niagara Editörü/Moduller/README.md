@@ -494,32 +494,32 @@ bilmiyorum.
 
 ## [Spring Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1396)
 
-([Particle Update](../Graph#particle-update))
+([Particle Update](../Graph#particle-update)) [Point Attraction Force](#point-attraction-force) gibi tek bir noktadan parçacıklara çekim gücü uygular.
 
 
 * #### Particle Position
-bilmiyorum.
+Parçacıgın konum degeri. Default olarak [Particles.Position](../Parameters#particlesposition) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
 
 * #### Particle Velocity
-bilmiyorum.
+Parçacıgın velocity (hız) degeri. Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
 
 * #### Force Strength
 Çekim şiddeti, eksilere gidince itim şiddetine dönüşür.
 
 * #### Particle Equilibrium Position
-Orta noktanın konumu.
+Orta noktanın konumu, orijin.
 
 * #### Spring Tightness
 "Force Strength" ile aynı işlevi görüyor, parçacıkların ne kadar hızlı olacagını ayarlıyor.
 
 * #### Attachment Point Velocity
-bilmiyorum.
+Ne oldugundan emin degilim ama sanırım bu ayar "Particle Equilibrium Position" noktasının yani orijin noktasının velocity degerini ayarlıyor.
 
 * #### Dampening Coefficient
-bilmiyorum.
+Bunu falloff gibi düşünebilirsiniz ve ya sürtünme gibi, bu degeri ne kadar arttırırsanız parçacıklara da uygulanan çekim gücü o kadar hızlı azalır yani sürtünme etkisi yaratır gibi düşünebilirsiniz. 0 iken hiç sürtünme etkisi olmadıgı için parçacıklar sürekli çekim noktasının etrafında döner ve hiç durmaz.
 
 * #### Desired Minimum Separation Distance
-bilmiyorum.
+Bu inputa verdiginiz degeri bir küre oluşturmak için çap degeri olarak kullanır. Parçacıklar bu küreye girdigi zaman küre parçacıgı dışa dogru iter ve parçacık bu kürenin dışında kalır. Yani bu ayar parçacıkların "Particle Equilibrium Position" noktası yani orijin noktası ile arasındaki boşlugu belirtir.
 
 * #### Write to Intrinsic Parameters
 bilmiyorum.
