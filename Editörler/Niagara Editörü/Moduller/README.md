@@ -908,17 +908,17 @@ bilmiyorum.
 
 ## [Jitter Position](https://youtu.be/btUjODoqSnI?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=941)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara titreşim (jitter) ekler.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara titreşim (jitter) ekler. Özünde şöyle çalışır, her bir jitter çagırıldıgında parçacıklara "Jitter Offset" degeri kadar offset verilir. "Jitter Amount" ise, jitter çagırma sayısını arttırır/azaltır.
 
 
 * #### Jitter Amount
-Titreşim derecesi, kaç cm hareket edecegi bilgisi de olabilir ama emin degilim.
+Titreşim sayısı, derecesi.
 
 * #### Jitter Offset
-Bilmiyorum.
+Parçacıklara her jitter çagırıldıgında bu deger kadar offset verilir.
 
 * #### Jitter Delay
-Bilmiyorum.
+Her jitter arasındaki süreyi ayarlar.
 
 
 
