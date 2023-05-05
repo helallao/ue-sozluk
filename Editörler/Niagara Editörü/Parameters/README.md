@@ -145,16 +145,16 @@ bilmiyorum.
 [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location X Count]()
-[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+(Sabit) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [X Count](../Moduller#x-count) inputuna baglıdır.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location XYZ Count]()
-[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location Y Count]()
-[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+(Sabit) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [Y Count](../Moduller#y-count) inputuna baglıdır.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location Z Count]()
-[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+(Sabit) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [Z Count](../Moduller#z-count) inputuna baglıdır.
 
 * #### [Emitter.SpawnParticlesInGrid.SpawnBurst]()
 [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
