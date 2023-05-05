@@ -567,25 +567,22 @@ Orijin noktası.
 Arttırdıkça orijin noktasına yani orta noktaya dogru çekim gücü uygular. Eger eksilere giderseniz itim gücü uygular.
 
 * #### Origin Pull Only On Vortex Axis
-bilmiyorum.
+Bu ayar aktifleştirildiginde "Origin Pull Amount" un verdigi çekim/itim gücü sadece girdabın oryantasyonunda yani yönünde ("Vortex Axis" inputuna göre) etki eder. Yani bu ayar kapalı iken "Origin Pull Amount" un verdigi çekim/itim gücü her yönden etki edebilir iken, bu ayar açıldıgında sadece girdabın oryantasyonunda etki eder.
 
 * #### Vortex Origin Offset
 Orijin noktasına offset vermenize yarar.
 
 * #### Vortex Origin Offset Coordinate Space
-bilmiyorum.
-
-* #### Use Influence Falloff
-Force etki alanını belirler.
+Sadece "Vortex Origin Offset" ayarı açıldıgında vardır. Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Influence Falloff Radius
 Sadece "Use Influence Falloff" ayarı açıkken vardır. "Influence Falloff" alanının çap degeri. Bu alan içindekiler Vortex Force'dan etkilenir.
 
 * #### Influence Falloff Exponent
-Sadece "Use Influence Falloff" ayarı açıkken vardır. "Influence Falloff" alanı için falloff katsayı degeri. Falloff etkisini arttırır, falloff yani düşüş degeri arttıgı için, deger arttıkça uzaktaki parçacıklar çok az etkilenir.
+Sadece "Use Influence Falloff" ayarı açıkken vardır. "Influence Falloff" alanı için falloff katsayı degeri. Falloff etkisini arttırır, falloff yani düşüş degeri arttıgı için, deger arttıkça uzaktaki parçacıklar force etkisinden daha az etkilenir.
 
 * #### Invert Influence Falloff
-Falloff etkisini tersine çevirir yani uzaktaki parçacıklar daha çok, yakındaki parçacıklar daha az etkilenir.
+Sadece "Use Influence Falloff" ayarı açıkken vardır. Falloff etkisini tersine çevirir yani uzaktaki parçacıklar daha çok, yakındaki parçacıklar daha az etkilenir.
 
 
 
