@@ -222,6 +222,27 @@ bilmiyorum.
 * #### [Output.CurlNoiseForce.CurlNoiseForce]()
 (Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
 
+
+* #### [Output.GridLocation.GridCellCoordinate]()
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Output.GridLocation.GridSpacing]()
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Output.GridLocation.GridUVW]()
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Output.GridLocation.Normalized Array location]()
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Output.GridLocation.XYZ Spacing]()
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Output.GridLocation.XYZCountAsVector]()
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+
+
+
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
 
