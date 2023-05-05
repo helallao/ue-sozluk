@@ -1384,10 +1384,10 @@ Z ekseninde spawn edilecek parçacık sayısı.
 Spawn edecegi saniye.
 
 * #### Age
-Bilmiyorum.
+bilmiyorum.
 
 * #### SpawnGroup
-Parçacıklara grup numarası vermeye yarar. Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz.
+Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
 
 
 
