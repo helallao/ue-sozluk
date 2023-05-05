@@ -800,7 +800,7 @@ Grid'in orijin noktası.
 "Placement Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Randomize Overriden Seed
-bilmiyorum
+bilmiyorum.
 
 * #### Normalize Offsets
 Eger bu ayar açıksa, offset degerlerini cell degerlerine göre düzenler ve 1 offset degeri 1 cell boyutuna eşit hale getirilir.
@@ -811,8 +811,11 @@ Parçacıklara rastgele offset degeri verir. XYZ eksenleri olmak üzere bütün 
 * #### Offset
 XYZ eksenleri olmak üzere bütün eksenlerde offset verebilirsiniz.
 
+* #### Align To Grid Cell
+Sadece "Dimensions Definition" "Bounding Box Size" modundayken vardır.
+
 * #### Dimensions Definition
-Parçacıklar arasındaki boşluk ayarı, "Padding Per Cell" modunda iken her parçacık arasındaki boşlugu, "Bounding Box Size" modunda iken bütün grid'in büyüklügüne göre parçacıklar arasındaki boşlugu ayarlar. Kendiniz test edip anlamalısınız.
+Parçacıklar arasındaki boşluk ayarı, "Padding Per Cell" modunda iken her parçacık arasındaki boşlugu, "Bounding Box Size" modunda iken bütün grid'in büyüklügüne göre parçacıklar arasındaki boşlugu ayarlar.
 
 * #### XYZ Dimensions
 "Dimensions Definition" için XYZ yönlerinde boşluk degerleri.
@@ -824,13 +827,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### Grid X Count
-bilmiyorum.
+"Spawn Particles in Grid" in [X Count](../Moduller#x-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location X Count](../Parameters#emitterspawnparticlesingridgrid-location-x-count) parametresine baglıdır.
 
 * #### Grid Y Count
-bilmiyorum.
+"Spawn Particles in Grid" in [Y Count](../Moduller#y-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location Y Count](../Parameters#emitterspawnparticlesingridgrid-location-y-count) parametresine baglıdır.
 
 * #### Grid Z Count
-bilmiyorum.
+"Spawn Particles in Grid" in [Z Count](../Moduller#z-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location Z Count](../Parameters#emitterspawnparticlesingridgrid-location-z-count) parametresine baglıdır.
 
 
 
