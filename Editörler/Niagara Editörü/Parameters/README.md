@@ -141,6 +141,24 @@ bilmiyorum.
 * #### [Emitter.SpawnBurst_Instantaneous.SpawnBurst]()
 [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. bilmiyorum.
 
+* #### [Emitter.SpawnParticlesInGrid.Grid Location Spawn Count]()
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+
+* #### [Emitter.SpawnParticlesInGrid.Grid Location X Count]()
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+
+* #### [Emitter.SpawnParticlesInGrid.Grid Location XYZ Count]()
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+
+* #### [Emitter.SpawnParticlesInGrid.Grid Location Y Count]()
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+
+* #### [Emitter.SpawnParticlesInGrid.Grid Location Z Count]()
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+
+* #### [Emitter.SpawnParticlesInGrid.SpawnBurst]()
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+
 * #### [Emitter.SpawnPerFrame.SpawnBurst]()
 [Spawn Per Frame](../Moduller#spawn-per-frame) tarafından oluşturulur. bilmiyorum.
 
@@ -221,6 +239,9 @@ bilmiyorum.
 
 * #### [Output.SpawnBurst_Instantaneous.HasSpawnedThisFrame]()
 (Durumsal) [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
+
+* #### [Output.SpawnParticlesInGrid.HasSpawnedThisFrame]()
+(Durumsal) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
 
 * #### [Output.SpawnPerUnit.HasSpawnedThisFrame]()
 (Durumsal) [Spawn Per Unit](../Moduller#spawn-per-unit) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
