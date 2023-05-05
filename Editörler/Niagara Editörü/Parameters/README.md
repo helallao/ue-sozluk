@@ -190,6 +190,9 @@ bilmiyorum.
 * #### [Particles.ID]()
 (Sabit) Emitter'ın [Requires Persistent IDs](../Graph#requires-persistent-ids) ayarı açık iken her parçacıga id verilir ve bu id "Particles.ID" parametresinde tutulur.
 
+* #### [Particles.JitterDelayTimer]()
+(Degişken) [Jitter Position](../Moduller#jitter-position) kullanıldıgı zaman oluşturulur. Eger [Jitter Delay](../Moduller#jitter-delay) inputuna deger verilmişse, bir sonraki jitter'ın çagırılmasına kalan süreyi verir.
+
 * #### [Particles.Lifetime]()
 (Sabit) Initialize Particle'ın [Lifetime](../Moduller#lifetime) inputuna baglıdır.
 
