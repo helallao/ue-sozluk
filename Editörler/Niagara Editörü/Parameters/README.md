@@ -211,6 +211,12 @@ bilmiyorum.
 * #### [Particles.RibbonUVDistance]()
 bilmiyorum.
 
+* #### [Particles.RotateAroundPoint.IncrementingCounter]()
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
+
+* #### [Particles.RotateAroundPoint.VectorFromCenter]()
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
+
 * #### [Particles.VectorNoiseInterval]()
 (Degişken) [Vector Noise Force](../Moduller#vector-noise-force) kullanıldıgı zaman oluşturulur. Sıradaki yön degiştirme zamanına kalan süreyi tutar.
 
@@ -224,7 +230,6 @@ bilmiyorum.
 
 * #### [Output.CurlNoiseForce.CurlNoiseForce]()
 (Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
-
 
 * #### [Output.GridLocation.GridCellCoordinate]()
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
@@ -244,8 +249,6 @@ bilmiyorum.
 * #### [Output.GridLocation.XYZCountAsVector]()
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
 
-
-
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
 
@@ -260,6 +263,12 @@ bilmiyorum.
 
 * #### [Output.PointForce.WithinRange]()
 (Durumsal) Parçacıgın force etkisi alanının içinde olup olmadıgı bilgisini verir. Yani Falloff Distance olarak belirlenen uzaklık degerini geçmedigi sürece true, geçtikten sonra false verir.
+
+* #### [Output.RotateAroundPoint.LocalForwardVector]()
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
+
+* #### [Output.RotateAroundPoint.OutputPosition]()
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
 
 * #### [Output.SpawnBurst_Instantaneous.HasSpawnedThisFrame]()
 (Durumsal) [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
