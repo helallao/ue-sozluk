@@ -727,8 +727,70 @@ Sadece "Sprite Rotation Mode" "Direct Normalized Angle (0-1)" modundayken vardı
 # Kill
 
 ## [Kill Particles]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bütün parçacıkları yok eder.
+
+
+* #### Kill Particles
+Parçacıkların yok edilip edilmeyecegini belirler. İsterseniz buraya parametre falan baglayabilirsiniz.
+
+
+
+
 ## [Kill Particles in Volume]()
 
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Oluşturulan volume (şekil) içideki/dışındaki parçacıkları yok eder.
+
+
+* #### Kill Shape
+Volume'un şeklini belirler. Modların açıklamaları,
+<br>
+<br>
+Sphere = Küre
+<br>
+Box = Küp
+<br>
+Plane = Plane modundayken düz bir yüzey belirlenir, bu yüzeyin baktıgı yöndeki parçacıklar yok olmaz ama arka tarafında kalan parçacıklar yok olur, yani bu düz yüzeyin bir yönündeki parçacıklar kalır, diger yöndekiler yok olur
+<br>
+Slab = Düz tabaka/levha oluşturur.
+<br>
+Cone = Koni
+
+* #### Sphere Radius
+Sadece "Kill Shape" "Sphere" modundayken vardır. Küre'nin çapı.
+
+* #### Box Size
+Sadece "Kill Shape" "Box" modundayken vardır. Küp'ün XYZ degerleri.
+
+* #### Plane Normal
+Sadece "Kill Shape" "Plane" modundayken vardır. Oluşturulacak düz yüzeyin oryantasyonu yani yönü, bakış açısı.
+
+* #### Slab Width
+Sadece "Kill Shape" "Slab" modundayken vardır. Oluşturulacak levhanın kalınlıgı.
+
+* #### Slab Axis
+Sadece "Kill Shape" "Slab" modundayken vardır. Oluşturulacak levhanın oryantasyonu yani yönü.
+
+* #### Cone Angle
+Sadece "Kill Shape" "Cone" modundayken vardır. Koninin uç/dış açısı, yani büyüklügü.
+
+* #### Cone Axis
+Sadece "Kill Shape" "Cone" modundayken vardır. Koninin oryantasyonu yani yönü.
+
+* #### Cone Length
+Sadece "Kill Shape" "Cone" modundayken vardır. Koninin uzunlugu.
+
+* #### Kill Volume Enabled
+Kill Volume'u etkinleştirir/devre dışı bırakır yani parçacıkların yok edilip edilmeyecegini belirler. İsterseniz buraya parametre falan baglayabilirsiniz.
+
+* #### Invert Volume
+Aktifleştirildiginde volume'ün içindeki parçacıklar degil de dışındaki parçacıklar yok edilir, yani volume'ü tersine çevirir.
+
+* #### Volume Origin
+Volume'ün orijin noktası yani konumu.
+
+* #### Origin Offset
+Volume'ün orijin noktası yani konumuna offset verebilirsiniz.
 
 
 
