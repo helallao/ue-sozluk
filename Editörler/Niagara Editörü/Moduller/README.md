@@ -942,7 +942,7 @@ Saniye başına atılacak tur sayısı.
 bilmiyorum.
 
 * #### Set Particle Position
-bilmiyorum.
+Normalde parçacıkların yeni pozisyon degerleri önceki pozisyon degerinin üzerine yazılır ama isterseniz parçacıkların pozisyon degerlerini degiştirmeden de kullanabilirsiniz. Yani bu ayar [Particles.Position](../Parameters#particlesposition) parametresinin degiştirilip degiştirilmeyecegini belirler. Ayrıca eger isterseniz emitter'ınızın sonraki kısımlarında []() parametresini kullanarak parçacıkların konumlarını alabilirsiniz, yani Rotate Around Point modülü tarafından uygulanan efektten etkilenen konumu, [Particles.Position](../Parameters#particlesposition) parametresine yazılmayan (eger bu ayar açıksa).
 
 * #### Radius
 Çap degeri.
