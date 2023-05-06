@@ -1856,7 +1856,7 @@ Orijin noktasına offset vermenize yarar.
 Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Default Position
-Ne işe yaradıgını bilmiyorum.
+Velocity hesaplanırken parçacıgın konumu da bilinmelidir, bu input modüle parçacıgın konumunu verir.
 
 
 <br>
@@ -1886,10 +1886,10 @@ Ne işe yaradıgını bilmiyorum.
 Koninin yönü.
 
 * #### Cone Angle
-Koninin genişligi (açı)
+Koninin genişligi (açı).
 
 * #### Inner Cone Angle
-Koninin başlangıç noktasındaki genişligi (açı)
+Koninin başlangıç noktasındaki genişligi (açı).
 
 * #### Cone Angle Mode
 Açı degerlerinin türünü degiştirir.
