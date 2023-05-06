@@ -269,9 +269,9 @@ Acceleration Force'unun uygulanacagı [Coordinate Space](../Terimler%20Sözlüg�
 
 ## [Aerodynamic Drag]()
 ## [Apply Initial Forces]()
-## [Curl Noise Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=464)
+## [Curl Noise Force](https://youtu.be/ZViv64_1CBA?list=PLXPlawJCxIVwJeTpoPOa20OcS96a1PkMu&t=1055)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara rastgele yönlere dogru [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara rastgele yönlere dogru [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. Linkteki videoya bakabilirsiniz, görseller ile anlatılmış.
 
 
 * #### Noise Strength
@@ -327,7 +327,7 @@ Sadece "Mask Curl Noise" ayarı açıkken vardır. Default olarak [Particles.Vel
 
 
 
-## [Drag](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=703)
+## [Drag](https://youtu.be/ZViv64_1CBA?list=PLXPlawJCxIVwJeTpoPOa20OcS96a1PkMu&t=703)
 
 ([Particle Update](../Graph#particle-update)) Parçacıkların hızını azaltır (sürekli).
 
@@ -543,7 +543,7 @@ Kaç saniyede bir parçacıkların yönünü degiştirecegini belirler.
 
 
 
-## [Vortex Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1547)
+## [Vortex Force](https://youtu.be/ZViv64_1CBA?list=PLXPlawJCxIVwJeTpoPOa20OcS96a1PkMu&t=501)
 
 ([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Vortex Velocity'e](#vortex-velocity) benzer.
 
