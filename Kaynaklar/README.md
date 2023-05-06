@@ -73,3 +73,4 @@ Burdaki serverlar sadece ünlü olanlar, daha fazla server için [disboard'a](ht
 * [Layered Materials](https://www.youtube.com/watch?v=UZghyZLzRyM) - Material Layers hakkında video
 * [Layered Materials](https://www.youtube.com/watch?v=ViBUxByc4gw) - Material Layers hakkında video
 * [UE4 - VFX](https://www.youtube.com/playlist?list=PLomQNLPOWtzYXU_pRIUVVEV9uY7bjENZ5) - gameDev Outpost kanalının vfx playlisti
+* [Intro to Unreal’s Niagara Particle System](https://www.youtube.com/playlist?list=PLXPlawJCxIVwJeTpoPOa20OcS96a1PkMu) - Unreal Engine niagara sistemini anlatan en iyi playlistlerden biri
