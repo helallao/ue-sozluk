@@ -217,6 +217,21 @@ bilmiyorum.
 * #### [Particles.RotateAroundPoint.VectorFromCenter]()
 [Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
 
+* #### [Particles.ShapeLocation.ShapeBitangent]()
+[Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Particles.ShapeLocation.ShapeNormal]()
+[Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Particles.ShapeLocation.ShapePosition]()
+[Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Particles.ShapeLocation.ShapeTangent]()
+[Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Particles.ShapeLocation.ShapeVector]()
+[Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
+
 * #### [Particles.VectorNoiseInterval]()
 (Degişken) [Vector Noise Force](../Moduller#vector-noise-force) kullanıldıgı zaman oluşturulur. Sıradaki yön degiştirme zamanına kalan süreyi tutar.
 
