@@ -1967,6 +1967,9 @@ Orijin noktası, yani orta nokta.
 * #### Vortex Axis Coordinate Space
 Girdabın yönünün uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
+* #### Delta Time
+bilmiyorum.
+
 * #### Influence Falloff Exponent
 "Influence Falloff Radius" seçenegini açtıgınızda gelir. "Influence Falloff Radius" degeri için katsayıdır, yani degeri bu sayı ile katlar, gereksiz.
 
