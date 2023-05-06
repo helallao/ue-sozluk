@@ -19,6 +19,7 @@ Burası niagara editörü hakkında kaynakları barındıran bölümdür, içeri
 * [Style Guide](https://github.com/Allar/ue5-style-guide/tree/v2) - Unreal engine convention (gelenek) leri ile ilgili bir kaynak, düzen ve dizayn ile ilgili, isimlendirmeler falan
 
 ## Youtube
+* [Intro to Unreal’s Niagara Particle System](https://www.youtube.com/playlist?list=PLXPlawJCxIVwJeTpoPOa20OcS96a1PkMu) - Unreal Engine niagara sistemini anlatan en iyi playlistlerden biri
 * [All Is Play](https://www.youtube.com/@AllIsPlay/videos) - Unreal Engine niagara hakkında videolar var
 * [CGHOW](https://www.youtube.com/@cghow/videos) - Unreal Engine niagara hakkında, niagara için [tutorial playlisti](https://www.youtube.com/watch?v=ivfdCviqS9Y&list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV) var
 * [PrismaticaDev](https://www.youtube.com/@PrismaticaDev/videos) - Unreal Engine materyaller ve niagara hakkında
