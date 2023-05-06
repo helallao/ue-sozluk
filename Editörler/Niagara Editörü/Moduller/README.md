@@ -1923,7 +1923,7 @@ En fazla bu hız degerini alabilir, bundan fazla olan hız degerleri yerine bu d
 Minimum hız degerini belirtir. Eger hız degeri bu degerin altındaysa parçacıga hiç hız uygulamaz. Yani en az bu deger kadar hızlı olmak gerek, yoksa "Inherit Velocity" çalışmaz.
 
 * #### Velocity Source
-parametre
+Inherit edilecek velocity kaynagı. Defaul olarak [Engine.Owner.Velocity](../Parameters#engineownervelocity) parametresine baglıdır.
 
 
 
