@@ -184,11 +184,14 @@ bilmiyorum.
 * #### [Particles.Color]()
 (Durumsal) Parçacıgın renk degeri.
 
+* #### [Particles.ID]()
+(Sabit) Emitter'ın [Requires Persistent IDs](../Graph#requires-persistent-ids) ayarı açık iken her parçacıga id verilir ve bu id "Particles.ID" parametresinde tutulur.
+
 * #### [Particles.Initial.Color]()
 (Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, Initialize Particle'ın [Color](../Moduller#color-3) degerine baglıdır da denebilir.
 
-* #### [Particles.ID]()
-(Sabit) Emitter'ın [Requires Persistent IDs](../Graph#requires-persistent-ids) ayarı açık iken her parçacıga id verilir ve bu id "Particles.ID" parametresinde tutulur.
+* #### [Particles.Initial.Velocity]()
+bilmiyorum.
 
 * #### [Particles.JitterDelayTimer]()
 (Degişken) [Jitter Position](../Moduller#jitter-position) kullanıldıgı zaman oluşturulur. Eger [Jitter Delay](../Moduller#jitter-delay) inputuna deger verilmişse, bir sonraki jitter'ın çagırılmasına kalan süreyi verir.
