@@ -1602,18 +1602,24 @@ Bu ayar hakkında [şöyle](https://www.youtube.com/watch?v=cC9HvMahNf4) bir vid
 bilmiyorum.
 
 * #### Alignment
-Parçacıkların duruş şeklini belirler, yani mesela verdiginiz materyalde bir ok var, eger duruşu 90 derece olursa ok saga bakar. 3 modu vardır,
+Parçacıkların duruş şeklini belirler (rotasyon), yani mesela verdiginiz materyalde bir ok var, eger duruşu 90 derece olursa ok saga bakar. 3 modu vardır,
 <br>
 <br>
-Unaligned = Bu moddayken "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz.
+Unaligned = Bu moddayken sadece "Particle.SpriteRotation" parametresi ile "Facing Mode" ayarı alignment'ı etkileyebilir.
 <br>
 Velocity Aligned = [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre alignment'ı belirler, yani parçacıgın gittigi yöne dogru.
 <br>
-Custom Alignment = Bilmiyorum.
+Custom Alignment = Bu moddayken "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz.
 
 * #### Facing Mode
-Bilmiyorum.
+Parçacıkların bakış yönünü belirler.
+<br>
+<br>
+Face Camera = Parçacıklar kameranın konumuna dogru döndürülür.
+<br>
+Face Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
 
+<img src="../../../Dosyalar/Niagara_Editor_Parameters_Read.jpg">
 
 
 
