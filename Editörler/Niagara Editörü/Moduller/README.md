@@ -1602,7 +1602,18 @@ Bu ayar hakkında [şöyle](https://www.youtube.com/watch?v=cC9HvMahNf4) bir vid
 bilmiyorum.
 
 * #### Alignment
-bilmiyorum.
+Parçacıkların dönük olacagı yönü belirler. 3 modu vardır,
+<br>
+<br>
+Unaligned = Bu moddayken sadece "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ve Facing Mode ayarı parçacıkların yönünü etkileyebilir.
+<br>
+Velocity Aligned = [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre yönü belirler, yani parçacıgın gittigi yöne dogru.
+<br>
+Custom Alignment = Bilmiyorum.
+
+* #### Facing Mode
+Bilmiyorum.
+
 
 
 
