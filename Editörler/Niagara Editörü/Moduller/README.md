@@ -1619,7 +1619,7 @@ Face Camera = Parçacıklar kameranın konumuna dogru döndürülür.
 <br>
 Face Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
 
-<img src="../../../Dosyalar/Niagara_Editor_Parameters_Read.jpg">
+<img src="../../../Dosyalar/Orthographic_Perspective.jpg">
 
 
 
