@@ -1621,7 +1621,10 @@ Face Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kamer
 <br>
 Custom Facing Vector = Bu moddayken "Particle.SpriteFacing" parametresi (sanırım kendiniz oluşturmalısınız) ile parçacıkların baktıgı yönü ayarlayabilirsiniz.
 <br>
-Free Camera Position = 
+Face Camera Position = Bunun ne oldugunu bilmiyorum, "Face Camera" ile aynı çalışıyor ama tek farkı yukarıdan baktıgınızda (yani z ekseninin artı yönünden), "Face Camera" ya göre daha dogru sonuçlar döndürüyor.
+<br>
+Face Camera Distance Blend = Bu mod "Face Camera" ile "Face Camera Position" modlarını blend eder yani birleştirir.
+
 
 <img width=500 src="../../../Dosyalar/Orthographic_Perspective.jpg">
 
