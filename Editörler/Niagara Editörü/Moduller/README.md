@@ -1588,8 +1588,21 @@ Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-wor
 ([Render](../Graph#render))
 
 ## [Sprite Renderer]()
-([Render](../Graph#render))
 
+([Render](../Graph#render)) Sprite Renderer en çok kullanılan renderer'dır. Sprite Renderer, verilen materyali sürekli kameranıza dönük olacak şekilde (camera-aligned) parçacıkların üzerine koyar. Parçacıklara baktıgınız zaman bu materyali görürsünüz.
+
+
+* #### Material
+Sprite Renderer'ın kullanacagı materyal.
+
+* #### Source Mode
+Bu ayar hakkında [şöyle](https://www.youtube.com/watch?v=cC9HvMahNf4) bir video var, videodan çok daha kapsamlı açıklamalara ulaşabilirsiniz. Bu ayar şu işe yarar, default olarak "Particles" modundadır ve parçacık spawn eder yani normal bildigimiz şekilde çalışır ama "Emitter" modundayken hiç parçacık spawn etmez, Emitter'ın [Particle Spawn](../Graph#particle-spawn) ve [Particle Update](../Graph#particle-update) kategorilerini devre dışı bırakır. Sadece tek bir parçacık oluşturur (ama aslında parçacık olarak sayılmıyor) ve bu parçacıgı Emitter'ın [Emitter Spawn](../Graph#emitter-spawn) ve [Emitter Update](../Graph#emitter-update) kategorileri aracılıgı ile kontrol edersiniz. Yani bu ayar tek bir parçacık spawn etmenize yarar, performans bakımından gerekli oldugu durumlarda kullanılabilir.
+
+* #### Material User Param Binding
+bilmiyorum.
+
+* #### Alignment
+bilmiyorum.
 
 
 
