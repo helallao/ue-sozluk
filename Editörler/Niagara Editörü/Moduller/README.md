@@ -1602,12 +1602,12 @@ Bu ayar hakkında [şöyle](https://www.youtube.com/watch?v=cC9HvMahNf4) bir vid
 bilmiyorum.
 
 * #### Alignment
-Parçacıkların dönük olacagı yönü belirler. 3 modu vardır,
+Parçacıkların duruş şeklini belirler, yani mesela verdiginiz materyalde bir ok var, eger duruşu 90 derece olursa ok saga bakar. 3 modu vardır,
 <br>
 <br>
-Unaligned = Bu moddayken sadece "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ve Facing Mode ayarı parçacıkların yönünü etkileyebilir.
+Unaligned = Bu moddayken "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz.
 <br>
-Velocity Aligned = [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre yönü belirler, yani parçacıgın gittigi yöne dogru.
+Velocity Aligned = [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre alignment'ı belirler, yani parçacıgın gittigi yöne dogru.
 <br>
 Custom Alignment = Bilmiyorum.
 
