@@ -1618,6 +1618,10 @@ Parçacıkların bakış yönünü belirler.
 Face Camera = Parçacıklar kameranın konumuna dogru döndürülür.
 <br>
 Face Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
+<br>
+Custom Facing Vector = Bu moddayken "Particle.SpriteFacing" parametresi (sanırım kendiniz oluşturmalısınız) ile parçacıkların baktıgı yönü ayarlayabilirsiniz.
+<br>
+Free Camera Position = 
 
 <img width=500 src="../../../Dosyalar/Orthographic_Perspective.jpg">
 
