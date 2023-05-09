@@ -1635,6 +1635,14 @@ Materyalin parçacıga göre orta noktasını ayarlar, bu şu anlama geliyor, de
 * #### Macro UVRadius
 Bu ayar default olarak 0'dır. 0 olması, hiç tiling olmayacagı ve dünya pozisyonuna baglı olacagı anlamına gelir (aynı materyallerdeki [WorldPosition](../../Materyal%20Editörü/Nodlar#worldposition-) gibi). Eger bu ayara 0 dışında bir deger verirseniz, verdiginiz degeri dünya üzerinde birim sayısı (cm) olarak alacak ve sprite renderer için kullandıgınız materyalin [ParticleMacroUV](../../Materyal%20Editörü/Nodlar#particlemacrouv) nodu verdiginiz degere göre tile olan bir [UV](../../Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri döndürecek. Şimdi kafanız karışmış olabilir, açıklayayım. [ParticleMacroUV](../../Materyal%20Editörü/Nodlar#particlemacrouv) nodu, sprite renderer kullanırken, materyalimizi hazırlarken kullanacagımız [UV](../../Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini verir. Macro UVRadius ayarı ise bu [UV](../../Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degerini ayarlamamıza yarar. 0 iken, hiç tiling olmayacagı ve dünya pozisyonuna baglı olacagı anlamına gelir (aynı materyallerdeki [WorldPosition](../../Materyal%20Editörü/Nodlar#worldposition-) gibi). Deger verdiginizde ise verdiginiz degeri dünya üzerinde birim sayısı (cm) olarak alır. Yani mesela parçacıgın sprite boyutu 200 ise, materyalimizin de dünya üzerinde 200 cm uzunlugunda bir alan kaplayacagı anlamına gelir. Eger Macro UVRadius ayarına 100 degerini verirseniz, iki kere tiling olur. Bütün bunları [ParticleMacroUV](../../Materyal%20Editörü/Nodlar#particlemacrouv) nodu kullanılmış bir materyali kullanarak ve bu degerleri degiştirerek test edebilirsiniz.
 
+* #### Remove HMD Roll
+bilmiyorum.
+
+* #### Pixel Coverage Mode
+bilmiyorum.
+
+
+
 
 
 # Ribbon
