@@ -1602,7 +1602,7 @@ Bu ayar hakkında [şöyle](https://www.youtube.com/watch?v=cC9HvMahNf4) bir vid
 bilmiyorum.
 
 * #### Alignment
-Parçacıkların duruş şeklini belirler (rotasyon), yani mesela verdiginiz materyalde bir ok var, eger duruşu 90 derece olursa ok saga bakar. 3 modu vardır,
+Parçacıkların duruş şeklini belirler (rotasyon), yani mesela verdiginiz materyalde bir ok var, eger duruşu 90 derece olursa ok saga bakar. [Bu videoya](https://youtu.be/EIP6mg8V5YU?t=371) da bakabilirsiniz. 3 modu vardır,
 <br>
 <br>
 Unaligned = Bu moddayken sadece "Particle.SpriteRotation" parametresi ile "Facing Mode" ayarı alignment'ı etkileyebilir.
@@ -1612,7 +1612,7 @@ Velocity Aligned = [Particles.Velocity](../Parameters#particlesvelocity) paramet
 Custom Alignment = Bu moddayken "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz.
 
 * #### Facing Mode
-Parçacıkların bakış yönünü belirler.
+Parçacıkların bakış yönünü belirler. [Bu videoya](https://youtu.be/EIP6mg8V5YU?t=528) da bakabilirsiniz. 5 modu vardır,
 <br>
 <br>
 Face Camera = Parçacıklar kameranın konumuna dogru döndürülür.
@@ -1628,6 +1628,9 @@ Face Camera Distance Blend = Bu mod "Face Camera" ile "Face Camera Position" mod
 
 <img width=500 src="../../../Dosyalar/Orthographic_Perspective.jpg">
 
+
+* #### Default Pivot in UV Space
+Materyalin parçacıga göre orta noktasını ayarlar, bu şu anlama geliyor, default olarak 0.5, 0.5 geliyor yani orta nokta materyalin tam ortasına geliyor, ama eger (0,0) vermiş olsaydık sol üst köşeyi materyalin orta noktası olarak alırdı. Yani X ve Y, eksenlerin kordinatını temsil ediyor, 0 derseniz o eksenin başlangıcı, 1 derseniz o eksenin sonu, sizin ayarladıgınız kordinatı materyalin orta noktası olarak alır.
 
 
 
