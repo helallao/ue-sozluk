@@ -1641,6 +1641,41 @@ bilmiyorum.
 * #### Pixel Coverage Mode
 bilmiyorum.
 
+* #### Pixel Coverage Blend
+bilmiyorum.
+
+* #### Min Facing Camera Blend Distance
+bilmiyorum.
+
+* #### Max Facing Camera Blend Distance
+bilmiyorum.
+
+* #### Gpu Translucent Latency
+bilmiyorum.
+
+* #### Sort Mode
+Parçacıkların render edilme sırasını belirler. 5 modu vardır,
+<br>
+<br>
+None = Sırasız.
+<br>
+View Depth = bilmiyorum.
+<br>
+View Distance = Parçacıkların kameraya olan uzaklık sırasına göre render eder.
+<br>
+Custom Ascending = bilmiyorum.
+<br>
+Custom Descending = bilmiyorum.
+
+* #### Sort Only when Translucent
+Aktifleştirildiginde sadece saydam materyal kullanıldıgında sort işlemi uygular.
+
+* #### Sort Precision
+bilmiyorum.
+
+
+
+
 
 
 
