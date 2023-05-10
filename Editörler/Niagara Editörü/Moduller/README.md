@@ -1941,6 +1941,42 @@ bilmiyorum.
 
 
 
+<br>
+<br>
+
+## Infinite Loop
+Düz şekilde animasyonu sonsuza kadar oynatır.
+
+* #### Random Start Frame
+Aktifleştirildiginde rastgele bir frame'den başlar.
+
+* #### Start Frame Offset
+Start Frame'e offset verebilirsiniz (artı-eksi).
+
+* #### Start Time Offset
+Animasyonu süre bazlı olarak ileri alır, yani verdiginiz saniyeden başlar.
+
+* #### Playback Mode
+İki modu vardır, "Loops Per Second" ve "Frames Per Second". "Loops Per Second" ile saniye başına animasyonun kaç defa tekrarlayacagını belirlersiniz. "Frames Per Second" ile saniye başına kaç tane frame oynatılacagını belirlersiniz.
+
+* #### Play Rate
+Sadece "Playback Mode" "Loops Per Second" modundayken vardır. Saniye başına animasyonun kaç defa tekrarlayacagını belirlersiniz.
+
+* #### Frames Per Second
+Sadece "Playback Mode" "Frames Per Second" modundayken vardır. Saniye başına kaç tane frame oynatılacagını belirlersiniz.
+
+* #### Playback Time
+Ne işe yaradıgını bilmiyorum.
+
+* #### Playback Scale Curve
+Curve aracılıgı ile hız degerini ayarlarsınız. "Playback Mode" "Loops Per Second" modundayken saniye başına animasyonun kaç defa tekrarlayacagını, "Playback Mode" "Frames Per Second" modundayken saniye başına kaç tane frame oynatılacagını belirtirsiniz.
+
+* #### Playback Scale Curve Index
+Curve için kullanılacak index numarası, default olarak [Particles.NormalizedAge](../Parameters#particlesnormalizedage) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
+
+* #### Loop Range Boundary
+bilmiyorum.
+
 
 
 
