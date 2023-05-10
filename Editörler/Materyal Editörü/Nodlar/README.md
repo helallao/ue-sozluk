@@ -2736,8 +2736,8 @@ The Particle Size expression outputs the X and Y size of a particle sprite. This
 * #### [ParticleSpeed]()
 ParticleSpeed outputs the current speed each particle is traveling, measured in Unreal units per second.
 
-* #### [ParticleSubUV]()
-The ParticleSubUV expression is used to render sub-images of a texture to a particle. ParticleSubUV is similar to a flipbook, except that ParticleSubUV allows the texture animation to be manipulated in Cascade.
+* #### [ParticleSubUV](https://www.youtube.com/watch?v=nZDW3GyOxwk)
+Bu node [parçacık sistemi](../Terimler%20Sözlügü#niagara-nodları) nodudur. [Sub UVAnimation](../../Niagara%20Editörü/Moduller#sub-uvanimation) kullanabilmemiz için materyalimizdeki texture (sprite sheet) bu node ile oluşturulmuş olmalıdır. İsterseniz linkteki video'ya bakabilirsiniz.
 
 * #### [ParticleSubUVProperties]()
 
