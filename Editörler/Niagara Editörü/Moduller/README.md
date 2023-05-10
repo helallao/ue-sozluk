@@ -1677,7 +1677,7 @@ bilmiyorum.
 Parçacıklarınızın materyalinde [Sprite Sheet](../../Materyal%20Editörü/Terimler%20Sözlügü#sprite-sheet) kullanmanıza yarar. Bu inputa kullandıgınız Sprite Sheet'in X ve Y eksenindeki frame sayısını vermelisiniz. Materyal olarak Sprite Sheet kullanımı hakkında [bu video'ya](https://www.youtube.com/watch?v=nZDW3GyOxwk) bakabilirsiniz.
 
 * #### Sub UV Blending Enabled
-bilmiyorum.
+Aktifleştirildiginde SubUV (Sprite Sheet) kullanırken frame'ler arasında yumuşak bir geçiş efekti verir.
 
 
 
@@ -1847,7 +1847,7 @@ Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yar
 Sadece "Define SubUV Setup Manually" "Manual" modundayken vardır. Manuel olarak SubUV texture'unun (Sprite Sheet) kaç frame'den oluştugunu ayarlayabilirsiniz (satır-sütun).
 
 * #### Is SubUV Blending Enabled On Renderer
-Sadece "Define SubUV Setup Manually" "Manual" modundayken vardır.
+Sadece "Define SubUV Setup Manually" "Manual" modundayken vardır. Kullandıgınız renderer'da "SubUV Blending" ayarını açıp açmadıgınızı soruyor, bu ayarın ne işe yaradıgını bilmiyorum.
 
 * #### SubUV Animation Mode
 Modları kategorilere ayırıp aşagıda anlattım.
@@ -1873,12 +1873,50 @@ Sadece "Renderer Type" "Mesh" modundayken vardır. Bilgilerin (satır-sütun say
 <br>
 
 ## Linear
-bilmiyorum
+Bilmiyorum.
+
+* #### Random Start Frame
+Aktifleştirildiginde rastgele bir frame'den başlar.
+
+* #### Start Frame Offset
+Start Frame'e offset verebilirsiniz (artı-eksi).
+
+* #### SubUV Lookup Index
+Hangi frame'in gösterilecegini belirleyen sayı.
+
+* #### SubUV Lookup Index Scale
+"SubUV Lookup Index" için kullanılacak scale degeri, yani bu sayı animasyonun bitiş sayısını belirliyor. Meseal default olarak "SubUV Lookup Index" inputu [Particles.NormalizedAge](../Parameters#particlesnormalizedage) parametresine baglıdır, dolayısıyla "SubUV Lookup Index Scale" degeri 1'dir. Eger "SubUV Lookup Index" inputuna başka bir parametre baglar ve ya başka bir şekilde sayı verirseniz, muhtemelen "SubUV Lookup Index Scale" degerini de degiştirmeniz gerekecek.
+
+
+
+<br>
+<br>
+
+## Curve
+Curve aracılıgı ile frame'leri belirlersiniz.
+
+* #### Random Start Frame
+Aktifleştirildiginde rastgele bir frame'den başlar.
+
+* #### Start Frame Offset
+Start Frame'e offset verebilirsiniz (artı-eksi).
+
+* #### SubUV Curve
+Curve aracılıgı ile frame'leri belirlersiniz.
+
+* #### SubUV Curve Index
+Hangi frame'in gösterilecegini belirleyen sayı. Bu sayı curve için kullanılacak.
+
+
+
+<br>
+<br>
+
+## Random
+bilmiyorum.
 
 * #### a
 b
-
-
 
 
 
