@@ -1838,7 +1838,45 @@ Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yar
 
 # SubUV
 
-## [Sub UVAnimation]()
+## [Sub UVAnimation](https://www.youtube.com/watch?v=nZDW3GyOxwk)
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Sprite Renderer kullanırken, materyalinizde kullandıgınız SubUV texture'unun (Sprite Sheet) animasyonunu oluşturur. Linkteki videoyu izleyin.
+
+
+* #### Manual SubImage Size
+Sadece "Define SubUV Setup Manually" "Manual" modundayken vardır. Manuel olarak SubUV texture'unun (Sprite Sheet) kaç frame'den oluştugunu ayarlayabilirsiniz (satır-sütun).
+
+* #### Is SubUV Blending Enabled On Renderer
+Sadece "Define SubUV Setup Manually" "Manual" modundayken vardır.
+
+* #### SubUV Animation Mode
+Modları kategorilere ayırıp aşagıda anlattım.
+
+* #### Start Frame Range Override
+bilmiyorum.
+
+* #### End Frame Range Override
+bilmiyorum.
+
+* #### Renderer Type
+Sadece "Define SubUV Setup Manually" "Automatic (From Renderer Sublmage Size" modundayken vardır.
+
+* #### Sprite Renderer
+Sadece "Renderer Type" "Sprite" modundayken vardır.
+
+* #### Mesh Renderer
+Sadece "Renderer Type" "Mesh" modundayken vardır.
+
+
+
+
+<br>
+
+## Linear
+bilmiyorum
+
+* #### a
+b
 
 
 
