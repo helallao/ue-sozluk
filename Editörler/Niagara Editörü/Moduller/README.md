@@ -1853,19 +1853,19 @@ Sadece "Define SubUV Setup Manually" "Manual" modundayken vardır.
 Modları kategorilere ayırıp aşagıda anlattım.
 
 * #### Start Frame Range Override
-bilmiyorum.
+Start Frame'i belirlemenize yarar.
 
 * #### End Frame Range Override
-bilmiyorum.
+End Frame'i belirlemenize yarar. Buraya yazacagınız sayıyı 1 azaltın çünkü frame'ler 0'dan başladıgı için son sayıyı 1 eksiltmeliyiz. Mesela 16 frame'den oluşan bir animasyon için buraya 15 yazmalıyız.
 
 * #### Renderer Type
-Sadece "Define SubUV Setup Manually" "Automatic (From Renderer Sublmage Size" modundayken vardır.
+Sadece "Define SubUV Setup Manually" "Automatic (From Renderer Sublmage Size" modundayken vardır. Automatic modunda, verdiginiz renderer modülündeki bilgiler kullanılır (satır-sütun sayısı). Renderer'ın ayarlarında "SubUV" bölümünden bunları ayarlayabilirsiniz. İki tür renderer kullanabilirsiniz, sprite ve mesh.
 
 * #### Sprite Renderer
-Sadece "Renderer Type" "Sprite" modundayken vardır.
+Sadece "Renderer Type" "Sprite" modundayken vardır. Bilgilerin (satır-sütun sayısı) alınacagı Sprite Renderer'ı buradan seçersiniz.
 
 * #### Mesh Renderer
-Sadece "Renderer Type" "Mesh" modundayken vardır.
+Sadece "Renderer Type" "Mesh" modundayken vardır. Bilgilerin (satır-sütun sayısı) alınacagı Mesh Renderer'ı buradan seçersiniz.
 
 
 
