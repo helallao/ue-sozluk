@@ -1673,6 +1673,14 @@ Aktifleştirildiginde sadece saydam materyal kullanıldıgında sort işlemi uyg
 * #### Sort Precision
 bilmiyorum.
 
+* #### Sub Image Size
+Parçacıklarınızın materyalinde [Sprite Sheet](../../Materyal%20Editörü/Terimler%20Sözlügü#sprite-sheet) kullanmanıza yarar. Bu inputa kullandıgınız Sprite Sheet'in X ve Y eksenindeki frame sayısını vermelisiniz. Materyal olarak Sprite Sheet kullanımı hakkında [bu video'ya](https://www.youtube.com/watch?v=nZDW3GyOxwk) bakabilirsiniz.
+
+* #### Sub UV Blending Enabled
+bilmiyorum.
+
+
+
 
 
 
