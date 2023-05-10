@@ -39,6 +39,8 @@ Normal | Normal, N, Nor_GL, Nor_DX
 Ambient Occlusion | AO, O
 Displacement | D, DP
 
+## Niagara Nodları
+Materyaller içerisinide parçacık sistemi (niagara) ile ilgili nodlar vardır. Bu nodlar parçacıkları yönetebilmemiz içindir. Eger materyalimizi niagara sisteminde kullanacaksak materyal içerisindeki niagara nodlarını kullanmamız gerekir.
 
 ## Sprite Sheet
 Sprite Sheet yapacagınız animasyonda olan bütün resimleri (frame) tek bir resim dosyasına tablo halinde parçalara bölüp koydugunuz teknik/yöntem dir. Bu yöntemle animasyondaki resimleri tek bir dosyada toplamış olursunuz. Sprite Sheet destekleyen yazılım resimleri bölme ve oynatma işlemini yapar. Aşagıdaki resim bir Sprite Sheet örnegi.
