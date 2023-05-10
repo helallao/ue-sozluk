@@ -1867,13 +1867,15 @@ Sadece "Renderer Type" "Sprite" modundayken vardır. Bilgilerin (satır-sütun s
 * #### Mesh Renderer
 Sadece "Renderer Type" "Mesh" modundayken vardır. Bilgilerin (satır-sütun sayısı) alınacagı Mesh Renderer'ı buradan seçersiniz.
 
+* #### Output Alternate Renderer Binding
+bilmiyorum.
 
 
 
 <br>
 
 ## Linear
-Bilmiyorum.
+Düz şekilde animasyonu oynatır.
 
 * #### Random Start Frame
 Aktifleştirildiginde rastgele bir frame'den başlar.
@@ -1913,10 +1915,33 @@ Hangi frame'in gösterilecegini belirleyen sayı. Bu sayı curve için kullanıl
 <br>
 
 ## Random
+Rastgele şekilde animasyonu oynatır.
+
+* #### Evaluation Type
+İki modu vardır, "Every Frame" modundayken rastgele frame degiştirir. "Spawn Only" modundayken sadece spawn eder ama spawn ettigi frame rasgele seçilir.
+
+* #### Random Change Interval
+Sadece "Evaluation Type" "Every Frame" modundayken vardır. Frame'in kaç saniyede bir degişecegini ayarlar.
+
+* #### Random Change Interval Time
+Sadece "Evaluation Type" "Every Frame" modundayken vardır. Ne işe yaradıgını bilmiyorum.
+
+* #### Randomness Mode
+"Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
+
+* #### Override Seed
+"Random Seed" kullanımını açar ve seed vermenize yarar.
+
+* #### Random Seed
+Sadece "Override Seed" ayarı açıkken vardır. Seed numarası.
+
+* #### Fixed Random Seed
 bilmiyorum.
 
-* #### a
-b
+
+
+
+
 
 
 
