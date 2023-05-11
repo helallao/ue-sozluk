@@ -1980,6 +1980,24 @@ bilmiyorum.
 
 
 
+<br>
+<br>
+
+## Direct Index
+İstediginiz frame'i seçersiniz.
+
+* #### Direct Frame Index
+Gösterilecek frame'in sırası.
+
+* #### X Coordinate
+Sadece "Index By X/Y Coordinate" ayarı açıkken vardır. "Index By X/Y Coordinate" ayarı X ve Y eksenlerindeki numarasına göre frame seçebilmemize yarar.
+
+* #### Y Coordinate
+Sadece "Index By X/Y Coordinate" ayarı açıkken vardır. "Index By X/Y Coordinate" ayarı X ve Y eksenlerindeki numarasına göre frame seçebilmemize yarar.
+
+
+
+
 
 
 
