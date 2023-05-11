@@ -1749,6 +1749,23 @@ Buradan kullandıgınız materyaldeki parametreleri ayarlayabilirsiniz.
 * #### Renderer Enabled Binding
 Burdan "Sprite Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametresine baglayabilirsiniz. "Sprite Renderer" bu parametreye göre çalışır/çalışmaz.
 
+* #### Use Material Cutout Texture
+bilmiyorum.
+
+* #### Cutout Texture
+bilmiyorum.
+
+* #### Bounding Mode
+bilmiyorum.
+
+* #### Opacity Source Mode
+bilmiyorum.
+
+* #### Alpha Threshold
+bilmiyorum.
+
+
+
 
 
 
