@@ -1679,8 +1679,75 @@ Parçacıklarınızın materyalinde [Sprite Sheet](../../Materyal%20Editörü/Te
 * #### Sub UV Blending Enabled
 Aktifleştirildiginde SubUV (Sprite Sheet) kullanırken frame'ler arasında yumuşak bir geçiş efekti verir.
 
+* #### Enable Camera Distance Culling
+Aktifleştirildiginde "Distance Culling" yapabilirsiniz. Yani parçacık ile kamera arasındaki mesafe "Min Camera Distance" inputuna verdiginiz deger ile "Max Camera Distance" inputuna verdiginiz deger arasında iken parçacık görünebilir, ama bu degerlerden az ve ya fazla ise görünmez.
+
+* #### Min Camera Distance
+"Distance Culling" ayarı için minimum mesafe degeri, eger parçacık kameraya bu degerden daha fazla yakınsa yani mesafe bu degerden az ise parçacık görünmez.
+
+* #### Max Camera Distance
+"Distance Culling" ayarı için maximum mesafe degeri, eger parçacık kameraya bu degerden daha fazla uzaksa yani mesafe bu degerden fazla ise parçacık görünmez.
+
+* #### Renderer Visibility
+bilmiyorum.
 
 
+
+### Bindings
+
+Bindings kategorisindeki ayarlar parçacık hakkındaki bilgilerin hangi parametre üzerine yazılacagını belirler.
+
+
+* #### Position Binding
+Parçacık pozisyonunun yazılacagı parametre.
+
+* #### Color Binding
+Parçacık renginin yazılacagı parametre.
+
+* #### Velocity Binding
+Parçacık hızının yazılacagı parametre.
+
+* #### Sprite Rotation Binding
+Parçacık materyalinin rotasyonunun yazılacagı parametre.
+
+* #### Sprite Size Binding
+Parçacık boyutunun yazılacagı parametre.
+
+* #### Sprite Facing Binding
+Parçacık yönünün, bakış açısının yazılacagı parametre.
+
+* #### Sprite Alignment Binding
+Parçacık materyalinin rotasyonunun yazılacagı parametre.
+
+* #### Sub Image Index Binding
+
+* #### Dynamic Material Binding
+
+* #### Dynamic Material 1Binding
+
+* #### Dynamic Material 2Binding
+
+* #### Dynamic Material 3Binding
+
+* #### Camera Offset Binding
+
+* #### UVScale Binding
+
+* #### Pivot Offset Binding
+
+* #### Material Random Binding
+
+* #### Custom Sorting Binding
+
+* #### Normalized Age Binding
+
+* #### Renderer Visibility Tag Binding
+
+* #### Material Parameters
+Buradan kullandıgınız materyaldeki parametreleri ayarlayabilirsiniz.
+
+* #### Renderer Enabled Binding
+Burdan "Sprite Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametresine baglayabilirsiniz. "Sprite Renderer" bu parametreye göre çalışır/çalışmaz.
 
 
 
