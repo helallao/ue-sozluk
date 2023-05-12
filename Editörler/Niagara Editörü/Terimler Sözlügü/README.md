@@ -8,6 +8,11 @@ Velocity parçacıgın üzerindeki hız degerini ifade ederken, force çekim/iti
 Bunun hakkında [şöyle](https://youtu.be/KEJx7ZX25gY) bi video var, isterseniz onu da izleyebilirsiniz. Local ve World arasında 2 fark vardır, World space kullanılırken eger level editörünüzde niagara objesini hareket ettirirseniz spawn olmuş parçacıklar da niagara objesi ile beraber hareket etmez yani spawn olduktan sonra niagara objesine baglı degillerdir. Local space kullanırken bunun tam tersi olur, eger niagara objesini hareket ettirirseniz spawn olmuş parçacıklar da niagara objesine baglı olarak hareket eder. Local ve World space arasındaki ikinci fark ise, World space kullanırken niagara objesinin scale (boyut) degerini degiştirseniz bile niagara sistemindeki hiçbir boyut degeri degişmez. Local space kullanırken bunun tam tersi olur, niagara objesinin scale (boyut) degerini istediginiz gibi degiştirebilirsiniz. Ayrıca emitter ayarlarından Coordinate Space seçmek yerine, modüller üzerindeki ayarlardan da seçebilirsiniz. Birçok modülde "Coordinate Space" inputu var ve bunları kullanıp her modül için ayrı ayrı Coordinate Space'ler kullanabilirsiniz. Bunun hakkında bir [video](https://youtu.be/cJYWzyvSaXY).
 
 
+## Rotational Velocity
+
+Rotational Velocity, normal velocity gibi dünya üzerinde hız kazandırmaz. Parçacıgın rotasyonunu degiştiren bir hız kazandırır, yani parçacıgı belirli eksenlerde döndürür.
+
+
 ## SpawnGroup
 
 Çok kullanışlıdır, bir çok modül'de grup numarasına göre işlem yapabiliyorsunuz. Grup numarası vermek sanki id vermek gibi işlev görüyor. Sadece belirli parçacıklar üzerinde işlemler yapabiliyorsunuz. SpawnGroup'u kullanmak için Emitter'ın [Requires Persistent IDs](../Graph#requires-persistent-ids) ayarı açık olmalıdır.
