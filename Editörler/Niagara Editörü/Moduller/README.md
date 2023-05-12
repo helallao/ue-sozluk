@@ -1582,10 +1582,48 @@ Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-wor
 ([Render](../Graph#render))
 
 ## [Mesh Renderer]()
-([Render](../Graph#render))
+
+([Render](../Graph#render)) Mesh Renderer en çok kullanılan 2. renderer'dır. Mesh Renderer, verilen mesh'i parçacıkların üzerine koyar. Parçacıklara baktıgınız zaman bu mesh'i görürsünüz.
+
+
+* #### Meshes
+Mesh Renderer'ın kullanacagı mesh.
+
+* #### Enable Material Overrides
+Bu ayarı açarak mesh'in kullandıgı materyalleri degiştirebilirsiniz.
+
+* #### Override Materials
+Buradan mesh'in kullandıgı materyalleri degiştirebilirsiniz. "Enable Material Overrides" ayarının açık olması gerekir.
+
+* #### Source Mode
+Bu ayar hakkında [şöyle](https://www.youtube.com/watch?v=cC9HvMahNf4) bir video var, videodan çok daha kapsamlı açıklamalara ulaşabilirsiniz. Bu ayar şu işe yarar, default olarak "Particles" modundadır ve parçacık spawn eder yani normal bildigimiz şekilde çalışır ama "Emitter" modundayken hiç parçacık spawn etmez, Emitter'ın [Particle Spawn](../Graph#particle-spawn) ve [Particle Update](../Graph#particle-update) kategorilerini devre dışı bırakır. Sadece tek bir parçacık oluşturur (ama aslında parçacık olarak sayılmıyor) ve bu parçacıgı Emitter'ın [Emitter Spawn](../Graph#emitter-spawn) ve [Emitter Update](../Graph#emitter-update) kategorileri aracılıgı ile kontrol edersiniz. Yani bu ayar tek bir parçacık spawn etmenize yarar, performans bakımından gerekli oldugu durumlarda kullanılabilir.
+
+* #### Facing Mode
+Parçacıkların bakış yönünü belirler. [Bu videoya](https://youtu.be/EIP6mg8V5YU?t=528) da bakabilirsiniz. 5 modu vardır,
+<br>
+<br>
+Default = Kamerayı boş verir, mesh'i local X eksenine dogru döndürür.
+<br>
+Velocity = [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre yönü belirler, yani parçacıgın gittigi yöne dogru.
+<br>
+Camera Position = Parçacıklar kameranın konumuna dogru döndürülür.
+<br>
+Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
+
+
+<img width=500 src="../../../Dosyalar/Orthographic_Perspective.jpg">
+
+
+* #### Locked Axis Enable
+bilmiyorum.
+
+
 
 ## [Ribbon Renderer]()
 ([Render](../Graph#render))
+
+
+
 
 ## [Sprite Renderer]()
 
