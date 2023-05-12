@@ -1664,7 +1664,20 @@ Aktifleştirildiginde "Distance Culling" yapabilirsiniz. Yani parçacık ile kam
 * #### Renderer Visibility
 bilmiyorum.
 
+* #### Enable Mesh Flipbook
+Bu ayarı açtıgınız anda, verdiginiz ayarlara göre buldugu meshleri "Meshes" bölümüne ekler, yani mesh listesini günceller.
 
+* #### First Flipbook Frame
+Başlangıç olarak alınacak mesh.
+
+* #### Flipbook Suffix Format
+Aranacak meshler için mesh isimlerinin nasıl olacagını belirlersiniz. Aranacak meshler "First Flipbook Frame" inputuna verdiginiz mesh ile aynı klasörde olmalıdır. "{frame_number}" yazan yere frame numarası gelir, verdiginiz suffix "First Flipbook Frame" inputuna verdiginiz mesh'in isminin sonuna eklenerek devam eder. Eger "First Flipbook Frame" inputuna verdiginiz mesh'in isminde bu suffix geçiyorsa, o zaman o mesh'in isminde geçen numarayı başlangıç numarası olarak alır, yoksa 1'den başlar. Şimdi bi örnek vereyim, diyelim ki aynı klasörün altında "Ali", "Ali_01", "Ali_02", "Ali_03" isimlerinde 4 mesh var. "Flipbook Suffix Format" inputuna "\_{frame_number}" vermeliyiz, meshlerimizin numaraları 2 haneli oldugu için "Flipbook Suffix Num Digits" inputuna 2 vermeliyiz, "Num Flipbook Frames" inputuna da 4 vermeliyiz.
+
+* #### Flipbook Suffix Num Digits
+Numaraların kaç haneli olacagını belirler. Mesela bu inputa 1 verdiginizde, "5" sayısı "5" olarak yazılır. Bu inputa 2 verdiginizde, "5" sayısı "05" olarak yazılır. 
+
+* #### Num Flipbook Frames
+Toplam mesh sayısı, "First Flipbook Frame" olarak verdiginiz mesh de dahil.
 
 
 
