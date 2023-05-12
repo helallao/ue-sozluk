@@ -1554,6 +1554,18 @@ Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-wor
 # Physics
 
 ## [Add Rotational Velocity]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) ekler.
+
+
+* #### Rotation Rate
+Saniye başına atılacak tur sayısı.
+
+* #### Coordinate Space
+[Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+
+
 ## [Find Kinetic and Potential Energy]()
 
 
