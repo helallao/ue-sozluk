@@ -1649,6 +1649,21 @@ Aktifleştirildiginde SubUV (Sprite Sheet) kullanırken frame'ler arasında yumu
 * #### Sub Image Size
 Parçacıklarınızın mesh'inin materyalinde [Sprite Sheet](../../Materyal%20Editörü/Terimler%20Sözlügü#sprite-sheet) kullanmanıza yarar. Bu inputa kullandıgınız Sprite Sheet'in X ve Y eksenindeki frame sayısını vermelisiniz. Materyal olarak Sprite Sheet kullanımı hakkında [bu video'ya](https://www.youtube.com/watch?v=nZDW3GyOxwk) bakabilirsiniz.
 
+* #### Enable Frustum Culling
+bilmiyorum.
+
+* #### Enable Camera Distance Culling
+Aktifleştirildiginde "Distance Culling" yapabilirsiniz. Yani parçacık ile kamera arasındaki mesafe "Min Camera Distance" inputuna verdiginiz deger ile "Max Camera Distance" inputuna verdiginiz deger arasında iken parçacık görünebilir, ama bu degerlerden az ve ya fazla ise görünmez.
+
+* #### Min Camera Distance
+"Distance Culling" ayarı için minimum mesafe degeri, eger parçacık kameraya bu degerden daha fazla yakınsa yani mesafe bu degerden az ise parçacık görünmez.
+
+* #### Max Camera Distance
+"Distance Culling" ayarı için maximum mesafe degeri, eger parçacık kameraya bu degerden daha fazla uzaksa yani mesafe bu degerden fazla ise parçacık görünmez.
+
+* #### Renderer Visibility
+bilmiyorum.
+
 
 
 
