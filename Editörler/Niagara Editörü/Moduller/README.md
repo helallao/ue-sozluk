@@ -487,7 +487,7 @@ Hem velocity hem de [force](../Terimler%20Sözlügü#force-ve-velocity) için ge
 Sadece [force etkileri](../Terimler%20Sözlügü#force-ve-velocity) için geçerli olan maximum hızlanma limiti (saniye başına). İsmi "Acceleration Limit" çünkü force etkileri velocity gibi birden uygulanmaz, çekim/itim etkisi gibi zamanla artar, bu yüzden force etkileri için "Acceleration Limit" ismi kullanılmış.
 
 * #### Manually Enable Rotational Solver
-bilmiyorum.
+Eger herhangi bir [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) kullanan modül kullanırsanız "Rotational Solver" otomatikmen açılır. Bu ayar ise size "Rotational Solver" ı manuel olarak açabilme imkanı verir.
 
 
 
