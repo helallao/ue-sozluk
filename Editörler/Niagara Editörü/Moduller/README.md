@@ -1615,7 +1615,42 @@ Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kameranın
 
 
 * #### Locked Axis Enable
+"Locked Axis" ayarını açar.
+
+* #### Locked Axis
+"Facing Mode" ayarı "Default" dışında bir modda iken, parçacıkların bakış yönünü belirli bir yöne ayarlamanıza (kilitlememize) yarar.
+
+* #### Locked Axis Space
+Locked Axis için [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+* #### Sort Mode
+Parçacıkların render edilme sırasını belirler. 5 modu vardır,
+<br>
+<br>
+None = Sırasız.
+<br>
+View Depth = bilmiyorum.
+<br>
+View Distance = Parçacıkların kameraya olan uzaklık sırasına göre render eder.
+<br>
+Custom Ascending = bilmiyorum.
+<br>
+Custom Descending = bilmiyorum.
+
+* #### Sort Only when Translucent
+Aktifleştirildiginde sadece saydam materyal kullanıldıgında sort işlemi uygular.
+
+* #### Sort Precision
 bilmiyorum.
+
+* #### Sub UV Blending Enabled
+Aktifleştirildiginde SubUV (Sprite Sheet) kullanırken frame'ler arasında yumuşak bir geçiş efekti verir.
+
+* #### Sub Image Size
+Parçacıklarınızın mesh'inin materyalinde [Sprite Sheet](../../Materyal%20Editörü/Terimler%20Sözlügü#sprite-sheet) kullanmanıza yarar. Bu inputa kullandıgınız Sprite Sheet'in X ve Y eksenindeki frame sayısını vermelisiniz. Materyal olarak Sprite Sheet kullanımı hakkında [bu video'ya](https://www.youtube.com/watch?v=nZDW3GyOxwk) bakabilirsiniz.
+
+
+
 
 
 
