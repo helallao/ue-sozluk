@@ -1681,6 +1681,55 @@ Toplam mesh sayısı, "First Flipbook Frame" olarak verdiginiz mesh de dahil.
 
 
 
+### Bindings
+
+Bindings kategorisindeki ayarlar parçacık hakkındaki bilgilerin hangi parametre üzerine yazılacagını belirler.
+
+
+* #### Position Binding
+Parçacık pozisyonunun yazılacagı parametre.
+
+* #### Color Binding
+Parçacık renginin yazılacagı parametre.
+
+* #### Velocity Binding
+Parçacık hızının yazılacagı parametre.
+
+* #### Mesh Orientation Binding
+
+* #### Scale Binding
+
+* #### Sub Image Index Binding
+
+* #### Dynamic Material Binding
+
+* #### Dynamic Material 1Binding
+
+* #### Dynamic Material 2Binding
+
+* #### Dynamic Material 3Binding
+
+* #### Material Random Binding
+
+* #### Custom Sorting Binding
+
+* #### Normalized Age Binding
+
+* #### Camera Offset Binding
+
+* #### Renderer Visibility Tag Binding
+
+* #### Mesh Index Binding
+
+* #### Material Parameters
+Buradan kullandıgınız materyaldeki parametreleri ayarlayabilirsiniz.
+
+* #### Renderer Enabled Binding
+Burdan "Mesh Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametresine baglayabilirsiniz. Mesh Renderer bu parametreye göre çalışır/çalışmaz.
+
+
+
+
 
 ## [Ribbon Renderer]()
 ([Render](../Graph#render))
@@ -1848,7 +1897,7 @@ Parçacık materyalinin rotasyonunun yazılacagı parametre.
 Buradan kullandıgınız materyaldeki parametreleri ayarlayabilirsiniz.
 
 * #### Renderer Enabled Binding
-Burdan "Sprite Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametresine baglayabilirsiniz. "Sprite Renderer" bu parametreye göre çalışır/çalışmaz.
+Burdan "Sprite Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametresine baglayabilirsiniz. Sprite Renderer bu parametreye göre çalışır/çalışmaz.
 
 * #### Use Material Cutout Texture
 bilmiyorum.
