@@ -1654,6 +1654,34 @@ Işık için parçacıgın renk degeri kullanılır, eger isterseniz burada dege
 * #### Renderer Visibility
 bilmiyorum.
 
+* #### Inverse Exposure Blend
+bilmiyorum.
+
+
+
+### Bindings
+
+Bindings kategorisindeki ayarlar parçacık hakkındaki bilgilerin hangi parametre üzerine yazılacagını belirler.
+
+
+* #### Renderer Enabled Binding
+Burdan "Light Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametresine baglayabilirsiniz. Light Renderer bu parametreye göre çalışır/çalışmaz.
+
+* #### Light Rendering Enabled Binding
+
+* #### Light Exponent Binding
+
+* #### Position Binding
+
+* #### Color Binding
+
+* #### Radius Binding
+
+* #### Volumetric Scattering Binding
+
+* #### Renderer Visibility Tag Binding
+
+
 
 
 
