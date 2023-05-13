@@ -489,6 +489,42 @@ Sadece [force etkileri](../Terimler%20Sözlügü#force-ve-velocity) için geçer
 * #### Manually Enable Rotational Solver
 Eger herhangi bir [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) kullanan modül kullanırsanız "Rotational Solver" otomatikmen açılır. Bu ayar ise size "Rotational Solver" ı manuel olarak açabilme imkanı verir.
 
+* #### Write to Intrinsic Properties
+Bu ayar açıkken önemli parametreleri (gerekli olanlar, mesela [Particles.Position](../Parameters#particlesposition)) degiştirir/günceller. Dolayısı ile açık olmalıdır, özel bi durum yoksa kapatmayın.
+
+* #### Write to Presolve Properties
+Bu ayar açıkken Presolve parametreleri (Particles.Presolve diye başlayan) degiştirir/günceller. Collision'ları önceden hesaplayabilmek için gereklidir, özel bi durum yoksa kapatmayın.
+
+* #### DeltaTime
+Default olarak [Transient.PhysicsDeltaTime]() parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Mass
+Default olarak [Particles.Mass](../Parameters#particlesmass) parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Position
+Default olarak [Particles.Position](../Parameters#particlesposition) parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Velocity
+Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### PreviousVelocity
+Default olarak [Particles.Previous.Velocity]() parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Force
+Default olarak [Transient.PhysicsForce](../Parameters#transientphysicsforce) parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Mesh Orientation
+Default olarak [Particles.MeshOrientation]() parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Rotational Velocity
+Default olarak [Particles.RotationalVelocity]() parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Rotational Force
+Default olarak [Transient.PhysicsRotationalForce]() parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
+* #### Rotational Inertia
+Default olarak [Particles.RotationalInertia]() parametresine baglıdır. Hesaplamaların yapılması için gereklidir.
+
 
 
 
