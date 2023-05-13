@@ -1633,6 +1633,9 @@ Saniye başına atılacak tur sayısı.
 * #### Use Inverse Squared Falloff
 "Inverse Squared Falloff" kullanılıp kullanılmayacagını belirler. "Inverse Squared Falloff" gerçek dünyadaki ışıga en yakın ışık falloff türüdür, yakındayken çok parlak, uzaklaşıldıgında hızlıca parlaklıgı azalan bir falloff'tur. Bu ayarı kapatırsanız "Light Exponent" kullanılır.
 
+<img src="../../../Dosyalar/Inverse_Square_Falloff.jpg">
+
+
 * #### Affects Translucency
 Aktifleştirildigi zaman, saydam materyaller ışıktan etkilenir, yani renkleri degişir.
 
