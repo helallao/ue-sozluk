@@ -1627,7 +1627,33 @@ Saniye başına atılacak tur sayısı.
 ([Render](../Graph#render))
 
 ## [Light Renderer]()
-([Render](../Graph#render))
+([Render](../Graph#render)) Light Renderer en çok kullanılan 3. renderer'dır. Parçacıkların oldugu konuma ışık koyar, etrafa ışık saçar. Light Renderer'da ışıgı ayarlayan şey parçacıgın renk degeridir, yani emissive gibi.
+
+
+* #### Use Inverse Squared Falloff
+"Inverse Squared Falloff" kullanılıp kullanılmayacagını belirler. "Inverse Squared Falloff" gerçek dünyadaki ışıga en yakın ışık falloff türüdür, yakındayken çok parlak, uzaklaşıldıgında hızlıca parlaklıgı azalan bir falloff'tur. Bu ayarı kapatırsanız "Light Exponent" kullanılır.
+
+* #### Affects Translucency
+Aktifleştirildigi zaman, saydam materyaller ışıktan etkilenir, yani renkleri degişir.
+
+* #### Alpha Scales Brightness
+Aktifleştirildigi zaman, parçacıgın renk degerindeki Alpha degerini parlaklık degeri olarak kullanır.
+
+* #### Radius Scale
+Işıgın etki alanı çapı.
+
+* #### Default Exponent
+bilmiyorum.
+
+* #### Color Add
+Işık için parçacıgın renk degeri kullanılır, eger isterseniz burada degere ekleme/çıkarma yapabilirsiniz.
+
+* #### Renderer Visibility
+bilmiyorum.
+
+
+
+
 
 ## [Mesh Renderer]()
 
