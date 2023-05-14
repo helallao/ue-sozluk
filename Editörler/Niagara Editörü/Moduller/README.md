@@ -379,7 +379,7 @@ Gravity Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local
 
 ## [Inherit Source Movement]()
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Dünya üzerindeki niagara objesinin hareketini parçacıklara aktarır, böylelikle parçacıklar da niagara objesiyle birlikte hareket eder.
+([Particle Update](../Graph#particle-update)) Dünya üzerindeki niagara objesinin hareketini parçacıklara aktarır, böylelikle parçacıklar da niagara objesiyle birlikte hareket eder.
 
 
 * #### Applied Position Scale
