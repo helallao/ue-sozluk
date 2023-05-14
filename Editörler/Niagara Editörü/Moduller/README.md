@@ -389,7 +389,7 @@ Niagara objesinin pozisyonunu parçacıklara uygular, yani parçacıklar niagara
 Sadece "Applied Position Scale" ayarı açıkken vardır. Bu ayar şu işe yarar, normalde parçacıklar dünya üzerindeki niagara objesinin hareketlerini direktmen kopyalarlar (Applied Position Scale'in bütün eksenlerde 1 oldugunu varsayıyorum) yani niagara objesiyle beraber hareket ederler. Bu ayar sayesinde bir falloff alanı belirleyerek, parçacıklara bir nevi uzaklaşabilecekleri alan vermiş olursunuz. Yani mesela bu degeri 1000 yaparsanız, yakındaki parçacıklar daha az, uzaktaki parçacıklar daha çok etkilenirler. Yani bu ayar ile parçacıklara "niagara objesiyle beraber hareket et ama bütün hareketleri de aynen kopyalama" demiş olursunuz ve belirlediginiz uzaklık degeri kadar parçacıklar niagara objesinden uzaklaşabilirler (ve ya niagara objesi hareket ederken, belirlediginiz mesafe kadar onun arkadasında kalabilirler).
 
 * #### Applied Position Falloff Curve
-Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları açıkken vardır.
+Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları açıkken vardır. Bu ayar sayesinde curve aracılıgı ile "Applied Position Falloff Distance" inputuna verdiginiz mesafe içerisinde, parçacıkların niagara objesinin hareketlerinden ne kadar etkilenecegini belirleyebilirsiniz. Oluşturacagınız curve'deki keyler için 0 yakın, 1 uzak anlamına geliyor ve degerler için 0 en az (hareketlerden hiç etkilenme), 1 en çok (hareketlerden tamamen etkilen) etki anlamına geliyor.
 
 
 
