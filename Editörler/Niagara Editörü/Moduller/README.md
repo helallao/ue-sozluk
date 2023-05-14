@@ -269,6 +269,25 @@ Acceleration Force'unun uygulanacagı [Coordinate Space](../Terimler%20Sözlüg�
 
 ## [Aerodynamic Drag]()
 ## [Apply Initial Forces]()
+
+([Particle Spawn](../Graph#particle-spawn)) Bu modül [Solve Forces and Velocity'nin](#solve-forces-and-velocity) [Particle Spawn](../Graph#particle-spawn) kategorisindeki karşılıgıdır, parçacık spawn oldugunda ilk kez velocity'leri uygular.
+
+
+* #### Apply Force to Velocity
+Bu seçenek açıkken [force etkilerini](../Terimler%20Sözlügü#force-ve-velocity) hesaplayıp velocity'ye ekler. Bu ayarı kapatırsanız [force etkileri](../Terimler%20Sözlügü#force-ve-velocity) de çalışmaz.
+
+* #### Apply Rotational Force to Rotational Velocity
+Bu seçenek açıkken [Rotational Force etkilerini](../Terimler%20Sözlügü#rotational-velocity) hesaplayıp Rotational Velocity'ye ekler. Bu ayarı kapatırsanız [Rotational Force etkileri](../Terimler%20Sözlügü#rotational-velocity) de çalışmaz.
+
+* #### Apply Force to Position
+Bu ayar force etkilerini parçacıgın pozisyonuna uygular. Bu şu anlama geliyor, bu ayarı açtıgınız zaman "Positional Force Warmup Time" inputu da açılır ve bu inputa verdiginiz deger'i saniye olarak alıp, force etkilerini bu saniyeden başlatır, yani [force etkisinin](../Terimler%20Sözlügü#force-ve-velocity) zamanını ileri alır.
+
+* #### Positional Force Warmup Time
+Sadece "Apply Force to Position" ayarı açıkken vardır. Force etkilerini bu saniyeden başlatır, yani [force etkisinin](../Terimler%20Sözlügü#force-ve-velocity) zamanını ileri alır.
+
+
+
+
 ## [Curl Noise Force](https://youtu.be/ZViv64_1CBA?list=PLXPlawJCxIVwJeTpoPOa20OcS96a1PkMu&t=1055)
 
 ([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara rastgele yönlere dogru [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. Linkteki videoya bakabilirsiniz, görseller ile anlatılmış.
