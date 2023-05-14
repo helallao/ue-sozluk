@@ -391,6 +391,10 @@ Sadece "Applied Position Scale" ayarı açıkken vardır. Bu ayar şu işe yarar
 * #### Applied Position Falloff Curve
 Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları açıkken vardır. Bu ayar sayesinde curve aracılıgı ile "Applied Position Falloff Distance" inputuna verdiginiz mesafe içerisinde, parçacıkların niagara objesinin hareketlerinden ne kadar etkilenecegini belirleyebilirsiniz. Oluşturacagınız curve'deki keyler için 0 yakın, 1 uzak anlamına geliyor ve degerler için 0 en az (hareketlerden hiç etkilenme), 1 en çok (hareketlerden tamamen etkilen) etki anlamına geliyor.
 
+* #### Applied Position Falloff Origin
+Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları açıkken vardır. Falloff için orijin noktasını belirler, default olarak simulasyon konumuna yani niagara objesinin konumuna baglıdır.
+
+
 
 
 
