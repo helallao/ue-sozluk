@@ -270,7 +270,7 @@ Acceleration Force'unun uygulanacagı [Coordinate Space](../Terimler%20Sözlüg�
 ## [Aerodynamic Drag]()
 ## [Apply Initial Forces]()
 
-([Particle Spawn](../Graph#particle-spawn)) Bu modül [Solve Forces and Velocity'nin](#solve-forces-and-velocity) [Particle Spawn](../Graph#particle-spawn) kategorisindeki karşılıgıdır, parçacık spawn oldugunda ilk kez velocity'leri uygular.
+([Particle Spawn](../Graph#particle-spawn)) Bu modül [Solve Forces and Velocity'nin](#solve-forces-and-velocity) [Particle Spawn](../Graph#particle-spawn) kategorisindeki karşılıgıdır, parçacık spawn oldugunda ilk kez velocity'leri uygular. [Force etkisi](../Terimler%20Sözlügü#force-ve-velocity) uygulayan modüllerin altına (genellikle en son sıraya) konulması gerekir.
 
 
 * #### Apply Force to Velocity
