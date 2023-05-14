@@ -398,7 +398,22 @@ Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları
 Niagara objesinin hareketlerine göre parçacıklara velocity (ve ya force, bilmiyorum) ekler. XYZ olmak üzere bütün eksenlerdeki hareketlerin scale degerlerini ayarlayabilirsiniz. Yani mesela X eksenini 2 yaparsanız, dünya üzerindeki niagara objesi X ekseninde hareket ettiginde, parçacıklara X ekseninde 2 katı hızında velocity eklenir.
 
 * #### Applied Force Speed Limit
-"Applied Force Scale" için maximum hız limiti, eger niagara objesinin hızı bu hızdan fazla ise parçacıklara velocity eklenmez.
+Sadece "Applied Force Scale" ayarı açıkken vardır. "Applied Force Scale" için maximum hız limiti, eger niagara objesinin hızı bu hızdan fazla ise parçacıklara velocity eklenmez.
+
+* #### Applied Force Falloff Distance
+Sadece "Applied Force Scale" ayarı açıkken vardır. "Applied Force Scale" için falloff alanı oluşturur ve falloff alanının çapını belirlersiniz.
+
+* #### Applied Force Falloff Curve
+Sadece "Applied Force Scale" ve "Applied Force Falloff Distance" ayarları açıkken vardır. Bu ayar sayesinde curve aracılıgı ile "Applied Force Falloff Distance" inputuna verdiginiz mesafe içerisinde, parçacıkların niagara objesinin hareketlerinden ne kadar etkilenecegini belirleyebilirsiniz. Oluşturacagınız curve'deki keyler için 0 yakın, 1 uzak anlamına geliyor ve degerler için 0 en az (hareketlerden hiç etkilenme), 1 en çok (hareketlerden tamamen etkilen) etki anlamına geliyor.
+
+* #### Applied Force Falloff Origin
+Sadece "Applied Force Falloff Distance" ayarı açıkken vardır. Falloff için orijin noktasını belirler, default olarak simulasyon konumuna yani niagara objesinin konumuna baglıdır.
+
+* #### Applied Force Falloff Position
+Sadece "Applied Force Falloff Distance" ayarı açıkken vardır. Falloff'un etki ettigi noktayı belirler, default olarak parçacıgın konumuna baglıdır.
+
+* #### Source Velocity
+Dünya üzerindeki niagara objesinin hız degeri bu inputa göre belirlenir, default olarak [Engine.Owner.Velocity](../Parameters#engineownervelocity) parametresine baglıdır.
 
 
 
