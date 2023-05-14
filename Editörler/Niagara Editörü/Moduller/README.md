@@ -394,6 +394,12 @@ Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları
 * #### Applied Position Falloff Origin
 Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları açıkken vardır. Falloff için orijin noktasını belirler, default olarak simulasyon konumuna yani niagara objesinin konumuna baglıdır.
 
+* #### Applied Force Scale
+Niagara objesinin hareketlerine göre parçacıklara velocity (ve ya force, bilmiyorum) ekler. XYZ olmak üzere bütün eksenlerdeki hareketlerin scale degerlerini ayarlayabilirsiniz. Yani mesela X eksenini 2 yaparsanız, dünya üzerindeki niagara objesi X ekseninde hareket ettiginde, parçacıklara X ekseninde 2 katı hızında velocity eklenir.
+
+* #### Applied Force Speed Limit
+"Applied Force Scale" için maximum hız limiti, eger niagara objesinin hızı bu hızdan fazla ise parçacıklara velocity eklenmez.
+
 
 
 
