@@ -378,6 +378,22 @@ Gravity Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local
 
 
 ## [Inherit Source Movement]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Dünya üzerindeki niagara objesinin hareketini parçacıklara aktarır, böylelikle parçacıklar da niagara objesiyle birlikte hareket eder.
+
+
+* #### Applied Position Scale
+Niagara objesinin pozisyonunu parçacıklara uygular, yani parçacıklar niagara objesine göre konum degiştirir de denebilir. XYZ olmak üzere bütün eksenlerdeki hareketlerin (konum degiştirme) scale degerlerini ayarlayabilirsiniz. Yani mesela X eksenini 2 yaparsanız, dünya üzerindeki niagara objesi X ekseninde 100 birim hareket ettiginde, parçacıklara 200 birim hareket uygulanır.
+
+* #### Applied Position Falloff Distance
+Sadece "Applied Position Scale" ayarı açıkken vardır. Bu ayar şu işe yarar, normalde parçacıklar dünya üzerindeki niagara objesinin hareketlerini direktmen kopyalarlar (Applied Position Scale'in bütün eksenlerde 1 oldugunu varsayıyorum) yani niagara objesiyle beraber hareket ederler. Bu ayar sayesinde bir falloff alanı belirleyerek, parçacıklara bir nevi uzaklaşabilecekleri alan vermiş olursunuz. Yani mesela bu degeri 1000 yaparsanız, yakındaki parçacıklar daha az, uzaktaki parçacıklar daha çok etkilenirler. Yani bu ayar ile parçacıklara "niagara objesiyle beraber hareket et ama bütün hareketleri de aynen kopyalama" demiş olursunuz ve belirlediginiz uzaklık degeri kadar parçacıklar niagara objesinden uzaklaşabilirler (ve ya niagara objesi hareket ederken, belirlediginiz mesafe kadar onun arkadasında kalabilirler).
+
+* #### Applied Position Falloff Curve
+Sadece "Applied Position Scale" ve "Applied Position Falloff Distance" ayarları açıkken vardır.
+
+
+
+
 ## [Limit Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=814)
 
 ([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların üstündeki bütün [force etkilerini](../Terimler%20Sözlügü#force-ve-velocity) sınırlar.
