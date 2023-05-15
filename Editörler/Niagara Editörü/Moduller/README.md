@@ -468,6 +468,22 @@ Linear Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-
 
 
 ## [Mesh Rotation Force]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) ekler. [Add Rotational Velocity](#add-rotational-velocity) ile aynıdır denebilir.
+
+
+* #### Rotation
+Dönme hızı.
+
+* #### Coordinate Space
+[Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space). Bunlara ek olarak bir de "Mesh" var, "Mesh" ise mesh'in kendi XYZ eksenlerine göre yönlerin belirlenmesidir.
+
+* #### Lever Radius (cm)
+Bu ayarın tam olarak ne işe yaradıgını bilmiyorum, arttırdıkça dönme hızı da artar.
+
+
+
+
 ## [Point Attraction Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1146)
 
 ([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Tek bir noktadan parçacıklara çekim gücü uygular.
@@ -1658,7 +1674,7 @@ Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-wor
 Saniye başına atılacak tur sayısı.
 
 * #### Coordinate Space
-[Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+[Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space). Bunlara ek olarak bir de "Mesh" var, "Mesh" ise mesh'in kendi XYZ eksenlerine göre yönlerin belirlenmesidir.
 
 
 
