@@ -268,6 +268,39 @@ Acceleration Force'unun uygulanacagı [Coordinate Space](../Terimler%20Sözlüg�
 
 
 ## [Aerodynamic Drag]()
+
+([Particle Update](../Graph#particle-update)) [Drag](#drag) gibidir ama parçacıkların hızını azaltırken sanki süzülüyormuş gibi bir efekt verir.
+
+
+* #### Aerodynamic Drag
+Parçacıkların yavaşlama hızı. Süzülme efekti.
+
+* #### Aerodynamic Rotational
+[Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) için yavaşlama hızı.
+
+* #### Lift Contribution
+Parçacıkların rüzgardan (havanın sürtünme etkisinden) ne kadar etkilenecegini belirler.
+
+* #### Rotation Strength
+Parçacıklar süzülürken uygulanacak [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) şiddeti.
+
+* #### Pivot Offset
+Sadece "Rotational Pivot Mode" "Direct" modundayken vardır. Parçacıklar süzülürken uygulanacak [Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) hangi yöne dogru olacagını belirlersiniz.
+
+* #### Pivot Offset Minimum
+Sadece "Rotational Pivot Mode" "Random" modundayken vardır. Parçacıklar süzülürken uygulanacak [Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) hangi yöne dogru olacagı için minimum degeri belirlersiniz.
+
+* #### Pivot Offset Maximum
+Sadece "Rotational Pivot Mode" "Random" modundayken vardır. Parçacıklar süzülürken uygulanacak [Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) hangi yöne dogru olacagı için maximum degeri belirlersiniz.
+
+* #### Pivot Offset Minimum Length
+Sadece "Rotational Pivot Mode" "Random" modundayken vardır. Normalde parçacıklar süzülürken uygulanacak [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) için belirledigimiz minimum ve maximum degerleri arasında rastgele bir degerde dönerler ama bu ayar sayesinde minimum ve maksimum için en az degerleri ayarlayabiliriz. Yani mesela "Pivot Offset Minimum" un X ekseni için -50, "Pivot Offset Maximum" un X ekseni için 50 verdigimizi varsayalım, her parçacık bu iki deger arasında rastgele belirledigi bir derecede dönecektir, yani mesela dönme derecesi 5 de olabilir. Bu ayar sayesinde minimum dönme derecesini ayarlayabiliriz. Mesela "Pivot Offset Minimum Length" için 30 verdigimizi varsayalım. O zaman seçilen deger 0'a en az 30 derece uzak olmalıdır. Yani -30'dan düşük ve ya 30'dan büyük.
+
+
+Evaluation Type
+
+
+
 ## [Apply Initial Forces]()
 
 ([Particle Spawn](../Graph#particle-spawn)) Bu modül [Solve Forces and Velocity'nin](#solve-forces-and-velocity) [Particle Spawn](../Graph#particle-spawn) kategorisindeki karşılıgıdır, parçacık spawn oldugunda ilk kez velocity'leri uygular. [Force etkisi](../Terimler%20Sözlügü#force-ve-velocity) uygulayan modüllerin altına (genellikle en son sıraya) konulması gerekir.
