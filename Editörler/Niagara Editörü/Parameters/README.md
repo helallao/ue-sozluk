@@ -246,6 +246,12 @@ bilmiyorum.
 
 ## Module Outputs
 
+* #### [Output.ApplyInitialForces.IncomingPhysicsForce]()
+bilmiyorum.
+
+* #### [Output.ApplyInitialForces.IncomingPhysicsRotationalForce]()
+bilmiyorum.
+
 * #### [Output.CurlNoiseForce.CurlNoiseForce]()
 (Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
 
@@ -266,6 +272,9 @@ bilmiyorum.
 
 * #### [Output.GridLocation.XYZCountAsVector]()
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+
+* #### [Output.InheritSourceMovement.PositionDelta]()
+bilmiyorum.
 
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
