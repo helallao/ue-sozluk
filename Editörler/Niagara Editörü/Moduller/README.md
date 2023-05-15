@@ -287,6 +287,9 @@ Parçacıklar süzülürken uygulanacak [Rotational Velocity](../Terimler%20Söz
 * #### Pivot Offset
 Sadece "Rotational Pivot Mode" "Direct" modundayken vardır. Parçacıklar süzülürken uygulanacak [Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) hangi yöne dogru olacagını belirlersiniz.
 
+* #### Evaluation Type
+Sadece "Rotational Pivot Mode" "Random" modundayken vardır. Parçacıklar süzülürken uygulanacak [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) için dönme derecesi degerinin her frame'de mi yoksa sadece parçacık spawn oldugunda mı degişecegini belirler. Default olarak "Spawn Only" dir, yani parçacık spawn oldugunda kaç derece dönecegi belirlenir. Eger bunu "Every Frame" yaparsanız, parçacıkların dönme derecesi de her frame'de degişir, bu da birden hızlı birden yavaş dönme efekti verir.
+
 * #### Pivot Offset Minimum
 Sadece "Rotational Pivot Mode" "Random" modundayken vardır. Parçacıklar süzülürken uygulanacak [Rotational Velocity'nin](../Terimler%20Sözlügü#rotational-velocity) hangi yöne dogru olacagı için minimum degeri belirlersiniz.
 
@@ -297,7 +300,7 @@ Sadece "Rotational Pivot Mode" "Random" modundayken vardır. Parçacıklar süz�
 Sadece "Rotational Pivot Mode" "Random" modundayken vardır. Normalde parçacıklar süzülürken uygulanacak [Rotational Velocity](../Terimler%20Sözlügü#rotational-velocity) için belirledigimiz minimum ve maximum degerleri arasında rastgele bir degerde dönerler ama bu ayar sayesinde minimum ve maksimum için en az degerleri ayarlayabiliriz. Yani mesela "Pivot Offset Minimum" un X ekseni için -50, "Pivot Offset Maximum" un X ekseni için 50 verdigimizi varsayalım, her parçacık bu iki deger arasında rastgele belirledigi bir derecede dönecektir, yani mesela dönme derecesi 5 de olabilir. Bu ayar sayesinde minimum dönme derecesini ayarlayabiliriz. Mesela "Pivot Offset Minimum Length" için 30 verdigimizi varsayalım. O zaman seçilen deger 0'a en az 30 derece uzak olmalıdır. Yani -30'dan düşük ve ya 30'dan büyük.
 
 
-Evaluation Type
+
 
 
 
