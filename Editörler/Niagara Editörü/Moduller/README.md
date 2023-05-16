@@ -2131,8 +2131,14 @@ bilmiyorum.
 * #### Alpha Threshold
 Cutout derecesi.
 
+* #### Scalability
+bilmiyorum.
 
+* #### Allow in Cull Proxies
+bilmiyorum.
 
+* #### Sort Order Hint
+Renderer öncelik numarası, numaraı büyük olan renderer, motor tarafından ekrana render edilirken diger renderer'ların üzerine çizilir. Yani hangi renderer'ın üstte oldugunu ayarlarsınız. Bunun hangi renderer'ın yakında, hangi renderer'ın uzakta olduguyla bir ilgisi yoktur. Mesela ekranınızda arkada kalan renderer'ın numarası önde duran renderer'dan büyükse arkada kalan renderer'ın parçacıkları önde kalanın üzerine çizilir.
 
 
 
