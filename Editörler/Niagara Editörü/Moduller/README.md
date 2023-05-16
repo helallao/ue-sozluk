@@ -812,7 +812,7 @@ Konuma offset vermenize yarar.
 Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Mass Mode
-.... için kullanılacak mod, 3 modu vardır,
+Mass degeri (kütle) için kullanılacak mod, 3 modu vardır,
 <br>
 <br>
 Unset = Mass olarak 1 verir.
@@ -2117,10 +2117,10 @@ Buradan kullandıgınız materyaldeki parametreleri ayarlayabilirsiniz.
 Burdan "Sprite Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametresine baglayabilirsiniz. Sprite Renderer bu parametreye göre çalışır/çalışmaz.
 
 * #### Use Material Cutout Texture
-bilmiyorum.
+Cutout ile ilgili olarak [bu videoya](https://youtu.be/NcJ1ZP7tFUk?t=4532) bakabilirsiniz. Videoda gördügünüz gibi, cutout materyaldeki gereksiz kısımları silmeye yarıyor (illaki saydam kısımlar silinecek diye bir şey yok), materyallerdeki [Masked](../../Materyal%20Editörü/Graph/Main%20Material%20Node#masked) material domain'i gibi.
 
 * #### Cutout Texture
-bilmiyorum.
+Kullanılacak Cutout Texture'u.
 
 * #### Bounding Mode
 bilmiyorum.
@@ -2129,7 +2129,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### Alpha Threshold
-bilmiyorum.
+Cutout derecesi.
 
 
 
