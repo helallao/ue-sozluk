@@ -421,3 +421,296 @@ bilmiyorum.
 
 
 # Parametre Türleri
+
+## Common
+
+* #### [bool]()
+bilmiyorum.
+
+* #### [float]()
+bilmiyorum.
+
+* #### [int32]()
+bilmiyorum.
+
+* #### [Linear Color]()
+bilmiyorum.
+
+* #### [Matrix]()
+bilmiyorum.
+
+* #### [Mesh Tri Coordinate]()
+bilmiyorum.
+
+* #### [Niagara ID]()
+bilmiyorum.
+
+* #### [Niagara Rand Info]()
+bilmiyorum.
+
+* #### [Position]()
+bilmiyorum.
+
+* #### [Quat]()
+bilmiyorum.
+
+* #### [Spawn Info]()
+bilmiyorum.
+
+* #### [Vector]()
+bilmiyorum.
+
+* #### [Vector 2D]()
+bilmiyorum.
+
+* #### [Vector 4]()
+bilmiyorum.
+
+
+## Data Interface
+
+* #### [2D Array Texture Sample]()
+bilmiyorum.
+
+* #### [Actor Component Interface]()
+bilmiyorum.
+
+* #### [Async Gpu Trace]()
+bilmiyorum.
+
+* #### [Audio Oscilloscope]()
+bilmiyorum.
+
+* #### [Audio Player]()
+bilmiyorum.
+
+* #### [Audio Spectrum]()
+bilmiyorum.
+
+* #### [Bool Array]()
+bilmiyorum.
+
+* #### [Camera Query]()
+bilmiyorum.
+
+* #### [Chaos Destruction Data]()
+bilmiyorum.
+
+* #### [Collision Query]()
+bilmiyorum.
+
+* #### [Color Array]()
+bilmiyorum.
+
+* #### [Cube Texture Sample]()
+bilmiyorum.
+
+* #### [Curl Noise]()
+bilmiyorum.
+
+* #### [Curve for Colors]()
+bilmiyorum.
+
+* #### [Curve for Floats]()
+bilmiyorum.
+
+* #### [Curve for Vector2D's]()
+bilmiyorum.
+
+* #### [Curve for Vector3's]()
+bilmiyorum.
+
+* #### [Curve for Vector4's]()
+bilmiyorum.
+
+* #### [DebugDraw]()
+bilmiyorum.
+
+* #### [Export particle data]()
+bilmiyorum.
+
+* #### [Float Array]()
+bilmiyorum.
+
+* #### [GBuffer]()
+bilmiyorum.
+
+* #### [Geometry Collection]()
+bilmiyorum.
+
+* #### [Grid2D Collection]()
+bilmiyorum.
+
+* #### [Grid2D Collection Reader]()
+bilmiyorum.
+
+* #### [Grid3D Collection]()
+bilmiyorum.
+
+* #### [Grid3D Collection Reader]()
+bilmiyorum.
+
+* #### [Int32 Array]()
+bilmiyorum.
+
+* #### [Integer Render Target 2D]()
+bilmiyorum.
+
+* #### [Landscape Sample]()
+bilmiyorum.
+
+* #### [Neighbor Grid3D]()
+bilmiyorum.
+
+* #### [NiagaraID Array]()
+bilmiyorum.
+
+* #### [Object Reader]()
+bilmiyorum.
+
+* #### [Occlusion Query]()
+bilmiyorum.
+
+* #### [Particle Attribute Reader]()
+bilmiyorum.
+
+* #### [Physics Asset]()
+bilmiyorum.
+
+* #### [Physics Field]()
+bilmiyorum.
+
+* #### [Platform Set]()
+bilmiyorum.
+
+* #### [Position Array]()
+bilmiyorum.
+
+* #### [Quaternion Array]()
+bilmiyorum.
+
+* #### [Rasterization Grid3D]()
+bilmiyorum.
+
+* #### [Render Target 2D]()
+bilmiyorum.
+
+* #### [Render Target 2D Array]()
+bilmiyorum.
+
+* #### [Render Target Cube]()
+bilmiyorum.
+
+* #### [Render Target Volume]()
+bilmiyorum.
+
+* #### [Rigid Mesh Collision Query]()
+bilmiyorum.
+
+* #### [Runtime Virtual Texture Sample]()
+bilmiyorum.
+
+* #### [SimCache Reader]()
+bilmiyorum.
+
+* #### [Simple Counter]()
+bilmiyorum.
+
+* #### [Skeletal Mesh]()
+bilmiyorum.
+
+* #### [Spline]()
+bilmiyorum.
+
+* #### [Static Mesh]()
+bilmiyorum.
+
+* #### [Texture Sample]()
+bilmiyorum.
+
+* #### [UInt8 Array]()
+bilmiyorum.
+
+* #### [Vector 2D Array]()
+bilmiyorum.
+
+* #### [Vector 4 Array]()
+bilmiyorum.
+
+* #### [Vector Array]()
+bilmiyorum.
+
+* #### [Vector Field]()
+bilmiyorum.
+
+* #### [Volume Cache]()
+bilmiyorum.
+
+* #### [Volume Texture Sample]()
+bilmiyorum.
+
+
+## Enum
+
+* #### [ECollisionChannel]()
+bilmiyorum.
+
+* #### [EFieldIntegerType]()
+bilmiyorum.
+
+* #### [EFieldScalarType]()
+bilmiyorum.
+
+* #### [EFieldVectorType]()
+bilmiyorum.
+
+* #### [ENiagaraCoordinateSpace]()
+bilmiyorum.
+
+* #### [ENiagaraExecutionState]()
+bilmiyorum.
+
+* #### [ENiagaraExecutionStateSource]()
+bilmiyorum.
+
+* #### [ENiagaraLegacyTrailWidthMode]()
+bilmiyorum.
+
+* #### [ENiagaraOrientationAxis]()
+bilmiyorum.
+
+* #### [ENiagaraRandomnessMode]()
+bilmiyorum.
+
+
+## Event
+
+* #### [Chaos Destruction Event]()
+bilmiyorum.
+
+* #### [Niagara Collision Event Payload]()
+bilmiyorum.
+
+
+## Object
+
+* #### [Material Interface]()
+bilmiyorum.
+
+* #### [Niagara Sim Cache]()
+bilmiyorum.
+
+* #### [Object]()
+bilmiyorum.
+
+* #### [Static Mesh]()
+bilmiyorum.
+
+* #### [Texture]()
+bilmiyorum.
+
+* #### [Texture Render Target]()
+bilmiyorum.
+
+
+
