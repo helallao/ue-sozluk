@@ -752,7 +752,7 @@ Sadece "Use Influence Falloff" ayarı açıkken vardır. Falloff etkisini tersin
 
 
 * #### Lifetime
-Sadece "Lifetime Mode" "Direct Set" modundayken vardır. Parçacıgın lifetime yani yaşam süresini ayarlar.
+Sadece "Lifetime Mode" "Direct Set" modundayken vardır. Parçacıgın lifetime yani yaşam süresini ayarlar. Ribbon Renderer kullanıldıgı zaman Ribbon'un yaşam süresini degil de, esneme süresini belirler. Yani mesela Ribbon'un lifetime'ı 2 ise, aradan 2 saniye geçtikten sonra Ribbon daha fazla esnemez, yani esnemiş kısımlar 2 saniye sonra yok olur.
 
 * #### Lifetime Min
 Sadece "Lifetime Mode" "Random" modundayken vardır. Parçacıgın lifetime yani yaşam süresi için minimum süreyi ayarlar.
@@ -1739,7 +1739,7 @@ Saniye başına atılacak tur sayısı.
 ([Render](../Graph#render))
 
 ## [Light Renderer]()
-([Render](../Graph#render)) Light Renderer en çok kullanılan 3. renderer'dır. Parçacıkların oldugu konuma ışık koyar, etrafa ışık saçar. Light Renderer'da ışıgı ayarlayan şey parçacıgın renk degeridir, yani emissive gibi.
+([Render](../Graph#render)) Parçacıkların oldugu konuma ışık koyar, etrafa ışık saçar. Light Renderer'da ışıgı ayarlayan şey parçacıgın renk degeridir, yani emissive gibi.
 
 
 * #### Use Inverse Squared Falloff
@@ -1949,7 +1949,7 @@ Burdan "Mesh Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametres
 
 
 ## [Ribbon Renderer]()
-([Render](../Graph#render))
+([Render](../Graph#render)) Sprite Renderer ile aynı sayılır ama Ribbon Renderer'da materyaller parçacıgın üzerinde sadece sabit bir şekilde durmazlar, hareketlere baglı bir şekilde esnerler.
 
 
 
