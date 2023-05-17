@@ -48,7 +48,16 @@ Sabit parametreler genellikle bilgi sunan parametrelerdir, belki simulasyon esna
 <br>
 <br>
 
+# Bölümler
 
+* [Parametreler](#parametreler)
+* [Parametre Türleri](#parametre-türleri)
+
+<br>
+<br>
+
+
+# Parametreler
 ## System Attributes
 
 * #### [System.Age](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
@@ -403,3 +412,12 @@ bilmiyorum.
 
 
 ## Niagara Parameter Collection
+
+
+
+
+<br>
+<br>
+
+
+# Parametre Türleri
