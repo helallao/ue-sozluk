@@ -1952,6 +1952,37 @@ Burdan "Mesh Renderer" ın açık mı yoksa kapalı mı oldugunu bool parametres
 ([Render](../Graph#render)) Sprite Renderer ile aynı sayılır ama Ribbon Renderer'da materyaller parçacıgın üzerinde sadece sabit bir şekilde durmazlar, hareketlere baglı bir şekilde esnerler.
 
 
+* #### Material
+Ribbon Renderer'ın kullanacagı materyal.
+
+* #### Material User Param Binding
+bilmiyorum.
+
+* #### Facing Mode
+Parçacıkların bakış yönünü belirler. 5 modu vardır,
+<br>
+<br>
+Screen = Parçacıklar kameranın konumuna dogru döndürülür.
+<br>
+Custom = bilmiyorum.
+<br>
+Custom Side Vector = bilmiyorum.
+
+* #### UV0 Settings
+bilmiyorum.
+
+* #### UV1 Settings
+bilmiyorum.
+
+* #### Max Num Ribbons
+bilmiyorum.
+
+* #### Use GPUInit
+bilmiyorum.
+
+* #### Draw Direction
+bilmiyorum.
+
 
 
 ## [Sprite Renderer]()
