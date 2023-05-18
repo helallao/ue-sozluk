@@ -425,10 +425,10 @@ bilmiyorum.
 ## Common
 
 * #### [bool]()
-bilmiyorum.
+Klasik bool.
 
 * #### [float]()
-bilmiyorum.
+Noktalı (kesirli) sayı.
 
 * #### [int32]()
 bilmiyorum.
