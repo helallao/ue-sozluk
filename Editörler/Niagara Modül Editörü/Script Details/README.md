@@ -47,4 +47,7 @@ Modül hakkında açıklama, imlecinizi modül üzerine getirdiginizde görünen
 
 
 ## Input Parameters
+Buradan modülün aldıgı inputları, daha dogrusu [ParameterMap](../Terimler%20Sözlügü#parametermap)'leri ayarlayabilirsiniz. Yine de tek bir modülde birden fazla [ParameterMap](../Terimler%20Sözlügü#parametermap) kullanımı karışık bir iş oldugu için burdaki ayarlar ile oynamanıza gerek yok.
+
 ## Output Parameters
+Buradan modülün outputlarını. Yine de tek bir modülde birden fazla output kullanımı karışık bir iş oldugu için burdaki ayarlar ile oynamanıza gerek yok.
