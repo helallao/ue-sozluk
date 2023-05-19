@@ -1187,10 +1187,10 @@ bilmiyorum.
 * #### [Parameter Map For With Continue]()
 bilmiyorum.
 
-* #### [Parameter Map Get]()
+* #### [Parameter Map Get(Map Get)]()
 bilmiyorum.
 
-* #### [Parameter Map Set]()
+* #### [Parameter Map Set(Map Set)]()
 bilmiyorum.
 
 
