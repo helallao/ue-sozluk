@@ -1203,7 +1203,7 @@ bilmiyorum.
 ## Script Parameters
 
 * #### [InputMap]()
-bilmiyorum.
+"Script Parameters" kategorisinde oluşturdugunuz [ParameterMap'ler](../Terimler%20Sözlügü#parametermap) görünür. Buradan ParameterMap'inizi nod olarak koyabilirsiniz ve ya isterseniz [Graph](../Graph) üzerinde duran ParameterMap'inizi kopyalabilirsiniz. Yeni bir niagara modülü oluşturdugunuzda default olarak oluşturulan ParameterMap'in ismi "InputMap" oldugu için buraya da "InputMap" adında bir örnek koydum, isimler sizin ParameterMap'lerinize göre degişir.
 
 
 ## Special Purpose Parameters
@@ -1238,7 +1238,8 @@ bilmiyorum.
 * #### [Convert]()
 bilmiyorum.
 
-
+* #### [Output Module]()
+Her bir oluşturdugunuz niagara modülünde otomatik olarak bir tane "Output Module" vardır. Output Module [ParameterMap](../Terimler%20Sözlügü#parametermap) alır.
 
 
 
