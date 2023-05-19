@@ -28,7 +28,14 @@ Bu ayarı açtıgınız zaman bu modül, emitter'ınıza yeni modül eklerken, �
 * #### Deprecation Recommendation
 * #### Conversion Utility
 * #### Experimental
+"Experimental Message" ayarını açar.
+
 * #### Experimental Message
+"Experimental" ayarı açıkken kullanılabilir. Deneysel modüller yani hatalı davranabilecek modüllere uyarı koymanıza yarar. Modülü seçtiginizde detaylar penceresinde en üstte bu açıklama görünür.
+
+* #### Note Message
+Modülü seçtiginizde detaylar penceresinde en üstte bu açıklama görünür. Modülün kullanımı ve olabilecek hataları yazabilirsiniz.
+
 * #### Library Visibility
 * #### Numeric Output Type Selection Mode
 * #### Description
