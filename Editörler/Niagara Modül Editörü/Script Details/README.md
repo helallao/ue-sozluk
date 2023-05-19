@@ -14,7 +14,31 @@ Buradan yazdıgınız niagara modül'ü ile ilgili ayarlamaları yaparsınız.
 
 
 
-## [Script]()
+## Script
+
+* #### Module Usage Bitmask
+* #### Category
+* #### Suggested
+* #### Provided Dependencies
+* #### Required Dependencies
+* #### Deprecation Recommendation
+* #### Conversion Utility
+* #### Experimental
+* #### Experimental Message
+* #### Library Visibility
+* #### Numeric Output Type Selection Mode
+* #### Description
+* #### Keywords
+* #### Collapsed View Format
+* #### Can be Used for Type Conversions
+* #### Script Metadata
+* #### Input Sections
+
+
 ## Validation
+
+* #### Validation Rules
+
+
 ## Input Parameters
 ## Output Parameters
