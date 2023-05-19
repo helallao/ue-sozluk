@@ -1188,7 +1188,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Parameter Map Get(Map Get)]()
-bilmiyorum.
+[ParameterMap'den](../Terimler%20Sözlügü#parametermap) parametre almanıza yarar. Artı işaretine tıkladıgınızda çıkan kategorilerin içinde "Make New" adında bir kategori var, eger bu kategoridekilerden birini seçerseniz, adının önünde kırmızı "INPUT" yazan parametre eklemiş olursunuz. Eger ParameterMap'in [açıklamasını](../Terimler%20Sözlügü#parametermap) okuduysanız ParameterMap'lerin aslında referans objeleri oldugunu görebilirsiniz, dolayısı ile eger "Make New" kategorisinden adının önünde kırmızı "INPUT" yazan bir parametre eklediyseniz bu parametre modülün inputu olur. Modülü kullanırken kullanıcıdan bu inputa deger girmesini beklersiniz. Bu inputların default degerlerini [Parameters](../Parameters) bölümünden ayarlayabilirsiniz. Artı işaretine tıkladıgınızda çıkan kategorilerde "Make New" dışındaki kategoriler ise parametre almaya yarar. Sistem/Emitter/Parçacık parametrelerini alabilirsiniz.
 
 * #### [Parameter Map Set(Map Set)]()
 bilmiyorum.
