@@ -5,6 +5,8 @@
 Buradan yazdıgınız niagara modül'ü ile ilgili ayarlamaları yaparsınız.
 
 
+# Bölümler
+
 * [Script](#script)
 * [Validation](#validation)
 * [Input Parameters](#input-parameters)
