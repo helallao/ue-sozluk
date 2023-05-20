@@ -6,6 +6,8 @@ Buradan yazdıgınız niagara modül'ünün içindeki parametreleri görebilirsi
 
 * Parametre türlerine Niagara Editörü'nün [Parametreler](../../Niagara%20Editörü/Parameters#parametre-türleri) bölümünden ulaşabilirsiniz
 
+<br>
+<br>
 
 
 ## System Attributes
