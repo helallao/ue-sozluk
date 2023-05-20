@@ -953,23 +953,23 @@ bilmiyorum.
 * #### [Matrix Transform Vector]()
 bilmiyorum.
 
-* #### [Multiply (Matrix * Matrix)]()
-bilmiyorum.
+* #### [Multiply (Matrix * Matrix)](https://ncalculators.com/matrix/4x4-matrix-multiplication-calculator.htm)
+Matrix * Matrix işlemi, linke bakabilirsiniz.
 
 * #### [Multiply (Matrix * Vector4)]()
-bilmiyorum.
+Matrix * Vector4 işlemi.
 
 * #### [Row 0]()
-bilmiyorum.
+Verilen matrix'in 1. dizesini döndürür.
 
 * #### [Row 1]()
-bilmiyorum.
+Verilen matrix'in 2. dizesini döndürür.
 
 * #### [Row 2]()
-bilmiyorum.
+Verilen matrix'in 3. dizesini döndürür.
 
 * #### [Row 3]()
-bilmiyorum.
+Verilen matrix'in 4. dizesini döndürür.
 
 * #### [Transpose]()
 bilmiyorum.
