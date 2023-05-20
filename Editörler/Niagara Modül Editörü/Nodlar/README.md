@@ -972,16 +972,16 @@ Verilen matrix'in 3. dizesini döndürür.
 Verilen matrix'in 4. dizesini döndürür.
 
 * #### [Transpose]()
-bilmiyorum.
+Verilen matrix'e [transpose](https://en.wikipedia.org/wiki/Transpose) uygular.
 
 
 ## Numeric
 
 * #### [Abs]()
-bilmiyorum.
+Mutlak deger.
 
 * #### [Add]()
-bilmiyorum.
+Verilen bütün degerleri toplar.
 
 * #### [ArcCosine]()
 bilmiyorum.
@@ -1020,10 +1020,15 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Ceil]()
-bilmiyorum.
+Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı [Floor](#floor)). örnegin 
+<br>
+<br>
+9.9 -> 9
+<br>
+9.1 -> 9
 
 * #### [Clamp]()
-bilmiyorum.
+Verdigimiz inputu "min" ve "max" degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır.
 
 * #### [Cosine]()
 bilmiyorum.
@@ -1035,22 +1040,22 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Cross]()
-bilmiyorum.
+Türkçesi [Çapraz Çarpım](https://tr.wikipedia.org/wiki/%C3%87apraz_%C3%A7arp%C4%B1m) ve ya [Vektörel Çarpım](https://www.youtube.com/watch?v=QaaqS8oTl6E) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Cross_product) sayfasına da bakabilirsiniz. Verilen iki vektöre dik inen bir vektör veriyor. Ne işe yaradıgını bilmiyorum.
 
 * #### [DegreesToRadians]()
-bilmiyorum.
+Verdigimiz dereceyi (yani açıyı) [radyana](https://tr.wikipedia.org/wiki/Radyan) dönüştürür ve ya radyan degerini verir de denebilir.
 
 * #### [Divide]()
-bilmiyorum.
+Bölme.
 
 * #### [Dot]()
-bilmiyorum.
+Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m) ve ya [İç Çarpım](https://www.youtube.com/watch?v=JsB-XP0V3PE) olan matematik işlemi. İngilizce [wikipedia](https://en.wikipedia.org/wiki/Dot_product) sayfasına da bakabilirsiniz. Neyse işte, bu nodu iki vektörün yönlerini karşılaştırmak için kullanıyoruz. Mesele yönler oldugu için, eger vektörünüzün herhangi bir boyutunun degeri 1'den büyükse [Normalize](#normalize--%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) kullanmalısınız, çünkü her yön degeri -1 ve 1 arasında oluyor, mesela eger X eksenine bakıyorsa 1, eger X ekseninin tam tersine bakıyorsa -1 gibi.
 
 * #### [Equal]()
-bilmiyorum.
+Verilen sayılar eşit ise True degil ise False döndürür.
 
 * #### [Exp]()
-bilmiyorum.
+Verdiginiz sayı kadar [e sayısının](https://tr.wikipedia.org/wiki/E_say%C4%B1s%C4%B1) üssünü alır.
 
 * #### [Exp2]()
 bilmiyorum.
