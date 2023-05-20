@@ -887,43 +887,43 @@ bilmiyorum.
 [Float](../../Niagara%20Editörü/Parameters#float) oluşturmanıza yarar, verdiginiz inputa göre float döndürür.
 
 * #### [Half]()
-bilmiyorum.
+Half veri tipinin ne oldugu ve nerelerde kullanıldıgından emin degilim ama sanırım float gibi.
 
 * #### [Half Vector3]()
-bilmiyorum.
+Half veri tipinden oluşan 3 boyutlu vektör.
 
 * #### [Half Vector4]()
-bilmiyorum.
+Half veri tipinden oluşan 4 boyutlu vektör.
 
 * #### [int32]()
-bilmiyorum.
+[İnteger](../../Niagara%20Editörü/Parameters#int32) oluşturmanıza yarar, verdiginiz inputa göre integer döndürür.
 
 * #### [Linear Color]()
-bilmiyorum.
+[Linear Color](../../Niagara%20Editörü/Parameters#linear-color) yani renk verisi oluşturmanıza yarar. RGBA olmak üzere 4 float alır.
 
 * #### [Matrix]()
-bilmiyorum.
+[Matrix](../../Niagara%20Editörü/Parameters#matrix) oluşturmanıza yarar. 4 tane 4 boyutu vektör alır.
 
 * #### [Mesh Tri Coordinate]()
-bilmiyorum.
+[Mesh Tri Coordinate](../../Niagara%20Editörü/Parameters#mesh-tri-coordinate) oluşturmanıza yarar.
 
 * #### [Niagara Collision Event Payload]()
-bilmiyorum.
+[Niagara Collision Event Payload](../../Niagara%20Editörü/Parameters#niagara-collision-event-payload) oluşturmanıza yarar.
 
 * #### [Niagara ID]()
-bilmiyorum.
+[Niagara ID](../../Niagara%20Editörü/Parameters#niagara-id) oluşturmanıza yarar.
 
 * #### [Niagara Rand Info]()
-bilmiyorum.
+[Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) oluşturmanıza yarar.
 
 * #### [Position]()
-bilmiyorum.
+[Position](../../Niagara%20Editörü/Parameters#position) yani pozisyon verisi oluşturmanıza yarar. XYZ olmak üzere 3 float alır.
 
 * #### [Quat]()
-bilmiyorum.
+[Quat](../../Niagara%20Editörü/Parameters#quat) oluşturmanıza yarar.
 
 * #### [Spawn Info]()
-bilmiyorum.
+[Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) oluşturmanıza yarar.
 
 * #### [Static bool]()
 bilmiyorum.
@@ -935,13 +935,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Vector]()
-bilmiyorum.
+[Vector](../../Niagara%20Editörü/Parameters#vector) oluşturmanıza yarar.
 
 * #### [Vector 2D]()
-bilmiyorum.
+[Vector 2D](../../Niagara%20Editörü/Parameters#vector-2d) oluşturmanıza yarar.
 
 * #### [Vector 4]()
-bilmiyorum.
+[Vector 4](../../Niagara%20Editörü/Parameters#vector-4) oluşturmanıza yarar.
 
 
 
