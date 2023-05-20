@@ -425,7 +425,7 @@ bilmiyorum.
 ## Common
 
 * #### [bool]()
-Klasik bool.
+Klasik bool, True ve ya False dogruluk degeri tutar.
 
 * #### [float]()
 Noktalı (kesirli) sayı.
