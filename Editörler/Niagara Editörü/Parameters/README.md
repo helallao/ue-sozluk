@@ -434,7 +434,7 @@ Noktalı (kesirli) sayı.
 bilmiyorum.
 
 * #### [Linear Color]()
-bilmiyorum.
+Aslında 4 boyutlu vektör, renkler için bu kullanılıyor.
 
 * #### [Matrix]()
 bilmiyorum.
@@ -449,7 +449,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Position]()
-bilmiyorum.
+Aslında 3 boyutlu vektör, koordinatlar için bu kullanılıyor.
 
 * #### [Quat]()
 bilmiyorum.
@@ -458,13 +458,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Vector]()
-bilmiyorum.
+3 boyutlu vektör.
 
 * #### [Vector 2D]()
-bilmiyorum.
+2 boyutlu vektör.
 
 * #### [Vector 4]()
-bilmiyorum.
+4 boyutlu vektör.
 
 
 ## Data Interface
