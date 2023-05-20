@@ -2,7 +2,7 @@
 <img src="../../../Dosyalar/Niagara_Module_Editor_Parameters.jpg">
 
 
-Buradan yazdıgınız niagara modül'ünün içindeki parametreleri görebilirsiniz. Aslında parametreler ekranında yapabileceginiz çok şey yok, burası sadece oluşturulan ve kullanılan parametreleri gösterir ama sadece buradan yapılabilen bazı ayarlar var. Bu parametreleri kullanabilmek için modülün nerede kullanıldıgı da önemli, mesela eger sistem parametresi ayarlamak istiyorsanız bu modülü ya [System Spawn](../../Niagara%20Editörü/Graph#system-spawn) ya da [System Update](../../Niagara%20Editörü/Graph#system-update) kategorisinde kullanmalısınız. Eger bu kategoride kullandıysanız parametreleri de ayarlayabilirsiniz.
+Buradan yazdıgınız niagara modül'ünün içindeki parametreleri görebilirsiniz. Burası oluşturulan ve kullanılan parametreleri gösterir ve yeni parametreleri de buradan oluşturabilirsiniz. Bu parametreleri kullanabilmek için modülün nerede kullanıldıgı da önemli, mesela eger sistem parametresi ayarlamak istiyorsanız bu modülü ya [System Spawn](../../Niagara%20Editörü/Graph#system-spawn) ya da [System Update](../../Niagara%20Editörü/Graph#system-update) kategorisinde kullanmalısınız. Eger bu kategoride kullandıysanız parametreleri de ayarlayabilirsiniz.
 
 
 
@@ -20,7 +20,7 @@ Parçacık parametreleri. Eger parçacık parametresi ayarlamak istiyorsanız bu
 Modül'ün aldıgı inputlar. Modül inputu olan parametreleri illaki buradan oluşturmak zorunda degilsiniz. [Parameter Map Get](../Nodlar#parameter-map-getmap-get) nodunun "Make New" kategorisini kullanarak da oluşturabilirsiniz.
 
 ## Static Switch Inputs
-Modül'ün içinde kullanılan [Static Switch](../Nodlar#static-switch) nodlarının inputları burada gözükür.
+Modül'ün içinde kullanılan [Static Switch](../Nodlar#static-switch) nodlarının default degerleri buradan ayarlayabilirsiniz.
 
 ## Module Locals
 Modül'ün içinde kullanılan local parametreler. Bunları degişken gibi düşünebilirsiniz. Bir kerelik kullanılırlar, eger degerini başka bir parametre üzerine kaydetmezsiniz yok olurlar. 
