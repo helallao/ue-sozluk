@@ -457,6 +457,12 @@ bilmiyorum.
 * #### [Spawn Info]()
 bilmiyorum.
 
+* #### [Static bool]()
+Static bool normal bool'un aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
+
+* #### [Static int32]()
+bilmiyorum.
+
 * #### [Vector]()
 3 boyutlu vektör.
 
