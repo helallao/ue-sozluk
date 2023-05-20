@@ -26,10 +26,10 @@ Modül'ün içinde kullanılan [Static Switch](../Nodlar#static-switch) nodları
 Modül'ün içinde kullanılan local parametreler. Bunları degişken gibi düşünebilirsiniz. Bir kerelik kullanılırlar, eger degerini başka bir parametre üzerine kaydetmezsiniz yok olurlar. 
 
 ## Module Outputs
-Modül'ün output olarak verdigi parametreler. Bu parametreler []()
+Modül'ün output olarak verdigi parametreler. Bu parametreler [Module Outputs](../../Niagara%20Editörü/Parameters#module-outputs) kategorisine kaydolur.
 
 ## Engine Provided
-Motor tarafından sunulan parametreler.
+bilmiyorum.
 
 ## Stack Context Sensitive
 bilmiyorum.
