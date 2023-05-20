@@ -4,6 +4,7 @@
 
 Buradan yazdıgınız niagara modül'ünün içindeki parametreleri görebilirsiniz. Burası oluşturulan ve kullanılan parametreleri gösterir ve yeni parametreleri de buradan oluşturabilirsiniz. Bu parametreleri kullanabilmek için modülün nerede kullanıldıgı da önemli, mesela eger sistem parametresi ayarlamak istiyorsanız bu modülü ya [System Spawn](../../Niagara%20Editörü/Graph#system-spawn) ya da [System Update](../../Niagara%20Editörü/Graph#system-update) kategorisinde kullanmalısınız. Eger bu kategoride kullandıysanız parametreleri de ayarlayabilirsiniz.
 
+* Parametre türlerine Niagara Editörü'nün [Parametreler](../../Niagara%20Editörü/Parameters#parametre-türleri) bölümünden ulaşabilirsiniz
 
 
 
