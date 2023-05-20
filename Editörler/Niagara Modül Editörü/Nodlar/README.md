@@ -926,7 +926,7 @@ Half veri tipinden oluşan 4 boyutlu vektör.
 [Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) oluşturmanıza yarar.
 
 * #### [Static bool]()
-bilmiyorum.
+[Static bool](../../Niagara%20Editörü/Parameters#static-bool) oluşturmanıza yarar. Normal bool'un aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
 
 * #### [Static ENiagaraRandomnessMode]()
 bilmiyorum.
