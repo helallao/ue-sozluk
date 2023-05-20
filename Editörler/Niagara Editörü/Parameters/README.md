@@ -461,7 +461,7 @@ bilmiyorum.
 Static bool normal bool'un aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
 
 * #### [Static int32]()
-bilmiyorum.
+Static int32 normal int32'nin aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
 
 * #### [Vector]()
 3 boyutlu vektör.
