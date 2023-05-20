@@ -431,13 +431,13 @@ Klasik bool.
 Noktalı (kesirli) sayı.
 
 * #### [int32]()
-bilmiyorum.
+integer.
 
 * #### [Linear Color]()
 Aslında 4 boyutlu vektör, renkler için bu kullanılıyor.
 
 * #### [Matrix]()
-bilmiyorum.
+İçerisinde 4 tane 4 boyutlu vektör tutar, yani toplamda 16 tane float tutar.
 
 * #### [Mesh Tri Coordinate]()
 bilmiyorum.
