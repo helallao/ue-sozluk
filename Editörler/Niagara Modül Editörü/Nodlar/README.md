@@ -932,7 +932,7 @@ Half veri tipinden oluşan 4 boyutlu vektör.
 bilmiyorum.
 
 * #### [Static int32]()
-bilmiyorum.
+[Static int32](../../Niagara%20Editörü/Parameters#static-int32) oluşturmanıza yarar. Normal int32'nin aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
 
 * #### [Vector]()
 [Vector](../../Niagara%20Editörü/Parameters#vector) oluşturmanıza yarar.
