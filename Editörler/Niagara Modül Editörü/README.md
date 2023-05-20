@@ -16,7 +16,7 @@
 * [Graph](#graph)
 * [Selected Details](#selected-details)
 * [Niagara Log](#niagara-log)
-* [Versioning](#script-stats)
+* [Versioning](#versioning)
 * [Bottom Toolbar](#bottom-toolbar)
 
 
