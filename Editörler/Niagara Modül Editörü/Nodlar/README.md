@@ -382,7 +382,10 @@ bilmiyorum.
 * #### [Ms Pivot Painter 2 Calculate Mesh Element Index NF]()
 bilmiyorum.
 
-* #### [Ms Pivot Painter 2 Decode 8Bit Alpha Axis Extent NF Ms Pivot Painter 2 Decode Axis Vector NF]()
+* #### [Ms Pivot Painter 2 Decode 8Bit Alpha Axis Extent NF]()
+bilmiyorum.
+
+* #### [Ms Pivot Painter 2 Decode Axis Vector NF]()
 bilmiyorum.
 
 * #### [Ms Pivot Painter 2 Decode Postion NF]()
@@ -634,8 +637,8 @@ Bitwise "Xor" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek isti
 
 ## Make
 
-* #### [bool]()
-bilmiyorum.
+* #### [bool(Make bool)]()
+[Bool](../../Niagara%20Editörü/Parameters#bool) oluşturmanıza yarar, verdiginiz inputa göre True ve ya False döndürür.
 
 * #### [Chaos Destruction Event]()
 bilmiyorum.
@@ -748,13 +751,19 @@ bilmiyorum.
 * #### [ENiagaraAerodynamicDragPivotMode]()
 bilmiyorum.
 
-* #### [ENiagaraCalculateRadiusOptions ENiagaraChannelCorrelation]()
+* #### [ENiagaraCalculateRadiusOptions]()
+bilmiyorum.
+
+* #### [ENiagaraChannelCorrelation]()
 bilmiyorum.
 
 * #### [ENiagaraCollisionRadiusOptions]()
 bilmiyorum.
 
-* #### [ENiagaraCompileUsageStaticSwitch ENiagaraCoordinateSpace]()
+* #### [ENiagaraCompileUsageStaticSwitch]()
+bilmiyorum.
+
+* #### [ENiagaraCoordinateSpace]()
 bilmiyorum.
 
 * #### [ENiagaraCurlNoiseQuality]()
@@ -781,7 +790,13 @@ bilmiyorum.
 * #### [ENiagaraExpansionMode]()
 bilmiyorum.
 
-* #### [ENiagaraFrictionMergeType ENiagaraFunctionDebugState ENiagaraGridPlacementType]()
+* #### [ENiagaraFrictionMergeType]()
+bilmiyorum.
+
+* #### [ENiagaraFunctionDebugState]()
+bilmiyorum.
+
+* #### [ENiagaraGridPlacementType]()
 bilmiyorum.
 
 * #### [ENiagaralnactiveMode]()
@@ -799,7 +814,10 @@ bilmiyorum.
 * #### [ENiagaraOrientationAxis]()
 bilmiyorum.
 
-* #### [ENiagaraRandomnessEvaluation ENiagaraRandomnessMode]()
+* #### [ENiagaraRandomnessEvaluation]()
+bilmiyorum.
+
+* #### [ENiagaraRandomnessMode]()
 bilmiyorum.
 
 * #### [ENiagaraRendererSourceDataMode]()
@@ -829,7 +847,10 @@ bilmiyorum.
 * #### [ENiagaraSpriteAlignment]()
 bilmiyorum.
 
-* #### [ENiagaraSpriteFacingMode ENiagaraSystemInactiveMode]()
+* #### [ENiagaraSpriteFacingMode]()
+bilmiyorum.
+
+* #### [ENiagaraSystemInactiveMode]()
 bilmiyorum.
 
 * #### [ENiagaraTorusDistributionMode]()
@@ -853,14 +874,17 @@ bilmiyorum.
 * #### [ENiagaraWindOffsetMode]()
 bilmiyorum.
 
-* #### [ENiagaraWindTurbulenceContributionMode ENiagaraWindTurbulenceFrequencyMode]()
+* #### [ENiagaraWindTurbulenceContributionMode]()
+bilmiyorum.
+
+* #### [ENiagaraWindTurbulenceFrequencyMode]()
 bilmiyorum.
 
 * #### [ENiagaraWindTurbulenceMode]()
 bilmiyorum.
 
 * #### [float]()
-bilmiyorum.
+[Float](../../Niagara%20Editörü/Parameters#float) oluşturmanıza yarar, verdiginiz inputa göre float döndürür.
 
 * #### [Half]()
 bilmiyorum.
