@@ -1,4 +1,4 @@
-# Parametreler
+# Parameters
 <img src="../../../Dosyalar/Niagara_Module_Editor_Parameters.jpg">
 
 
