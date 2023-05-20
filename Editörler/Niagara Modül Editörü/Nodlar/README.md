@@ -1058,19 +1058,31 @@ Verilen sayılar eşit ise True degil ise False döndürür.
 Verdiginiz sayı kadar [e sayısının](https://tr.wikipedia.org/wiki/E_say%C4%B1s%C4%B1) üssünü alır.
 
 * #### [Exp2]()
-bilmiyorum.
+"x" i alınan sayı olarak düşünürsek formül: exp(x * log(2))
 
 * #### [Floor]()
-bilmiyorum.
+Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı [Ceil](#ceil)). örnegin 
+<br>
+<br>
+9.9 -> 10
+<br>
+9.1 -> 10
 
 * #### [Frac]()
-bilmiyorum.
+Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir. örnegin,
+<br>
+<br>
+1.5 = 0.5
+<br>
+2.0 = 0
+<br>
+0.99 = 0.99
 
 * #### [Greater Than]()
-bilmiyorum.
+Verdiginiz ilk sayı ikinciden büyükse True degilse False döndürür.
 
 * #### [Greater Than Or Equal]()
-bilmiyorum.
+Verdiginiz ilk sayı ikinciden büyük ve ya eşitse True degilse False döndürür.
 
 * #### [Hash Float]()
 bilmiyorum.
@@ -1082,82 +1094,89 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Lerp]()
-bilmiyorum.
+Formül: [(a * (1 - c)) + (b * c)](https://www.desmos.com/calculator/gtuwm4l27u). Verilen "c" degerine göre "a" ve "b" inputunu birbirine karıştırır, oranlar. Örnegin "a" ve "b" için iki sayı girin mesela 10 ve 0. Eger "c" degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger "c" degerine 0.5 verirseniz sayımız da "a" ve "b" nin ortası yani 5 olur. Yani 0'a yaklaştıkça A, 1'e yaklaştıkça B. En basit tanımıyla oranlama yapar, yüzde olarak degilde 0 - 1 arası gibi düşünün, 0 = %0, 1 = %100.
 
 * #### [Less Than]()
-bilmiyorum.
+Verdiginiz ilk sayı ikinciden küçükse True degilse False döndürür.
 
 * #### [Less Than Or Equal]()
-bilmiyorum.
+Verdiginiz ilk sayı ikinciden küçükse ve ya eşitse True degilse False döndürür.
 
 * #### [Log]()
-bilmiyorum.
+[Logaritma](https://tr.wikipedia.org/wiki/Logaritma)
 
 * #### [Log2]()
-bilmiyorum.
+[İkilik logaritma](https://tr.wikipedia.org/wiki/Logaritma)
 
 * #### [Max]()
-bilmiyorum.
+Verilen iki inputtan büyük olanı döndürür.
 
 * #### [Min]()
-bilmiyorum.
+Verilen iki inputtan küçük olanı döndürür.
 
 * #### [Modulo]()
-bilmiyorum.
+Verdiginiz ilk sayının ikinciye bölümünden kalanı döndürür.
 
 * #### [Modulo Fast]()
-bilmiyorum.
+"Modulo" ile aynı ama precise yani dogruluk degeri daha düşük ama daha hızlı. Eger yüksek dogruluga ihtiyacınız yoksa bunu kullanabilirsiniz.
 
 * #### [Multiply]()
-bilmiyorum.
+Verdiginiz sayıları çarpar.
 
 * #### [MultiplyAdd]()
-bilmiyorum.
+"A" ve "B" olarak verilen sayıları çarpar ve sonuç ile "C" sayısını toplar.
 
 * #### [Negate]()
-bilmiyorum.
+Verilen sayıyı eksiye çevirir (-x), verdiginiz sayı eksi ise artı, artı ise eksi olur.
 
 * #### [Noise]()
 bilmiyorum.
 
 * #### [Normalize]()
-bilmiyorum.
+Verdiginiz vektör'ün degerlerini birbirleriyle oranlayıp en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
 
 * #### [Not Equal]()
-bilmiyorum.
+Verilen iki input birbirine eşit ise True degilse False döndürür.
 
 * #### [One Minus]()
-bilmiyorum.
+Verilen inputun 1'den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0'a yakın olan degerler artık 1'e, 1'e yakın olan degerler artık 0'a yakın. Bakın,
+<br>
+<br>
+1 için 1 - 1 = 0, yani 1 olan deger 0 oldu
+<br>
+0 için 1 - 0 = 1, yani 0 olan deger 1 oldu
+<br>
+0.3 için 1 - 0.3 = 0.7, yani 0.3 olan deger 0.7 oldu
 
 * #### [PI]()
-bilmiyorum.
+Pi sayısı.
 
 * #### [Pow]()
-bilmiyorum.
+Verilen "A" degerinin "B" degeri kadar kuvvetini alır. Eger "A" "B" den küçükse sonuç 0 olur.
 
 * #### [RadiansToDegrees]()
-bilmiyorum.
+Verdigimiz [radyan](https://tr.wikipedia.org/wiki/Radyan) (1 radyan ≈= 57,2958) degerini açı degerine dönüştürür.
 
 * #### [Random]()
-bilmiyorum.
+Verdiginiz deger ile 0 arasında rastgele sayı döndürür.
 
 * #### [Random Float]()
-bilmiyorum.
+Verdiginiz deger ile 0 arasında rastgele float döndürür.
 
 * #### [Random Integer]()
-bilmiyorum.
+Verdiginiz deger ile 0 arasında rastgele integer döndürür.
 
 * #### [Reciprocal]()
-bilmiyorum.
+Verilen sayının 1'e bölümünden kalan degeri verir. En basit tanımıyla degerin oranını verir diyebiliriz, yüzde olarak degilde 0 - 1 arası gibi düşünün, 0 = %0, 1 = %100.
 
 * #### [Reciprocal Fast]()
-bilmiyorum.
+"Reciprocal" ile aynı ama precise yani dogruluk degeri daha düşük ama daha hızlı. Eger yüksek dogruluga ihtiyacınız yoksa bunu kullanabilirsiniz.
 
 * #### [Reciprocal Sqrt]()
 bilmiyorum.
 
 * #### [Round]()
-bilmiyorum.
+Verilen sayıyı yuvarlar (sayıyı yuvarlar yani).
 
 * #### [Seeded Float Random]()
 bilmiyorum.
@@ -1169,7 +1188,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Sign]()
-bilmiyorum.
+Sayıların eksi, artı ve ya sıfıra eşit olup olmadıgını tespit etmede kullanılır. Sayı 0'a eşitse 0, düşükse -1, büyükse +1 döndürür.
 
 * #### [Sine]()
 bilmiyorum.
@@ -1181,13 +1200,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Sqrt]()
-bilmiyorum.
+Verilen sayının karekökünü alır.
 
 * #### [Step]()
 bilmiyorum.
 
 * #### [Subtract]()
-bilmiyorum.
+Verilen bütün inputları sırasıyla ilk inputtan çıkarır.
 
 * #### [Tangent]()
 bilmiyorum.
@@ -1199,10 +1218,15 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Trunc]()
-bilmiyorum.
+Verilen sayının kesirli kısmını siler, tam sayı halinde verir. örnegin 
+<br>
+<br>
+1.9 -> 1
+<br>
+1.1 -> 1
 
 * #### [TWO_PI]()
-bilmiyorum.
+Pi sayısı * 2.
 
 
 ## Parameter Map
