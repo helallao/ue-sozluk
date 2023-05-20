@@ -4,6 +4,7 @@
 
 * Niagara modül editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
 * Niagara modül editörü nodlarına [Nodlar](Nodlar) bölümünden ulaşabilirsiniz.
+* Parametre türlerine Niagara Editörü'nün [Parametreler](../Niagara%20Editörü/Parameters#parametre-türleri) bölümünden ulaşabilirsiniz
 
 
 # Bölümler
