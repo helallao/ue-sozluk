@@ -1118,7 +1118,7 @@ Verilen inputun kuvvetini alır.
 
 
 * #### [RadiansToDegrees]()
-
+Verdigimiz [radyan](https://tr.wikipedia.org/wiki/Radyan) (1 radyan ≈= 57,2958) degerini açı degerine dönüştürür.
 
 * #### [RayTracedSphere]()
 
