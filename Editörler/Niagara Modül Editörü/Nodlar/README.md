@@ -613,23 +613,23 @@ bilmiyorum.
 
 ## Integer
 
-* #### [Bitwise AND]()
-bilmiyorum.
+* #### [Bitwise AND](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
+Bitwise "And" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek istiyorsanız linke bakabilirsiniz.
 
-* #### [Bitwise Left Shift]()
-bilmiyorum.
+* #### [Bitwise Left Shift](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
+Bitwise "Left Shift" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek istiyorsanız linke bakabilirsiniz.
 
-* #### [Bitwise NOT]()
-bilmiyorum.
+* #### [Bitwise NOT](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
+Bitwise "Not" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek istiyorsanız linke bakabilirsiniz.
 
-* #### [Bitwise OR]()
-bilmiyorum.
+* #### [Bitwise OR](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
+Bitwise "Or" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek istiyorsanız linke bakabilirsiniz.
 
-* #### [Bitwise Right Shift]()
-bilmiyorum.
+* #### [Bitwise Right Shift](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
+Bitwise "Right Shift" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek istiyorsanız linke bakabilirsiniz.
 
-* #### [Bitwise XOR]()
-bilmiyorum.
+* #### [Bitwise XOR](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
+Bitwise "Xor" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek istiyorsanız linke bakabilirsiniz.
 
 
 ## Make
