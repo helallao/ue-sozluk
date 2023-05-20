@@ -161,7 +161,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Custom Hlsl]()
-bilmiyorum.
+HLSL dili (High-Level Shader Language) ile yazılan kodları çalıştırmanıza yarar. Zaten nodların hepsi küçük küçük HLSL dili ile yazılmış kodlardır. Biz de bu nodları birleştirerek işlemler yapıyoruz.
 
 * #### [Decompress Quaternion GPU]()
 bilmiyorum.
