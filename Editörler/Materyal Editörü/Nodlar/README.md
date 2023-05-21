@@ -1092,7 +1092,7 @@ Verilen iki inputtan küçük olanı döndürür. Vektör verirseniz her boyutun
 "Base" olarak verilen inputu "Add" olarak verilen input ile çarpar ve sonuç ile "Add" inputunu toplar.
 
 * #### [Normalize](https://www.youtube.com/watch?v=SH4XTfPmeH4)  ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verdiginiz vektör en az 2 boyuttan oluşuyorsa ((S) de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
+Verdiginiz vektör en az 2 boyuttan oluşuyorsa ((S) de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (bütün boyutların toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
 
 
 * #### [OneMinus(1-x)](https://youtu.be/bS6WWlAVj9o) ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
@@ -3437,7 +3437,7 @@ Türkçesi [Nokta Çarpım](https://tr.wikipedia.org/wiki/Nokta_%C3%A7arp%C4%B1m
 
 
 * #### [Normalize](https://www.youtube.com/watch?v=SH4XTfPmeH4)  ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-Verdiginiz vektör en az 2 boyuttan oluşuyorsa ((S) de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
+Verdiginiz vektör en az 2 boyuttan oluşuyorsa ((S) de verebilirsiniz ama aynı sonucu döndürür) bu ögeleri birbirleriyle oranlayıp, en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (bütün boyutların toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
 
 * #### [Transform]()
 The Transform expression converts a three-channel vector value from one reference coordinate system to another.By default, all shader calculations in a material are done in tangent space. The vector constants, camera vector, light vector, etc are all transformed to tangent space before being used in a material. The Transform expression allows these vectors to be transformed from tangent space to world-space, local-space, or view-space coordinate systems. In addition, it allows world-space and local-space vectors to be transformed to any of the other reference coordinate systems.
