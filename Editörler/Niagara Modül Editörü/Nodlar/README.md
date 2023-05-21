@@ -1276,20 +1276,20 @@ Her bir frame'de, şu an, bu modülün çalıştıgı parçacıgın index numara
 * #### [Reroute]()
 Düzenleme nodu.
 
-* #### [Select / If]()
+* #### [Select / If(Select)]()
 bilmiyorum.
 
 * #### [Spawn Interpolation]()
 bilmiyorum.
 
 * #### [Static Switch]()
-bilmiyorum.
+"Select / If" nodunun static versionudur. İki input alır ve koşul degerine göre seçim yapar. "Select / If" nodunun aksine koşul degerini kod içinde belirleyemezsiniz. Kullanıcıdan parametre olarak alınır. Nodu seçtiginiz zaman detaylar penceresinde "Input parameter name" ayarı ile parametrenin ismini belirleyebilirsiniz, "Default value" ayarı ile default degeri ayarlayabilirsiniz. Her bir Static Switch nodu parametreler bölümünde [Static Switch Inputs](../Parameters#static-switch-inputs) kategorisinde görünür.
 
 
 ## No Category
 
 * #### [Convert]()
-bilmiyorum.
+Verilen inputun veri tipini degiştirir.
 
 * #### [Output Module]()
 Her bir oluşturdugunuz niagara modülünde otomatik olarak bir tane "Output Module" vardır. Output Module [ParameterMap](../Terimler%20Sözlügü#parametermap) alır.
