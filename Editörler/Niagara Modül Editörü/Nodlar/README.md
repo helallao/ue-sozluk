@@ -1094,7 +1094,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Lerp]()
-Formül: [(a * (1 - c)) + (b * c)](https://www.desmos.com/calculator/gtuwm4l27u). Verilen "c" degerine göre "a" ve "b" inputunu birbirine karıştırır, oranlar. Örnegin "a" ve "b" için iki sayı girin mesela 10 ve 0. Eger "c" degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger "c" degerine 0.5 verirseniz sayımız da "a" ve "b" nin ortası yani 5 olur. Yani 0'a yaklaştıkça A, 1'e yaklaştıkça B. En basit tanımıyla oranlama yapar, yüzde olarak degilde 0 - 1 arası gibi düşünün, 0 = %0, 1 = %100.
+Formül: [(a * (1 - c)) + (b * c)](https://www.desmos.com/calculator/gtuwm4l27u). Verilen "c" degerine göre "a" ve "b" inputunu birbirine karıştırır, oranlar. Örnegin "a" ve "b" için iki sayı girin mesela 10 ve 0. Eger "c" degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger "c" degerine 0.5 verirseniz sayımız da "a" ve "b" nin ortası yani 5 olur. Yani 0'a yaklaştıkça A, 1'e yaklaştıkça B. Kısacası en basit tanımıyla oranlama yapar diyebiliriz, yüzde olarak degilde 0 - 1 arası gibi düşünün, 0 = %0, 1 = %100.
 
 * #### [Less Than]()
 Verdiginiz ilk sayı ikinciden küçükse True degilse False döndürür.
@@ -1109,10 +1109,10 @@ Verdiginiz ilk sayı ikinciden küçükse ve ya eşitse True degilse False dönd
 [İkilik logaritma](https://tr.wikipedia.org/wiki/Logaritma)
 
 * #### [Max]()
-Verilen iki inputtan büyük olanı döndürür.
+Verilen inputlardan büyük olanı döndürür.
 
 * #### [Min]()
-Verilen iki inputtan küçük olanı döndürür.
+Verilen inputlardan küçük olanı döndürür.
 
 * #### [Modulo]()
 Verdiginiz ilk sayının ikinciye bölümünden kalanı döndürür.
@@ -1133,10 +1133,10 @@ Verilen sayıyı eksiye çevirir (-x), verdiginiz sayı eksi ise artı, artı is
 bilmiyorum.
 
 * #### [Normalize]()
-Verdiginiz vektör'ün degerlerini birbirleriyle oranlayıp en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (her boyutun toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
+Verdiginiz vektör'ün degerlerini birbirleriyle oranlayıp en fazla 1'e eşit olacak şekilde 0 ve 1 arasına taşır (bütün boyutların toplamı 1 degil, her boyut en fazla 1 olabilir). Yani her boyuttaki sayılar, birbirlerine oranını kaybetmeden 0 ve 1 arasına taşınır.
 
 * #### [Not Equal]()
-Verilen iki input birbirine eşit ise True degilse False döndürür.
+Verilen iki input birbirine eşit degilise True eşitse False döndürür.
 
 * #### [One Minus]()
 Verilen inputun 1'den çıkarılmış halini döndürür. Aslında bu node 0 ve 1 arasındaki herşeyi karşıya geçirir, yani flip yapar. Mesela aşagıdaki örneklerde 0'a yakın olan degerler artık 1'e, 1'e yakın olan degerler artık 0'a yakın. Bakın,
@@ -1158,34 +1158,34 @@ Verilen "A" degerinin "B" degeri kadar kuvvetini alır. Eger "A" "B" den küçü
 Verdigimiz [radyan](https://tr.wikipedia.org/wiki/Radyan) (1 radyan ≈= 57,2958) degerini açı degerine dönüştürür.
 
 * #### [Random]()
-Verdiginiz deger ile 0 arasında rastgele sayı döndürür.
+0 ile verdiginiz deger arasında rastgele sayı (noktalı yani kesirli, float) döndürür.
 
 * #### [Random Float]()
-Verdiginiz deger ile 0 arasında rastgele float döndürür.
+0 ile verdiginiz deger arasında rastgele float döndürür.
 
 * #### [Random Integer]()
-Verdiginiz deger ile 0 arasında rastgele integer döndürür.
+0 ile verdiginiz deger'in 1 eksigi (x - 1) arasında rastgele integer döndürür.
 
-* #### [Reciprocal]()
-Verilen sayının 1'e bölümünden kalan degeri verir. En basit tanımıyla degerin oranını verir diyebiliriz, yüzde olarak degilde 0 - 1 arası gibi düşünün, 0 = %0, 1 = %100.
+* #### [Reciprocal](https://en.wikipedia.org/wiki/Multiplicative_inverse)
+1'in verilen sayıya bölümünü verir. 1/x.
 
 * #### [Reciprocal Fast]()
 "Reciprocal" ile aynı ama precise yani dogruluk degeri daha düşük ama daha hızlı. Eger yüksek dogruluga ihtiyacınız yoksa bunu kullanabilirsiniz.
 
 * #### [Reciprocal Sqrt]()
-bilmiyorum.
+"Reciprocal" ile aynı ama 1'e bölmeden önce verdiginiz sayının karekökünü alır.
 
 * #### [Round]()
 Verilen sayıyı yuvarlar (sayıyı yuvarlar yani).
 
 * #### [Seeded Float Random]()
-bilmiyorum.
+"Random Float" ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. 3 tane seed inputu verilmiş, aslında bence bu kadar seed inputuna gerek yoktu, 1 tanesi yeterli. Mesela eger bu noda input olarak 5 (float) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3.70 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız.
 
 * #### [Seeded Integer Random]()
-bilmiyorum.
+"Random Integer" ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. 3 tane seed inputu verilmiş, aslında bence bu kadar seed inputuna gerek yoktu, 1 tanesi yeterli. Mesela eger bu noda input olarak 5 (integer) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız.
 
 * #### [Seeded Random]()
-bilmiyorum.
+"Random" ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. 3 tane seed inputu verilmiş, aslında bence bu kadar seed inputuna gerek yoktu, 1 tanesi yeterli. Mesela eger bu noda input olarak 5 (float) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3.70 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız. Eger fark ettiyseniz sonuç "Seeded Float Random" ile aynı sonucu verdi çünkü input olarak float verdik, ama eger integer verseydiniz o zaman "Seeded Integer Random" ile aynı sonucu vermezdi çünkü "Seeded Integer Random" verdiginiz sayının bir eksigini (x - 1) alıyor. Dolayısıyla "Seeded Integer Random" ile aynı sonucu almak için verdigimiz degerin bir eksigini (x - 1) vermeliyiz.
 
 * #### [Sign]()
 Sayıların artı ve ya eksi oldugunu tespit etmede kullanılır. Sayı 0'dan düşükse -1, büyükse +1 döndürür.
