@@ -1277,7 +1277,7 @@ Her bir frame'de, şu an, bu modülün çalıştıgı parçacıgın index numara
 Düzenleme nodu.
 
 * #### [Select / If(Select)]()
-bilmiyorum.
+İki input alır ve koşul degerine (selector) göre seçim yapar. Kısacası if else nodudur.
 
 * #### [Spawn Interpolation]()
 bilmiyorum.
