@@ -1058,7 +1058,7 @@ Verilen sayılar eşit ise True degil ise False döndürür.
 Verdiginiz sayı kadar [e sayısının](https://tr.wikipedia.org/wiki/E_say%C4%B1s%C4%B1) üssünü alır.
 
 * #### [Exp2]()
-"x" i alınan sayı olarak düşünürsek formül: exp(x * log(2))
+Verdiginiz sayı kadar 2'nin üssünü alır. Yani 2^x.
 
 * #### [Floor]()
 Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı [Ceil](#ceil)). örnegin 
@@ -1188,7 +1188,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Sign]()
-Sayıların eksi, artı ve ya sıfıra eşit olup olmadıgını tespit etmede kullanılır. Sayı 0'a eşitse 0, düşükse -1, büyükse +1 döndürür.
+Sayıların artı ve ya eksi oldugunu tespit etmede kullanılır. Sayı 0'dan düşükse -1, büyükse +1 döndürür.
 
 * #### [Sine]()
 bilmiyorum.
