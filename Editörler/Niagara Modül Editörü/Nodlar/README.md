@@ -8,6 +8,11 @@
 
 
 
+## Break
+
+Bu kategori sadece çok boyutlu veri tipleri ve özel veri tiplerinde ortaya çıkar. Veriyi parçalayıp içindeki elementleri alabilirsiniz.
+
+
 ## Boolean
 
 * #### [Bool Equal]()
@@ -1266,6 +1271,12 @@ bilmiyorum.
 
 * #### [Translator.CallID]()
 bilmiyorum.
+
+
+## Swizzles
+
+* #### [XYZW]()
+Bu kategori sadece çok boyutlu veri tiplerinde ortaya çıkar. Boyutların yerlerini degiştirmenize yarar. Sadece istediginiz kombinasyonu yazmanız yeterlidir. Kullanabileceginiz bütün kombinasyonlar "XYZW" harfleridir.
 
 
 ## Utility
