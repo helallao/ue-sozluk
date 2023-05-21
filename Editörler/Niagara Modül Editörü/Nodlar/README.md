@@ -1188,7 +1188,7 @@ Verilen sayıyı yuvarlar (sayıyı yuvarlar yani).
 "Random" ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. 3 tane seed inputu verilmiş, aslında bence bu kadar seed inputuna gerek yoktu, 1 tanesi yeterli. Mesela eger bu noda input olarak 5 (float) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3.70 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız. Eger fark ettiyseniz sonuç "Seeded Float Random" ile aynı sonucu verdi çünkü input olarak float verdik, ama eger integer verseydiniz o zaman "Seeded Integer Random" ile aynı sonucu vermezdi çünkü "Seeded Integer Random" verdiginiz sayının bir eksigini (x - 1) alıyor. Dolayısıyla "Seeded Integer Random" ile aynı sonucu almak için verdigimiz degerin bir eksigini (x - 1) vermeliyiz.
 
 * #### [Sign]()
-Sayıların artı ve ya eksi oldugunu tespit etmede kullanılır. Sayı 0'dan düşükse -1, büyükse +1 döndürür.
+Sayıların artı ve ya eksi oldugunu tespit etmede kullanılır. Sayı 0'dan düşükse -1, eşit ve ya büyükse +1 döndürür.
 
 * #### [Sine]()
 bilmiyorum.
