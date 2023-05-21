@@ -1250,13 +1250,13 @@ bilmiyorum.
 ## Position
 
 * #### [Distance]()
-bilmiyorum.
+Verdiginiz iki pozisyonun arasındaki uzaklıgı verir, [formül](https://www.desmos.com/calculator/yik6xcdesy).
 
 
 ## Script Parameters
 
 * #### [InputMap]()
-"Script Parameters" kategorisinde oluşturdugunuz [ParameterMap'ler](../Terimler%20Sözlügü#parametermap) görünür. Buradan ParameterMap'inizi nod olarak koyabilirsiniz ve ya isterseniz [Graph](../Graph) üzerinde duran ParameterMap'inizi kopyalabilirsiniz. Yeni bir niagara modülü oluşturdugunuzda default olarak oluşturulan ParameterMap'in ismi "InputMap" oldugu için buraya da "InputMap" adında bir örnek koydum, isimler sizin ParameterMap'lerinize göre degişir.
+"Script Parameters" kategorisinde oluşturdugunuz [ParameterMap'ler](../Terimler%20Sözlügü#parametermap) görünür. Buradan ParameterMap'inizi node olarak koyabilirsiniz ve ya isterseniz [Graph](../Graph) üzerinde duran ParameterMap'inizi kopyalabilirsiniz. Yeni bir niagara modülü oluşturdugunuzda default olarak oluşturulan ParameterMap'in ismi "InputMap" oldugu için buraya da "InputMap" adında bir örnek koydum, isimler sizin ParameterMap'lerinize göre degişir.
 
 
 ## Special Purpose Parameters
@@ -1271,10 +1271,10 @@ bilmiyorum.
 ## Utility
 
 * #### [Execution Index]()
-bilmiyorum.
+Her bir frame'de, şu an, bu modülün çalıştıgı parçacıgın index numarasını verir. Şöyle anlatayım, diyelim ki siz yazdıgınız bu niagara modülünü bir niagara sisteminde kullandınız ve modül [Particle Update](../../Niagara%20Editörü/Graph#particle-update) kategorisinde. Her bir frame'de bu modül her bir parçacık için işlemler gerçekleştirir, içerisindeki kodu çalıştırır. İşte "Execution Index" nodu size şu anki parçacıgın index numarasını verir, yani sıra numarası.
 
 * #### [Reroute]()
-bilmiyorum.
+Düzenleme nodu.
 
 * #### [Select / If]()
 bilmiyorum.
