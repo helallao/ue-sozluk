@@ -12,6 +12,7 @@ Burası niagara editörü hakkında kaynakları barındıran bölümdür, içeri
 ## Yazılar/Bloglar
 * [Unreal Docs](https://docs.unrealengine.com/5.1/en-US/creating-visual-effects-in-niagara-for-unreal-engine/) - Unreal Engine'nin kendi dökümanları
 * [Unreal Learning Library](https://dev.epicgames.com/community/learning?application=unreal_engine) - Unreal Engine'nin kütüphanesi, hem developerlar hem topluluk tarafından
+* [UE4 Particle Systems](https://3dreference.notion.site/UE4-Particle-Systems-9d823830b3fc4c84824a61654a1d5dcc) - 3D Art In Games (2021) niagara hakkında
 
 
 ## Araçlar
