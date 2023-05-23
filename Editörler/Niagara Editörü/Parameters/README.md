@@ -60,6 +60,9 @@ Sabit parametreler genellikle bilgi sunan parametrelerdir, belki simulasyon esna
 # Parametreler
 ## System Attributes
 
+Sistem parametreleri, her yerden okunabilir, sadece [System Spawn](../Graph#system-spawn) ve [System Update](../Graph#system-update) tarafından degiştirilebilir.
+
+
 * #### [System.Age](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
 (Degişken) Sistemin yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
 
@@ -101,6 +104,9 @@ bilmiyorum.
 
 
 ## Emitter Attributes
+
+Emitter parametreleri, sadece emitter ve parçacık tarafından okunabilir, sadece [Emitter Spawn](../Graph#emitter-spawn) ve [Emitter Update](../Graph#emitter-update) tarafından degiştirilebilir.
+
 
 * #### [Emitter.Age]()
 (Degişken) Emitter'ın yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
@@ -187,6 +193,9 @@ bilmiyorum.
 
 ## Particle Attributes
 
+Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçacık için ayrı ayrıdır. Sadece parçacık tarafından okunabilir, sadece [Particle Spawn](../Graph#particle-spawn) ve [Particle Update](../Graph#particle-update) tarafından degiştirilebilir.
+
+
 * #### [Particles.Age]()
 (Degişken) Parçacıgın yaşını, yaşam süresini, yaşadıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
 
@@ -254,6 +263,9 @@ bilmiyorum.
 
 
 ## Module Outputs
+
+Kullanılan modüllerin çıktı (output) parametreleri, sadece o modül tarafından okunabilir, sadece o modül ve oldugu kategori (Sistem/Emitter/Parçacık) tarafından degiştirilebilir.
+
 
 * #### [Output.ApplyInitialForces.IncomingPhysicsForce]()
 bilmiyorum.
@@ -328,6 +340,9 @@ bilmiyorum.
 
 ## Engine Provided
 
+Niagara tarafından oluşturulan parametreler, her yerden okunabilir, degiştirilemez.
+
+
 * #### [Engine.DeltaTime]()
 (Degişken) Her frame (kare, fps) arasındaki DeltaTime yani gecikme süresini verir.
 
@@ -384,6 +399,9 @@ Oyunda geçen toplam süreyi (saniye cinsinden) verir. Blueprint'deki "Game Time
 
 ## Stack Context Sensitive
 ## Stage Transients
+
+Transient yani geçici parametreler, her bir frame'de degişebilirler dolayısıyla sadece şu an çalışan modül için anlamları vardır.
+
 
 * #### [Transient.FirstFrame]()
 (Durumsal) Sadece FirstFrame yani ilk frame'de (kare, fps) true degeri döndürür, sonra false.
