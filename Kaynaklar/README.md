@@ -56,6 +56,8 @@ Burası Unreal Engine hakkında kaynakları barındıran bölümdür, içerisind
 Burdaki serverlar sadece ünlü olanlar, daha fazla server için [disboard'a](https://disboard.org/) bakabilirsiniz. 
 * [Unreal Slackers](https://discord.gg/unreal-slackers)
 * [PrismaticaDev](https://discord.gg/prismaticadevlearninghub)
+* [JangaFX Software](https://discord.gg/jangafx) - Vfx üzerine software yazılımları üreten bir şirketin discordu, vfx üzerine bir çok kanal var (unreal dahil)
+* [Black Pearl](https://discord.gg/M2kqB4M9tG) - Crack uygulamalar (sadece vfx) yapan bi grubun discordu, vfx üzerine bir çok kanal var (unreal dahil)
 * [Snappy Gurus](https://discord.gg/yaupCRVEDE)
 * [Unreal Engine](https://discord.gg/RhsxUpSs4b)
 * [Developers Creed](https://disboard.org/server/735642528727957516)
