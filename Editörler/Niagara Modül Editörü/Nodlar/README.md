@@ -1267,7 +1267,7 @@ Verdiginiz iki pozisyonun arasındaki uzaklıgı verir, [formül](https://www.de
 ## Special Purpose Parameters
 
 * #### [Begin Defaults]()
-bilmiyorum.
+Bu modül parametrelerin default (başlangıç) degerlerini ayarlamak için kullanılan bir noddur ama artık kullanılmıyor, parametrelerin default (başlangıç) degerlerini [Parameters](../Parameters) bölümünden ayarlayabilirsiniz.
 
 * #### [Translator.CallID]()
 bilmiyorum.
