@@ -812,7 +812,7 @@ Konuma offset vermenize yarar.
 Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Mass Mode
-Mass degeri (kütle) için kullanılacak mod, 3 modu vardır,
+Mass degeri (kütle) için kullanılacak mod, parçacıgın kütlesi parçacıga uygulanacak etkilerin falan katsayısını belirler. Yani parçacıgın kütlesi 2 ise (normalde 1'dir) 2 kat etki uygulanır. 3 modu vardır,
 <br>
 <br>
 Unset = Mass (kütle) olarak 1 verir.
@@ -822,7 +822,7 @@ Direct Set = İstediginiz mass degerini verirsiniz, bu modu seçince "Mass" inpu
 Random = İstediginiz aralıkta rastgele mass degerini verirsiniz, bu modu seçince "Mass Min" ve "Mass Max" inputları açılır.
 
 * #### Mass
-Sadece "Mass Mode" "Direct Set" modundayken vardır. Parçacıgın mass (kütle) degerini ayarlar. Parçacıgın kütlesi parçacıga uygulanacak etkilerin falan katsayısını belirler. Yani parçacıgın kütlesi 2 ise (normalde 1'dir) 2 kat etki uygulanır.
+Sadece "Mass Mode" "Direct Set" modundayken vardır. Parçacıgın mass (kütle) degerini ayarlar.
 
 * #### Mass Min
 Sadece "Mass Mode" "Random" modundayken vardır. Parçacıgın sanip olabilecegi minimum mass (kütle) degeri.
