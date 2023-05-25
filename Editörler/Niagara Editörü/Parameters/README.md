@@ -425,7 +425,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Transient.SpawningbCanEverSpawn]()
-bilmiyorum.
+(Durumsal) Bu parametre sadece [Spawn Rate](../Moduller#spawn-rate) ve [Spawn Per Frame](../Moduller#spawn-per-frame) modülleri tarafından degiştirilir. Eger [Spawn Rate](../Moduller#spawn-rate) ve ya [Spawn Per Frame](../Moduller#spawn-per-frame) modüllerinden birisi hiç parçacık spawn ettiyse (ve ya edebilecekse, emin degilim) bu deger True olur, hiç parçacık spawn etmediyse bu deger False olur.
 
 
 
