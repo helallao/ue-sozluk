@@ -344,7 +344,7 @@ Niagara tarafından oluşturulan parametreler, her yerden okunabilir, degiştiri
 
 
 * #### [Engine.DeltaTime]()
-(Degişken) Her frame (kare, fps) arasındaki DeltaTime yani gecikme süresini verir.
+(Degişken) Her frame (kare, fps) arasındaki DeltaTime yani gecikme süresini verir yani bu deger bir önceki frame ile şu anki frame arasındaki süreyi verir.
 
 * #### [Engine.Emitter.NumParticles]()
 (Degişken) Şu anki parçacık sayısını verir.
