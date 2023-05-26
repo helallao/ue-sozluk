@@ -163,7 +163,7 @@ bilmiyorum.
 (Sabit) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [X Count](../Moduller#x-count) inputuna baglıdır.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location XYZ Count]()
-[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur.
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. XYZ eksenleri olmak üzere, toplamda oluşturulan parçacık sayısı degerini tutar.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location Y Count]()
 (Sabit) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [Y Count](../Moduller#y-count) inputuna baglıdır.
