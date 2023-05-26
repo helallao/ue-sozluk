@@ -238,6 +238,9 @@ bilmiyorum.
 * #### [Particles.RotateAroundPoint.VectorFromCenter]()
 [Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
 
+* #### [Particles.RotationalVelocityEnabled]()
+(Durumsal) Eger [Rotational Force](../Terimler%20Sözlügü#rotational-velocity) kullanan herhangi bir modül kullandıysanız bu parametrenin degerini True olarak ayarlayacaktır ve bu deger True olarak ayarlandıgı zaman "Solve Forces and Velocity" modülü [Manually Enable Rotational Solver](../Moduller#manually-enable-rotational-solver) ayarı açılmamış bile olsa Rotational Solver'ı aktifleştirir.
+
 * #### [Particles.ShapeLocation.ShapeBitangent]()
 [Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
 
