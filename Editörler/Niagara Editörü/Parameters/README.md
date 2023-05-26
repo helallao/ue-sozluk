@@ -415,6 +415,9 @@ Transient yani geçici parametreler, her bir frame'de degişebilirler dolayısı
 * #### [Transient.PhysicsPotentialEnergy]()
 bilmiyorum.
 
+* #### [Transient.PhysicsRotationalForce]()
+(Degişken) [Transient.PhysicsForce](#transientphysicsforce) gibidir ama [Rotational Force](../Terimler%20Sözlügü#rotational-velocity) etkisi degerini tutar. Yani [Transient.PhysicsForce'un](#transientphysicsforce) [Rotational Force](../Terimler%20Sözlügü#rotational-velocity) için olan versiyonu.
+
 * #### [Transient.ScalabilityEmitterExecutionState]()
 bilmiyorum.
 
