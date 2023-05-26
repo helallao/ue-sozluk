@@ -419,7 +419,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Transient.ScalabilityEmitterSpawnCountScale]()
-bilmiyorum.
+[Spawn](../Moduller#spawning) modülleri tarafından, spawn edilecek parçacık sayısı için çarpan degeri olarak kullanılıyor. Yani bu deger 2 ise o zaman spawn edilecek parçacık sayısı da 2 ile çarpılır ama bu parametreyi ayalabileceginiz bir yer sunulmamış yani hiç degiştiremiyorsunuz, ayrıca degiştirseniz bile [Spawn](../Moduller#spawning) modülleri tarafından, modül çalışmaya başlarken bu deger 1 olarak ayarlanıyor, yani ne işe yaradıgını anlayamadıgım bir parametre.
 
 * #### [Transient.ScalabilityExecutionState]()
 bilmiyorum.
