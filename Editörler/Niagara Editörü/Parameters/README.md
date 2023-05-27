@@ -428,7 +428,7 @@ bilmiyorum.
 [Spawn](../Moduller#spawning) modülleri tarafından, spawn edilecek parçacık sayısı için çarpan degeri olarak kullanılıyor. Yani bu deger 2 ise o zaman spawn edilecek parçacık sayısı da 2 ile çarpılır ama bu parametreyi ayalabileceginiz bir yer sunulmamış yani hiç degiştiremiyorsunuz, ayrıca degiştirseniz bile [Spawn](../Moduller#spawning) modülleri tarafından, modül çalışmaya başlarken bu deger 1 olarak ayarlanıyor, yani ne işe yaradıgını anlayamadıgım bir parametre.
 
 * #### [Transient.ScalabilityExecutionState]()
-bilmiyorum.
+(Durumsal) Sadece [System State](../Moduller#system-state) modülü tarafından okunur/kullanılır, herhangi bir modul tarafından yazılmaz/güncellenmez dolayısıyla bu parametrenin degeri motor tarafından güncellenir diyebiliriz, niagara'nın şu anki çalışma durumunun (aktif mi degil mi) bilgisini tutar.
 
 * #### [Transient.SpawningbCanEverSpawn]()
 (Durumsal) Bu parametre sadece [Spawn Rate](../Moduller#spawn-rate) ve [Spawn Per Frame](../Moduller#spawn-per-frame) modülleri tarafından degiştirilir. Eger [Spawn Rate](../Moduller#spawn-rate) ve ya [Spawn Per Frame](../Moduller#spawn-per-frame) modüllerinden birisi hiç parçacık spawn ettiyse (ve ya edebilecekse, emin degilim) bu deger True olur, hiç parçacık spawn etmediyse bu deger False olur.
