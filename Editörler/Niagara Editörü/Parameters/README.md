@@ -394,8 +394,11 @@ bilmiyorum.
 * #### [Engine.Owner.Velocity]()
 (Degişken) Owner için (yani direktmen simulasyon, dünya üzerindeki niagara objesi) her frame arasındaki hareket edilen mesafeyi hesaplayıp, şu anki hızı (velocity) verir.
 
+* #### [Engine.System.NumEmittersAlive]()
+(Degişken) Aktif olan Emitter sayısını verir.
+
 * #### [Engine.Time]()
-Oyunda geçen toplam süreyi (saniye cinsinden) verir. Blueprint'deki "Game Time in Seconds" ile aynıdır.
+(Degişken) Oyunda geçen toplam süreyi (saniye cinsinden) verir. Blueprint'deki "Game Time in Seconds" ile aynıdır.
 
 
 
