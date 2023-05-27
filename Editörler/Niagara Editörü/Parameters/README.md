@@ -295,7 +295,7 @@ bilmiyorum.
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
 
 * #### [Output.GridLocation.XYZCountAsVector]()
-[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. XYZ eksenleri olmak üzere, her eksendeki parçacık sayısı degerini 3 boyutlu vektör olarak tutar.
 
 * #### [Output.InheritSourceMovement.PositionDelta]()
 bilmiyorum.
