@@ -44,4 +44,4 @@ bilmiyorum.
 bilmiyorum.
 
 ## Data Instance
-bilmiyorum.
+Sadece tek bir parametresi vardır: DataInstance.Alive, parçacıgın yaşayıp yaşamadıgını belirler.
