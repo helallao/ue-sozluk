@@ -256,6 +256,9 @@ bilmiyorum.
 * #### [Particles.ShapeLocation.ShapeVector]()
 [Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
 
+* #### [Particles.UniqueID]()
+(Sabit) Her parçacık için oluşturulan numara/id'yi verir. Her bir yeni parçacıkta bu sayı 1 artar.
+
 * #### [Particles.VectorNoiseInterval]()
 (Degişken) [Vector Noise Force](../Moduller#vector-noise-force) kullanıldıgı zaman oluşturulur. Sıradaki yön degiştirme zamanına kalan süreyi tutar.
 
