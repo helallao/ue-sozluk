@@ -738,7 +738,38 @@ Sadece "Use Influence Falloff" ayarı açıkken vardır. Falloff etkisini tersin
 
 ## [Wind Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1605)
 
-([Particle Update](../Graph#particle-update))
+([Particle Update](../Graph#particle-update)) Parçacıklara rüzgar gibi force etkisi uygular. Bu force etkisi belirli bir pattern (desen) şeklindedir.
+
+
+* #### Wind Speed
+Force etkisi şiddeti yani rüzgar şiddeti ve yönü.
+
+* #### Wind Speed Scale
+"Wind Speed" degeri çarpanı. Mesela diyelim ki 2 yaptınız, o zaman "Wind Speed" degeri de 2 ile çarpılır.
+
+* #### Scale
+Sadece "Turbulance Scale Mode" "Direct Set" modundayken vardır. Türbülans degeri rüzgar yönünün etrafa dogru ne kadar saçılacagını/dagılacagını belirler, türbülans rüzgar hızına göre artar/azalır.
+
+* #### Scale Min / Max
+Sadece "Turbulance Scale Mode" "Speed Range" modundayken vardır. Türbülans degeri için minimum ve maximum degeri belirleyebilirsiniz.
+
+* #### Speed Min / Max
+Sadece "Turbulance Scale Mode" "Speed Range" modundayken vardır. Rüzgar hızı için minimum ve maximum degeri belirleyebilirsiniz.
+
+* #### Scale Curve
+Sadece "Turbulance Scale Mode" "Speed Range Curve" modundayken vardır. Türbülans degerini curve üzerinden ayarlarsınız.
+
+* #### Frequency
+Sadece "Turbulence Frequency Mode" "Constant" modundayken vardır. Frekans degeri rüzgar yönünün ne sıklıkla degişecegini belirler yani takip ettigi pattern (desen) üzerinde ne kadar hızlı ilerleyecegini.
+
+* #### Frequency
+Sadece "Turbulence Frequency Mode" "Constant" modundayken vardır. Frekans degeri rüzgar yönünün ne sıklıkla degişecegini belirler yani takip ettigi pattern (desen) üzerinde ne kadar hızlı ilerleyecegini.
+
+* #### Frequency Min / Max
+Sadece "Turbulence Frequency Mode" "Varying" modundayken vardır. Frekans degeri için minimum ve maximum degeri belirleyebilirsiniz ve "Frequency Blend" inputunu kullanarak belirlediginiz aralıkta degerler üretebilirsiniz.
+
+* #### Frequency Blend
+Sadece "Turbulence Frequency Mode" "Varying" modundayken vardır. Frekans degeri için minimum ve maximum degerleri arasında blend yapmanıza yarar, yani 0 - 1 arası deger vererek minimum ve maximum arasında oranlama yaparak istediginiz degeri üretebilirsiniz, yüzde gibi.
 
 
 
