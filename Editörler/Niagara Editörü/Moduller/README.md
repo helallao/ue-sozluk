@@ -2670,14 +2670,14 @@ Inherit edilecek velocity kaynagı. Defaul olarak [Engine.Owner.Velocity](../Par
 
 ## [Scale Velocity]()
 
-([Particle Update](../Graph#particle-update)) Parçacıgın sahip oldugu velocity degerini scale etmemize yani azaltmamıza/arttırmamıza yarar.
+([Particle Update](../Graph#particle-update)) Parçacıgın ilk frame'de sahip oldugu velocity degerini (yani [Particles.Initial.Velocity](../Parameters#particlesinitialvelocity)) scale etmemize yani azaltmamıza/arttırmamıza yarar.
 
 
 * #### Coordinate Space
 [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Velocity Scale
-Yönlere göre hız degeri çarpanı. Mesela diyelim ki X degerini 2 yaptınız, o zaman X ekseninde sahip olunan velocity degeri 2 ile çarpılır. Bu şekilde XYZ olmak üzere 3 yön için hız degeri çarpanı ayarlayabilirsiniz.
+Yönlere göre hız degeri çarpanı. Mesela diyelim ki X degerini 2 yaptınız, o zaman [Particles.Initial.Velocity'nin](../Parameters#particlesinitialvelocity) X ekseninde sahip olunan velocity degeri 2 ile çarpılır. Bu şekilde XYZ olmak üzere 3 yön için hız degeri çarpanı ayarlayabilirsiniz.
 
 
 
