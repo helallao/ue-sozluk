@@ -356,7 +356,7 @@ Niagara tarafından oluşturulan parametreler, her yerden okunabilir, degiştiri
 (Degişken) Şu anki parçacık sayısını verir.
 
 * #### [Engine.Emitter.SimulationPosition]()
-(Degişken) Simulasyon konumunu verir. Emitter'ın [Local Space](../Graph#local-space) inputuna baglıdır. [Local Space](../Graph#local-space) açık ise (0,0,0), kapalı ise dünya üzerindeki konumu verir.
+(Degişken) Simulasyon konumunu verir. [Local Space](../Graph#local-space) açık ise (0,0,0), kapalı ise dünya üzerindeki konumu verir.
 
 * #### [Engine.Emitter.SpawnCountScale]()
 bilmiyorum.
