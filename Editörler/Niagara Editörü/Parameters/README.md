@@ -209,7 +209,7 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 (Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, Initialize Particle'ın [Color](../Moduller#color-3) degerine baglıdır da denebilir.
 
 * #### [Particles.Initial.Velocity]()
-bilmiyorum.
+(Sabit) Parçacıgın ilk frame'de sahip oldugu velocity degerini verir. İlk frame oldugu için [Particle Update](../Graph#particle-update) dahil degildir, sadece [Particle Spawn](../Graph#particle-spawn) kategorisinde uygulanmış bir velocity etkisi varsa bu deger degişir.
 
 * #### [Particles.JitterDelayTimer]()
 (Degişken) [Jitter Position](../Moduller#jitter-position) kullanıldıgı zaman oluşturulur. Eger [Jitter Delay](../Moduller#jitter-delay) inputuna deger verilmişse, bir sonraki jitter'ın çagırılmasına kalan süreyi verir.
