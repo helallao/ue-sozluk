@@ -218,7 +218,7 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 (Sabit) Initialize Particle'ın [Lifetime](../Moduller#lifetime) inputuna baglıdır.
 
 * #### [Particles.Mass]()
-bilmiyorum.
+(Sabit) Parçacıgın kütle degerini verir. Kütle degerini force etkilerinde falan katlanma degeri olarak düşünebilirsiniz, eger parçacıgın kütlesi 2 ise (normalde 1'dir) 2 kat etkilenir gibi.
 
 * #### [Particles.MaterialRandom]()
 bilmiyorum.
