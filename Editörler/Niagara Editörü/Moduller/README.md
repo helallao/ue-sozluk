@@ -63,6 +63,9 @@
 
 # Collision
 
+## [Align Particles with Collision Plane]()
+## [Collision]()
+
 ([Particle Update](../Graph#particle-update)) Parçacıklara collision ekler. Collision her frame'de parçacıgın gittigi yönü hesaplayıp herhangi bir objeye çarpıp çarpmadıgını kontrol eder, yani objelerle olan etkileşimi.
 
 
@@ -108,10 +111,8 @@ bilmiyorum.
 * #### Control Roll On Collision
 bilmiyorum.
 
-
-
-## [Align Particles with Collision Plane]()
-## [Collision]()
+* #### Simple Friction
+bilmiyorum. Friction yani sürtünmeyi etkinleştirir, sürtünme etkisi parçacıgın collisionu herhangi bir şey ile etkileşime geçtiginde parçacıgın hızını yavaşlatır yani bir şeye sürtünürken. 
 
 
 
