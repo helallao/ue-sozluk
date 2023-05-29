@@ -407,6 +407,11 @@ bilmiyorum.
 
 
 ## Stack Context Sensitive
+
+Burada oluşturulan parametreler oluşturuldukları kategorinin ismini alırlar. Mesela [Particle Spawn](../Graph#particle-spawn) kategorisindeki bir modül tarafından "Stack Context Sensitive" dalı altında parametre oluşturulduysa, parametre parçacık parametresi olur. İsmi de "Particle." şeklinde başlar yani o dala geçer dolayısıyla "Stack Context Sensitive" dalı altında parametre göremezsiniz.
+
+
+
 ## Stage Transients
 
 Transient yani geçici parametreler, her bir frame'de degişebilirler dolayısıyla sadece şu an çalışan modül için anlamları vardır.
