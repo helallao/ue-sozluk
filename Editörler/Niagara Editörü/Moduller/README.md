@@ -336,7 +336,7 @@ Sadece "Apply Force to Position" ayarı açıkken vardır. Force etkilerini bu s
 Noise yani rastgele yön verme işleminin ne kadar sık olacagını belirler, eger çok sık olursa parçacıklar sürekli her yöne döndügü için hızları yavaşlayacaktır, eger az olursa parçacıkların tek bi yöne gitme süreleri artacagı için hızları artacaktır.
 
 * #### Noise Quality / Cost
-Noise efekti kalitesi, ram'de tuttukları alan degerleri aşagıda, High ve Ultra sadece sinematik yani yüksek kalite gerektiren durumlarda kullanılmalıdır.
+Noise efekti kalitesi, ram'de tuttukları alan degerleri aşagıda, Ultra dışındakiler önceden hazırlanmış bir desen kullanırlar, Ulta ise çalışırken hesaplamaları yapar ve çok pahalıdır, sadece sinematik yani yüksek kalite gerektiren durumlarda kullanılmalıdır.
 <br>
 <br>
 Low --> 65KB
@@ -770,6 +770,27 @@ Sadece "Turbulence Frequency Mode" "Varying" modundayken vardır. Frekans degeri
 
 * #### Frequency Blend
 Sadece "Turbulence Frequency Mode" "Varying" modundayken vardır. Frekans degeri için minimum ve maximum degerleri arasında blend yapmanıza yarar, yani 0 - 1 arası deger vererek minimum ve maximum arasında oranlama yaparak istediginiz degeri üretebilirsiniz, yüzde gibi.
+
+* #### Offset
+Sadece "Turbulence Offset Mode" "Direct Set" modundayken vardır.
+
+* #### Offset By Time
+Sadece "Turbulence Offset Mode" "Time Offset" modundayken vardır.
+
+* #### Turbulence Flow Loop Duration
+Normalde rüzgar efekti belirli bir pattern (desen) üzerinde tekrar eder ve bu şekilde rüzgar efekti verilmiş olunur. Bu ayar ise size desenin tekrarlama süresini ayarlayabilme imkanı verir. Eger desenin tekrarlamasını istemiyorsanız bu süreyi arttırabilirsiniz, eger tekrarlamasını istiyorsanız her tekrarın kaç saniye sürecegini buradan ayarlayabilirsiniz, verdiginiz deger her tekrarın kaç saniye sürecegini belirler.
+
+* #### Noise Quality / Cost
+Noise efekti kalitesi, ram'de tuttukları alan degerleri aşagıda, Ultra dışındakiler önceden hazırlanmış bir desen kullanırlar, Ulta ise çalışırken hesaplamaları yapar ve çok pahalıdır, sadece sinematik yani yüksek kalite gerektiren durumlarda kullanılmalıdır.
+<br>
+<br>
+Low --> 65KB
+<br>
+Medium --> 524KB
+<br>
+High --> 4.2MB
+<br>
+Ultra --> ?
 
 
 
