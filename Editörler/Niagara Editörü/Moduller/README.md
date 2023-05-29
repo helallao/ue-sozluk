@@ -1,6 +1,7 @@
 ### Yazım şekli
 * Her modül için, [Emitter](../Graph#emitter) üzerinde hangi kategorilerde yer alabildigini açıklamanın başına ekledim.
 * Eger modül hakkında güzel bi kaynak (genellikle video) varsa, modül'ün başlıgına eklerim, başlıga tıklayıp videoya gidebilirsiniz, zaten modül'ü anlamak için verdigim kaynaga bakmak gerekiyorsa bunu açıklamada da belirtirim. Bazı modül'lerde güzel kaynak olsa bile koymadım çünkü zaten benim açıklamalarımda ögreneceginiz her şey anlatılıyor.
+* Eger modül'ün içerisindeki bir input modlara sahipse ve bu modlara göre alt inputlar açılıp kapanıyorsa, sadece alt inputlar anlatılır ve hangi moda baglıysa inputun önünde "Sadece '\*' modu '\*' modundayken vardır." şeklinde yazar. Eger bu modlar hakkında açıklama yapılması gerekiyorsa, modlar da input gibi düşünülüp her bir modun açıklaması yazılır.
 * Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
 <br>
 <br>
@@ -61,6 +62,30 @@
 
 
 # Collision
+
+([Particle Update](../Graph#particle-update)) Parçacıklara collision ekler. Collision her frame'de parçacıgın gittigi yönü hesaplayıp herhangi bir objeye çarpıp çarpmadıgını kontrol eder, yani objelerle olan etkileşimi.
+
+
+* #### Correct Interpenetration
+bilmiyorum.
+
+* #### Particle Mass
+bilmiyorum.
+
+* #### PhysicsForce
+bilmiyorum.
+
+* #### CPU Collision Type
+İki türlü collision vardır "Ray Traced" ve "Analytical Planes". Default olarak Ray Traced kullanılır, Ray Traced her frame'de parçacıgın gittigi yönü hesaplayıp herhangi bir objeye çarpıp çarpmadıgını kontrol eder, Analytical Planes'de ise bu collisionları kendiniz belirlersiniz, böylelikle hesaplamalar azalır. Ray Traced Analytical Planes'e göre daha çok işlem yapar, daha pahalıdır.
+
+* #### Collision Enabled
+Collision'u etkinleştirir/devre dışı bırakır. İsterseniz buraya parametre falan baglayabilirsiniz.
+
+
+
+
+
+
 
 ## [Align Particles with Collision Plane]()
 ## [Collision]()
