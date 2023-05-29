@@ -105,6 +105,8 @@ bilmiyorum.
 * #### Randomize Collision Normal
 Çarpışma gerçekleştikten sonra parçacıgın gidecegi yönü rastgele olarak belirlememize yarar. 0 = 0 derece, 1 = 360 derece şeklinde bir koni oluşturur. Her bir 0.1 deger 36 dereceye denk gelir. Yani mesela 0.25 yaparsanız 90 derece bir koni elde ederseniniz.
 
+* #### Control Roll On Collision
+bilmiyorum.
 
 
 
