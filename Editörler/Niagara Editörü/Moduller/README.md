@@ -2609,6 +2609,18 @@ Sadece "Index By X/Y Coordinate" ayarı açıkken vardır. "Index By X/Y Coordin
 # Utility
 
 ## [Do Once]()
+
+([System Spawn](../Graph#system-spawn), [System Update](../Graph#system-update), [Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update), [Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Do Once şu amaçla kullanılır, eger belirli bir durumda belirli bir şeyin gerçekleşmesini istiyorsanız bu modülü kullanırsınız. Bu modül bize "Execute" ve "TriggeredOnce" adında iki parametre oluşturur. Bu parametreleri modüllerimizdeki inputlara baglarız yani modüllerimiz bu parametrelere, bu parametreler de Do Once modülüne baglı olurlar. Do Once'ın "Execute" parametresi True iken tetiklenme işleminin gerçekleştigini yani ona verdigimiz koşul gerçekleştigini, False iken ise gerçekleşmedigini belirtir. "Execute" parametresinin True olabilmesi için Do Once modülünde "Trigger Condition" inputuna koydugumuz koşulun True olması ve "TriggeredOnce" parametresinin False olması gereklidir. "TriggeredOnce" parametresi koşulun daha önce gerçekleştigini belirtir ve tekrardan gerçekleşmesine engel olur. Eger bu engeli aşmak istiyorsak Do Once modülündeki "Reset" inputunu açmalıyız, tabi "Reset" inputunu da kendi istedigimiz gibi koşula baglayacagız. Reset atmak "TriggeredOnce" parametresini tekrar False yapar yani "Execute" parametresini tekrar True yapabilmemiz için gereken şey sadece "Trigger Condition" inputuna koydugumuz koşulun yine True döndürmesidir. İşte bu şekilde istedigimiz koşulda "Execute" parametresini True yapabilir ve tekrar bu parametrenin True olabilmesi için istedigimiz koşulu koyabiliriz. Son olarak bilmeniz gereken bir şey daha var "Execute" parametresi True oldugu zaman başka bir modül tarafından kullanıldıktan sonra bu parametreyi manuel olarak tekrar False yapmalısınız, yapmazsanız hep True olarak kalır, bu da Do Once modülünü tek bir kere kullanabilirsiniz demektir. Eger tek bir kere kullanmanız gereken bi durumdaysanız sorun yok, ama birden fazla kez kullanmak istiyorsanız bu parametre True oldugu zaman işlemlerinizi gerçekleştirdikten sonra tekrar False yapın.
+
+
+* #### Trigger Condition
+"Execute" parametresinin True olarak ayarlanması için gerekli olan koşul, buraya istediginiz koşulları yazabilirsiniz. "Execute" parametresinin True olarak ayarlanması için "TriggeredOnce" parametresi de False olmalıdır yani ya Do Once modülü ilk kez çalışıyor olmalı ya da Reset atılmış olması gerek.
+
+* #### Reset
+Buraya istediginiz koşulları yazabilirsiniz, koşulunuz True döndürdügü anda reset atılır yani "TriggeredOnce" parametresi False olur.
+
+
+
 ## [Emitter Frame Counter]()
 ## [Frame Counter]()
 ## [Increment Over Time]()
