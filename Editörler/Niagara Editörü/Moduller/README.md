@@ -81,7 +81,20 @@ bilmiyorum.
 * #### Collision Enabled
 Collision'u etkinleştirir/devre dışı bırakır. İsterseniz buraya parametre falan baglayabilirsiniz.
 
+* #### Radius Calculation Type
+Üç türlü modu vardır "Sprite", "Mesh" ve "Custom". Sprite modundayken sprite'ınızın boyutuna göre collision oluşturur. Mesh modundayken verdiginiz boyut degerine göre collision oluşturur. Custom modundayken verdiginiz çap degerine göre küre şeklinde collision oluşturur.
 
+* #### Method for Calculating Particle Radius
+Sadece "Radius Calculation Type" "Sprite" ve ya "Mesh" modundayken vardır. Üç türlü modu vardır "Bounds", "Minimum Axis" ve "Maximum Axis". Bounds modundayken orta noktada köşeye kadar olan mesafeyi collision için çap degeri olarak kullanır. Minimum Axis modundayken her yöne olabilecek minimum mesafeyi 2'ye bölüp collision için çap degeri olarak kullanır. Maximum Axis modundayken her yöne olabilecek maximum mesafeyi 2'ye bölüp collision için çap degeri olarak kullanır.
+
+* #### Particle Radius Scale
+Sadece "Radius Calculation Type" "Sprite", "Mesh" ve ya "Custom" modundayken vardır. Collision'ın boyut degerleri için çarpan (katsayı) degeri olarak görev görür, mesela 10 yaparsanız, boyut degerleri 10 ile çarpılır.
+
+* #### Mesh Dimensions
+Sadece "Radius Calculation Type" "Mesh" modundayken vardır. Collision oluşturmak için mesh'inizin her eksendeki boyutunu (cm cinsinden) belirlersiniz.
+
+* #### Particle Radius
+Sadece "Radius Calculation Type" "Custom" modundayken vardır. Collision küresi oluşturmak için çap degerini belirlersiniz.
 
 
 
