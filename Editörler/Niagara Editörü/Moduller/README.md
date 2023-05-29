@@ -96,6 +96,14 @@ Sadece "Radius Calculation Type" "Mesh" modundayken vardır. Collision oluşturm
 * #### Particle Radius
 Sadece "Radius Calculation Type" "Custom" modundayken vardır. Collision küresi oluşturmak için çap degerini belirlersiniz.
 
+* #### Restitution
+Çarpışma gerçekleştikten sonra parçacıgın sahip olacagı hız degeri yani sekme degeri, 1 yaparsanız parçacık çarptıgı anda sahip oldugu hızı hiç kaybetmez, sadece çarptıgı yönün tersine döner yani yansır. 0 yaparsanız parçacık çarptıgı anda bütün hızını kaybeder.
+
+* #### Restitution Coefficient Blending
+bilmiyorum.
+
+* #### Randomize Collision Normal
+Çarpışma gerçekleştikten sonra parçacıgın gidecegi yönü rastgele olarak belirlememize yarar. 0 = 0 derece, 1 = 360 derece şeklinde bir koni oluşturur. Her bir 0.1 deger 36 dereceye denk gelir. Yani mesela 0.25 yaparsanız 90 derece bir koni elde ederseniniz.
 
 
 
