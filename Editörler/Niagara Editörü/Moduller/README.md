@@ -2645,6 +2645,22 @@ Eger bu input True ise sayaç degerini ([Particles.FrameCounter.Counter](../Para
 
 
 ## [Increment Over Time]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül sayaç olarak kullanılır yani süre ölçer. "Enabled" inputuna True verildigi her frame'de degerini o frame süresi kadar arttırır. Toplam saydıgı süreyi [Particles.IncrementOverTime.Counter](../Parameters#particlesincrementovertimecounter) parametresine kaydeder. Normalde sayaç 1 saniye boyunca çalıştıgında sayacın degeri de ([Particles.IncrementOverTime.Counter](../Parameters#particlesincrementovertimecounter)) 1 olur, eger "Rate of Change" inputunu degiştirirseniz bu deger de degişir yani saniye başına sayılacak süreyi degiştirirsiniz, mesela 2 yaparsanız sayaç 1 saniye boyunca çalıştıgında sayacın degeri ([Particles.IncrementOverTime.Counter](../Parameters#particlesincrementovertimecounter)) 2 olur. Ayrıca sayaç her frame'de, son frame'de sayaca eklenen degeri de [Output.IncrementOverTime.Change](../Parameters#outputincrementovertimechange) parametresine kaydeder. 
+
+
+* #### Enabled
+Eger bu input True ise sayaç degerine ([Particles.IncrementOverTime.Counter](../Parameters#particlesincrementovertimecounter)) bu frame geçen süre de eklenir.
+
+* #### Rate of Change
+Sayaç için saydıgı sürenin çarpan degeri. Default olarak 1'dir. Increment Over Time modülü 1 saniye boyunca çalıştıgında sayacın degeri de ([Particles.IncrementOverTime.Counter](../Parameters#particlesincrementovertimecounter)) 1 olur. Bu inputu degiştirmek sayılan süre degerini çarpar yani her frame'de geçen süre sayacın degerine ([Particles.IncrementOverTime.Counter](../Parameters#particlesincrementovertimecounter)) eklenmeden önce bu degerle çarpılır.
+
+* #### Tick Delta
+Sayaç için her frame arasında geçen süre degeri bu input baz alınarak hesaplanır. Default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
+
+
+
+
 ## [Partition Particles]()
 ## [Time Based State Machine]()
 ## [Update MS Vertex Animation Tools Morph Targets]()
