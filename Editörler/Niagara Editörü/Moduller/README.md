@@ -2622,6 +2622,17 @@ Buraya istediginiz koşulları yazabilirsiniz, koşulunuz True döndürdügü an
 
 
 ## [Emitter Frame Counter]()
+
+([Emitter Update](../Graph#emitter-update)) Bu modül frame (kare, fps) sayısı ölçmek için sayaç olarak kullanılır. "Increment Counter" inputuna True verildigi her frame'de degerini bir arttırır. Toplam saydıgı frame sayısını [Emitter.EmitterFrameCounter.Counter](../Parameters#emitteremitterframecountercounter) parametresine kaydeder. "Increment Counter" inputuna istediginiz koşulları yazarak, belirli durumlar için frame sayısını kaydedebilirsiniz, mesela "... olayı kaç frame boyunca devam etti?" gibi. Yazdıgınız koşulların kaç frame boyunca gerçekleştigini saptayabilirsiniz.
+
+
+* #### Increment Counter
+Eger bu input True ise sayaç degerini ([Emitter.EmitterFrameCounter.Counter](../Parameters#emitteremitterframecountercounter)) 1 arttırır.
+
+
+
+
+
 ## [Frame Counter]()
 ## [Increment Over Time]()
 ## [Partition Particles]()
