@@ -211,6 +211,9 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.ID]()
 (Sabit) Emitter'ın [Requires Persistent IDs](../Graph#requires-persistent-ids) ayarı açık iken her parçacıga id verilir ve bu id "Particles.ID" parametresinde tutulur.
 
+* #### [Particles.IncrementOverTime.Counter]()
+(Degişken) [Increment Over Time](../Moduller#increment-over-time) tarafından oluşturulur. Toplamda sayılan süreyi verir.
+
 * #### [Particles.Initial.Color]()
 (Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, Initialize Particle'ın [Color](../Moduller#color-3) degerine baglıdır da denebilir.
 
