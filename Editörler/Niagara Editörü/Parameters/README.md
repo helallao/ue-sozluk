@@ -309,6 +309,9 @@ bilmiyorum.
 * #### [Output.GridLocation.XYZCountAsVector]()
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. XYZ eksenleri olmak üzere, her eksendeki parçacık sayısı degerini 3 boyutlu vektör olarak tutar.
 
+* #### [Output.IncrementOverTime.Change]()
+(Degişken) [Increment Over Time](../Moduller#increment-over-time) tarafından oluşturulur. En son frame'de sayaca ([Particles.IncrementOverTime.Counter](#particlesincrementovertimecounter)) eklenen degeri verir.
+
 * #### [Output.InheritSourceMovement.PositionDelta]()
 bilmiyorum.
 
