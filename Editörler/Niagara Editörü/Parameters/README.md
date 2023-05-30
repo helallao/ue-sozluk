@@ -205,6 +205,9 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.Color]()
 (Durumsal) Parçacıgın renk degeri.
 
+* #### [Particles.FrameCounter.Counter]()
+(Degişken) [Frame Counter](../Moduller#frame-counter) tarafından oluşturulur. Toplamda sayılan frame sayısını verir.
+
 * #### [Particles.ID]()
 (Sabit) Emitter'ın [Requires Persistent IDs](../Graph#requires-persistent-ids) ayarı açık iken her parçacıga id verilir ve bu id "Particles.ID" parametresinde tutulur.
 
