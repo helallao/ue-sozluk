@@ -123,6 +123,9 @@ Emitter parametreleri, sadece emitter ve parçacık tarafından okunabilir, sade
 * #### [Emitter.DistanceTraveled]()
 (Degişken) Emitter'ın toplamda hareket ettigi mesafeyi verir (cm). Hareket ettikçe artar.
 
+* #### [Emitter.EmitterFrameCounter.Counter]()
+(Degişken) [Emitter Frame Counter](../Moduller#emitter-frame-counter) tarafından oluşturulur. Toplamda sayılan frame sayısını verir.
+
 * #### [Emitter.ExecutionState]()
 (Durumsal) Emitter'ın yürütülme durumuna baglıdır. Emitter'ın yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
 <br>
