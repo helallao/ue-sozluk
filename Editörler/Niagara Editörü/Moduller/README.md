@@ -182,7 +182,7 @@ Parçacıgın hızı "Max Speed Threshold" degerine eşit ve büyük iken kullan
 "RGB Scale Max" inputu ile aynı şekilde çalışır, Alpha kanalı içindir.
 
 * #### Source Velocity
-Kullanılacak hız degeri.
+Kullanılacak hız degeri. Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır.
 
 
 
