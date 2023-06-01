@@ -122,7 +122,7 @@ bilmiyorum. Friction yani sürtünmeyi etkinleştirir, sürtünme etkisi parçac
 
 ## [Color]()
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların rengini ayarlar.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıkların rengini ayarlar ([Particles.Color](../Parameters#particlescolor)).
 
 
 * #### Color
