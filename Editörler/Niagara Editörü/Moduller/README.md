@@ -129,7 +129,7 @@ bilmiyorum. Friction yani sürtünmeyi etkinleştirir, sürtünme etkisi parçac
 Renk degeri.
 
 * #### Scale Color
-Renk degeri çarpanı, mesela X (yani R) degerini 10 yaparsanız, "Color" inputuna verdiginiz renk degerinin X (yani R) kanalı 10 ile çarpılır.
+Renk degeri çarpanı (scale), mesela X (yani R) degerini 10 yaparsanız, "Color" inputuna verdiginiz renk degerinin X (yani R) kanalı 10 ile çarpılır.
 
 * #### Scale Alpha
 Alpha degeri çarpanı (scale), mesela 10 yaparsanız, Alpha kanalı 10 ile çarpılır.
