@@ -112,7 +112,7 @@ Emitter parametreleri, sadece emitter ve parçacık tarafından okunabilir, sade
 (Degişken) Emitter'ın yaşını, yaşam süresini, çalıştıgı süreyi verir (saniye türünden). Zaman geçtikçe artar.
 
 * #### [Emitter.AlphaScale]()
-(Durumsal) Parçacıkların renkleri için Alpha kanalı degeri.
+(Sabit) Parçacıkların renkleri için Alpha kanalı degeri çarpanı, mesela 10 yaparsanız Alpha kanalının degeri 10 ile çarpılır. Bu parametre sadece [Color](../Moduller#color-1) modülü tarafından kullanılır. [Color](../Moduller#color-1) modülü zaten "Scale Alpha" adında bir inputa sahiptir ve Alpha kanalının çarpan degerini (scale) bu input ile ayarlayabilirsiniz. "Emitter.AlphaScale" parametresi ise sadece ikincil bir çarpan (scale) degeri olarak kullanılır. Bu parametre hiçbir modül tarafından degiştirilmez, sabittir. İsterseniz manuel olarak ayarlayabilirsiniz ama bundan etkilenen tek modül [Color](../Moduller#color-1) modülü olacaktır, zaten o modül de "Scale Alpha" adında bir inputa sahip.
 
 * #### [Emitter.CurrentLoopDelay]()
 (Sabit) Emitter State'in [Loop Delay](../Moduller#loop-delay) inputuna baglıdır.
