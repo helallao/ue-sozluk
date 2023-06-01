@@ -132,7 +132,7 @@ Renk degeri.
 Renk degeri çarpanı, mesela X (yani R) degerini 10 yaparsanız, "Color" inputuna verdiginiz renk degerinin X (yani R) kanalı 10 ile çarpılır.
 
 * #### Scale Alpha
-Alpha degeri çarpanı, mesela 10 yaparsanız, "Color" inputuna verdiginiz renk degerinin Alpha kanalı 10 ile çarpılır.
+Alpha degeri çarpanı (scale), mesela 10 yaparsanız, Alpha kanalı 10 ile çarpılır.
 
 
 
