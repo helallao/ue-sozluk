@@ -314,7 +314,7 @@ Sadece "Loop Delay" ayarı açıkken vardır. Eger bu seçenek açıksa sadece i
 XYZ olmak üzere her eksende force degerleri.
 
 * #### Coordinate Space
-Acceleration Force'unun uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Acceleration Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
@@ -543,7 +543,7 @@ Bu ayarın tam olarak ne amaçla oldugunu bilmiyorum ama şöyle bi kullanılı�
 
 ## [Linear Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1038)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. [Acceleration Force](#acceleration-force) ile aynıdır.
 
 
 * #### Force
