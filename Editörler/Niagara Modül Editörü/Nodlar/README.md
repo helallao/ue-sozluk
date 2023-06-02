@@ -583,7 +583,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Transform Offset]()
-bilmiyorum.
+[Transform Vector](#transform-vector) ile aynıdır.
 
 * #### [Transform Position]()
 bilmiyorum.
@@ -592,7 +592,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Transform Vector]()
-bilmiyorum.
+[Transform Offset](#transform-offset) ile aynıdır.
 
 * #### [Transform Vector to Mesh Space]()
 bilmiyorum.
