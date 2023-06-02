@@ -395,16 +395,16 @@ bilmiyorum.
 (Sabit) Dünyanıza koydugunuz niagara'nın scale degerini verir.
 
 * #### [Engine.Owner.SystemLocalToWorld]()
-bilmiyorum.
+Dünyanıza koydugunuz niagara objesinin [Local Space'den](../Graph#local-space) World Space'e aktarılması için kullanılan bilgiler.
 
 * #### [Engine.Owner.SystemLocalToWorldNoScale]()
-bilmiyorum.
+Engine.Owner.SystemLocalToWorld ile aynıdır ama scale edilmeden.
 
 * #### [Engine.Owner.SystemWorldToLocal]()
-bilmiyorum.
+Dünyanıza koydugunuz niagara objesinin World Space'den [Local Space'e](../Graph#local-space) aktarılması için kullanılan bilgiler.
 
 * #### [Engine.Owner.SystemWorldToLocalNoScale]()
-bilmiyorum.
+Engine.Owner.SystemWorldToLocal ile aynıdır ama scale edilmeden.
 
 * #### [Engine.Owner.Velocity]()
 (Degişken) Owner için (yani direktmen simulasyon, dünya üzerindeki niagara objesi) her frame arasındaki hareket edilen mesafeyi hesaplayıp, şu anki hızı (velocity) verir.
