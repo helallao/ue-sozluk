@@ -184,10 +184,10 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Direction and Length]()
-bilmiyorum.
+Verilen vektörün (V3) yönünü (normalized olarak) ve uzunlugunu (yani (0,0,0) ile verdiginiz konum arasındaki mesafenin uzunlugunu veriyor) verir.
 
 * #### [Direction and Length Safe]()
-bilmiyorum.
+"Direction and Length" nodunun safe versiyonudur yani aynısıdır, sadece ek özelligi var. Eger verdiginiz vektörün uzunlugu "Threshold" olarak verdiginiz degerden küçükse, "Direction" olarak "Fallback Vector" inputuna verdiginiz vektörü (normalized degil, direktmen aynı şekilde) ve "Length" olarak da bu vektörün uzunlugunu döndürür. Eger verdiginiz vektörün uzunlugu "Threshold" degerinden büyükse, "Direction" olarak "Vector" inputuna verdiginiz vektörü (normalized olarak) ve "Length" olarak da bu vektörün uzunlugunu döndürür. Bunlara ek olarak da, eger "Vector" inputu "Threshold" degerinden küçükse "Below Threshold" outputu True döndürür, degilse False.
 
 * #### [Distance Based Falloff]()
 bilmiyorum.
