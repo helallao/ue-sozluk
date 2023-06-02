@@ -307,7 +307,7 @@ Sadece "Loop Delay" ayarı açıkken vardır. Eger bu seçenek açıksa sadece i
 
 ## [Acceleration Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=79)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. [Linear Force](#linear-force) ile aynıdır.
 
 
 * #### Acceleration
@@ -533,7 +533,7 @@ Dünya üzerindeki niagara objesinin hız degeri bu inputa göre belirlenir, def
 Çizgi/dogru'nun bitiş noktası.
 
 * #### Line Segment in Localspace
-Linear Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). Bu ayar kapalı iken "Line Start" ve "Line End" inputuna verdiginiz konumlar World Space (yani dünya konumu) olarak hesaplanır. Bu ayarı açtıgınızda ise Local Space olarak hesaplanır.
+Line Attraction Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). Bu ayar kapalı iken "Line Start" ve "Line End" inputuna verdiginiz konumlar World Space (yani dünya konumu) olarak hesaplanır. Bu ayarı açtıgınızda ise Local Space olarak hesaplanır.
 
 * #### Attraction Falloff
 Bu ayarın tam olarak ne amaçla oldugunu bilmiyorum ama şöyle bi kullanılış şekli var, degeri eksilere indirirseniz çekim gücü uygulamak yerine itim gücü uyguluyor.
@@ -543,11 +543,11 @@ Bu ayarın tam olarak ne amaçla oldugunu bilmiyorum ama şöyle bi kullanılı�
 
 ## [Linear Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=1038)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır, tek bir farkı vardır, parçacıklara sürekli hız eklemez, sadece bir kere ekler. Dolayısıyla parçacıklar hep aynı hızdadır, sadece en başta spawn olduklarında, bu hız eklendigi zaman bu hıza ulaşana kadar yavaş yavaş hızlanırlar, bu hıza ulaştıklarında artık hep bu hızda giderler.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır.
 
 
 * #### Force
-Şiddet.
+XYZ olmak üzere her eksende force degerleri.
 
 * #### Coordinate Space
 Linear Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
