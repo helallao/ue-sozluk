@@ -532,7 +532,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Simulation Position]()
-bilmiyorum.
+Eger [Local Space](../../Niagara%20Editörü/Graph#local-space) açıksa (0,0,0), kapalıysa [Engine.Owner.Position](../../Niagara%20Editörü/Parameters#engineownerposition) parametresindeki degeri döndürür.
 
 * #### [Simulation Stage Iteration Info]()
 bilmiyorum.
