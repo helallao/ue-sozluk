@@ -453,11 +453,11 @@ Parçacıkların kütlesini dikkate almaz, bütün parçacıklara aynı drag etk
 
 ## [Gravity Force](https://youtu.be/iW867tJ93lU?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=743)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) [Acceleration Force](#acceleration-force) ile aynıdır. Parçacıklara [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara [force etkisi](../Terimler%20Sözlügü#force-ve-velocity) ekler. Genellikle [Particle Update'de](../Graph#particle-update) kullanılır, sürekli artan hız verir.
 
 
 * #### Gravity
-Verilen konumdan parçacıklara çekim gücü uygulanır. Gücü arttırmak için konumu daha da uzaklaştırırız.
+Verilen konumdan parçacıklara çekim gücü uyguluyormuş gibi düşünün. Gücü arttırmak için konumu daha da uzaklaştırırız.
 
 * #### Coordinate Space
 Gravity Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
