@@ -389,10 +389,10 @@ Complete = Tamamlanmış
 bilmiyorum.
 
 * #### [Engine.Owner.Position]()
-(Sabit) Dünyanıza koydugunuz niagara'nın konum degerini verir.
+(Degişken) Dünyanıza koydugunuz niagara'nın konum degerini verir.
 
 * #### [Engine.Owner.Scale]()
-(Sabit) Dünyanıza koydugunuz niagara'nın scale degerini verir.
+(Degişken) Dünyanıza koydugunuz niagara'nın scale degerini verir.
 
 * #### [Engine.Owner.SystemLocalToWorld]()
 Dünyanıza koydugunuz niagara objesinin [Local Space'den](../Graph#local-space) World Space'e aktarılması için kullanılan bilgiler.
