@@ -624,25 +624,53 @@ InputMap | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerin
 InVector | [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirilecek vektör (V3)
 Source Space | Kaynak [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
 Destination Space | Hedef [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
-Apply Scale | Bilmiyorum.
+Apply Scale | Eger True ise Scale degerlerini de kullanır, yani [Engine.Owner.SystemLocalToWorldNoScale](../../Niagara%20Editörü/Parameters#engineownersystemlocaltoworldnoscale) yerine [Engine.Owner.SystemLocalToWorld](../../Niagara%20Editörü/Parameters#engineownersystemlocaltoworld), [Engine.Owner.SystemWorldToLocalNoScale](../../Niagara%20Editörü/Parameters#engineownersystemworldtolocalnoscale) yerine [Engine.Owner.SystemWorldToLocal](../../Niagara%20Editörü/Parameters#engineownersystemworldtolocal) kullanılır.
 
 
 Output | İçerik
 :---: | :---:
-bUseOriginal | Bilmiyorum.
-OutTransform | Bilmiyorum.
-LocalToWorld | Bilmiyorum.
+OutVector | [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirilmiş vektör.
 
 
 
 * #### [Transform Position]()
 [Transform Vector](#transform-vector) ile aynıdır. Özünde [Transform Base](#transform-base) kullanır. [Transform Vector'den](#transform-vector) tek farkı input ve output olarak [Position](../../Niagara%20Editörü/Parameters#position) kullanmasıdır.
 
+
+İnput | İşlem
+:---: | :---:
+Position | [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirilecek pozisyon
+Source Space | Kaynak [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+Destination Space | Hedef [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+Apply Scale | Eger True ise Scale degerlerini de kullanır, yani [Engine.Owner.SystemLocalToWorldNoScale](../../Niagara%20Editörü/Parameters#engineownersystemlocaltoworldnoscale) yerine [Engine.Owner.SystemLocalToWorld](../../Niagara%20Editörü/Parameters#engineownersystemlocaltoworld), [Engine.Owner.SystemWorldToLocalNoScale](../../Niagara%20Editörü/Parameters#engineownersystemworldtolocalnoscale) yerine [Engine.Owner.SystemWorldToLocal](../../Niagara%20Editörü/Parameters#engineownersystemworldtolocal) kullanılır.
+
+
+Output | İçerik
+:---: | :---:
+Position | [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirilmiş pozisyon.
+
+
+
 * #### [Transform Stack Rotation*]()
 bilmiyorum.
 
 * #### [Transform Vector]()
 [Transform Position](#transform-position) ile aynıdır. Özünde [Transform Base](#transform-base) kullanır. [Transform Position'dan](#transform-position) tek farkı input ve output olarak [Vector](../../Niagara%20Editörü/Parameters#vector) kullanmasıdır.
+
+
+İnput | İşlem
+:---: | :---:
+InVector | [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirilecek vektör (V3)
+Source Space | Kaynak [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+Destination Space | Hedef [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+Apply Scale | Eger True ise Scale degerlerini de kullanır, yani [Engine.Owner.SystemLocalToWorldNoScale](../../Niagara%20Editörü/Parameters#engineownersystemlocaltoworldnoscale) yerine [Engine.Owner.SystemLocalToWorld](../../Niagara%20Editörü/Parameters#engineownersystemlocaltoworld), [Engine.Owner.SystemWorldToLocalNoScale](../../Niagara%20Editörü/Parameters#engineownersystemworldtolocalnoscale) yerine [Engine.Owner.SystemWorldToLocal](../../Niagara%20Editörü/Parameters#engineownersystemworldtolocal) kullanılır.
+
+
+Output | İçerik
+:---: | :---:
+OutVector | [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirilmiş vektör.
+
+
 
 * #### [Transform Vector to Mesh Space]()
 bilmiyorum.
