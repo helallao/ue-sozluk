@@ -461,7 +461,15 @@ Point | Noktanın konumu (V3)
 Line Segment Start | Dogrunun başlangıç noktası
 Line Segment End | Dogrunun bitiş noktası
 Parameter Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
-Line Segment in Localspace | Eger dogru 
+Line Segment in Localspace | Dogrunun [Local Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) üzerinde olup olmayacagını belirler.
+
+Output | İçerik
+:---: | :---:
+Vector from Point to Line | Verdiginiz nokta ile dogru arasındaki mesafe (sanırım dogruya en yakın olan nokta ile arasındaki mesafe), yani bu degeri noktanız ile toplarsanız, dogruya ulaşırsınız, bu vektör noktanızın dogruya gitmesi için gerekli olan yolu belirtir
+Normalized Vector from Point to Line | "Vector from Point to Line" outputunun [normalize](#normalize) edilmiş hali, normalized oldugu için yön degeri görevi görüyor yani bu deger noktanızın dogruya ulaşması için gidecegi yön degeridir, dogrunun noktaya olan yönüdür.
+Closest Point on Line Segment | Dogru üzerindeki, verdigimiz noktaya en yakın olan noktanın konumu
+Distance from Point to Line | Dogru ile verdigimiz nokta arasındaki mesafe
+
 
 
 * #### [Polar to Cartesian Coordinates]()
