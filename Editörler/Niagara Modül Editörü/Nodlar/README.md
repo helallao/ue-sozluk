@@ -194,7 +194,7 @@ Verilen vektörün (V3) yönünü (normalized olarak) ve uzunlugunu (yani (0,0,0
 bilmiyorum.
 
 * #### [Distance Based Falloff*]()
-bilmiyorum.
+Bu node yanlışlıkla tekrar eklenmiş. [Distance Based Falloff](#distance-based-falloff) ile aynıdır.
 
 * #### [Do Once Fn]()
 bilmiyorum.
@@ -530,7 +530,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Saturate Float]()
-bilmiyorum.
+Sıfır ve bir arasında [clamp](#clamp) yapar. [Clamp(0, 1)](#clamp) ile eşit yani, ama çok kullanılan bir noddur.
 
 * #### [Scale and Offset Vector]()
 bilmiyorum.
