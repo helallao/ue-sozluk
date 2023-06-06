@@ -452,7 +452,17 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Point to Line Segment Distance]()
-(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli))
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon sizden bir nokta ve bir çizgi/dogru (line) alır. Bunları kullanarak noktanın dogruya ulaşmak için gidecegi yol ve yön bilgisini, ayrıca dogru üzerinde bizim verdigimiz noktaya en yakın olan noktanın konumunu ve dogru ile noktamız arasındaki mesafeyi verir.
+
+
+İnput | İşlem
+:---: | :---:
+Point | Noktanın konumu (V3)
+Line Segment Start | Dogrunun başlangıç noktası
+Line Segment End | Dogrunun bitiş noktası
+Parameter Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+Line Segment in Localspace | Eger dogru 
+
 
 * #### [Polar to Cartesian Coordinates]()
 bilmiyorum.
@@ -584,19 +594,55 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Transform Base]()
-bilmiyorum.
+[Transform Offset](#transform-offset), [Transform Vector](#transform-vector), [Transform Position](#transform-position) fonksiyonları özünde bu fonksiyonu kullanır. Bu fonksiyon konum degerlerinin [Coordinate Space'ini](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirmemize yarar.
+
+
+İnput | İşlem
+:---: | :---:
+Source Space | Kaynak [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+Destination Space | Hedef [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+LocalToWorldTransform | Bilmiyorum.
+WorldToLocalTransform | Bilmiyorum.
+bLocalSpace | Bilmiyorum.
+
+
+Output | İçerik
+:---: | :---:
+bUseOriginal | Bilmiyorum.
+OutTransform | Bilmiyorum.
+LocalToWorld | Bilmiyorum.
+
+
 
 * #### [Transform Offset]()
-[Transform Vector](#transform-vector) ile aynıdır.
+[Transform Vector](#transform-vector) ile aynıdır. Özünde [Transform Base](#transform-base) kullanır. [Transform Vector'den](#transform-vector) tek farkı kodları farklı oldugu için, ek bir input olarak [ParameterMap](../Terimler%20Sözlügü#parametermap) almasıdır.
+
+
+İnput | İşlem
+:---: | :---:
+InputMap | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+InVector | [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space) degiştirilecek vektör (V3)
+Source Space | Kaynak [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+Destination Space | Hedef [Coordinate Space](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space)
+Apply Scale | Bilmiyorum.
+
+
+Output | İçerik
+:---: | :---:
+bUseOriginal | Bilmiyorum.
+OutTransform | Bilmiyorum.
+LocalToWorld | Bilmiyorum.
+
+
 
 * #### [Transform Position]()
-bilmiyorum.
+[Transform Vector](#transform-vector) ile aynıdır. Özünde [Transform Base](#transform-base) kullanır. [Transform Vector'den](#transform-vector) tek farkı input ve output olarak [Position](../../Niagara%20Editörü/Parameters#position) kullanmasıdır.
 
 * #### [Transform Stack Rotation*]()
 bilmiyorum.
 
 * #### [Transform Vector]()
-[Transform Offset](#transform-offset) ile aynıdır.
+[Transform Position](#transform-position) ile aynıdır. Özünde [Transform Base](#transform-base) kullanır. [Transform Position'dan](#transform-position) tek farkı input ve output olarak [Vector](../../Niagara%20Editörü/Parameters#vector) kullanmasıdır.
 
 * #### [Transform Vector to Mesh Space]()
 bilmiyorum.
