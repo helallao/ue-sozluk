@@ -425,7 +425,30 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Normalize Distance Range]()
-bilmiyorum.
+Bu fonksiyon şu işe yarar. Verdiginiz iki noktanın arasındaki mesafe degerini, input olarak verdiginiz "distance" degerine göre 0 - 1 arasında oranlar, yani normalize eder. Bu da bize Falloff degerini vermiş olur, yani bi uzaklık degeri belirleyip sanal bir küre oluştururuz ve bu uzaklık degeri çap görevi görür, bu alan içinde orta noktadan en uç noktaya dogru, verdigimiz noktanın sınıra ne kadar yakın oldugunu buluruz. Mesela diyelim ki "Start Position" olarak (0,0,0), "End Position" olarak (150,0,0), ve "Distance" olarak 300 verdik. Bu durumda başlangıç ve bitiş noktası arasındaki mesafe 150 olacaktır. "Distance" olarak 300 verdigimiz için, 150'nin 300'e göre oranı %50 dir, %50 nin 0 - 1 arasındaki karşılıgı 0.5 oldugu için "Normalized Range" outputu 0.5 verir.
+
+
+İnput | İşlem
+:---: | :---:
+Start Position | Başlangıç noktası, genellikle (0,0,0) veririz çünkü (0,0,0) konumunu baz alırız, yani hiç hareket etmemiş, başlangıç konumunu. Eger herhangi bir şeyin konumunu baz alarak Falloff degeri almak istiyorsanız, o şeyin konumunu verebilirsiniz
+End Position | Bitiş noktası, bu noktanın başlangıç noktasına olan uzaklıgına, "Distance" inputuna verdigimiz sınır degerine göre, noktanın sınıra ne kadar yakın oldugu belirlenir.
+Distance | Mesafe degeri, sınır, bu deger ile sanal bir küre oluştururuz gibi düşünün, küremiz başlangıç noktasını orta nokta olarak baz alır, bitiş noktasının konumu sınır degerini geçtigi zaman, sınırın dışına çıkmış olur
+Fallback Vector | Eger başlangıç ve bitiş noktaları arasındaki mesafe 0 ise, 
+
+Output | İçerik
+:---: | :---:
+Normalized Range | İki noktanın arasındaki mesafe degerinin, input olarak verdiginiz "distance" degerine göre 0 - 1 arasındaki oranı, yani normalize edilmiş degeri. Bu deger bize bitiş noktasının sınıra ne kadar yakın oldugunu söyler, tam orta noktada iken 0 yani sınırdan en uzak mesafede, tam uç noktada iken 1 yani sınır üzerinde demektir.
+Inverse Normalized Range | "Normalized Range" output degerinin 1'den çıkarılmış hali yani inverse edilmiş hali. "Normalized Range" outputu sınıra olan yakınlıgı veriyorsa, bu deger de sınıra olan uzaklıgı verir, yani "Normalized Range" outputu 0.4 ise, bu deger 0.6 dır.
+Normalized Vector Between Positions | d
+Within Range | Bitiş noktasının sınır içinde olup olmadıgı bilgisini verir. Bitiş noktası sınırı geçmediyse True döndürür, geçtiyse False.
+
+
+
+
+
+
+
+
 
 * #### [Normalized Execution Index]()
 bilmiyorum.
