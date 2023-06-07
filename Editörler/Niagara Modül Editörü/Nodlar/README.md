@@ -191,10 +191,31 @@ Verilen vektörün (V3) yönünü (normalized olarak) ve uzunlugunu (yani (0,0,0
 "Direction and Length" nodunun safe versiyonudur yani aynısıdır, sadece ek özelligi var. Eger verdiginiz vektörün uzunlugu "Threshold" olarak verdiginiz degerden küçükse, "Direction" olarak "Fallback Vector" inputuna verdiginiz vektörü (normalized degil, direktmen aynı şekilde) ve "Length" olarak da bu vektörün uzunlugunu döndürür. Eger verdiginiz vektörün uzunlugu "Threshold" degerinden büyükse, "Direction" olarak "Vector" inputuna verdiginiz vektörü (normalized olarak) ve "Length" olarak da bu vektörün uzunlugunu döndürür. Bunlara ek olarak da, eger "Vector" inputu "Threshold" degerinden küçükse "Below Threshold" outputu True döndürür, degilse False.
 
 * #### [Distance Based Falloff]()
-bilmiyorum.
+Bu fonksiyon özünde [Normalize Distance Range](#normalize-distance-range) kullanır, o fonksiyonu bilmeden şimdi anlattıklarımı anlayamazsınız. [Normalize Distance Range'e](#normalize-distance-range) ek olarak bir iki şey vardır. İlk olarak "InvertFalloff" diye bir input var, eger kodlara bakarsanız görürsünüz, bu inputa True verdiginizde normal degeri degil de inverse edilmiş degeri kullanıyor. "Falloff Scale" diye bir input daha var, bu da "Falloff" output degerini verdiginiz deger ile çarpıyor, yani "Falloff" outputu olarak bu deger ile çarpılmış degeri veriyor. Bu şu anlama geliyor, hani normalde bizim normalize edilmiş degerlerimiz 0 - 1 arası idi ya. İşte bu input bu degeri çarpıyor, yani eger "Falloff Scale" olarak 2 verirseniz, normalize edilmiş deger 0 - 2 arası olur. Ayrıca "Falloff" ve "Normalized Falloff" diye iki output var, bunlar şu anlama geliyor. Bu output degerleri aslında [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Normalized Range" ile aynıdır, ama "Falloff" outputu verdiginiz "Falloff Scale" inputuna göre çarpılmış olabilir. Yani bu deger "Falloff Scale" olarak 2 verirseniz, 0 - 1 arası degil de 0 - 2 arası olabilir, yani bu "Falloff Scale" degerine göre aralıgı degiştirilmiş deger, eger aralıgı degiştirilmemiş, 0 - 1 arası olan degeri almak istiyorsanız "Normalized Falloff" outputunu kullanın. "Normalized Falloff" degeri her zaman [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Normalized Range" ile aynıdır. Kısacası bu iki output size hem "Falloff Scale" degerine göre aralıgı degiştirilmiş, hem de degiştirilmemiş (0 - 1) degerleri veriyor, ikisini de gerektigi zaman kullanın diye. Son olarak "Normalized Distance" ve "Normalized Distance Inverted" outputları hakkında söylemem gereken bir şey var, eger kodları incelerseniz [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Normalized Range" ve "Inverse Normalized Range" outputlarının bu ikisine direktmen baglandıgını görürsünüz. Bu iki output şu sebeple vardır, "Falloff" ve ya "Normalized Falloff" outputu olarak gelen deger "InvertFalloff" inputuna göre invert edilmiş olabilir. "Normalized Distance" ve "Normalized Distance Inverted" outputlarını kullanarak invert edilmemiş degerleri alabilirsiniz. Dedigim gibi, bu iki output [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Normalized Range" ve "Inverse Normalized Range" outputları ile aynıdırlar.
+
+
+İnput | İşlem
+:---: | :---:
+Start Position | Başlangıç noktası
+End Position | Bitiş noktası
+Distance | Mesafe degeri, sınır
+InvertFalloff | Output olarak inverse edilmiş degeri verir
+Falloff Scale | "Falloff" outputunu bu deger ile çarparak verir
+Fallback Vector | Eger başlangıç ve bitiş noktaları arasındaki mesafe 0 ise, "Normalized Vector Between Positions" outputu olarak bu degeri verir.
+
+Output | İçerik
+:---: | :---:
+Falloff | [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Normalized Range" ile aynıdır ama "Falloff Scale" inputuna göre çarpılmıştır, aralıgı degiştirilmiştir
+Normalized Falloff | "Falloff" outputunun aksine bu deger degiştirilmemiştir, 0 - 1 arasındadır
+Normalized Vector Between Positions | [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Normalized Vector Between Positions" ile aynıdır
+Normalized Distance | [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Normalized Range" ile aynıdır ve "InvertFalloff" inputu True olsa bile etkilenmezler
+Normalized Distance Inverted | [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Inverse Normalized Range" ile aynıdır ve "InvertFalloff" inputu True olsa bile etkilenmezler
+Position Is Within Range | [Normalize Distance Range](#normalize-distance-range) fonksiyonundaki "Within Range" ile aynıdır
+
+
 
 * #### [Distance Based Falloff*]()
-Bu node yanlışlıkla tekrar eklenmiş. [Distance Based Falloff](#distance-based-falloff) ile aynıdır.
+Bu node yanlışlıkla tekrar eklenmiş sanırım. [Distance Based Falloff](#distance-based-falloff) ile aynıdır.
 
 * #### [Do Once Fn]()
 bilmiyorum.
