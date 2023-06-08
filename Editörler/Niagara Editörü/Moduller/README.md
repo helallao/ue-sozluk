@@ -536,7 +536,7 @@ Dünya üzerindeki niagara objesinin hız degeri bu inputa göre belirlenir, def
 Line Attraction Force'un uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). Bu ayar kapalı iken "Line Start" ve "Line End" inputuna verdiginiz konumlar World Space (yani dünya konumu) olarak hesaplanır. Bu ayarı açtıgınızda ise Local Space olarak hesaplanır.
 
 * #### Attraction Falloff
-Bu ayarın tam olarak ne amaçla oldugunu bilmiyorum ama şöyle bi kullanılış şekli var, degeri eksilere indirirseniz çekim gücü uygulamak yerine itim gücü uyguluyor.
+Bu ayarın tam olarak ne amaçla oldugunu anlayamadım, eger kodları incelerseniz de görürsünüz, developerlar bir şeyler denemiş ama yapamamış gibi. Zaten falloff kullanmak modülün yaptıgı şeye ters, yani ben böyle düşünüyorum, düzgün bi falloff kullanımı bulamadım.
 
 
 
