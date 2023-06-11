@@ -584,7 +584,7 @@ Bu ayarın tam olarak ne işe yaradıgını bilmiyorum, arttırdıkça dönme h�
 Şiddetin uygulanacagı uzaklık/çap degeri.
 
 * #### Falloff Exponent
-Falloff yani düşüş degeri, falloff degeri arttıkça düştükçe parçacıklar uzaktayken daha az etkilenirler. Yani çekim şiddeti uzaktan yakına dogru artar.
+Falloff yani kuvvet degeri, falloff degeri çekim şiddeti degeri için kuvvet alınan degerdir. Yani bu sayı kadar çekim şiddetinin kuvveti alınır. Bu da şu şekilde sonuçlanır, falloff degeri arttıkça parçacıklar uzaktayken daha çok etkilenirler, yakına geldikçe daha az. Yani çekim şiddeti uzaktan yakına dogru azalır. Bunu size bir örnekle göstereyim, mesela çekim gücü noktası ile parçacık arasındaki mesafe 10 ise, diyelim ki 10 üzeri 2 = 100 eder. Ama aradaki mesafe 100 olsaydı 100 üzeri 2 = 10000. Sayı büyüdükçe falloff etkisi de büyür. Dolayısıyla mesafe arttıkça falloff etkisi de artar.
 
 * #### Attractor Position Offset
 Çekim gücü uygulayan noktanın konumu üzerine offset vermemize yarar, "Attraction Position" yani çekim gücü uygulayan noktanın konumu default olarak [Engine.Emitter.SimulationPosition](../Parameters#engineemittersimulationposition) parametresine baglı oldugu için simulasyonun 0,0,0 konumundadır (yani simulasyon konumundadır). Dolayısıyla çekim gücü uygulayan noktanın konumunu degiştirmek istedigimizde genellikle offset veririz.
