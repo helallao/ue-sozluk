@@ -581,7 +581,7 @@ Bu ayarın tam olarak ne işe yaradıgını bilmiyorum, arttırdıkça dönme h�
 Çekim şiddeti.
 
 * #### Attraction Radius
-Şiddetin uygulanacagı uzaklık/çap degeri.
+Şiddetin uygulanacagı uzaklık/çap degeri, yani mesafe.
 
 * #### Falloff Exponent
 Falloff yani kuvvet degeri, falloff degeri çekim şiddeti degeri için kuvvet alınan degerdir. Yani bu sayı kadar çekim şiddetinin kuvveti alınır. Bu da şu şekilde sonuçlanır, falloff degeri arttıkça parçacıklar uzaktayken daha çok etkilenirler, yakına geldikçe daha az. Yani çekim şiddeti uzaktan yakına dogru azalır. Bunu size bir örnekle göstereyim, mesela çekim gücü noktası ile parçacık arasındaki mesafe 10 ise, diyelim ki 10 üzeri 2 = 100 eder. Ama aradaki mesafe 100 olsaydı 100 üzeri 2 = 10000. Sayı büyüdükçe falloff etkisi de büyür. Dolayısıyla mesafe arttıkça falloff etkisi de artar.
