@@ -593,10 +593,10 @@ Falloff yani kuvvet degeri, falloff degeri çekim şiddeti degeri için kuvvet a
 Sadece "Attractor Position Offset" ayarı açıkken vardır. Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Kill Radius
-Çap degeri, orta noktaya bu degerden fazla yaklaşan parçacıklar yok edilir. (Bu ayarı anlamak için linkteki videoya bakın)
+Çap degeri, çekim gücünün orta noktasına bu degerden fazla yaklaşan parçacıklar yok edilir. (Bu ayarı anlamak için linkteki videoya bakın)
 
 * #### Kill Radius Overshoot Correction
-Sadece "Kill Radius" ayarı açıkken vardır. Bu ayarı anlamak için linkteki videoya bakın. Overshoot olan yani oluşturdugumuz "Kill Radius" çapını tek bir frame'de (kare, fps) geçebilen parçacıkları da yakalayabilmek için vardır. Oluşturdugumuz "Kill Radius" çapını, parçacıkların hızına göre genişletir (gerçekten genişletmez, hesaplama yaparken genişletilmiş gibi hesaplar) ve parçacıgı ne kadar hızlı olsa da yakalar.
+Sadece "Kill Radius" ayarı açıkken vardır. Bu ayarı anlamak için linkteki videoya bakın. Overshoot olan yani oluşturdugumuz "Kill Radius" çapını tek bir frame'de (kare, fps) geçebilen parçacıkları da yakalayabilmek için vardır. Oluşturdugumuz "Kill Radius" çapını, parçacıkların hızına göre genişletirken, bu deger ile çarparak degeri daha da büyütür (gerçekten genişletmez, hesaplama yaparken genişletilmiş gibi hesaplar) ve parçacıgı ne kadar hızlı olsa da yakalar. Yani bu degeri arttırmak "Kill Radius" için çarpan görevi görür, tabi sadece hızlı olan parçacıklar için.
 
 * #### Position To Attract
 Çekim gücünün uygulayandıgı noktanın konumu. Default olarak parçacıgın konumuna baglıdır.
