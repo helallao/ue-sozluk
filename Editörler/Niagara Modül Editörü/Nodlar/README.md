@@ -556,7 +556,23 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Random Range]()
-(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli))
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max hariç). Geriye kalan bütün inputlar [Get Random Info](#get-random-info) fonksiyonundaki inputlar ile aynıdır, bu inputları anlamak için [Get Random Info](#get-random-info) fonksiyonuna bakın. Eger kodlara bakarsanız inputlarınızı [Get Random Info](#get-random-info) fonksiyonuna verdigini görebilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Min | Minimum deger
+Max | Maximum deger
+Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+OverrideSeed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Fixed Override Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+RandomnessMode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+Result | Rastgele seçilen deger (float)
+
+
 
 * #### [Random Range Float]()
 (Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max hariç). Geriye kalan bütün inputlar [Get Random Info](#get-random-info) fonksiyonundaki inputlar ile aynıdır, bu inputları anlamak için [Get Random Info](#get-random-info) fonksiyonuna bakın. Eger kodlara bakarsanız inputlarınızı [Get Random Info](#get-random-info) fonksiyonuna verdigini görebilirsiniz.
@@ -597,7 +613,22 @@ Result | Rastgele seçilen deger (integer)
 
 
 * #### [Random Unit Vector]()
-(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli))
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon unit vektörleri verir, yani 1 birimlik vektörler. 1 birimlik vektörler aynı zamanda yön degeri de ifade eder. Vektörlerin hiçbir boyutu 1'den fazla -1'den az olamaz, aynı yön degerleri gibi. Aldıgı bütün inputlar [Get Random Info](#get-random-info) fonksiyonundaki inputlar ile aynıdır, bu inputları anlamak için [Get Random Info](#get-random-info) fonksiyonuna bakın. Eger kodlara bakarsanız inputlarınızı [Get Random Info](#get-random-info) fonksiyonuna verdigini görebilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+OverrideSeed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Fixed Override Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+RandomnessMode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+Unit Vector 3D | 3 boyutlu yön degeri (Unit Vector)
+Unit Vector 2D | 2 boyutlu yön degeri (Unit Vector)
+
+
 
 * #### [Random Vector]()
 (Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon özünde [Random Unit Vector](#random-unit-vector) kullanır. Bütün inputları [Random Unit Vector](#random-unit-vector) ile aynıdır, aldıgı inputlar ile [Random Unit Vector](#random-unit-vector) fonksiyonunu çalıştırır ve [Random Unit Vector'un](#random-unit-vector) "Unit Vector 3D" outputunu verir. Yani [Random Unit Vector'dan](#random-unit-vector) tek farkı direktmen "Unit Vector 3D" outputunu vermesidir.
@@ -1376,13 +1407,13 @@ Verdigimiz [radyan](https://tr.wikipedia.org/wiki/Radyan) (1 radyan ≈= 57,2958
 Verilen sayıyı yuvarlar (sayıyı yuvarlar yani).
 
 * #### [Seeded Float Random]()
-"Random Float" ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. 3 tane seed inputu verilmiş, aslında bence bu kadar seed inputuna gerek yoktu, 1 tanesi yeterli. Mesela eger bu noda input olarak 5 (float) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3.70 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız.
+[Random Float](#random-float) ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. Mesela eger bu noda input olarak 5 (float) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3.70 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız.
 
 * #### [Seeded Integer Random]()
-"Random Integer" ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. 3 tane seed inputu verilmiş, aslında bence bu kadar seed inputuna gerek yoktu, 1 tanesi yeterli. Mesela eger bu noda input olarak 5 (integer) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız.
+[Random Integer](#random-integer) ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. Mesela eger bu noda input olarak 5 (integer) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız.
 
 * #### [Seeded Random]()
-"Random" ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. 3 tane seed inputu verilmiş, aslında bence bu kadar seed inputuna gerek yoktu, 1 tanesi yeterli. Mesela eger bu noda input olarak 5 (float) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3.70 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız. Eger fark ettiyseniz sonuç "Seeded Float Random" ile aynı sonucu verdi çünkü input olarak float verdik, ama eger integer verseydiniz o zaman "Seeded Integer Random" ile aynı sonucu vermezdi çünkü "Seeded Integer Random" verdiginiz sayının bir eksigini (x - 1) alıyor. Dolayısıyla "Seeded Integer Random" ile aynı sonucu almak için verdigimiz degerin bir eksigini (x - 1) vermeliyiz.
+[Random](#random) ile aynıdır ama seed verebilirsiniz, seed id görevi görür. Aynı seed hep aynı sonucu verir. Mesela eger bu noda input olarak 5 (float) verirseniz ve "Seed 1" inputunun degerini 1, digerlerini 0 yaparsanız. Sonuç 3.70 olacaktır, aynı seed numarasını kullanıp işlemi tekrar ederseniz siz de aynı sonucu alırsınız. Eger fark ettiyseniz sonuç "Seeded Float Random" ile aynı sonucu verdi çünkü input olarak float verdik, ama eger integer verseydiniz o zaman "Seeded Integer Random" ile aynı sonucu vermezdi çünkü "Seeded Integer Random" verdiginiz sayının bir eksigini (x - 1) alıyor. Dolayısıyla "Seeded Integer Random" ile aynı sonucu almak için verdigimiz degerin bir eksigini (x - 1) vermeliyiz.
 
 * #### [Sign]()
 Sayıların artı ve ya eksi oldugunu tespit etmede kullanılır. Sayı 0'dan küçükse -1, eşit ve ya büyükse +1 döndürür.
