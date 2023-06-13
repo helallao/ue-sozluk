@@ -302,7 +302,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Get Random Info*]()
-Bu fonksiyon RNG (Random Number Generator) kullanımı ve determinisim degerlerini hesaplamak için vardır. Output olarak [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) verir. Eger "RandomnessMode" inputuna verilen deger deterministik ise belirli düzene göre degerler (3 tane, vektör gibi) oluşturup verir, bu degerler seed görevi görür. Eger deterministik degil ise (-1, -1, -1) şeklinde [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degeri verir. Eger "OverrideSeed" ayarını açtıysanız verdiginiz seed numarasına göre [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) oluşturur. Normalde oluşturdugu [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 1. sırasında, varsa parçacık numarası. 2. sırasında toplamda geçen tick (kare, frame) sayısı. 3. sırasında ise seed numarası vardır. Eger "Fixed Override Seed" ayarını açarsanız oluşturulan [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 1. sırasında seed numarası, geriye kalan degerlerinde de 0 olur.
+Bu fonksiyon RNG (Random Number Generator) kullanımı ve determinisim degerlerini hesaplamak için vardır. Output olarak [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) verir. Eger "RandomnessMode" inputuna verilen deger deterministik ise belirli düzene göre degerler (3 tane, vektör gibi) oluşturup verir, bu degerler seed görevi görür. Eger deterministik degil ise (-1, -1, -1) şeklinde [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degeri verir. Eger "OverrideSeed" ayarını açtıysanız verdiginiz seed numarasına göre [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) oluşturur. Normalde oluşturdugu [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 1. sırasında, varsa parçacık numarası. 2. sırasında toplamda geçen tick (kare, frame) sayısı. 3. sırasında ise seed numarası vardır. Eger "Fixed Override Seed" ayarını açarsanız oluşturulan [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 1. sırasında seed numarası, geriye kalan degerlerinde de 0 olur. Yani oluşturulan [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerine başka şeyler katmaz, bu da sadece verdiginiz seed numarası degiştigi zaman [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin degişecegi anlamına gelir. Yani %100 seed numarası kullanımını açar, her şey verdiginiz seed numarasına göre olur.
 
 
 İnput | İşlem
@@ -554,6 +554,47 @@ bilmiyorum.
 
 * #### [Random Quaternion]()
 bilmiyorum.
+
+* #### [Random Range]()
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli))
+
+* #### [Random Range Float]()
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max hariç). Geriye kalan bütün inputlar [Get Random Info](#get-random-info) fonksiyonundaki inputlar ile aynıdır, bu inputları anlamak için [Get Random Info](#get-random-info) fonksiyonuna bakın. Eger kodlara bakarsanız inputlarınızı [Get Random Info](#get-random-info) fonksiyonuna verdigini görebilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Min | Minimum float
+Max | Maximum float
+Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+OverrideSeed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Fixed Override Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+RandomnessMode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+Result | Rastgele seçilen deger (float)
+
+
+
+* #### [Random Range Integer]()
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max hariç). Geriye kalan bütün inputlar [Get Random Info](#get-random-info) fonksiyonundaki inputlar ile aynıdır, bu inputları anlamak için [Get Random Info](#get-random-info) fonksiyonuna bakın. Eger kodlara bakarsanız inputlarınızı [Get Random Info](#get-random-info) fonksiyonuna verdigini görebilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Min | Minimum integer
+Max | Maximum integer
+Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+OverrideSeed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Fixed Override Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+RandomnessMode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+Result | Rastgele seçilen deger (integer)
+
+
 
 * #### [Random Unit Vector]()
 (Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli))
