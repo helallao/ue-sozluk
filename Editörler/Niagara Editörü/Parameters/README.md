@@ -493,7 +493,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Niagara Rand Info]()
-bilmiyorum.
+İçerisinde 3 sayı tutar. 3 boyutlu vektör gibi. Bu sayıların her biri seed görevi görür. Yani 3 tane seed.
 
 * #### [Position]()
 Aslında 3 boyutlu vektör, koordinatlar için bu kullanılıyor.
