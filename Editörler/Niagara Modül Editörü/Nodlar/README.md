@@ -302,7 +302,22 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Get Random Info*]()
-bilmiyorum.
+Bu fonksiyon RNG (Random Number Generator) kullanımı ve determinisim degerlerini hesaplamak için vardır. Output olarak [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) verir. Eger "RandomnessMode" inputuna verilen deger deterministik ise belirli düzene göre degerler (3 tane, vektör gibi) oluşturup verir, bu degerler seed görevi görür. Eger deterministik degil ise (-1, -1, -1) şeklinde [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degeri verir. Eger "OverrideSeed" ayarını açtıysanız verdiginiz seed numarasına göre [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) oluşturur. Normalde oluşturdugu [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 1. sırasında, varsa parçacık numarası. 2. sırasında toplamda geçen tick (kare, frame) sayısı. 3. sırasında ise seed numarası vardır. Eger "Fixed Override Seed" ayarını açarsanız oluşturulan [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 1. sırasında seed numarası, geriye kalan degerlerinde de 0 olur.
+
+
+İnput | İşlem
+:---: | :---:
+Seed | "RandomInfo" outputundaki oluşturulan [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 3. sırasındaki deger bu seed numarasıdır. 1. ve 2. degerler ise varsa parçacık numarası ve toplamda geçen tick (kare, frame) sayısıdır.
+OverrideSeed | "Seed" kullanımını açar
+Fixed Override Seed | Bu ayarı açarsanız oluşturulan [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degerinin 1. sırasında seed numarası, geriye kalan degerlerinde de 0 olur. (seed, 0, 0)
+RandomnessMode | [ENiagaraRandomnessMode](../../Niagara%20Editörü/Parameters#eniagararandomnessmode) türünden determinism/rastgelelik degeri.
+
+Output | İçerik
+:---: | :---:
+RandomInfo | Oluşturulan [Niagara Rand Info](../../Niagara%20Editörü/Parameters#niagara-rand-info) degeri.
+Use Deterministic Randoms | Degerlerin deterministik olarak hazırlanıp hazırlanmadıgını belirtir.
+
+
 
 * #### [Height Lerp]()
 bilmiyorum.
