@@ -540,14 +540,14 @@ bilmiyorum.
 * #### [Random Quaternion]()
 bilmiyorum.
 
+* #### [Random Unit Vector]()
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli))
+
 * #### [Random Vector]()
 (Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon özünde [Random Unit Vector](#random-unit-vector) kullanır. Bütün inputları [Random Unit Vector](#random-unit-vector) ile aynıdır, aldıgı inputlar ile [Random Unit Vector](#random-unit-vector) fonksiyonunu çalıştırır ve [Random Unit Vector'un](#random-unit-vector) "Unit Vector 3D" outputunu verir. Yani [Random Unit Vector'dan](#random-unit-vector) tek farkı direktmen "Unit Vector 3D" outputunu vermesidir.
 
 * #### [Random Vector in Cone*]()
 bilmiyorum.
-
-* #### [Random Unit Vector]()
-(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli))
 
 * #### [Randomize Collision Normals*]()
 bilmiyorum.
