@@ -734,7 +734,7 @@ Bu ayar aktifleştirildigi zaman modül [Transient.PhysicsForce](../Parameters#t
 
 
 * #### Force Amount
-Şiddet.
+Force şiddeti.
 
 * #### Random Noise Time Interval
 Kaç saniyede bir parçacıkların yönünü degiştirecegini belirler.
