@@ -365,7 +365,21 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Is Point Above Plane]()
-bilmiyorum.
+Bu fonksiyon verilen inputlara göre sanal (hayali) bir plaka, yani bir yüzey oluşturur. Verdiginiz nokta bu yüzeyin baktıgı yönde mi (plane normal) diye kontrol eder.
+
+
+İnput | İşlem
+:---: | :---:
+Point | Noktanın konumu
+Plane Position | Oluşturulacak plakanın, yüzeyin konumu
+Plane Normal | Oluşturulacak plakanın, yüzeyin bakış açısı, yönü. Yani bu degere göre oluşturdugunuz yüzeyin baktıgı yön bulunacak ve noktanın konumu ile karşılaştırılacak
+
+Output | İçerik
+:---: | :---:
+IsAbovePIane | Nokta plakanın, yüzeyin baktıgı yönde ise True, degilse False
+Dot Between Point and Plane | Noktanın plakanın, yüzeyin üstünde oldugunu hesaplamak için [Dot Product](#dot) kullanılıyor. Eger nokta biraz bile (yani 0'dan büyük oldugu sürece) plakanın baktıgı yönde ise, o zaman "IsAbovePIane" outputu True döndürüyor. Bu deger ise hesaplanan [Dot Product](#dot) degeri
+
+
 
 * #### [Is Point Between Slabs]()
 bilmiyorum.
@@ -377,7 +391,20 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Is Point Inside Sphere]()
-bilmiyorum.
+Bu fonksiyon verilen inputlara göre sanal (hayali) bir küre oluşturur ve verdiginiz nokta bu kürenin içinde mi diye kontrol eder.
+
+
+İnput | İşlem
+:---: | :---:
+Point | Noktanın konumu
+Sphere Origin | Kürenin orijin (orta) noktası
+Sphere Radius | Kürenin çapı
+
+Output | İçerik
+:---: | :---:
+IsInsideSphere | Nokta kürenin içindeyse True, degilse False
+
+
 
 * #### [Is Value Within Range]()
 bilmiyorum.
