@@ -1012,7 +1012,7 @@ Cone = Koni
 Sadece "Kill Shape" "Sphere" modundayken vardır. Küre'nin çapı.
 
 * #### Box Size
-Sadece "Kill Shape" "Box" modundayken vardır. Küp'ün XYZ degerleri.
+Sadece "Kill Shape" "Box" modundayken vardır. Küp'ün XYZ eksenlerinde boyut degerleri.
 
 * #### Plane Normal
 Sadece "Kill Shape" "Plane" modundayken vardır. Oluşturulacak düz yüzeyin oryantasyonu yani yönü, bakış açısı.
