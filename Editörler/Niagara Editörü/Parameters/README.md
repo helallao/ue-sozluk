@@ -406,6 +406,15 @@ Dünyanıza koydugunuz niagara objesinin World Space'den [Local Space'e](../Grap
 * #### [Engine.Owner.SystemWorldToLocalNoScale]()
 Engine.Owner.SystemWorldToLocal ile aynıdır ama scale edilmeden.
 
+* #### [Engine.Owner.SystemXAxis]()
+(Durumsal) Owner için (yani direktmen simulasyon, dünya üzerindeki niagara objesi) X ekseninin yön degerini tutar.
+
+* #### [Engine.Owner.SystemYAxis]()
+(Durumsal) Owner için (yani direktmen simulasyon, dünya üzerindeki niagara objesi) Y ekseninin yön degerini tutar.
+
+* #### [Engine.Owner.SystemZAxis]()
+(Durumsal) Owner için (yani direktmen simulasyon, dünya üzerindeki niagara objesi) Z ekseninin yön degerini tutar.
+
 * #### [Engine.Owner.Velocity]()
 (Degişken) Owner için (yani direktmen simulasyon, dünya üzerindeki niagara objesi) her frame arasındaki hareket edilen mesafeyi hesaplayıp, şu anki hızı (velocity) verir.
 
