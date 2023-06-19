@@ -403,7 +403,22 @@ Signed Result | "IsBetweenSlabs" outputunun degerinin [Sign'dan](#sign) geçiril
 bilmiyorum.
 
 * #### [Is Point Inside Cone]()
-bilmiyorum.
+Bu fonksiyon verilen inputlara göre sanal (hayali) bir koni oluşturur ve verdiginiz nokta bu koninin içinde mi diye kontrol eder.
+
+
+İnput | İşlem
+:---: | :---:
+Point | Noktanın konumu
+Cone Origin | Koninin orijin (orta) noktası
+Cone Angle | Koninin açısı, genişligi
+Normalized Cone Axis | Oluşturulacak koninin bakış açısı, yönü.
+Cone Length | Koninin uzunlugu
+
+Output | İçerik
+:---: | :---:
+IsInsideCone | Nokta koninin içindeyse True, degilse False
+
+
 
 * #### [Is Point Inside Sphere]()
 Bu fonksiyon verilen inputlara göre sanal (hayali) bir küre oluşturur ve verdiginiz nokta bu kürenin içinde mi diye kontrol eder.
