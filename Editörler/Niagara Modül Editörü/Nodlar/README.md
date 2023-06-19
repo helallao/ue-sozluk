@@ -480,12 +480,6 @@ Within Range | Bitiş noktasının sınır içinde olup olmadıgı bilgisini ver
 
 
 
-
-
-
-
-
-
 * #### [Normalized Execution Index]()
 bilmiyorum.
 
@@ -493,7 +487,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Owner Axes]()
-bilmiyorum.
+Owner için (yani direktmen simulasyon, dünya üzerindeki niagara objesi) için yön degerlerini verir (Bkz. [Engine.Owner.SystemXAxis](../../Niagara%20Editörü/Parameters#engineownersystemxaxis), [Engine.Owner.SystemYAxis](../../Niagara%20Editörü/Parameters#engineownersystemyaxis), [Engine.Owner.SystemZAxis](../../Niagara%20Editörü/Parameters#engineownersystemzaxis)). Eger [Local Space](../../Niagara%20Editörü/Graph#local-space) açıksa XYZ için (1,0,0), (0,1,0), (0,0,1) döndürür. 
 
 * #### [Parametric Torus]()
 bilmiyorum.
