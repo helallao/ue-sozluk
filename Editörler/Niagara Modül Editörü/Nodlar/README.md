@@ -400,7 +400,24 @@ Signed Result | "IsBetweenSlabs" outputunun degerinin [Sign'dan](#sign) geçiril
 
 
 * #### [Is Point Inside Box]()
-bilmiyorum.
+Bu fonksiyon verilen inputlara göre sanal (hayali) bir küp oluşturur ve verdiginiz nokta bu küpün içinde mi diye kontrol eder. Daha teknik konuşmak gerekirse, bu fonksiyon verilen inputlara göre 3 tane sanal (hayali) plaka, yani yüzey oluşturur. Verdiginiz nokta bu 3 yüzeyin arasında mı diye kontrol eder. "Box X Axis", "Box Y Axis" ve "Box Z Axis" inputları bu 3 yüzeyin yön degerleridir.
+
+
+İnput | İşlem
+:---: | :---:
+Point | Noktanın konumu
+Box Origin | Oluşturulacak küpün konumu
+Box Dimensions | Oluşturulacak küpün XYZ eksenlerindeki boyutları
+Box X Axis | Oluşturulacak küpün X ekseni üzerindeki yüzeyinin yön degeri, eger özel bi durum yoksa default degeri degiştirmeyin.
+Box Y Axis | Oluşturulacak küpün Y ekseni üzerindeki yüzeyinin yön degeri, eger özel bi durum yoksa default degeri degiştirmeyin.
+Box Z Axis | Oluşturulacak küpün Z ekseni üzerindeki yüzeyinin yön degeri, eger özel bi durum yoksa default degeri degiştirmeyin.
+
+Output | İçerik
+:---: | :---:
+IsInsideBox | Nokta küpün içinde ise True, degilse False
+Signed Result | "IsInsideBox" outputunun degerinin [Sign'dan](#sign) geçirilmiş hali, yani "IsInsideBox" False iken bu deger -1, degilken +1
+
+
 
 * #### [Is Point Inside Cone]()
 Bu fonksiyon verilen inputlara göre sanal (hayali) bir koni oluşturur ve verdiginiz nokta bu koninin içinde mi diye kontrol eder.
