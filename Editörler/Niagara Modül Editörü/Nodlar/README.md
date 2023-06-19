@@ -1,6 +1,6 @@
 ### Yazım şekli
 * Bu dökümanı hazırlarken başlangıçta dügümleri "Node" şeklinde yazıyordum ama kesme işareti falan koyunca çok okunmaz oluyo diyo "Node" kelimesini türkçe gibi düşünüp "Nod" diye yazmaya başladım, bunu sadece ek aldıgı zaman kullandım, ek almazsa yine "Node" diyorum.
-* Eger bi node aratırken farklı, niagara modül editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#)
+* Eger bi node aratırken farklı, niagara modül editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#parameter-map-getmap-get)
 * Bazı fonksiyonlar gizli (unexposed) olabilir, çünkü unreal geliştiricileri tarafından fonksiyonun ayarları bu şekilde ayarlanmıştır. Bu fonksiyonları kullanmak için, şu an kullanabildiginiz herhangi bir fonksiyon nodunu kullanıp, fonksiyonun [Selected Details](../Selected%20Details) penceresinden "Function Script" inputunu degiştirip istediginiz fonksiyonu seçebilirsiniz. Gizli (unexposed) olan fonksiyonların başında parantez içinde "bu fonksiyon gizli bir fonksiyondur" yazar.
 * Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
 <br>
