@@ -1004,7 +1004,7 @@ Box = Küp
 <br>
 Plane = Plane modundayken düz bir yüzey belirlenir, bu yüzeyin baktıgı yöndeki parçacıklar yok olmaz ama arka tarafında kalan parçacıklar yok olur, yani bu düz yüzeyin bir yönündeki parçacıklar kalır, diger yöndekiler yok olur
 <br>
-Slab = Düz tabaka/levha oluşturur.
+Slab = Plane gibidir. 2 tane düz yüzey/plaka oluşturur, arada kalan parçacıklar yok olur
 <br>
 Cone = Koni
 
@@ -1018,10 +1018,10 @@ Sadece "Kill Shape" "Box" modundayken vardır. Küp'ün XYZ degerleri.
 Sadece "Kill Shape" "Plane" modundayken vardır. Oluşturulacak düz yüzeyin oryantasyonu yani yönü, bakış açısı.
 
 * #### Slab Width
-Sadece "Kill Shape" "Slab" modundayken vardır. Oluşturulacak levhanın kalınlıgı.
+Sadece "Kill Shape" "Slab" modundayken vardır. Oluşturulacak 2 yüzeyin arasındaki mesafe, yani kalınlık gibi düşünebilirsiniz.
 
 * #### Slab Axis
-Sadece "Kill Shape" "Slab" modundayken vardır. Oluşturulacak levhanın oryantasyonu yani yönü.
+Sadece "Kill Shape" "Slab" modundayken vardır. Oluşturulacak yüzeylerin yönü.
 
 * #### Cone Angle
 Sadece "Kill Shape" "Cone" modundayken vardır. Koninin uç/dış açısı, yani büyüklügü.
