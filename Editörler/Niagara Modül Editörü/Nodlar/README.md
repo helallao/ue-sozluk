@@ -427,7 +427,7 @@ Bu fonksiyon verilen inputlara göre sanal (hayali) bir koni oluşturur ve verdi
 :---: | :---:
 Point | Noktanın konumu
 Cone Origin | Koninin orijin (orta) noktası
-Cone Angle | Koninin açısı, genişligi
+Cone Angle | Koninin uç/dış açısı, yani büyüklügü.
 Normalized Cone Axis | Oluşturulacak koninin bakış açısı, yönü ([normalize](#normalize) edildigi varsayılıyor)
 Cone Length | Koninin uzunlugu
 
