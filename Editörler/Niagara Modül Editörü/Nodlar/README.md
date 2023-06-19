@@ -382,7 +382,22 @@ Dot Between Point and Plane | Noktanın plakanın, yüzeyin üstünde oldugunu h
 
 
 * #### [Is Point Between Slabs]()
-bilmiyorum.
+Bu fonksiyon verilen inputlara göre 2 tane sanal (hayali) plaka, yani yüzey oluşturur. Verdiginiz nokta bu 2 yüzeyin arasında mı diye kontrol eder.
+
+
+İnput | İşlem
+:---: | :---:
+Point | Noktanın konumu
+Slab Origin | Oluşturulacak yüzeylerin konumu (iki yüzeyin ortası)
+Slab Axis | Oluşturulacak yüzeylerin bakış açısı, yönü.
+Slab Width | Oluşturulacak yüzeylerin aralıgı
+
+Output | İçerik
+:---: | :---:
+IsBetweenSlabs | Nokta 2 yüzeyin arasında ise True, degilse False
+Signed Result | "IsBetweenSlabs" outputunun degerinin [Sign'dan](#sign) geçirilmiş hali, yani "IsBetweenSlabs" False iken bu deger -1, degilken +1
+
+
 
 * #### [Is Point Inside Box]()
 bilmiyorum.
