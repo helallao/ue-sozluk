@@ -1160,14 +1160,14 @@ bilmiyorum.
 
 ## [Jitter Position](https://youtu.be/btUjODoqSnI?list=PLwMiBtF6WzsoNsDquipGfD-uLUb-fyRSV&t=941)
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara titreşim (jitter) ekler. Özünde şöyle çalışır, her bir jitter çagırıldıgında parçacıklara "Jitter Offset" degeri kadar offset verilir. "Jitter Amount" ise, jitter çagırma sayısını arttırır/azaltır.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara titreşim (jitter) ekler. Özünde şöyle çalışır, her bir jitter çagırıldıgında parçacıklara "Jitter Offset" yön vektörünün "Jitter Amount" degeri ile çarpımından çıkan deger kadar offset verilir.
 
 
 * #### Jitter Amount
-Titreşim sayısı, derecesi.
+Titreşim şiddeti, derecesi.
 
 * #### Jitter Offset
-Parçacıklara her jitter çagırıldıgında bu deger kadar offset verilir.
+Parçacıklara her jitter çagırıldıgında bu yönde offset verilir. Yani bu deger titreşimin ne yöne dogru olacagını belirler. Daha sonra bu yön degeri "Jitter Amount" degeri ile çarpılır. Ortaya çıkan yeni konum şu anki konuma eklenir.
 
 * #### Jitter Delay
 Her jitter arasındaki süreyi ayarlar.
