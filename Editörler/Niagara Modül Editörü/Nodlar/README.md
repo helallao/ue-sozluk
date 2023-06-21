@@ -176,7 +176,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Derive Third Orthogonal Vector]()
-Bu fonksiyon sizden 2 vektör alır ve 3 tane birbirine dik (Orthogonal) vektör verir. Yani bir küp oluşturuyormuşsunuz gibi düşünün. Verdiginiz 1. vektör küpün hangi eksende olacagını, 2. vektör de yönünü belirliyormuş gibi düşünün. Teknik olarak konuşursak, output olarak gelen 1. vektör, verdiginiz 1. vektörün aynısıdır ("NormalizeIncomingVectors" ayarı False ise). Output olarak gelen 3. vektör, input olarak verdiginiz iki vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir. Output olarak gelen 2. vektör ise, output olarak gelen 1. ve 3. vektörlerin [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir. Yani bu fonksiyon bize 3 tane birbirine dik vektör verir.
+Bu fonksiyon sizden 2 vektör alır ve 3 tane birbirine dik (Orthogonal) vektör verir. Yani bir küp oluşturuyormuşsunuz gibi düşünün. Verdiginiz 1. vektör küpün hangi eksende olacagını, 2. vektör de yönünü belirliyormuş gibi düşünün. Teknik olarak konuşursak, output olarak gelen 1. vektör, verdiginiz 1. vektörün aynısıdır ("NormalizeIncomingVectors" ayarı False ise). Output olarak gelen 3. vektör, input olarak verdiginiz iki vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir. Output olarak gelen 2. vektör ise, output olarak gelen 1. ve 3. vektörlerin [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir. Yani bu fonksiyon bize 3 tane birbirine dik vektör verir. Son olarak bir de resimli anlatayım, aşagıya bir resim koydum, input ve outputların döndürdügü vektörleri görsel olarak gösterdim. Şimdi burda kırmızı olan çizgiler inputlar, altta olan kırmızı çizgi 1. vektör, üstte olan 2. vektör. Yeşil olan çizgiler output olarak gelen vektörler. Ucu mavi olan çizgi de, input olarak verdigim iki vektörün [Cross Product'ı](#cross). Gördügünüz gibi fonksiyonun output olarak verdigi 1. vektör, input olarak verdigimiz 1. vektör ile aynı (eger "NormalizeIncomingVectors" ayarı True ise [normalized](#normalize) olarak), fonksiyonun output olarak verdigi 3. vektör, verdigimiz iki vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş hali (ucu mavi olan), ve son olarak da fonksiyonun output olarak verdigi 2. vektör de, bu Cross Product vektörü ile 1. vektörün [Cross Product'ını](#cross) veriyor.
 
 
 İnput | İşlem
@@ -190,6 +190,8 @@ Output | İçerik
 Vector1 | 1. vektör, "Vector1" inputuna verdiginiz deger ile aynıdır ("NormalizeIncomingVectors" ayarı False ise).
 Vector2 | 2. vektör, output olarak verilen 3. vektör ile 1. vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir.
 Vector3 | 3. vektör, input olarak verdiginiz iki vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir.
+
+<img src="../../../Dosyalar/Third_Orthogonal_Vector.png">
 
 
 
