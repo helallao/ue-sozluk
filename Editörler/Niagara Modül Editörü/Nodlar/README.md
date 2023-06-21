@@ -176,7 +176,22 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Derive Third Orthogonal Vector]()
-bilmiyorum.
+Bu fonksiyon sizden 2 vektör alır ve 3 tane birbirine dik (Orthogonal) vektör verir. Yani bir küp oluşturuyormuşsunuz gibi düşünün. Verdiginiz 1. vektör küpün hangi eksende olacagını, 2. vektör de yönünü belirliyormuş gibi düşünün. Teknik olarak konuşursak, output olarak gelen 1. vektör, verdiginiz 1. vektörün aynısıdır ("NormalizeIncomingVectors" ayarı False ise). Output olarak gelen 3. vektör, input olarak verdiginiz iki vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir. Output olarak gelen 2. vektör ise, output olarak gelen 1. ve 3. vektörlerin [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir. Yani bu fonksiyon bize 3 tane birbirine dik vektör verir.
+
+
+İnput | İşlem
+:---: | :---:
+NormalizeIncomingVectors | Bu ayar input olarak verdiginiz vektörleri işlemlere almadan önce [normalize](#normalize) eder.
+Vector1 | 1. vektör, bu inputu oluşturacagınız küpün (gerçekten küp yok, 3 tane birbirine dik vektör verdigi için böyle söylüyorum) hangi eksende olacagını belirliyormuşsunuz gibi düşünün.
+Vector2 | 2. vektör, bu inputu oluşturacagınız küpün (gerçekten küp yok, 3 tane birbirine dik vektör verdigi için böyle söylüyorum) ekseni üzerindeki yönünü belirliyormuşsunuz gibi düşünün.
+
+Output | İçerik
+:---: | :---:
+Vector1 | 1. vektör, "Vector1" inputuna verdiginiz deger ile aynıdır ("NormalizeIncomingVectors" ayarı False ise).
+Vector2 | 2. vektör, output olarak verilen 3. vektör ile 1. vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir.
+Vector3 | 3. vektör, input olarak verdiginiz iki vektörün [Cross Product'ının](#cross) [normalize](#normalize) edilmiş halidir.
+
+
 
 * #### [Derive Triangle Information]()
 bilmiyorum.
