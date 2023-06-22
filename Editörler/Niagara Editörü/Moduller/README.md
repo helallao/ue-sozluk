@@ -1191,10 +1191,10 @@ Başlangıç noktası (0 - 1).
 Saniye başına atılacak tur sayısı.
 
 * #### Delta Time
-bilmiyorum.
+Modülün hesaplamaları yapabilmesi için gerekli olan DeltaTime degeri. Default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır. Özel bir şey yoksa degiştirmeyin.
 
 * #### Set Particle Position
-Normalde parçacıkların yeni pozisyon degerleri önceki pozisyon degerinin üzerine yazılır ama isterseniz parçacıkların pozisyon degerlerini degiştirmeden de kullanabilirsiniz. Yani bu ayar [Particles.Position](../Parameters#particlesposition) parametresinin degiştirilip degiştirilmeyecegini belirler. Ayrıca eger isterseniz emitter'ınızın sonraki kısımlarında []() parametresini kullanarak parçacıkların konumlarını alabilirsiniz, yani Rotate Around Point modülü tarafından uygulanan efektten etkilenen konumu, [Particles.Position](../Parameters#particlesposition) parametresine yazılmayan (eger bu ayar açıksa).
+Normalde parçacıkların yeni pozisyon degerleri önceki pozisyon degerinin üzerine yazılır ama isterseniz parçacıkların pozisyon degerlerini degiştirmeden de kullanabilirsiniz. Yani bu ayar [Particles.Position](../Parameters#particlesposition) parametresinin degiştirilip degiştirilmeyecegini belirler, bu da Rotate Around Point modülünün sanki çalışmıyormuş gibi olmasına sebep olur, ama aslında çalışmaya devam eder. Bütün hesaplamaları yapar ve bütün parametreleri günceller, sadece parçacıkların konumlarını güncellemez. Eger bu modülü kendi isteklerinize göre kullanmak istiyosanız bu ayarı açıp, parametreler aracılıgı ile yapmak istediginiz şeyi kendiniz kodlayabilirsiniz.
 
 * #### Radius
 Çap degeri.
@@ -1203,14 +1203,16 @@ Normalde parçacıkların yeni pozisyon degerleri önceki pozisyon degerinin üz
 Orta nokta, parçacıklar bu nokta etrafında dönecek.
 
 * #### Derive the Rotation Axis
-X Axis ve Y Axis kullanımı açar.
+Bu ayar dönüş efektinin uygulanacagı ekseni belirlemek içindir. Bu ayar açık iken "X Axis" ve "Y Axis" degerlerini kendiniz belirlersiniz. Kapalı iken "X Axis" ve "Rotation Axis" degerlerini belirlersiniz, bu degerlere göre eksen oluşturulur.
 
 * #### X Axis
-X Axis ve Y Axis, dönüş efekti için vektörleri ayarlamanıza yarar.
+Dönüş efekti için X ekseni.
 
 * #### Y Axis
-X Axis ve Y Axis, dönüş efekti için vektörleri ayarlamanıza yarar.
+Sadece "Derive the Rotation Axis" ayarı açıkken vardır. Dönüş efekti için Y ekseni.
 
+* #### Rotation Axis
+X Axis ve Y Axis, dönüş efekti için vektörleri ayarlamanıza yarar. "Derive the Rotation Axis" ayarı kapalıyken, Y eksenini belirlemek yerine, X ekseni için yön degeri belirleriz. Belirledigimiz yön degerine göre eksen oluşturulur. Bu input da o yön degeri.
 
 
 
