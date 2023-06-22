@@ -245,7 +245,7 @@ bilmiyorum.
 [Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur. Toplamda atılan tur sayısını verir. Float degeri tutar, yani tam sayı degildir. Bu deger hem atılan tur sayısını, hem de şu anki atılan turun neresinde oldugumuzu (0 - 1 arası deger) yani noktadan sonraki kısmı verir. Mesela 23.75, 23 tur atılmış ve şu an atılan turun 0.75 yani %75'indeyiz.
 
 * #### [Particles.RotateAroundPoint.VectorFromCenter]()
-[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur. Orta noktadan parçacıga dogru bakan yön vektörü degerini verir.
 
 * #### [Particles.RotationalVelocityEnabled]()
 (Durumsal) Eger [Rotational Force](../Terimler%20Sözlügü#rotational-velocity) kullanan herhangi bir modül kullandıysanız bu parametrenin degerini True olarak ayarlayacaktır ve bu deger True olarak ayarlandıgı zaman "Solve Forces and Velocity" modülü [Manually Enable Rotational Solver](../Moduller#manually-enable-rotational-solver) ayarı açılmamış bile olsa Rotational Solver'ı aktifleştirir.
@@ -331,10 +331,10 @@ bilmiyorum.
 (Durumsal) Parçacıgın force etkisi alanının içinde olup olmadıgı bilgisini verir. Yani Falloff Distance olarak belirlenen uzaklık degerini geçmedigi sürece true, geçtikten sonra false verir.
 
 * #### [Output.RotateAroundPoint.LocalForwardVector]()
-[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur. Parçacıgın bu frame'deki konumunun, bir önceki frame'deki konumuna göre yön vektörünü verir. Yani önceki konumun yeni konuma dogru bakan yön vektörü.
 
 * #### [Output.RotateAroundPoint.OutputPosition]()
-[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur. Parçacıgın yeni konumunu verir. Özellikle [Rotate Around Point](../Moduller#rotate-around-point) modülünün "Set Particle Position" ayarı kapalı iken, bu parametreyi kullanarak yapacagımız işlemleri yaparız.
 
 * #### [Output.SpawnBurst_Instantaneous.HasSpawnedThisFrame]()
 (Durumsal) [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. Eger bu frame'de (kare, fps) parçacık spawn edildiyse true, edilmediyse false döndürür.
