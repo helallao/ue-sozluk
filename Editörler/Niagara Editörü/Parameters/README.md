@@ -242,7 +242,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Particles.RotateAroundPoint.IncrementingCounter]()
-[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
+[Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur. Toplamda atılan tur sayısını verir. Float degeri tutar, yani tam sayı degildir. Bu deger hem atılan tur sayısını, hem de şu anki atılan turun neresinde oldugumuzu (0 - 1 arası deger) yani noktadan sonraki kısmı verir. Mesela 23.75, 23 tur atılmış ve şu an atılan turun 0.75 yani %75'indeyiz.
 
 * #### [Particles.RotateAroundPoint.VectorFromCenter]()
 [Rotate Around Point](../Moduller#rotate-around-point) kullanıldıgı zaman oluşturulur.
