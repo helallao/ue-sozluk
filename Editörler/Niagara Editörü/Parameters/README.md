@@ -307,7 +307,7 @@ bilmiyorum.
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
 
 * #### [Output.GridLocation.XYZCountAsVector]()
-[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. XYZ eksenleri olmak üzere, her eksendeki parçacık sayısı degerini 3 boyutlu vektör olarak tutar.
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. [Emitter.SpawnParticlesInGrid.Grid Location XYZ Count](#emitterspawnparticlesingridgrid-location-xyz-count) ile aynıdır. XYZ eksenleri olmak üzere, her bir eksen için oluşturulan parçacık sayısı degerini tutar.
 
 * #### [Output.IncrementOverTime.Change]()
 (Degişken) [Increment Over Time](../Moduller#increment-over-time) tarafından oluşturulur. En son frame'de sayaca ([Particles.IncrementOverTime.Counter](#particlesincrementovertimecounter)) eklenen degeri verir.
