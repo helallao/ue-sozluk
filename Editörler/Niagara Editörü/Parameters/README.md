@@ -175,7 +175,7 @@ bilmiyorum.
 (Sabit) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [Z Count](../Moduller#z-count) inputuna baglıdır.
 
 * #### [Emitter.SpawnParticlesInGrid.SpawnBurst]()
-[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) modülünün [Spawn Info'su](#spawn-info).
 
 * #### [Emitter.SpawnPerFrame.SpawnBurst]()
 [Spawn Per Frame](../Moduller#spawn-per-frame) tarafından oluşturulur. bilmiyorum.
