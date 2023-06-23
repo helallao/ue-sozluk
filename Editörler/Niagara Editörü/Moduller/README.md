@@ -1700,10 +1700,10 @@ Y ekseninde spawn edilecek parçacık sayısı.
 Z ekseninde spawn edilecek parçacık sayısı.
 
 * #### Spawn Time
-Spawn edecegi saniye.
+Parçacıkların spawn edilecegi saniye.
 
 * #### Age
-bilmiyorum.
+Parçacıkların spawn edilecegi saniyenin hesaplanması için gerekli olan Age degeri. Default olarak [Emitter.LoopedAge](../Parameters#emitterloopedage) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
 
 * #### SpawnGroup
 Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
