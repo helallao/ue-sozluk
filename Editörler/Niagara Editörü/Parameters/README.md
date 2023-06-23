@@ -160,7 +160,7 @@ bilmiyorum.
 [Spawn Burst Instantaneous](../Moduller#spawn-burst-instantaneous) tarafından oluşturulur. bilmiyorum.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location Spawn Count]()
-[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. bilmiyorum.
+[Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. Toplamda oluşturulan parçacık sayısı degerini tutar.
 
 * #### [Emitter.SpawnParticlesInGrid.Grid Location X Count]()
 (Sabit) [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [X Count](../Moduller#x-count) inputuna baglıdır.
