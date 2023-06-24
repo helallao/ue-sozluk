@@ -295,7 +295,7 @@ bilmiyorum.
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıgın grid üzerindeki koordinatını verir. Mesela X ekseninde 3. sırada Y ve Z ekseninde 1. sırada, o zaman (3, 1, 1) şeklinde vektör degeri tutar (koordinatlar 0'dan başlar, yani ilk sıra 0).
 
 * #### [Output.GridLocation.GridSpacing]()
-[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıklar arasındaki boşluk degerinin normalize edilmiş halini verir. Mesela X ekseninde 10 parçacık var diyelim, şu anki parçacık 3. sırada o zaman 10/3 = 0.3
 
 * #### [Output.GridLocation.GridUVW]()
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıklar arasındaki boşluk degerinin normalize edilmiş halini verir. Mesela X ekseninde 10 parçacık var diyelim, şu anki parçacık 3. sırada o zaman 10/3 = 0.3
