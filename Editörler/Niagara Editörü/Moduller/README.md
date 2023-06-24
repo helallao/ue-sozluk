@@ -1114,7 +1114,7 @@ Grid'in orijin noktası.
 "Placement Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Randomize Overriden Seed
-bilmiyorum.
+"Random Placement Seed" ile seed verseniz bile, gerçekleşen işlemler sadece sizin verdiginiz seed'e göre olmaz. Bu da verdiginiz seed'in %100 her şeyi belirlemeyecegi anlamına gelir. Eger bu ayarı kapatırsanız her şey bu seed numarasına göre gerçekleşir. Daha teknik konuşmak gerekirse [Get Random Info](../../Niagara%20Modül%20Editörü/Nodlar#get-random-info) nodunun "Fixed Override Seed" parametresine bakın.
 
 * #### Normalize Offsets
 Eger bu ayar açıksa, offset degerlerini cell degerlerine göre düzenler ve 1 offset degeri 1 cell boyutuna eşit hale getirilir.
@@ -1126,7 +1126,7 @@ Parçacıklara rastgele offset degeri verir. XYZ eksenleri olmak üzere bütün 
 XYZ eksenleri olmak üzere bütün eksenlerde offset verebilirsiniz.
 
 * #### Align To Grid Cell
-Sadece "Dimensions Definition" "Bounding Box Size" modundayken vardır.
+Sadece "Dimensions Definition" "Bounding Box Size" modundayken vardır. Bu ayar açıkken her bir parçacık kendi cell'inde (yani kendi hücresinde) başlangıç noktasına dogru bakan tarafa dogru yaslanır. Yani kendi cell'inin kenarına yaslanır. Bu ayar kapalıyken parçacıklar grid'in büyüklügüne göre eşit aralıkla düzgünce baştan sona konumlandırılır.
 
 * #### Dimensions Definition
 Parçacıklar arasındaki boşluk ayarı, "Padding Per Cell" modunda iken her parçacık arasındaki boşlugu, "Bounding Box Size" modunda iken bütün grid'in büyüklügüne göre parçacıklar arasındaki boşlugu ayarlar.
@@ -1134,20 +1134,20 @@ Parçacıklar arasındaki boşluk ayarı, "Padding Per Cell" modunda iken her pa
 * #### XYZ Dimensions
 "Dimensions Definition" için XYZ yönlerinde boşluk degerleri.
 
-* #### Use A Custom Transformation Matrix
-bilmiyorum.
+* #### Custom Transformation Matrix
+Sadece "Use A Custom Transformation Matrix" ayarı açıkken vardır. Bu ayar ile grid'i konumlandırmak için matrix kullanabilirsiniz.
 
 * #### Exec Index
-bilmiyorum.
+Parçacıkların sıra numarasını ifade eder. Modülün işlemleri gerçekleştirebilmesi için gereklidir. Özel bi durum yoksa degiştirmeyin.
 
 * #### Grid X Count
-"Spawn Particles in Grid" in [X Count](../Moduller#x-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location X Count](../Parameters#emitterspawnparticlesingridgrid-location-x-count) parametresine baglıdır.
+[Spawn Particles in Grid](#spawn-particles-in-grid) modülünün [X Count](../Moduller#x-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location X Count](../Parameters#emitterspawnparticlesingridgrid-location-x-count) parametresine baglıdır.
 
 * #### Grid Y Count
-"Spawn Particles in Grid" in [Y Count](../Moduller#y-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location Y Count](../Parameters#emitterspawnparticlesingridgrid-location-y-count) parametresine baglıdır.
+[Spawn Particles in Grid](#spawn-particles-in-grid) modülünün [Y Count](../Moduller#y-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location Y Count](../Parameters#emitterspawnparticlesingridgrid-location-y-count) parametresine baglıdır.
 
 * #### Grid Z Count
-"Spawn Particles in Grid" in [Z Count](../Moduller#z-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location Z Count](../Parameters#emitterspawnparticlesingridgrid-location-z-count) parametresine baglıdır.
+[Spawn Particles in Grid](#spawn-particles-in-grid) modülünün [Z Count](../Moduller#z-count) inputuna eşit olmalıdır. Dolayısıyla default olarak [Emitter.SpawnParticlesInGrid.Grid Location Z Count](../Parameters#emitterspawnparticlesingridgrid-location-z-count) parametresine baglıdır.
 
 
 
