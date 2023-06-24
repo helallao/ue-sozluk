@@ -265,6 +265,9 @@ bilmiyorum.
 * #### [Particles.ShapeLocation.ShapeVector]()
 [Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
 
+* #### [Particles.SpawnGroup]()
+(Sabit) Parçacıgın spawn grubu.
+
 * #### [Particles.UniqueID]()
 (Sabit) Her parçacık için oluşturulan numara/id'yi verir. Her bir yeni parçacıkta bu sayı 1 artar.
 
