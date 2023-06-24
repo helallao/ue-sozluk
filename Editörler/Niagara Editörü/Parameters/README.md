@@ -292,19 +292,19 @@ bilmiyorum.
 (Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
 
 * #### [Output.GridLocation.GridCellCoordinate]()
-[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıgın grid üzerindeki koordinatını verir. Mesela X ekseninde 3. sırada Y ve Z ekseninde 1. sırada, o zaman (3, 1, 1) şeklinde vektör degeri tutar (koordinatlar 0'dan başlar, yani ilk sıra 0).
 
 * #### [Output.GridLocation.GridSpacing]()
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
 
 * #### [Output.GridLocation.GridUVW]()
-[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıklar arasındaki boşluk degerinin normalize edilmiş halini verir. Mesela X ekseninde 10 parçacık var diyelim, şu anki parçacık 3. sırada o zaman 10/3 = 0.3
 
 * #### [Output.GridLocation.Normalized Array location]()
-[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıklar arasındaki boşluk degerinin normalize edilmiş halini verir. Mesela X ekseninde 10 parçacık var diyelim, şu anki parçacık 3. sırada o zaman 10/3 = 0.3
 
 * #### [Output.GridLocation.XYZ Spacing]()
-[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur.
+[Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Her parçacık arasındaki boşluk degerini tutar (V3).
 
 * #### [Output.GridLocation.XYZCountAsVector]()
 [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. [Emitter.SpawnParticlesInGrid.Grid Location XYZ Count](#emitterspawnparticlesingridgrid-location-xyz-count) ile aynıdır. XYZ eksenleri olmak üzere, her bir eksen için oluşturulan parçacık sayısı degerini tutar.
