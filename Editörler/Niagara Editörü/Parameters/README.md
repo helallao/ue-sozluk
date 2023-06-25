@@ -514,7 +514,7 @@ Aslında 3 boyutlu vektör, koordinatlar için bu kullanılıyor.
 İngilizcesi "Quaternion" olan bir sayı sistemi. Oryantasyon yani yön bilgisi tutmak için kullanılıyor. [Wikipedia](https://en.wikipedia.org/wiki/Quaternion) ([türkçe](https://tr.wikipedia.org/wiki/D%C3%B6rdey)), online olarak test etmek için de [bu siteye](https://quaternions.online/) bakabilirsiniz.
 
 * #### [Spawn Info]()
-[Spawn modülleri](../Moduller#spawning) tarafından kullanılan bir parametre türüdür. İçerisinde spawn bilgileri tutar. Kaç parçacık spawn edildigi (Count), ilk parçacık spawn anı (Interp Start Dt), sonraki parçacıgın spawn edilmesine kalan süre (Interval Dt, "Dt" Delta Time'ın kısaltması) ve parçacıkların grup numarası (Spawn Group).
+[Spawn modülleri](../Moduller#spawning) tarafından kullanılan bir parametre türüdür. İçerisinde spawn bilgileri tutar. Kaç parçacık spawn edildigi (Count), ilk parçacık spawn anı (Interp Start Dt), parçacıkların spawn aralıkları (Interval Dt, "Dt" Delta Time'ın kısaltması) ve parçacıkların grup numarası (Spawn Group).
 
 * #### [Static bool]()
 Static bool normal bool'un aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
