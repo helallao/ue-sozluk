@@ -435,6 +435,14 @@ Engine.Owner.SystemWorldToLocal ile aynıdır ama scale edilmeden.
 Burada oluşturulan parametreler oluşturuldukları kategorinin ismini alırlar. Mesela [Particle Spawn](../Graph#particle-spawn) kategorisindeki bir modül tarafından "Stack Context Sensitive" dalı altında parametre oluşturulduysa, parametre parçacık parametresi olur. İsmi de "Particle." şeklinde başlar yani o dala geçer dolayısıyla "Stack Context Sensitive" dalı altında parametre göremezsiniz.
 
 
+* #### [StackContext.DoOnce.Execute]()
+(Durumsal) [Do Once](../Moduller#do-once) kullanıldıgı zaman oluşturulur. [Do Once](../Moduller#do-once) modülünün "Trigger Condition" inputu True oldugunda bu parametre de True olur.
+
+* #### [StackContext.DoOnce.TriggeredOnce]()
+(Durumsal) [Do Once](../Moduller#do-once) kullanıldıgı zaman oluşturulur. [Do Once](../Moduller#do-once) modülünün "Trigger Condition" inputu True oldugunda bu parametre de True olur. Reset atılmadıgı sürece de True olarak kalır.
+
+
+
 
 ## Stage Transients
 
