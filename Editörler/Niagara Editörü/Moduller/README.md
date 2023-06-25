@@ -2336,7 +2336,7 @@ Spawn işleminin gerçekleşecegi zaman (saniye).
 Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
 
 * #### Age
-Ne işe yaradıgını bilmiyorum.
+Modülün hesaplamaları yapabilmesi için Age degeri. Özel bi durum yoksa degiştirmeyin.
 
 * #### Loop Count Limit
 Çalışacagı loop sayısını belirtir, mesela Emitter'ın loop sayısı 5 olabilir ama siz bu degeri 2 yaparsanız sadece ilk 2 loop'da çalışır, digerlerinde çalışmaz.
