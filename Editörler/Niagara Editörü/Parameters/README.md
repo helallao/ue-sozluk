@@ -184,7 +184,7 @@ bilmiyorum.
 [SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. bilmiyorum.
 
 * #### [Emitter.SpawnPerUnit.SpawnRemainder]()
-[SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. Bir sonraki parçacıgı spawn etmeye kalan mesafeyi belirtir (cm cinsinden).
+[SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. Spawn edilecek parçacık sayısı tam sayı olmak zorunda oldugu için. Modül hatalı çalışmasın diye, spawn edilecek parçacık sayısının kesirli kısmı, bir sonraki frame kullanılmak üzere bu parametreye kaydediliyor. Yani bu parametre bir önceki frame'de spawn edilen parçacık sayısının kesirli kısmı. Bu frame'de spawn edilecek parçacık sayısına ekleriz ve kalan kesirli degeri tekrar bu parametreye kaydederiz, böylelikle döngü devam eder.
 
 * #### [Emitter.SpawnRate.SpawnOutputInfo]()
 [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. bilmiyorum.
