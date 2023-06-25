@@ -178,19 +178,19 @@ bilmiyorum.
 [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) tarafından oluşturulur. [Spawn Particles in Grid](../Moduller#spawn-particles-in-grid) modülünün [Spawn Info'su](#spawn-info).
 
 * #### [Emitter.SpawnPerFrame.SpawnBurst]()
-[Spawn Per Frame](../Moduller#spawn-per-frame) tarafından oluşturulur. bilmiyorum.
+[Spawn Per Frame](../Moduller#spawn-per-frame) tarafından oluşturulur. [Spawn Per Frame](../Moduller#spawn-per-frame) modülünün [Spawn Info'su](#spawn-info).
 
 * #### [Emitter.SpawnPerUnit.SpawnOutputInfo]()
-[SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. bilmiyorum.
+[Spawn Per Unit](../Moduller#spawn-per-unit) tarafından oluşturulur. [Spawn Per Unit](../Moduller#spawn-per-unit) modülünün [Spawn Info'su](#spawn-info).
 
 * #### [Emitter.SpawnPerUnit.SpawnRemainder]()
-[SpawnRate](../Moduller#spawn-per-unit) tarafından oluşturulur. Spawn edilecek parçacık sayısı tam sayı olmak zorunda oldugu için. Modül hatalı çalışmasın diye, spawn edilecek parçacık sayısının kesirli kısmı, bir sonraki frame kullanılmak üzere bu parametreye kaydediliyor. Yani bu parametre bir önceki frame'de spawn edilen parçacık sayısının kesirli kısmı. Bu frame'de spawn edilecek parçacık sayısına ekleriz ve kalan kesirli degeri tekrar bu parametreye kaydederiz, böylelikle döngü devam eder.
+[Spawn Per Unit](../Moduller#spawn-per-unit) tarafından oluşturulur. Spawn edilecek parçacık sayısı tam sayı olmak zorunda oldugu için. Modül hatalı çalışmasın diye, spawn edilecek parçacık sayısının kesirli kısmı, bir sonraki frame kullanılmak üzere bu parametreye kaydediliyor. Yani bu parametre bir önceki frame'de spawn edilen parçacık sayısının kesirli kısmı. Bu frame'de spawn edilecek parçacık sayısına ekleriz ve kalan kesirli degeri tekrar bu parametreye kaydederiz, böylelikle döngü devam eder.
 
 * #### [Emitter.SpawnRate.SpawnOutputInfo]()
-[SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. bilmiyorum.
+[Spawn Rate](../Moduller#spawn-rate) tarafından oluşturulur. [Spawn Rate](../Moduller#spawn-rate) modülünün [Spawn Info'su](#spawn-info).
 
 * #### [Emitter.SpawnRate.SpawnRemainder]()
-(Degişken) [SpawnRate](../Moduller#spawn-rate) tarafından oluşturulur. Bir sonraki parçacıgı spawn etmeye kalan süreyi belirtir (saniye cinsinden).
+(Degişken) [Spawn Rate](../Moduller#spawn-rate) tarafından oluşturulur. Bir sonraki parçacıgı spawn etmeye kalan süreyi belirtir (saniye cinsinden).
 
 
 
