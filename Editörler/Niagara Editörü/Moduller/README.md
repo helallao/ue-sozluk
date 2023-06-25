@@ -2376,7 +2376,7 @@ Spawn etmeyi açar/kapatır.
 
 
 * #### Spawn Spacing
-Kaç birimde spawn edilecegini belirler.
+Kaç birimde bir spawn edilecegini belirler.
 
 * #### Max Movement Threshold
 Eger tek bir frame'deki (fps, kare) hız degeri bu degerden fazlaysa, o zaman parçacık spawn etmez.
@@ -2388,10 +2388,10 @@ Eger tek bir frame'deki (fps, kare) hız degeri bu degerden azsa, o zaman parça
 0 - 1 arasında, spawn olma ihtimali.
 
 * #### Velocity Vector
-Hız degeri bu inputa göre belirlenir, default olarak [Engine.Owner.Velocity](../Parameters#engineownervelocity) parametresine baglıdır.
+Hız degeri bu inputa göre belirlenir, default olarak [Engine.Owner.Velocity](../Parameters#engineownervelocity) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
 
 * #### Delta Time
-Delta Time, default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
+Modülün hesaplamaları yapabilmesi için gerekli olan DeltaTime degeri, default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
 
 * #### SpawnGroup
 Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yarar.
