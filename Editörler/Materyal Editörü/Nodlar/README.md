@@ -990,7 +990,7 @@ Türkçesi [Çapraz Çarpım](https://tr.wikipedia.org/wiki/%C3%87apraz_%C3%A7ar
 
 
 * #### [DegreesToRadians]() 🤍🤍
-Verdigimiz dereceyi (yani açıyı) [radyana](https://tr.wikipedia.org/wiki/Radyan) dönüştürür ve ya radyan degerini verir de denebilir.
+Verdigimiz dereceyi (yani açıyı) [radyana](https://tr.wikipedia.org/wiki/Radyan) (1 radyan ≈= 57,2958) dönüştürür ve ya radyan degerini verir de denebilir.
 
 * #### [DeriveNormalZ_Function]()
 
