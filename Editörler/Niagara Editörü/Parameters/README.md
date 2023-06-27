@@ -289,7 +289,7 @@ Kullanılan modüllerin çıktı (output) parametreleri, sadece o modül tarafı
 (Sabit) [Add Velocity](../Moduller#add-velocity) kullanıldıgı zaman oluşturulur. Koninin yön vektörünü verir.
 
 * #### [Output.AddVelocity.NormalizedFalloff]()
-bilmiyorum.
+(Degişken) [Add Velocity](../Moduller#add-velocity) kullanıldıgı zaman oluşturulur. Falloff degerini normalized olarak verir.
 
 * #### [Output.ApplyInitialForces.IncomingPhysicsForce]()
 bilmiyorum.
