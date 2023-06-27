@@ -148,15 +148,20 @@ InnerAngle | Koninin iç açısı.
 Angle Input | "Angle" inputuna verdiginiz açı degerinin türü.
 Enable Cone Axis Rotation | Eger bu ayarı açarsanız koninizin yönü "Cone Axis" inputuna verdiginiz yön olur. Yani "Cone Axis" inputunun kullanımını açar. Bu ayar kapalı iken fonksiyon size yukarı bakan (0,0,1) yönde bir koni verir.
 Enable Flattened Endcaps | Koniyi resim 4'deki gibi yapar.
-Enable Random Position |
-Evaluation Type |
-Fixed Random Seed |
-Override Seed |
-Randomness Mode |
+Enable Random Position | Rastgele nokta vermeyi açar/kapatır.
+Evaluation Type | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
+Fixed Random Seed | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
+Override Seed | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
+Randomness Mode | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
 
 Output | İçerik
 :---: | :---:
-ConvertedAngle | Dönüştürülmüş açı degeri.
+Cone Vector | Noktanın koni üzerindeki konumu.
+Cone Normal | Koninin yönü.
+Cone Tangent | Bilmiyorum.
+
+
+<img src="../../../Dosyalar/Calculate_Random_Point_in_Cone_Sphere_Intersection.png">
 
 
 
