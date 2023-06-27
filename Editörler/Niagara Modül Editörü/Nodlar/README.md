@@ -133,7 +133,31 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Calculate Random Point in Cone Sphere Intersection]()
-bilmiyorum.
+Bu fonksiyon hayali bir koni oluşturur, sonra bu koni üzerinde bir nokta seçer. Bütün bunlar sizin kontrolünüzde olacak.
+
+
+İnput | İşlem
+:---: | :---:
+Angle | Açı degeri, yani dış açı degeri, koninin uç genişligini belirler (resim 1)
+Scale | Koninin uzunlugu (resim 2)
+Cone Distribution | Bu deger koni üzerinde noktanın seçilebilecegi yerleri belirler. Default olarak 1'dir. 1 demek sadece koninin ucunda bir nokta seçilebilir demektir. Mesela bu deger 0.5 olsaydı, koninin orta noktasından sonrası yani 0.5 - 1 arası seçilebilirdi (içten dışa dogru çalışıyor yani). Resim 3'e bakın. Ortadan geçen çizgi bu inputa verdigimiz deger yani 0.5, noktanın seçilebilecegi yerler ise bu çizgiden sonrası.
+Radial Angle |
+Cone Axis | Koninin baktıgı yön.
+InnerAngle | Koninin iç açısı.
+Angle Input | "Angle" inputuna verdiginiz açı degerinin türü.
+Enable Cone Axis Rotation | Eger bu ayarı açarsanız koninizin yönü "Cone Axis" inputuna verdiginiz yön olur. Yani "Cone Axis" inputunun kullanımını açar.
+Enable Flattened Endcaps | Koniyi resim 4'deki gibi yapar.
+Enable Random Position |
+Evaluation Type |
+Fixed Random Seed |
+Override Seed |
+Randomness Mode |
+
+Output | İçerik
+:---: | :---:
+ConvertedAngle | Dönüştürülmüş açı degeri.
+
+
 
 * #### [Calculate Random Point in Sphere]()
 bilmiyorum.
