@@ -285,6 +285,12 @@ bilmiyorum.
 Kullanılan modüllerin çıktı (output) parametreleri, sadece o modül tarafından okunabilir, sadece o modül ve oldugu kategori (Sistem/Emitter/Parçacık) tarafından degiştirilebilir.
 
 
+* #### [Output.AddVelocity.ConeAxis]()
+(Sabit) [Add Velocity](../Moduller#add-velocity) kullanıldıgı zaman oluşturulur. Koninin yön vektörünü verir.
+
+* #### [Output.AddVelocity.NormalizedFalloff]()
+bilmiyorum.
+
 * #### [Output.ApplyInitialForces.IncomingPhysicsForce]()
 bilmiyorum.
 
