@@ -2727,13 +2727,13 @@ Uygulanan kuvvetin (velocity) alanını daraltır, kuvvetin uygulanacagı bir k�
 "Constrain To Radius" seçenegini açtıgınızda gelir. "Radius Falloff Near / Far" ayarının katsayısnı arttırır. Böylelikle daha fazla etki eder.
 
 * #### Invert Velocity Falloff
-Ne işe yaradıgını bilmiyorum.
+Falloff kullanımını tam tersine çevirir. Yakını uzaga, uzagı yakına.
 
 * #### Random Seed
 "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Ne işe yaradıgını bilmiyorum.
+Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### Randomness Mode
 "Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
@@ -2748,7 +2748,7 @@ Orijin noktasına offset vermenize yarar.
 Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Default Position
-Velocity hesaplanırken parçacıgın konumu da bilinmelidir, bu input modüle parçacıgın konumunu verir.
+Modülün işlemleri yapabilmesi için parçacık konumu. Özel bi durum yoksa degiştirmeyin.
 
 
 <br>
@@ -2769,7 +2769,7 @@ Koni içindeki parçacıkların yönü koninin baktıgı yöne (orta nokta) dogr
 "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Ne işe yaradıgını bilmiyorum.
+Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### Randomness Mode
 "Simulation Defaults" ayarında iken default ayarları kullanır. "Deterministic" modunda iken "Random Seed" kullanımını açar. "Non-Deterministic" modunda iken "Random Seed" kullanımını kapatır.
@@ -2778,10 +2778,10 @@ Ne işe yaradıgını bilmiyorum.
 Koninin yönü.
 
 * #### Cone Angle
-Koninin genişligi (açı).
+Koninin açısı (genişligi).
 
 * #### Inner Cone Angle
-Koninin başlangıç noktasındaki genişligi (açı).
+Koninin iç açısı.
 
 * #### Cone Angle Mode
 Açı degerlerinin türünü degiştirir.
