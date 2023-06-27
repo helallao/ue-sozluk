@@ -592,9 +592,6 @@ bilmiyorum.
 * #### [Multiply Vector with Quaternion]()
 bilmiyorum.
 
-* #### [New Niagara Script*]()
-bilmiyorum.
-
 * #### [Niagara Distance Field Collisions]()
 bilmiyorum.
 
