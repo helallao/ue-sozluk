@@ -2817,7 +2817,11 @@ Minimum hız degerini belirtir. Eger hız degeri bu degerin altındaysa parçac�
 * #### Velocity Source
 Inherit edilecek velocity kaynagı. Defaul olarak [Engine.Owner.Velocity](../Parameters#engineownervelocity) parametresine baglıdır.
 
+* #### Velocity Source Space
+"Velocity Source" inputuna verdiginiz degerin [Coordinate Space'i](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
+* #### Velocity Destination Space
+"Velocity Source" inputunun degerinin dönüştürülmesini istediginiz [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 
 
