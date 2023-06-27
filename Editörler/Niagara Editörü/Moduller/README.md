@@ -2864,16 +2864,16 @@ Orijin noktası, yani orta nokta.
 Girdabın yönünün uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Delta Time
-bilmiyorum.
+Modülün hesaplamaları yapabilmesi için gerekli olan Delta Time degeri.
 
 * #### Influence Falloff Exponent
-"Influence Falloff Radius" seçenegini açtıgınızda gelir. "Influence Falloff Radius" degeri için katsayıdır, yani degeri bu sayı ile katlar, gereksiz.
+"Influence Falloff Radius" seçenegini açtıgınızda gelir. "Influence Falloff Radius" degeri için katsayıdır.
 
 * #### Influence Falloff Radius
-Parçacıkların girdapda kalma süresini arttırır. Deger yükseldikçe parçacıklar daha kısa süre girdapta kalır, azaldıkça parçacıklar daha uzun süre girdapta kalır. Yani girdaptan çıkma süresini belirler.
+Parçacıkların girdapda kalma süresini arttırır. Falloff alanı oluşturur, verdiginiz deger de bu alan için çap degeri görevi görür. Oluşturulan bu alanın içindeki parçacıklar ortaya olan uzaklıgına göre daha az/fazla ektilenir.
 
 * #### Invert Influence Falloff
-"Influence Falloff Radius" degerinin çalışma mantıgını tersine çevirir. Default olarak zaten açıktır. Deger yükseldikçe parçacıklar daha uzun süre girdapta kalır, azaldıkça parçacıklar daha kısa süre girdapta kalır. Yani girdapta kalma süresini belirler.
+"Influence Falloff Radius" degerinin çalışma mantıgını tersine çevirir. Default olarak zaten açıktır. Bu ayar açıkken falloff etkisi içten dışa dogru azalan bir etkidir. Bu ayar kapalıyken falloff etkisi dıştan içe dogru azalan bir etkidir. Yani bu ayar açıkken yakındaki parçacıklar, kapalıyken uzaktaki parçacıklar falloff'tan daha çok etkilenir.
 
 
 
@@ -2887,4 +2887,4 @@ Parçacıkların girdapda kalma süresini arttırır. Deger yükseldikçe parça
 
 ## [New Scratch Pad Module]()
 ## [Set new or existing parameter directly]()
-Yeni parametre oluşturmaya ve ya varolan parametrenin degerini degiştirmeye yarar. Modülü seçtiginiz zaman [Selection](../Selection) pencersinde sag üstteki "+" işaretine tıklayarak herhangi bir parametre seçebilirsiniz ve ya "Make New" kategorisini kullanarak yeni bir parametre oluşturabilirsiniz. İsterseniz parametreyi [Parametreler](../Parameters) bölümünden tutup [Selection](../Selection) penceresi üzerine bırakabilirsiniz, otomatikmen o parametreyi ekleyecektir. Bu modülün kullanıldıgı yer önemlidir, mesela [Particle Spawn](../Graph#particle-spawn) kategorisinde [System.Age](../Parameters#systemage) parametresini degiştiremezsiniz. [System.Age](../Parameters#systemage) parametresini degiştirmek için [System Spawn](../Graph#system-spawn) ve ya [System Update](../Graph#system-update) kullanmak zorundasınız.
+Yeni parametre oluşturmaya ve ya varolan parametrenin degerini degiştirmeye yarar. Modülü seçtiginiz zaman [Selection](../Selection) penceresinde sag üstteki "+" işaretine tıklayarak herhangi bir parametre seçebilirsiniz ve ya "Make New" kategorisini kullanarak yeni bir parametre oluşturabilirsiniz. İsterseniz parametreyi [Parametreler](../Parameters) bölümünden tutup [Selection](../Selection) penceresi üzerine bırakabilirsiniz, otomatikmen o parametreyi ekleyecektir. Bu modülün kullanıldıgı yer önemlidir, mesela [Particle Spawn](../Graph#particle-spawn) kategorisinde [System.Age](../Parameters#systemage) parametresini degiştiremezsiniz. [System.Age](../Parameters#systemage) parametresini degiştirmek için [System Spawn](../Graph#system-spawn) ve ya [System Update](../Graph#system-update) kullanmak zorundasınız.
