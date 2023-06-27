@@ -133,7 +133,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Calculate Random Point in Cone Sphere Intersection]()
-Bu fonksiyon hayali bir koni oluşturur, sonra bu koni üzerinde bir nokta seçer. Bütün bunlar sizin kontrolünüzde olacak.
+Bu fonksiyon hayali bir koni oluşturur, sonra bu koni üzerinde bir nokta seçer. Bütün bunlar sizin kontrolünüzde olacak. Default olarak bu fonksiyon size koninin uç kısmındaki küresel kısımdan (resim 1) bir nokta verir çünkü "Cone Distribution" inputunun degeri 1'dir. Eger "Enable Cone Axis Rotation" ayarı açmadıysanız, default olarak bu fonksiyon size yukarı bakan (0,0,1) yönde bir koni verir, yani default "Cone Axis" degeri (0,0,1) dir.
 
 
 İnput | İşlem
@@ -141,11 +141,12 @@ Bu fonksiyon hayali bir koni oluşturur, sonra bu koni üzerinde bir nokta seçe
 Angle | Açı degeri, yani dış açı degeri, koninin uç genişligini belirler (resim 1)
 Scale | Koninin uzunlugu (resim 2)
 Cone Distribution | Bu deger koni üzerinde noktanın seçilebilecegi yerleri belirler. Default olarak 1'dir. 1 demek sadece koninin ucunda bir nokta seçilebilir demektir. Mesela bu deger 0.5 olsaydı, koninin orta noktasından sonrası yani 0.5 - 1 arası seçilebilirdi (içten dışa dogru çalışıyor yani). Resim 3'e bakın. Ortadan geçen çizgi bu inputa verdigimiz deger yani 0.5, noktanın seçilebilecegi yerler ise bu çizgiden sonrası.
-Radial Angle |
-Cone Axis | Koninin baktıgı yön.
+Radial Angle | Bu deger koninin uç çemberinin açısını belirler. Resim 5'e bakın, koninin uç çemberine dikey olarak bakıyormuşuz gibi düşünün. Mesela resim 5'deki açı 270 derece.
+Seed | Seed verebilirsiniz.
+Cone Axis | Koninin baktıgı yön, bunu kullanabilmek için "Enable Cone Axis Rotation" ayarını açmış olmalısınız.
 InnerAngle | Koninin iç açısı.
 Angle Input | "Angle" inputuna verdiginiz açı degerinin türü.
-Enable Cone Axis Rotation | Eger bu ayarı açarsanız koninizin yönü "Cone Axis" inputuna verdiginiz yön olur. Yani "Cone Axis" inputunun kullanımını açar.
+Enable Cone Axis Rotation | Eger bu ayarı açarsanız koninizin yönü "Cone Axis" inputuna verdiginiz yön olur. Yani "Cone Axis" inputunun kullanımını açar. Bu ayar kapalı iken fonksiyon size yukarı bakan (0,0,1) yönde bir koni verir.
 Enable Flattened Endcaps | Koniyi resim 4'deki gibi yapar.
 Enable Random Position |
 Evaluation Type |
