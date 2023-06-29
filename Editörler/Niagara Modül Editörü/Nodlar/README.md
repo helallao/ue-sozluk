@@ -620,10 +620,34 @@ IsInsideSphere | Nokta kürenin içindeyse True, degilse False
 
 
 * #### [Is Value Within Range]()
-bilmiyorum.
+Bu fonksiyon verdiginiz deger, verdiginiz minimum ve maximum degerleri arasında mı diye kontrol eder.
+
+
+İnput | İşlem
+:---: | :---:
+MinRange | Minimum deger
+MaxRange | Maximum deger
+X | Deger
+
+Output | İçerik
+:---: | :---:
+X is between the min and max | X inputuna verdiginiz deger "MinRange" degerinden büyük, "MaxRange" degerinden küçükse, yani ikisinin arasında ise True, degilse False döndürür.
+
+
 
 * #### [Isolate Longest Vector Component]()
-bilmiyorum.
+Bu fonksiyon verdiginiz vektörün (V3), en büyük degere sahip olan eksenini verir, diger eksenler ise 0 olur. Yani (1000, 900, 1500) verirseniz (0, 0, 1500) verir.
+
+
+İnput | İşlem
+:---: | :---:
+Vector | Vektör degeri
+
+Output | İçerik
+:---: | :---:
+Result | En büyük degere sahip olan eksenin kaldıgı, digerlerinin 0 oldugu vektör
+
+
 
 * #### [Lerp Multiple Numeric Fn]()
 bilmiyorum.
