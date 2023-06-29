@@ -130,7 +130,22 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Calculate Random Bool]()
-bilmiyorum.
+Bu fonksiyon %50 ihtimal ile True ve ya False degeri verir, yani rastgele. [Random Bool](#random-bool) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur.
+
+
+İnput | İşlem
+:---: | :---:
+Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Evaluation Type | Bilmiyorum.
+Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+RandomBool | Rastgele seçilen deger (bool)
+
+
 
 * #### [Calculate Random Point in Cone Sphere Intersection]()
 Bu fonksiyon hayali bir koni oluşturur, sonra bu koni üzerinde bir nokta seçer. Bütün bunlar sizin kontrolünüzde olacak. Default olarak bu fonksiyon size koninin uç kısmındaki küresel kısımdan (resim 1) bir nokta verir çünkü "Cone Distribution" inputunun degeri 1'dir. Eger "Enable Cone Axis Rotation" ayarı açmadıysanız, default olarak bu fonksiyon size yukarı bakan (0,0,1) yönde bir koni verir, yani default "Cone Axis" degeri (0,0,1) dir.
@@ -149,10 +164,10 @@ Angle Input | "Angle" inputuna verdiginiz açı degerinin türü.
 Enable Cone Axis Rotation | Eger bu ayarı açarsanız koninizin yönü "Cone Axis" inputuna verdiginiz yön olur. Yani "Cone Axis" inputunun kullanımını açar. Bu ayar kapalı iken fonksiyon size yukarı bakan (0,0,1) yönde bir koni verir.
 Enable Flattened Endcaps | Koniyi resim 4'deki gibi yapar.
 Enable Random Position | Rastgele nokta vermeyi açar/kapatır.
-Evaluation Type | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
-Fixed Random Seed | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
-Override Seed | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
-Randomness Mode | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range) nodlarının inputu.
+Evaluation Type | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range-float) nodlarının inputu.
+Fixed Random Seed | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range-float) nodlarının inputu.
+Override Seed | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range-float) nodlarının inputu.
+Randomness Mode | Fonksiyonun içinde kullanılan [Calculate Random Range Float](#calculate-random-range-float) nodlarının inputu.
 
 Output | İçerik
 :---: | :---:
@@ -169,13 +184,68 @@ Cone Tangent | Bilmiyorum.
 bilmiyorum.
 
 * #### [Calculate Random Range]()
-bilmiyorum.
+Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max hariç). [Random Range](#random-range) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur.
+
+
+İnput | İşlem
+:---: | :---:
+Range Min | Minimum deger
+Range Max | Maximum deger
+Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Evaluation Type | Bilmiyorum.
+Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+RandomValue | Rastgele seçilen deger (float)
+IsDeterministic | Seçilen degerin deterministik olarak mı yoksa rastgele mi seçildigini belirtir
+
+
 
 * #### [Calculate Random Range Float]()
-bilmiyorum.
+Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max hariç). [Random Range Float](#random-range-float) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur.
+
+
+İnput | İşlem
+:---: | :---:
+Float Min | Minimum float
+Float Max | Maximum float
+Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Evaluation Type | Bilmiyorum.
+Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+RandomFloat | Rastgele seçilen deger (float)
+IsDeterministic | Seçilen degerin deterministik olarak mı yoksa rastgele mi seçildigini belirtir
+
+
 
 * #### [Calculate Random Range Integer]()
-bilmiyorum.
+Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max hariç). [Random Range Integer](#random-range-integer) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur.
+
+
+İnput | İşlem
+:---: | :---:
+Integer Min | Minimum float
+Integer Max | Maximum float
+Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Evaluation Type | Bilmiyorum.
+Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+RandomValue | Rastgele seçilen deger (integer)
+IsDeterministic | Seçilen degerin deterministik olarak mı yoksa rastgele mi seçildigini belirtir
+IsFixedRandomSeed | "Fixed Random Seed" ayarını kullandıysanız True, kullanmadıysanız False
+
+
 
 * #### [Calculate Random Unit Vector]()
 bilmiyorum.
@@ -680,6 +750,23 @@ bilmiyorum.
 
 * #### [Quaternion to Rotation Matrix]()
 bilmiyorum.
+
+* #### [Random Bool]()
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon %50 ihtimal ile True ve ya False degeri verir, yani rastgele.
+
+
+İnput | İşlem
+:---: | :---:
+Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+RandomBool | Rastgele seçilen deger (bool)
+
+
 
 * #### [Random Point in Box]()
 bilmiyorum.
