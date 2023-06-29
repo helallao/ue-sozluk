@@ -127,7 +127,20 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Calculate Radius from Sprite Size]()
-bilmiyorum.
+Fonksiyonun isminde "Sprite Size" denilse bile bu, bu fonksiyonun sadece sprite'lar için kullanılacagı anlamına gelmez. Bu fonksiyon çok basitçe sizden iki eksen degeri alır
+, sonra da verdiginiz methoda göre yarıçap degeri verir. 3 method vardır, "Minimum Axis", "Maximum Axis" ve "Bounds". Minimum Axis methodu kısa olan ekseni seçer ve yarıçapını verir. Maximum Axis methodu uzun olan ekseni seçer ve yarıçapını verir. Bounds methodu iki eksenin uzunlugunu/büyüklügünü (magnitude) yani [Pythagorean theorem'ini](https://en.wikipedia.org/wiki/Pythagorean_theorem) alır ve yarıçapını verir.
+
+
+İnput | İşlem
+:---: | :---:
+Sprite Size | X ve Y eksenlerinin uzunlukları
+Method | Kullanılacak method
+
+Output | İçerik
+:---: | :---:
+Radius | Yarıçap
+
+
 
 * #### [Calculate Random Bool]()
 Bu fonksiyon %50 ihtimal ile True ve ya False degeri verir, yani rastgele. [Random Bool](#random-bool) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur.
