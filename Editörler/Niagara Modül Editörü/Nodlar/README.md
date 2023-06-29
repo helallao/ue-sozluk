@@ -248,7 +248,23 @@ IsFixedRandomSeed | "Fixed Random Seed" ayarını kullandıysanız True, kullanm
 
 
 * #### [Calculate Random Unit Vector]()
-bilmiyorum.
+[Random Unit Vector](#random-unit-vector) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur. Bu fonksiyon unit vektörleri verir, yani 1 birimlik vektörler. 1 birimlik vektörler aynı zamanda yön degeri de ifade eder. Vektörlerin hiçbir boyutu 1'den fazla -1'den az olamaz, aynı yön degerleri gibi.
+
+
+İnput | İşlem
+:---: | :---:
+Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Evaluation Type | Bilmiyorum.
+Fixed Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Randomness Mode | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+
+Output | İçerik
+:---: | :---:
+Unit Vector 3D | 3 boyutlu yön degeri (Unit Vector)
+Unit Vector 2D | 2 boyutlu yön degeri (Unit Vector)
+
+
 
 * #### [Calculate the Global Distance Field Surface Normal GPU]()
 bilmiyorum.
@@ -832,15 +848,15 @@ Result | Rastgele seçilen deger (integer)
 
 
 * #### [Random Unit Vector]()
-(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon unit vektörleri verir, yani 1 birimlik vektörler. 1 birimlik vektörler aynı zamanda yön degeri de ifade eder. Vektörlerin hiçbir boyutu 1'den fazla -1'den az olamaz, aynı yön degerleri gibi. Aldıgı bütün inputlar [Get Random Info](#get-random-info) fonksiyonundaki inputlar ile aynıdır, bu inputları anlamak için [Get Random Info](#get-random-info) fonksiyonuna bakın. Eger kodlara bakarsanız inputlarınızı [Get Random Info](#get-random-info) fonksiyonuna verdigini görebilirsiniz.
+(Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon unit vektörleri verir, yani 1 birimlik vektörler. 1 birimlik vektörler aynı zamanda yön degeri de ifade eder. Vektörlerin hiçbir boyutu 1'den fazla -1'den az olamaz, aynı yön degerleri gibi.
 
 
 İnput | İşlem
 :---: | :---:
-Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
-OverrideSeed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
-Fixed Override Seed | [Get Random Info](#get-random-info) fonksiyonuna bakın.
-RandomnessMode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+OverrideSeed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+Fixed Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
+RandomnessMode | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 
 Output | İçerik
 :---: | :---:
