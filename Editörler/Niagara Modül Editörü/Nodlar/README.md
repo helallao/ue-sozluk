@@ -498,7 +498,21 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Hue Shift Linear Color]()
-bilmiyorum.
+Bu fonksiyon verdiginiz renk degerininin renk uzayını, RGB'den [YIQ'a](https://en.wikipedia.org/wiki/YIQ) alır, bu esnada Hue, Saturation ve Value ayarlamalarını yapabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+LinearColor | Renk degeri
+Hue | Renk degişimi, bunu anlamak için materyal editöründeki [HueShift](../../Materyal%20Editörü/Nodlar#hueshift-%EF%B8%8F) nodu için yazdıgım açıklamaya bakabilirsiniz.
+Saturation | Renk yogunlugu/doygunlugu yani renklilik degeri.
+Value | Renk degerini degiştirir, 0 iken siyah, 1 iken renkli ve arttırdıkça da, emissive gibi renklenir/parıldar.
+
+Output | İçerik
+:---: | :---:
+NewOutput | Yeni renk
+
+
 
 * #### [Increment Over Time]()
 bilmiyorum.
