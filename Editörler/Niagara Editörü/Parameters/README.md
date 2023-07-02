@@ -268,6 +268,9 @@ bilmiyorum.
 * #### [Particles.SpawnGroup]()
 (Sabit) Parçacıgın spawn grubu.
 
+* #### [Particles.SpriteRotation]()
+(Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) rotasyonunu verir. 0 - 360 derece arasında deger tutar.
+
 * #### [Particles.UniqueID]()
 (Sabit) Her parçacık için oluşturulan numara/id'yi verir. Her bir yeni parçacıkta bu sayı 1 artar.
 
