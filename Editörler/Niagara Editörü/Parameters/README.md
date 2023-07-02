@@ -250,6 +250,9 @@ bilmiyorum.
 * #### [Particles.RotationalVelocityEnabled]()
 (Durumsal) Eger [Rotational Force](../Terimler%20Sözlügü#rotational-velocity) kullanan herhangi bir modül kullandıysanız bu parametrenin degerini True olarak ayarlayacaktır ve bu deger True olarak ayarlandıgı zaman [Solve Forces and Velocity](../Moduller#solve-forces-and-velocity) modülünün [Manually Enable Rotational Solver](../Moduller#manually-enable-rotational-solver) ayarı açılmamış bile olsa Rotational Solver'ı aktifleştirir.
 
+* #### [Particles.Scale]()
+(Sabit) Parçacıgın mesh (bkz. [Mesh Renderer](../Moduller#mesh-renderer)) scale degerini verir.
+
 * #### [Particles.ShapeLocation.ShapeBitangent]()
 [Shape Location](../Moduller#shape-location) kullanıldıgı zaman oluşturulur.
 
