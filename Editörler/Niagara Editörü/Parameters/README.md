@@ -271,11 +271,14 @@ bilmiyorum.
 * #### [Particles.SpriteRotation]()
 (Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) rotasyonunu verir. 0 - 360 derece arasında deger tutar.
 
+* #### [Particles.SpriteSize]()
+(Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) boyutunu verir, yani X ve Y eksenlerindeki uzunluk degeri.
+
 * #### [Particles.UniqueID]()
 (Sabit) Her parçacık için oluşturulan numara/id'yi verir. Her bir yeni parçacıkta bu sayı 1 artar.
 
 * #### [Particles.UVScale]()
-(Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) UV yani tiling (tekrarlama) (bkz. [TextureCoordinate](../../Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)) degerini verir.
+(Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) UV yani tiling (tekrarlama) (bkz. [TextureCoordinate](../../Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F)) degerini verir, yani X ve Y eksenlerindeki UV degeri.
 
 * #### [Particles.VectorNoiseInterval]()
 (Degişken) [Vector Noise Force](../Moduller#vector-noise-force) kullanıldıgı zaman oluşturulur. Sıradaki yön degiştirme zamanına kalan süreyi tutar.
