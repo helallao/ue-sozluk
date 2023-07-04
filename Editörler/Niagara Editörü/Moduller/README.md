@@ -865,7 +865,7 @@ Sadece "Lifetime Mode" "Random" modundayken vardır. Parçacıgın lifetime yani
 Sadece "Lifetime Mode" "Random" modundayken vardır. Parçacıgın lifetime yani yaşam süresi için maximum süreyi ayarlar.
 
 * #### Lifetime Randomness Mode
-Sadece "Lifetime Mode" "Random" modundayken vardır. bilmiyorum.
+Sadece "Lifetime Mode" "Random" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
 
 * #### Color
 Sadece "Color Mode" "Direct Set" modundayken vardır. Parçacıgın renk degeri.
@@ -898,9 +898,14 @@ Sadece "Color Mode" "Random Hue/Saturation/Value" modundayken vardır. Renk dege
 * #### Alpha Scale Range
 Sadece "Color Mode" "Random Hue/Saturation/Value" modundayken vardır. Alpha degeri.
 
+* #### Color Randomness Mode
+Sadece "Color Mode" "Random Range" ve ya "Random Hue/Saturation/Value" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
+
 * #### Position Mode
-Parçacıgın konumunu ayarlamak için kullanılacak mod, 2 modu vardır,
+Parçacıgın konumunu ayarlamak için kullanılacak mod, 3 modu vardır,
 <br>
+<br>
+Unset = "Simulation Position" ile aynı sayılır
 <br>
 Direct Set = İstediginiz konumu verirsiniz, bu modu seçince "Position" inputu açılır.
 <br>
@@ -935,10 +940,10 @@ Sadece "Mass Mode" "Random" modundayken vardır. Parçacıgın sanip olabilecegi
 Sadece "Mass Mode" "Random" modundayken vardır. Parçacıgın sanip olabilecegi maximum mass (kütle) degeri.
 
 * #### Mass Randomness Mode
-bilmiyorum.
+Sadece "Mass Mode" "Random" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
 
 * #### Material Random
-bilmiyorum.
+Bu ayar açıkken [Particles.MaterialRandom](../Parameters#particlesmaterialrandom) parametresini oluşturup deger yazar. Bu ayar kapalıyken [Particles.MaterialRandom](../Parameters#particlesmaterialrandom) parametresini oluşturmaz.
 
 * #### Uniform Sprite Size
 Sadece "Sprite Size Mode" "Uniform" modundayken vardır. Sprite için boyut degeri, tek bir input alır, X ve Y degerleri için kullanır yani kare şeklinde.
@@ -949,6 +954,9 @@ Sadece "Sprite Size Mode" "Random Uniform" modundayken vardır. Sprite için min
 * #### Uniform Sprite Size Max
 Sadece "Sprite Size Mode" "Random Uniform" modundayken vardır. Sprite için maximum boyut degeri, tek bir input alır, X ve Y degerleri için kullanır yani kare şeklinde.
 
+* #### Sprite Size
+Sadece "Sprite Size Mode" "Non-Uniform" modundayken vardır. Sprite için boyut degeri, X ve Y degerleri en ve boyu temsil ediyor.
+
 * #### Sprite Size Min
 Sadece "Sprite Size Mode" "Random Non-Uniform" modundayken vardır. Sprite için minimum boyut degeri, X ve Y degerleri en ve boyu temsil ediyor.
 
@@ -956,7 +964,7 @@ Sadece "Sprite Size Mode" "Random Non-Uniform" modundayken vardır. Sprite için
 Sadece "Sprite Size Mode" "Random Non-Uniform" modundayken vardır. Sprite için maximum boyut degeri, X ve Y degerleri en ve boyu temsil ediyor.
 
 * #### Sprite Size Randomness Mode
-Sadece "Sprite Size Mode" "Random Uniform" ve "Random Non-Uniform" modundayken vardır. bilmiyorum.
+Sadece "Sprite Size Mode" "Random Uniform" ve "Random Non-Uniform" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
 
 * #### Sprite Rotation Angle Min
 Sadece "Sprite Rotation Mode" "Random" modundayken vardır. Sprite için minimum açı (yön) degeri.
@@ -965,7 +973,7 @@ Sadece "Sprite Rotation Mode" "Random" modundayken vardır. Sprite için minimum
 Sadece "Sprite Rotation Mode" "Random" modundayken vardır. Sprite için maximum açı (yön) degeri.
 
 * #### Sprite Rotation Randomness Mode
-Sadece "Sprite Rotation Mode" "Random" modundayken vardır. bilmiyorum.
+Sadece "Sprite Rotation Mode" "Random" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
 
 * #### Sprite Rotation Angle
 Sadece "Sprite Rotation Mode" "Direct Angle (Degrees)" modundayken vardır. Sprite için açı (yön) degeri.
