@@ -1036,8 +1036,24 @@ Sadece "Mesh Scale Mode" "Random Non-Uniform" modundayken vardır. Maximum scale
 * #### Mesh Scale Randomness Mode
 Sadece "Mesh Scale Mode" "Random Uniform" ve ya "Random Non-Uniform" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
 
+* #### Mesh Renderer Array Visibility Mode
+Eger Mesh Renderer'ın [Meshes](#meshes) bölümünde birden fazla mesh var ise bu ayarı kullanarak, parçacıgın kullanacagı mesh'in indexini belirtebilirsiniz.
+<br>
+<br>
+Unset = 0. indexi kullanır, yani ilk mesh
+<br>
+Direct Set = Verdiginiz indexteki mesh'i kullanır (index 0'dan başlıyor)
+<br>
+Random = Kullanılacak mesh'i rastgele seçer
 
+* #### Mesh Renderer Mesh Index
+Sadece "Mesh Renderer Array Visibility Mode" "Direct Set" modundayken vardır. Buradan kullanılacak mesh'in index'ini verebilirsiniz.
 
+* #### Wrap Index By Mesh Count
+Sadece "Mesh Renderer Array Visibility Mode" "Direct Set" modundayken vardır. Bu ayar açıldıgı zaman, eger verdiginiz sayı toplam mesh sayısından büyükse, verdiginiz index'in toplam mesh sayısına bölümünden kalan sayıyı index olarak kullanır. Yani şöyle, diyelim ki Mesh Renderer'ın [Meshes](#meshes) bölümünde 3 tane mesh var, ve siz "Mesh Renderer Mesh Index" olarak da 4 verdiniz, 4 % 3 = 1 oldugu için 1. index yani 2. mesh kullanılır.
+
+* #### Mesh Renderer Random Seed
+Sadece "Mesh Renderer Array Visibility Mode" "Random" modundayken vardır. Seed verebilirsiniz.
 
 
 
