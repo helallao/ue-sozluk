@@ -981,6 +981,27 @@ Sadece "Sprite Rotation Mode" "Direct Angle (Degrees)" modundayken vardır. Spri
 * #### Sprite Rotation Angle
 Sadece "Sprite Rotation Mode" "Direct Normalized Angle (0-1)" modundayken vardır. Sprite için açı (yön) degeri ama 0 - 360 derece yerine 0 - 1 arası.
 
+* #### Sprite UV Mode
+Sprite için yani materyal için [UV](../../Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri, yani tekrarlama (tiling) degeri. 5 modu vardır,
+<br>
+<br>
+Unset = (1,1) kullanılır, yani degişiklik olmaz
+<br>
+Random X = Bu modda X ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. Y ekseninin degeri degiştirilmez, 1'dir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi.
+<br>
+Random Y = Bu modda Y ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. X ekseninin degeri degiştirilmez, 1'dir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi.
+<br>
+Random X / Y = Bu modda X ve Y ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi. Bunun iki eksende de yapılması ise ortaya 4 farklı sonuç çıkarır. Materyaliniz yukarı, aşagı, saga ve ya sola döndürülmüş olabilir.
+<br>
+Custom = Manuel olarak UV degerini ayarlayabilirsiniz.
+
+* #### Sprite UV Scale
+Sadece "Sprite UV Mode" "Custom" modundayken vardır. Manuel olarak UV degerini ayarlayabilirsiniz.
+
+* #### Sprite UV Randomness Mode
+Sadece "Sprite UV Mode" "Random X", "Random Y" ve ya "Random X / Y" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
+
+
 
 
 
