@@ -232,6 +232,9 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.MaterialRandom]()
 bilmiyorum.
 
+* #### [Particles.MeshIndex]()
+(Sabit) [Mesh Renderer](../Moduller#mesh-renderer) kullanıldıgı zaman, ["Meshes"](../Moduller#meshes) bölümündeki meshlerin içerisinden hangi mesh'in kullanıldıgını, yani index numarasını verir (0'dan başlar). Mesela bu parametrenin degeri 1 ise, ["Meshes"](../Moduller#meshes) bölümündeki meshlerin içerisinden 1. mesh kullanılıyor demektir.
+
 * #### [Particles.NormalizedAge]()
 (Degişken) Parçacıgın şu anki yaşını, yaşam süresini, çalıştıgı süreyi normalized olarak verir. Normalize işlemi, degeri 0 - 1 arasına taşır. Mesela diyelim ki parçacık spawn olalı 3 saniye oldu ve [parçacıgın lifetime süresi](../Moduller#lifetime) 5 saniye, bu durumda deger 3/5 = 0.6 olur. Normalize yani 0 - 1 arasına taşıma işlemini yüzde olarak almak gibi düşünebilirsiniz, yani 0.6 = %60.
 
