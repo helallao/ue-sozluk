@@ -1001,6 +1001,43 @@ Sadece "Sprite UV Mode" "Custom" modundayken vardır. Manuel olarak UV degerini 
 * #### Sprite UV Randomness Mode
 Sadece "Sprite UV Mode" "Random X", "Random Y" ve ya "Random X / Y" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
 
+* #### Mesh Scale Mode
+Mesh için scale yani boyut degeri. 5 modu vardır,
+<br>
+<br>
+Unset = (1,1,1) kullanılır, yani degişiklik olmaz
+<br>
+Uniform = Bu modda tek bir deger verirsiniz ve XYZ eksenleri olmak üzere bütün eksenler bu degere göre scale edilir, boyutlandırılır.
+<br>
+Random Uniform = Bu modda "Mesh Uniform Scale Min" ve "Mesh Uniform Scale Max" inputları açılır, minimum ve maximum scale degerlerini ayarlarsınız ve rastgele olarak bu degerler arasında bir deger seçilir.
+<br>
+Non-Uniform = Bu modda XYZ eksenleri olmak üzere bütün eksenler için scale degerleri verebilirsiniz, bu degerlere göre mesh scale edilir, boyutlandırılır.
+<br>
+Random Non-Uniform = Bu modda "Mesh Scale Min" ve "Mesh Scale Max" inputları açılır, minimum ve maximum scale degerlerini ayarlarsınız ve rastgele olarak bu degerler arasında bir deger seçilir.
+
+* #### Mesh Uniform Scale
+Sadece "Mesh Scale Mode" "Uniform" modundayken vardır. Verdiginiz deger XYZ eksenleri olmak üzere bütün eksenler için kullanılır.
+
+* #### Mesh Uniform Scale Min
+Sadece "Mesh Scale Mode" "Random Uniform" modundayken vardır. Minimum scale degeri.
+
+* #### Mesh Uniform Scale Max
+Sadece "Mesh Scale Mode" "Random Uniform" modundayken vardır. Maximum scale degeri.
+
+* #### Mesh Scale
+Sadece "Mesh Scale Mode" "Non-Uniform" modundayken vardır. Scale degeri.
+
+* #### Mesh Scale Min
+Sadece "Mesh Scale Mode" "Random Non-Uniform" modundayken vardır. Minimum scale degeri.
+
+* #### Mesh Scale Max
+Sadece "Mesh Scale Mode" "Random Non-Uniform" modundayken vardır. Maximum scale degeri.
+
+* #### Mesh Scale Randomness Mode
+Sadece "Mesh Scale Mode" "Random Uniform" ve ya "Random Non-Uniform" modundayken vardır. Rastgele sayı üreticisi (RNG, Random Number Generator) tarafından üretilen sayıların deterministik mi yoksa rastgele mi üretilecegini ayarlarsınız. "Simulation Defaults" ayarında iken default ayarları kullanır.
+
+
+
 
 
 
