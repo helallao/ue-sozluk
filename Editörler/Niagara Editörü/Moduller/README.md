@@ -248,23 +248,21 @@ Emitter'ın System'ın loop'una baglı mı yoksa bagımsız mı olacagını beli
 
 * #### Inactive Response
 "Inactive Response" durumunda yapılacak işlemi seçer. "Inactive Response" durumu demek, Emitter'ın loop süresinin bittigi zaman demektir.
-<br>
-<br>
-Complete (Let Particles Finish then Kill Emitter) = Emitter'ın loop süresi bitse bile, hala parçacık var ise, parçacık yok olana kadar bekle demektir.
-<br>
-Kill (Emitter and Particles Die Immediately) = Emitter'ın loop süresi bittigi anda bütün parçacıkları yok eder (kill).
-<br>
-Continue (Emitter Deactivates But Doesn't Die Until System Does) = Bilmiyorum.
+
+Mod | İşlem
+:---: | :---:
+Complete (Let Particles Finish then Kill Emitter) | Emitter'ın loop süresi bitse bile, hala parçacık var ise, parçacık yok olana kadar bekle demektir.
+Kill (Emitter and Particles Die Immediately) | Emitter'ın loop süresi bittigi anda bütün parçacıkları yok eder (kill).
+Continue (Emitter Deactivates But Doesn't Die Until System Does) | Bilmiyorum.
 
 * #### Loop Behavior
 Emitter'ın loop süresinin nasıl olacagını belirler.
-<br>
-<br>
-Once = Sadece bir kere oynatır. Sonra "Inactive Response" durumuna girer.
-<br>
-Multiple = "Loop Count" ve "Recalculate Duration Each Loop" inputlarını açar. Verdiginiz sayı kadar oynatır. Sonra "Inactive Response" durumuna girer.
-<br>
-Infinite = "Recalculate Duration Each Loop" inputunu açar. Hiç "Inactive Response" durumuna girmez.
+
+Mod | İşlem
+:---: | :---:
+Once | Sadece bir kere oynatır. Sonra "Inactive Response" durumuna girer.
+Multiple | "Loop Count" ve "Recalculate Duration Each Loop" inputlarını açar. Verdiginiz sayı kadar oynatır. Sonra "Inactive Response" durumuna girer.
+Infinite | "Recalculate Duration Each Loop" inputunu açar. Hiç "Inactive Response" durumuna girmez.
 
 * #### Loop Count
 Sadece "Loop Behavior" "Multiple" modundayken vardır. Loop'un kaç defa oynatılacagını belirler.
@@ -878,13 +876,12 @@ Sadece "Color Mode" "Random Range" modundayken vardır. Parçacıgın sanip olab
 
 * #### Color Channel Mode
 Sadece "Color Mode" "Random Range" modundayken vardır. Verilen "Color Minimum" ve "Color Maximum" renklerinin karışımından nasıl bir renk çıkacagını belirler. 3 modu vardır,
-<br>
-<br>
-RGBA = Minimum ve maximum arasından rastgele tek bir seçim yapar ve bunu RGBA olmak üzere bütün kanallarda kullanır.
-<br>
-RGB/A = Minimum ve maximum arasından rastgele iki seçim yapar, birini RGB kanallarında (yani renk), digerini Alpha kanalında kullanır. Yani RGB ve A kanalı için iki ayrı rastgele seçim yapar.
-<br>
-Random individual Channels = Minimum ve maximum arasından rastgele 4 seçim yapar, RGBA kanallarının her biri için ayrı ayrı kullanır. En çok rastgelelige sahip olan seçenek budur ama minimum ve maximum arasındaki range (aralık) genişse, minimum ve maximum olarak verdiginiz renkler birbirine benzer olsa bile rastgele seçilen sayılardan ortaya çıkan renk bu renklere benzemeyebilir.
+
+Mod | İşlem
+:---: | :---:
+RGBA | Minimum ve maximum arasından rastgele tek bir seçim yapar ve bunu RGBA olmak üzere bütün kanallarda kullanır.
+RGB/A | Minimum ve maximum arasından rastgele iki seçim yapar, birini RGB kanallarında (yani renk), digerini Alpha kanalında kullanır. Yani RGB ve A kanalı için iki ayrı rastgele seçim yapar.
+Random individual Channels | Minimum ve maximum arasından rastgele 4 seçim yapar, RGBA kanallarının her biri için ayrı ayrı kullanır. En çok rastgelelige sahip olan seçenek budur ama minimum ve maximum arasındaki range (aralık) genişse, minimum ve maximum olarak verdiginiz renkler birbirine benzer olsa bile rastgele seçilen sayılardan ortaya çıkan renk bu renklere benzemeyebilir.
 
 * #### Hue Shift Range
 Sadece "Color Mode" "Random Hue/Saturation/Value" modundayken vardır. Renk degişimi, bunu anlamak için materyal editöründeki [HueShift](../../Materyal%20Editörü/Nodlar#hueshift-%EF%B8%8F) nodu için yazdıgım açıklamaya bakabilirsiniz.
@@ -903,13 +900,12 @@ Sadece "Color Mode" "Random Range" ve ya "Random Hue/Saturation/Value" modundayk
 
 * #### Position Mode
 Parçacıgın konumunu ayarlamak için kullanılacak mod, 3 modu vardır,
-<br>
-<br>
-Unset = "Simulation Position" ile aynı sayılır
-<br>
-Direct Set = İstediginiz konumu verirsiniz, bu modu seçince "Position" inputu açılır.
-<br>
-Simulation Position = Eger Worldspace ise dünyadaki konumunu, local ise (0,0,0) döndürür. Yani simulasyon konumunu.
+
+Mod | İşlem
+:---: | :---:
+Unset | "Simulation Position" ile aynı sayılır
+Direct Set | İstediginiz konumu verirsiniz, bu modu seçince "Position" inputu açılır.
+Simulation Position | Eger Worldspace ise dünyadaki konumunu, local ise (0,0,0) döndürür. Yani simulasyon konumunu.
 
 * #### Position
 Sadece "Position Mode" "Direct Set" modundayken vardır. Parçacıgın konumunu ayarlar.
@@ -922,13 +918,12 @@ Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-wor
 
 * #### Mass Mode
 Mass degeri (kütle) için kullanılacak mod, parçacıgın kütlesi parçacıga uygulanacak etkilerin falan katsayısını belirler. Yani parçacıgın kütlesi 2 ise (normalde 1'dir) 2 kat etki uygulanır. 3 modu vardır,
-<br>
-<br>
-Unset = Mass (kütle) olarak 1 verir.
-<br>
-Direct Set = İstediginiz mass degerini verirsiniz, bu modu seçince "Mass" inputu açılır.
-<br>
-Random = İstediginiz aralıkta rastgele mass degerini verirsiniz, bu modu seçince "Mass Min" ve "Mass Max" inputları açılır.
+
+Mod | İşlem
+:---: | :---:
+Unset | Mass (kütle) olarak 1 verir.
+Direct Set | İstediginiz mass degerini verirsiniz, bu modu seçince "Mass" inputu açılır.
+Random | İstediginiz aralıkta rastgele mass degerini verirsiniz, bu modu seçince "Mass Min" ve "Mass Max" inputları açılır.
 
 * #### Mass
 Sadece "Mass Mode" "Direct Set" modundayken vardır. Parçacıgın mass (kütle) degerini ayarlar.
@@ -983,17 +978,14 @@ Sadece "Sprite Rotation Mode" "Direct Normalized Angle (0-1)" modundayken vardı
 
 * #### Sprite UV Mode
 Sprite için yani materyal için [UV](../../Materyal%20Editörü/Nodlar#texturecoordinatetexcoord-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) degeri, yani tekrarlama (tiling) degeri. 5 modu vardır,
-<br>
-<br>
-Unset = (1,1) kullanılır, yani degişiklik olmaz
-<br>
-Random X = Bu modda X ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. Y ekseninin degeri degiştirilmez, 1'dir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi.
-<br>
-Random Y = Bu modda Y ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. X ekseninin degeri degiştirilmez, 1'dir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi.
-<br>
-Random X / Y = Bu modda X ve Y ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi. Bunun iki eksende de yapılması ise ortaya 4 farklı sonuç çıkarır. Materyaliniz yukarı, aşagı, saga ve ya sola döndürülmüş olabilir.
-<br>
-Custom = Manuel olarak UV degerini ayarlayabilirsiniz.
+
+Mod | İşlem
+:---: | :---:
+Unset | (1,1) kullanılır, yani degişiklik olmaz
+Random X | Bu modda X ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. Y ekseninin degeri degiştirilmez, 1'dir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi.
+Random Y | Bu modda Y ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. X ekseninin degeri degiştirilmez, 1'dir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi.
+Random X / Y | Bu modda X ve Y ekseni degeri 1 ve ya -1 olabilir, kullanılacak deger rastgele olarak bu ikisinden biri olarak seçilir. UV degeri olarak -1 verdiginizde, materyal 180 derece döndürülmüş olur. Bu yüzden 1 ve -1 degerleri kullanılıyor, ikisi birbirinin tam tersi. Bunun iki eksende de yapılması ise ortaya 4 farklı sonuç çıkarır. Materyaliniz yukarı, aşagı, saga ve ya sola döndürülmüş olabilir.
+Custom | Manuel olarak UV degerini ayarlayabilirsiniz.
 
 * #### Sprite UV Scale
 Sadece "Sprite UV Mode" "Custom" modundayken vardır. Manuel olarak UV degerini ayarlayabilirsiniz.
@@ -1003,17 +995,14 @@ Sadece "Sprite UV Mode" "Random X", "Random Y" ve ya "Random X / Y" modundayken 
 
 * #### Mesh Scale Mode
 Mesh için scale yani boyut degeri. 5 modu vardır,
-<br>
-<br>
-Unset = (1,1,1) kullanılır, yani degişiklik olmaz
-<br>
-Uniform = Bu modda tek bir deger verirsiniz ve XYZ eksenleri olmak üzere bütün eksenler bu degere göre scale edilir, boyutlandırılır.
-<br>
-Random Uniform = Bu modda "Mesh Uniform Scale Min" ve "Mesh Uniform Scale Max" inputları açılır, minimum ve maximum scale degerlerini ayarlarsınız ve rastgele olarak bu degerler arasında bir deger seçilir.
-<br>
-Non-Uniform = Bu modda XYZ eksenleri olmak üzere bütün eksenler için scale degerleri verebilirsiniz, bu degerlere göre mesh scale edilir, boyutlandırılır.
-<br>
-Random Non-Uniform = Bu modda "Mesh Scale Min" ve "Mesh Scale Max" inputları açılır, minimum ve maximum scale degerlerini ayarlarsınız ve rastgele olarak bu degerler arasında bir deger seçilir.
+
+Mod | İşlem
+:---: | :---:
+Unset | (1,1,1) kullanılır, yani degişiklik olmaz
+Uniform | Bu modda tek bir deger verirsiniz ve XYZ eksenleri olmak üzere bütün eksenler bu degere göre scale edilir, boyutlandırılır.
+Random Uniform | Bu modda "Mesh Uniform Scale Min" ve "Mesh Uniform Scale Max" inputları açılır, minimum ve maximum scale degerlerini ayarlarsınız ve rastgele olarak bu degerler arasında bir deger seçilir.
+Non-Uniform | Bu modda XYZ eksenleri olmak üzere bütün eksenler için scale degerleri verebilirsiniz, bu degerlere göre mesh scale edilir, boyutlandırılır.
+Random Non-Uniform | Bu modda "Mesh Scale Min" ve "Mesh Scale Max" inputları açılır, minimum ve maximum scale degerlerini ayarlarsınız ve rastgele olarak bu degerler arasında bir deger seçilir.
 
 * #### Mesh Uniform Scale
 Sadece "Mesh Scale Mode" "Uniform" modundayken vardır. Verdiginiz deger XYZ eksenleri olmak üzere bütün eksenler için kullanılır.
@@ -1038,13 +1027,12 @@ Sadece "Mesh Scale Mode" "Random Uniform" ve ya "Random Non-Uniform" modundayken
 
 * #### Mesh Renderer Array Visibility Mode
 Eger Mesh Renderer'ın [Meshes](#meshes) bölümünde birden fazla mesh var ise bu ayarı kullanarak, parçacıgın kullanacagı mesh'in indexini belirtebilirsiniz.
-<br>
-<br>
-Unset = 0. indexi kullanır, yani ilk mesh
-<br>
-Direct Set = Verdiginiz indexteki mesh'i kullanır (index 0'dan başlıyor)
-<br>
-Random = Kullanılacak mesh'i rastgele seçer
+
+Mod | İşlem
+:---: | :---:
+Unset | 0. indexi kullanır, yani ilk mesh
+Direct Set | Verdiginiz indexteki mesh'i kullanır (index 0'dan başlıyor)
+Random | Kullanılacak mesh'i rastgele seçer
 
 * #### Mesh Renderer Mesh Index
 Sadece "Mesh Renderer Array Visibility Mode" "Direct Set" modundayken vardır. Buradan kullanılacak mesh'in index'ini verebilirsiniz.
@@ -1078,17 +1066,14 @@ Parçacıkların yok edilip edilmeyecegini belirler. İsterseniz buraya parametr
 
 * #### Kill Shape
 Volume'un şeklini belirler. Modların açıklamaları,
-<br>
-<br>
-Sphere = Küre
-<br>
-Box = Küp
-<br>
-Plane = Plane modundayken düz bir yüzey belirlenir, bu yüzeyin baktıgı yöndeki parçacıklar yok olmaz ama arka tarafında kalan parçacıklar yok olur, yani bu düz yüzeyin bir yönündeki parçacıklar kalır, diger yöndekiler yok olur
-<br>
-Slab = Plane gibidir. 2 tane düz yüzey/plaka oluşturur, arada kalan parçacıklar yok olur
-<br>
-Cone = Koni
+
+Mod | İşlem
+:---: | :---:
+Sphere | Küre
+Box | Küp
+Plane | Plane modundayken düz bir yüzey belirlenir, bu yüzeyin baktıgı yöndeki parçacıklar yok olmaz ama arka tarafında kalan parçacıklar yok olur, yani bu düz yüzeyin bir yönündeki parçacıklar kalır, diger yöndekiler yok olur
+Slab | Plane gibidir. 2 tane düz yüzey/plaka oluşturur, arada kalan parçacıklar yok olur
+Cone | Koni
 
 * #### Sphere Radius
 Sadece "Kill Shape" "Sphere" modundayken vardır. Küre'nin çapı.
@@ -1141,22 +1126,21 @@ Volume'ün orijin noktası yani konumuna offset verebilirsiniz.
 
 * #### Inactive Response
 "Inactive Response" durumunda yapılacak işlemi seçer. "Inactive Response" durumu demek, System'ın kendi loop süresinin bittigi zaman demektir, System ve Emitter'ların loopları ayrıdır. Emitter hala çalışıyor olsa bile System "Inactive Response" durumuna girebilir çünkü loop süresi bitmiş olabilir.
-<br>
-<br>
-Complete (Let Emitters Finish then Kill The System) = System'ın loop süresi bitse bile, eger loop süresi bitmemiş Emitter var ise onun bitmesini bekle demektir.
-<br>
-Kill (System and Emitters Die Immediately) = System'ın loop süresi bittigi anda her şeyi bitir (emitterları) demektir.
+
+Mod | İşlem
+:---: | :---:
+Complete (Let Emitters Finish then Kill The System) | System'ın loop süresi bitse bile, eger loop süresi bitmemiş Emitter var ise onun bitmesini bekle demektir.
+Kill (System and Emitters Die Immediately) | System'ın loop süresi bittigi anda her şeyi bitir (emitterları) demektir.
 
 
 * #### Loop Behavior
 System'ın loop süresinin nasıl olacagını belirler.
-<br>
-<br>
-Once = Sadece bir kere oynatır.
-<br>
-Multiple = "Loop Count" ve "Recalculate Duration Each Loop" inputlarını açar. Verdiginiz sayı kadar oynatır.
-<br>
-Infinite = "Recalculate Duration Each Loop" inputunu açar. Bütün emitterlar bitene kadar oynatır.
+
+Mod | İşlem
+:---: | :---:
+Once | Sadece bir kere oynatır.
+Multiple | "Loop Count" ve "Recalculate Duration Each Loop" inputlarını açar. Verdiginiz sayı kadar oynatır.
+Infinite | "Recalculate Duration Each Loop" inputunu açar. Bütün emitterlar bitene kadar oynatır.
 
 * #### Loop Count
 Sadece "Loop Behavior" "Multiple" modundayken vardır. Loop'un kaç defa oynatılacagını belirler.
@@ -1326,13 +1310,12 @@ Sadece "Sphere Distribution" "Random" modundayken vardır. X ve Y olarak iki inp
 
 * #### Hemisphere Angle Type
 Sadece "Sphere Distribution" "Random" modundayken vardır. "Hemisphere Distribution" için kullanılacak degerin türünü belirler.
-<br>
-<br>
-Degrees = Derece
-<br>
-Normalized Angle (0-1) = 0 - 360 yerine 0 - 1 arası degerler.
-<br>
-Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
+
+Mod | İşlem
+:---: | :---:
+Degrees | Derece
+Normalized Angle (0-1) | 0 - 360 yerine 0 - 1 arası degerler.
+Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
 * #### Spawn Group Mask
 [Grup numarası](../Terimler%20Sözlügü#spawngroup) vererek sadece belirli bir grubu bu efektten etkileyebilirsiniz.
@@ -1703,13 +1686,12 @@ Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Koniyi oranlar/böler/k
 
 * #### Cone Angle Type
 Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Açı degerleri için kullanılacak degerin türünü belirler.
-<br>
-<br>
-Degrees = Derece
-<br>
-Normalized Angle (0-1) = 0 - 360 yerine 0 - 1 arası degerler.
-<br>
-Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
+
+Mod | İşlem
+:---: | :---:
+Degrees | Derece
+Normalized Angle (0-1) | 0 - 360 yerine 0 - 1 arası degerler.
+Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
 * #### Flatten Endcaps
 Sadece "Cone Mode" "Spherical Cone" modundayken vardır. Koninin uç kısımlarını düzleştirir.
@@ -2005,15 +1987,13 @@ Bu ayar hakkında [şöyle](https://www.youtube.com/watch?v=cC9HvMahNf4) bir vid
 
 * #### Facing Mode
 Parçacıkların bakış yönünü belirler. [Bu videoya](https://youtu.be/EIP6mg8V5YU?t=528) da bakabilirsiniz. 5 modu vardır,
-<br>
-<br>
-Default = Kamerayı boş verir, mesh'i local X eksenine dogru döndürür.
-<br>
-Velocity = [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre yönü belirler, yani parçacıgın gittigi yöne dogru.
-<br>
-Camera Position = Parçacıklar kameranın konumuna dogru döndürülür.
-<br>
-Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
+
+Mod | İşlem
+:---: | :---:
+Default | Kamerayı boş verir, mesh'i local X eksenine dogru döndürür.
+Velocity | [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre yönü belirler, yani parçacıgın gittigi yöne dogru.
+Camera Position | Parçacıklar kameranın konumuna dogru döndürülür.
+Camera Plane | Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
 
 
 <img width=500 src="../../../Dosyalar/Orthographic_Perspective.jpg">
@@ -2030,17 +2010,14 @@ Locked Axis için [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coo
 
 * #### Sort Mode
 Parçacıkların render edilme sırasını belirler. 5 modu vardır,
-<br>
-<br>
-None = Sırasız.
-<br>
-View Depth = bilmiyorum.
-<br>
-View Distance = Parçacıkların kameraya olan uzaklık sırasına göre render eder.
-<br>
-Custom Ascending = bilmiyorum.
-<br>
-Custom Descending = bilmiyorum.
+
+Mod | İşlem
+:---: | :---:
+None | Sırasız.
+View Depth | bilmiyorum.
+View Distance | Parçacıkların kameraya olan uzaklık sırasına göre render eder.
+Custom Ascending | bilmiyorum.
+Custom Descending | bilmiyorum.
 
 * #### Sort Only when Translucent
 Aktifleştirildiginde sadece saydam materyal kullanıldıgında sort işlemi uygular.
@@ -2148,13 +2125,12 @@ bilmiyorum.
 
 * #### Facing Mode
 Parçacıkların bakış yönünü belirler. 5 modu vardır,
-<br>
-<br>
-Screen = Parçacıklar kameranın konumuna dogru döndürülür.
-<br>
-Custom = bilmiyorum.
-<br>
-Custom Side Vector = bilmiyorum.
+
+Mod | İşlem
+:---: | :---:
+Screen | Parçacıklar kameranın konumuna dogru döndürülür.
+Custom | bilmiyorum.
+Custom Side Vector | bilmiyorum.
 
 * #### UV0 Settings
 bilmiyorum.
@@ -2189,27 +2165,23 @@ bilmiyorum.
 
 * #### Alignment
 Parçacıkların duruş şeklini belirler (rotasyon), yani mesela verdiginiz materyalde bir ok var, eger duruşu 90 derece olursa ok saga bakar. [Bu videoya](https://youtu.be/EIP6mg8V5YU?t=371) da bakabilirsiniz. 3 modu vardır,
-<br>
-<br>
-Unaligned = Bu moddayken sadece "Particle.SpriteRotation" parametresi ile "Facing Mode" ayarı alignment'ı etkileyebilir.
-<br>
-Velocity Aligned = [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre alignment'ı belirler, yani parçacıgın gittigi yöne dogru.
-<br>
-Custom Alignment = Bu moddayken "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz.
+
+Mod | İşlem
+:---: | :---:
+Unaligned | Bu moddayken sadece "Particle.SpriteRotation" parametresi ile "Facing Mode" ayarı alignment'ı etkileyebilir.
+Velocity Aligned | [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre alignment'ı belirler, yani parçacıgın gittigi yöne dogru.
+Custom Alignment | Bu moddayken "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz.
 
 * #### Facing Mode
 Parçacıkların bakış yönünü belirler. [Bu videoya](https://youtu.be/EIP6mg8V5YU?t=528) da bakabilirsiniz. 5 modu vardır,
-<br>
-<br>
-Face Camera = Parçacıklar kameranın konumuna dogru döndürülür.
-<br>
-Face Camera Plane = Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
-<br>
-Custom Facing Vector = Bu moddayken "Particle.SpriteFacing" parametresi (sanırım kendiniz oluşturmalısınız) ile parçacıkların baktıgı yönü ayarlayabilirsiniz.
-<br>
-Face Camera Position = Bunun ne oldugunu bilmiyorum, "Face Camera" ile aynı çalışıyor ama tek farkı yukarıdan baktıgınızda (yani z ekseninin artı yönünden), "Face Camera" ya göre daha dogru sonuçlar döndürüyor.
-<br>
-Face Camera Distance Blend = Bu mod "Face Camera" ile "Face Camera Position" modlarını blend eder yani birleştirir.
+
+Mod | İşlem
+:---: | :---:
+Face Camera | Parçacıklar kameranın konumuna dogru döndürülür.
+Face Camera Plane | Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
+Custom Facing Vector | Bu moddayken "Particle.SpriteFacing" parametresi (sanırım kendiniz oluşturmalısınız) ile parçacıkların baktıgı yönü ayarlayabilirsiniz.
+Face Camera Position | Bunun ne oldugunu bilmiyorum, "Face Camera" ile aynı çalışıyor ama tek farkı yukarıdan baktıgınızda (yani z ekseninin artı yönünden), "Face Camera" ya göre daha dogru sonuçlar döndürüyor.
+Face Camera Distance Blend | Bu mod "Face Camera" ile "Face Camera Position" modlarını blend eder yani birleştirir.
 
 
 <img width=500 src="../../../Dosyalar/Orthographic_Perspective.jpg">
@@ -2241,17 +2213,14 @@ bilmiyorum.
 
 * #### Sort Mode
 Parçacıkların render edilme sırasını belirler. 5 modu vardır,
-<br>
-<br>
-None = Sırasız.
-<br>
-View Depth = bilmiyorum.
-<br>
-View Distance = Parçacıkların kameraya olan uzaklık sırasına göre render eder.
-<br>
-Custom Ascending = bilmiyorum.
-<br>
-Custom Descending = bilmiyorum.
+
+Mod | İşlem
+:---: | :---:
+None | Sırasız.
+View Depth | bilmiyorum.
+View Distance | Parçacıkların kameraya olan uzaklık sırasına göre render eder.
+Custom Ascending | bilmiyorum.
+Custom Descending | bilmiyorum.
 
 * #### Sort Only when Translucent
 Aktifleştirildiginde sadece saydam materyal kullanıldıgında sort işlemi uygular.
@@ -2867,13 +2836,12 @@ Koninin iç açısı.
 
 * #### Cone Angle Mode
 Açı degerlerinin türünü degiştirir.
-<br>
-<br>
-Degrees = Derece
-<br>
-Normalized Angle (0-1) = 0 - 360 yerine 0 - 1 arası degerler.
-<br>
-Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan)
+
+Mod | İşlem
+:---: | :---:
+Degrees | Derece
+Normalized Angle (0-1) | 0 - 360 yerine 0 - 1 arası degerler.
+Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
