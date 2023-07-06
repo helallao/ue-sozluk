@@ -55,6 +55,22 @@ Artılara gittikçe parçacıkları kameraya yakınlaştırır, eksilere gittik�
 
 
 ## [Maintain in Camera Particle Scale]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül çalışma esnasında, kameranın FOV (Field of View) yani görüş alanı, parçacıgın kameraya olan derinlik (yani uzaklık) degeri (Pixel Depth, Camera Depth) ve ekran büyüklügü degerini (Render Target Width, Render Target Size) hesaplayarak, oyun esnasında efekti (yani parçacıkları) bu degerlere göre boyutlandırır.
+
+
+* #### Half FOV
+FOV (Field of View) yani görüş alanı degerinin yarısı.
+
+* #### Pixel Depth
+Parçacıgın kameraya olan derinlik (yani uzaklık) degeri.
+
+* #### Render Target Width
+Ekran büyüklügü degeri, yani render edilen.
+
+
+
+
 ## [Recreate Camera Projection]()
 
 
