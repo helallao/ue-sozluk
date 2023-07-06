@@ -217,6 +217,9 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.Initial.Color]()
 (Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, [Initialize Particle'ın](../Moduller#initialize-particle) [Color](../Moduller#color-3) degerine baglıdır da denebilir.
 
+* #### [Particles.Initial.SpriteSize]()
+(Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) ilk boyut degerini verir, yani X ve Y eksenlerindeki uzunluk degeri. Dolayısıyla sabittir, [Initialize Particle'ın](../Moduller#initialize-particle) [Sprite Size](../Moduller#uniform-sprite-size) degerine baglıdır da denebilir.
+
 * #### [Particles.Initial.Velocity]()
 (Sabit) Parçacıgın ilk frame'de sahip oldugu velocity degerini verir. İlk frame oldugu için [Particle Update](../Graph#particle-update) dahil degildir, sadece [Particle Spawn](../Graph#particle-spawn) kategorisinde uygulanmış bir velocity etkisi varsa bu deger degişir.
 
