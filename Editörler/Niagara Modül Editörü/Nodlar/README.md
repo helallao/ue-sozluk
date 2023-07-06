@@ -673,7 +673,20 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Maintain in Camera Particle Scale]()
-bilmiyorum.
+[Maintain in Camera Particle Scale](../Moduller#maintain-in-camera-particle-scale) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Fonksiyonun yaptıgı matematik işlemlerinin tam olarak anlamlarını bilmiyorum yani formülleri bilmiyorum. Zaten kısa, isterseniz kendiniz de bakabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Pixel Depth | Parçacıgın kameraya olan derinlik (yani uzaklık) degeri.
+Half FOV | FOV (Field of View) yani görüş alanı degerinin yarısı.
+Render Target Width | Ekran büyüklügü degeri, yani render edilen.
+
+Output | İçerik
+:---: | :---:
+Scale Factor | Hesaplanan scale degeri, bu degeri "Sprite Size" degeri ile çarmalıyız çünkü bu deger "Sprite Size" degerinin (1,1) oldugu durumdaki scale degeri.
+
+
 
 * #### [Make Quaternion from 3Basis Vectors]()
 bilmiyorum.
