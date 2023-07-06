@@ -45,6 +45,15 @@
 # Camera
 
 ## [Camera Offset]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklara offset verir yani yakınlaştırır/uzaklaştırır.
+
+
+* #### Camera Offset Amount
+Artılara gittikçe parçacıkları kameraya yakınlaştırır, eksilere gittikçe parçacıkları kameradan uzaklaştırır.
+
+
+
 ## [Maintain in Camera Particle Scale]()
 ## [Recreate Camera Projection]()
 
