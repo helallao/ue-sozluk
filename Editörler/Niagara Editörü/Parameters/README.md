@@ -342,6 +342,9 @@ bilmiyorum.
 * #### [Output.InheritSourceMovement.PositionDelta]()
 bilmiyorum.
 
+* #### [Output.MaintainA_SetDistanceBetweenPoints.Final Position]()
+(Degişken) [Maintain A Set Distance Between Points](../Moduller#maintain-a-set-distance-between-points) tarafından oluşturulur. [Maintain A Set Distance Between Points](../Moduller#maintain-a-set-distance-between-points) modülü kullanıldıgı zaman hesaplanan yeni konum degerini tutar. Eger modülün "Write to Intrinsic Variables" ayarını kapattıysanız bu parametreyi kullanarak istediginiz işlemleri kendiniz gerçekleştirebilirsiniz.
+
 * #### [Output.ParticleState.FirstFrame]()
 (Durumsal) Her parçacık için sadece FirstFrame yani ilk frame'de (kare, fps) True degeri döndürür, sonra False.
 
