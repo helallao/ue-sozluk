@@ -220,6 +220,30 @@ Kullanılacak hız degeri. Default olarak [Particles.Velocity](../Parameters#par
 # Constraints
 
 ## [Maintain A Set Distance Between Points]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül sizden iki nokta (konum) alır. Birinci nokta şu anki konumdur ("Position" inputu), ikinci nokta hedef konumdur (Target Position). Daha sonra "Ideal Distance" inputuna verdiginiz deger, yani belirlediginiz mesafe degeri kadar parçacıklar, şu anki noktadan hedef noktaya dogru hareket ettirilir. Hareket etme hızı "Influence" inputuna verdiginiz deger ile belirlenir. "Influence" inputuna verdiginiz deger 0 - 1 arasında olmalıdır, verdiginiz deger bu frame'de aradaki mesafenin ne kadarının gidilmesi gerektigini belirtir, yani 0.1 yaparsanız aradaki mesafenin %10'u kadar ilerler. Tabi her frame'de aradaki mesafe de küçülecegi için başlangıçta hızlı bir şekilde ilerlerken, hedef noktaya yaklaştıkça ilerleme hızı da yavaşlar. Yani smooth/yumuşak bir şekilde geçiş olur.
+
+
+* #### Influence
+İlerleme hızı, bu deger 0 - 1 arasında olmalıdır. 1'de iken tek bir frame'de direktmen parçacıgı hedef noktaya ışınlar.
+
+* #### Ideal Distance
+Mesafe degeri. Şu anki noktadan hedef noktaya dogru gidilecek mesafe.
+
+* #### Position
+Şu anki nokta, ilk nokta, başlangıç noktası.
+
+* #### Target Position
+Hedef nokta.
+
+* #### Write to Intrinsic Variables
+Bu ayar aktifleştirildigi zaman modül [Particles.Position](../Parameters#particlesposition) parametresinin degerini degiştirir/günceller.
+
+
+
+
+
+
 ## [Pendulum Constraint]()
 ## [Pendulum Setup]()
 
