@@ -2333,7 +2333,7 @@ Parçacık boyutunun yazılacagı parametre.
 Parçacık yönünün, bakış açısının yazılacagı parametre.
 
 * #### Sprite Alignment Binding
-Parçacık materyalinin rotasyonunun yazılacagı parametre.
+Parçacık materyalinin yönünün (3d olarak) yazılacagı parametre.
 
 * #### Sub Image Index Binding
 
