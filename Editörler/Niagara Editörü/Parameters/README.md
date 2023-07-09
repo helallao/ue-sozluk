@@ -287,7 +287,7 @@ bilmiyorum.
 (Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Parçacık pozisyonu degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Position Binding](../Moduller#position-binding-2) degerine bu parametreyi baglayın.
 
 * #### [Particles.SpriteBasedLine.SpriteAlignment]()
-(Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Sprite'ın yön (3d olarak) degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Sprite Alignment Binding](../Moduller#sprite-alignment-binding) degerine bu parametreyi baglayın.
+(Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Sprite'ın yön (3d olarak) degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Sprite Alignment Binding](../Moduller#sprite-alignment-binding) degerine bu parametreyi baglayın ve [Sprite Renderer'ın](../Moduller#sprite-renderer) [Alignment](../Moduller#alignment) modunu "Custom Alignment" yapın.
 
 * #### [Particles.SpriteBasedLine.SpriteSize]()
 (Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Sprite'ın boyut degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Sprite Size Binding](../Moduller#sprite-size-binding) degerine bu parametreyi baglayın.
