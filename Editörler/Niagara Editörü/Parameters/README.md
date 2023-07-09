@@ -277,6 +277,18 @@ bilmiyorum.
 * #### [Particles.SpawnGroup]()
 (Sabit) Parçacıgın spawn grubu.
 
+* #### [Particles.SpriteBasedLine.Color]()
+(Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Renk degerini verir. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Color Binding](../Moduller#color-binding-2) degerine bu parametreyi baglayın.
+
+* #### [Particles.SpriteBasedLine.Position]()
+(Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Parçacık pozisyonu degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Position Binding](../Moduller#position-binding-2) degerine bu parametreyi baglayın.
+
+* #### [Particles.SpriteBasedLine.SpriteAlignment]()
+(Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Sprite'ın alignment degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Sprite Alignment Binding](../Moduller#sprite-alignment-binding) degerine bu parametreyi baglayın.
+
+* #### [Particles.SpriteBasedLine.SpriteSize]()
+(Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Sprite'ın boyut degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Sprite Size Binding](../Moduller#sprite-size-binding) degerine bu parametreyi baglayın.
+
 * #### [Particles.SpriteRotation]()
 (Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) rotasyonunu verir. 0 - 360 derece arasında deger tutar.
 
