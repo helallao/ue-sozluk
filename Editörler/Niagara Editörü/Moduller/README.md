@@ -281,17 +281,17 @@ Sprite'ın X eksenindeki boyut degeri, local deger kullanarak kendiniz ayarlayab
 
 ## [Timeline]()
 
-([System Update](../Graph#system-update), [Emitter Update](../Graph#emitter-update), [Particle Update](../Graph#particle-update)) Bu modül sayaç görevi görür, geçen süreyi hesaplar. Hesaplanan degerleri parametre olarak kaydeder. Bütün update kategorilerinde çalıştırılabilir (mesela [Particle Update](../Graph#particle-update)). Geçen süreyi hem float deger olarak (başlangıç ve bitiş arasında), hem normalized olarak verir. Ayrıca şu an sayacın çalışıp çalışmadıgını ve geriye dogru sarılıp sarılmadıgını da parametrelere kaydeder. Şimdi gelelim modülün kullanımına, 
+([System Update](../Graph#system-update), [Emitter Update](../Graph#emitter-update), [Particle Update](../Graph#particle-update)) Bu modül sayaç görevi görür, geçen süreyi hesaplar. Hesaplanan degerleri parametre olarak kaydeder. Bütün update kategorilerinde çalıştırılabilir (mesela [Particle Update](../Graph#particle-update)). Geçen süreyi hem float deger olarak (başlangıç ve bitiş arasında), hem normalized olarak verir. Ayrıca şu an sayacın çalışıp çalışmadıgını ve geriye dogru sarılıp sarılmadıgını da parametrelere kaydeder. Şimdi gelelim modülün kullanımına, modül sayaç görevi görür ve geçen saniyeyi hesaplar. "Timeline Beginning" ve "Timeline End" inputlarına verdiginiz degerler arasında döner (eger loop açıksa sürekli, kapalıysa bir defa). Süreyi saymaya da "Initial Start Time" inputuna verdiginiz andan başlar. Yani mesela diyelim ki "Timeline Beginning" olarak 3, "Timeline End" olarak 10 degerlerini ayarladınız. "Initial Start Time" olarak da 5 ayarladınız. Bu durumda modül 5'den başlar ve 10'a kadar sayar. Eger loop kapalıysa bir kere sayar. Açıksa bitişe geldiginde tekrar başlangıca döner (yani 3'e). Sayaç her zaman ileriye dogru saymaz, geriye dogru da sayar. Geriye dogru sayım ile ilgili ayarları siz ayarlarsınız. Bunu "Rewind Mode" ayarı belirler. Eger "Rewind Mode" ayarı "Automatic Rewind" modunda ise, "Play" inputu False oldugu zaman yani kapatıldıgı zaman, otomatikmen geriye sarma işlemi başlar. Yani "Play" açıkken ileri, kapalıyken geri sarar. Eger "Rewind Mode" ayarı "Manual Rewind" modunda ise, "Play" kapatıldıgı zaman otomatikmen geri sarma işlemi başlamaz. Geri sarma için ayrı bir input kullanılır, "Rewind" inputu. "Rewind" inputunun degeri True iken geriye sarma işlemi başlar.
 
 
 * #### Play
 a
 
 * #### Play Rate
-a
+İlerleme hızı. Mesela 2x yaparsanız 2 kat hızlı ilerler.
 
 * #### Loop While Playing
-a
+Bu ayar açıkken sayaç sona ulaşınca tekrar başa döner. Tekrarlar.
 
 * #### Rewind Mode
 a
@@ -300,13 +300,13 @@ a
 Sadece "Rewind Mode" "Manual Rewind" modundayken vardır.
 
 * #### Rewind Rate
-a
+Geriye dogru ilerleme hızı. Mesela 2x yaparsanız 2 kat hızlı ilerler.
 
 * #### Instantaneous Rewind
-a
+Anında geriye sarma, bu ayar açıkken geriye sarma demek sayacı başa sarma demektir yani başa ışınlama. Sayaç tek bir frame'de başlangıç noktasına kadar geriye sarılır.
 
 * #### Loop While Rewinding
-a
+Bu ayar açıkken sayaç başa ulaşınca tekrar sona döner. Tekrarlar.
 
 * #### Rewind Behavior
 Sadece "Rewind Mode" "Manual Rewind" modundayken vardır.
