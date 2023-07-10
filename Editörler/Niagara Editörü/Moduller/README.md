@@ -281,6 +281,55 @@ Sprite'ın X eksenindeki boyut degeri, local deger kullanarak kendiniz ayarlayab
 
 ## [Timeline]()
 
+([System Update](../Graph#system-update), [Emitter Update](../Graph#emitter-update), [Particle Update](../Graph#particle-update)) Bu modül sayaç görevi görür, geçen süreyi hesaplar. Hesaplanan degerleri parametre olarak kaydeder. Bütün update kategorilerinde çalıştırılabilir (mesela [Particle Update](../Graph#particle-update)). Geçen süreyi hem float deger olarak (başlangıç ve bitiş arasında), hem normalized olarak verir. Ayrıca şu an sayacın çalışıp çalışmadıgını ve geriye dogru sarılıp sarılmadıgını da parametrelere kaydeder. Şimdi gelelim modülün kullanımına, 
+
+
+* #### Play
+a
+
+* #### Play Rate
+a
+
+* #### Loop While Playing
+a
+
+* #### Rewind Mode
+a
+
+* #### Rewind
+Sadece "Rewind Mode" "Manual Rewind" modundayken vardır.
+
+* #### Rewind Rate
+a
+
+* #### Instantaneous Rewind
+a
+
+* #### Loop While Rewinding
+a
+
+* #### Rewind Behavior
+Sadece "Rewind Mode" "Manual Rewind" modundayken vardır.
+
+* #### Initial Start Time
+Sayacın ilk olarak saymaya başlayacagı konum degeri.
+
+* #### Timeline Beginning
+Sayacın başlangıç degeri, sayaç saymaya başlayınca bu degerden başlar.
+
+* #### Timeline End
+Sayacın bitiş degeri, sayaç bu degere ulaştıgında biter.
+
+* #### Time Increment
+Sayacın ilerlemesi/gerilemesi için gerekli olan süre degeri, yani her frame arasındaki süre degeri (DeltaTime), default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
+
+* #### Additional Output
+a
+
+
+
+
+
 
 
 
