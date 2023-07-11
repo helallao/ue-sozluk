@@ -483,6 +483,36 @@ Burada oluşturulan parametreler oluşturuldukları kategorinin ismini alırlar.
 * #### [StackContext.DoOnce.TriggeredOnce]()
 (Durumsal) [Do Once](../Moduller#do-once) kullanıldıgı zaman oluşturulur. [Do Once](../Moduller#do-once) modülünün "Trigger Condition" inputu True oldugunda bu parametre de True olur. Reset atılmadıgı sürece de True olarak kalır.
 
+* #### [StackContext.Timeline.Float]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. [Additional Output](../Moduller#additional-output) "Float" modundayken oluşturulur.
+
+* #### [StackContext.Timeline.Integer]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. [Additional Output](../Moduller#additional-output) "Integer" modundayken oluşturulur.
+
+* #### [StackContext.Timeline.InverseNormalizedTime]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. Sayacın degerini normalized olarak, inverse yani tersten (mesela deger 0.3 ise inverse hali 0.7'dir) verir.
+
+* #### [StackContext.Timeline.IsPlaying]()
+(Durumsal) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. Sayacın ileriye dogru sarılıp sarılmadıgı degerini tutar.
+
+* #### [StackContext.Timeline.IsRewinding]()
+(Durumsal) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. Sayacın geriye dogru sarılıp sarılmadıgı degerini tutar.
+
+* #### [StackContext.Timeline.LinearColor]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. [Additional Output](../Moduller#additional-output) "Linear Color" modundayken oluşturulur.
+
+* #### [StackContext.Timeline.NormalizedTime]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. Sayacın degerini normalized olarak verir.
+
+* #### [StackContext.Timeline.Time]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. Sayacın degerini verir.
+
+* #### [StackContext.Timeline.Vector]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. [Additional Output](../Moduller#additional-output) "Vector" modundayken oluşturulur.
+
+* #### [StackContext.Timeline.Vector2D]()
+(Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. [Additional Output](../Moduller#additional-output) "Vector2D" modundayken oluşturulur.
+
 
 
 
