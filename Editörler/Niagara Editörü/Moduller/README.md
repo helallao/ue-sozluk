@@ -346,7 +346,7 @@ Sadece "Additional Output" ayarının "None" ve "Integer" modları dışındaki 
 
 Mod | İşlem
 :---: | :---:
-Array | Kendi listenizi verirsiniz
+Array | Kendi listenizi verirsiniz, listedeki degerler otomatikmen sayacın süresine göre baştan sona eşit şekilde dagıtılır.
 Curve | Curve aracılıgı ile degerler oluşturulur
 
 * #### Interpolate Array Output
