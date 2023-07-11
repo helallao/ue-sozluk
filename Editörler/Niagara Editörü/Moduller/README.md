@@ -330,13 +330,27 @@ Sayacın bitiş degeri, sayaç bu degere ulaştıgında biter.
 Sayacın ilerlemesi/gerilemesi için gerekli olan süre degeri, yani her frame arasındaki süre degeri (DeltaTime), default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
 
 * #### Additional Output
-a
+Modülün oluşturdugu parametrelere ek olarak kendiniz de sayaca baglı olarak parametreler oluşturmak istiyorsanız bu ayarı kullanabilirsiniz. 5 modu vardır, bu modlar oluşturulacak veri tiplerini temsil eder. "None" ve "Integer" modları dışındaki modlarda "Additional Output Mode" adında bir ayar vardır. Bu ayar ile degerleri oluşturmak için Array ve ya Curve kullanabilirsiniz. Array modunda kendi listenizi verirsiniz, Curve modunda Curve aracılıgı ile degerler oluşturulur. Array kullanırken "Interpolate Array Output" ayarını açarsanız, sadece Array'deki elementleri almak yerine, interpolated yani şu anki ve sonraki element degerlerinin karışımını da alabilirsiniz, yani sayacın degerine göre, sayacın şu anki degerinin elementlere olan oranına göre karıştırılmış hali. Mesela birinci index'teki deger 30, ikinci indexteki deger 50 ve sayacın şu anki degeri 0.5 olsun, eger "Interpolate Array Output" ayarı açıksa 30 ve 50'nin 0.5 degerine göre oranı yani ortaları seçilir ve 40 döndürülür.
 
+Mod | İşlem
+:---: | :---:
+None | Hiçbir ek parametre oluşturmaz.
+Float | Float deger oluşturur.
+Vector2D | 2 boyutlu vektör oluşturur.
+Vector | Vektör oluşturur.
+Linear Color | Renk oluşturur.
+Integer | Integer oluşturur.
 
+* #### Additional Output Mode
+Sadece "Additional Output" ayarının "None" ve "Integer" modları dışındaki modlarında vardır. 2 modu vardır,
 
+Mod | İşlem
+:---: | :---:
+Array | Kendi listenizi verirsiniz
+Curve | Curve aracılıgı ile degerler oluşturulur
 
-
-
+* #### Interpolate Array Output
+Sadece "Additional Output" ayarının "None" ve "Integer" modları dışındaki modlarında ve "Additional Output Mode" ayarı "Array" modunda iken vardır. Degerler hesaplanırken sadece Array'deki elementler kullanılmaz, sayacın degerine göre, sayacın şu anki degerinin elementlere olan oranına göre karıştırılmış hali kullanılır. Mesela birinci index'teki deger 30, ikinci indexteki deger 50 ve sayacın şu anki degeri 0.5 olsun, eger "Interpolate Array Output" ayarı açıksa 30 ve 50'nin 0.5 degerine göre oranı yani ortaları seçilir ve 40 döndürülür.
 
 
 
