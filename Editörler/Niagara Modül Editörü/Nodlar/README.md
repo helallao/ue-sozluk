@@ -954,7 +954,23 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Remap Range]()
-bilmiyorum.
+Bu fonksiyon sizden bir deger alır. Bu deger "Value" inputuna verdiginiz degerdir. Sonra bu degerin oranını belirlemek için minimum ve maximum degerler belirleriz ("Input Min" ve "Input Max"). Fonksiyon verdiginiz degerin, minimum ve maximum degerlere göre oranını alır ve bu oranı bozmadan yeni minimum ve maximum degerleri arasına yerleştirir ("Output Min" ve "Output Max"). Şimdi bir örnek vereyim, diyelim ki "Input Min" ve "Input Max" olarak 0 ve 50 belirlediniz. Degeriniz de ("Value") 25, bu durumda 25 degeri 0 ile 50 degerlerinin tam ortasında oldugu için oran degeri %50 çıkacaktır ve diyelim ki "Output Min" ve "Output Max" olarak 100 ve 200 belirlediniz. Fonksiyon oranı bozmadan, verdiginiz degeri yeni aralıga taşıyacaktır, yani fonksiyonun output degeri 150 olacaktır. Yani bu fonksiyon belirli bir aralıktaki degeri, oranı bozmadan başka bir aralıga almanıza yarar. Örnegin bu fonksiyonu [normalize](#normalize) işlemi yapmak için kullanabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Value | Deger
+Input Min | "Value" inputunun oranını belileyecek aralıgın minimum (yani başlangıç) degeri
+Input Max | "Value" inputunun oranını belileyecek aralıgın maximum (yani bitiş) degeri
+Output Min | "Value" inputunun "Input Min" ve "Input Max" aralıgına göre olan oranının bozulmadan taşınacagı yeni aralıgın minimum (yani başlangıç) degeri
+Output Max | "Value" inputunun "Input Min" ve "Input Max" aralıgına göre olan oranının bozulmadan taşınacagı yeni aralıgın maximum (yani bitiş) degeri
+Clamp Results | Eger bu ayar açık ise, output degeri "Output Min" ve "Output Max" aralıgının dışında olamaz. Yani "Output Min" degerinden küçük ise "Output Min" degeri, "Output Max" degerinden büyük ise "Output Max" degeri döndürülür.
+
+Output | İçerik
+:---: | :---:
+NewOutput | "Value" inputunun "Input Min" ve "Input Max" aralıgına göre olan oranının bozulmadan taşındıgı, "Output Min" ve "Output Max" aralıgındaki degeri.
+
+
 
 * #### [RGBTo HSV*]()
 bilmiyorum.
