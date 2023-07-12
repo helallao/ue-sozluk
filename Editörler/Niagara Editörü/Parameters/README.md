@@ -537,7 +537,7 @@ Transient yani geçici parametreler, her bir frame'de degişebilirler dolayısı
 (Degişken) Bu deger her frame'de degişebilir, o frame için parçacıgın sahip oldugu force etkisi degerini tutar.
 
 * #### [Transient.PhysicsPotentialEnergy]()
-bilmiyorum.
+(Degişken) Parçacıgın sahip oldugu potansiyel enerji degerini tutar.
 
 * #### [Transient.PhysicsRotationalDrag]()
 (Degişken) Bu deger her frame'de degişebilir, o frame için parçacıgın sahip oldugu rotational drag etkisi degerini tutar.
