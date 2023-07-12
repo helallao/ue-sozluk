@@ -832,13 +832,13 @@ Parçacıgın konum degeri. Default olarak [Particles.Position](../Parameters#pa
 Parçacıgın velocity (hız) degeri. Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
 
 * #### Force Strength
-Çekim şiddeti, eksilere gidince itim şiddetine dönüşür.
+"Spring Tightness" gibi çekim şiddetini etkiler, ama çarpan görevi görür. Yani bunu 2 yaparsanız çekim şiddeti de 2 katı olur. "Spring Tightness" den farkı şudur, "Spring Tightness" degeri hesaplamaları yaparken kullanılır, sonra hesaplanan deger döndürülmeden önce bu inputa verdiginiz deger ile çarpılır. Yani bu input çarpan görevi görür, sonuç degeri katlar.
 
 * #### Particle Equilibrium Position
-Orta noktanın konumu, orijin.
+Çekimin uygulandıgı konum, orijin.
 
 * #### Spring Tightness
-"Force Strength" ile aynı işlevi görüyor, parçacıkların ne kadar hızlı olacagını ayarlıyor.
+Çekim şiddeti, eksilere gidince itim şiddetine dönüşür.
 
 * #### Attachment Point Velocity
 Ne oldugundan emin degilim ama sanırım bu ayar "Particle Equilibrium Position" noktasının yani orijin noktasının velocity degerini ayarlıyor.
@@ -847,7 +847,7 @@ Ne oldugundan emin degilim ama sanırım bu ayar "Particle Equilibrium Position"
 Bunu falloff gibi düşünebilirsiniz ve ya sürtünme gibi, bu degeri ne kadar arttırırsanız parçacıklara da uygulanan çekim gücü o kadar hızlı azalır yani sürtünme etkisi yaratır gibi düşünebilirsiniz. 0 iken hiç sürtünme etkisi olmadıgı için parçacıklar sürekli çekim noktasının etrafında döner ve hiç durmaz.
 
 * #### Desired Minimum Separation Distance
-Bu inputa verdiginiz degeri bir küre oluşturmak için çap degeri olarak kullanır. Parçacıklar bu küreye girdigi zaman küre parçacıgı dışa dogru iter ve parçacık bu kürenin dışında kalır. Yani bu ayar parçacıkların "Particle Equilibrium Position" noktası yani orijin noktası ile arasındaki boşlugu belirtir.
+Bu inputa verdiginiz degeri bir küre oluşturmak için çap degeri olarak kullanır. Parçacıklar bu küreye girdigi zaman küre parçacıgı dışa dogru iter ve parçacık bu kürenin dışında kalır. Yani bu ayar parçacıkların "Particle Equilibrium Position" noktası yani orijin noktası ile arasındaki boşlugu belirtir. Parçacık orijinden bu inputa verdiginiz deger kadar uzakta durur.
 
 * #### Write to Intrinsic Parameters
 Bu ayar aktifleştirildigi zaman modül [Transient.PhysicsForce](../Parameters#transientphysicsforce) ve [Transient.PhysicsPotentialEnergy](../Parameters#transientphysicspotentialenergy) parametrelerinin degerlerini degiştirir/günceller.
