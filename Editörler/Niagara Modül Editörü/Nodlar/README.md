@@ -1042,7 +1042,25 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Spring Force]()
-bilmiyorum.
+[Spring Force](../Moduller#spring-force) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Fonksiyonun yaptıgı matematik işlemlerinin tam olarak anlamlarını bilmiyorum yani formülleri bilmiyorum. Zaten kısa, isterseniz kendiniz de bakabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Tightness | Çekim şiddeti.
+Attachment Point Velocity | "Particle Equilibrium Position" yani orijin noktasının hız (velocity) degeri.
+Particle Velocity | Parçacıgın hız (velocity) degeri.
+Particle Equilibrium Position | Çekimin uygulandıgı konum, orijin.
+Particle Position | Parçacıgın konum degeri.
+Desired Minimum Separation Distance | Bu inputa verdiginiz degeri bir küre oluşturmak için çap degeri olarak kullanır. Parçacıklar bu küreye girdigi zaman küre parçacıgı dışa dogru iter ve parçacık bu kürenin dışında kalır. Yani bu ayar parçacıkların "Particle Equilibrium Position" noktası yani orijin noktası ile arasındaki boşlugu belirtir. Parçacık orijinden bu inputa verdiginiz deger kadar uzakta durur.
+Dampening Coefficient | Bunu falloff gibi düşünebilirsiniz ve ya sürtünme gibi, bu degeri ne kadar arttırırsanız parçacıklara da uygulanan çekim gücü o kadar hızlı azalır yani sürtünme etkisi yaratır gibi düşünebilirsiniz. 0 iken hiç sürtünme etkisi olmadıgı için parçacıklar sürekli çekim noktasının etrafında döner ve hiç durmaz.
+
+Output | İçerik
+:---: | :---:
+Force Output | Çekim şiddeti degeri, force degeri.
+Potential Energy | Parçacıgın potansiyel enerjisi.
+
+
 
 * #### [Sub UV Texture Coordinates]()
 bilmiyorum.
