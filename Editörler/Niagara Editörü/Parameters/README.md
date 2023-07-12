@@ -521,6 +521,9 @@ Burada oluşturulan parametreler oluşturuldukları kategorinin ismini alırlar.
 Transient yani geçici parametreler, her bir frame'de degişebilirler dolayısıyla sadece şu an çalışan modül için anlamları vardır.
 
 
+* #### [Transient.DragIgnoreMass]()
+(Durumsal) [Drag](../Moduller#drag) ve [Aerodynamic Drag](../Moduller#aerodynamic-drag) modülleri tarafından kullanılır. İkisi de bu parametreyi degiştirebilir. İkisinde de "Ignore Mass" diye bir ayar vardır, bu ayarı açtıgınız zaman bu parametrenin degeri de degiştirilir ve drag etkisi uygulanırken parçacıgın kütlesini dikkate almaz, bütün parçacıklara aynı drag etkisi uygulanır.
+
 * #### [Transient.FirstFrame]()
 (Durumsal) Sadece FirstFrame yani ilk frame'de (kare, fps) True degeri döndürür, sonra False. System için [System State](../Moduller#system-state) tarafından, Emitter için [Emitter State](../Moduller#emitter-state) tarafından, Parçacık için [Particle State](../Moduller#particle-state) tarafından güncellenir.
 
