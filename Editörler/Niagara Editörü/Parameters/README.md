@@ -527,11 +527,17 @@ Transient yani geçici parametreler, her bir frame'de degişebilirler dolayısı
 * #### [Transient.ParticleColorScaleFactor]()
 (Durumsal) [Scale Color](../Moduller#scale-color-1) ve ya [Scale Color by Speed](../Moduller#scale-color-by-speed) modülü kullanıldıgında, kullanılan scale degerlerini (RGBA) bu parametreye kaydeder.
 
+* #### [Transient.PhysicsDrag]()
+(Degişken) Bu deger her frame'de degişebilir, o frame için parçacıgın sahip oldugu drag etkisi degerini tutar.
+
 * #### [Transient.PhysicsForce]()
 (Degişken) Bu deger her frame'de degişebilir, o frame için parçacıgın sahip oldugu force etkisi degerini tutar.
 
 * #### [Transient.PhysicsPotentialEnergy]()
 bilmiyorum.
+
+* #### [Transient.PhysicsRotationalDrag]()
+(Degişken) Bu deger her frame'de degişebilir, o frame için parçacıgın sahip oldugu rotational drag etkisi degerini tutar.
 
 * #### [Transient.PhysicsRotationalForce]()
 (Degişken) [Transient.PhysicsForce](#transientphysicsforce) gibidir ama [Rotational Force](../Terimler%20Sözlügü#rotational-velocity) etkisi degerini tutar. Yani [Transient.PhysicsForce'un](#transientphysicsforce) [Rotational Force](../Terimler%20Sözlügü#rotational-velocity) için olan versiyonu.
