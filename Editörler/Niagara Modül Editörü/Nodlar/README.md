@@ -1823,7 +1823,7 @@ Verdiginiz iki pozisyonun arasındaki uzaklıgı verir, [formül](https://www.de
 ## Special Purpose Parameters
 
 * #### [Begin Defaults]()
-Bu modül parametrelerin default (başlangıç) degerlerini ayarlamak için kullanılan bir noddur ama artık kullanılmıyor, parametrelerin default (başlangıç) degerlerini [Parameters](../Parameters) bölümünden ayarlayabilirsiniz.
+Bu modül parametrelerin default (başlangıç) degerlerini ayarlamak için kullanılan bir noddur ama artık kullanılmıyor, parametrelerin default (başlangıç) degerlerini [Parameters](../Parameters) bölümünden ayarlayabilirsiniz. [Graph](../Graph) üzerinde kod yazarak ayarlamak istiyorsanız da bu nodu kullanmanıza gerek yok, [InputMap'den](#inputmap) gelen Execution Line'ı kullanarak kodları yazabilirsiniz.
 
 * #### [Translator.CallID]()
 bilmiyorum.
