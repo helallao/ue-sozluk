@@ -886,7 +886,7 @@ Girdabın oryantasyonu yani yönü.
 Girdabın yönünün uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Vortex Influence Position
-bilmiyorum.
+Girdaptan etkilenen konum, yani parçacıgın konumu.
 
 * #### Vortex Origin
 Orijin noktası.
