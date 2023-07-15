@@ -1279,7 +1279,7 @@ Sadece "Loop Behavior" "Multiple" modundayken vardır. Loop'un kaç defa oynatı
 Loop'un kaç saniye olacagını belirler.
 
 * #### Recalculate Duration Each Loop
-Sadece "Loop Behavior" "Multiple" ve "Infinite" modundayken vardır. Bu ayar şu işe yarar, yürütme esnasında eger Emitter'ın (belki System'ı da kapsıyordur, bilmiyorum) loop süresi degişirse bunu tespit edip yeni loop süresini kullanmak için, her loop bittiginde (ve ya başlarken) loop sürelerini kontrol eder (recalculate).
+Sadece "Loop Behavior" "Multiple" ve "Infinite" modundayken vardır. Bu ayar şu işe yarar, yürütme esnasında eger System'ın loop süresi degişirse (yani "Loop Duration" inputu) bunu tespit edip yeni loop süresini kullanmak için, her loop bittiginde loop süresini (yani "Loop Duration" inputu) kontrol eder.
 
 * #### Loop Delay
 Loop'un başlayacagı saniyeyi ileri alır, delay verir.
