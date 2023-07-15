@@ -1844,7 +1844,7 @@ Her bir frame'de, şu an, bu modülün çalıştıgı parçacıgın index numara
 Düzenleme nodu.
 
 * #### [Select / If(Select)]()
-İki input alır ve koşul degerine (selector) göre seçim yapar. Kısacası if else nodudur.
+Sadece [Enum](../../Niagara%20Editörü/Parameters#enum) türünden input alır. Aldıgı veri türünden olabilecek bütün koşullara göre inputlar oluşturur. Kısacası if else nodudur. Verdiginiz [Enum](../../Niagara%20Editörü/Parameters#enum) inputunun degerine göre hangi inputa baglı olan kodun çalışacagını belirler.
 
 * #### [Spawn Interpolation]()
 bilmiyorum.
