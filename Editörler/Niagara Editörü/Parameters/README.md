@@ -466,6 +466,9 @@ bilmiyorum.
 * #### [Engine.System.NumEmittersAlive]()
 (Degişken) Aktif olan Emitter sayısını verir.
 
+* #### [Engine.System.TickCount]()
+(Degişken) Şu ana kadar geçen toplam tick (frame, kare) sayısı.
+
 * #### [Engine.Time]()
 (Degişken) Oyunda geçen toplam süreyi (saniye cinsinden) verir. Blueprint'deki "Game Time in Seconds" ile aynıdır.
 
