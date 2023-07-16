@@ -149,7 +149,7 @@ Bu fonksiyon %50 ihtimal ile True ve ya False degeri verir, yani rastgele. [Rand
 İnput | İşlem
 :---: | :---:
 Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
-Evaluation Type | Bilmiyorum.
+Evaluation Type | Normalde yani "Spawn Only" modunda [Translator.CallID](#translatorcallid) nodundan gelen deger seed olarak kullanılır. Bu node da aynı Emitter üzerinde hep aynı degeri verdigi için, sürekli aynı degeri verir. Hep aynı seed kullanıldıgı için, fonksiyon her frame'de farklı deger vermez, hep aynı degeri verir. "Every Frame" modunda ise [Engine.System.TickCount](../../Niagara%20Editörü/Parameters#enginesystemtickcount) degeri kullanıldıgı için her frame'de seed olarak farklı bir deger kullanıldıgı için, fonksiyon her frame'de farklı degerler üretir.
 Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
@@ -205,7 +205,7 @@ Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max
 Range Min | Minimum deger
 Range Max | Maximum deger
 Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
-Evaluation Type | Bilmiyorum.
+Evaluation Type | Normalde yani "Spawn Only" modunda [Translator.CallID](#translatorcallid) nodundan gelen deger seed olarak kullanılır. Bu node da aynı Emitter üzerinde hep aynı degeri verdigi için, sürekli aynı degeri verir. Hep aynı seed kullanıldıgı için, fonksiyon her frame'de farklı deger vermez, hep aynı degeri verir. "Every Frame" modunda ise [Engine.System.TickCount](../../Niagara%20Editörü/Parameters#enginesystemtickcount) degeri kullanıldıgı için her frame'de seed olarak farklı bir deger kullanıldıgı için, fonksiyon her frame'de farklı degerler üretir.
 Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
@@ -226,7 +226,7 @@ Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max
 Float Min | Minimum float
 Float Max | Maximum float
 Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
-Evaluation Type | Bilmiyorum.
+Evaluation Type | Normalde yani "Spawn Only" modunda [Translator.CallID](#translatorcallid) nodundan gelen deger seed olarak kullanılır. Bu node da aynı Emitter üzerinde hep aynı degeri verdigi için, sürekli aynı degeri verir. Hep aynı seed kullanıldıgı için, fonksiyon her frame'de farklı deger vermez, hep aynı degeri verir. "Every Frame" modunda ise [Engine.System.TickCount](../../Niagara%20Editörü/Parameters#enginesystemtickcount) degeri kullanıldıgı için her frame'de seed olarak farklı bir deger kullanıldıgı için, fonksiyon her frame'de farklı degerler üretir.
 Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
@@ -247,7 +247,7 @@ Bu fonksiyon verdiginiz iki sayı arasında rastgele deger verir (min dahil, max
 Integer Min | Minimum float
 Integer Max | Maximum float
 Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
-Evaluation Type | Bilmiyorum.
+Evaluation Type | Normalde yani "Spawn Only" modunda [Translator.CallID](#translatorcallid) nodundan gelen deger seed olarak kullanılır. Bu node da aynı Emitter üzerinde hep aynı degeri verdigi için, sürekli aynı degeri verir. Hep aynı seed kullanıldıgı için, fonksiyon her frame'de farklı deger vermez, hep aynı degeri verir. "Every Frame" modunda ise [Engine.System.TickCount](../../Niagara%20Editörü/Parameters#enginesystemtickcount) degeri kullanıldıgı için her frame'de seed olarak farklı bir deger kullanıldıgı için, fonksiyon her frame'de farklı degerler üretir.
 Fixed Random Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Randomness Mode | [Get Random Info](#get-random-info) fonksiyonuna bakın.
@@ -267,7 +267,7 @@ IsFixedRandomSeed | "Fixed Random Seed" ayarını kullandıysanız True, kullanm
 İnput | İşlem
 :---: | :---:
 Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
-Evaluation Type | Bilmiyorum.
+Evaluation Type | Normalde yani "Spawn Only" modunda [Translator.CallID](#translatorcallid) nodundan gelen deger seed olarak kullanılır. Bu node da aynı Emitter üzerinde hep aynı degeri verdigi için, sürekli aynı degeri verir. Hep aynı seed kullanıldıgı için, fonksiyon her frame'de farklı deger vermez, hep aynı degeri verir. "Every Frame" modunda ise [Engine.System.TickCount](../../Niagara%20Editörü/Parameters#enginesystemtickcount) degeri kullanıldıgı için her frame'de seed olarak farklı bir deger kullanıldıgı için, fonksiyon her frame'de farklı degerler üretir.
 Fixed Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Override Seed | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
 Randomness Mode | Fonksiyonun içinde [Get Random Info](#get-random-info) fonksiyonu kullanılmamış ama yine de bütün açıklamalar birbiriyle uyumlu dolayısıyla [Get Random Info](#get-random-info) fonksiyonuna bakın.
