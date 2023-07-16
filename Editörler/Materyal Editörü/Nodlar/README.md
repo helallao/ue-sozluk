@@ -2639,8 +2639,15 @@ Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluştu
 * #### [DoubleVectorParameter]() 💝
 [VectorParameter](#vectorparameter-) nodunun double halidir. [ConstantDouble](#constantdouble-%EF%B8%8F) nodunu parametre yapmak isterseniz bu nodu kullanabilirsiniz.
 
-* #### [DynamicParameter]()
-The DynamicParameter expression provides a conduit for particle emitters to pass up to four values to the material to be used in any manner. These values are set in Cascade via a ParameterDynamic module placed on an emitter.
+* #### [DynamicParameter]() 💝
+Bu node parçacık sistemi nodudur, yani niagara. Niagara'da herhangi bir Emitter üzerinde materyal kullanıyorsanız. İstediginiz bilgileri materyale yollayabilirsiniz. Bu node gelen bilgileri almak içindir, her bir index numarasına göre [Particles.DynamicMaterialParameter](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter), [Particles.DynamicMaterialParameter1](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter1), [Particles.DynamicMaterialParameter2](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter2) ve [Particles.DynamicMaterialParameter3](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter3) parametrelerinin degerlerini döndürür.
+
+Ayar/Özellik | İşlem
+:---: | :---:
+Param Names | Buradan 4 boyutlu vektörün her bir boyutu için isim verebilirsiniz.
+Default Value | Buradan eger parametre oluşturulmadıysa kullanılacak default degeri ayarlayabilirsiniz.
+Parameter Index | Buradan kullanmak istediginiz index numarasını verebilirsiniz.
+
 
 * #### [FontSampleParameter]()
 The FontSampleParameter expression provides a way to expose a font-based parameter in a material instance constant, making it easy to use different fonts in different instances. The alpha channel of the font will contain the font outline value. Only valid font pages are allowed to be specified.
