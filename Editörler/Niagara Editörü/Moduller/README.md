@@ -1430,7 +1430,7 @@ Küre şeklinde alan oluşturur.
 Kürenin çapı.
 
 * #### Apply To Particle Position
-"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez.
+"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez, degerler parametrelere yazılır.
 
 * #### Sphere Surface Distribution
 Sadece "Sphere Distribution" "Random" modundayken vardır. Bu ayar 0 - 1 arası olmak zorundadır. 0'dayken parçacıklar kürenin her noktasında spawn olabilir. Eger bu degeri yükseltirseniz, mesela 0.1 yaparsanız, kürenin tam orta noktasında bir boşluk oluşacaktır. Degeri arttırdıkça boşluk büyür ve 1 yaptıgınızda, artık parçacıklar sadece kürenin çevresinde yani yüzeyinde oluşur. Kısacası bu ayar parçacıkları 0 degerinden 1 degerine dogru yükseldikçe, kürenin çevresine yaklaştırır.
@@ -1457,7 +1457,7 @@ Sadece "Sphere Distribution" "Random" modundayken vardır. "Simulation Defaults"
 Sadece "Sphere Distribution" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Sadece "Sphere Distribution" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
+Sadece "Sphere Distribution" "Random" modundayken vardır. Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### U Position
 Sadece "Sphere Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
@@ -1475,10 +1475,10 @@ Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniform modu noktala
 Sadece "Sphere Distribution" "Uniform" modundayken vardır. Kaç tane spiralden oluşacagını ayarlarsınız.
 
 * #### Uniform Count
-Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniform sayısı, parçacıklar bu deger kadar uniforma dagıtılacak.
+Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniform sayısı, parçacıklar bu deger kadar uniforma dagıtılacak. Default olarak [Engine.ExecutionCount](../Parameters#engineexecutioncount) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
 
 * #### Uniform Particle Index
-Sadece "Sphere Distribution" "Uniform" modundayken vardır. Bu bizi ilgilendiren bir şey degil. Parçacıkların index numarası.
+Sadece "Sphere Distribution" "Uniform" modundayken vardır. Parçacıkların index numarası. Özel bi durum yoksa degiştirmeyin.
 
 * #### Uniform Endpoint Offset
 Sadece "Sphere Distribution" "Uniform" modundayken vardır. Uniformlar için offset verir.
@@ -1490,7 +1490,7 @@ Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılac
 Kürenin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanımayacagını belirler.
+Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanılmayacagını belirler.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
@@ -1524,7 +1524,7 @@ Silindirin çapı/genişligi.
 Silindirin yükseklik degerinin ne yöne olacagını belirtir. Default olarak 0.5 tir ve iki yöne dogru da olur. Eger 1 yaparsanız yükseklik arttıkça silindir aşagıya dogru uzar. Eger 0 yaparsanız yükseklik arttıkça silindir yukarıya dogru uzar.
 
 * #### Apply To Particle Position
-"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez.
+"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez, degerler parametrelere yazılır.
 
 * #### Surface Only Band Thickness
 Sadece "Cylinder Distribution" "Random" modundayken vardır. Parçacıkları sadece silindirin yüzeyinde/çevresinde spawn eder. 0 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı yükseltirseniz bu katman büyür, yani dıştan içe dogru genişler ve 1 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
@@ -1539,7 +1539,7 @@ Sadece "Cylinder Distribution" "Random" modundayken vardır. X ekseninde silindi
 Sadece "Cylinder Distribution" "Random" modundayken vardır. Y ekseninde silindirin yarısını keser.
 
 * #### Enable Lathe Profile
-Sadece "Cylinder Distribution" "Random" modundayken vardır.
+Sadece "Cylinder Distribution" "Random" modundayken vardır. Verdiginiz Curve aracılıgı ile silindirin aşagıdan yukarı yani dikey olarak çapını/genişligini ayarlayabilirsiniz.
 
 * #### Spawn Group Mask
 [Grup numarası](../Terimler%20Sözlügü#spawngroup) vererek sadece belirli bir grubu bu efektten etkileyebilirsiniz.
@@ -1551,7 +1551,7 @@ Sadece "Cylinder Distribution" "Random" modundayken vardır. "Simulation Default
 Sadece "Cylinder Distribution" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Sadece "Cylinder Distribution" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
+Sadece "Cylinder Distribution" "Random" modundayken vardır. Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### U Position
 Sadece "Cylinder Distribution" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
@@ -1566,7 +1566,7 @@ Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılac
 Silindirin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanımayacagını belirler.
+Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanılmayacagını belirler.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
@@ -1600,7 +1600,7 @@ Dörtgenin boyut degerlerini ayarlarsınız.
 Dörtgenin XYZ olmak üzere her eksen için orta noktasını belirtir yani boyut degerlerini degiştirdiginizde ne yöne dogru genişleyecegini belirtir. Default olarak 0.5 tir ve iki yöne dogru da olur. Eger 0 yaparsanız o eksenin boyut degeri arttıkça o eksen tarafına dogru uzar çünkü 0 yaptıgınızda o eksenin tabanını başlangıç noktası olarak almışsınızdır. Eger 1 yaparsanız o eksenin boyut degeri arttıkça o eksenin tersi tarafına dogru uzar çünkü 1 yaptıgınızda o eksenin ucunu başlangıç noktası olarak almışsınızdır.
 
 * #### Apply To Particle Position
-"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez.
+"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez, degerler parametrelere yazılır.
 
 * #### Surface Only Band Thickness
 Parçacıkları sadece dörtgenin yüzeyinde/çevresinde spawn eder. 0 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı yükseltirseniz bu katman büyür, yani dıştan içe dogru genişler. Sayı bu katmanın içeriye dogru kaç birim genişleyecegini belirtiyor, eger katmanı dörtgeni kaplayacak kadar genişletirseniz yine dörtgen şekli elde etmiş olursunuz.
@@ -1618,7 +1618,7 @@ Sadece "Surface Only Band Thickness" ayarı açıkken vardır. "Surface Only Ban
 "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Ne işe yaradıgını bilmiyorum.
+Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### Transform Order
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
@@ -1627,7 +1627,7 @@ Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılac
 Dörtgenin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanımayacagını belirler.
+Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanılmayacagını belirler.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
@@ -1667,7 +1667,7 @@ Torus'un çapı.
 Torus'un genişligi/kalınlıgı.
 
 * #### Apply To Particle Position
-"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez.
+"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez, degerler parametrelere yazılır.
 
 * #### Surface Distribution
 Sadece "Torus Distribution Mode" "Random" modundayken vardır. Parçacıkları sadece torus'un yüzeyinde/çevresinde spawn eder. 1 iken bu katman incedir, yani sadece yüzeydir. Eger sayıyı azaltırsanız bu katman büyür, yani dıştan içe dogru genişler ve 0 yaptıgınız zaman katman ortaya kadar ulaşır, eger ortaya kadar ulaşırsa default halindeki gibi yani içi dolu olur (parçacıklar içinde de spawn olur).
@@ -1688,7 +1688,7 @@ Sadece "Torus Distribution Mode" "Random" modundayken vardır. "Simulation Defau
 Sadece "Torus Distribution Mode" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Sadece "Torus Distribution Mode" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
+Sadece "Torus Distribution Mode" "Random" modundayken vardır. Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### U Position
 Sadece "Torus Distribution Mode" "Direct" modundayken vardır. Direct modu U ve V inputu alır, bunlar X ve Y gibidir ve belirli bir noktayı temsil etmek için kullanılır, yani koordinat.
@@ -1703,7 +1703,7 @@ Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılac
 Torus'un boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanımayacagını belirler.
+Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanılmayacagını belirler.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
@@ -1732,7 +1732,7 @@ Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-wor
 Çap degeri.
 
 * #### Apply To Particle Position
-"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez.
+"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez, degerler parametrelere yazılır.
 
 * #### Disc Coverage
 Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. Deger 0'dan 1'e dogru yaklaştıkça, simit/çokgen şeklinin ortası dolar, yani ortaya dogru yaklaşır.
@@ -1750,7 +1750,7 @@ Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. "Simulation
 Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. Ne işe yaradıgını bilmiyorum.
+Sadece "Ring / Disc Distribution Mode" "Random" modundayken vardır. Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### U Position
 Sadece "Ring / Disc Distribution Mode" "Direct" modundayken vardır. Simit/çokgen şeklini oranlar/böler.
@@ -1765,19 +1765,19 @@ Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Spiral say
 Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Spirallerin ne kadar kıvrılacagını ayarlar. Daha fazla kıvrılırsa daha kısa olur.
 
 * #### Uniform Count
-Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Uniform sayısı, parçacıklar bu deger kadar uniforma dagıtılacak.
+Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Uniform sayısı, parçacıklar bu deger kadar uniforma dagıtılacak. Default olarak [Engine.ExecutionCount](../Parameters#engineexecutioncount) parametresine baglıdır. Özel bi durum yoksa degiştirmeyin.
 
 * #### Uniform Particle Index
-Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Bu bizi ilgilendiren bir şey degil. Parçacıkların index numarası.
+Sadece "Ring / Disc Distribution Mode" "Uniform" modundayken vardır. Parçacıkların index numarası. Özel bi durum yoksa degiştirmeyin.
 
 * #### Transform Order
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
 
 * #### Non Uniform Scale
-Torus'un boyut degerlerini ayarlarsınız.
+Şeklin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanımayacagını belirler.
+Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanılmayacagını belirler.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
@@ -1833,10 +1833,10 @@ Sadece "Cone Mode" "Spherical Wedge" modundayken vardır. Koninin açısının y
 Sadece "Cone Mode" "Spherical Wedge" modundayken vardır. Koninin açısının dikey eksende büyüklügünü ayarlamamıza yarar.
 
 * #### Apply To Particle Position
-"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez.
+"Apply" modundayken parçacıkların konumunu degiştirir, "Output" modundayken degiştirmez, degerler parametrelere yazılır.
 
 * #### Cone Surface Distribution
-Bu ayar sanırım bozuk, düzgün çalışmıyor.
+Bu ayar 0 - 1 arası olmak zorundadır. 0'dayken parçacıklar koninin her noktasında spawn olabilir. Eger bu degeri yükseltirseniz, mesela 0.1 yaparsanız, koninin başlangıç noktasından bitiş noktasına kadar olan kısmın ilk %10 luk kısmında parçacık spawn olmaz. Degeri arttırdıkça boşluk büyür ve 1 yaptıgınızda, artık parçacıklar sadece koninin ucunda yani sonunda oluşur. Kısacası bu ayar parçacıkları 0 degerinden 1 degerine dogru yükseldikçe, başlangıçtan bitişe yaklaştırır, o kısımları siler.
 
 * #### Spawn Group Mask
 [Grup numarası](../Terimler%20Sözlügü#spawngroup) vererek sadece belirli bir grubu bu efektten etkileyebilirsiniz.
@@ -1848,16 +1848,16 @@ Bu ayar sanırım bozuk, düzgün çalışmıyor.
 "Randomness Mode" ayarı "Deterministic" modunda ise, seed verebilirsiniz.
 
 * #### Fixed Random Seed
-Ne işe yaradıgını bilmiyorum.
+Normalde seed verseniz bile her şey tamamen seed'e baglı degildir. Ama bu ayarı açarsanız her şey için %100 verdiginiz seed numarası kullanılır, yani her şey verdiginiz seed'e göre olur.
 
 * #### Transform Order
 Bir işe yarayacagını sanmıyorum. Belki gerekir de kullanırsınız. Yapılacak işlemlerin sırasını degiştiriyor, daha dogrusu sadece offset ve rotation işlemlerinin yerini degiştiriyor. İlk baş rotate edip sonra offset verirseniz, offsetin ne yönde olacagını bilirsiniz ama ilk baş offset verip sonra rotate ederseniz, offsetin ne yöne oldugunu bilemeyebilirsiniz.
 
 * #### Non Uniform Scale
-Torus'un boyut degerlerini ayarlarsınız.
+Koni'nin boyut degerlerini ayarlarsınız.
 
 * #### Apply Owner Scale
-Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanımayacagını belirler.
+Dünya üzerindeki niagara objenizin scale degerinin kullanıp kullanılmayacagını belirler.
 
 * #### Rotation
 Rotation ile ilgili bir açıklama yapmicam, gereksiz.
