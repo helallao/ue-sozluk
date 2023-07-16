@@ -2707,8 +2707,8 @@ The purpose of this function is to help setup particles such that they fade away
 * #### [Distance_Blend]()
 
 
-* #### [DynamicParameter]()
-The DynamicParameter expression provides a conduit for particle emitters to pass up to four values to the material to be used in any manner. These values are set in Cascade via a ParameterDynamic module placed on an emitter.
+* #### [DynamicParameter]() 💝
+Bu node parçacık sistemi nodudur, yani niagara. Niagara'da herhangi bir Emitter üzerinde materyal kullanıyorsanız. İstediginiz bilgileri materyale yollayabilirsiniz. Bu node gelen bilgileri almak içindir, her bir index numarasına göre [Particles.DynamicMaterialParameter](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter), [Particles.DynamicMaterialParameter1](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter1), [Particles.DynamicMaterialParameter2](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter2) ve [Particles.DynamicMaterialParameter3](../../Niagara%20Editörü/Parameters#particlesdynamicmaterialparameter3) parametrelerinin degerlerini döndürür.
 
 * #### [ParticleColor]()
 The ParticleColor expression ties into the current color of a given particle based on any per-particle color data defined within Cascade. This must be plugged into the appropriate channel (Emissive Color).
