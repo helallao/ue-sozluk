@@ -1949,7 +1949,68 @@ Offset'in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-wor
 
 ## [Dynamic Material Parameters]()
 
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan materyaller için (bkz. [Sprite Renderer](#sprite-renderer)), materyal içinde kullanılacak degerler oluşturur. Bu modül [Particles.DynamicMaterialParameter](../Parameters#particlesdynamicmaterialparameter), [Particles.DynamicMaterialParameter1](../Parameters#particlesdynamicmaterialparameter1), [Particles.DynamicMaterialParameter2](../Parameters#particlesdynamicmaterialparameter2) ve [Particles.DynamicMaterialParameter3](../Parameters#particlesdynamicmaterialparameter3) parametrelerindeki degerleri ayarlar. Materyal üzerindeki [DynamicParameter](../../Materyal%20Editörü/Nodlar#dynamicparameter) nodunun verecegi degerleri bu parametreler belirler.
 
+
+* #### Write Parameter Index 0
+[Particles.DynamicMaterialParameter](../Parameters#particlesdynamicmaterialparameter) parametresinin (0. index) oluşturulup oluşturulmayacagını belirler.
+
+* #### Param1
+Sadece "Write Parameter Index 0" ayarı açıkken vardır. 0. indexteki 4 boyutlu vektör degerinin 1. degeri (R).
+
+* #### Param2
+Sadece "Write Parameter Index 0" ayarı açıkken vardır. 0. indexteki 4 boyutlu vektör degerinin 2. degeri (G).
+
+* #### Param3
+Sadece "Write Parameter Index 0" ayarı açıkken vardır. 0. indexteki 4 boyutlu vektör degerinin 3. degeri (B).
+
+* #### Param4
+Sadece "Write Parameter Index 0" ayarı açıkken vardır. 0. indexteki 4 boyutlu vektör degerinin 4. degeri (A).
+
+* #### Write Parameter Index 1
+[Particles.DynamicMaterialParameter1](../Parameters#particlesdynamicmaterialparameter1) parametresinin (1. index) oluşturulup oluşturulmayacagını belirler.
+
+* #### Param1
+Sadece "Write Parameter Index 1" ayarı açıkken vardır. 1. indexteki 4 boyutlu vektör degerinin 1. degeri (R).
+
+* #### Param2
+Sadece "Write Parameter Index 1" ayarı açıkken vardır. 1. indexteki 4 boyutlu vektör degerinin 2. degeri (G).
+
+* #### Param3
+Sadece "Write Parameter Index 1" ayarı açıkken vardır. 1. indexteki 4 boyutlu vektör degerinin 3. degeri (B).
+
+* #### Param4
+Sadece "Write Parameter Index 1" ayarı açıkken vardır. 1. indexteki 4 boyutlu vektör degerinin 4. degeri (A).
+
+* #### Write Parameter Index 2
+[Particles.DynamicMaterialParameter2](../Parameters#particlesdynamicmaterialparameter2) parametresinin (2. index) oluşturulup oluşturulmayacagını belirler.
+
+* #### Param1
+Sadece "Write Parameter Index 2" ayarı açıkken vardır. 2. indexteki 4 boyutlu vektör degerinin 1. degeri (R).
+
+* #### Param2
+Sadece "Write Parameter Index 2" ayarı açıkken vardır. 2. indexteki 4 boyutlu vektör degerinin 2. degeri (G).
+
+* #### Param3
+Sadece "Write Parameter Index 2" ayarı açıkken vardır. 2. indexteki 4 boyutlu vektör degerinin 3. degeri (B).
+
+* #### Param4
+Sadece "Write Parameter Index 2" ayarı açıkken vardır. 2. indexteki 4 boyutlu vektör degerinin 4. degeri (A).
+
+* #### Write Parameter Index 3
+[Particles.DynamicMaterialParameter3](../Parameters#particlesdynamicmaterialparameter3) parametresinin (3. index) oluşturulup oluşturulmayacagını belirler.
+
+* #### Param1
+Sadece "Write Parameter Index 3" ayarı açıkken vardır. 3. indexteki 4 boyutlu vektör degerinin 1. degeri (R).
+
+* #### Param2
+Sadece "Write Parameter Index 3" ayarı açıkken vardır. 3. indexteki 4 boyutlu vektör degerinin 2. degeri (G).
+
+* #### Param3
+Sadece "Write Parameter Index 3" ayarı açıkken vardır. 3. indexteki 4 boyutlu vektör degerinin 3. degeri (B).
+
+* #### Param4
+Sadece "Write Parameter Index 3" ayarı açıkken vardır. 3. indexteki 4 boyutlu vektör degerinin 4. degeri (A).
 
 
 
