@@ -418,6 +418,9 @@ Niagara tarafından oluşturulan parametreler, her yerden okunabilir, degiştiri
 * #### [Engine.Emitter.SpawnCountScale]()
 (Sabit) [Spawn](../Moduller#spawning) modülleri tarafından, spawn edilecek parçacık sayısı için çarpan degeri olarak kullanılıyor. Yani bu deger 2 ise o zaman spawn edilecek parçacık sayısı da 2 ile çarpılır. Bu parametreyi ayarlayabileceginiz bir yer sunulmamış yani hiçbir şekilde degiştiremiyorsunuz, manuel olarak degiştirmediginiz sürece.
 
+* #### [Engine.ExecutionCount]()
+(Sabit) Toplamda spawn edilecek parçacık sayısını tutar.
+
 * #### [Engine.Owner.ExecutionState]()
 (Durumsal) Yürütülme durumuna baglıdır. Yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
 <br>
