@@ -1826,7 +1826,7 @@ Verdiginiz iki pozisyonun arasındaki uzaklıgı verir, [formül](https://www.de
 Bu modül parametrelerin default (başlangıç) degerlerini ayarlamak için kullanılan bir noddur ama artık kullanılmıyor, parametrelerin default (başlangıç) degerlerini [Parameters](../Parameters) bölümünden ayarlayabilirsiniz. [Graph](../Graph) üzerinde kod yazarak ayarlamak istiyorsanız da bu nodu kullanmanıza gerek yok, [InputMap'den](#inputmap) gelen Execution Line'ı kullanarak kodları yazabilirsiniz.
 
 * #### [Translator.CallID]()
-bilmiyorum.
+Ne olduguna dair hiçbir yerde bilgi yok. Kendi yaptıgım denemelere göre, her bir Emitter için özel olarak id degeri tutuyor. Yani Emitter'ın id'si oldugunu düşünün, bu node da o id'yi veriyor. Eger bu node başka bir Emitter'da çalışırsa başka deger döndürür, ama aynı Emitter'da çalıştıgı sürece aynı degeri döndürür.
 
 
 ## Swizzles
