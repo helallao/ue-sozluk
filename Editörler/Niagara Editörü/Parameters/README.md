@@ -205,6 +205,18 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.Color]()
 (Durumsal) Parçacıgın renk degeri.
 
+* #### [Particles.DynamicMaterialParameter]()
+(Durumsal) [Dynamic Material Parameters](../Moduller#dynamic-material-parameters) kullanıldıgı zaman oluşturulur (manuel olarak da oluşturabilirsiniz). Materyal üzerindeki [DynamicParameter](../../Materyal%20Editörü/Nodlar#dynamicparameter) nodunun 0. index için verecegi degeri bu parametre belirler.
+
+* #### [Particles.DynamicMaterialParameter1]()
+(Durumsal) [Dynamic Material Parameters](../Moduller#dynamic-material-parameters) kullanıldıgı zaman oluşturulur (manuel olarak da oluşturabilirsiniz). Materyal üzerindeki [DynamicParameter](../../Materyal%20Editörü/Nodlar#dynamicparameter) nodunun 1. index için verecegi degeri bu parametre belirler.
+
+* #### [Particles.DynamicMaterialParameter2]()
+(Durumsal) [Dynamic Material Parameters](../Moduller#dynamic-material-parameters) kullanıldıgı zaman oluşturulur (manuel olarak da oluşturabilirsiniz). Materyal üzerindeki [DynamicParameter](../../Materyal%20Editörü/Nodlar#dynamicparameter) nodunun 2. index için verecegi degeri bu parametre belirler.
+
+* #### [Particles.DynamicMaterialParameter3]()
+(Durumsal) [Dynamic Material Parameters](../Moduller#dynamic-material-parameters) kullanıldıgı zaman oluşturulur (manuel olarak da oluşturabilirsiniz). Materyal üzerindeki [DynamicParameter](../../Materyal%20Editörü/Nodlar#dynamicparameter) nodunun 3. index için verecegi degeri bu parametre belirler.
+
 * #### [Particles.FrameCounter.Counter]()
 (Degişken) [Frame Counter](../Moduller#frame-counter) tarafından oluşturulur. Toplamda sayılan frame sayısını verir.
 
