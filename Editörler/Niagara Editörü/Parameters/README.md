@@ -342,6 +342,9 @@ bilmiyorum.
 * #### [Output.ApplyInitialForces.IncomingPhysicsRotationalForce]()
 bilmiyorum.
 
+* #### [Output.ConeMask.Mask]()
+(Degişken) [Cone Mask](../Moduller#cone-mask) kullanıldıgı zaman oluşturulur.
+
 * #### [Output.CurlNoiseForce.CurlNoiseForce]()
 (Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
 
