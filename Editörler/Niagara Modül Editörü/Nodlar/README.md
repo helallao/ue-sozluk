@@ -310,7 +310,25 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Cone Mask]()
-bilmiyorum.
+[Cone Mask](../Moduller#cone-mask) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Cone Axis | [Cone Mask](../Moduller#cone-mask) modülünün [Cone Axis](../Moduller#cone-axis-1) inputu.
+Cone Angle | [Cone Mask](../Moduller#cone-mask) modülünün [Inner Cone Angle](../Moduller#inner-cone-angle) inputu.
+Falloff Angle | [Cone Mask](../Moduller#cone-mask) modülünün [Outer Cone Angle](../Moduller#outer-cone-angle) inputu.
+Radius | [Cone Mask](../Moduller#cone-mask) modülünün [Radius](../Moduller#radius-1) inputu.
+Radial Falloff | [Cone Mask](../Moduller#cone-mask) modülünün [Radial Falloff](../Moduller#radial-falloff) inputu.
+Sample Position | [Cone Mask](../Moduller#cone-mask) modülünün [Sample Position](../Moduller#sample-position-1) inputu.
+Cone Origin | [Cone Mask](../Moduller#cone-mask) modülünün [Cone Apex](../Moduller#cone-apex) inputu.
+Use Radial Falloff | "Radial Falloff" kullanılıp kullanılmayacagını belirler.
+
+Output | İçerik
+:---: | :---:
+Mask | Hesaplanan deger
+
+
 
 * #### [Convert Index to 2DLookup]()
 bilmiyorum.
