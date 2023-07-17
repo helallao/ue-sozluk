@@ -2028,7 +2028,8 @@ Sadece "Write Parameter Index 3" ayarı açıkken vardır. 3. indexteki 4 boyutl
 
 ## [Cone Mask]()
 
-([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül hayali bir koni oluşturur ve verdiginiz noktanın (genellikle parçacıgın konumu) bu koninin içinde olup olmadıgını kontrol eder (tam olarak degil). İki türlü kullanımı vardır, birincisi çap degeri belirlemeden yani "Radial Falloff" olmadan, digeri ise "Radial Falloff" ile birlikte. "Radial Falloff" olmadan kullanırsanız verdiginiz noktanın başlangıç noktasına göre (Cone Apex) yönü alınır ve "Inner Cone Angle" ile "Outer Cone Angle" inputlarının degerleri baz alınarak, verdiginiz nokta koninin içinde mi diye kontrol edilir.
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül hayali bir koni oluşturur ve verdiginiz noktanın (genellikle parçacıgın konumu) bu koninin içinde olup olmadıgını kontrol eder (tam olarak degil) ve deger döndürür. İki türlü kullanımı vardır, birincisi çap degeri belirlemeden yani "Radial Falloff" olmadan, ikincisi ise "Radial Falloff" ile birlikte. "Radial Falloff" olmadan kullanırsanız verdiginiz noktanın başlangıç noktasına göre (Cone Apex) yönü (açısı) alınır ve "Inner Cone Angle" ile "Outer Cone Angle" inputlarının degerleri baz alınarak, verdiginiz nokta koninin içinde mi diye kontrol edilir, eger dışındaysa [Output.ConeMask.Mask](../Parameters#outputconemaskmask) parametresi 0, içindeyse de ortaya yakınlıgına göre (yani koninin baktıgı yön) 0'dan 1'e dogru bir deger verir, 1'de iken de tam orta noktada (yani koninin baktıgı yönde, çizgide) demektir. "Radial Falloff" ile birlikte kullanırsanız da, verdiginiz nokta hem açısal olarak hem de koninin kalınlık degeri ("Radius" inputu) ile uzunluk degeri ("Radial Falloff" inputu) baz alınarak hesaplamalar yapılır. "Radial Falloff" ile birlikte kullanırken bu koşul da baz alınarak hesaplamalar yapıldıgı için, [Output.ConeMask.Mask](../Parameters#outputconemaskmask) parametresine kaydedilen deger kesin olarak dogru olmayabilir. Yani mesela verdiginiz nokta koninin dışında olsa bile [Output.ConeMask.Mask](../Parameters#outputconemaskmask) parametresine kaydedilen deger 0'a eşit olmayabilir. Çünkü "Radial Falloff" ile birlikte iki koşula göre hesaplanan degerler birbiri ile karıştırılır yani oranlanır. "Radial Falloff" ile birlikte kullandıgınız zaman koniye kalınlık ("Radius" inputu) ve uzunluk ("Radial Falloff" inputu) degeri verebilirsiniz.
+
 
 
 * #### Sample Position
@@ -2044,16 +2045,16 @@ Koninin baktıgı yön.
 Koninin başlangıç konumu (ingilizcesi Apex).
 
 * #### Inner Cone Angle
-K
+Koninin iç açısı. Başlangıç noktasındaki açısı.
 
 * #### Outer Cone Angle
-K
+Koninin dış/uç açısı.
 
 * #### Radius
-K
+Koninin başlangıç noktasındaki çap (genişlik) degeri, koninin kalınlıgı "Radial Falloff" inputuna verdiginiz deger kadar uzunlukta gitgide küçülecek ve 0'a ulaşacak, yani koniye verdiginiz çap (genişlik) degeri koniye verdiginiz uzunluk degerine ("Radial Falloff" inputu) kadar azalacak ve koninin sonuna geldiginde ise 0 olacak.
 
 * #### Radial Falloff
-K
+Koninin uzunluk degeri, koni bu uzunluk degerine yaklaştıkça küçülür ve bu degere ulaştıgında kalınlıgı 0 olur, yani koni biter.
 
 
 
