@@ -2027,6 +2027,38 @@ Sadece "Write Parameter Index 3" ayarı açıkken vardır. 3. indexteki 4 boyutl
 # Math
 
 ## [Cone Mask]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül hayali bir koni oluşturur ve verdiginiz noktanın (genellikle parçacıgın konumu) bu koninin içinde olup olmadıgını kontrol eder (tam olarak degil). İki türlü kullanımı vardır, birincisi çap degeri belirlemeden yani "Radial Falloff" olmadan, digeri ise "Radial Falloff" ile birlikte. "Radial Falloff" olmadan kullanırsanız verdiginiz noktanın başlangıç noktasına göre (Cone Apex) yönü alınır ve "Inner Cone Angle" ile "Outer Cone Angle" inputlarının degerleri baz alınarak, verdiginiz nokta koninin içinde mi diye kontrol edilir.
+
+
+* #### Sample Position
+Default olarak [Particles.Position](../Parameters#particlesposition) parametresine baglıdır. Buraya istediginiz noktayı verebilirsiniz.
+
+* #### Coordinate Space
+"Cone Axis" ve "Cone Apex" için kullanılacak olan [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+* #### Cone Axis
+Koninin baktıgı yön.
+
+* #### Cone Apex
+Koninin başlangıç konumu (ingilizcesi Apex).
+
+* #### Inner Cone Angle
+K
+
+* #### Outer Cone Angle
+K
+
+* #### Radius
+K
+
+* #### Radial Falloff
+K
+
+
+
+
+
 ## [Constrain Vector to Cone]()
 ## [Fade Over Time]()
 ## [Find Closest Point on Line Segment]()
