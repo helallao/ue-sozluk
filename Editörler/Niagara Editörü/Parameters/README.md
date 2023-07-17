@@ -343,7 +343,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Output.ConeMask.Mask]()
-(Degişken) [Cone Mask](../Moduller#cone-mask) kullanıldıgı zaman oluşturulur. [Cone Mask](../Moduller#cone-mask) "Radial Falloff" olmadan kullanıldıgında, noktanın koninin ortasına olan uzaklıgını verir. "Radial Falloff" ile birlikte kullanıldıgında, hem açısal olarak hem de belirlediginiz koni kalınlıgı ve uzunlugu degeri baz alınarak yapılan hesaplamaya göre olan degeri, yani koninin ne kadar içinde oldugu degerini verir.
+(Degişken) [Cone Mask](../Moduller#cone-mask) kullanıldıgı zaman oluşturulur. [Cone Mask](../Moduller#cone-mask) "Radial Falloff" olmadan kullanıldıgında, noktanın koninin ortasına olan uzaklıgını verir. "Radial Falloff" ile birlikte kullanıldıgında, hem açısal olarak hem de belirlediginiz koni kalınlıgı ve uzunlugu degeri baz alınarak yapılan hesaplamaya göre olan degeri, yani koninin ne kadar içinde oldugu (yakınlıgı) degerini verir.
 
 * #### [Output.CurlNoiseForce.CurlNoiseForce]()
 (Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
