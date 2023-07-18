@@ -307,7 +307,22 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Cone Constraint]()
-bilmiyorum.
+[Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülü tarafından kullanılır. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Cone Axis | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Cone Axis](../Moduller#cone-axis-2) inputu.
+Proposed Vector | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Vector](../Moduller#vector) inputu.
+Max Angle | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Max Angle](../Moduller#max-angle) inputu.
+Fallback Offset Vector | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Fallback Offset Vector](../Moduller#fallback-offset-vector) inputu.
+
+Output | İçerik
+:---: | :---:
+Output Vector | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.Vector](../Parameters#outputconstrainvectortoconevector) parametresindeki deger.
+Invalid Input Vectors | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.InvalidVectors](../Parameters#outputconstrainvectortoconeinvalidvectors) parametresindeki deger.
+
+
 
 * #### [Cone Mask]()
 [Cone Mask](../Moduller#cone-mask) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
