@@ -2082,6 +2082,39 @@ Bu deger 0 - 360 derece arası olmalıdır. Vektör koni ile aynı yöne geldigi
 
 
 ## [Fade Over Time]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül belirlediginiz bir degeri zamana baglı olarak verdiginiz degere kadar verdiginiz hızda düşürür.
+
+
+* #### Active
+Modül bu input açıkken degerlerini günceller.
+
+* #### Decay Rate Function
+İki azaltma modu vardır, "Linear" ve "Percentage". "Linear" modundayken modül saniye başına "Fade Rate" inputuna verdiginiz deger kadar aşagıya sayar. "Percentage" modunda ise modülün şu anki degeri ile "Minimum Value" degeri arasındaki farkın "Fade Rate" ile çarpımından çıkan deger kullanılır. Yani aradaki fark yüksek iken hızlı, azken yavaş bir şekilde aşagıya sayar.
+
+* #### Fade Rate
+"Decay Rate Function" ayarı "Linear" modundayken modül saniye başına bu inputa verdiginiz deger kadar aşagıya sayar. "Percentage" modunda ise modülün şu anki degeri ile "Minimum Value" degeri arasındaki farkın bu input ile çarpımından çıkan deger kullanılır. Yani aradaki fark yüksek iken hızlı, azken yavaş bir şekilde aşagıya sayar.
+
+* #### Minimum Step Size
+Sadece "Decay Rate Function" "Percentage" modundayken vardır. Tek bir frame'de aşagıya sayılacak minimum degeri belirler. Yani mesela bu degeri 0.1 yaparsanız modül tek bir frame'de 0.1 degerinden daha az aşagıya sayamaz, yani bundan daha yavaş aşagıya sayamaz.
+
+* #### Minimum Value Difference
+Bu inputun ismi yanlış koyulmuş, aslında "Maximum Value Difference" olmalıydı. Modül bu degere verdiginiz deger kadar "Target Value" degerinden aşagıya sayabilir. Yani diyelim ki "Target Value" inputuna verdiginiz deger 10, eger bu inputa 10 vermezseniz modül 0'a kadar sayamaz ("Minimum Value" degerinin 0 oldugunu varsayıyorum).
+
+* #### Target Value
+Başlangıç degeri, modül bu degerden başlayıp "Minimum Value" inputuna verdiginiz degere kadar inecek ("Minimum Value Difference" degerinin "Target Value" ve "Minimum Value" degerlerinin arasındaki farka eşit ve ya yüksek oldugunu varsayıyorum).
+
+* #### Minimum Value
+Bitiş degeri, modül bu degerden aşagıya inemez.
+
+* #### DeltaTime
+Modülün hesaplamaları yapabilmesi için gerekli olan DeltaTime degeri. Default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır. Özel bir şey yoksa degiştirmeyin.
+
+
+
+
+
+
 ## [Find Closest Point on Line Segment]()
 ## [Find Closest Point on Triangle]()
 ## [Interpolate Over Time]()
