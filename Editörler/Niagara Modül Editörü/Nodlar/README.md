@@ -489,7 +489,22 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [FN First Frame Numeric]()
-bilmiyorum.
+Bu fonksiyon sadece ilk frame'de "Initialization Value" inputuna verdiginiz degeri, diger frame'lerde ise "Current Parameter Map Value" inputuna verdiginiz degeri döndürür. Gereksiz bişe yani, kendiniz yazıp aynısını 10 saniyede yapabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+NewInput | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz.
+IsFirstFrame | İlk frame'de olup olmadıgımızı belirlemek için kullanılacak deger, isterseniz boş bırakabilirsiniz, boş bırakırsanız "Spawn" kategorileri hariç diger kategorilerde [Transient.FirstFrame](../../Niagara%20Editörü/Parameters#transientfirstframe) parametresini kullanır.
+Initialization Value | Eger ilk frame'de ise "Value" outputu olarak bu degeri döndürür.
+Current Parameter Map Value | Eger ilk frame'de degil ise "Value" outputu olarak bu degeri döndürür.
+
+Output | İçerik
+:---: | :---:
+Value | Eger ilk frame'de ise "Initialization Value" inputuna verdiginiz degeri, degil ise "Current Parameter Map Value" inputuna verdiginiz degeri döndürür.
+First Frame | Eger "IsFirstFrame" inputuna verdiginiz deger True ise True, degilse False.
+
+
 
 * #### [Gaussian Random Float]()
 bilmiyorum.
