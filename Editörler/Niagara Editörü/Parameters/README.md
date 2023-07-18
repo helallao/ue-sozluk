@@ -217,6 +217,9 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.DynamicMaterialParameter3]()
 (Durumsal) [Dynamic Material Parameters](../Moduller#dynamic-material-parameters) kullanıldıgı zaman oluşturulur (manuel olarak da oluşturabilirsiniz). Materyal üzerindeki [DynamicParameter](../../Materyal%20Editörü/Nodlar#dynamicparameter) nodunun 3. index için verecegi degeri bu parametre belirler.
 
+* #### [Particles.FadeOverTime.CurrentValue]()
+(Degişken) [Fade Over Time](../Moduller#fade-over-time) tarafından oluşturulur. Hesaplanan deger bu parametreye kaydedilir.
+
 * #### [Particles.FrameCounter.Counter]()
 (Degişken) [Frame Counter](../Moduller#frame-counter) tarafından oluşturulur. Toplamda sayılan frame sayısını verir.
 
