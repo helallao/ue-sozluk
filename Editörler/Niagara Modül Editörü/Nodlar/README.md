@@ -994,7 +994,24 @@ NewOutput | "Value" inputunun "Input Min" ve "Input Max" aralıgına göre olan 
 bilmiyorum.
 
 * #### [Rotate Angle on Axis]()
-bilmiyorum.
+Bu fonksiyon sizden bir vektör alır ve bu vektörü verdiginiz eksende dairesel olarak verdiginiz açıda döndürür. Daha iyi anlamak için görsel kullanarak anlatıcam. Bu fonksiyon aşagıdaki gifte gördügünüz dönme eylemini gerçekleştiriyor. Gördügünüz sarı vektör "Vector To Rotate" inputuna verdiginiz vektördür, isterseniz yön vektörü de kullanabilirsiniz. Gördügünüz siyah vektör dönme işleminin gerçekleştigi eksendir yani "Rotation Axis" inputuna verdiginiz vektördür. "Angle" inputu da dönme açısını temsil eder. Eger açı degeri artı olursa dönme işlemi saat yönünün tersinde, eksi olursa saat yönünde olur. "Angle" inputu 0 - 1 (ve ya -1) arasında olmalıdır, verdiginiz 0 - 1 arası deger 0 - 360 dereceye denk gelir, yani 0 verdiginizde 0 dereceye, 1 verdiginizde 360 dereceye denk gelir, yani [normalized](#normalize) halidir.
+
+
+İnput | İşlem
+:---: | :---:
+Angle | Dönme açısı, 0 - 1 arasında olmalıdır. Verdiginiz 0 - 1 arası deger 0 - 360 dereceye denk gelir, yani 0 verdiginizde 0 dereceye, 1 verdiginizde 360 dereceye denk gelir, yani [normalized](#normalize) halidir. Eger açı degeri artı olursa dönme işlemi saat yönünün tersinde, eksi olursa saat yönünde olur.
+Vector To Rotate | Döndürülecek vektör.
+Rotation Axis | Dönme işleminin gerçekleşecegi eksen.
+
+Output | İçerik
+:---: | :---:
+Vector | Döndürülmüş vektör.
+
+
+<img src="../../../Dosyalar/Vector_Rotation_In_Arbitrary_Axis.gif">
+
+
+
 
 * #### [Rotate Vector 2D]()
 bilmiyorum.
