@@ -2039,7 +2039,7 @@ Default olarak [Particles.Position](../Parameters#particlesposition) parametresi
 "Cone Axis" ve "Cone Apex" için kullanılacak olan [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
 
 * #### Cone Axis
-Koninin baktıgı yön.
+Koninin baktıgı yön, eksen.
 
 * #### Cone Apex
 Koninin başlangıç konumu (ingilizcesi Apex).
@@ -2061,6 +2061,26 @@ Koninin uzunluk degeri, koni bu uzunluk degerine yaklaştıkça küçülür ve b
 
 
 ## [Constrain Vector to Cone]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül hayali bir koni oluşturur ve verdiginiz vektörü bu koniye dogru döndürür ve koninin kenarına gelen kısma kadar (vektörün koninin en yakın olan kısmına) getirir yani vektörünüzü koni üzerine getirir. Koninin genişligini belirlemek için "Max Angle" inputu kullanılıyor, ama aslında arkada dönen kodlar daha farklı. Dolayısıyla "Max Angle" inputunu koninin genişligi olarak degil de şöyle düşünün, modül ilk baş vektörünüzü "Cone Axis" inputuna verdiginiz yöne yani koninin yönüne getirir. Sonra "Max Angle" inputuna verdiginiz açı degeri kadar daha döndürür, yani diyelim ki modül vektörü 100 derece döndürdü, eger "Max Angle" degeri -10 ise 10 derece daha döndürür, yani 110 derece döndürür. Eger "Max Angle" degeri 10 olsaydı, deger artılarda oldugu için modül döndürdügü vektörü tekrar geldigi yöne dogru 10 derece döndürürdü. Yani "Max Angle" degeri vektörün koniden ne kadar uzaklaşacagını temsil ediyor, eger deger eksilerde ise gittigi yön ile aynı yöne yani ileriye, artılarda ise gittigi yönün tersine yani geldigi yöne dogru yani geriye gider. "Fallback Offset Vector" inputu da şu işe yarar, eger verdiginiz vektörün yönü ile koninin yönü ("Cone Axis" inputu) birbirinin tam tersi yönler ise, vektörün hangi yönden koniye dogru gidecegi belirlenemez. Dolayısı ile koninin yönünü biraz degiştirmemiz gerekir. "Fallback Offset Vector" inputu bu durumda koninin yönüne ("Cone Axis" inputu) ekleyecegimiz degeri temsil ediyor. Koniyi biraz hareket ettirip, vektör ile koninin yönlerinin zıt olmasına engel oluyoruz.
+
+
+* #### Vector
+Koni üzerine (kenarına) getirilecek vektör.
+
+* #### Fallback Offset Vector
+Eger vektörün yönü ile koninin yönü ("Cone Axis" inputu) birbirinin tam tersi yönler ise, vektörün hangi yönden koniye dogru gidecegi belirlenemez. Böyle bir durum gerçekleşirse buna engel olmak için bu vektörü kullanıyoruz, bu vektör koninin yönüne ("Cone Axis" inputu) eklenir. Böylelikle vektör ile koninin yönlerinin zıt olmasına engel olmuş oluruz.
+
+* #### Cone Axis
+Koninin baktıgı yön, eksen.
+
+* #### Max Angle
+Bu deger 0 - 360 derece arası olmalıdır. Vektör koni ile aynı yöne geldiginde yani koninin ortasına geldiginde, bu inputa verdiginiz deger kadar daha ileri/geri gider. Böylelikle koninin orta noktasından uzaklaşmış olur. Eger deger eksilerde ise gittigi yön ile aynı yöne yani ileriye, artılarda ise gittigi yönün tersine yani geldigi yöne dogru yani geriye gider.
+
+
+
+
+
 ## [Fade Over Time]()
 ## [Find Closest Point on Line Segment]()
 ## [Find Closest Point on Triangle]()
