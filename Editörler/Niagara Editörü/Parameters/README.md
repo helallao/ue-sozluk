@@ -357,6 +357,19 @@ bilmiyorum.
 * #### [Output.CurlNoiseForce.CurlNoiseForce]()
 (Degişken) [Curl Noise Force](../Moduller#curl-noise-force) kullanıldıgı zaman oluşturulur. Her parçacık için, parçacıga [Curl Noise Force](../Moduller#curl-noise-force) efektinin uygulandıgı konumu verir.
 
+* #### [Output.FindClosestPointOnLineSegment.Closest Point on Line Segment]()
+(Degişken) [Find Closest Point on Line Segment](../Moduller#find-closest-point-on-line-segment) kullanıldıgı zaman oluşturulur. Dogru üzerinde verdiginiz noktaya en yakın olan noktayı verir.
+
+* #### [Output.FindClosestPointOnLineSegment.Distance from Point to Line]()
+(Degişken) [Find Closest Point on Line Segment](../Moduller#find-closest-point-on-line-segment) kullanıldıgı zaman oluşturulur. Verdiginiz nokta ile dogru üzerinde verdiginiz noktaya en yakın olan nokta arasındaki mesafeyi verir.
+
+* #### [Output.FindClosestPointOnLineSegment.Normalized Vector from Point to Line]()
+(Degişken) [Find Closest Point on Line Segment](../Moduller#find-closest-point-on-line-segment) kullanıldıgı zaman oluşturulur. [Output.FindClosestPointOnLineSegment.Vector from Point to Line](#outputfindclosestpointonlinesegmentvector-from-point-to-line) degerinin normalize edilmiş hali, normalized oldugu için yön degeri görevi görüyor yani bu deger dogru üzerinde seçilen noktanın (dogru üzerinde verdiginiz noktaya en yakın olan noktanın), verdiginiz noktaya ulaşması için gidecegi yön degeridir.
+
+* #### [Output.FindClosestPointOnLineSegment.Vector from Point to Line]()
+(Degişken) [Find Closest Point on Line Segment](../Moduller#find-closest-point-on-line-segment) kullanıldıgı zaman oluşturulur. Dogru üzerinde verdiginiz noktaya en yakın olan noktanın, verdiginiz noktaya ulaşmak için gitmesi gereken vektördür, yani bu vektörü dogru üzerinde verdiginiz noktaya en yakın olan noktanın konumuna eklerseniz, verdiginiz noktaya ulaşırsınız. Bu vektör dogru üzerinde seçilen noktanın (dogru üzerinde verdiginiz noktaya en yakın olan noktanın), verdiginiz noktaya gitmesi için gitmesi gereken yolu belirtir.
+
+
 * #### [Output.GridLocation.GridCellCoordinate]()
 (Sabit) [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıgın grid üzerindeki koordinatını verir. Mesela X ekseninde 3. sırada Y ve Z ekseninde 1. sırada, o zaman (2, 1, 1) şeklinde vektör degeri tutar (koordinatlar 0'dan başlar, yani ilk sıra 0).
 
