@@ -2116,6 +2116,28 @@ Modülün hesaplamaları yapabilmesi için gerekli olan DeltaTime degeri. Defaul
 
 
 ## [Find Closest Point on Line Segment]()
+
+([System Spawn](../Graph#system-spawn), [System Update](../Graph#system-update), [Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update), [Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül sizden bir nokta ve bir çizgi/dogru (line) alır. Bunları kullanarak dogru üzerinde bizim verdigimiz noktaya en yakın olan noktanın konumunu, dogru ile noktamız arasındaki mesafeyi verir ve dogru üzerinde bizim verdigimiz noktaya en yakın olan noktanın verdigimiz noktaya ulaşmak için gidecegi yol ve yön bilgisini verir. Modül oluşturdugu degerleri [Output.FindClosestPointOnLineSegment.Closest Point on Line Segment](../Parameters#outputfindclosestpointonlinesegmentclosest-point-on-line-segment), [Output.FindClosestPointOnLineSegment.Distance from Point to Line](../Parameters#outputfindclosestpointonlinesegmentdistance-from-point-to-line), [Output.FindClosestPointOnLineSegment.Normalized Vector from Point to Line](../Parameters#outputfindclosestpointonlinesegmentnormalized-vector-from-point-to-line) ve [Output.FindClosestPointOnLineSegment.Vector from Point to Line](../Parameters#outputfindclosestpointonlinesegmentvector-from-point-to-line) parametrelerine kaydeder.
+
+
+* #### Sample Position
+Noktanın konumu.
+
+* #### Line Segment Start
+Dogrunun başlangıç noktası.
+
+* #### Line Segment End
+Dogrunun bitiş noktası.
+
+* #### Line Segment Input Space
+Dogrunun [Coordinate Space'i](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+* #### Calculate Line As Segment
+Eger bu ayar açıksa dogrunuzun başlangıç ve bitiş noktalarının önemi kalmaz, dogrunuzun oldugu eksen kullanılır. Yani dogrunuz sanki sonsuzmuş gibi düşünülür ve verdiginiz nokta bu eksende noktaya en yakın olan konuma gider.
+
+
+
+
 ## [Find Closest Point on Triangle]()
 ## [Interpolate Over Time]()
 ## [Lerp Particle Attributes]()
