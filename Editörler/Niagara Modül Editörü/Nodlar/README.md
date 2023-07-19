@@ -307,36 +307,36 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Cone Constraint]()
-[Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülü tarafından kullanılır. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
+[Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülü tarafından kullanılır. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
 
 
 İnput | İşlem
 :---: | :---:
-Cone Axis | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Cone Axis](../Moduller#cone-axis-2) inputu.
-Proposed Vector | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Vector](../Moduller#vector) inputu.
-Max Angle | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Max Angle](../Moduller#max-angle) inputu.
-Fallback Offset Vector | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün [Fallback Offset Vector](../Moduller#fallback-offset-vector) inputu.
+Cone Axis | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün [Cone Axis](../../Niagara%20Editörü/Moduller#cone-axis-2) inputu.
+Proposed Vector | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün [Vector](../../Niagara%20Editörü/Moduller#vector) inputu.
+Max Angle | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün [Max Angle](../../Niagara%20Editörü/Moduller#max-angle) inputu.
+Fallback Offset Vector | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün [Fallback Offset Vector](../../Niagara%20Editörü/Moduller#fallback-offset-vector) inputu.
 
 Output | İçerik
 :---: | :---:
-Output Vector | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.Vector](../Parameters#outputconstrainvectortoconevector) parametresindeki deger.
-Invalid Input Vectors | [Constrain Vector to Cone](../Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.InvalidVectors](../Parameters#outputconstrainvectortoconeinvalidvectors) parametresindeki deger.
+Output Vector | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.Vector](../Parameters#outputconstrainvectortoconevector) parametresindeki deger.
+Invalid Input Vectors | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.InvalidVectors](../Parameters#outputconstrainvectortoconeinvalidvectors) parametresindeki deger.
 
 
 
 * #### [Cone Mask]()
-[Cone Mask](../Moduller#cone-mask) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
+[Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
 
 
 İnput | İşlem
 :---: | :---:
-Cone Axis | [Cone Mask](../Moduller#cone-mask) modülünün [Cone Axis](../Moduller#cone-axis-1) inputu.
-Cone Angle | [Cone Mask](../Moduller#cone-mask) modülünün [Inner Cone Angle](../Moduller#inner-cone-angle) inputu.
-Falloff Angle | [Cone Mask](../Moduller#cone-mask) modülünün [Outer Cone Angle](../Moduller#outer-cone-angle) inputu.
-Radius | [Cone Mask](../Moduller#cone-mask) modülünün [Radius](../Moduller#radius-1) inputu.
-Radial Falloff | [Cone Mask](../Moduller#cone-mask) modülünün [Radial Falloff](../Moduller#radial-falloff) inputu.
-Sample Position | [Cone Mask](../Moduller#cone-mask) modülünün [Sample Position](../Moduller#sample-position-1) inputu.
-Cone Origin | [Cone Mask](../Moduller#cone-mask) modülünün [Cone Apex](../Moduller#cone-apex) inputu.
+Cone Axis | [Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülünün [Cone Axis](../../Niagara%20Editörü/Moduller#cone-axis-1) inputu.
+Cone Angle | [Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülünün [Inner Cone Angle](../../Niagara%20Editörü/Moduller#inner-cone-angle) inputu.
+Falloff Angle | [Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülünün [Outer Cone Angle](../../Niagara%20Editörü/Moduller#outer-cone-angle) inputu.
+Radius | [Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülünün [Radius](../../Niagara%20Editörü/Moduller#radius-1) inputu.
+Radial Falloff | [Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülünün [Radial Falloff](../../Niagara%20Editörü/Moduller#radial-falloff) inputu.
+Sample Position | [Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülünün [Sample Position](../../Niagara%20Editörü/Moduller#sample-position-1) inputu.
+Cone Origin | [Cone Mask](../../Niagara%20Editörü/Moduller#cone-mask) modülünün [Cone Apex](../../Niagara%20Editörü/Moduller#cone-apex) inputu.
 Use Radial Falloff | "Radial Falloff" kullanılıp kullanılmayacagını belirler.
 
 Output | İçerik
@@ -444,17 +444,17 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Find Closest Point on Line]()
-[Point to Line Segment Distance](#point-to-line-segment-distance) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur. [Find Closest Point on Line Segment](../Moduller#find-closest-point-on-line-segment) modülü tarafından kullanılır. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
+[Point to Line Segment Distance](#point-to-line-segment-distance) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur. [Find Closest Point on Line Segment](../../Niagara%20Editörü/Moduller#find-closest-point-on-line-segment) modülü tarafından kullanılır. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
 
 
 İnput | İşlem
 :---: | :---:
 Parameter Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz.
-Point | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Sample Position](../Moduller#sample-position-2) inputu.
-Line Segment Start | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment Start](../Moduller#line-segment-start) inputu.
-Line Segment End | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment End](../Moduller#line-segment-end) inputu.
-Line Segment Input Space | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment Input Space](../Moduller#line-segment-input-space) inputu.
-Calculate Line As Segment | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Calculate Line As Segment](../Moduller#calculate-line-as-segment) inputu.
+Point | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Sample Position](../../Niagara%20Editörü/Moduller#sample-position-2) inputu.
+Line Segment Start | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment Start](../../Niagara%20Editörü/Moduller#line-segment-start) inputu.
+Line Segment End | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment End](../../Niagara%20Editörü/Moduller#line-segment-end) inputu.
+Line Segment Input Space | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment Input Space](../../Niagara%20Editörü/Moduller#line-segment-input-space) inputu.
+Calculate Line As Segment | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Calculate Line As Segment](../../Niagara%20Editörü/Moduller#calculate-line-as-segment) inputu.
 
 Output | İçerik
 :---: | :---:
@@ -740,7 +740,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Maintain in Camera Particle Scale]()
-[Maintain in Camera Particle Scale](../Moduller#maintain-in-camera-particle-scale) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Fonksiyonun yaptıgı matematik işlemlerinin tam olarak anlamlarını bilmiyorum yani formülleri bilmiyorum. Zaten kısa, isterseniz kendiniz de bakabilirsiniz.
+[Maintain in Camera Particle Scale](../../Niagara%20Editörü/Moduller#maintain-in-camera-particle-scale) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Fonksiyonun yaptıgı matematik işlemlerinin tam olarak anlamlarını bilmiyorum yani formülleri bilmiyorum. Zaten kısa, isterseniz kendiniz de bakabilirsiniz.
 
 
 İnput | İşlem
@@ -1126,7 +1126,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Spring Force]()
-[Spring Force](../Moduller#spring-force) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Fonksiyonun yaptıgı matematik işlemlerinin tam olarak anlamlarını bilmiyorum yani formülleri bilmiyorum. Zaten kısa, isterseniz kendiniz de bakabilirsiniz.
+[Spring Force](../../Niagara%20Editörü/Moduller#spring-force) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. Fonksiyonun yaptıgı matematik işlemlerinin tam olarak anlamlarını bilmiyorum yani formülleri bilmiyorum. Zaten kısa, isterseniz kendiniz de bakabilirsiniz.
 
 
 İnput | İşlem
