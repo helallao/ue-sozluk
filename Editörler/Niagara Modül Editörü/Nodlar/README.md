@@ -444,7 +444,26 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Find Closest Point on Line]()
-bilmiyorum.
+[Point to Line Segment Distance](#point-to-line-segment-distance) fonksiyonunun gelişmiş ve güncel olarak kullanılan versiyonudur. [Find Closest Point on Line Segment](../Moduller#find-closest-point-on-line-segment) modülü tarafından kullanılır. Yaptıgı bütün işlemler aynıdır, gerekli olan bütün açıklamalara oradan ulaşabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Parameter Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz.
+Point | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Sample Position](../Moduller#sample-position-2) inputu.
+Line Segment Start | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment Start](../Moduller#line-segment-start) inputu.
+Line Segment End | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment End](../Moduller#line-segment-end) inputu.
+Line Segment Input Space | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Line Segment Input Space](../Moduller#line-segment-input-space) inputu.
+Calculate Line As Segment | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün [Calculate Line As Segment](../Moduller#calculate-line-as-segment) inputu.
+
+Output | İçerik
+:---: | :---:
+Vector from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Vector from Point to Line](../Parameters#outputfindclosestpointonlinesegmentvector-from-point-to-line) parametresindeki deger.
+Normalized Vector from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Normalized Vector from Point to Line](../Parameters#outputfindclosestpointonlinesegmentnormalized-vector-from-point-to-line) parametresindeki deger.
+Closest Point on Line Segment | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Closest Point on Line Segment](../Parameters#outputfindclosestpointonlinesegmentclosest-point-on-line-segment) parametresindeki deger.
+Distance from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Distance from Point to Line](../Parameters#outputfindclosestpointonlinesegmentdistance-from-point-to-line) parametresindeki deger.
+
+
 
 * #### [Find Grid Location Ribbon ID]()
 bilmiyorum.
