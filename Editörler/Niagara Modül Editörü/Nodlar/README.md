@@ -319,8 +319,8 @@ Fallback Offset Vector | [Constrain Vector to Cone](../../Niagara%20Editörü/Mo
 
 Output | İçerik
 :---: | :---:
-Output Vector | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.Vector](../Parameters#outputconstrainvectortoconevector) parametresindeki deger.
-Invalid Input Vectors | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.InvalidVectors](../Parameters#outputconstrainvectortoconeinvalidvectors) parametresindeki deger.
+Output Vector | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.Vector](../../Niagara%20Editörü/Parameters#outputconstrainvectortoconevector) parametresindeki deger.
+Invalid Input Vectors | [Constrain Vector to Cone](../../Niagara%20Editörü/Moduller#constrain-vector-to-cone) modülünün oluşturdugu [Output.ConstrainVectorToCone.InvalidVectors](../../Niagara%20Editörü/Parameters#outputconstrainvectortoconeinvalidvectors) parametresindeki deger.
 
 
 
@@ -458,10 +458,10 @@ Calculate Line As Segment | [Point to Line Segment Distance](#point-to-line-segm
 
 Output | İçerik
 :---: | :---:
-Vector from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Vector from Point to Line](../Parameters#outputfindclosestpointonlinesegmentvector-from-point-to-line) parametresindeki deger.
-Normalized Vector from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Normalized Vector from Point to Line](../Parameters#outputfindclosestpointonlinesegmentnormalized-vector-from-point-to-line) parametresindeki deger.
-Closest Point on Line Segment | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Closest Point on Line Segment](../Parameters#outputfindclosestpointonlinesegmentclosest-point-on-line-segment) parametresindeki deger.
-Distance from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Distance from Point to Line](../Parameters#outputfindclosestpointonlinesegmentdistance-from-point-to-line) parametresindeki deger.
+Vector from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Vector from Point to Line](../../Niagara%20Editörü/Parameters#outputfindclosestpointonlinesegmentvector-from-point-to-line) parametresindeki deger.
+Normalized Vector from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Normalized Vector from Point to Line](../../Niagara%20Editörü/Parameters#outputfindclosestpointonlinesegmentnormalized-vector-from-point-to-line) parametresindeki deger.
+Closest Point on Line Segment | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Closest Point on Line Segment](../../Niagara%20Editörü/Parameters#outputfindclosestpointonlinesegmentclosest-point-on-line-segment) parametresindeki deger.
+Distance from Point to Line | [Point to Line Segment Distance](#point-to-line-segment-distance) modülünün oluşturdugu [Output.FindClosestPointOnLineSegment.Distance from Point to Line](../../Niagara%20Editörü/Parameters#outputfindclosestpointonlinesegmentdistance-from-point-to-line) parametresindeki deger.
 
 
 
