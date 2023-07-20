@@ -873,7 +873,20 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Point Plane Distance]()
-bilmiyorum.
+Bu fonksiyon sizden bir nokta alır. Bir yüzey, plaka yani 2d bir yüzey oluşturmak için de yüzyin orta noktasını ve yüzeyin yönünü alır. Bu yüzey sanki sonsuzmuş gibi düşünülür. Sonra fonksiyon verdiginiz nokta ile bu yüzeyin arasındaki mesafeyi bulur. Yani fonksiyon sizden bir nokta ve yüzey oluşturmak için orta nokta ve yön degeri alır (plane normal). Sonra da verdiginiz nokta ile bu yüzeyin noktaya en yakın noktası ile arasındaki mesafe degerini verir.
+
+
+İnput | İşlem
+:---: | :---:
+Input Position | Noktanın konumu.
+Plane Position | Yüzeyin orta noktasının konumu.
+Plane Normal | Yüzeyin yön degeri, yani dönük oldugu yön.
+
+Output | İçerik
+:---: | :---:
+Output | Mesafe degeri.
+
+
 
 * #### [Point to Line Segment Distance]()
 (Bu fonksiyon gizli bir fonksiyondur, [bkz](#yazım-şekli)) Bu fonksiyon sizden bir nokta ve bir çizgi/dogru (line) alır. Bunları kullanarak noktanın dogruya ulaşmak için gidecegi yol ve yön bilgisini, ayrıca dogru üzerinde bizim verdigimiz noktaya en yakın olan noktanın konumunu ve dogru ile noktamız arasındaki mesafeyi verir.
