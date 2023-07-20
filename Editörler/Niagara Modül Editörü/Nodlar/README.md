@@ -884,7 +884,7 @@ Plane Normal | Yüzeyin yön degeri, yani dönük oldugu yön.
 
 Output | İçerik
 :---: | :---:
-Output | Mesafe degeri.
+Output | "Input Position" inputuna verdiginiz konuma, bu yüzey üzerindeki en yakın olan noktanın mesafe, uzaklık degeri.
 
 
 
@@ -916,7 +916,20 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Project Position on Plane]()
-bilmiyorum.
+Bu fonksiyon sizden bir nokta alır. Bir yüzey, plaka yani 2d bir yüzey oluşturmak için de yüzyin orta noktasını ve yüzeyin yönünü alır. Bu yüzey sanki sonsuzmuş gibi düşünülür. Sonra fonksiyon verdiginiz noktaya, bu yüzey üzerindeki en yakın olan noktanın konumunu verir.
+
+
+İnput | İşlem
+:---: | :---:
+Position | Noktanın konumu.
+Plane Position | Yüzeyin orta noktasının konumu.
+Plane Normal | Yüzeyin yön degeri, yani dönük oldugu yön.
+
+Output | İçerik
+:---: | :---:
+Projected Position | "Position" inputuna verdiginiz konuma, bu yüzey üzerindeki en yakın olan noktanın konumunu.
+
+
 
 * #### [Project Vector on Plane]()
 bilmiyorum.
