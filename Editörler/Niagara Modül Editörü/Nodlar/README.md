@@ -487,7 +487,23 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Find Plane Normal]()
-bilmiyorum.
+Bu fonksiyon sizden 3 tane nokta alır, bu üç nokta 3 boyutlu uzayda düz bir üçgeni (üçgenin kendisi 2d, yani düz) temsil eden üç noktadır. Sonra fonksiyon size üçgenin orta noktasını, verdiginiz noktaların uygun olup olmadıgını ve üçgenin baktıgı yön vektörünü verir.
+
+
+İnput | İşlem
+:---: | :---:
+Plane Point 1 | Üçgenin 1. noktası
+Plane Point 2 | Üçgenin 2. noktası
+Plane Point 3 | Üçgenin 3. noktası
+
+Output | İçerik
+:---: | :---:
+PlaneNormal | Üçgenin baktıgı yön.
+ValidPlane | Eger üçgenin noktalarından 2 tanesi birbirine eşit ve ya işlem yapılamayacak kadar küçükse, bu deger True döndürür. Yani noktaların uygun olup olmadıgını gösterir.
+UnnormalizedNormal | Üçgenin baktıgı yön degerinin (PlaneNormal) normalize edilmemiş halidir. Yani verdigi vektör yine üçgenin baktıgı yönde bir vektördür, vektörün uzunlugu (magnitude) üçgenin büyüklügüne göre degişir.
+TriangleCenter | Üçgenin orta noktası.
+
+
 
 * #### [Find Position on Bezier Spline]()
 bilmiyorum.
