@@ -916,7 +916,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Project Position on Plane]()
-Bu fonksiyon sizden bir nokta alır. Bir yüzey, plaka yani 2d bir yüzey oluşturmak için de yüzyin orta noktasını ve yüzeyin yönünü alır. Bu yüzey sanki sonsuzmuş gibi düşünülür. Sonra fonksiyon verdiginiz noktaya, bu yüzey üzerindeki en yakın olan noktanın konumunu verir.
+Bu fonksiyon sizden bir nokta alır. Bir yüzey, plaka yani 2d bir yüzey oluşturmak için de yüzyin orta noktasını ve yüzeyin yönünü alır. Bu yüzey sanki sonsuzmuş gibi düşünülür. Sonra fonksiyon verdiginiz noktaya, bu yüzey üzerindeki en yakın olan noktanın konumunu verir. Gerçekleşen işlemi görsel olarak görmek isterseniz [bu video](https://www.youtube.com/watch?v=r5VCChxnLnQ) bakabilirsiniz ve ya google'da "point projection to plane" diye aratabilirsiniz.
 
 
 İnput | İşlem
