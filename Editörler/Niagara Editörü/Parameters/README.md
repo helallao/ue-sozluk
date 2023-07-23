@@ -205,6 +205,18 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.Color]()
 (Durumsal) Parçacıgın renk degeri.
 
+* #### [Particles.DebugTriangleNormal_DynamicParameter4]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. "Write Out Debug Parameters" ayarı açıkken vardır. Üçgenin baktıgı yönü verir.
+
+* #### [Particles.DebugTrianglePos_DynamicParameter1]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. "Write Out Debug Parameters" ayarı açıkken vardır. Üçgenin 1. noktasının (köşesinin) konumunu verir.
+
+* #### [Particles.DebugTrianglePos_DynamicParameter2]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. "Write Out Debug Parameters" ayarı açıkken vardır. Üçgenin 2. noktasının (köşesinin) konumunu verir.
+
+* #### [Particles.DebugTrianglePos_DynamicParameter3]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. "Write Out Debug Parameters" ayarı açıkken vardır. Üçgenin 3. noktasının (köşesinin) konumunu verir.
+
 * #### [Particles.DynamicMaterialParameter]()
 (Durumsal) [Dynamic Material Parameters](../Moduller#dynamic-material-parameters) kullanıldıgı zaman oluşturulur (manuel olarak da oluşturabilirsiniz). Materyal üzerindeki [DynamicParameter](../../Materyal%20Editörü/Nodlar#dynamicparameter) nodunun 0. index için verecegi degeri bu parametre belirler.
 
@@ -219,6 +231,15 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 
 * #### [Particles.FadeOverTime.CurrentValue]()
 (Degişken) [Fade Over Time](../Moduller#fade-over-time) tarafından oluşturulur. Hesaplanan deger bu parametreye kaydedilir.
+
+* #### [Particles.FindClosestPointOnTriangle.ClosestPointIsOnTriangleSurface]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. "Write to Particle Parameters" ayarı açıkken vardır. [Output.FindClosestPointOnTriangle.ClosestPointIsOnTriangleSurface](#outputfindclosestpointontriangleclosestpointisontrianglesurface) parametresiyle aynıdır.
+
+* #### [Particles.FindClosestPointOnTriangle.ClosestPointToTriangle]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. "Write to Particle Parameters" ayarı açıkken vardır. [Output.FindClosestPointOnTriangle.ClosestPointToTriangle](#outputfindclosestpointontriangleclosestpointtotriangle) parametresiyle aynıdır.
+
+* #### [Particles.FindClosestPointOnTriangle.DistanceToClosestPointOnTriangle]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. "Write to Particle Parameters" ayarı açıkken vardır. [Output.FindClosestPointOnTriangle.DistanceToClosestPointOnTriangle](#outputfindclosestpointontriangledistancetoclosestpointontriangle) parametresiyle aynıdır.
 
 * #### [Particles.FrameCounter.Counter]()
 (Degişken) [Frame Counter](../Moduller#frame-counter) tarafından oluşturulur. Toplamda sayılan frame sayısını verir.
@@ -369,6 +390,14 @@ bilmiyorum.
 * #### [Output.FindClosestPointOnLineSegment.Vector from Point to Line]()
 (Degişken) [Find Closest Point on Line Segment](../Moduller#find-closest-point-on-line-segment) kullanıldıgı zaman oluşturulur. Dogru üzerinde verdiginiz noktaya en yakın olan noktanın, verdiginiz noktaya ulaşmak için gitmesi gereken vektördür, yani bu vektörü dogru üzerinde verdiginiz noktaya en yakın olan noktanın konumuna eklerseniz, verdiginiz noktaya ulaşırsınız. Bu vektör dogru üzerinde seçilen noktanın (dogru üzerinde verdiginiz noktaya en yakın olan noktanın), verdiginiz noktaya gitmesi için gitmesi gereken yolu belirtir.
 
+* #### [Output.FindClosestPointOnTriangle.ClosestPointIsOnTriangleSurface]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. Yansıtılan nokta üçgen yüzey üzerinde ise True, degilse False.
+
+* #### [Output.FindClosestPointOnTriangle.ClosestPointToTriangle]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. Üçgen yüzey üzerine yansıtılan nokta, eger verdigimiz nokta yansıtıldıgında üçgen yüzey üzerine gelmiyorsa her kenar karşılaştırılır ve en yakın kenar üzerindeki verdigimiz noktaya en yakın noktanın konumu kullanılır. Yani bu parametre kenarlar da dahil olmak üzere üçgen üzerindeki en yakın noktayı verir.
+
+* #### [Output.FindClosestPointOnTriangle.DistanceToClosestPointOnTriangle]()
+(Degişken) [Find Closest Point on Triangle](../Moduller#find-closest-point-on-triangle) kullanıldıgı zaman oluşturulur. Üçgenin verdigimiz noktaya en yakın olan noktası ile aralarındaki fark.
 
 * #### [Output.GridLocation.GridCellCoordinate]()
 (Sabit) [Grid Location](../Moduller#grid-location) kullanıldıgı zaman oluşturulur. Parçacıgın grid üzerindeki koordinatını verir. Mesela X ekseninde 3. sırada Y ve Z ekseninde 1. sırada, o zaman (2, 1, 1) şeklinde vektör degeri tutar (koordinatlar 0'dan başlar, yani ilk sıra 0).
