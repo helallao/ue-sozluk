@@ -2139,6 +2139,39 @@ Eger bu ayar açıksa dogrunuzun başlangıç ve bitiş noktalarının önemi ka
 
 
 ## [Find Closest Point on Triangle]()
+
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül sizden üç nokta alır, bu üç nokta 3 boyutlu uzayda düz bir üçgeni (üçgenin kendisi 2d, yani düz) temsil eden üç noktadır. Sonra modül "Query Position" inputuna verdiginiz noktayı bu üçgen yüzeye yansıtır. Sonra yansıtılan noktanın üçgen üzerinde olup olmadıgı, yansıtılan noktanın konumu ve noktanın yansıtılmış hali ile yansıtılmamış hali arasındaki mesafe [Output.FindClosestPointOnTriangle.ClosestPointIsOnTriangleSurface](../Parameters#outputfindclosestpointontriangleclosestpointisontrianglesurface), [Output.FindClosestPointOnTriangle.ClosestPointToTriangle](../Parameters#outputfindclosestpointontriangleclosestpointtotriangle) ve [Output.FindClosestPointOnTriangle.DistanceToClosestPointOnTriangle](../Parameters#outputfindclosestpointontriangledistancetoclosestpointontriangle) parametrelerine kaydedilir.
+
+
+Particles.FindClosestPointOnTriangle.ClosestPointIsOnTriangleSurface | Output.FindClosestPointOnTriangle.ClosestPointIsOnTriangleSurface ile aynıdır.
+Particles.FindClosestPointOnTriangle.ClosestPointToTriangle | Output.FindClosestPointOnTriangle.ClosestPointToTriangle ile aynıdır.
+Particles.FindClosestPointOnTriangle.DistanceToClosestPointOnTriangle | Output.FindClosestPointOnTriangle.DistanceToClosestPointOnTriangle ile aynıdır.
+
+
+* #### Write to Particle Parameters
+Normalde modül sadece "Output" kategorisine parametre kaydeder. Eger "Particles" kategorisine de kaydetmesini istiyorsanız bu ayarı açabilirsiniz. Bu ayarı açtıgınızda [Particles.FindClosestPointOnTriangle.ClosestPointIsOnTriangleSurface](../Parameters#particlesfindclosestpointontriangleclosestpointisontrianglesurface), [Particles.FindClosestPointOnTriangle.ClosestPointToTriangle](../Parameters#particlesfindclosestpointontriangleclosestpointtotriangle) ve [Particles.FindClosestPointOnTriangle.DistanceToClosestPointOnTriangle](../Parameters#particlesfindclosestpointontriangledistancetoclosestpointontriangle) parametreleri oluşturulur.
+
+* #### Query Position
+Yansıtılacak noktanın konumu.
+
+* #### Write Out Debug Parameters
+E
+
+* #### Coordinate Space
+Üçgenin (yani vertexlerin, köşe noktalarının) [Coordinate Space'i](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+* #### Triangle Vertex 1
+Üçgenin 1. noktası (köşesi)
+
+* #### Triangle Vertex 2
+Üçgenin 2. noktası (köşesi)
+
+* #### Triangle Vertex 3
+Üçgenin 3. noktası (köşesi)
+
+
+
+
 ## [Interpolate Over Time]()
 ## [Lerp Particle Attributes]()
 
