@@ -2155,7 +2155,7 @@ Normalde modül sadece "Output" kategorisine parametre kaydeder. Eger "Particles
 Yansıtılacak noktanın konumu.
 
 * #### Write Out Debug Parameters
-E
+Bu ayarı açtıgınızda, üçgenin 3 noktasının (köşesinin) ve üçgenin baktıgı yönün degerleri parametrelere kaydedilir. Bu parametreler [Particles.DebugTrianglePos_DynamicParameter1](../Parameters#particlesdebugtrianglepos_dynamicparameter1), [Particles.DebugTrianglePos_DynamicParameter2](../Parameters#particlesdebugtrianglepos_dynamicparameter2), [Particles.DebugTrianglePos_DynamicParameter3](../Parameters#particlesdebugtrianglepos_dynamicparameter3) ve [Particles.DebugTriangleNormal_DynamicParameter4](../Parameters#particlesdebugtrianglenormal_dynamicparameter4) parametreleridir.
 
 * #### Coordinate Space
 Üçgenin (yani vertexlerin, köşe noktalarının) [Coordinate Space'i](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
