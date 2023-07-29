@@ -607,22 +607,124 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Interpolate Over Time Float]()
-bilmiyorum.
+[Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. [Variable Type](../../Niagara%20Editörü/Moduller#variable-type) inputu "Float" modundayken bu fonksiyon çagırılır. Aldıgı inputlar [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülündeki inputlar ile aynıdır. Fonksiyon otomatikmen hedef degere yaklaştırılmış yeni degeri parametreye kaydeder. Bu parametre fonksiyon içinden kaydedildigi için fonksiyonun ismi de parametreye eklenir, mesela bu fonksiyon için oluşturulan parametre [StackContext.InterpolateOverTime_Float.Moving Average](../../Niagara%20Editörü/Parameters#stackcontextinterpolateovertime_floatmoving-average) dir. "_Float" kısmı fonksiyondan dolayı vardır.
+
+
+İnput | İşlem
+:---: | :---:
+Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+Rate Of Change | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+FirstFrame | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Delta Time | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Target Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Initial Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+
+Output | İçerik
+:---: | :---:
+Map | Output [ParameterMap'i](../Terimler%20Sözlügü#parametermap)
+Moving Average | Hedef degere yaklaştırılmış yeni deger.
+
+
 
 * #### [Interpolate Over Time Linear Color]()
-bilmiyorum.
+[Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. [Variable Type](../../Niagara%20Editörü/Moduller#variable-type) inputu "Linear Color" modundayken bu fonksiyon çagırılır. Aldıgı inputlar [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülündeki inputlar ile aynıdır. Fonksiyon otomatikmen hedef degere yaklaştırılmış yeni degeri parametreye kaydeder. Bu parametre fonksiyon içinden kaydedildigi için fonksiyonun ismi de parametreye eklenir, mesela bu fonksiyon için oluşturulan parametre [StackContext.InterpolateOverTime_LinearColor.Moving Average](../../Niagara%20Editörü/Parameters#stackcontextinterpolateovertime_linearcolormoving-average) dir. "_LinearColor" kısmı fonksiyondan dolayı vardır.
+
+
+İnput | İşlem
+:---: | :---:
+Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+Rate Of Change | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+FirstFrame | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Delta Time | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Target Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Initial Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+
+Output | İçerik
+:---: | :---:
+Map | Output [ParameterMap'i](../Terimler%20Sözlügü#parametermap)
+Moving Average | Hedef degere yaklaştırılmış yeni deger.
+
+
 
 * #### [Interpolate Over Time Quaternion]()
-bilmiyorum.
+[Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. [Variable Type](../../Niagara%20Editörü/Moduller#variable-type) inputu "Quaternion" modundayken bu fonksiyon çagırılır. Aldıgı inputlar [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülündeki inputlar ile aynıdır. Fonksiyon otomatikmen hedef degere yaklaştırılmış yeni degeri parametreye kaydeder. Bu parametre fonksiyon içinden kaydedildigi için fonksiyonun ismi de parametreye eklenir, mesela bu fonksiyon için oluşturulan parametre [StackContext.InterpolateOverTime_Quaternion.Moving Average](../../Niagara%20Editörü/Parameters#stackcontextinterpolateovertime_quaternionmoving-average) dir. "_Quaternion" kısmı fonksiyondan dolayı vardır.
+
+
+İnput | İşlem
+:---: | :---:
+Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+Rate Of Change | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+FirstFrame | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Delta Time | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Target Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Initial Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+
+Output | İçerik
+:---: | :---:
+Map | Output [ParameterMap'i](../Terimler%20Sözlügü#parametermap)
+Moving Average | Hedef degere yaklaştırılmış yeni deger.
+
+
 
 * #### [Interpolate Over Time V2]()
-bilmiyorum.
+[Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. [Variable Type](../../Niagara%20Editörü/Moduller#variable-type) inputu "Vector 2D" modundayken bu fonksiyon çagırılır. Aldıgı inputlar [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülündeki inputlar ile aynıdır. Fonksiyon otomatikmen hedef degere yaklaştırılmış yeni degeri parametreye kaydeder. Bu parametre fonksiyon içinden kaydedildigi için fonksiyonun ismi de parametreye eklenir, mesela bu fonksiyon için oluşturulan parametre [StackContext.InterpolateOverTime_V2.Moving Average](../../Niagara%20Editörü/Parameters#stackcontextinterpolateovertime_v2moving-average) dir. "_V2" kısmı fonksiyondan dolayı vardır.
+
+
+İnput | İşlem
+:---: | :---:
+Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+Rate Of Change | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+FirstFrame | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Target ValueV2 | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Initial Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Delta Time | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+
+Output | İçerik
+:---: | :---:
+Map | Output [ParameterMap'i](../Terimler%20Sözlügü#parametermap)
+Moving Average | Hedef degere yaklaştırılmış yeni deger.
+
+
 
 * #### [Interpolate Over Time V3]()
-bilmiyorum.
+[Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. [Variable Type](../../Niagara%20Editörü/Moduller#variable-type) inputu "Vector 3D" modundayken bu fonksiyon çagırılır. Aldıgı inputlar [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülündeki inputlar ile aynıdır. Fonksiyon otomatikmen hedef degere yaklaştırılmış yeni degeri parametreye kaydeder. Bu parametre fonksiyon içinden kaydedildigi için fonksiyonun ismi de parametreye eklenir, mesela bu fonksiyon için oluşturulan parametre [StackContext.InterpolateOverTime_V3.Moving Average](../../Niagara%20Editörü/Parameters#stackcontextinterpolateovertime_v2moving-average) dir. "_V3" kısmı fonksiyondan dolayı vardır.
+
+
+İnput | İşlem
+:---: | :---:
+Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+Rate Of Change | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+FirstFrame | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Delta Time | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Initial Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Target Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+
+Output | İçerik
+:---: | :---:
+Map | Output [ParameterMap'i](../Terimler%20Sözlügü#parametermap)
+Moving Average | Hedef degere yaklaştırılmış yeni deger.
+
+
 
 * #### [Interpolate Over Time V4]()
-bilmiyorum.
+[Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülü tarafından kullanılır, daha dogrusu o modül için yapılmış bir fonksiyondur. [Variable Type](../../Niagara%20Editörü/Moduller#variable-type) inputu "Vector 4D" modundayken bu fonksiyon çagırılır. Aldıgı inputlar [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülündeki inputlar ile aynıdır. Fonksiyon otomatikmen hedef degere yaklaştırılmış yeni degeri parametreye kaydeder. Bu parametre fonksiyon içinden kaydedildigi için fonksiyonun ismi de parametreye eklenir, mesela bu fonksiyon için oluşturulan parametre [StackContext.InterpolateOverTime_V4.Moving Average](../../Niagara%20Editörü/Parameters#stackcontextinterpolateovertime_v2moving-average) dir. "_V4" kısmı fonksiyondan dolayı vardır.
+
+
+İnput | İşlem
+:---: | :---:
+Map | Fonksiyonun işlemleri gerçekleştirmesi için simulasyon bilgilerine ihtiyacı var, [ParameterMap](../Terimler%20Sözlügü#parametermap) vermelisiniz
+Rate Of Change | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Target ValueV4 | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+FirstFrame | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Initial Value | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+Delta Time | [Interpolate Over Time](../../Niagara%20Editörü/Moduller#interpolate-over-time) modülüne bakın.
+
+Output | İçerik
+:---: | :---:
+Map | Output [ParameterMap'i](../Terimler%20Sözlügü#parametermap)
+Moving Average | Hedef degere yaklaştırılmış yeni deger.
+
+
 
 * #### [Invert Quaternion]()
 bilmiyorum.
