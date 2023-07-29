@@ -2720,6 +2720,44 @@ Renderer öncelik numarası, numaraı büyük olan renderer, motor tarafından e
 ## [Scale Mesh Size]()
 ## [Scale Mesh Size by Speed]()
 ## [Scale Sprite Size]()
+
+([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan materyalin (bkz. [Sprite Renderer](#sprite-renderer)) boyutunu ayarlar, yani [Particles.SpriteSize](../Parameters#particlesspritesize) parametresinin degerini ayarlar.
+
+* #### Scale Sprite Size Mode
+4 farklı mod vardır. Uniform, Non-Uniform ve bu ikisinin Curve hali. Uniform modunda X ve Y eksenleri için verdiginiz tek bir deger kullanılır yani kare şeklinde boyut degerini ayarlarsınız. Non-Uniform modunda ise X ve Y eksenlerindeki boyut degerlerini ayarlayabilirsiniz. Bunların Curve halleri de, degerleri Curve aracılıgı ile ayarlamanıza yarar.
+
+* #### Initial Sprite Size
+Sprite'ın başlangıçtaki boyut degeri, yani Initialize Particle'ın [Sprite Size](#sprite-size) degerini kullanır da denebilir.
+
+* #### Uniform Scale Factor
+Sadece "Scale Sprite Size Mode" "Uniform" modundayken vardır. Boyut degeri, bu deger X ve Y eksenleri için kullanılır.
+
+* #### Uniform Curve Sprite Scale
+Sadece "Scale Sprite Size Mode" "Uniform Curve" modundayken vardır. Buradan Curve degerlerini ayarlayabilirsiniz.
+
+* #### Uniform Curve Index
+Sadece "Scale Sprite Size Mode" "Uniform Curve" modundayken vardır. Curve'den degerler alınırken kullanılacak index degeri, default olarak [Particles.NormalizedAge](../Parameters#particlesnormalizedage) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
+
+* #### Uniform Curve Scale
+Sadece "Scale Sprite Size Mode" "Uniform Curve" modundayken vardır. Curve'den alınan degerler bu deger ile çarpılır, yani Curve için çarpan görevi görür.
+
+* #### Scale Factor
+Sadece "Scale Sprite Size Mode" "Non-Uniform" modundayken vardır. X ve Y eksenleri için boyut degerleri.
+
+* #### Non-Uniform Curve Sprite Scale
+Sadece "Scale Sprite Size Mode" "Non-Uniform Curve" modundayken vardır. Buradan Curve degerlerini ayarlayabilirsiniz.
+
+* #### Non-Uniform Curve Index
+Sadece "Scale Sprite Size Mode" "Non-Uniform Curve" modundayken vardır. Curve'den degerler alınırken kullanılacak index degeri, default olarak [Particles.NormalizedAge](../Parameters#particlesnormalizedage) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
+
+* #### Non-Uniform Curve Scale
+Sadece "Scale Sprite Size Mode" "Non-Uniform Curve" modundayken vardır. Curve'den alınan degerler bu deger ile çarpılır, yani Curve için çarpan görevi görür.
+
+
+
+
+
+
 ## [Scale Sprite Size by Speed]()
 
 
