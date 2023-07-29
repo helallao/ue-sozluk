@@ -253,6 +253,9 @@ Parçacık parametreleri, her bir parçacık için özeldir yani her bir parçac
 * #### [Particles.Initial.Color]()
 (Sabit) Parçacıgın ilk renk degerini verir. Dolayısıyla sabittir, [Initialize Particle'ın](../Moduller#initialize-particle) [Color](../Moduller#color-3) degerine baglıdır da denebilir.
 
+* #### [Particles.Initial.Scale]()
+(Sabit) Parçacıgın mesh için (bkz. [Mesh Renderer](../Moduller#mesh-renderer)) ilk boyut degerini verir, yani X, Y ve Z eksenlerindeki uzunluk degeri. Dolayısıyla sabittir, [Initialize Particle'ın](../Moduller#initialize-particle) [Mesh Scale](../Moduller#mesh-scale-mode) degerine baglıdır da denebilir.
+
 * #### [Particles.Initial.SpriteSize]()
 (Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) ilk boyut degerini verir, yani X ve Y eksenlerindeki uzunluk degeri. Dolayısıyla sabittir, [Initialize Particle'ın](../Moduller#initialize-particle) [Sprite Size](../Moduller#uniform-sprite-size) degerine baglıdır da denebilir.
 
