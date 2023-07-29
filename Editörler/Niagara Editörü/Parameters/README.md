@@ -555,6 +555,24 @@ Burada oluşturulan parametreler oluşturuldukları kategorinin ismini alırlar.
 * #### [StackContext.DoOnce.TriggeredOnce]()
 (Durumsal) [Do Once](../Moduller#do-once) kullanıldıgı zaman oluşturulur. [Do Once](../Moduller#do-once) modülünün "Trigger Condition" inputu True oldugunda bu parametre de True olur. Reset atılmadıgı sürece de True olarak kalır.
 
+* #### [StackContext.InterpolateOverTime_Float.Moving Average]()
+(Degişken) [Interpolate Over Time](../Moduller#interpolate-over-time) kullanıldıgı zaman oluşturulur. [Variable Type](../Moduller#variable-type) "Float" modundayken bu parametre kullanılır.
+
+* #### [StackContext.InterpolateOverTime_LinearColor.Moving Average]()
+(Degişken) [Interpolate Over Time](../Moduller#interpolate-over-time) kullanıldıgı zaman oluşturulur. [Variable Type](../Moduller#variable-type) "Linear Color" modundayken bu parametre kullanılır.
+
+* #### [StackContext.InterpolateOverTime_Quaternion.Moving Average]()
+(Degişken) [Interpolate Over Time](../Moduller#interpolate-over-time) kullanıldıgı zaman oluşturulur. [Variable Type](../Moduller#variable-type) "Quaternion" modundayken bu parametre kullanılır.
+
+* #### [StackContext.InterpolateOverTime_V2.Moving Average]()
+(Degişken) [Interpolate Over Time](../Moduller#interpolate-over-time) kullanıldıgı zaman oluşturulur. [Variable Type](../Moduller#variable-type) "Vector 2D" modundayken bu parametre kullanılır.
+
+* #### [StackContext.InterpolateOverTime_V3.Moving Average]()
+(Degişken) [Interpolate Over Time](../Moduller#interpolate-over-time) kullanıldıgı zaman oluşturulur. [Variable Type](../Moduller#variable-type) "Vector 3D" modundayken bu parametre kullanılır.
+
+* #### [StackContext.InterpolateOverTime_V4.Moving Average]()
+(Degişken) [Interpolate Over Time](../Moduller#interpolate-over-time) kullanıldıgı zaman oluşturulur. [Variable Type](../Moduller#variable-type) "Vector 4D" modundayken bu parametre kullanılır.
+
 * #### [StackContext.Timeline.Float]()
 (Degişken) [Timeline](../Moduller#timeline) kullanıldıgı zaman oluşturulur. [Additional Output](../Moduller#additional-output) "Float" modundayken oluşturulur.
 
