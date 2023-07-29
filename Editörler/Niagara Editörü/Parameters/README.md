@@ -623,6 +623,9 @@ Transient yani geçici parametreler, her bir frame'de degişebilirler dolayısı
 * #### [Transient.FirstFrame]()
 (Durumsal) Sadece FirstFrame yani ilk frame'de (kare, fps) True degeri döndürür, sonra False. System için [System State](../Moduller#system-state) tarafından, Emitter için [Emitter State](../Moduller#emitter-state) tarafından, Parçacık için [Particle State](../Moduller#particle-state) tarafından güncellenir.
 
+* #### [Transient.MeshScaleFactor]()
+(Durumsal) Bu parametre Mesh'in (bkz. [Mesh Renderer](../Moduller#mesh-renderer)) boyut degerlerini degiştiren modüller için çarpan görevi görür, yani mesela bu deger (2,2,2) ve [Scale Mesh Size](../Moduller#scale-mesh-size) modülünü kullanarak Mesh'inizin boyutunu 4 katına çıkarmak istediniz, bu parametre (2,2,2) oldugu için Mesh'inizin degeri (8,8,8) olarak ayarlanır.
+
 * #### [Transient.ParticleColorScaleFactor]()
 (Durumsal) [Scale Color](../Moduller#scale-color-1) ve ya [Scale Color by Speed](../Moduller#scale-color-by-speed) modülü kullanıldıgında, kullanılan scale degerlerini (RGBA) bu parametreye kaydeder.
 
