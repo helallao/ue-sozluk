@@ -423,6 +423,9 @@ bilmiyorum.
 * #### [Output.InheritSourceMovement.PositionDelta]()
 bilmiyorum.
 
+* #### [Output.InterpolateOverTime.DataType]()
+(Degişken) [Interpolate Over Time](../Moduller#interpolate-over-time) kullanıldıgı zaman oluşturulur. [Variable Type](../Moduller#variable-type) inputuna verdiginiz deger türünü tutar.
+
 * #### [Output.MaintainA_SetDistanceBetweenPoints.Final Position]()
 (Degişken) [Maintain A Set Distance Between Points](../Moduller#maintain-a-set-distance-between-points) tarafından oluşturulur. [Maintain A Set Distance Between Points](../Moduller#maintain-a-set-distance-between-points) modülü kullanıldıgı zaman hesaplanan yeni konum degerini tutar. Eger modülün "Write to Intrinsic Variables" ayarını kapattıysanız bu parametreyi kullanarak istediginiz işlemleri kendiniz gerçekleştirebilirsiniz.
 
