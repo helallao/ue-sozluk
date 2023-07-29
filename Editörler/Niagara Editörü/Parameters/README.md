@@ -650,6 +650,8 @@ bilmiyorum.
 * #### [Transient.SpawningbCanEverSpawn]()
 (Durumsal) Bu parametre sadece [Spawn Rate](../Moduller#spawn-rate) ve [Spawn Per Frame](../Moduller#spawn-per-frame) modülleri tarafından degiştirilir. Eger [Spawn Rate](../Moduller#spawn-rate) ve ya [Spawn Per Frame](../Moduller#spawn-per-frame) modüllerinden birisi hiç parçacık spawn ettiyse ve ya edecekse bu deger True olur, hiç parçacık spawn etmediyse bu deger False olur.
 
+* #### [Transient.SpriteSizeScaleFactor]()
+(Durumsal) Bu parametre Sprite'ın (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) boyut degerlerini degiştiren modüller için çarpan görevi görür, yani mesela bu deger (2,2) ve [Scale Sprite Size](../Moduller#scale-sprite-size) modülünü kullanarak Sprite'ınızın boyutunu 4 katına çıkarmak istediniz, bu parametre (2,2) oldugu için Sprite'ınızın degeri (8,8) olarak ayarlanır.
 
 
 ## Niagara Parameter Collection
