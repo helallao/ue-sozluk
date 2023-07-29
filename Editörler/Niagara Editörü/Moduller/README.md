@@ -2718,10 +2718,24 @@ Renderer öncelik numarası, numaraı büyük olan renderer, motor tarafından e
 
 ## [Apply Owner Scale to Attributes]()
 ## [Scale Mesh Size]()
+
+([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan mesh'in (bkz. [Mesh Renderer](#mesh-renderer)) boyutunu ayarlar, yani [Particles.Scale](../Parameters#particlesscale) parametresinin degerini ayarlar.
+
+
+* #### Scale Factor
+Boyut degeri.
+
+* #### Initial Mesh Size
+Mesh'in başlangıçtaki boyut degeri, yani Initialize Particle'ın [Mesh Scale](#mesh-scale-mode) degerini kullanır da denebilir.
+
+
+
+
 ## [Scale Mesh Size by Speed]()
 ## [Scale Sprite Size]()
 
 ([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan materyalin (bkz. [Sprite Renderer](#sprite-renderer)) boyutunu ayarlar, yani [Particles.SpriteSize](../Parameters#particlesspritesize) parametresinin degerini ayarlar.
+
 
 * #### Scale Sprite Size Mode
 4 farklı mod vardır. Uniform, Non-Uniform ve bu ikisinin Curve hali. Uniform modunda X ve Y eksenleri için verdiginiz tek bir deger kullanılır yani kare şeklinde boyut degerini ayarlarsınız. Non-Uniform modunda ise X ve Y eksenlerindeki boyut degerlerini ayarlayabilirsiniz. Bunların Curve halleri de, degerleri Curve aracılıgı ile ayarlamanıza yarar.
