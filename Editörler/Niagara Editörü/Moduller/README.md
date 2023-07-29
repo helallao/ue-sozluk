@@ -2195,6 +2195,11 @@ Modülün hesaplamaları yapabilmesi için gerekli olan DeltaTime degeri, defaul
 
 ## [Lerp Particle Attributes]()
 
+([Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül parçacıgın yani "Particles" kategorisindeki, emitter oluşturuldugu anda gelen parametreleri üzerinde "Lerp" işlemi yapmamıza yarar. Ben bu modülü çok gereksiz buldum, eger degiştirmek istediginiz bir parametre varsa [Set new or existing parameter directly](#set-new-or-existing-parameter-directly) kullanarak degiştirebilirsiniz. Eger daha da karmaşık şeyler yapmak istiyorsanız kendi modülünüzü yazabilirsiniz. Neyse, sonuç olarak bu modül parçacıgın sahip oldugu, kendinden gelen parametreleri, a ve b olarak verdiginiz iki deger arasında "Lerp Alpha" inputuna verdiginiz deger kadar "Lerp" eder yani oranlar. Bu modülün her inputunu açıklamicam, zaten baktıgınız zaman anlarsınız.
+
+
+* #### Lerp Alpha
+Lerp derecei, 0 - 1 arası.
 
 
 
