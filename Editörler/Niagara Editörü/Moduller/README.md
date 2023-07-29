@@ -2221,6 +2221,18 @@ Lerp derecei, 0 - 1 arası.
 ## [Align Sprite to Mesh Orientation]()
 ## [Initial Mesh Orientation]()
 ## [Sprite Rotation Rate]()
+
+([Particle Update](../Graph#particle-update)) Bu modül parçacıklarda kullanılan materyaller için (bkz. [Sprite Renderer](#sprite-renderer)) saniye başına derece bazında dönme ekler. Yani [Particles.SpriteRotation](../Parameters#particlesspriterotation) parametresinin degerini degiştirir.
+
+
+* #### Rotation Rate
+Saniye başına materyalin döndürülecegi (saat yönünde) derece, 0 - 360 arası.
+
+* #### Delta Time
+Modülün hesaplamaları yapabilmesi için gerekli olan DeltaTime degeri, default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
+
+
+
 ## [Update Mesh Orientation]()
 
 
