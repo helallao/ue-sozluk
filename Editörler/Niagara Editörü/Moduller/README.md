@@ -2719,7 +2719,7 @@ Renderer öncelik numarası, numaraı büyük olan renderer, motor tarafından e
 ## [Apply Owner Scale to Attributes]()
 ## [Scale Mesh Size]()
 
-([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan mesh'in (bkz. [Mesh Renderer](#mesh-renderer)) boyutunu ayarlar, yani [Particles.Scale](../Parameters#particlesscale) parametresinin degerini ayarlar.
+([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan mesh'in (bkz. [Mesh Renderer](#mesh-renderer)) boyutunu ayarlar, yani [Particles.Scale](../Parameters#particlesscale) parametresinin degerini ayarlar. Parçacıgın ilk frame'de sahip oldugu scale degerini (yani [Particles.Initial.Scale](../Parameters#particlesinitialscale)) scale ederek yani çarparak bu işlemi gerçekleştirir.
 
 
 * #### Scale Factor
@@ -2734,7 +2734,7 @@ Mesh'in başlangıçtaki boyut degeri, yani Initialize Particle'ın [Mesh Scale]
 ## [Scale Mesh Size by Speed]()
 ## [Scale Sprite Size]()
 
-([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan materyalin (bkz. [Sprite Renderer](#sprite-renderer)) boyutunu ayarlar, yani [Particles.SpriteSize](../Parameters#particlesspritesize) parametresinin degerini ayarlar.
+([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan materyalin (bkz. [Sprite Renderer](#sprite-renderer)) boyutunu ayarlar, yani [Particles.SpriteSize](../Parameters#particlesspritesize) parametresinin degerini ayarlar. Parçacıgın ilk frame'de sahip oldugu size degerini (yani [Particles.Initial.SpriteSize](../Parameters#particlesinitialspritesize)) scale ederek yani çarparak bu işlemi gerçekleştirir.
 
 
 * #### Scale Sprite Size Mode
