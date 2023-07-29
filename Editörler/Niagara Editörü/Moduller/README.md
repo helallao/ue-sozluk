@@ -2168,6 +2168,31 @@ Bu ayarı açtıgınızda, üçgenin 3 noktasının (köşesinin) ve üçgenin b
 
 
 ## [Interpolate Over Time]()
+
+([System Update](../Graph#system-update), [Emitter Update](../Graph#emitter-update), [Particle Update](../Graph#particle-update)) Bu zamana dayalı olarak verdiginiz başlangıç degerinden hedef degere dogru sayar. Bu deger Float, vektör, renk ve ya Quaternion olabilir. Kullanılacak deger türünü "Variable Type" inputundan ayarlarsınız. "Rate Of Change" inputu ile başlangıç degerinden hedef degere dogru kayma hızını ayarlayabilirsiniz, ama bu işlem yüzdelik olarak yapıldıgı için yani aradaki fark degerine göre yapıldıgı için, kayma hızı başlangıçta hızlı olsa bile aralık küçüldükçe yavaşlar. Yani "Rate Of Change" inputu tam olarak belirli bir saniye belirtmez, arttırdıkça daha fazla hızlanır, azalttıkça yavaşlar. Modül hesapladıgı degeri [StackContext.InterpolateOverTime_*.Moving Average]() parametresine kaydeder (* olan kısma degerin türü geliyor, yani tek bir belirli parametre yok, birden fazla var, dolayısıyla parametrenin ismindeki linke tıklayıp alt alta sıralanmış olarak tam listeye ulaşabilirsiniz). Ayrıca bu modülün ürettigi degerler kodların devamında kullanılacagı için modülü koydugunuz kategorinin en başlarına koymalısınız. Yani [System Update](../Graph#system-update) kategorisinde kullandıysanız [System State'in](#system-state) hemen sonrasına, [Emitter Update](../Graph#emitter-update) kategorisinde kullandıysanız [Emitter State'in](#emitter-state) hemen sonrasına, [Particle Update](../Graph#particle-update) kategorisinde kullandıysanız [Particle State'in](#particle-state) hemen sonrasına koymalısınız.
+
+
+* #### Variable Type
+Degerin türü.
+
+* #### Target * Value
+(İsimdeki * işareti yerine "Variable Type" inputu ile belirlediginiz deger türünün ismi gelir) Hedef deger.
+
+* #### Initial * Value
+(İsimdeki * işareti yerine "Variable Type" inputu ile belirlediginiz deger türünün ismi gelir) Başlangıç degeri.
+
+* #### Rate Of Change
+Başlangıç degerinden hedef degere dogru kayma hızı.
+
+* #### FirstFrame
+Modülün ilk frame'de olup olmadıgını anlayabilmesi için gerekli olan FirstFrame degeri, default olarak [Transient.FirstFrame](../Parameters#transientfirstframe) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
+
+* #### Delta Time
+Modülün hesaplamaları yapabilmesi için gerekli olan DeltaTime degeri, default olarak [Engine.DeltaTime](../Parameters#enginedeltatime) parametresine baglıdır, özel bi durum yoksa degiştirmeyin.
+
+
+
+
 ## [Lerp Particle Attributes]()
 
 
