@@ -2726,7 +2726,7 @@ Renderer öncelik numarası, numaraı büyük olan renderer, motor tarafından e
 Boyut degeri.
 
 * #### Initial Mesh Size
-Mesh'in başlangıçtaki boyut degeri, yani Initialize Particle'ın [Mesh Scale](#mesh-scale-mode) degerini kullanır da denebilir.
+Mesh'in başlangıçtaki boyut degeri, default olarak [Particles.Initial.Scale](../Parameters#particlesinitialscale) parametresine baglıdır. Yani Initialize Particle'ın [Mesh Scale](#mesh-scale-mode) degerini kullanır da denebilir.
 
 
 
@@ -2752,7 +2752,7 @@ Sadece "Sample Scale Factor By Curve" ayarı açıkken vardır. Buradan kendi Cu
 Kullanılacak hız degeri. Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır.
 
 * #### Initial Mesh Scale
-Mesh'in başlangıçtaki boyut degeri, yani Initialize Particle'ın [Mesh Scale](#mesh-scale-mode) degerini kullanır da denebilir.
+Mesh'in başlangıçtaki boyut degeri, default olarak [Particles.Initial.Scale](../Parameters#particlesinitialscale) parametresine baglıdır. Yani Initialize Particle'ın [Mesh Scale](#mesh-scale-mode) degerini kullanır da denebilir.
 
 
 
@@ -2767,7 +2767,7 @@ Mesh'in başlangıçtaki boyut degeri, yani Initialize Particle'ın [Mesh Scale]
 4 farklı mod vardır. Uniform, Non-Uniform ve bu ikisinin Curve hali. Uniform modunda X ve Y eksenleri için verdiginiz tek bir deger kullanılır yani kare şeklinde boyut degerini ayarlarsınız. Non-Uniform modunda ise X ve Y eksenlerindeki boyut degerlerini ayarlayabilirsiniz. Bunların Curve halleri de, degerleri Curve aracılıgı ile ayarlamanıza yarar.
 
 * #### Initial Sprite Size
-Sprite'ın başlangıçtaki boyut degeri, yani Initialize Particle'ın [Sprite Size](#sprite-size) degerini kullanır da denebilir.
+Sprite'ın başlangıçtaki boyut degeri, default olarak [Particles.Initial.SpriteSize](../Parameters#particlesinitialspritesize) parametresine baglıdır. Yani Initialize Particle'ın [Sprite Size](#sprite-size) degerini kullanır da denebilir.
 
 * #### Uniform Scale Factor
 Sadece "Scale Sprite Size Mode" "Uniform" modundayken vardır. Boyut degeri, bu deger X ve Y eksenleri için kullanılır.
@@ -2804,7 +2804,7 @@ Sadece "Scale Sprite Size Mode" "Non-Uniform Curve" modundayken vardır. Curve'd
 
 
 * #### Initial Sprite Size
-Sprite'ın başlangıçtaki boyut degeri, yani Initialize Particle'ın [Sprite Size](#sprite-size) degerini kullanır da denebilir.
+Sprite'ın başlangıçtaki boyut degeri, default olarak [Particles.Initial.SpriteSize](../Parameters#particlesinitialspritesize) parametresine baglıdır. Yani Initialize Particle'ın [Sprite Size](#sprite-size) degerini kullanır da denebilir.
 
 * #### Min Scale Factor
 Parçacıgın hızı 0'a eşit ve küçük iken kullanılacak scale degeri, yani parçacıgın hızı 0'a eşit ve ya küçük iken bu inputa verilen deger kadar scale uygulanır.
