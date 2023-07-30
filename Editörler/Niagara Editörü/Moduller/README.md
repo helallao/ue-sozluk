@@ -2732,6 +2732,32 @@ Mesh'in başlangıçtaki boyut degeri, yani Initialize Particle'ın [Mesh Scale]
 
 
 ## [Scale Mesh Size by Speed]()
+
+([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan mesh'i (bkz. [Mesh Renderer](#mesh-renderer)) hıza (velocity) göre scale eder yani boyutlandırır (degerle çarpar). Bu modül ile ilgili biraz açıklama yapmam lazım, bu modülde "Speed Threshold" ve iki scale degeri belirlersiniz, parçacıgın hızı 0 iken ve ya düşükken minimum için verdiginiz scale kullanılır. Parçacıgın hızı maximum hızda iken (yani "Speed Threshold") ve ya yüksekken maximum için verdiginiz scale kullanılır. Eger parçacıgın hızı minimum (yani 0) ve maximum hız degerlerinin arasında ise, o zaman oranlama yapılır ve bu orana göre minimum ve maximum için verdiginiz scale degerlerinin arasında bir deger seçilir. Bunlara ek olarak "Sample Scale Factor By Curve" diye bir ayar vardır. Bu ayarı açarak kendi Curve'ünüzü oluşturabilirsiniz. Oluşturdugunuz Curve'de key degerleri hızı temsil eder. Yani key degeri 0 iken minimum hızı (yani 0), 1 iken maximum hızı (yani "Speed Threshold") temsil eder. Oluşturdugunuz Curve'de value degerleri ise scale'i temsil eder. Yani value degeri 0 iken minimum scale'i (yani "Min Scale Factor"), 1 iken maximum scale'i (yani "Max Scale Factor") temsil eder.
+
+
+* #### Min Scale Factor
+Parçacıgın hızı 0'a eşit ve küçük iken kullanılacak scale degeri, yani parçacıgın hızı 0'a eşit ve ya küçük iken bu inputa verilen deger kadar scale uygulanır.
+
+* #### Max Scale Factor
+Parçacıgın hızı "Speed Threshold" degerine eşit ve büyük iken kullanılacak scale degeri, yani parçacıgın hızı "Speed Threshold" degerine eşit ve ya büyük iken bu inputa verilen deger kadar scale uygulanır.
+
+* #### Speed Threshold
+Maximum hız degeri. Minimum deger modül tarafından otomatikmen 0 olarak ayarlanır, maximum degeri ise bu input ile ayarlarsınız.
+
+* #### Scale Factor Curve
+Sadece "Sample Scale Factor By Curve" ayarı açıkken vardır. Buradan kendi Curve'ünüzü oluşturabilirsiniz. Oluşturdugunuz Curve'de key degerleri hızı temsil eder. Yani key degeri 0 iken minimum hızı (yani 0), 1 iken maximum hızı (yani "Speed Threshold") temsil eder. Oluşturdugunuz Curve'de value degerleri ise scale'i temsil eder. Yani value degeri 0 iken minimum scale'i (yani "Min Scale Factor"), 1 iken maximum scale'i (yani "Max Scale Factor") temsil eder.
+
+* #### Source Velocity
+Kullanılacak hız degeri. Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır.
+
+* #### Initial Mesh Scale
+Mesh'in başlangıçtaki boyut degeri, yani Initialize Particle'ın [Mesh Scale](#mesh-scale-mode) degerini kullanır da denebilir.
+
+
+
+
+
 ## [Scale Sprite Size]()
 
 ([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan materyalin (bkz. [Sprite Renderer](#sprite-renderer)) boyutunu ayarlar, yani [Particles.SpriteSize](../Parameters#particlesspritesize) parametresinin degerini ayarlar. Parçacıgın ilk frame'de sahip oldugu size degerini (yani [Particles.Initial.SpriteSize](../Parameters#particlesinitialspritesize)) scale ederek yani çarparak bu işlemi gerçekleştirir.
