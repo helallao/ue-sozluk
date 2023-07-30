@@ -2774,6 +2774,26 @@ Sadece "Scale Sprite Size Mode" "Non-Uniform Curve" modundayken vardır. Curve'd
 
 ## [Scale Sprite Size by Speed]()
 
+([Particle Update](../Graph#particle-update)) Parçacıklarda kullanılan materyali (bkz. [Sprite Renderer](#sprite-renderer)) hıza (velocity) göre scale eder yani boyutlandırır (degerle çarpar). Bu modül ile ilgili biraz açıklama yapmam lazım, bu modülde "Velocity Threshold" ve iki scale degeri belirlersiniz, parçacıgın hızı 0 iken ve ya düşükken minimum için verdiginiz scale kullanılır. Parçacıgın hızı maximum hızda iken (yani "Velocity Threshold") ve ya yüksekken maximum için verdiginiz scale kullanılır. Eger parçacıgın hızı minimum (yani 0) ve maximum hız degerlerinin arasında ise, o zaman oranlama yapılır ve bu orana göre minimum ve maximum için verdiginiz scale degerlerinin arasında bir deger seçilir. Bunlara ek olarak "Sample Scale Factor By Curve" diye bir ayar vardır. Bu ayarı açarak kendi Curve'ünüzü oluşturabilirsiniz. Oluşturdugunuz Curve'de key degerleri hızı temsil eder. Yani key degeri 0 iken minimum hızı (yani 0), 1 iken maximum hızı (yani "Velocity Threshold") temsil eder. Oluşturdugunuz Curve'de value degerleri ise scale'i temsil eder. Yani value degeri 0 iken minimum scale'i (yani "Min Scale Factor"), 1 iken maximum scale'i (yani "Max Scale Factor") temsil eder.
+
+
+* #### Initial Sprite Size
+Sprite'ın başlangıçtaki boyut degeri, yani Initialize Particle'ın [Sprite Size](#sprite-size) degerini kullanır da denebilir.
+
+* #### Min Scale Factor
+Parçacıgın hızı 0'a eşit ve küçük iken kullanılacak scale degeri, yani parçacıgın hızı 0'a eşit ve ya küçük iken bu inputa verilen deger kadar scale uygulanır.
+
+* #### Max Scale Factor
+Parçacıgın hızı "Velocity Threshold" degerine eşit ve büyük iken kullanılacak scale degeri, yani parçacıgın hızı "Velocity Threshold" degerine eşit ve ya büyük iken bu inputa verilen deger kadar scale uygulanır.
+
+* #### Source Velocity
+Kullanılacak hız degeri. Default olarak [Particles.Velocity](../Parameters#particlesvelocity) parametresine baglıdır.
+
+* #### Velocity Threshold
+Maximum hız degeri. Minimum deger modül tarafından otomatikmen 0 olarak ayarlanır, maximum degeri ise bu input ile ayarlarsınız.
+
+* #### Scale Factor Curve
+Sadece "Sample Scale Factor By Curve" ayarı açıkken vardır. Buradan kendi Curve'ünüzü oluşturabilirsiniz. Oluşturdugunuz Curve'de key degerleri hızı temsil eder. Yani key degeri 0 iken minimum hızı (yani 0), 1 iken maximum hızı (yani "Velocity Threshold") temsil eder. Oluşturdugunuz Curve'de value degerleri ise scale'i temsil eder. Yani value degeri 0 iken minimum scale'i (yani "Min Scale Factor"), 1 iken maximum scale'i (yani "Max Scale Factor") temsil eder.
 
 
 
