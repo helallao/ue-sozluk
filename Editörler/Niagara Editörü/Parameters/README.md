@@ -192,6 +192,14 @@ bilmiyorum.
 * #### [Emitter.SpawnRate.SpawnRemainder]()
 (Degişken) [Spawn Rate](../Moduller#spawn-rate) tarafından oluşturulur. Spawn edilecek parçacık sayısı tam sayı olmak zorunda oldugu için. Modül hatalı çalışmasın diye, spawn edilecek parçacık sayısının kesirli kısmı, bir sonraki frame kullanılmak üzere bu parametreye kaydediliyor. Yani bu parametre bir önceki frame'de spawn edilen parçacık sayısının kesirli kısmı. Bu frame'de spawn edilecek parçacık sayısına ekleriz ve kalan kesirli degeri tekrar bu parametreye kaydederiz, böylelikle döngü devam eder.
 
+* #### [Emitter.SpriteAlignment]()
+(Degişken) Bu parametre aslında [Particles.SpriteRotation](#particlesspriterotation) parametresi ile aynıdır, bu parametre şöyle bir özel durumda kullanılmaya başlar. Eger herhangi bir [Renderer](../Moduller#render) üzerinden "Source Mode" ayarını "Emitter" yaparsanız, parçacıklar artık Emitter parçacıgı olacagı için, "Particles" kategorisindeki [Particles.SpriteRotation](#particlesspriterotation) parametresini kullanmazlar. Bunun yerine bu parametreyi kullanırlar. Ayrıca bu parametre [Particles.SpriteRotation](#particlesspriterotation) parametresi gibi float deger tutmaz, 3 boyutlu vektör tutar.
+
+* #### [Emitter.SpriteFacing]()
+(Degişken) Bu parametre aslında [Particles.SpriteAlignment](#particlesspritealignment) parametresi ile aynıdır, bu parametre şöyle bir özel durumda kullanılmaya başlar. Eger herhangi bir [Renderer](../Moduller#render) üzerinden "Source Mode" ayarını "Emitter" yaparsanız, parçacıklar artık Emitter parçacıgı olacagı için, "Particles" kategorisindeki [Particles.SpriteAlignment](#particlesspritealignment) parametresini kullanmazlar. Bunun yerine bu parametreyi kullanırlar.
+
+
+
 
 
 ## Particle Attributes
