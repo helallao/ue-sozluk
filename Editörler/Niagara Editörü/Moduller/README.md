@@ -3425,5 +3425,11 @@ Parçacıkların girdapda kalma süresini arttırır. Falloff alanı oluşturur,
 # No Category
 
 ## [New Scratch Pad Module]()
+
+Yeni "Scratch Pad" modülü oluşturmanıza yarar. "Scratch Pad" modülünün normal niagara modüllerinden bildigim tek farkı asset üzerine kaydedilmemesidir. Yani normalde niagara modülü kodlarken modülü bir assete kaydedersiniz. Sonra o asseti kullanarak modülü Emitter'ınıza eklersiniz. Ama "Scratch Pad" modülünde asset oluşturmanıza gerek kalmadan modül kodlayabilirsiniz. Yani "New Scratch Pad Module" niagara modülü kodlamanıza yarar.
+
+
+
 ## [Set new or existing parameter directly]()
+
 Yeni parametre oluşturmaya ve ya varolan parametrenin degerini degiştirmeye yarar. Modülü seçtiginiz zaman [Selection](../Selection) penceresinde sag üstteki "+" işaretine tıklayarak herhangi bir parametre seçebilirsiniz ve ya "Make New" kategorisini kullanarak yeni bir parametre oluşturabilirsiniz. İsterseniz parametreyi [Parametreler](../Parameters) bölümünden tutup [Selection](../Selection) penceresi üzerine bırakabilirsiniz, otomatikmen o parametreyi ekleyecektir. Bu modülün kullanıldıgı yer önemlidir, mesela [Particle Spawn](../Graph#particle-spawn) kategorisinde [System.Age](../Parameters#systemage) parametresini degiştiremezsiniz. [System.Age](../Parameters#systemage) parametresini degiştirmek için [System Spawn](../Graph#system-spawn) ve ya [System Update](../Graph#system-update) kullanmak zorundasınız.
