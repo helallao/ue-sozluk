@@ -175,4 +175,46 @@ Oynatma hızı.
 Aralıgın başlangıç ve bitişi kilitler yani bu ayar açıkken başlangıç ve bitiş degiştirilemez.
 
 * #### Async Evaluation
+bilmiyorum.
+
 * #### Dynamic Weighting
+bilmiyorum.
+
+* #### Keep Playhead in Playback Range While Scrubbing
+bilmiyorum.
+
+* #### Keep Playback Range in Section Bounds
+bilmiyorum.
+
+* #### Link Curve Editor Time Range
+bilmiyorum.
+
+* #### Jump Frame Increment
+bilmiyorum.
+
+
+
+### Key Interpolation
+
+bilmiyorum.
+
+
+### Otomatik anahtar
+
+bilmiyorum.
+
+
+### Snapping
+
+bilmiyorum.
+
+
+### Fps
+
+bilmiyorum.
+
+
+### Kilitle
+
+Simulasyonu kilitler, yani editlenemez hale getirir.
+
