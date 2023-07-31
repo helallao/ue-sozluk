@@ -38,20 +38,16 @@ Buna tıkladıgınız anda bu niagara asset'i için [Preview Viewport](../Previe
 [Preview Viewport](../Preview%20Viewport) üzerinde sınırları gösterir. Ayrıca yandaki üç noktadan [sistem](../Graph#fixed-bounds) ve [emitter](../Graph#fixed-bounds-1) için Fixed Bounds ayarını açabilirsiniz (tıkladıgınızda sadece açar, başka bir şey yapmaz).
 
 ## [Performance]()
-Performans degerlerini gösterir. Degerler modüller için ayrı, kategoriler için ayrı gösterilir. Eger üç noktaya tıklarsanız şu seçenekler çıkar,
-<br>
-<br>
-Clear Stats = Performans degerlerini sıfırlar/siler.
-<br>
-GPU Profiling = Gpu için performans degerlerini gösterir.
-<br>
-Display Average = Ortalama performans degerlerini gösterir. Sadece kategoriler için.
-<br>
-Display Maximum = Maximum performans degerlerini gösterir, yani en çok zorlandıgı. Sadece kategoriler için.
-<br>
-Display Relative Values = Modüllerin kategorisine göre o kategori üzerindeki yüzdelik performans degerlerini gösterir. Sadece modüller için.
-<br>
-Display Relative Values = Modüllerin performans degerlerini gösterir. Sadece modüller için.
+Performans degerlerini gösterir. Degerler modüller için ayrı, kategoriler için ayrı ayrı gösterilir. Eger üç noktaya tıklarsanız şu seçenekler çıkar,
+
+Seçenek | İşlem
+:---: | :---:
+Clear Stats | Performans degerlerini sıfırlar/siler.
+GPU Profiling | Gpu için performans degerlerini gösterir.
+Display Average | Ortalama performans degerlerini gösterir. Sadece kategoriler için.
+Display Maximum | Maximum performans degerlerini gösterir, yani en çok zorlandıgı. Sadece kategoriler için.
+Display Relative Values | Modüllerin kategorisine göre o kategori üzerindeki yüzdelik performans degerlerini gösterir. Sadece modüller için.
+Display Relative Values | Modüllerin performans degerlerini gösterir. Sadece modüller için.
 
 ## [Debug]()
 [Niagara Debugger](../Niagara%20Debugger) üzerindeki pencereleri açar.
