@@ -325,7 +325,7 @@ bilmiyorum.
 (Sabit) Parçacıgın spawn grubu.
 
 * #### [Particles.SpriteAlignment]()
-(Sabit) Parçacıgın sprite'ının (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) yönünü (3d olarak) verir.
+(Sabit) Parçacıgın sprite'ının (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) rotasyonunu verir.
 
 * #### [Particles.SpriteBasedLine.Color]()
 (Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Renk degerini verir. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Color Binding](../Moduller#color-binding-2) degerine bu parametreyi baglayın.
