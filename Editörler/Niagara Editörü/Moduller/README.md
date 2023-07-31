@@ -2945,7 +2945,26 @@ Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yar
 
 ## [Sprite Facing and Alignment]()
 
-([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update), [Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül Sprite'ınızın (bkz. [Sprite Renderer](#sprite-renderer)) yani materyalin 3d olarak yönünü yani normal'ini ([Particles.SpriteAlignment](../Parameters#particlesspritealignment)) ve rotasyonunu yani tanjant'ını ([Particles.SpriteRotation](../Parameters#particlesspriterotation)) ayarlamanıza yarar. Aslında bunları [Particles.SpriteAlignment](../Parameters#particlesspritealignment) ve [Particles.SpriteRotation](../Parameters#particlesspriterotation) parametrelerini degiştirerek de yapabilirsiniz ama bu modül aslında özel bi durumda da kullanılabilmek için yapılmış. Şöyle ki, eger herhangi bir [Renderer](#render) üzerinden "Source Mode" ayarını "Emitter" yaparsanız, parçacıklar artık Emitter parçacıgı olacagı için, "Particles" kategorisindeki [Particles.SpriteAlignment](../Parameters#particlesspritealignment) ve [Particles.SpriteRotation](../Parameters#particlesspriterotation) parametrelerini kullanmazlar. Bunun yerine [Emitter.SpriteAlignment](../Parameters#emitterspritealignment) ve [Emitter.SpriteFacing](../Parameters#emitterspritefacing) parametrelerini kullanırlar.
+([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update), [Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül Sprite'ınızın (bkz. [Sprite Renderer](#sprite-renderer)) yani materyalin 3d olarak yönünü yani normal'ini ([Particles.SpriteFacing](../Parameters#particlesspritefacing)) ve rotasyonunu yani tanjant'ını ([Particles.SpriteAlignment](../Parameters#particlesspritealignment)) ayarlamanıza yarar. Aslında bunları [Particles.SpriteFacing](../Parameters#particlesspritefacing) ve [Particles.SpriteAlignment](../Parameters#particlesspritealignment) parametrelerini degiştirerek de yapabilirsiniz ama bu modül aslında özel bi durumda da kullanılabilmek için yapılmış. Şöyle ki, eger herhangi bir [Renderer](#render) üzerinden "Source Mode" ayarını "Emitter" yaparsanız, parçacıklar artık Emitter parçacıgı olacagı için, "Particles" kategorisindeki [Particles.SpriteFacing](../Parameters#particlesspritefacing) ve [Particles.SpriteAlignment](../Parameters#particlesspritealignment) parametrelerini kullanmazlar. Bunun yerine [Emitter.SpriteFacing](../Parameters#emitterspritefacing) ve [Emitter.SpriteAlignment](../Parameters#emitterspritealignment) parametrelerini kullanırlar. Dolayısıyla modül de parametrelerini [Stack Context Sensitive](../Parameters#stack-context-sensitive) kategorisi altında oluşturur, böylelikle modül "Particles" kategorisinde çalışıyorsa parametrelerini "Particles." ile başlayarak, "Emitter" kategorisinde çalışıyorsa parametrelerini "Emitter." ile başlayarak oluşturur. Böylelikle yukarda anlattıgım "SpriteFacing" ve "SpriteAlignment" parametrelerinin hem Emitter üzerinde hem Particles üzerinde oluşturulabilmesini saglar. Yani eger herhangi bir [Renderer](#render) üzerinden "Source Mode" ayarını "Emitter" yaparsanız bu modülü Emitter üzerinde kullanabilirsiniz ve hiçbir sorun çıkarmaz.
+
+
+* #### Sprite Facing
+Sprite'ın yönünü (3d olarak) ayarlar.
+
+* #### Facing Coordinate Space
+"Sprite Facing" in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+* #### Sprite Alignment
+Sprite'ın rotasyonunu ayarlar, saat yönünde dönüş derecesini.
+
+* #### Facing Coordinate Space
+"Sprite Alignment" in uygulanacagı [Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+
+
+
+
+
+
 
 
 
