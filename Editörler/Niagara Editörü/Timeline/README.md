@@ -60,7 +60,7 @@ Burası ayarlar bölümüdür. Soldan saga,
 
 
 
-### Actions
+## Actions
 
 * #### Open Director Blueprint
 bilmiyorum.
@@ -114,7 +114,7 @@ bilmiyorum.
 bilmiyorum.
 
 
-### View Options
+## View Options
 
 
 * #### Auto Scroll
@@ -170,7 +170,7 @@ bilmiyorum.
 
 
 
-### Playback Options
+## Playback Options
 
 * #### Start
 Oynatılacak aralıgın başlangıcı.
@@ -204,27 +204,27 @@ bilmiyorum.
 
 
 
-### Key Interpolation
+## Key Interpolation
 
 bilmiyorum.
 
 
-### Otomatik anahtar
+## Otomatik anahtar
 
 bilmiyorum.
 
 
-### Snapping
+## Snapping
 
 bilmiyorum.
 
 
-### Fps
+## Fps
 
 bilmiyorum.
 
 
-### Kilitle
+## Kilitle
 
 Simulasyonu kilitler, yani editlenemez hale getirir.
 
