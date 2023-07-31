@@ -49,6 +49,16 @@ Burada bütün Emitter'lar görünür. "+ Track" bölümünden yeni emitter ve y
 
 Burası ayarlar bölümüdür. Soldan saga,
 
+* [Actions](#actions)
+* [View Options](#view-options)
+* [Playback Options](#playback-options)
+* [Key Interpolation](#key-interpolation)
+* [Otomatik anahtar](#otomatik-anahtar)
+* [Snapping](#snapping)
+* [Fps](#fps)
+* [Kilitle](#kilitle)
+
+
 
 ### Actions
 
