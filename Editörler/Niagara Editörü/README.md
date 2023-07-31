@@ -56,7 +56,7 @@
 ## [Log](Log)
 <img src="../../Dosyalar/Niagara_Editor_Log.jpg">
 
-## [Script Stats](Script&20Stats)
+## [Script Stats](Script%20Stats)
 <img src="../../Dosyalar/Niagara_Editor_Script_Stats.jpg">
 
 ## [Bottom Toolbar](../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu))
