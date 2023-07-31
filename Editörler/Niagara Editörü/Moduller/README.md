@@ -2541,7 +2541,7 @@ Mod | İşlem
 :---: | :---:
 Unaligned | Bu moddayken sadece "Particle.SpriteRotation" parametresi ile "Facing Mode" ayarı alignment'ı etkileyebilir.
 Velocity Aligned | [Particles.Velocity](../Parameters#particlesvelocity) parametresine göre alignment'ı belirler, yani parçacıgın gittigi yöne dogru.
-Custom Alignment | Bu moddayken "Particle.SpriteRotation" parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz.
+Custom Alignment | Bu moddayken [Particles.SpriteAlignment](../Parameters#particlesspritealignment) parametresi (sanırım kendiniz oluşturmalısınız) ile alignment'ı ayarlayabilirsiniz. Eger [Particles.SpriteAlignment](../Parameters#particlesspritealignment) parametresi oluşturulmadıysa otomatikmen "Unaligned" modu kullanılır.
 
 * #### Facing Mode
 Parçacıkların bakış yönünü belirler. [Bu videoya](https://youtu.be/EIP6mg8V5YU?t=528) da bakabilirsiniz. 5 modu vardır,
@@ -2550,7 +2550,7 @@ Mod | İşlem
 :---: | :---:
 Face Camera | Parçacıklar kameranın konumuna dogru döndürülür.
 Face Camera Plane | Bu moddayken parçacıkların baktıgı yön direktmen kameranın konumuna dogru (perspective) degildir, bunun yerine kameranın bakış açısına göredir (orthographic). Yani bunu söyle düşünün, sanki kameranızın yerinde kamera degil de bir plane (düz tabaka, levha) var ve siz bakış açınızı oynattıgınızda bu plane de hareket ediyor ve parçacıkların baktıgı yön hesaplanırken direktmen kameranın konumunu almaktansa, parçacık plane'in en yakın olan kısmına dogru döndürülüyor. Aşagıya bir resim koydum.
-Custom Facing Vector | Bu moddayken "Particle.SpriteFacing" parametresi (sanırım kendiniz oluşturmalısınız) ile parçacıkların baktıgı yönü ayarlayabilirsiniz.
+Custom Facing Vector | Bu moddayken [Particles.SpriteFacing](../Parameters#particlesspritefacing) parametresi (sanırım kendiniz oluşturmalısınız) ile parçacıkların baktıgı yönü ayarlayabilirsiniz. Eger [Particles.SpriteFacing](../Parameters#particlesspritefacing) parametresi oluşturulmadıysa otomatikmen "Face Camera" modu kullanılır.
 Face Camera Position | Bunun ne oldugunu bilmiyorum, "Face Camera" ile aynı çalışıyor ama tek farkı yukarıdan baktıgınızda (yani z ekseninin artı yönünden), "Face Camera" ya göre daha dogru sonuçlar döndürüyor.
 Face Camera Distance Blend | Bu mod "Face Camera" ile "Face Camera Position" modlarını blend eder yani birleştirir.
 
