@@ -340,7 +340,7 @@ bilmiyorum.
 (Degişken) [Sprite Based Line](../Moduller#sprite-based-line) kullanıldıgı zaman oluşturulur. Sprite'ın boyut degerini tutar. Kullanmak için [Sprite Renderer'ın](../Moduller#sprite-renderer) [Sprite Size Binding](../Moduller#sprite-size-binding) degerine bu parametreyi baglayın.
 
 * #### [Particles.SpriteFacing]()
-(Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) rotasyonunu verir. [Sprite Renderer'ın](../Moduller#sprite-renderer) [Facing Mode](../Moduller#facing-mode-2) ayarını "Custom Facing Vector" yaptıgınız zaman bu parametre kullanılır.
+(Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) yönünü (3d olarak) verir. [Sprite Renderer'ın](../Moduller#sprite-renderer) [Facing Mode](../Moduller#facing-mode-2) ayarını "Custom Facing Vector" yaptıgınız zaman bu parametre kullanılır.
 
 * #### [Particles.SpriteRotation]()
 (Sabit) Parçacıgın sprite yani üzerindeki materyalin (bkz. [Sprite Renderer](../Moduller#sprite-renderer)) rotasyonunu verir. 0 - 360 derece arasında deger tutar.
