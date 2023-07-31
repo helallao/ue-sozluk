@@ -2945,6 +2945,7 @@ Parçacıklara [grup numarası](../Terimler%20Sözlügü#spawngroup) vermeye yar
 
 ## [Sprite Facing and Alignment]()
 
+([Emitter Spawn](../Graph#emitter-spawn), [Emitter Update](../Graph#emitter-update), [Particle Spawn](../Graph#particle-spawn), [Particle Update](../Graph#particle-update)) Bu modül Sprite'ınızın (bkz. [Sprite Renderer](#sprite-renderer)) yani materyalin 3d olarak yönünü yani normal'ini ([Particles.SpriteAlignment](../Parameters#particlesspritealignment)) ve rotasyonunu yani tanjant'ını ([Particles.SpriteRotation](../Parameters#particlesspriterotation)) ayarlamanıza yarar. Aslında bunları [Particles.SpriteAlignment](../Parameters#particlesspritealignment) ve [Particles.SpriteRotation](../Parameters#particlesspriterotation) parametrelerini degiştirerek de yapabilirsiniz ama bu modül aslında özel bi durumda da kullanılabilmek için yapılmış. Şöyle ki, eger herhangi bir [Renderer](#render) üzerinden "Source Mode" ayarını "Emitter" yaparsanız, parçacıklar artık Emitter parçacıgı olacagı için, "Particles" kategorisindeki [Particles.SpriteAlignment](../Parameters#particlesspritealignment) ve [Particles.SpriteRotation](../Parameters#particlesspriterotation) parametrelerini kullanmazlar. Bunun yerine [Emitter.SpriteAlignment](../Parameters#emitterspritealignment) ve [Emitter.SpriteFacing](../Parameters#emitterspritefacing) parametrelerini kullanırlar.
 
 
 
