@@ -36,3 +36,143 @@ Bunlar oynatma araçlarıdır. Soldan saga dogru,
 * Sürekli oynat (döngü)/bir kez oynat
 
 
+<br>
+
+<img src="../../../Dosyalar/Niagara_Editor_Timeline_4.png">
+
+Burada bütün Emitter'lar görünür. "+ Track" bölümünden yeni emitter ve ya klasör ekleyebilirsiniz.
+
+
+<br>
+
+<img src="../../../Dosyalar/Niagara_Editor_Timeline_5.png">
+
+Burası ayarlar bölümüdür. Soldan saga,
+
+
+### Actions
+
+* #### Open Director Blueprint
+bilmiyorum.
+
+* #### Open Binding Tag Manager
+bilmiyorum.
+
+* #### Open Sequencer Group Manager
+bilmiyorum.
+
+* #### Restore Pre-Animated State
+bilmiyorum.
+
+* #### Advanced
+bilmiyorum.
+
+* #### Transform Selection...
+bilmiyorum.
+
+* #### Stretch/Shrink...
+bilmiyorum.
+
+* #### Translate Left
+bilmiyorum.
+
+* #### Translate Right
+bilmiyorum.
+
+* #### Trim or Extend Section Left
+bilmiyorum.
+
+* #### Trim or Extend Section Right
+bilmiyorum.
+
+* #### Set Selection Start
+bilmiyorum.
+
+* #### Set Selection End
+bilmiyorum.
+
+* #### Clear Selection Range
+bilmiyorum.
+
+* #### Select Keys in Selection Range
+bilmiyorum.
+
+* #### Select Sections in Selection Range
+bilmiyorum.
+
+* #### Select All in Selection Range
+bilmiyorum.
+
+
+### View Options
+
+
+* #### Auto Scroll
+Oynatma ayracı şu an görüntülediginiz aralıgın dışına çıkarsa, görüntülediginiz aralıgı ayracı takip edecek şekilde kaydırır.
+
+* #### Range Slider
+Alttaki oynatma aralıgını gösteren bölümü açar. 
+
+* #### Selected Nodes Only
+bilmiyorum.
+
+* #### Layer Bars
+bilmiyorum.
+
+* #### Key Bars
+bilmiyorum.
+
+* #### Channel Colors
+bilmiyorum.
+
+* #### Status Bar
+bilmiyorum.
+
+* #### Pre/Post Roll
+bilmiyorum.
+
+* #### Zero Pad Frame Numbers
+bilmiyorum.
+
+* #### Auto Expand Nodes on Selection
+bilmiyorum.
+
+* #### Expand/Collapse Nodes
+bilmiyorum.
+
+* #### Expand/Collapse Nodes and Descendants
+bilmiyorum.
+
+* #### Expand All Nodes
+bilmiyorum.
+
+* #### Collapse All Nodes
+bilmiyorum.
+
+* #### Sort All Nodes
+bilmiyorum.
+
+* #### Show Marked Frames Globaliy
+bilmiyorum.
+
+* #### Clear Global Marked Frames
+bilmiyorum.
+
+
+
+### Playback Options
+
+* #### Start
+Oynatılacak aralıgın başlangıcı.
+
+* #### End
+Oynatılacak aralıgın bitişi.
+
+* #### Playback Speed
+Oynatma hızı.
+
+* #### Playback Range Locked
+Aralıgın başlangıç ve bitişi kilitler yani bu ayar açıkken başlangıç ve bitiş degiştirilemez.
+
+* #### Async Evaluation
+* #### Dynamic Weighting
