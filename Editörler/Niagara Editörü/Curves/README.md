@@ -129,3 +129,29 @@ Bir önceki ve sonraki key'in şu anki key'e göre konumunlarına göre dogrusal
 
 ## Constant Tangent
 Key bir sonraki key'e kadar kendi degerini kullanır, yani key'in degeri düz bir şekilde hiç degişmeden kalır.
+
+## Weighted Tangents
+Bu ayarı açtıgınız zaman tanjtant'ın uzunlugunu yani etkisini arttırabilir/azaltabilirsiniz.
+
+## Pre Infinity Settings
+Bu ayar yaptıgımız Curve'deki ilk key'den öncesini ayarlamamıza yarar. Yani bizim belirledigimiz Curve'den öncesini ayarlar. Buna Pre Infinity deniyor. 5 modu vardır,
+
+Mod | İşlem
+:---: | :---:
+Constant | Curve ilk key'den öncesinde, hep ilk key'in degeri kullanılır.
+Cycle | Curve ilk key'den öncesinde, yaptıgımız Curve'ü sürekli tekrar eder.
+Cycle with Offset | Curve ilk key'den öncesinde, yaptıgımız Curve'ü sürekli tekrar eder ama tekrar başlangıca alarak degil de, bir önceki tekrarın üzerinden devam eder. Yani mesela diyelim ki 0'dan 10'a kadar giden bi Curve yaptınız, bu mod Cycle modu gibi her tekrarda degeri 0'a düşürmek yerine bir önceki tekrarın sonuç degerini kullanır. Yani 0-10, 0-10, 0-10 degil de 0-10, 10-20, 20-30 şeklinde.
+Linear | Curve ilk key'den öncesinde, ikinci key'den ilk key'e bakan yöne dogru sonsuza kadar gider.
+Oscillate (Ping Pong) | Curve ilk key'den öncesinde, yaptıgımız Curve'ü sürekli tekrar eder ama sürekli baştan başlamak yerine bir önceki tekrarı mirror eder, yani aynalar. Böylelikle kaldıgı yerden devam etmiş gibi olur.
+
+## Post Infinity Settings
+Bu ayar yaptıgımız Curve'deki son key'den sonrasını ayarlamamıza yarar. Yani bizim belirledigimiz Curve'den sonrasını ayarlar. Buna Post Infinity deniyor. 5 modu vardır,
+
+Mod | İşlem
+:---: | :---:
+Constant | Curve son key'den sonrasında, hep son key'in degeri kullanılır.
+Cycle | Curve son key'den sonrasında, yaptıgımız Curve'ü sürekli tekrar eder.
+Cycle with Offset | Curve son key'den sonrasında, yaptıgımız Curve'ü sürekli tekrar eder ama tekrar başlangıca alarak degil de, bir önceki tekrarın üzerinden devam eder. Yani mesela diyelim ki 0'dan 10'a kadar giden bi Curve yaptınız, bu mod Cycle modu gibi her tekrarda degeri 0'a düşürmek yerine bir önceki tekrarın sonuç degerini kullanır. Yani 0-10, 0-10, 0-10 degil de 0-10, 10-20, 20-30 şeklinde.
+Linear | Curve son key'den sonrasında, sondan ikinci key'den son key'e bakan yöne dogru sonsuza kadar gider.
+Oscillate (Ping Pong) | Curve son key'den sonrasında, yaptıgımız Curve'ü sürekli tekrar eder ama sürekli baştan başlamak yerine bir önceki tekrarı mirror eder, yani aynalar. Böylelikle kaldıgı yerden devam etmiş gibi olur.
+
