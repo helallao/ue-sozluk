@@ -2,6 +2,7 @@
 * Her modül için, hangi kategorilerde yer alabildigini ([Emitter](../Graph#emitter) ve ya [System](../Graph#system) üzerinde) açıklamanın başına ekledim.
 * Eger modül hakkında güzel bi kaynak (genellikle video) varsa, modül'ün başlıgına eklerim, başlıga tıklayıp videoya gidebilirsiniz, zaten modül'ü anlamak için verdigim kaynaga bakmak gerekiyorsa bunu açıklamada da belirtirim. Bazı modül'lerde güzel kaynak olsa bile koymadım çünkü zaten benim açıklamalarımda ögreneceginiz her şey anlatılıyor.
 * Eger modül'ün içerisindeki bir input modlara sahipse ve bu modlara göre alt inputlar açılıp kapanıyorsa, sadece alt inputlar anlatılır ve hangi moda baglıysa inputun önünde "Sadece '\*' modu '\*' modundayken vardır." şeklinde yazar. Eger bu modlar hakkında açıklama yapılması gerekiyorsa, modlar da input gibi düşünülüp her bir modun açıklaması yazılır.
+* Niagara modül editörü hakkında bilgilere [Niagara Modül Editörü](../../Niagara%20Modül%20Editörü) bölümünden ulaşabilirsiniz.
 * Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
 <br>
 <br>
