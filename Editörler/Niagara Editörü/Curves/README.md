@@ -79,4 +79,10 @@ Buradan seçilen key'in süresini ve degerini ayarlayabilirsiniz.
 Normal seçim moduna döner. Bu butonu başka moda geçtiginiz zaman tekrar normal moda dönmek için kullanırsınız.
 
 ## Transform Mode
+Transform moduna geçer. Transform modunda iken tek bir key degil de birden fazla key düzenleyebilirsiniz. Belirlediginiz key'lere göre bir alan oluşturulur ve bu alanın köşelerini/kenarlarını hareket ettirerek bütün key'leri birden hareket ettirebilirsiniz. Ayrıca orta noktanın yerini degiştirerek hareketlerin hangi yönde olacagını daha dogrusu hareket edilecek yönlerin oranını belirleyebilirsiniz.
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_8.gif">
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_9.gif">
+
 
