@@ -4,12 +4,16 @@
 * Eger modül'ün içerisindeki bir input modlara sahipse ve bu modlara göre alt inputlar açılıp kapanıyorsa, sadece alt inputlar anlatılır ve hangi moda baglıysa inputun önünde "Sadece '\*' modu '\*' modundayken vardır." şeklinde yazar. Eger bu modlar hakkında açıklama yapılması gerekiyorsa, modlar da input gibi düşünülüp her bir modun açıklaması yazılır.
 * Niagara modül editörü hakkında bilgilere [Niagara Modül Editörü](../../Niagara%20Modül%20Editörü) bölümünden ulaşabilirsiniz.
 * Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
-<br>
+
 <br>
 <br>
 
+### Modül açıklamaları
+Modüllerin nasıl çalıştıklarını bilmek için sadece inputlarını ve açıklamaları okumak yetmez, aynı zamanda kodlarını da bilmek gerek. Dolayısıyla ben de modüllerin dosyalarının türkçe yorum satırlarıyla yeni versiyonlarını oluşturdum. Kodları belirli bölümlere bölerek her birinin ne yaptıgını anlattım. Bu "uasset" dosyalarını proje klasörünüze koyarak görüntüleyebilirsiniz (C:\Users\BilgisayarAdı\Documents\Unreal Projects). Eger isterseniz sadece belirli bir modülün de dosyasını indirebilmeniz için tek tek dosya halinde listeyi de aşagıya bırakıyorum. Hepsini zip olarak indirmek için [bu sayfanın](../../../Dosyalar/moduller.zip) sag üstündeki indirme işaretine basın.
 
-
+<br>
+<br>
+<br>
 
 
 
