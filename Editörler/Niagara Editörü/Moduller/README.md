@@ -9,7 +9,49 @@
 <br>
 
 ### Modül açıklamaları
-Modüllerin nasıl çalıştıklarını bilmek için sadece inputlarını ve açıklamaları okumak yetmez, aynı zamanda kodlarını da bilmek gerek. Dolayısıyla ben de modüllerin dosyalarının türkçe yorum satırlarıyla yeni versiyonlarını oluşturdum. Kodları belirli bölümlere bölerek her birinin ne yaptıgını anlattım. Bu "uasset" dosyalarını proje klasörünüze koyarak görüntüleyebilirsiniz (C:\Users\BilgisayarAdı\Documents\Unreal Projects). Eger isterseniz sadece belirli bir modülün de dosyasını indirebilmeniz için tek tek dosya halinde listeyi de aşagıya bırakıyorum. Hepsini zip olarak indirmek için [bu sayfanın](../../../Dosyalar/moduller.zip) sag üstündeki indirme işaretine basın.
+Modüllerin nasıl çalıştıklarını bilmek için sadece inputlarını ve açıklamaları okumak yetmez, aynı zamanda kodlarını da bilmek gerek. Dolayısıyla ben de modüllerin dosyalarının türkçe yorum satırlarıyla yeni versiyonlarını oluşturdum. Kodları belirli bölümlere bölerek her birinin ne yaptıgını anlattım. Bu "uasset" dosyalarını proje klasörünüze koyarak görüntüleyebilirsiniz (C:\Users\BilgisayarAdı\Documents\Unreal Projects). Eger isterseniz sadece belirli bir modülün de dosyasını indirebilmeniz için tek tek dosya halinde listeyi de aşagıya bırakıyorum, "Modül dosyaları" yazısına tıklayarak hepsini görebilirsiniz. Hepsini zip olarak indirmek için [bu sayfanın](../../../Dosyalar/moduller.zip) sag üstündeki indirme işaretine basın.
+
+<br>
+
+<details>
+<summary>Modül dosyaları</summary>
+
+Modül | Dosya
+:---: | :---:
+Acceleration Force | [link](../../../Dosyalar/AccelerationForce.uasset)
+Add Velocity | [link](../../../Dosyalar/AddVelocity.uasset)
+Color | [link](../../../Dosyalar/Color.uasset)
+Fade Over Time | [link](../../../Dosyalar/FadeOverTime.uasset)
+Find Closest Point On Triangle | [link](../../../Dosyalar/FindClosestPointOnTriangle.uasset)
+Gravity Force | [link](../../../Dosyalar/GravityForce.uasset)
+Grid Location | [link](../../../Dosyalar/GridLocation.uasset)
+Initialize Particle | [link](../../../Dosyalar/InitializeParticle.uasset)
+Jitter Position | [link](../../../Dosyalar/JitterPosition.uasset)
+Kill Particles In Volume | [link](../../../Dosyalar/KillParticlesInVolume.uasset)
+Limit Force | [link](../../../Dosyalar/LimitForce.uasset)
+Linear Force | [link](../../../Dosyalar/LinearForce.uasset)
+Line Attraction Force | [link](../../../Dosyalar/LineAttractionForce.uasset)
+Maintain A Set Distance Between Points | [link](../../../Dosyalar/MaintainA_SetDistanceBetweenPoints.uasset)
+Point Attraction Force | [link](../../../Dosyalar/PointAttractionForce.uasset)
+Point Force | [link](../../../Dosyalar/PointForce.uasset)
+Rotate Around Point | [link](../../../Dosyalar/RotateAroundPoint.uasset)
+Scale Color | [link](../../../Dosyalar/ScaleColor.uasset)
+Scale Color By Speed | [link](../../../Dosyalar/ScaleColorBySpeed.uasset)
+Spawn Burst Instantaneous | [link](../../../Dosyalar/SpawnBurst_Instantaneous.uasset)
+Spawn Particles In Grid | [link](../../../Dosyalar/SpawnParticlesInGrid.uasset)
+Spawn Per Frame | [link](../../../Dosyalar/SpawnPerFrame.uasset)
+Spawn Per Unit | [link](../../../Dosyalar/SpawnPerUnit.uasset)
+Spawn Rate | [link](../../../Dosyalar/SpawnRate.uasset)
+Spring Force | [link](../../../Dosyalar/SpringForce.uasset)
+Sprite Based Line | [link](../../../Dosyalar/SpriteBasedLine.uasset)
+System State | [link](../../../Dosyalar/SystemState.uasset)
+Timeline | [link](../../../Dosyalar/Timeline.uasset)
+Vector Noise Force | [link](../../../Dosyalar/VectorNoiseForce.uasset)
+Vortex Force | [link](../../../Dosyalar/VortexForce.uasset)
+Vortex Velocity | [link](../../../Dosyalar/VortexVelocity.uasset)
+
+</details>
+
 
 <br>
 <br>
