@@ -176,3 +176,8 @@ bilmiyorum.
 * #### Simplify
 Simplify seçilen key'ler arasında gereksiz olan key'leri siler, curve'ü çok bozmadan sadeleştirir.
 
+
+
+
+# Kaynaklar
+* [Curve Editor](https://docs.unrealengine.com/5.2/en-US/animation-curve-editor-in-unreal-engine/) - Curve Editor, Unreal Engine'in kendi dökümanı
