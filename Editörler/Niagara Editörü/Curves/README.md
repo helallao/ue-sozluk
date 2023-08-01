@@ -155,3 +155,24 @@ Cycle with Offset | Curve son key'den sonrasında, yaptıgımız Curve'ü sürek
 Linear | Curve son key'den sonrasında, sondan ikinci key'den son key'e bakan yöne dogru sonsuza kadar gider.
 Oscillate (Ping Pong) | Curve son key'den sonrasında, yaptıgımız Curve'ü sürekli tekrar eder ama sürekli baştan başlamak yerine bir önceki tekrarı mirror eder, yani aynalar. Böylelikle kaldıgı yerden devam etmiş gibi olur.
 
+## Flatten Tangent
+Seçilen key'in tanjant'larını yatay olarak düzler.
+
+## Straighten Tangent
+Broken Tangents modunda iken bu ayara tıklamak, key'in Broken Tangents'ının yani iki tanjant'ının aralıgını bulup o açıda düzler.
+
+## Filter Tool
+Bu ayar Filter Tool penceresini açar. Bu pencere üzerinden curve ile ilgili işlemler yapabilirsiniz.
+
+* #### Bake
+Bake seçilen key'ler arasında otomatik key oluşturma işlemi yapmanıza yarar. "Bake Interval in Seconds" ayarı ile oluşturulacak yeni key'ler arasındaki aralık degerini saniye cinsinden belirleyebilirsiniz. Eger çok daha fazla key oluşturmak istiyorsanız "Use Frame Bake" ayarını açabilirsiniz, bu ayar her frame için key oluşturur, eger frame aralıgı belirlemek isterseniz "Bake Interval in Frames" ayarını kullanabilirsiniz, her key arasına verdiginiz sayı kadar frame aralık bırakılır.
+
+* #### Euler
+bilmiyorum.
+
+* #### Fourier Transform (FFT)
+bilmiyorum.
+
+* #### Simplify
+Simplify seçilen key'ler arasında gereksiz olan key'leri siler, curve'ü çok bozmadan sadeleştirir.
+
