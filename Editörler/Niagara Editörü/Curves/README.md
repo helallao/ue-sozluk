@@ -86,3 +86,19 @@ Transform moduna geçer. Transform modunda iken tek bir key degil de birden fazl
 <img src="../../../Dosyalar/Niagara_Editor_Curves_9.gif">
 
 
+## Retime Mode
+Retime moduna geçer. Retime modunda key'lerin süre degerlerini ileri/geri alabilirsiniz. İki çizgi/kenar sunar, bunları hareket ettirince key'lerin de süre degerleri aynı oranda degiştirilir. Çift tıklayarak yeni çizgi/kenar ekleyebilirsiniz. Alttaki çarpı işaretlerine tıklayarak çizgi/kenar'ları silebilirsiniz.
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_10.gif">
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_11.gif">
+
+
+## Multi Select Mode
+Multi Select moduna geçer. Multi Select modunda birden fazla key seçersiniz, sonra hepsini birden X ve Y ekseninde ileri geri alabilirsiniz. Ayrıca ileri geri alırken neye göre oranlama yapılacagını da belirleyebilirsiniz. "Average" modunda iken bütün keylerin ortalaması (orta noktası) hesaplanır ve bu noktaya göre oranlama yapılır. "Bound Center" modunda iken oluşturulan alanın orta noktası seçilir, yani "Average" modundaki gibi tam olarak orta nokta hesaplanmaz. "First Key" modunda iken en soldaki key'e göre oranlama yapılır. "Last Key" modunda iken en sagdaki key'e göre oranlama yapılır.
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_12.gif">
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_13.gif">
+
+
