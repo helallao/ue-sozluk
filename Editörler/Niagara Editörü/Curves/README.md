@@ -1,4 +1,4 @@
-# Log
+# Curves
 <img src="../../../Dosyalar/Niagara_Editor_Curves.jpg">
 
 
