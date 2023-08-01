@@ -102,3 +102,30 @@ Multi Select moduna geçer. Multi Select modunda birden fazla key seçersiniz, s
 <img src="../../../Dosyalar/Niagara_Editor_Curves_13.gif">
 
 
+## Time Snapping
+bilmiyorum.
+
+## Value Snapping
+bilmiyorum.
+
+## Lock Axis
+Hangi eksenler üzerinde hareket edilecegini belirler.
+
+## Cubic (Auto) Tangent
+Key'i diger key'ler ile otomatik olarak oranlamaya ayarlar.
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_14.gif">
+
+## Cubic (User) Tangent
+Key için kullanıcı tarafından belirlenen tanjant kullanılır.
+
+## Cubic (Break) Tangent
+Key'e gelen ve key'den çıkan tanjant açılarını birbirinden ayrı olarak ayarlayabilmenize yarar.
+
+<img src="../../../Dosyalar/Niagara_Editor_Curves_15.png">
+
+## Linear Tangent
+Bir önceki ve sonraki key'in şu anki key'e göre konumunlarına göre dogrusal olarak tanjant'ları belirler.
+
+## Constant Tangent
+Key bir sonraki key'e kadar kendi degerini kullanır, yani key'in degeri düz bir şekilde hiç degişmeden kalır.
