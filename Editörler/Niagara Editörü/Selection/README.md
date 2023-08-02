@@ -28,11 +28,55 @@ Sag üstteki 3 çizgiden "Show All Advanced" ayarı ile gelişmiş inputları ş
 
 # Dinamik Inputlar
 
-Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar. Yani mesela "Float" bir inputa "Float" döndüren dinamik input baglayabilirsiniz. Bagladıgınız dinamik input sizden başka inputlar alabilir, aldıgı inputlar ile işlemler yapar ve çıkan degeri dinamik inputun baglı oldugu input degeri olarak ayarlar. Bir dinamik inputu döndürdügü degerin dışında bir inputa baglayamazsınız. Yani "Vector" döndüren bir dinamik inputu "Float" deger alan bir inputa baglayamazsınız. Aşagıdan bütün deger türlerine göre dinamik inputlara ve açıklamalarına ulaşabilirsiniz.
+Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar, [Niagara Modül Editörü'nde](../../Niagara%20Modül%20Editörü) olan çogu kodu barındırır. Yani mesela "Float" bir inputa "Float" döndüren dinamik input baglayabilirsiniz. Bagladıgınız dinamik input sizden başka inputlar alabilir, aldıgı inputlar ile işlemler yapar ve çıkan degeri dinamik inputun baglı oldugu input degeri olarak ayarlar. Bir dinamik inputu döndürdügü degerin dışında bir inputa baglayamazsınız. Yani "Vector" döndüren bir dinamik inputu "Float" deger alan bir inputa baglayamazsınız. Aşagıdan bütün deger türlerine göre dinamik inputlara ve açıklamalarına ulaşabilirsiniz.
 
 * [bool](#bool)
 
 
 
 # bool
+
+## [Boolean and Operation]()
+
+İki input alır. Eger ikisi de True ise True döndürür.
+
+
+## [Boolean not Operation]()
+Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True.
+
+
+## [Boolean or Operation]()
+
+İki input alır. Eger ikisinden biri True ise True döndürür.
+
+
+## [Invert Bool]()
+
+Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True.
+
+
+## [Is Platform Set Active]()
+
+bilmiyorum.
+
+
+## [Is Platform Set Active]()
+
+bilmiyorum.
+
+
+## [Mask Bool by Spawn Group]()
+
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Bool" inputuna verdiginiz degeri, degilse "Passthrough Bool" inputuna verdiginiz degeri kullanır.
+
+* #### Masked Bool
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
+
+* #### Passthrough Bool
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşit degilse bu deger kullanılır.
+
+* #### Spawn Group Mask
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
+
+
 
