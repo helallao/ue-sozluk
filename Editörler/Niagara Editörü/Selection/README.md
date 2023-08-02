@@ -27,3 +27,12 @@ Sag üstteki 3 çizgiden "Show All Advanced" ayarı ile gelişmiş inputları ş
 
 
 # Dinamik Inputlar
+
+Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar. Yani mesela "Float" bir inputa "Float" döndüren dinamik input baglayabilirsiniz. Bagladıgınız dinamik input sizden başka inputlar alabilir, aldıgı inputlar ile işlemler yapar ve çıkan degeri dinamik inputun baglı oldugu input degeri olarak ayarlar. Bir dinamik inputu döndürdügü degerin dışında bir inputa baglayamazsınız. Yani "Vector" döndüren bir dinamik inputu "Float" deger alan bir inputa baglayamazsınız. Aşagıdan bütün deger türlerine göre dinamik inputlara ve açıklamalarına ulaşabilirsiniz.
+
+* #### [bool](#bool)
+
+
+
+# bool
+
