@@ -3473,7 +3473,7 @@ Parçacıkların girdapda kalma süresini arttırır. Falloff alanı oluşturur,
 
 ## [New Scratch Pad Module]()
 
-Yeni "Scratch Pad" modülü oluşturmanıza yarar. "Scratch Pad" modülünün normal niagara modüllerinden bildigim tek farkı asset üzerine kaydedilmemesidir. Yani normalde niagara modülü kodlarken modülü bir assete kaydedersiniz. Sonra o asseti kullanarak modülü Emitter'ınıza eklersiniz. Ama "Scratch Pad" modülünde asset oluşturmanıza gerek kalmadan modül kodlayabilirsiniz. Yani "New Scratch Pad Module" niagara modülü kodlamanıza yarar.
+Yeni "Scratch Pad" modülü oluşturmanıza yarar. "Scratch Pad" modülünün normal niagara modüllerinden bildigim tek farkı asset üzerine kaydedilmemesidir. Yani normalde niagara modülü kodlarken modülü bir assete kaydedersiniz. Sonra o asseti kullanarak modülü Emitter'ınıza eklersiniz. Ama "Scratch Pad" modülünde asset oluşturmanıza gerek kalmadan modül kodlayabilirsiniz. Yani "New Scratch Pad Module" niagara modülü kodlamanıza yarar. Oluşturdugunuz "Scratch Pad" modülleri [Local Modules](../Local%20Modules) penceresinde gösterilir.
 
 
 
