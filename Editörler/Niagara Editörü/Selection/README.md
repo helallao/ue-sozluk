@@ -135,6 +135,8 @@ A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
 
 
 
+<br>
+<br>
 
 
 # float
