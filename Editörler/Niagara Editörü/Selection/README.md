@@ -25,4 +25,4 @@ Sag üstteki 3 çizgiden "Show All Advanced" ayarı ile gelişmiş inputları ş
 "Show Only Issues" ayarının tam olarak nasıl çalıştıgını bilmiyorum. Açınca modüller siliniyor, geri kapatsanız bile karışıyor. Yani gereksiz, kullanmayın.
 
 
-# Dinamik Parametreler
+# Dinamik Inputlar
