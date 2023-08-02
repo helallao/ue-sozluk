@@ -79,4 +79,34 @@ Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawn
 Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
 
 
+## [Random Bool]()
+
+Rastgele bool döndürür. Eger "Evaluation Type" inputu "Spawn Only" ise tek bir kere rastgele bool seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele bool döndürür.
+
+* #### Evaluation Type
+"Spawn Only" ise tek bir kere rastgele bool seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele bool döndürür.
+
+
+## [Set Bool by Float Comparison]()
+
+İki float degeri alır ve bu degerleri "Comparison Type" inputuna verdiginiz koşula göre karşılaştırıp sonucu döndürür.
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+* #### Comparison Type
+Koşulu belirler. 6 modu vardır.
+
+Mod | İşlem
+:---: | :---:
+A Greater Than B | A B'den büyükse True, degilse False.
+A Greater Than Or Equal To B | A B'den büyük ve ya eşitse True, degilse False.
+A Equal To B | A B'ye eşitse True, degilse False.
+A Not Equal To B | A B'ye eşit degilse True, degilse False.
+A Less Than B | A B'den küçükse True, degilse False.
+A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
+
 
