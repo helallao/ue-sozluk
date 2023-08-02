@@ -31,6 +31,7 @@ Sag üstteki 3 çizgiden "Show All Advanced" ayarı ile gelişmiş inputları ş
 Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar, [Niagara Modül Editörü'nde](../../Niagara%20Modül%20Editörü) olan çogu kodu barındırır. Yani mesela "Float" bir inputa "Float" döndüren dinamik input baglayabilirsiniz. Bagladıgınız dinamik input sizden başka inputlar alabilir, aldıgı inputlar ile işlemler yapar ve çıkan degeri dinamik inputun baglı oldugu input degeri olarak ayarlar. Bir dinamik inputu döndürdügü degerin dışında bir inputa baglayamazsınız. Yani "Vector" döndüren bir dinamik inputu "Float" deger alan bir inputa baglayamazsınız. Aşagıdan bütün deger türlerine göre dinamik inputlara ve açıklamalarına ulaşabilirsiniz.
 
 * [bool](#bool)
+* [float](#float)
 
 
 
@@ -109,4 +110,32 @@ A Not Equal To B | A B'ye eşit degilse True, degilse False.
 A Less Than B | A B'den küçükse True, degilse False.
 A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
 
+
+## [Set Bool by Int Comparison]()
+
+İki integer degeri alır ve bu degerleri "Comparison Type" inputuna verdiginiz koşula göre karşılaştırıp sonucu döndürür.
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+* #### Comparison Type
+Koşulu belirler. 6 modu vardır.
+
+Mod | İşlem
+:---: | :---:
+A Greater Than B | A B'den büyükse True, degilse False.
+A Greater Than Or Equal To B | A B'den büyük ve ya eşitse True, degilse False.
+A Equal To B | A B'ye eşitse True, degilse False.
+A Not Equal To B | A B'ye eşit degilse True, degilse False.
+A Less Than B | A B'den küçükse True, degilse False.
+A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
+
+
+
+
+
+# float
 
