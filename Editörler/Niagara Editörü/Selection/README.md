@@ -277,3 +277,49 @@ A vektörü.
 
 * #### Vector B
 B vektörü.
+
+
+## [Float from Curve]()
+
+Curve ile float degeri üretmenize yarar.
+
+
+## [Floor Float]()
+
+Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (bkz. [Floor](../../Niagara%20Modül%20Editörü/Nodlar#floor)). örnegin
+<br>
+<br>
+9.9 -> 10
+<br>
+9.1 -> 10
+
+
+## [Frac Float]()
+
+Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir (bkz. [Frac](../../Niagara%20Modül%20Editörü/Nodlar#frac)). örnegin,
+<br>
+<br>
+1.5 = 0.5
+<br>
+2.0 = 0
+<br>
+0.99 = 0.99
+
+
+## [Lerp Float]()
+
+Formül: [(a * (1 - c)) + (b * c)](https://www.desmos.com/calculator/gtuwm4l27u). Verilen "Alpha" degerine göre "A" ve "B" inputlarını birbirine karıştırır, oranlar. Örnegin "A" ve "B" için iki sayı girin mesela 10 ve 0. Eger "Alpha" degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger "Alpha" degerine 0.5 verirseniz sayımız da "A" ve "B" nin ortası yani 5 olur. Yani 0'a yaklaştıkça A, 1'e yaklaştıkça B. Kısacası en basit tanımıyla oranlama yapar diyebiliriz, yüzde olarak degilde 0 - 1 arası gibi düşünün, 0 = %0, 1 = %100. (bkz. [Lerp](../../Niagara%20Modül%20Editörü/Nodlar#lerp))
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+* #### Alpha
+Alpha degeri.
+
+
+## [Lerp Multiple Floats]()
+
+a
