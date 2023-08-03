@@ -43,22 +43,17 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 
 
 ## [Boolean not Operation]()
-Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True.
+Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
 
 
 ## [Boolean or Operation]()
 
-İki input alır. Eger ikisinden biri True ise True döndürür.
+İki input alır. Eger ikisinden biri True ise True döndürür (bkz. [Logic OR](../../Niagara%20Modül%20Editörü/Nodlar#logic-or)).
 
 
 ## [Invert Bool]()
 
-Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True.
-
-
-## [Is Platform Set Active]()
-
-bilmiyorum.
+Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
 
 
 ## [Is Platform Set Active]()
@@ -82,7 +77,7 @@ Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawn
 
 ## [Random Bool]()
 
-Rastgele bool döndürür. Eger "Evaluation Type" inputu "Spawn Only" ise tek bir kere rastgele bool seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele bool döndürür.
+Rastgele bool döndürür. Eger "Evaluation Type" inputu "Spawn Only" ise tek bir kere rastgele bool seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele bool döndürür (bkz. [Calculate Random Bool](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-bool)).
 
 * #### Evaluation Type
 "Spawn Only" ise tek bir kere rastgele bool seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele bool döndürür.
@@ -143,12 +138,12 @@ A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
 
 ## [Abs Float]()
 
-Aldıgı inputun mutlak degerini verir.
+Aldıgı inputun mutlak degerini verir (bkz. [Abs](../../Niagara%20Modül%20Editörü/Nodlar#abs)).
 
 
 ## [Add Float]()
 
-İki input alır ve toplamlarını döndürür.
+İki input alır ve toplamlarını döndürür (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
 
 
 ## [Angle Conversion]()
@@ -167,7 +162,7 @@ Degrees | Derece
 Normalized Angle (0-1) | 0 - 360 yerine 0 - 1 arası degerler.
 Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
-Angle Output
+* #### Angle Output
 Verdiginiz derece degerinin dönüştürülecegi tür.
 
 Tür | İçerik
@@ -196,7 +191,7 @@ Sadece "Radius Calculation Type" "Custom" modunda iken vardır. Manuel olarak ya
 
 ## [Ceil Float]()
 
-Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar. örnegin
+Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (bkz. [Ceil](../../Niagara%20Modül%20Editörü/Nodlar#ceil)). örnegin
 <br>
 <br>
 9.9 -> 9
@@ -206,7 +201,7 @@ Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar. örnegin
 
 ## [Clamp Float]()
 
-Verdiginiz inputu "Min" ve "Max" degerine göre düzenler. Eger input Min degerinden küçükse Min degerine, Max degerinden büyükse Max degerine taşınır.
+Verdiginiz inputu "Min" ve "Max" degerine göre düzenler. Eger input Min degerinden küçükse Min degerine, Max degerinden büyükse Max degerine taşınır (bkz. [Clamp](../../Niagara%20Modül%20Editörü/Nodlar#clamp)).
 
 * #### Float
 Deger.
@@ -236,7 +231,7 @@ bilmiyorum.
 
 ## [Cosine]()
 
-"Normalized Angle" inputu için kosinüs degeri döndürür. Kosinüs degerinin periyodunu "Period" inputundan belirleyebilirsiniz. Hesaplanan kosinüs degeri "Scale" inputu ile çarpılır yani "Scale" inputu kosinüs degeri için çarpan görevi görür. Sonra hesaplanan degere "Bias" inputu eklenir.
+"Normalized Angle" inputu için kosinüs degeri döndürür. Kosinüs degerinin periyodunu "Period" inputundan belirleyebilirsiniz. Hesaplanan kosinüs degeri "Scale" inputu ile çarpılır yani "Scale" inputu kosinüs degeri için çarpan görevi görür. Sonra hesaplanan degere "Bias" inputu eklenir. (bkz. [Cosine](../../Niagara%20Modül%20Editörü/Nodlar#cosine))
 
 * #### Normalized Angle
 Kosinüsü alınacak deger.
@@ -253,7 +248,7 @@ Hesaplanan degere eklenir.
 
 ## [Distance Between Positions]()
 
-Verdiginiz iki konum arasındaki mesafe degerini döndürür.
+Verdiginiz iki konum arasındaki mesafe degerini döndürür (bkz. [Distance](../../Niagara%20Modül%20Editörü/Nodlar#distance)).
 
 * #### A
 A konumu.
@@ -264,7 +259,7 @@ B konumu.
 
 ## [Divide Float]()
 
-Verdiginiz A inputunu B inputuna böler. 
+Verdiginiz A inputunu B inputuna böler (bkz. [Divide](../../Niagara%20Modül%20Editörü/Nodlar#divide)). 
 
 * #### A
 A degeri.
@@ -275,7 +270,7 @@ B degeri.
 
 ## [Dot Product]()
 
-Verdiginiz iki inputun Dot Product'ını verir.
+Verdiginiz iki inputun [Dot Product'ını](https://en.wikipedia.org/wiki/Dot_product) verir (bkz. [Dot](../../Niagara%20Modül%20Editörü/Nodlar#dot)).
 
 * #### Vector A
 A vektörü.
