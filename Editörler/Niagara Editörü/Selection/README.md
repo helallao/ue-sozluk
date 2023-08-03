@@ -250,3 +250,35 @@ Hesaplanan kosinüs degeri bu input ile çarpılır yani bu input kosinüs deger
 * #### Bias
 Hesaplanan degere eklenir.
 
+
+## [Distance Between Positions]()
+
+Verdiginiz iki konum arasındaki mesafe degerini döndürür.
+
+* #### A
+A konumu.
+
+* #### B
+B konumu.
+
+
+## [Divide Float]()
+
+Verdiginiz A inputunu B inputuna böler. 
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+
+## [Dot Product]()
+
+Verdiginiz iki inputun Dot Product'ını verir.
+
+* #### Vector A
+A vektörü.
+
+* #### Vector B
+B vektörü.
