@@ -194,6 +194,59 @@ Sadece "Radius Calculation Type" "Custom" modunda iken vardır. Manuel olarak ya
 3 method vardır, "Minimum Axis", "Maximum Axis" ve "Bounds". Minimum Axis methodu kısa olan ekseni seçer ve yarıçapını verir. Maximum Axis methodu uzun olan ekseni seçer ve yarıçapını verir. Bounds methodu iki eksenin uzunlugunu/büyüklügünü (magnitude) yani [Pythagorean theorem'ini](https://en.wikipedia.org/wiki/Pythagorean_theorem) alır ve yarıçapını verir.
 
 
+## [Ceil Float]()
+
+Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar. örnegin
+<br>
+<br>
+9.9 -> 9
+<br>
+9.1 -> 9
 
 
+## [Clamp Float]()
+
+Verdiginiz inputu "Min" ve "Max" degerine göre düzenler. Eger input Min degerinden küçükse Min degerine, Max degerinden büyükse Max degerine taşınır.
+
+* #### Float
+Deger.
+
+* #### Min
+Minimum deger.
+
+* #### Max
+Maximum deger.
+
+
+## [Compare Floats]()
+
+Verdiginiz inputların arasından en büyük/küçük olanını seçer.
+
+* #### Comparison Mode
+"Return Largest" modundayken en büyük olanı, "Return Smallest" modundayken en küçük olanı döndürür.
+
+* #### Comparison Count
+Kaç tane inputun karşılaştırılacagını belirler. 5'e kadar çıkarılabilir. A, B, C, D, E şeklinde inputlar oluşturur.
+
+
+## [Cone Mask]()
+
+bilmiyorum.
+
+
+## [Cosine]()
+
+"Normalized Angle" inputu için kosinüs degeri döndürür. Kosinüs degerinin periyodunu "Period" inputundan belirleyebilirsiniz. Hesaplanan kosinüs degeri "Scale" inputu ile çarpılır yani "Scale" inputu kosinüs degeri için çarpan görevi görür. Sonra hesaplanan degere "Bias" inputu eklenir.
+
+* #### Normalized Angle
+Kosinüsü alınacak deger.
+
+* #### Period
+Kosinüs degerinin periyodu.
+
+* #### Scale
+Hesaplanan kosinüs degeri bu input ile çarpılır yani bu input kosinüs degeri için çarpan görevi görür.
+
+* #### Bias
+Hesaplanan degere eklenir.
 
