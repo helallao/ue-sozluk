@@ -39,7 +39,7 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 
 ## [Boolean and Operation]()
 
-İki input alır. Eger ikisi de True ise True döndürür.
+İki input alır. Eger ikisi de True ise True döndürür (bkz. [Logic AND](../../Niagara%20Modül%20Editörü/Nodlar#logic-and)).
 
 
 ## [Boolean not Operation]()
