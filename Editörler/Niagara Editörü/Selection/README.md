@@ -516,5 +516,38 @@ Verdiginiz inputları [Calculate Random Range Float](../../Niagara%20Modül%20Ed
 [Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonunun "Fixed Random Seed" inputu.
 
 
+## [Remap Range]()
+Verdiginiz inputları direktmen [Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonundan geçirir ve sonucu kullanır. Açıklama için [Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonuna bakın.
+
+* #### Input Value To Remap
+Remap edilecek deger.
+
+* #### Clamp Results
+[Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonunun "Clamp Results" inputu.
+
+* #### Input Min
+[Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonunun "Input Min" inputu.
+
+* #### Input Max
+[Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonunun "Input Max" inputu.
+
+* #### Output Min
+[Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonunun "Output Min" inputu.
+
+* #### Output Max
+[Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonunun "Output Max" inputu.
+
+
+## [Return Normalized Exec Index]()
+[Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonundan degeri kullanır. Açıklama için [Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonuna bakın.
+
+* #### Normalized Index Scale
+[Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonundan gelen deger bu input ile çarpılır yani bu input [Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonundan gelen deger için çarpan görevi görür.
+
+* #### Normalized Index Includes One
+[Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonunun "Normalized Index Includes One" inputu.
+
+
+
 
 
