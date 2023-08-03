@@ -401,4 +401,59 @@ Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawn
 Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
 
 
+## [Max Float]()
+Verdiginiz 2 inputun büyük olanını kullanır (bkz. [Max](../../Niagara%20Modül%20Editörü/Nodlar#max)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+
+## [Min Float]()
+Verdiginiz 2 inputun küçük olanını kullanır (bkz. [Min](../../Niagara%20Modül%20Editörü/Nodlar#min)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+
+## [Modulo Float]()
+Verdiginiz ilk sayının ikinciye bölümünden kalanı kullanır. (bkz. [Modulo](../../Niagara%20Modül%20Editörü/Nodlar#modulo)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+
+## [Multiply Float]()
+Verdiginiz 2 inputun çarpımını kullanır. (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+
+## [Multiply Float by Int]()
+Verdiginiz float ile integer'ın çarpımını kullanır. (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+* #### Float
+Float degeri.
+
+* #### Integer
+Integer degeri.
+
+
+
+
+
+
+
 
