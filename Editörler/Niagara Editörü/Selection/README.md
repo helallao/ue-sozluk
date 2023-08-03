@@ -327,3 +327,78 @@ Veridiginiz inputları Lerp eder. Sadece 2 degeri degil daha fazlasını da Lerp
 * #### Float Count
 Lerp edilecek input sayısı.
 
+
+## [Make Custom Float from Bool]()
+"Bool" inputuna verdiginiz deger True ise "True Float" inputunu, False ise "False Float" inputunu kullanır.
+
+* #### Bool
+True ise "True Float" inputu, False ise "False Float" inputu kullanılır.
+
+* #### True Float
+"Bool" inputu True iken kullanılacak deger.
+
+* #### False Float
+"Bool" inputu False iken kullanılacak deger.
+
+
+## [Make Float from Int]()
+Verdiginiz integer'ı float'a dönüştürür.
+
+* #### Int
+Integer degeri.
+
+
+## [Make Float from Linear Color]()
+Verdiginiz Linear Color'ın tek bir kanalındaki float degerini kullanır.
+
+* #### LinearColor
+Linear Color degeri.
+
+* #### Channel
+Linear Color'dan float degerinin alınacagı kanal.
+
+
+## [Make Float from Linear Vector]()
+Verdiginiz vectör'ün tek bir kanalındaki float degerini kullanır.
+
+* #### Vector
+Vektör degeri.
+
+* #### Channel
+Vektör'den float degerinin alınacagı kanal.
+
+
+## [Make Float from Linear Vector 2d]()
+Verdiginiz 2 boyutlu vectör'ün tek bir kanalındaki float degerini kullanır.
+
+* #### Vector 2D
+2 boyutlu vektör degeri.
+
+* #### Channel
+2 boyutlu vektör'den float degerinin alınacagı kanal.
+
+
+## [Make Float from Linear Vector 4]()
+Verdiginiz 4 boyutlu vectör'ün tek bir kanalındaki float degerini kullanır.
+
+* #### Vector 4
+4 boyutlu vektör degeri.
+
+* #### Channel
+4 boyutlu vektör'den float degerinin alınacagı kanal.
+
+
+## [Mask Float by Spawn Group]()
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Float" inputuna verdiginiz degeri, degilse "Passthrough Float" inputuna verdiginiz degeri kullanır.
+
+* #### Masked Float
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
+
+* #### Passthrough Float
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşit degilse bu deger kullanılır.
+
+* #### Spawn Group Mask
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
+
+
+
