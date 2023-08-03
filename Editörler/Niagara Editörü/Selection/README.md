@@ -442,13 +442,50 @@ B degeri.
 
 
 ## [Multiply Float by Int]()
-Verdiginiz float ile integer'ın çarpımını kullanır. (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+Verdiginiz float ile integer'ın çarpımını kullanır (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
 
 * #### Float
 Float degeri.
 
 * #### Integer
 Integer degeri.
+
+
+## [Normalize Distance Range]()
+Verdiginiz inputları direktmen [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonundan geçirir ve sonucu kullanır. Açıklama için [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonuna bakın.
+
+* #### Start Position
+[Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonunun "Start Position" inputu.
+
+* #### End Position
+[Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonunun "End Position" inputu.
+
+* #### Distance
+[Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonunun "Distance" inputu.
+
+* #### Invert Normalized Range
+Bu ayar kapalıyken [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonunun "Normalized Range" outputu kullanılır, açıkken "Inverse Normalized Range" outputu kullanılır.
+
+
+## [Normalize Float]()
+Bilmiyorum.
+
+
+## [One Minus Float]()
+Verdiginiz degerin 1'den çıkarılmış halini kullanır (bkz. [One Minus](../../Niagara%20Modül%20Editörü/Nodlar#one-minus)).
+
+* #### Float
+Deger.
+
+
+## [Power]()
+Verilen "A" degerinin "B" degeri kadar kuvvetini alır. Eger "A" "B" den küçükse sonuç 0 olur (bkz. [Pow](../../Niagara%20Modül%20Editörü/Nodlar#pow)).
+
+* #### a
+A degeri.
+
+* #### b
+B degeri.
 
 
 
