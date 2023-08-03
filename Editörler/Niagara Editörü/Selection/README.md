@@ -141,3 +141,42 @@ A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
 
 # float
 
+## [Abs Float]()
+
+Aldıgı inputun mutlak degerini verir.
+
+
+## [Add Float]()
+
+İki input alır ve toplamlarını döndürür.
+
+
+## [Angle Conversion]()
+
+Aldıgı derece degerini başka bir derece degerine dönüştürür.
+
+* #### Angle
+Derece degeri.
+
+* #### Angle Input
+Verdiginiz derece degerinin türü.
+
+Tür | İçerik
+:---: | :---:
+Degrees | Derece
+Normalized Angle (0-1) | 0 - 360 yerine 0 - 1 arası degerler.
+Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
+
+Angle Output
+Verdiginiz derece degerinin dönüştürülecegi tür.
+
+Tür | İçerik
+:---: | :---:
+Degrees | Derece
+Normalized Angle (0-1) | 0 - 360 yerine 0 - 1 arası degerler.
+Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
+
+
+## [Calculate Particle Radius]()
+
+Aldıgı derece degerini başka bir derece degerine dönüştürür.
