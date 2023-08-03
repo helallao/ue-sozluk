@@ -322,4 +322,8 @@ Alpha degeri.
 
 ## [Lerp Multiple Floats]()
 
-a
+Veridiginiz inputları Lerp eder. Sadece 2 degeri degil daha fazlasını da Lerp edebilir. En fazla 5 degeri birden Lerp edebilirsiniz. Çalışma şekli şudur, normal Lerp işleminde iki deger vardır, yani 2 nokta vardır. Bu noktaların birincisi 0 degerinde iken, ikincisi 1 degerinde iken kullanılır. Lerp edilen deger sayısı arttıkça nokta sayısı da artar, mesela 3 degeri Lerp ederseniz 3 nokta oluşur, bu 3 nokta, 0, 0.5 ve 1'dir. 0'da iken 1. deger kullanılır, 0.5'e dogru kaydıkça sonuç da 2. degere dogru kayar. 0.5'de iken 2. deger kullanılır. Sonra 0.5'den 1'e dogru kaydıkça sonuç da 3. degere dogru kayar ve 1'de iken sonuç da 3. degere eşit olur. İşte çalışma mantıgı bu, 4 ve 5 inputu Lerp ederken de aynı mantık kullanılıyor. Mesela 4 inputlu Lerp işleminde 4 nokta vardır, bu noktalar, 0, 0.33, 0.66, 1'dir. 5 inputlu işlemde 5 nokta vardır, bu noktalar, 0, 0.25, 0.5, 0.75, 1'dir. Desmos üzerinde yaptıgım [örnege](https://www.desmos.com/calculator/3hswgubepl) de bakabilirsiniz. (bkz. [Lerp Multiple Numeric Fn](../../Niagara%20Modül%20Editörü/Nodlar#lerp-multiple-numeric-fn))
+
+* #### Float Count
+Lerp edilecek input sayısı.
+
