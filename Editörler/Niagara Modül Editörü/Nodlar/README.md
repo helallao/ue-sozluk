@@ -849,7 +849,26 @@ Result | En büyük degere sahip olan eksenin kaldıgı, digerlerinin 0 oldugu v
 
 
 * #### [Lerp Multiple Numeric Fn]()
-bilmiyorum.
+Bu fonksiyon aldıgı inputları [Lerp](#lerp) eder. Normal [Lerp'den](#lerp) farkı sadece 2 degeri degil daha fazlasını da Lerp edebilmesidir. 5 degeri birden Lerp edebilirsiniz. Çalışma şekli şudur, normal [Lerp](#lerp) işleminde iki deger vardır, yani 2 nokta vardır. Bu noktaların birincisi 0 degerinde iken, ikincisi 1 degerinde iken kullanılır. Lerp edilen deger sayısı arttıkça nokta sayısı da artar, mesela 3 degeri Lerp ederseniz 3 nokta oluşur, bu 3 nokta, 0, 0.5 ve 1'dir. 0'da iken 1. deger kullanılır, 0.5'e dogru kaydıkça sonuç da 2. degere dogru kayar. 0.5'de iken 2. deger kullanılır. Sonra 0.5'den 1'e dogru kaydıkça sonuç da 3. degere dogru kayar ve 1'de iken sonuç da 3. degere eşit olur. İşte çalışma mantıgı bu, 4 ve 5 inputu Lerp ederken de aynı mantık kullanılıyor. Mesela 4 inputlu Lerp işleminde 4 nokta vardır, bu noktalar, 0, 0.33, 0.66, 1'dir. 5 inputlu işlemde 5 nokta vardır, bu noktalar, 0, 0.25, 0.5, 0.75, 1'dir. Desmos üzerinde yaptıgım [örnege](https://www.desmos.com/calculator/3hswgubepl) de bakabilirsiniz.
+
+
+İnput | İşlem
+:---: | :---:
+Alpha | Alpha degeri
+1 | 1. deger
+2 | 2. deger
+3 | 3. deger
+4 | 4. deger
+5 | 5. deger
+
+Output | İçerik
+:---: | :---:
+2 Inputs | 1. ve 2. degerlerin Lerp'i
+3 Inputs | 1., 2. ve 3. degerlerin Lerp'i
+4 Inputs | 1., 2., 3. ve 4. degerlerin Lerp'i
+5 Inputs | 1., 2., 3., 4. ve 5. degerlerin Lerp'i
+
+
 
 * #### [Lerp Quaternion]()
 bilmiyorum.
