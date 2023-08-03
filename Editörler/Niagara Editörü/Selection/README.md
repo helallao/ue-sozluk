@@ -179,4 +179,21 @@ Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
 ## [Calculate Particle Radius]()
 
-Aldıgı derece degerini başka bir derece degerine dönüştürür.
+"Radius Calculation Type" inputuna göre Sprite'ın ve ya Mesh'in yarıçapını hesaplar. "Sprite" modunda iken Sprite'ın (bkz. [Sprite Renderer](../Moduller#sprite-renderer)), Mesh modundayken Mesh'in (bkz. [Mesh Renderer](../Moduller#mesh-renderer)) yarıçapını verir, Sprite için [Particles.SpriteSize](../Parameters#particlesspritesize) parametresini, Mesh için [Particles.Scale](../Parameters#particlesscale) parametresini kullanır. Ayrıca "Mesh" modunda iken "Mesh Dimensions" diye bir input daha açılır, bu input yarıçap hesaplanırken [Particles.Scale](../Parameters#particlesscale) parametresi için çarpan görevi görür, yani deger bu inputa verdiginiz deger ile çarpılır. "Radius Calculation Type" inputu "Custom" modunda iken manuel olarak yarıçap degerini verebilirsiniz, hiçbir işlem yapılmadan aynı deger döndürülür.
+
+* #### Radius Calculation Type
+"Sprite" modunda iken Sprite'ın (bkz. [Sprite Renderer](../Moduller#sprite-renderer)), Mesh modundayken Mesh'in (bkz. [Mesh Renderer](../Moduller#mesh-renderer)) yarıçapını verir, Sprite için [Particles.SpriteSize](../Parameters#particlesspritesize) parametresini, Mesh için [Particles.Scale](../Parameters#particlesscale) parametresini kullanır. Ayrıca "Mesh" modunda iken "Mesh Dimensions" diye bir input daha açılır, bu input yarıçap hesaplanırken [Particles.Scale](../Parameters#particlesscale) parametresi için çarpan görevi görür, yani deger bu inputa verdiginiz deger ile çarpılır. "Custom" modunda iken manuel olarak yarıçap degerini verebilirsiniz, hiçbir işlem yapılmadan aynı deger döndürülür.
+
+* #### Mesh Dimensions
+Sadece "Radius Calculation Type" "Mesh" modunda iken vardır. [Particles.Scale](../Parameters#particlesscale) parametresi için çarpan görevi görür.
+
+* #### Particle Radius
+Sadece "Radius Calculation Type" "Custom" modunda iken vardır. Manuel olarak yarıçap degerini verebilirsiniz, hiçbir işlem yapılmadan aynı deger döndürülür.
+
+* #### Method for Calculating Particle Radius
+3 method vardır, "Minimum Axis", "Maximum Axis" ve "Bounds". Minimum Axis methodu kısa olan ekseni seçer ve yarıçapını verir. Maximum Axis methodu uzun olan ekseni seçer ve yarıçapını verir. Bounds methodu iki eksenin uzunlugunu/büyüklügünü (magnitude) yani [Pythagorean theorem'ini](https://en.wikipedia.org/wiki/Pythagorean_theorem) alır ve yarıçapını verir.
+
+
+
+
+
