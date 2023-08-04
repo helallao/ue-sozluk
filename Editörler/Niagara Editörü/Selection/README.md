@@ -38,6 +38,8 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [Mesh Tri Coordinate](#mesh-tri-coordinate)
 * [Niagara ID](#niagara-id)
 * [Position](#position)
+* [Quat](#quat)
+
 
 
 
@@ -996,22 +998,88 @@ bilmiyorum.
 # Position
 
 
-## [Make Niagara IDFrom Int]()
+## [Add Vector to Position]()
+Verdiginiz vektörü pozisyon degerine ekler (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
+
+
+## [Convert Vector to Position]()
 bilmiyorum.
 
 
-## [Make Ribbon IDFrom Spawn Group]()
+## [Find Mid Point Between Positions]()
+Verdiginiz iki konumun orta noktasının konumu döndürür.
+
+
+## [Lerp Position]()
+
+Verilen iki konum degerini lerp eder (bkz. [Lerp](../../Niagara%20Modül%20Editörü/Nodlar#lerp)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+* #### Alpha
+Alpha degeri.
+
+
+## [Return Camera Position]()
+
 bilmiyorum.
 
 
+## [Simulation Position]()
+
+Simulasyon konumunu (0,0,0) döndürür.
+
+
+## [Smooth Lerp Over Time Position]()
+Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonuna bakın.
+
+* #### Convergence Rate
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Convergence Rate" inputu.
+
+* #### Smooth Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Smooth Value" inputu.
+
+* #### Target Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Target Value" inputu.
+
+
+## [Subtract Vector from Position]()
+Verdiginiz pozisyon degerinden vektörü çıkarır (bkz. [Subtract](../../Niagara%20Modül%20Editörü/Nodlar#subtract)).
+
+
+## [Transform Position]()
+Verdiginiz inputları direktmen [Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonuna bakın.
+
+* #### Position
+[Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonunun "Position" inputu.
+
+* #### Source Space
+[Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonunun "Source Space" inputu.
+
+* #### Destination Space
+[Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonunun "Destination Space" inputu.
+
+* #### Apply Scale
+[Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonunun "Apply Scale" inputu.
 
 
 
 
 
 
+<br>
+<br>
 
 
+# Quat
+
+
+## [a]()
+a
 
 
 
