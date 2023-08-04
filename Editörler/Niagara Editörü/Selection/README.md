@@ -612,3 +612,62 @@ bilmiyorum.
 İki input alır ve toplamlarını verir (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
 
 
+## [Divide Int]()
+
+Verdiginiz A inputunu B inputuna böler (bkz. [Divide](../../Niagara%20Modül%20Editörü/Nodlar#divide)).
+
+
+## [Find Pixel Count]()
+
+Verdiginiz texture'un piksel sayısını verir.
+
+
+## [Generate Int from Counter]()
+
+bilmiyorum.
+
+
+## [Get Float Array Count]()
+
+bilmiyorum.
+
+
+## [Get Vector Array Count]()
+
+bilmiyorum.
+
+
+## [Get Vertex Count]()
+
+bilmiyorum.
+
+
+## [Make Custom Int from Bool]()
+"Bool" inputuna verdiginiz deger True ise "True INT" inputunu, False ise "False INT" inputunu döndürür.
+
+* #### Bool
+True ise "True INT" inputunu, False ise "False INT" inputunu döndürür.
+
+* #### True INT
+"Bool" inputu True iken kullanılacak deger.
+
+* #### False INT
+"Bool" inputu False iken kullanılacak deger.
+
+
+## [Make Int from Float]()
+Verdiginiz float degeri "Conversion Mode" ayarına verdiginiz moda göre integer'a dönüştürür.
+
+* #### Float
+Float degeri.
+
+* #### Conversion Mode
+4 modu vardır,
+
+Mod | İşlem
+:---: | :---:
+Truncate | Verilen sayının kesirli kısmını siler, tam sayı halinde verir (bkz. [Trunc](../../Niagara%20Modül%20Editörü/Nodlar#trunc)).
+Round | Verilen sayıyı yuvarlar (bkz. [Round](../../Niagara%20Modül%20Editörü/Nodlar#round)).
+Ceil | Verilen sayıyı en yakın büyük tamsayıya yuvarlar (bkz. [Ceil](../../Niagara%20Modül%20Editörü/Nodlar#ceil)).
+Floor | Verilen sayıyı en yakın küçük tamsayıya yuvarlar (bkz. [Floor](../../Niagara%20Modül%20Editörü/Nodlar#floor)).
+
