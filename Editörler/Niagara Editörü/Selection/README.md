@@ -671,3 +671,87 @@ Round | Verilen sayıyı yuvarlar (bkz. [Round](../../Niagara%20Modül%20Editör
 Ceil | Verilen sayıyı en yakın büyük tamsayıya yuvarlar (bkz. [Ceil](../../Niagara%20Modül%20Editörü/Nodlar#ceil)).
 Floor | Verilen sayıyı en yakın küçük tamsayıya yuvarlar (bkz. [Floor](../../Niagara%20Modül%20Editörü/Nodlar#floor)).
 
+
+## [Mask Int by Spawn Group]()
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Int" inputuna verdiginiz degeri, degilse "Passthrough Int" inputuna verdiginiz degeri döndürür.
+
+* #### Masked Int
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
+
+* #### Passthrough Int
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşit degilse bu deger kullanılır.
+
+* #### Spawn Group Mask
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
+
+
+## [Max Int]()
+Verdiginiz 2 inputun büyük olanını verir (bkz. [Max](../../Niagara%20Modül%20Editörü/Nodlar#max)).
+
+
+## [Min Int]()
+Verdiginiz 2 inputun küçük olanını verir (bkz. [Min](../../Niagara%20Modül%20Editörü/Nodlar#min)).
+
+
+## [Modulo Int]()
+Verdiginiz A inputunun B inputuna bölümünden kalanı verir. (bkz. [Modulo](../../Niagara%20Modül%20Editörü/Nodlar#modulo)).
+
+
+## [Multiply Int]()
+Verdiginiz 2 inputun çarpımını verir. (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+
+## [Random Range Int]()
+Verdiginiz inputları [Calculate Random Range Integer](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-integer) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Calculate Random Range Integer](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-integer) fonksiyonuna bakın.
+
+* #### Minimum
+[Calculate Random Range Integer](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-integer) fonksiyonunun "Integer Min" inputu.
+
+* #### Maximum
+[Calculate Random Range Integer](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-integer) fonksiyonunun "Integer Max" inputu.
+
+* #### Evaluation Type
+"Spawn Only" ise tek bir kere rastgele integer seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele integer döndürür.
+
+* #### Randomness Mode
+[Calculate Random Range Integer](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-integer) fonksiyonunun "Randomness Mode" inputu.
+
+* #### Random Seed
+"Randomness Mode" ayarı deterministik ise seed verebilirsiniz.
+
+* #### Fixed Random Seed
+[Calculate Random Range Integer](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-integer) fonksiyonunun "Fixed Random Seed" inputu.
+
+
+## [Random Specific Bone]()
+bilmiyorum.
+
+
+## [Random Specific Socket]()
+bilmiyorum.
+
+
+## [Return Exec Index]()
+[Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#execution-index) fonksiyonundan gelen degeri verir.
+
+
+## [Return Particle IDAttributes]()
+bilmiyorum.
+
+
+## [Select Int from Array]()
+bilmiyorum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
