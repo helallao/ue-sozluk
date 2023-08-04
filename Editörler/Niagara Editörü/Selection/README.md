@@ -34,6 +34,11 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [float](#float)
 * [int32](#int32)
 * [Linear Color](#linear-color)
+* [Matrix](#matrix)
+* [Mesh Tri Coordinate](#mesh-tri-coordinate)
+* [Niagara ID](#niagara-id)
+* [Position](#position)
+
 
 
 
@@ -922,6 +927,81 @@ Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%2
 [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Convergence Rate" inputu.
 
 
+
+
+
+
+<br>
+<br>
+
+
+# Matrix
+
+
+## [Make Transform]()
+bilmiyorum.
+
+
+## [Multiply Matrix]()
+bilmiyorum.
+
+
+
+
+
+<br>
+<br>
+
+
+# Mesh Tri Coordinate
+
+
+## [Random Tri Coordinate Skeletal Mesh]()
+bilmiyorum.
+
+
+## [Random Tri Coordinate Static Mesh]()
+bilmiyorum.
+
+
+## [Split Mesh Tri Coordinate]()
+bilmiyorum.
+
+
+
+
+
+<br>
+<br>
+
+
+# Niagara ID
+
+
+## [Make Niagara IDFrom Int]()
+bilmiyorum.
+
+
+## [Make Ribbon IDFrom Spawn Group]()
+bilmiyorum.
+
+
+
+
+
+<br>
+<br>
+
+
+# Position
+
+
+## [Make Niagara IDFrom Int]()
+bilmiyorum.
+
+
+## [Make Ribbon IDFrom Spawn Group]()
+bilmiyorum.
 
 
 
