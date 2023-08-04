@@ -892,4 +892,47 @@ Random Individual Channels | Minimum ve maximum arasından rastgele 4 seçim yap
 [Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonunun "Fixed Random Seed" inputu.
 
 
+## [Scalability Distance Based Linear Color]()
+bilmiyorum.
+
+
+## [Scale Linear Color by Curve]()
+"InitialValue" inputuna verdiginiz renk degerini Curve'den aldıgı deger ile scale eder.
+
+* #### InitialValue
+Scale edilecek renk degeri.
+
+* #### Curve
+Curve.
+
+* #### CurveIndex
+Curve'den degerleri almak için index degeri.
+
+
+## [Smooth Lerp Over Time Color]()
+Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonuna bakın.
+
+* #### Smooth Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Smooth Value" inputu.
+
+* #### Target Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Target Value" inputu.
+
+* #### Convergence Rate
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Convergence Rate" inputu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
