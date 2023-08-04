@@ -795,6 +795,60 @@ Verdiginiz inputları direktmen [Hue Shift Linear Color](../../Niagara%20Modül%
 [Hue Shift Linear Color](../../Niagara%20Modül%20Editörü/Nodlar#hue-shift-linear-color) fonksiyonunun "LinearColor" inputu.
 
 
+## [Lerp Linear Colors]()
+
+Verilen "LerpFactor" degerine göre "StartColor" ve "EndColor" inputlarındaki renkleri birbirine karıştırır, oranlar, lerp eder (bkz. [Lerp](../../Niagara%20Modül%20Editörü/Nodlar#lerp)).
+
+* #### StartColor
+1. renk degeri.
+
+* #### EndColor
+2. renk degeri.
+
+* #### LerpFactor
+Alpha degeri.
+
+
+## [Make Custom Linear Color from Bool]()
+"Bool" inputuna verdiginiz deger True ise "True Color" inputunu, False ise "False Color" inputunu döndürür.
+
+* #### Bool
+True ise "True Color" inputunu, False ise "False Color" inputunu döndürür.
+
+* #### True Color
+"Bool" inputu True iken kullanılacak deger.
+
+* #### False Color
+"Bool" inputu False iken kullanılacak deger.
+
+
+## [Make Linear Color]()
+Verdiginiz RGBA degerleri ile Linear Color oluşturmanıza yarar.
+
+
+## [Make Linear Color from Float]()
+Verdiginiz float deger ile Linear Color oluşturmanıza yarar, verdiginiz deger RGBA kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
+
+
+## [Make Linear Color from Float 4]()
+Verdiginiz 4 boyutlu vektör ile Linear Color oluşturmanıza yarar, vektörün 4 kanalı Linear Color degerinin 4 kanalına yani RGBA kanallarına denk gelir.
+
+
+## [Make Linear Color from Vector and Float]()
+Verdiginiz vektör ve float degerleri ile Linear Color oluşturmanıza yarar, vektörün 3 kanalı Linear Color degerinin RGB kanalına, float da A kanalına denk gelir.
+
+
+## [Mask Linear Color by Spawn Group]()
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Linear Color" inputuna verdiginiz degeri, degilse "Passthrough Linear Color" inputuna verdiginiz degeri döndürür.
+
+* #### Masked Linear Color
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
+
+* #### Passthrough Linear Color
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşit degilse bu deger kullanılır.
+
+* #### Spawn Group Mask
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
 
 
 
