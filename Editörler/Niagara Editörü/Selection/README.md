@@ -45,7 +45,7 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 
 
 ## [Boolean not Operation]()
-Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
+Aldıgı bool degerinin tersini döndürür. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
 
 
 ## [Boolean or Operation]()
@@ -55,7 +55,7 @@ Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiy
 
 ## [Invert Bool]()
 
-Aldıgı bool degerinin tersini verir. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
+Aldıgı bool degerinin tersini döndürür. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
 
 
 ## [Is Platform Set Active]()
@@ -65,7 +65,7 @@ bilmiyorum.
 
 ## [Mask Bool by Spawn Group]()
 
-Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Bool" inputuna verdiginiz degeri, degilse "Passthrough Bool" inputuna verdiginiz degeri kullanır.
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Bool" inputuna verdiginiz degeri, degilse "Passthrough Bool" inputuna verdiginiz degeri döndürür.
 
 * #### Masked Bool
 Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
@@ -146,7 +146,7 @@ A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
 
 ## [Abs Float]()
 
-Aldıgı inputun mutlak degerini verir (bkz. [Abs](../../Niagara%20Modül%20Editörü/Nodlar#abs)).
+Aldıgı inputun mutlak degerini döndürür (bkz. [Abs](../../Niagara%20Modül%20Editörü/Nodlar#abs)).
 
 
 ## [Add Float]()
@@ -258,33 +258,15 @@ Hesaplanan degere eklenir.
 
 Verdiginiz iki konum arasındaki mesafe degerini döndürür (bkz. [Distance](../../Niagara%20Modül%20Editörü/Nodlar#distance)).
 
-* #### A
-A konumu.
-
-* #### B
-B konumu.
-
 
 ## [Divide Float]()
 
 Verdiginiz A inputunu B inputuna böler (bkz. [Divide](../../Niagara%20Modül%20Editörü/Nodlar#divide)). 
 
-* #### A
-A degeri.
-
-* #### B
-B degeri.
-
 
 ## [Dot Product]()
 
 Verdiginiz iki inputun [Dot Product'ını](https://en.wikipedia.org/wiki/Dot_product) verir (bkz. [Dot](../../Niagara%20Modül%20Editörü/Nodlar#dot)).
-
-* #### Vector A
-A vektörü.
-
-* #### Vector B
-B vektörü.
 
 
 ## [Float from Curve]()
@@ -337,10 +319,10 @@ Lerp edilecek input sayısı.
 
 
 ## [Make Custom Float from Bool]()
-"Bool" inputuna verdiginiz deger True ise "True Float" inputunu, False ise "False Float" inputunu kullanır.
+"Bool" inputuna verdiginiz deger True ise "True Float" inputunu, False ise "False Float" inputunu döndürür.
 
 * #### Bool
-True ise "True Float" inputu, False ise "False Float" inputu kullanılır.
+True ise "True Float" inputunu, False ise "False Float" inputunu döndürür.
 
 * #### True Float
 "Bool" inputu True iken kullanılacak deger.
@@ -352,12 +334,9 @@ True ise "True Float" inputu, False ise "False Float" inputu kullanılır.
 ## [Make Float from Int]()
 Verdiginiz integer'ı float'a dönüştürür.
 
-* #### Int
-Integer degeri.
-
 
 ## [Make Float from Linear Color]()
-Verdiginiz Linear Color'ın tek bir kanalındaki float degerini kullanır.
+Verdiginiz Linear Color'ın tek bir kanalındaki float degerini döndürür.
 
 * #### LinearColor
 Linear Color degeri.
@@ -367,7 +346,7 @@ Linear Color'dan float degerinin alınacagı kanal.
 
 
 ## [Make Float from Linear Vector]()
-Verdiginiz vectör'ün tek bir kanalındaki float degerini kullanır.
+Verdiginiz vectör'ün seçtiginiz kanalındaki float degeri döndürür.
 
 * #### Vector
 Vektör degeri.
@@ -377,7 +356,7 @@ Vektör'den float degerinin alınacagı kanal.
 
 
 ## [Make Float from Linear Vector 2d]()
-Verdiginiz 2 boyutlu vectör'ün tek bir kanalındaki float degerini kullanır.
+Verdiginiz 2 boyutlu vectör'ün seçtiginiz kanalındaki float degeri döndürür.
 
 * #### Vector 2D
 2 boyutlu vektör degeri.
@@ -387,7 +366,7 @@ Verdiginiz 2 boyutlu vectör'ün tek bir kanalındaki float degerini kullanır.
 
 
 ## [Make Float from Linear Vector 4]()
-Verdiginiz 4 boyutlu vectör'ün tek bir kanalındaki float degerini kullanır.
+Verdiginiz 4 boyutlu vectör'ün seçtiginiz kanalındaki float degeri döndürür.
 
 * #### Vector 4
 4 boyutlu vektör degeri.
@@ -397,7 +376,7 @@ Verdiginiz 4 boyutlu vectör'ün tek bir kanalındaki float degerini kullanır.
 
 
 ## [Mask Float by Spawn Group]()
-Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Float" inputuna verdiginiz degeri, degilse "Passthrough Float" inputuna verdiginiz degeri kullanır.
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Float" inputuna verdiginiz degeri, degilse "Passthrough Float" inputuna verdiginiz degeri döndürür.
 
 * #### Masked Float
 Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
@@ -410,57 +389,27 @@ Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawn
 
 
 ## [Max Float]()
-Verdiginiz 2 inputun büyük olanını kullanır (bkz. [Max](../../Niagara%20Modül%20Editörü/Nodlar#max)).
-
-* #### A
-A degeri.
-
-* #### B
-B degeri.
+Verdiginiz 2 inputun büyük olanını verir (bkz. [Max](../../Niagara%20Modül%20Editörü/Nodlar#max)).
 
 
 ## [Min Float]()
-Verdiginiz 2 inputun küçük olanını kullanır (bkz. [Min](../../Niagara%20Modül%20Editörü/Nodlar#min)).
-
-* #### A
-A degeri.
-
-* #### B
-B degeri.
+Verdiginiz 2 inputun küçük olanını verir (bkz. [Min](../../Niagara%20Modül%20Editörü/Nodlar#min)).
 
 
 ## [Modulo Float]()
-Verdiginiz ilk sayının ikinciye bölümünden kalanı kullanır. (bkz. [Modulo](../../Niagara%20Modül%20Editörü/Nodlar#modulo)).
-
-* #### A
-A degeri.
-
-* #### B
-B degeri.
+Verdiginiz A inputunun B inputuna bölümünden kalanı verir. (bkz. [Modulo](../../Niagara%20Modül%20Editörü/Nodlar#modulo)).
 
 
 ## [Multiply Float]()
-Verdiginiz 2 inputun çarpımını kullanır. (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
-
-* #### A
-A degeri.
-
-* #### B
-B degeri.
+Verdiginiz 2 inputun çarpımını verir. (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
 
 
 ## [Multiply Float by Int]()
-Verdiginiz float ile integer'ın çarpımını kullanır (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
-
-* #### Float
-Float degeri.
-
-* #### Integer
-Integer degeri.
+Verdiginiz float ile integer'ın çarpımını verir (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
 
 
 ## [Normalize Distance Range]()
-Verdiginiz inputları direktmen [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonundan geçirir ve sonucu kullanır. Açıklama için [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonuna bakın.
+Verdiginiz inputları direktmen [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonuna bakın.
 
 * #### Start Position
 [Normalize Distance Range](../../Niagara%20Modül%20Editörü/Nodlar#normalize-distance-range) fonksiyonunun "Start Position" inputu.
@@ -480,24 +429,15 @@ Bilmiyorum.
 
 
 ## [One Minus Float]()
-Verdiginiz degerin 1'den çıkarılmış halini kullanır (bkz. [One Minus](../../Niagara%20Modül%20Editörü/Nodlar#one-minus)).
-
-* #### Float
-Deger.
+Verdiginiz degerin 1'den çıkarılmış halini verir (bkz. [One Minus](../../Niagara%20Modül%20Editörü/Nodlar#one-minus)).
 
 
 ## [Power]()
 Verilen "A" degerinin "B" degeri kadar kuvvetini alır. Eger "A" "B" den küçükse sonuç 0 olur (bkz. [Pow](../../Niagara%20Modül%20Editörü/Nodlar#pow)).
 
-* #### a
-A degeri.
-
-* #### b
-B degeri.
-
 
 ## [Random Range Float]()
-Verdiginiz inputları [Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonundan geçirir ve sonucu kullanır. Açıklama için [Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonuna bakın.
+Verdiginiz inputları [Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonuna bakın.
 
 * #### Minimum
 [Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonunun "Float Min" inputu.
@@ -519,7 +459,7 @@ Verdiginiz inputları [Calculate Random Range Float](../../Niagara%20Modül%20Ed
 
 
 ## [Remap Range]()
-Verdiginiz inputları direktmen [Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonundan geçirir ve sonucu kullanır. Açıklama için [Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonuna bakın.
+Verdiginiz inputları direktmen [Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Remap Range](../../Niagara%20Modül%20Editörü/Nodlar#remap-range) fonksiyonuna bakın.
 
 * #### Input Value To Remap
 Remap edilecek deger.
@@ -541,7 +481,7 @@ Remap edilecek deger.
 
 
 ## [Return Normalized Exec Index]()
-[Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonundan degeri kullanır. Açıklama için [Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonuna bakın.
+[Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonundan gelen degeri döndürür. Açıklama için [Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonuna bakın.
 
 * #### Normalized Index Scale
 [Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonundan gelen deger bu input ile çarpılır yani bu input [Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonundan gelen deger için çarpan görevi görür.
@@ -552,9 +492,6 @@ Remap edilecek deger.
 
 ## [Round Float]()
 Verdiginiz degeri yuvarlar (bkz. [Round](../../Niagara%20Modül%20Editörü/Nodlar#round)).
-
-* #### Float
-Yuvarlanacak deger.
 
 
 ## [Scalability Distance Based Float]()
@@ -595,7 +532,7 @@ Hesaplanan degere eklenir.
 
 
 ## [Smooth Lerp Over Time Float]()
-Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonundan geçirir ve sonucu kullanır. Açıklama için [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonuna bakın.
+Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonuna bakın.
 
 * #### Convergence Rate
 [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Convergence Rate" inputu.
@@ -610,12 +547,6 @@ Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%2
 ## [Subtract Float]()
 
 Verdiginiz A inputundan B inputunu çıkarır (bkz. [Subtract](../../Niagara%20Modül%20Editörü/Nodlar#subtract)).
-
-* #### A
-A degeri.
-
-* #### B
-B degeri.
 
 
 ## [Uniform AOr BFloat]()
@@ -642,9 +573,6 @@ B degeri.
 
 ## [Vector 2DLength]()
 Verdiginiz 2 boyutlu vektörün uzunlugunu, büyüklügünü (magnitude) verir (bkz. [Length](../../Niagara%20Modül%20Editörü/Nodlar#length)).
-
-* #### Vector
-Vektör degeri.
 
 
 ## [Vector Length]()
@@ -681,6 +609,6 @@ bilmiyorum.
 
 ## [Add Integer]()
 
-İki input alır ve toplamlarını döndürür (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
+İki input alır ve toplamlarını verir (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
 
 
