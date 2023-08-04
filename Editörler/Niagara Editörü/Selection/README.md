@@ -773,7 +773,34 @@ Verdiginiz A inputundan B inputunu çıkarır (bkz. [Subtract](../../Niagara%20M
 
 # Linear Color
 
-## [a]()
+## [Color from Curve]()
 
-a
+Curve ile Linear Color degeri üretmenize yarar.
+
+
+## [Hue Shift Linear Color]()
+
+Verdiginiz inputları direktmen [Hue Shift Linear Color](../../Niagara%20Modül%20Editörü/Nodlar#hue-shift-linear-color) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Hue Shift Linear Color](../../Niagara%20Modül%20Editörü/Nodlar#hue-shift-linear-color) fonksiyonuna bakın.
+
+* #### Hue
+[Hue Shift Linear Color](../../Niagara%20Modül%20Editörü/Nodlar#hue-shift-linear-color) fonksiyonunun "Hue" inputu.
+
+* #### Saturation
+[Hue Shift Linear Color](../../Niagara%20Modül%20Editörü/Nodlar#hue-shift-linear-color) fonksiyonunun "Saturation" inputu.
+
+* #### Value
+[Hue Shift Linear Color](../../Niagara%20Modül%20Editörü/Nodlar#hue-shift-linear-color) fonksiyonunun "Value" inputu.
+
+* #### Linear Color
+[Hue Shift Linear Color](../../Niagara%20Modül%20Editörü/Nodlar#hue-shift-linear-color) fonksiyonunun "LinearColor" inputu.
+
+
+
+
+
+
+
+
+
+
 
