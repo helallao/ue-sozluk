@@ -1828,12 +1828,12 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Ceil]()
-Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı [Floor](#floor)). örnegin 
+Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı [Floor](#floor)). örnegin 
 <br>
 <br>
-9.9 -> 9
+9.9 -> 10
 <br>
-9.1 -> 9
+9.1 -> 10
 
 * #### [Clamp]()
 Verdigimiz inputu "min" ve "max" degerine göre düzenler. Eger input min degerinden küçükse min degerine, input max degerinden büyükse max degerine taşınır.
@@ -1869,12 +1869,12 @@ Verdiginiz sayı kadar [e sayısının](https://tr.wikipedia.org/wiki/E_say%C4%B
 Verdiginiz sayı kadar 2'nin üssünü alır. Yani 2^x.
 
 * #### [Floor]()
-Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (zıttı [Ceil](#ceil)). örnegin 
+Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (zıttı [Ceil](#ceil)). örnegin 
 <br>
 <br>
-9.9 -> 10
+9.9 -> 9
 <br>
-9.1 -> 10
+9.1 -> 9
 
 * #### [Frac]()
 Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir. örnegin,
