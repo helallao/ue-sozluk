@@ -851,10 +851,45 @@ Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawn
 Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
 
 
+## [Multiply Linear Color]()
+Verdiginiz Linear Color degerini "Scale Factor" inputu ile çarpar yani scale eder (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+* #### Linear Color
+Renk degeri
+
+* #### Scale Factor
+Her bir kanal için scale (katsayı) degeri.
 
 
+## [Random Range Linear Color]()
+"Minimum" ve "Maximum" inputlarına verdiginiz renk degerleri arasında rastgele bir renk seçer.
 
+* #### Minimum
+Minimum renk degeri.
 
+* #### Maximum
+Maximum renk degeri.
+
+* #### Color Channel Mode
+Verilen "Minimum" ve "Maximum" renklerinin karışımından nasıl bir renk çıkacagını belirler. 3 modu vardır,
+
+Mod | İşlem
+:---: | :---:
+Link RGBA | Minimum ve maximum arasından rastgele tek bir seçim yapar ve bunu RGBA olmak üzere bütün kanallarda kullanır.
+Link RGB / Link A | Minimum ve maximum arasından rastgele iki seçim yapar, birini RGB kanallarında (yani renk), digerini Alpha kanalında kullanır. Yani RGB ve A kanalı için iki ayrı rastgele seçim yapar.
+Random Individual Channels | Minimum ve maximum arasından rastgele 4 seçim yapar, RGBA kanallarının her biri için ayrı ayrı kullanır. En çok rastgelelige sahip olan seçenek budur ama minimum ve maximum arasındaki range (aralık) genişse, minimum ve maximum olarak verdiginiz renkler birbirine benzer olsa bile rastgele seçilen sayılardan ortaya çıkan renk bu renklere benzemeyebilir.
+
+* #### Evaluation Type
+"Spawn Only" ise tek bir kere rastgele renk seçer ve sonraki frame'lerde de hep aynı rengi döndürür, "Every Frame" ise her frame'de tekrar rastgele renk döndürür.
+
+* #### Randomness Mode
+[Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonunun "Randomness Mode" inputu.
+
+* #### Random Seed
+"Randomness Mode" ayarı deterministik ise seed verebilirsiniz.
+
+* #### Fixed Random Seed
+[Calculate Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range-float) fonksiyonunun "Fixed Random Seed" inputu.
 
 
 
