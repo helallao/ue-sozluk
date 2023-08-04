@@ -33,7 +33,7 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [bool](#bool)
 * [float](#float)
 * [int32](#int32)
-
+* [Linear Color](#linear-color)
 
 
 
@@ -743,15 +743,37 @@ bilmiyorum.
 bilmiyorum.
 
 
+## [Spawn Group]()
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarasını verir ama ilk baş numarayı "Min Spawn Group" ve "Max Spawn Group" inputları arasında mı diye kontrol eder ("Min Spawn Group" ve "Max Spawn Group" dahil). Yani mesela parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Min Spawn Group" inputundan küçükse "Min Spawn Group" inputunun degeri döndürülür.
+
+* #### Min Spawn Group
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası bu degerden küçükse, bu inputun degeri döndürülür. Yani parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası bu inputdan küçük olamaz.
+
+* #### Max Spawn Group
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası bu degerden büyükse, bu inputun degeri döndürülür. Yani parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası bu inputdan büyük olamaz.
+
+
+## [Specific Bone]()
+bilmiyorum.
+
+## [Specific Socket]()
+bilmiyorum.
+
+## [Subtract Integer]()
+Verdiginiz A inputundan B inputunu çıkarır (bkz. [Subtract](../../Niagara%20Modül%20Editörü/Nodlar#subtract)).
 
 
 
 
 
 
+<br>
+<br>
 
 
+# Linear Color
 
+## [a]()
 
-
+a
 
