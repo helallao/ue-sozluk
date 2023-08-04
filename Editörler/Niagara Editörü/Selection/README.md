@@ -638,7 +638,30 @@ B degeri.
 [Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#random-range-float) fonksiyonunun "Fixed Override Seed" inputu.
 
 
+## [Vector 2DLength]()
+Verdiginiz 2 boyutlu vektörün uzunlugunu, büyüklügünü (magnitude) verir (bkz. [Length](../../Niagara%20Modül%20Editörü/Nodlar#length)).
 
+* #### Vector
+Vektör degeri.
+
+
+## [Vector Length]()
+Verdiginiz vektörün uzunlugunu, büyüklügünü (magnitude) verir. Eger "Safe Length Calculation" ayarı açıksa [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunu kullanır, kapalıysa [Length](../../Niagara%20Modül%20Editörü/Nodlar#length) nodunu kullanır.
+
+* #### Vector
+Vektör degeri.
+
+* #### Safe Length Calculation
+Bu ayar açıksa [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonu kullanılır, kapalıysa [Length](../../Niagara%20Modül%20Editörü/Nodlar#length) nodu kullanılır.
+
+* #### Fallback Vector
+"Safe Length Calculation" ayarı açıksa kullanılır. [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunun "Fallback" inputu.
+
+* #### Fallback Threshold
+"Safe Length Calculation" ayarı açıksa kullanılır. [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunun "Threshold" inputu.
+
+* #### Fallback Length
+"Safe Length Calculation" ayarı açıksa kullanılır. [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunun "Fallback Length" inputu.
 
 
 
