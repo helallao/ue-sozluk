@@ -548,6 +548,99 @@ Remap edilecek deger.
 [Normalized Execution Index](../../Niagara%20Modül%20Editörü/Nodlar#normalized-execution-index) fonksiyonunun "Normalized Index Includes One" inputu.
 
 
+## [Round Float]()
+Verdiginiz degeri yuvarlar (bkz. [Round](../../Niagara%20Modül%20Editörü/Nodlar#round)).
+
+* #### Float
+Yuvarlanacak deger.
+
+
+## [Scalability Distance Based Float]()
+bilmiyorum.
+
+
+## [Scale and Bias Float]()
+Verdiginiz degeri "Scale" ile çarpıp "Bias" ile toplar (bkz. [MultiplyAdd](../../Niagara%20Modül%20Editörü/Nodlar#multiplyadd)).
+
+* #### Float
+Deger.
+
+* #### Scale
+"Float" inputunun çarpılacagı deger.
+
+* #### Bias
+"Float" inputu ile "Scale" inputunun çarpımından çıkan sonuca eklenecek deger.
+
+
+## [Select Float from Array]()
+bilmiyorum.
+
+
+## [Sine]()
+"Normalized Angle" inputu için sinüs degeri döndürür. Sinüs degerinin periyodunu "Period" inputundan belirleyebilirsiniz. Hesaplanan sinüs degeri "Scale" inputu ile çarpılır yani "Scale" inputu sinüs degeri için çarpan görevi görür. Sonra hesaplanan degere "Bias" inputu eklenir. (bkz. [Sine](../../Niagara%20Modül%20Editörü/Nodlar#sine))
+
+* #### Normalized Angle
+Sinüsü alınacak deger.
+
+* #### Period
+Sinüs degerinin periyodu.
+
+* #### Scale
+Hesaplanan sinüs degeri bu input ile çarpılır yani bu input sinüs degeri için çarpan görevi görür.
+
+* #### Bias
+Hesaplanan degere eklenir.
+
+
+## [Smooth Lerp Over Time Float]()
+Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonundan geçirir ve sonucu kullanır. Açıklama için [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonuna bakın.
+
+* #### Convergence Rate
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Convergence Rate" inputu.
+
+* #### Smooth Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Smooth Value" inputu.
+
+* #### Target Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Target Value" inputu.
+
+
+## [Subtract Float]()
+
+Verdiginiz A inputundan B inputunu çıkarır (bkz. [Subtract](../../Niagara%20Modül%20Editörü/Nodlar#subtract)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+
+## [Uniform AOr BFloat]()
+Yazı tura görevi görür. A ve B degerinin arasında "Distribution Weight" inputundaki ihtimale göre seçilim yapılır. "Distribution Weight" inputu A ve B arasındaki ihtimal oranını belirler. 0.5 iken ikisinin de ortasındadır yani ikisi de %50 ihtimalle çıkabilir. Eger degeri 0'a kaydırırsanız A inputunun seçilme ihtimali artar, degeri 1'e kaydırırsanız B inputunun seçilme ihtimali artar. Mesela 0.3 iken A inputunun çıkma ihtimali %70, B inputunun çıkma ihtimali %30 olur.
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+* #### Distribution Weight
+İhtimal dagılımı. A ve B arasındaki ihtimal oranını belirler. 0.5 iken ikisinin de ortasındadır yani ikisi de %50 ihtimalle çıkabilir. Eger degeri 0'a kaydırırsanız A inputunun seçilme ihtimali artar, degeri 1'e kaydırırsanız B inputunun seçilme ihtimali artar. Mesela 0.3 iken A inputunun çıkma ihtimali %70, B inputunun çıkma ihtimali %30 olur.
+
+* #### Randomness Mode
+[Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#random-range-float) fonksiyonunun "RandomnessMode" inputu.
+
+* #### Random Seed
+"Randomness Mode" ayarı deterministik ise seed verebilirsiniz.
+
+* #### Fixed Random Seed
+[Random Range Float](../../Niagara%20Modül%20Editörü/Nodlar#random-range-float) fonksiyonunun "Fixed Override Seed" inputu.
+
+
+
+
+
 
 
 
