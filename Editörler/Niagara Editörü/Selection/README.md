@@ -32,6 +32,8 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 
 * [bool](#bool)
 * [float](#float)
+* [int32](#int32)
+
 
 
 
@@ -664,6 +666,21 @@ Bu ayar açıksa [Direction and Length Safe](../../Niagara%20Modül%20Editörü/
 "Safe Length Calculation" ayarı açıksa kullanılır. [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunun "Fallback Length" inputu.
 
 
+## [Waveform]()
+bilmiyorum.
 
+
+
+
+
+<br>
+<br>
+
+
+# int32
+
+## [Add Integer]()
+
+İki input alır ve toplamlarını döndürür (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
 
 
