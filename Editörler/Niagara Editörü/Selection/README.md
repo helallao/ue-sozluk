@@ -1194,13 +1194,51 @@ Bu ayar açıksa vektörlerin [normalize](../../Niagara%20Modül%20Editörü/Nod
 [Derive Z](../../Niagara%20Modül%20Editörü/Nodlar#derive-z) fonksiyonunun "Z Sign" inputu.
 
 
+## [Divide Vector]()
+Verdiginiz A inputunu B inputuna böler (bkz. [Divide](../../Niagara%20Modül%20Editörü/Nodlar#divide)).
 
 
-Divide Vector
-Get Matrix Scale
-Lerp Multiple Vectors
-Lerp Vector
-Lerp Vector Components
+## [Get Matrix Scale]()
+[Get Matrix Scale](../../Niagara%20Modül%20Editörü/Nodlar#get-matrix-scale) fonksiyonu ile aynıdır.
+
+
+## [Lerp Multiple Vectors]()
+Veridiginiz inputları Lerp eder. Sadece 2 degeri degil daha fazlasını da Lerp edebilir. En fazla 5 degeri birden Lerp edebilirsiniz. Çalışma şekli şudur, normal Lerp işleminde iki deger vardır, yani 2 nokta vardır. Bu noktaların birincisi 0 degerinde iken, ikincisi 1 degerinde iken kullanılır. Lerp edilen deger sayısı arttıkça nokta sayısı da artar, mesela 3 degeri Lerp ederseniz 3 nokta oluşur, bu 3 nokta, 0, 0.5 ve 1'dir. 0'da iken 1. deger kullanılır, 0.5'e dogru kaydıkça sonuç da 2. degere dogru kayar. 0.5'de iken 2. deger kullanılır. Sonra 0.5'den 1'e dogru kaydıkça sonuç da 3. degere dogru kayar ve 1'de iken sonuç da 3. degere eşit olur. İşte çalışma mantıgı bu, 4 ve 5 inputu Lerp ederken de aynı mantık kullanılıyor. Mesela 4 inputlu Lerp işleminde 4 nokta vardır, bu noktalar, 0, 0.33, 0.66, 1'dir. 5 inputlu işlemde 5 nokta vardır, bu noktalar, 0, 0.25, 0.5, 0.75, 1'dir. (bkz. [Lerp Multiple Numeric Fn](../../Niagara%20Modül%20Editörü/Nodlar#lerp-multiple-numeric-fn))
+
+* #### Vector Count
+Lerp edilecek input sayısı.
+
+
+## [Lerp Vector]()
+Verilen iki vektör degerini lerp eder (bkz. [Lerp](../../Niagara%20Modül%20Editörü/Nodlar#lerp)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+* #### Alpha
+Alpha degeri.
+
+
+## [Lerp Vector Components]()
+Verilen iki vektör degerini lerp eder ama lerp işlemi için de vektör kullanır yani lerp ettiginiz iki vektör için Alpha vektörü ile her eksende lerp degerini belirleyebilirsiniz. Yani şöyle, mesela (0,0,0) ve (10,10,10) diye iki input verdiniz, Alpha vektörü olarak da (0.1, 0.5, 0.8) verdiniz. Bu durumda iki vektörün her ekseni lerp olurken Alpha vektöründeki o eksen degerine göre lerp olur. Yani sonuç (1,5,8) olur (bkz. [Lerp](../../Niagara%20Modül%20Editörü/Nodlar#lerp)).
+
+* #### Lerp Component Alpha
+Alpha vektörü.
+
+* #### A
+A vektörü.
+
+* #### B
+B vektörü.
+
+
+
+
+
+
 Make Custom Vector from Bool
 Make Vector
 Make Vector from Linear Color RGB
