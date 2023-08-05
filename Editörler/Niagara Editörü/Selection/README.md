@@ -39,7 +39,8 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [Niagara ID](#niagara-id)
 * [Position](#position)
 * [Quat](#quat)
-
+* [Static bool](#static-bool)
+* [Vector](#vector)
 
 
 
@@ -1112,7 +1113,7 @@ bilmiyorum.
 
 
 ## [Multiply Quaternion]()
-bilmiyorum.
+[Multiply Quaternion](../../Niagara%20Modül%20Editörü/Nodlar#multiply-quaternion) fonksiyonu ile aynıdır.
 
 
 ## [Orient Mesh to Vector]()
@@ -1120,19 +1121,37 @@ bilmiyorum.
 
 
 ## [Random Quaternion]()
-bilmiyorum.
+[Random Quaternion](../../Niagara%20Modül%20Editörü/Nodlar#random-quaternion) fonksiyonu ile aynıdır.
 
 
 
 
 
 
+<br>
+<br>
+
+
+# Static bool
+
+
+## [Static Bool Not Operation]()
+Aldıgı static bool degerinin tersini döndürür. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
 
 
 
 
 
 
+<br>
+<br>
+
+
+# Vector
+
+
+## [a]()
+a
 
 
 
