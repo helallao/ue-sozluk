@@ -1396,9 +1396,11 @@ Verdiginiz inputları direktmen [Transform Vector](../../Niagara%20Modül%20Edit
 Bu ayar açıksa inputlar [Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonundan geçmeden önce [Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonundan geçirilir.
 
 
+## [Transform Vector by Matrix]()
+a
 
 
 
-Transform Vector by Matrix
+
 Vector from Curve
 Vector from Float
