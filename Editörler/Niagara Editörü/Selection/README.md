@@ -41,7 +41,7 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [Quat](#quat)
 * [Static bool](#static-bool)
 * [Vector](#vector-2)
-
+* [Vector 2D](#vector-2d)
 
 
 
@@ -1418,4 +1418,36 @@ Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger RGB kan
 
 
 
+
+
+
+
+
+<br>
+<br>
+
+
+# Vector 2D
+
+
+## [a]()
+a
+
+
+
+Add Vector 2
+Divide Vector 2
+Lerp Vector 2
+Make Custom Vector 2DFrom Bool
+Make Vector 2D
+Mask Vector 2d by Spawn Group
+Multiply Vector 2D
+Multiply Vector 2D by Float
+Random Range Vector 2D
+Scalability Distance Based Vector 2D
+Scale Vector 2DBy Curve
+Select Vector 2DFrom Array
+Subtract Vector 2
+Vector 2DFrom Curve
+Vector 2DFrom Float
 
