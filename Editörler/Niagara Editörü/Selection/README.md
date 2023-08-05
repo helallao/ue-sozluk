@@ -1397,10 +1397,25 @@ Bu ayar açıksa inputlar [Transform Vector](../../Niagara%20Modül%20Editörü/
 
 
 ## [Transform Vector by Matrix]()
-a
+Verdiginiz inputları [Matrix Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#matrix-transform-vector) fonksiyonundan geçirir ve sonucu döndürür. Eger "Transform Vector as Position" ayarı açıksa inputları [Matrix Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#matrix-transform-position) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Matrix Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#matrix-transform-vector) ve [Matrix Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#matrix-transform-position) fonksiyonlarına bakın.
+
+* #### Vector
+[Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonunun "V" inputu.
+
+* #### Transformation Matrix
+[Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonunun "M" inputu.
+
+* #### Transform Vector as Position
+Bu ayar açıksa inputlar [Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonundan geçmeden önce [Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonundan geçirilir.
+
+
+## [Vector from Curve]()
+Curve ile vektör degeri üretmenize yarar.
+
+
+## [Vector from Float]()
+Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger RGB kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
 
 
 
 
-Vector from Curve
-Vector from Float
