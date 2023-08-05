@@ -2,7 +2,7 @@
 * Bu dökümanı hazırlarken başlangıçta dügümleri "Node" şeklinde yazıyordum ama kesme işareti falan koyunca çok okunmaz oluyo diyo "Node" kelimesini türkçe gibi düşünüp "Nod" diye yazmaya başladım, bunu sadece ek aldıgı zaman kullandım, ek almazsa yine "Node" diyorum.
 * Eger bi node aratırken farklı, niagara modül editörüne konuldugunda farklı isme (kısaltma) sahipse, nodun yanına editördeki ismi parantez içinde yazılır. [örnek](#parameter-map-getmap-get)
 * Bazı fonksiyonlar gizli (unexposed) olabilir, çünkü unreal geliştiricileri tarafından fonksiyonun ayarları bu şekilde ayarlanmıştır. Bu fonksiyonları kullanmak için, şu an kullanabildiginiz herhangi bir fonksiyon nodunu kullanıp, fonksiyonun [Selected Details](../Selected%20Details) penceresinden "Function Script" inputunu degiştirip istediginiz fonksiyonu seçebilirsiniz. Gizli (unexposed) olan fonksiyonların başında parantez içinde "bu fonksiyon gizli bir fonksiyondur" yazar.
-* Eger bir nodun önünde "Sadece * veri tipine uygundur" yazıyorsa, o node sadece yıldız işaretinin (*) yerinde yazan veri tipine uygundur. Uygun olmak demek o noda sadece o veri tipinin baglanabilmesi demek degildir. Ayrıca nodun kullanılabilmesi için o veri tipinden bir pin'in sürüklenmesi gerek demektir. Yani anlatmaya çalıştıgım şey şu, mesela [Parameter Map Get](#parameter-map-getmap-get) nodu ile bir [Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) degeri aldıgınızı düşünün. Şimdi bu degeri bir yere baglamak için [Parameter Map Get](#parameter-map-getmap-get) nodunun [Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) degeri için oluşturdugu output pin'ini kullanıyorsunuz ya. İşte eger bu pin'i sürüklerseniz ve hiçbir yere baglamadan boş bir yere bırakırsanız ve ya sürüklerken sag tık yaparsanız, node ekleme ekranı ortaya çıkar. Mesela [Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) veri tipi [Break](#break) kategorisinde bir noda sahip olan bir veri türüdür. Dolayısıyla normalde görünmez olan [Break](#break) kategorisi ortaya çıkar ve buradan istediginiz nodu ekleyebilirsiniz. İşte böyle veri tipine özel olan nodların başında "Sadece * veri tipine uygundur" yazısı vardır.
+* Eger bir nodun başında parantez içinde "Sadece * veri tipine uygundur" yazıyorsa, o node sadece yıldız işaretinin (*) yerinde yazan veri tipine uygundur. Uygun olmak demek o noda sadece o veri tipinin baglanabilmesi demek degildir. Ayrıca nodun kullanılabilmesi için o veri tipinden bir pin'in sürüklenmesi gerek demektir. Yani anlatmaya çalıştıgım şey şu, mesela [Parameter Map Get](#parameter-map-getmap-get) nodu ile bir [Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) degeri aldıgınızı düşünün. Şimdi bu degeri bir yere baglamak için [Parameter Map Get](#parameter-map-getmap-get) nodunun [Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) degeri için oluşturdugu output pin'ini kullanıyorsunuz ya. İşte eger bu pin'i sürüklerseniz ve hiçbir yere baglamadan boş bir yere bırakırsanız ve ya sürüklerken sag tık yaparsanız, node ekleme ekranı ortaya çıkar. Mesela [Spawn Info](../../Niagara%20Editörü/Parameters#spawn-info) veri tipi [Break](#break) kategorisinde bir noda sahip olan bir veri türüdür. Dolayısıyla normalde görünmez olan [Break](#break) kategorisi ortaya çıkar ve buradan istediginiz nodu ekleyebilirsiniz. İşte böyle veri tipine özel olan nodların başında parantez içinde "Sadece * veri tipine uygundur" yazısı vardır.
 * Karmaşık anlatıma sahip olan konuların açıklamaları [Terimler Sözlügü](../Terimler%20Sözlügü) bölümünde toplandı.
 <br>
 <br>
@@ -12,7 +12,7 @@
 
 ## Break
 
-Bu kategori sadece çok boyutlu veri tipleri ve özel veri tiplerinde ortaya çıkar. Veriyi parçalayıp içindeki elementleri alabilirsiniz.
+(Sadece çok boyutlu veri tiplerine uygundur) Bu kategori sadece çok boyutlu veri tipleri ve özel veri tiplerinde ortaya çıkar. Veriyi parçalayıp içindeki elementleri alabilirsiniz.
 
 
 ## Boolean
@@ -2077,7 +2077,7 @@ Ne olduguna dair hiçbir yerde bilgi yok. Kendi yaptıgım denemelere göre, her
 ## Swizzles
 
 * #### [XYZW]()
-Bu kategori sadece çok boyutlu veri tiplerinde ortaya çıkar. Boyutların yerlerini degiştirmenize yarar. Sadece istediginiz kombinasyonu yazmanız yeterlidir. Kullanabileceginiz bütün kombinasyonlar "XYZW" harfleridir.
+(Sadece çok boyutlu veri tiplerine uygundur) Bu kategori sadece çok boyutlu veri tiplerinde ortaya çıkar. Boyutların yerlerini degiştirmenize yarar. Sadece istediginiz kombinasyonu yazmanız yeterlidir. Kullanabileceginiz bütün kombinasyonlar "XYZW" harfleridir.
 
 
 ## Utility
