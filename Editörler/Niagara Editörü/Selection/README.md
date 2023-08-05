@@ -1415,7 +1415,7 @@ Curve ile vektör degeri üretmenize yarar.
 
 
 ## [Vector from Float]()
-Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger XYZ kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
+Verdiginiz float deger ile vektör oluşturmanıza yarar, verdiginiz deger XYZ kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
 
 
 
@@ -1542,7 +1542,7 @@ Curve ile vektör degeri üretmenize yarar.
 
 
 ## [Vector 2DFrom Float]()
-Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger XY kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
+Verdiginiz float deger ile Vector2D yani 2 boyutlu vektör oluşturmanıza yarar, verdiginiz deger XY kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
 
 
 
@@ -1555,6 +1555,61 @@ Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger XY kana
 
 
 # Vector 4
+
+
+## [Make Custom Vector 4From Bool]()
+"Bool" inputuna verdiginiz deger True ise "True Vector4" inputunu, False ise "False Vector4" inputunu döndürür.
+
+* #### Bool
+True ise "True Vector4" inputunu, False ise "False Vector4" inputunu döndürür.
+
+* #### True Vector4
+"Bool" inputu True iken kullanılacak deger.
+
+* #### False Vector4
+"Bool" inputu False iken kullanılacak deger.
+
+
+## [Make Float 4From Vector and Float]()
+Verdiginiz vektör ve float degerleri ile Vector4 yani 4 boyutlu vektör oluşturmanıza yarar, vektörün 3 kanalı Vector4 degerinin RGB kanalına, float da A kanalına denk gelir.
+
+
+## [Make Vector 4]()
+Verdiginiz RGBA degerlerinden 4 boyutlu vektör oluşturur.
+
+
+## [Make Vector 4 from Float]()
+Verdiginiz float deger ile Vector4 yani 4 boyutlu vektör oluşturmanıza yarar, verdiginiz deger RGBA kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
+
+
+## [Make Vector 4 from Linear Color]()
+Verdiginiz Linear Color degerinin RGBA degerlerinden vektör4 yani 4 boyutlu vektör oluşturur.
+
+
+## [Random Range Vector 4]()
+Verdiginiz vektörler arasında rastgele bir vektör döndürür. [Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunu kullanır.
+
+* #### Minimum
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Range Min" inputu.
+
+* #### Maximum
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Range Max" inputu.
+
+* #### Evaluation Type
+"Spawn Only" ise tek bir kere rastgele vektör seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele vektör döndürür.
+
+* #### Randomness Mode
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Randomness Mode" inputu.
+
+* #### Random Seed
+"Randomness Mode" ayarı deterministik ise seed verebilirsiniz.
+
+* #### Fixed Random Seed
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Fixed Random Seed" inputu.
+
+
+## [Vector 4From Curve]()
+Curve ile vektör degeri üretmenize yarar.
 
 
 
