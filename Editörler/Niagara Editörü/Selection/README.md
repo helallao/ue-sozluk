@@ -42,7 +42,7 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [Static bool](#static-bool)
 * [Vector](#vector-2)
 * [Vector 2D](#vector-2d-1)
-* [Vector 4](#vector-4)
+* [Vector 4](#vector-4-1)
 
 
 
