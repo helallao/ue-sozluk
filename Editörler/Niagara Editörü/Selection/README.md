@@ -42,6 +42,7 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [Static bool](#static-bool)
 * [Vector](#vector-2)
 * [Vector 2D](#vector-2d-1)
+* [Vector 4](#vector-4)
 
 
 
@@ -1542,6 +1543,28 @@ Curve ile vektör degeri üretmenize yarar.
 
 ## [Vector 2DFrom Float]()
 Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger XY kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+# Vector 4
+
+
+
+
+
+
+
+
+
+
 
 
 
