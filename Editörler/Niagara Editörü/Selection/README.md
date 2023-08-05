@@ -1430,22 +1430,97 @@ Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger RGB kan
 # Vector 2D
 
 
-## [a]()
-a
+## [Add Vector 2]()
+Verdiginiz vektörleri toplar (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
+
+
+## [Divide Vector 2]()
+Verdiginiz A inputunu B inputuna böler (bkz. [Divide](../../Niagara%20Modül%20Editörü/Nodlar#divide)).
+
+
+## [Lerp Vector 2]()
+Verilen iki vektör degerini lerp eder (bkz. [Lerp](../../Niagara%20Modül%20Editörü/Nodlar#lerp)).
+
+* #### A
+A degeri.
+
+* #### B
+B degeri.
+
+* #### Alpha
+Alpha degeri.
+
+
+## [Make Custom Vector 2DFrom Bool]()
+"Bool" inputuna verdiginiz deger True ise "True Vector2D" inputunu, False ise "False Vector2D" inputunu döndürür.
+
+* #### Bool
+True ise "True Vector2D" inputunu, False ise "False Vector2D" inputunu döndürür.
+
+* #### True Vector2D
+"Bool" inputu True iken kullanılacak deger.
+
+* #### False Vector2D
+"Bool" inputu False iken kullanılacak deger.
+
+
+## [Make Vector 2D]()
+Verdiginiz XY degerlerinden 2 boyutlu vektör oluşturur.
+
+
+## [Mask Vector 2d by Spawn Group]()
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Vector2D" inputuna verdiginiz degeri, degilse "Passthrough Vector2D" inputuna verdiginiz degeri döndürür.
+
+* #### Masked Vector2D
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
+
+* #### Passthrough Vector2D
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşit degilse bu deger kullanılır.
+
+* #### Spawn Group Mask
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
+
+
+## [Multiply Vector 2D]()
+Verdiginiz iki vektörü çarpar (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+
+## [Multiply Vector 2D by Float]()
+Verdiginiz vektör degerini float ile çarpar yani scale eder, her eksendeki deger verdiginiz float degeri ile çarpılmış olur (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+
+## [Random Range Vector 2D]()
+Verdiginiz vektörler arasında rastgele bir vektör döndürür. [Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunu kullanır.
+
+* #### Minimum
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Range Min" inputu.
+
+* #### Maximum
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Range Max" inputu.
+
+* #### Evaluation Type
+"Spawn Only" ise tek bir kere rastgele vektör seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele vektör döndürür.
+
+* #### Randomness Mode
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Randomness Mode" inputu.
+
+* #### Random Seed
+"Randomness Mode" ayarı deterministik ise seed verebilirsiniz.
+
+* #### Fixed Random Seed
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Fixed Random Seed" inputu.
+
+
+## [Scalability Distance Based Vector 2D]()
+bilmiyorum.
+
+
+## [Scale Vector 2DBy Curve]()
+bilmiyorum.
 
 
 
-Add Vector 2
-Divide Vector 2
-Lerp Vector 2
-Make Custom Vector 2DFrom Bool
-Make Vector 2D
-Mask Vector 2d by Spawn Group
-Multiply Vector 2D
-Multiply Vector 2D by Float
-Random Range Vector 2D
-Scalability Distance Based Vector 2D
-Scale Vector 2DBy Curve
+
 Select Vector 2DFrom Array
 Subtract Vector 2
 Vector 2DFrom Curve
