@@ -40,7 +40,7 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 * [Position](#position)
 * [Quat](#quat)
 * [Static bool](#static-bool)
-* [Vector](#vector)
+* [Vector](#vector-2)
 
 
 
@@ -1150,10 +1150,81 @@ Aldıgı static bool degerinin tersini döndürür. Yani True verdiyseniz False,
 # Vector
 
 
-## [a]()
-a
+## [Add Vector]()
+Verdiginiz vektörleri toplar (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
+
+
+## [Clamp Vector]()
+Verdiginiz inputu "Min" ve "Max" degerine göre düzenler. Eger input Min degerinden küçükse Min degerine, Max degerinden büyükse Max degerine taşınır (bkz. [Clamp](../../Niagara%20Modül%20Editörü/Nodlar#clamp)).
+
+* #### Vector
+Deger.
+
+* #### Min
+Minimum deger.
+
+* #### Max
+Maximum deger.
+
+
+## [Convert Position to Vector]()
+bilmiyorum.
+
+
+## [Cross Product]()
+Verdiginiz vektörlerin [Cross Product'ını](../../Niagara%20Modül%20Editörü/Nodlar#cross) verir (bkz. [Cross](../../Niagara%20Modül%20Editörü/Nodlar#cross)).
+
+* #### Vector A
+A vektörü.
+
+* #### Vector B
+B vektörü.
+
+* #### Normalize Incoming Vectors
+Bu ayar açıksa vektörlerin [normalize](../../Niagara%20Modül%20Editörü/Nodlar#normalize) edilmiş hallerinin [Cross Product'ı](../../Niagara%20Modül%20Editörü/Nodlar#cross) alınır.
+
+
+## [Derive Z]()
+[Derive Z](../../Niagara%20Modül%20Editörü/Nodlar#derive-z) fonksiyonu ile aynıdır.
+
+* #### NewVariable
+[Derive Z](../../Niagara%20Modül%20Editörü/Nodlar#derive-z) fonksiyonunun "XY" inputu.
+
+* #### Z Sign
+[Derive Z](../../Niagara%20Modül%20Editörü/Nodlar#derive-z) fonksiyonunun "Z Sign" inputu.
 
 
 
 
-
+Divide Vector
+Get Matrix Scale
+Lerp Multiple Vectors
+Lerp Vector
+Lerp Vector Components
+Make Custom Vector from Bool
+Make Vector
+Make Vector from Linear Color RGB
+Mask Vector by Spawn Group
+Multiply Vector
+Multiply Vector by Float
+Negate Vector
+Normalize Vector
+Random Range Vector
+Random Vector
+Return Camera Vector
+Return Mesh Orientation Axis
+Rotate Vector
+Rotate Vector by Quaternion
+Scalability Distance Based Vector
+Scale and Bias A Vector
+Scale Float by Curve
+Scale Vector by Curve
+Select Vector from Array
+Slerp Vector
+Smooth Lerp Over Time Vector
+Subtract Position
+Subtract Vector
+Transform Vector
+Transform Vector by Matrix
+Vector from Curve
+Vector from Float
