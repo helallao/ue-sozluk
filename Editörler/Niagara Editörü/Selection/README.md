@@ -48,7 +48,6 @@ Dinamik inputlar istediginiz inputu belirli kodlar ile oluşturabilmenize yarar,
 # bool
 
 ## [Boolean and Operation]()
-
 İki input alır. Eger ikisi de True ise True döndürür (bkz. [Logic AND](../../Niagara%20Modül%20Editörü/Nodlar#logic-and)).
 
 
@@ -57,22 +56,18 @@ Aldıgı bool degerinin tersini döndürür. Yani True verdiyseniz False, False 
 
 
 ## [Boolean or Operation]()
-
 İki input alır. Eger ikisinden biri True ise True döndürür (bkz. [Logic OR](../../Niagara%20Modül%20Editörü/Nodlar#logic-or)).
 
 
 ## [Invert Bool]()
-
 Aldıgı bool degerinin tersini döndürür. Yani True verdiyseniz False, False verdiyseniz True (bkz. [Logic Not](../../Niagara%20Modül%20Editörü/Nodlar#logic-not)).
 
 
 ## [Is Platform Set Active]()
-
 bilmiyorum.
 
 
 ## [Mask Bool by Spawn Group]()
-
 Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Bool" inputuna verdiginiz degeri, degilse "Passthrough Bool" inputuna verdiginiz degeri döndürür.
 
 * #### Masked Bool
@@ -86,7 +81,6 @@ Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawn
 
 
 ## [Random Bool]()
-
 Rastgele bool döndürür. Eger "Evaluation Type" inputu "Spawn Only" ise tek bir kere rastgele bool seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele bool döndürür. Ayrıca "Randomness Mode" ayarı ile "Random Seed" ayarını açabilir ve kullanabilirsiniz (bkz. [Calculate Random Bool](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-bool)).
 
 * #### Evaluation Type
@@ -100,7 +94,6 @@ Rastgele bool döndürür. Eger "Evaluation Type" inputu "Spawn Only" ise tek bi
 
 
 ## [Set Bool by Float Comparison]()
-
 İki float degeri alır ve bu degerleri "Comparison Type" inputuna verdiginiz koşula göre karşılaştırıp sonucu döndürür.
 
 * #### A
@@ -123,7 +116,6 @@ A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
 
 
 ## [Set Bool by Int Comparison]()
-
 İki integer degeri alır ve bu degerleri "Comparison Type" inputuna verdiginiz koşula göre karşılaştırıp sonucu döndürür.
 
 * #### A
@@ -153,17 +145,14 @@ A Less Than Or Equal To B | A B'den küçük ve ya eşitse True, degilse False.
 # float
 
 ## [Abs Float]()
-
 Aldıgı inputun mutlak degerini döndürür (bkz. [Abs](../../Niagara%20Modül%20Editörü/Nodlar#abs)).
 
 
 ## [Add Float]()
-
 İki input alır ve toplamlarını döndürür (bkz. [Add](../../Niagara%20Modül%20Editörü/Nodlar#add)).
 
 
 ## [Angle Conversion]()
-
 Aldıgı derece degerini başka bir derece degerine dönüştürür.
 
 * #### Angle
@@ -189,7 +178,6 @@ Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan)
 
 
 ## [Calculate Particle Radius]()
-
 "Radius Calculation Type" inputuna göre Sprite'ın ve ya Mesh'in yarıçapını hesaplar. "Sprite" modunda iken Sprite'ın (bkz. [Sprite Renderer](../Moduller#sprite-renderer)), Mesh modundayken Mesh'in (bkz. [Mesh Renderer](../Moduller#mesh-renderer)) yarıçapını verir, Sprite için [Particles.SpriteSize](../Parameters#particlesspritesize) parametresini, Mesh için [Particles.Scale](../Parameters#particlesscale) parametresini kullanır. Ayrıca "Mesh" modunda iken "Mesh Dimensions" diye bir input daha açılır, bu input yarıçap hesaplanırken [Particles.Scale](../Parameters#particlesscale) parametresi için çarpan görevi görür, yani deger bu inputa verdiginiz deger ile çarpılır. "Radius Calculation Type" inputu "Custom" modunda iken manuel olarak yarıçap degerini verebilirsiniz, hiçbir işlem yapılmadan aynı deger döndürülür.
 
 * #### Radius Calculation Type
@@ -206,7 +194,6 @@ Sadece "Radius Calculation Type" "Custom" modunda iken vardır. Manuel olarak ya
 
 
 ## [Ceil Float]()
-
 Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (bkz. [Ceil](../../Niagara%20Modül%20Editörü/Nodlar#ceil)). örnegin
 <br>
 <br>
@@ -216,7 +203,6 @@ Verdiginiz sayıyı en yakın küçük tamsayıya yuvarlar (bkz. [Ceil](../../Ni
 
 
 ## [Clamp Float]()
-
 Verdiginiz inputu "Min" ve "Max" degerine göre düzenler. Eger input Min degerinden küçükse Min degerine, Max degerinden büyükse Max degerine taşınır (bkz. [Clamp](../../Niagara%20Modül%20Editörü/Nodlar#clamp)).
 
 * #### Float
@@ -230,7 +216,6 @@ Maximum deger.
 
 
 ## [Compare Floats]()
-
 Verdiginiz inputların arasından en büyük/küçük olanını seçer.
 
 * #### Comparison Mode
@@ -241,12 +226,10 @@ Kaç tane inputun karşılaştırılacagını belirler. 5'e kadar çıkarılabil
 
 
 ## [Cone Mask]()
-
 bilmiyorum.
 
 
 ## [Cosine]()
-
 "Normalized Angle" inputu için kosinüs degeri döndürür. Kosinüs degerinin periyodunu "Period" inputundan belirleyebilirsiniz. Hesaplanan kosinüs degeri "Scale" inputu ile çarpılır yani "Scale" inputu kosinüs degeri için çarpan görevi görür. Sonra hesaplanan degere "Bias" inputu eklenir. (bkz. [Cosine](../../Niagara%20Modül%20Editörü/Nodlar#cosine))
 
 * #### Normalized Angle
@@ -263,27 +246,22 @@ Hesaplanan degere eklenir.
 
 
 ## [Distance Between Positions]()
-
 Verdiginiz iki konum arasındaki mesafe degerini döndürür (bkz. [Distance](../../Niagara%20Modül%20Editörü/Nodlar#distance)).
 
 
 ## [Divide Float]()
-
 Verdiginiz A inputunu B inputuna böler (bkz. [Divide](../../Niagara%20Modül%20Editörü/Nodlar#divide)). 
 
 
 ## [Dot Product]()
-
 Verdiginiz iki inputun [Dot Product'ını](https://en.wikipedia.org/wiki/Dot_product) verir (bkz. [Dot](../../Niagara%20Modül%20Editörü/Nodlar#dot)).
 
 
 ## [Float from Curve]()
-
 Curve ile float degeri üretmenize yarar.
 
 
 ## [Floor Float]()
-
 Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (bkz. [Floor](../../Niagara%20Modül%20Editörü/Nodlar#floor)). örnegin
 <br>
 <br>
@@ -293,7 +271,6 @@ Verdiginiz sayıyı en yakın büyük tamsayıya yuvarlar (bkz. [Floor](../../Ni
 
 
 ## [Frac Float]()
-
 Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir (bkz. [Frac](../../Niagara%20Modül%20Editörü/Nodlar#frac)). örnegin,
 <br>
 <br>
@@ -305,7 +282,6 @@ Verilen inputun kesirli yani . (nokta) dan sonraki kısmını verir (bkz. [Frac]
 
 
 ## [Lerp Float]()
-
 Formül: [(a * (1 - c)) + (b * c)](https://www.desmos.com/calculator/gtuwm4l27u). Verilen "Alpha" degerine göre "A" ve "B" inputlarını birbirine karıştırır, oranlar. Örnegin "A" ve "B" için iki sayı girin mesela 10 ve 0. Eger "Alpha" degerine 0 verirseniz A, 1 verirseniz B degeri döndürülür. Eger "Alpha" degerine 0.5 verirseniz sayımız da "A" ve "B" nin ortası yani 5 olur. Yani 0'a yaklaştıkça A, 1'e yaklaştıkça B. Kısacası en basit tanımıyla oranlama yapar diyebiliriz, yüzde olarak degilde 0 - 1 arası gibi düşünün, 0 = %0, 1 = %100. (bkz. [Lerp](../../Niagara%20Modül%20Editörü/Nodlar#lerp))
 
 * #### A
@@ -319,7 +295,6 @@ Alpha degeri.
 
 
 ## [Lerp Multiple Floats]()
-
 Veridiginiz inputları Lerp eder. Sadece 2 degeri degil daha fazlasını da Lerp edebilir. En fazla 5 degeri birden Lerp edebilirsiniz. Çalışma şekli şudur, normal Lerp işleminde iki deger vardır, yani 2 nokta vardır. Bu noktaların birincisi 0 degerinde iken, ikincisi 1 degerinde iken kullanılır. Lerp edilen deger sayısı arttıkça nokta sayısı da artar, mesela 3 degeri Lerp ederseniz 3 nokta oluşur, bu 3 nokta, 0, 0.5 ve 1'dir. 0'da iken 1. deger kullanılır, 0.5'e dogru kaydıkça sonuç da 2. degere dogru kayar. 0.5'de iken 2. deger kullanılır. Sonra 0.5'den 1'e dogru kaydıkça sonuç da 3. degere dogru kayar ve 1'de iken sonuç da 3. degere eşit olur. İşte çalışma mantıgı bu, 4 ve 5 inputu Lerp ederken de aynı mantık kullanılıyor. Mesela 4 inputlu Lerp işleminde 4 nokta vardır, bu noktalar, 0, 0.33, 0.66, 1'dir. 5 inputlu işlemde 5 nokta vardır, bu noktalar, 0, 0.25, 0.5, 0.75, 1'dir. Desmos üzerinde yaptıgım [örnege](https://www.desmos.com/calculator/3hswgubepl) de bakabilirsiniz. (bkz. [Lerp Multiple Numeric Fn](../../Niagara%20Modül%20Editörü/Nodlar#lerp-multiple-numeric-fn))
 
 * #### Float Count
@@ -1235,18 +1210,73 @@ A vektörü.
 B vektörü.
 
 
+## [Make Custom Vector from Bool]()
+"Bool" inputuna verdiginiz deger True ise "True Vector" inputunu, False ise "False Vector" inputunu döndürür.
+
+* #### Bool
+True ise "True Vector" inputunu, False ise "False Vector" inputunu döndürür.
+
+* #### True Vector
+"Bool" inputu True iken kullanılacak deger.
+
+* #### False Vector
+"Bool" inputu False iken kullanılacak deger.
+
+
+## [Make Vector]()
+Verdiginiz XYZ degerlerinden vektör oluşturur.
+
+
+## [Make Vector from Linear Color RGB]()
+Verdiginiz Linear Color degerinin XYZ degerlerinden vektör oluşturur.
+
+
+## [Mask Vector by Spawn Group]()
+Eger parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse "Masked Vector" inputuna verdiginiz degeri, degilse "Passthrough Vector" inputuna verdiginiz degeri döndürür.
+
+* #### Masked Vector
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşitse bu deger kullanılır.
+
+* #### Passthrough Vector
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası "Spawn Group Mask" inputuna verdiginiz numaraya eşit degilse bu deger kullanılır.
+
+* #### Spawn Group Mask
+Parçacıgın [SpawnGroup](../../Niagara%20Editörü/Terimler%20Sözlügü#spawngroup) numarası ile eşit mi diye karşılaştırılacak numara.
+
+
+## [Multiply Vector]()
+Verdiginiz iki vektörü çarpar (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+
+## [Multiply Vector by Float]()
+Verdiginiz vektör degerini float ile çarpar yani scale eder, her eksendeki deger verdiginiz float degeri ile çarpılmış olur (bkz. [Multiply](../../Niagara%20Modül%20Editörü/Nodlar#multiply)).
+
+
+## [Negate Vector]()
+Verilen vektörü eksiye çevirir (-x), verdiginiz vektör eksi ise artı, artı ise eksi olur (bkz. [Negate](../../Niagara%20Modül%20Editörü/Nodlar#negate)).
+
+
+## [Normalize Vector]()
+Verdiginiz vektörün [normalize](../../Niagara%20Modül%20Editörü/Nodlar#normalize) edilmiş halini verir. Eger "Safe Normalize" ayarı açıksa [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunu kullanır, kapalıysa [Normalize](../../Niagara%20Modül%20Editörü/Nodlar#normalize) nodunu kullanır.
+
+* #### Vector To Normalize
+Vektör degeri.
+
+* #### Safe Normalize
+Bu ayar açıksa [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonu kullanılır, kapalıysa [Normalize](../../Niagara%20Modül%20Editörü/Nodlar#normalize) nodu kullanılır.
+
+* #### Safe Fallback Threshold
+"Safe Normalize" ayarı açıksa kullanılır. [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunun "Threshold" inputu.
+
+* #### Safe Fallback Vector
+"Safe Normalize" ayarı açıksa kullanılır. [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunun "Fallback" inputu.
 
 
 
 
-Make Custom Vector from Bool
-Make Vector
-Make Vector from Linear Color RGB
-Mask Vector by Spawn Group
-Multiply Vector
-Multiply Vector by Float
-Negate Vector
-Normalize Vector
+
+
+
 Random Range Vector
 Random Vector
 Return Camera Vector
