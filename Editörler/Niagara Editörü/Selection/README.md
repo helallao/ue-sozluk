@@ -1272,27 +1272,133 @@ Bu ayar açıksa [Direction and Length Safe](../../Niagara%20Modül%20Editörü/
 "Safe Normalize" ayarı açıksa kullanılır. [Direction and Length Safe](../../Niagara%20Modül%20Editörü/Nodlar#direction-and-length-safe) fonksiyonunun "Fallback" inputu.
 
 
+## [Random Range Vector]()
+Verdiginiz vektörler arasında rastgele bir vektör döndürür. [Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunu kullanır.
+
+* #### Minimum
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Range Min" inputu.
+
+* #### Maximum
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Range Max" inputu.
+
+* #### Evaluation Type
+"Spawn Only" ise tek bir kere rastgele vektör seçer ve sonraki frame'lerde de hep aynı degeri döndürür, "Every Frame" ise her frame'de tekrar rastgele vektör döndürür.
+
+* #### Randomness Mode
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Randomness Mode" inputu.
+
+* #### Random Seed
+"Randomness Mode" ayarı deterministik ise seed verebilirsiniz.
+
+* #### Fixed Random Seed
+[Calculate Random Range](../../Niagara%20Modül%20Editörü/Nodlar#calculate-random-range) fonksiyonunun "Fixed Random Seed" inputu.
+
+
+## [Random Vector]()
+bilmiyorum.
+
+
+## [Return Camera Vector]()
+bilmiyorum.
+
+
+## [Return Mesh Orientation Axis]()
+bilmiyorum.
+
+
+## [Rotate Vector]()
+bilmiyorum.
+
+
+## [Rotate Vector by Quaternion]()
+bilmiyorum.
+
+
+## [Scalability Distance Based Vector]()
+bilmiyorum.
+
+
+## [Scale and Bias A Vector]()
+[Scale and Offset Vector](../../Niagara%20Modül%20Editörü/Nodlar#scale-and-offset-vector) fonksiyonu ile aynıdır.
+
+
+## [Scale Float by Curve]()
+"InitialValue" inputuna verdiginiz vektörü Curve'den aldıgı deger ile scale eder.
+
+* #### InitialValue
+Scale edilecek vektör.
+
+* #### Curve
+Curve.
+
+* #### CurveIndex
+Curve'den degerleri almak için index degeri.
+
+
+## [Scale Vector by Curve]()
+"InitialValue" inputuna verdiginiz vektörü Curve'den aldıgı vektör ile scale eder.
+
+* #### InitialValue
+Scale edilecek vektör.
+
+* #### Curve
+Curve.
+
+* #### CurveIndex
+Curve'den degerleri almak için index degeri.
+
+
+## [Select Vector from Array]()
+bilmiyorum.
+
+
+## [Slerp Vector]()
+bilmiyorum.
+
+
+## [Smooth Lerp Over Time Vector]()
+Verdiginiz inputları direktmen [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonuna bakın.
+
+* #### Convergence Rate
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Convergence Rate" inputu.
+
+* #### Smooth Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Smooth Value" inputu.
+
+* #### Target Value
+[Smooth Lerp Over Time](../../Niagara%20Modül%20Editörü/Nodlar#smooth-lerp-over-time) fonksiyonunun "Target Value" inputu.
+
+
+## [Subtract Position]()
+Verdiginiz A pozisyon degerinden B pozisyon degerini çıkarır yani A vektöründen B vektörünü çıkarır da denebilir (bkz. [Subtract](../../Niagara%20Modül%20Editörü/Nodlar#subtract)).
+
+
+## [Subtract Vector]()
+Verdiginiz A vektör degerinden B vektörünü çıkarır (bkz. [Subtract](../../Niagara%20Modül%20Editörü/Nodlar#subtract)).
+
+
+## [Transform Vector]()
+Verdiginiz inputları direktmen [Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonundan geçirir ve sonucu döndürür. Açıklama için [Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonuna bakın.
+
+* #### Vector
+[Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonunun "InVector" inputu.
+
+* #### Source Space
+[Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonunun "Source Space" inputu.
+
+* #### Destination Space
+[Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonunun "Destination Space" inputu.
+
+* #### Apply Scale
+[Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonunun "Apply Scale" inputu.
+
+* #### Transform Vector as Position
+Bu ayar açıksa inputlar [Transform Vector](../../Niagara%20Modül%20Editörü/Nodlar#transform-vector) fonksiyonundan geçmeden önce [Transform Position](../../Niagara%20Modül%20Editörü/Nodlar#transform-position) fonksiyonundan geçirilir.
 
 
 
 
 
-Random Range Vector
-Random Vector
-Return Camera Vector
-Return Mesh Orientation Axis
-Rotate Vector
-Rotate Vector by Quaternion
-Scalability Distance Based Vector
-Scale and Bias A Vector
-Scale Float by Curve
-Scale Vector by Curve
-Select Vector from Array
-Slerp Vector
-Smooth Lerp Over Time Vector
-Subtract Position
-Subtract Vector
-Transform Vector
 Transform Vector by Matrix
 Vector from Curve
 Vector from Float
