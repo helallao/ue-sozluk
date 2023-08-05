@@ -1414,7 +1414,7 @@ Curve ile vektör degeri üretmenize yarar.
 
 
 ## [Vector from Float]()
-Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger RGB kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
+Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger XYZ kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
 
 
 
@@ -1516,13 +1516,33 @@ bilmiyorum.
 
 
 ## [Scale Vector 2DBy Curve]()
+"InitialValue" inputuna verdiginiz vektörü Curve'den aldıgı vektör ile scale eder.
+
+* #### InitialValue
+Scale edilecek vektör.
+
+* #### Curve
+Curve.
+
+* #### CurveIndex
+Curve'den degerleri almak için index degeri.
+
+
+## [Select Vector 2DFrom Array]()
 bilmiyorum.
 
 
+## [Subtract Vector 2]()
+Verdiginiz A vektör degerinden B vektörünü çıkarır (bkz. [Subtract](../../Niagara%20Modül%20Editörü/Nodlar#subtract)).
 
 
-Select Vector 2DFrom Array
-Subtract Vector 2
-Vector 2DFrom Curve
-Vector 2DFrom Float
+## [Vector 2DFrom Curve]()
+Curve ile vektör degeri üretmenize yarar.
+
+
+## [Vector 2DFrom Float]()
+Verdiginiz float deger ile Curve oluşturmanıza yarar, verdiginiz deger XY kanalları olmak üzere bütün kanallarda da kullanılan degerdir.
+
+
+
 
