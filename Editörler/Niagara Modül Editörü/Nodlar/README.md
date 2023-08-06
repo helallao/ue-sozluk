@@ -129,25 +129,43 @@ Verilen bool'ların herhangi biri True ise True, hiçbiri degilse False döndür
 ## Bool Array
 
 * #### [Add]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) sonuna yeni bir bool ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna bool eklenecek [Bool Array](../../Niagara%20Editörü/Parameters#bool-array).
+skipAdd | Eger bu input True ise bool eklenmez, False ise eklenir.
+Value | Eklenecek bool degeri.
+
 
 * #### [Clear]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'den](../../Niagara%20Editörü/Parameters#bool-array) bütün elementleri yani bool'ları siler.
 
 * #### [Get]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'den](../../Niagara%20Editörü/Parameters#bool-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'den](../../Niagara%20Editörü/Parameters#bool-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Bool Array'deki](../../Niagara%20Editörü/Parameters#bool-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) son index numarasını verir, yani [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Bool Array'de](../../Niagara%20Editörü/Parameters#bool-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Bool Array](../../Niagara%20Editörü/Parameters#bool-array).
+skipRemove | Eger bu input True ise [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Bool Array'den](../../Niagara%20Editörü/Parameters#bool-array) silinen bool'un degeri.
+IsValid | Eger [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
