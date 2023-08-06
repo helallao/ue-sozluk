@@ -12,7 +12,6 @@
 
 ## 2D Array Texture Sample
 
-
 * #### [Gather Red Texture]()
 (Sadece [2D Array Texture Sample](../../Niagara%20Editörü/Parameters#2d-array-texture-sample) veri tipine uygundur) bilmiyorum.
 
@@ -26,6 +25,73 @@
 (Sadece [2D Array Texture Sample](../../Niagara%20Editörü/Parameters#2d-array-texture-sample) veri tipine uygundur) bilmiyorum.
 
 
+## Actor Component Interface
+
+* #### [Get Matrix]()
+(Sadece [Actor Component Interface](../../Niagara%20Editörü/Parameters#actor-component-interface) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Transform]()
+(Sadece [Actor Component Interface](../../Niagara%20Editörü/Parameters#actor-component-interface) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Velocity]()
+(Sadece [Actor Component Interface](../../Niagara%20Editörü/Parameters#actor-component-interface) veri tipine uygundur) bilmiyorum.
+
+
+## Async Gpu Trace
+
+* #### [Create Async Ray Trace Gpu]()
+(Sadece [Async Gpu Trace](../../Niagara%20Editörü/Parameters#async-gpu-trace) veri tipine uygundur) bilmiyorum.
+
+* #### [Issue Async Ray Trace Gpu]()
+(Sadece [Async Gpu Trace](../../Niagara%20Editörü/Parameters#async-gpu-trace) veri tipine uygundur) bilmiyorum.
+
+* #### [Read Async Ray Trace Gpu]()
+(Sadece [Async Gpu Trace](../../Niagara%20Editörü/Parameters#async-gpu-trace) veri tipine uygundur) bilmiyorum.
+
+* #### [Reserve Async Ray Trace Gpu]()
+(Sadece [Async Gpu Trace](../../Niagara%20Editörü/Parameters#async-gpu-trace) veri tipine uygundur) bilmiyorum.
+
+
+## Audio Oscilloscope
+
+* #### [Get Audio Buffer Num Channels]()
+(Sadece [Audio Oscilloscope](../../Niagara%20Editörü/Parameters#audio-oscilloscope) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Audio Buffer]()
+(Sadece [Audio Oscilloscope](../../Niagara%20Editörü/Parameters#audio-oscilloscope) veri tipine uygundur) bilmiyorum.
+
+
+## Audio Player
+
+* #### [Play Audio at Location]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Play Persistent Audio]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Boolean Parameter]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Float Parameter]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Integer Parameter]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Paused]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Update Audio Location]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Update Audio Pitch]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Update Audio Rotation]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
+
+* #### [Update Audio Volume]()
+(Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
 
 
 ## Break
