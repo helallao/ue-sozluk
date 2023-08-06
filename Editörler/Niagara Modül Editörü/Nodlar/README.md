@@ -10,6 +10,24 @@
 
 
 
+## 2D Array Texture Sample
+
+
+* #### [Gather Red Texture]()
+(Sadece [2D Array Texture Sample](../../Niagara%20Editörü/Parameters#2d-array-texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Load Texture]()
+(Sadece [2D Array Texture Sample](../../Niagara%20Editörü/Parameters#2d-array-texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Texture]()
+(Sadece [2D Array Texture Sample](../../Niagara%20Editörü/Parameters#2d-array-texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Texture Dimensions]()
+(Sadece [2D Array Texture Sample](../../Niagara%20Editörü/Parameters#2d-array-texture-sample) veri tipine uygundur) bilmiyorum.
+
+
+
+
 ## Break
 
 (Sadece çok boyutlu veri tiplerine uygundur) Bu kategori sadece çok boyutlu veri tipleri ve özel veri tiplerinde ortaya çıkar. Veriyi parçalayıp içindeki elementleri alabilirsiniz.
