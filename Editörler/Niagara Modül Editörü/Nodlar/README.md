@@ -3609,16 +3609,359 @@ Verdiginiz iki pozisyonun arasındaki uzaklıgı verir, [formül](https://www.de
 
 ## Render Target Volume
 
-* #### [aaaaaaaaaaaa]()
+* #### [Exec to Index]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Exec to Unit]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Mip Levels]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Render Target Size]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Render Target Value]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Linear to Index]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Load Render Target Value]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Render Target Value]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Render Target Format]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Render Target Size]()
+(Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Render Target Value]()
 (Sadece [Render Target Volume](../../Niagara%20Editörü/Parameters#render-target-volume) veri tipine uygundur) bilmiyorum.
 
 
+## Rigid Mesh Collision Query
+
+* #### [Find Actors]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Closest Distance]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Closest Element]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Closest Point]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Closest Point Mesh Distance Field]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Closest Point Mesh Distance Field Accurate]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Closest Point Mesh Distance Field No Normal]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Element Distance]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Element Point]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Boxes]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Capsules]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Spheres]()
+(Sadece [Rigid Mesh Collision Query](../../Niagara%20Editörü/Parameters#rigid-mesh-collision-query) veri tipine uygundur) bilmiyorum.
+
+
+## Runtime Virtual Texture Sample
+
+* #### [Get Attributes Valid]()
+(Sadece [Runtime Virtual Texture Sample](../../Niagara%20Editörü/Parameters#runtime-virtual-texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample RVT]()
+(Sadece [Runtime Virtual Texture Sample](../../Niagara%20Editörü/Parameters#runtime-virtual-texture-sample) veri tipine uygundur) bilmiyorum.
 
 
 ## Script Parameters
 
 * #### [InputMap]()
 "Script Parameters" kategorisinde oluşturdugunuz [ParameterMap'ler](../Terimler%20Sözlügü#parametermap) görünür. Buradan ParameterMap'inizi node olarak koyabilirsiniz ve ya isterseniz [Graph](../Graph) üzerinde duran ParameterMap'inizi kopyalabilirsiniz. Yeni bir niagara modülü oluşturdugunuzda default olarak oluşturulan ParameterMap'in ismi "InputMap" oldugu için buraya da "InputMap" adında bir örnek koydum, isimler sizin ParameterMap'lerinize göre degişir.
+
+
+## SimCache Reader
+
+* #### [Get Emitter Index]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Color]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Float]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Int]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Position]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Quat]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Vector 2]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Vector 3]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Instance Vector 4]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Emitters]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Frames]()
+(Sadece [SimCache Reader](../../Niagara%20Editörü/Parameters#simcache-reader) veri tipine uygundur) bilmiyorum.
+
+
+## Simple Counter
+
+* #### [Add]()
+(Sadece [Simple Counter](../../Niagara%20Editörü/Parameters#simple-counter) veri tipine uygundur) bilmiyorum.
+
+* #### [Decrement]()
+(Sadece [Simple Counter](../../Niagara%20Editörü/Parameters#simple-counter) veri tipine uygundur) bilmiyorum.
+
+* #### [Exchange]()
+(Sadece [Simple Counter](../../Niagara%20Editörü/Parameters#simple-counter) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [Simple Counter](../../Niagara%20Editörü/Parameters#simple-counter) veri tipine uygundur) bilmiyorum.
+
+* #### [Increment]()
+(Sadece [Simple Counter](../../Niagara%20Editörü/Parameters#simple-counter) veri tipine uygundur) bilmiyorum.
+
+
+## Skeletal Mesh
+
+* #### [Get Adjacent Triangle Index]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Bone Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Bone Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket or Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket or Bone Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket Transform]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Triangle]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Triangle Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Vertex]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Vertex Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Parent Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Pre Skinned Local Bounds]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Bone Data]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Bone Data Interpolated]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Bone Data WS]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Bone Data WSInterpolated]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Triangle Data]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Triangle Data Interpolated]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Triangle Data WS]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Triangle Data WSInterpolated]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Vertex Data]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Skinned Vertex Data WS]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Tri Color]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Tri Coord Vertices]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Tri UV]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Coord at UV]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Coord in Aabb]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Data]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Neighbor]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Bone Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex Color]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex Count]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex Data]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex UV]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Filtered Vertex]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Tri Coord]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Vertex]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Socket]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Socket or Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Triangle]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Vertex]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Tri Coord]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Triangle]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Unfiltered Bone]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Vertex]()
+(Sadece [Skeletal Mesh](../../Niagara%20Editörü/Parameters#skeletal-mesh) veri tipine uygundur) bilmiyorum.
+
+
+## Spline
+
+* #### [Find Closest Unit Distance from Position WS]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Spline Length]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Spline Local to World]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Spline Local to World Inverse Transposed]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Direction by Unit Distance]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Direction by Unit Distance WS]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Position by Unit Distance]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Position by Unit Distance WS]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Right Vector by Unit Distance]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Right Vector by Unit Distance WS]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Rotation by Unit Distance]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Rotation by Unit Distance WS]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Tangent by Unit Distance]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Tangent by Unit Distance WS]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Up Vector by Unit Distance]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Spline Up Vector by Unit Distance WS]()
+(Sadece [Spline](../../Niagara%20Editörü/Parameters#spline) veri tipine uygundur) bilmiyorum.
 
 
 ## Special Purpose Parameters
@@ -3633,10 +3976,216 @@ Bu modül parametrelerin default (başlangıç) degerlerini ayarlamak için kull
 Ne olduguna dair hiçbir yerde bilgi yok. Kendi yaptıgım denemelere göre, her bir Emitter için özel olarak id degeri tutuyor. Yani Emitter'ın id'si oldugunu düşünün, bu node da o id'yi veriyor. Eger bu node başka bir Emitter'da çalışırsa başka deger döndürür, ama aynı Emitter'da çalıştıgı sürece aynı degeri döndürür.
 
 
+## Static Mesh
+
+* #### [Build Uv Mapping]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Section At]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Section Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket Transform]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket Transform WS]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Socket Transform WSInterpolated]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Triangle At]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Filtered Triangle Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Local to World]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Local to World Inverse Transposed]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Mesh Bounds]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Mesh Bounds WS]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Pre Skinned Local Bounds]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Section Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Section Triangle At]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Section Triangle Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Socket Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Socket Transform]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Socket Transform WS]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Socket Transform WSInterpolated]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Color]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Coord at UV]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Coord in Aabb]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle Indices]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle UV]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle WS]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Triangle WSInterpolated]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Section At]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Section Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Socket]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Socket Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Socket Transform]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Socket Transform WS]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Socket Transform WSInterpolated]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Triangle At]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Unfiltered Triangle Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex Color]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex Count]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex UV]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex WS]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vertex WSInterpolated]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Get World Velocity]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Filtered Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Section]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Unfiltered Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Vertex]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Query Distance Field]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Section]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Socket]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Filtered Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Section]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Section Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Socket]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Unfiltered Section]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Unfiltered Socket]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Unfiltered Triangle]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+* #### [Random Vertex]()
+(Sadece [Static Mesh](../../Niagara%20Editörü/Parameters#static-mesh) veri tipine uygundur) bilmiyorum.
+
+
 ## Swizzles
 
 * #### [XYZW]()
 (Sadece çok boyutlu veri tiplerine uygundur) Bu kategori sadece çok boyutlu veri tiplerinde ortaya çıkar. Boyutların yerlerini degiştirmenize yarar. Sadece istediginiz kombinasyonu yazmanız yeterlidir. Kullanabileceginiz bütün kombinasyonlar "XYZW" harfleridir.
+
+
+## Texture Sample
+
+* #### [aaaaaaaaaaa]()
+(Sadece [Texture Sample](../../Niagara%20Editörü/Parameters#texture-sample) veri tipine uygundur) bilmiyorum.
+
+
 
 
 ## Utility
