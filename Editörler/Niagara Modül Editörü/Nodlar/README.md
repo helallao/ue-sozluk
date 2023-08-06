@@ -420,6 +420,21 @@ Yorum bölümü oluşturur.
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
 
 
+## Events
+
+* #### [Add Chaos Destruction Event Read(ChaosDestructionEvent Read)]()
+bilmiyorum.
+
+* #### [Add Niagara Collision Payload Event Read(NiagaraCollisionEventPayload Read)]()
+bilmiyorum.
+
+* #### [Add Chaos Destruction  Event Write(ChaosDestructionEvent Write)]()
+bilmiyorum.
+
+* #### [Add Niagara Collision  Payload Event Write(NiagaraCollisionEventPayload Write)]()
+bilmiyorum.
+
+
 ## Export particle data
 
 * #### [Export Particle Data]()
@@ -454,21 +469,6 @@ Yorum bölümü oluşturur.
 
 * #### [Set Array Elem]()
 (Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
-
-
-## Events
-
-* #### [Add Chaos Destruction Event Read(ChaosDestructionEvent Read)]()
-bilmiyorum.
-
-* #### [Add Niagara Collision Payload Event Read(NiagaraCollisionEventPayload Read)]()
-bilmiyorum.
-
-* #### [Add Chaos Destruction  Event Write(ChaosDestructionEvent Write)]()
-bilmiyorum.
-
-* #### [Add Niagara Collision  Payload Event Write(NiagaraCollisionEventPayload Write)]()
-bilmiyorum.
 
 
 ## Functions
@@ -1832,6 +1832,546 @@ bilmiyorum.
 
 * #### [XYZRotation to Quaternion]()
 bilmiyorum.
+
+
+## GBuffer
+
+* #### [Decode Base Color]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Custom Depth]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Custom Stencil]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Depth]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Diffuse Color]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Metallic]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Roughness]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Scene Color]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Screen Velocity]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Shading Model ID]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode Specular]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode World Normal]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+* #### [Decode World Velocity]()
+(Sadece [GBuffer](../../Niagara%20Editörü/Parameters#gbuffer) veri tipine uygundur) bilmiyorum.
+
+
+## Geometry Collection
+
+* #### [Get Closest Point No Normal]()
+(Sadece [Geometry Collection](../../Niagara%20Editörü/Parameters#geometry-collection) veri tipine uygundur) bilmiyorum.
+
+
+## Grid2D Collection
+
+* #### [Clear Cell]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Copy Previous to Current for Cell]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Execution Index to Grid Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Execution Index to Unit]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Float Attribute Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Cells]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Float Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Value at Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 2DValue]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 4VaIue]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 2DAttribute Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 4Attribute Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector Attribute Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Linear]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit Staggered X]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit Staggered Y]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Linear to Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid at Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Float Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 2DValue]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 3Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 4Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Float Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Num Cells]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Value at Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 2DValue]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 4Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector Value]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Simulation to Unit]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Float Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Index]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Simulation]()
+(Sadece [Grid2D Collection](../../Niagara%20Editörü/Parameters#grid2d-collection) veri tipine uygundur) bilmiyorum.
+
+
+## Grid2D Collection Reader
+
+* #### [Execution Index to Grid Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Execution Index to Unit]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Float Attribute Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Cells]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Float Value]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Value at Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 2DValue]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector Value]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 2DAttribute Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 4Attribute Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector Attribute Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Linear]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit Staggered X]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit Staggered Y]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Linear to Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid at Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Float Value]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 2DValue]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 3Value]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 4Value]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Value at Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Simulation to Unit]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Float Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Index]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Simulation]()
+(Sadece [Grid2D Collection Reader](../../Niagara%20Editörü/Parameters#grid2d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+
+## Grid3D Collection
+
+* #### [Clear Cell]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Copy Masked Previous to Current for Cell]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Copy Previous to Current for Cell]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Float at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Float Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 2At Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 2DValue]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 3At Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 3Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 4At Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 4Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Execution Index to Grid Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Execution Index to Unit]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Float Attribute Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Cells]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Float Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Float Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 2DValue]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 2Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 3Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 4Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 4Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 2DAttribute Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 4Attribute Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector Attribute Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Linear]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Linear to Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Float at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Float Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 2At Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 2DValue]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 3At Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 3Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 4At Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 4Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Float Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Float Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Num Cells]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 2DValue]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 2Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 3Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 4Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 4Value at Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector Value]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Simulation to Unit]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Float Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Index]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Simulation]()
+(Sadece [Grid3D Collection](../../Niagara%20Editörü/Parameters#grid3d-collection) veri tipine uygundur) bilmiyorum.
+
+
+## Grid3D Collection Reader
+
+* #### [Cubic Sample Previous Grid at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Float at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Float Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 2At Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 2DValue]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 3At Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 3Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 4At Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Cubic Sample Previous Grid Vector 4Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Execution Index to Grid Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Execution Index to Unit]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Float Attribute Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Cells]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Float Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Float Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 2DValue]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 2Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 3Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector 4Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Previous Vector Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 2DAttribute Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector 4Attribute Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Vector Attribute Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Linear]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Linear to Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Float at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Float Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 2At Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 2DValue]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 3At Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 3Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 4At Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Previous Grid Vector 4Value]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Float Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 2Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 3Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Vector 4Value at Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Simulation to Unit]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Float Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Index]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+* #### [Unit to Simulation]()
+(Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
+
+
+## Int32 Array
+
+* #### [aaaaaaaaaa]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
 
 
 ## Integer
