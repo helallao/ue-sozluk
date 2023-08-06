@@ -2368,12 +2368,6 @@ bilmiyorum.
 (Sadece [Grid3D Collection Reader](../../Niagara%20Editörü/Parameters#grid3d-collection-reader) veri tipine uygundur) bilmiyorum.
 
 
-## Int32 Array
-
-* #### [aaaaaaaaaa]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
-
-
 ## Integer
 
 * #### [Bitwise AND](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
@@ -2393,6 +2387,96 @@ Bitwise "Right Shift" operatörü kullanmanıza yarar. Bitwise işlemleri ögren
 
 * #### [Bitwise XOR](https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301)
 Bitwise "Xor" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek istiyorsanız linke bakabilirsiniz.
+
+
+## Int32 Array
+
+* #### [Add]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Atomic Add]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Atomic Max]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Atomic Min]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Clear]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Index]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Last Index]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Length]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Last Elem]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Resize]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Array Elem]()
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+
+
+## Integer Render Target 2D
+
+* #### [Atomic Add]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Atomic Max]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Atomic Min]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Exec to Index]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Exec to UV]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Render Target Size]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Value]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Linear to Index]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Linear to UV]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Render Target Size]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Value]()
+(Sadece [Integer Render Target 2D](../../Niagara%20Editörü/Parameters#integer-render-target-2d) veri tipine uygundur) bilmiyorum.
+
+
+## Landscape Sample
+
+* #### [Get Base Color]()
+(Sadece [Landscape Sample](../../Niagara%20Editörü/Parameters#landscape-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Height]()
+(Sadece [Landscape Sample](../../Niagara%20Editörü/Parameters#landscape-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Physical Material Index]()
+(Sadece [Landscape Sample](../../Niagara%20Editörü/Parameters#landscape-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Get World Normal]()
+(Sadece [Landscape Sample](../../Niagara%20Editörü/Parameters#landscape-sample) veri tipine uygundur) bilmiyorum.
 
 
 ## Make
@@ -2733,6 +2817,12 @@ Verilen matrix'in 4. dizesini döndürür.
 
 * #### [Transpose]()
 Verilen matrix'e [transpose](https://en.wikipedia.org/wiki/Transpose) uygular.
+
+
+## Neighbor Grid3D
+
+* #### [aaaaaaaaaa]()
+(Sadece [Neighbor Grid3D](../../Niagara%20Editörü/Parameters#neighbor-grid3d) veri tipine uygundur) bilmiyorum.
 
 
 ## Numeric
