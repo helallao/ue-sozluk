@@ -94,6 +94,15 @@
 (Sadece [Audio Player](../../Niagara%20Editörü/Parameters#audio-player) veri tipine uygundur) bilmiyorum.
 
 
+## Audio Spectrum
+
+* #### [Audio Spectrum]()
+(Sadece [Audio Spectrum](../../Niagara%20Editörü/Parameters#audio-spectrum) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Channels]()
+(Sadece [Audio Spectrum](../../Niagara%20Editörü/Parameters#audio-spectrum) veri tipine uygundur) bilmiyorum.
+
+
 ## Break
 
 (Sadece çok boyutlu veri tiplerine uygundur) Bu kategori sadece çok boyutlu veri tipleri ve özel veri tiplerinde ortaya çıkar. Veriyi parçalayıp içindeki elementleri alabilirsiniz.
@@ -115,6 +124,69 @@ Verilen bool'u tersine çevirir, True ise False, False ise True döndürür.
 
 * #### [Logic OR]()
 Verilen bool'ların herhangi biri True ise True, hiçbiri degilse False döndürür.
+
+
+## Bool Array
+
+* #### [Add]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Clear]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Index]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Last Index]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Length]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Last Elem]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Resize]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Array Elem]()
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+
+
+## Camera Query
+
+* #### [Apply Pre View Translation to Position GPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Calculate Particle Distances CPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Camera Properties CPU/GPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Clip Space Transforms GPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Field Of View]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get TAAJitter]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get View Properties GPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Get View Space Transforms GPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Query Closest Pafticles CPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Pre View Translation from Position GPU]()
+(Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
 
 
 ## Comments
