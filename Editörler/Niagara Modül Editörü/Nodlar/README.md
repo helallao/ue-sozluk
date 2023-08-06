@@ -171,7 +171,14 @@ IsValid | Eger [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) 
 (Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Bool Array](../../Niagara%20Editörü/Parameters#bool-array) veri tipine uygundur) Verdiginiz [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Bool Array](../../Niagara%20Editörü/Parameters#bool-array).
+skipSet | Eger bu input True ise [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Bool Array'deki](../../Niagara%20Editörü/Parameters#bool-array) index numarası.
+Value | Yeni bool degeri.
 
 
 ## Camera Query
