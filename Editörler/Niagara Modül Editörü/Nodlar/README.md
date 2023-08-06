@@ -189,10 +189,154 @@ Verilen bool'ların herhangi biri True ise True, hiçbiri degilse False döndür
 (Sadece [Camera Query](../../Niagara%20Editörü/Parameters#camera-query) veri tipine uygundur) bilmiyorum.
 
 
+## Chaos Destruction Data
+
+* #### [Get Angular Velocity]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Breaking Data]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Collision Data]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Color]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Density]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Extent Max]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Extent Min]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Friction]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Normal]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Particle Ids to Spawn at Time]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Point Type]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Position]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Restitution]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Size]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Solver Time]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Surface Type]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Trailing Data]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Transform]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Velocity]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Volume]()
+(Sadece [Chaos Destruction Data](../../Niagara%20Editörü/Parameters#chaos-destruction-data) veri tipine uygundur) bilmiyorum.
+
+
+## Collision Query
+
+* #### [Perform Collision Query Async CPU]()
+(Sadece [Collision Query](../../Niagara%20Editörü/Parameters#collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Perform Collision Query Sync CPU]()
+(Sadece [Collision Query](../../Niagara%20Editörü/Parameters#collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Query Custom Depth GPU]()
+(Sadece [Collision Query](../../Niagara%20Editörü/Parameters#collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Query Mesh Distance Field GPU]()
+(Sadece [Collision Query](../../Niagara%20Editörü/Parameters#collision-query) veri tipine uygundur) bilmiyorum.
+
+* #### [Query Scene Depth GPU]()
+(Sadece [Collision Query](../../Niagara%20Editörü/Parameters#collision-query) veri tipine uygundur) bilmiyorum.
+
+
+## Color Array
+
+* #### [Add]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Clear]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Index]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Last Index]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Length]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Last Elem]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Resize]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Array Elem]()
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+
+
 ## Comments
 
 * #### [Add Comment]()
 Yorum bölümü oluşturur.
+
+
+## Cube Texture Sample
+
+* #### [Sample Cube Texture]()
+(Sadece [Cube Texture Sample](../../Niagara%20Editörü/Parameters#cube-texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Texture Dimensions]()
+(Sadece [Cube Texture Sample](../../Niagara%20Editörü/Parameters#cube-texture-sample) veri tipine uygundur) bilmiyorum.
+
+
+## Curl Noise
+
+* #### [Sample Noise Field]()
+(Sadece [Curl Noise](../../Niagara%20Editörü/Parameters#curl-noise) veri tipine uygundur) bilmiyorum.
+
+
+## Curve for Colors
+
+* #### [Sample Color Curve]()
+(Sadece [Curve for Colors](../../Niagara%20Editörü/Parameters#curve-for-colors) veri tipine uygundur) bilmiyorum.
+
+
+## Curve for Floats
+
+* #### [Sample Curve]()
+(Sadece [Curve for Floats](../../Niagara%20Editörü/Parameters#curve-for-floats) veri tipine uygundur) bilmiyorum.
+
+
+## Curve for Vector2D's
+
+* #### [Sample Vector 2DCurve]()
+(Sadece [Curve for Vector2D's](../../Niagara%20Editörü/Parameters#curve-for-vector2ds) veri tipine uygundur) bilmiyorum.
 
 
 ## Events
