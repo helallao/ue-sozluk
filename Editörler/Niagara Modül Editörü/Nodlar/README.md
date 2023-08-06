@@ -4182,10 +4182,53 @@ Ne olduguna dair hiçbir yerde bilgi yok. Kendi yaptıgım denemelere göre, her
 
 ## Texture Sample
 
-* #### [aaaaaaaaaaa]()
+* #### [Gather Red Texture 2D]()
+(Sadece [Texture Sample](../../Niagara%20Editörü/Parameters#texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Mip Levels]()
+(Sadece [Texture Sample](../../Niagara%20Editörü/Parameters#texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Texture Dimensions]()
+(Sadece [Texture Sample](../../Niagara%20Editörü/Parameters#texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Load Texture 2D]()
+(Sadece [Texture Sample](../../Niagara%20Editörü/Parameters#texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Pseudo Volume Texture]()
+(Sadece [Texture Sample](../../Niagara%20Editörü/Parameters#texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Texture 2D]()
 (Sadece [Texture Sample](../../Niagara%20Editörü/Parameters#texture-sample) veri tipine uygundur) bilmiyorum.
 
 
+## UInt8 Array
+
+* #### [Add]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Clear]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Index]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Last Index]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Length]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Last Elem]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Resize]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Array Elem]()
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
 
 
 ## Utility
@@ -4204,6 +4247,150 @@ bilmiyorum.
 
 * #### [Static Switch]()
 "Select / If" nodunun static versionudur. İki input alır ve koşul degerine göre seçim yapar. "Select / If" nodunun aksine koşul degerini kod içinde belirleyemezsiniz. Kullanıcıdan parametre olarak alınır. Nodu seçtiginiz zaman detaylar penceresinde "Input parameter name" ayarı ile parametrenin ismini belirleyebilirsiniz, "Default value" ayarı ile default degeri ayarlayabilirsiniz. Her bir Static Switch nodu parametreler bölümünde [Static Switch Inputs](../Parameters#static-switch-inputs) kategorisinde görünür.
+
+
+## Vector 2D Array
+
+* #### [Add]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Clear]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Index]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Last Index]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Length]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Last Elem]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Resize]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Array Elem]()
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+
+
+## Vector 4 Array
+
+* #### [Add]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Clear]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Index]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Last Index]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Length]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Last Elem]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Resize]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Array Elem]()
+(Sadece [Vector 4 Array](../../Niagara%20Editörü/Parameters#vector-4-array) veri tipine uygundur) bilmiyorum.
+
+
+## Vector Array
+
+* #### [Add]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Clear]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Get]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Is Valid Index]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Last Index]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Length]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Remove Last Elem]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Resize]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Array Elem]()
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+
+
+## Vector Field
+
+* #### [Field Bounds]()
+(Sadece [Vector Field](../../Niagara%20Editörü/Parameters#vector-field) veri tipine uygundur) bilmiyorum.
+
+* #### [Field Dimensions]()
+(Sadece [Vector Field](../../Niagara%20Editörü/Parameters#vector-field) veri tipine uygundur) bilmiyorum.
+
+* #### [Field Tiling Axes]()
+(Sadece [Vector Field](../../Niagara%20Editörü/Parameters#vector-field) veri tipine uygundur) bilmiyorum.
+
+* #### [Load Field]()
+(Sadece [Vector Field](../../Niagara%20Editörü/Parameters#vector-field) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Field]()
+(Sadece [Vector Field](../../Niagara%20Editörü/Parameters#vector-field) veri tipine uygundur) bilmiyorum.
+
+
+## Volume Cache
+
+* #### [Get Current Frame Num Cells]()
+(Sadece [Volume Cache](../../Niagara%20Editörü/Parameters#volume-cache) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Current Frame Value]()
+(Sadece [Volume Cache](../../Niagara%20Editörü/Parameters#volume-cache) veri tipine uygundur) bilmiyorum.
+
+* #### [Get Num Cells]()
+(Sadece [Volume Cache](../../Niagara%20Editörü/Parameters#volume-cache) veri tipine uygundur) bilmiyorum.
+
+* #### [Index to Unit]()
+(Sadece [Volume Cache](../../Niagara%20Editörü/Parameters#volume-cache) veri tipine uygundur) bilmiyorum.
+
+* #### [Read File]()
+(Sadece [Volume Cache](../../Niagara%20Editörü/Parameters#volume-cache) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Current Frame Value]()
+(Sadece [Volume Cache](../../Niagara%20Editörü/Parameters#volume-cache) veri tipine uygundur) bilmiyorum.
+
+* #### [Set Frame]()
+(Sadece [Volume Cache](../../Niagara%20Editörü/Parameters#volume-cache) veri tipine uygundur) bilmiyorum.
+
+
+## Volume Texture Sample
+
+* #### [Load Volume Texture]()
+(Sadece [Volume Texture Sample](../../Niagara%20Editörü/Parameters#volume-texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Sample Volume Texture]()
+(Sadece [Volume Texture Sample](../../Niagara%20Editörü/Parameters#volume-texture-sample) veri tipine uygundur) bilmiyorum.
+
+* #### [Texture Dimensions 3D]()
+(Sadece [Volume Texture Sample](../../Niagara%20Editörü/Parameters#volume-texture-sample) veri tipine uygundur) bilmiyorum.
 
 
 ## No Category
