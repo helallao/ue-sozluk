@@ -754,7 +754,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Bool Array]()
-bilmiyorum.
+Liste (array) şeklinde [bool](#bool) degeri tutar.
 
 * #### [Camera Query]()
 bilmiyorum.
