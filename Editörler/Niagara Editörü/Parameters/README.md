@@ -703,7 +703,7 @@ Aslında 4 boyutlu vektör, renkler için bu kullanılıyor.
 bilmiyorum.
 
 * #### [Niagara ID]()
-bilmiyorum.
+İçerisinde iki sayı tutar. Bunlar "Index" ve "Acquire Tag" dir. "Index" degeri parçacıgın id'sidir, spawn oldukça parçacıklara 0'dan başlayıp birer birer artan idler verilir. Mesela "Index" degeri 0 olan parçacık muhtemelen ilk spawn olan parçacıktır. "Acquire Tag" degeri ise rastgele verilmiş bir sayı degeridir. Hafızada o parçacık için bilgilerin tutuldugu alanı belirten bir numaradır.
 
 * #### [Niagara Rand Info]()
 İçerisinde 3 sayı tutar. 3 boyutlu vektör gibi. Bu sayıların her biri seed görevi görür. Yani 3 tane seed.
