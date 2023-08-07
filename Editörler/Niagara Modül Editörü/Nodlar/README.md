@@ -4490,31 +4490,56 @@ bilmiyorum.
 ## Vector 2D Array
 
 * #### [Add]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) sonuna yeni bir Vector 2D ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna Vector 2D eklenecek [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array).
+SkipAdd | Eger bu input True ise Vector 2D eklenmez, False ise eklenir.
+Value | Eklenecek Vector 2D degeri.
+
 
 * #### [Clear]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'den](../../Niagara%20Editörü/Parameters#vector-2d-array) bütün elementleri yani Vector 2D'leri siler.
 
 * #### [Get]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'den](../../Niagara%20Editörü/Parameters#vector-2d-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'den](../../Niagara%20Editörü/Parameters#vector-2d-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Vector 2D Array'deki](../../Niagara%20Editörü/Parameters#vector-2d-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) son index numarasını verir, yani [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Vector 2D Array'de](../../Niagara%20Editörü/Parameters#vector-2d-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array).
+SkipRemove | Eger bu input True ise [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Vector 2D Array'den](../../Niagara%20Editörü/Parameters#vector-2d-array) silinen Vector 2D'nin degeri.
+IsValid | Eger [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array) veri tipine uygundur) Verdiginiz [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Vector 2D Array](../../Niagara%20Editörü/Parameters#vector-2d-array).
+SkipSet | Eger bu input True ise [Vector 2D Array'in](../../Niagara%20Editörü/Parameters#vector-2d-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Vector 2D Array'deki](../../Niagara%20Editörü/Parameters#vector-2d-array) index numarası.
+Value | Yeni Vector 2D degeri.
 
 
 ## Vector 4 Array
