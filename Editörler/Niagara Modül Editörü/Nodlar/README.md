@@ -374,31 +374,56 @@ Yorum bölümü oluşturur.
 ## Curve for Colors
 
 * #### [Sample Color Curve]()
-(Sadece [Curve for Colors](../../Niagara%20Editörü/Parameters#curve-for-colors) veri tipine uygundur) bilmiyorum.
+(Sadece [Curve for Colors](../../Niagara%20Editörü/Parameters#curve-for-colors) veri tipine uygundur) Curve'den verdiginiz index'teki degeri almanıza yarar.
+
+İnput | İşlem
+:---: | :---:
+ColorCurve | [Curve for Colors](../../Niagara%20Editörü/Parameters#curve-for-colors) degeri.
+X | 0 - 1 arasında Curve index degeri.
 
 
 ## Curve for Floats
 
 * #### [Sample Curve]()
-(Sadece [Curve for Floats](../../Niagara%20Editörü/Parameters#curve-for-floats) veri tipine uygundur) bilmiyorum.
+(Sadece [Curve for Floats](../../Niagara%20Editörü/Parameters#curve-for-floats) veri tipine uygundur) Curve'den verdiginiz index'teki degeri almanıza yarar.
+
+İnput | İşlem
+:---: | :---:
+Curve | [Curve for Floats](../../Niagara%20Editörü/Parameters#curve-for-floats) degeri.
+X | 0 - 1 arasında Curve index degeri.
 
 
 ## Curve for Vector2D's
 
 * #### [Sample Vector 2DCurve]()
-(Sadece [Curve for Vector2D's](../../Niagara%20Editörü/Parameters#curve-for-vector2ds) veri tipine uygundur) bilmiyorum.
+(Sadece [Curve for Vector2D's](../../Niagara%20Editörü/Parameters#curve-for-vector2ds) veri tipine uygundur) Curve'den verdiginiz index'teki degeri almanıza yarar.
+
+İnput | İşlem
+:---: | :---:
+Vector2DCurve | [Curve for Vector2D's](../../Niagara%20Editörü/Parameters#curve-for-vector2ds) degeri.
+X | 0 - 1 arasında Curve index degeri.
 
 
 ## Curve for Vector3's
 
 * #### [Sample Vector Curve]()
-(Sadece [Curve for Vector3's](../../Niagara%20Editörü/Parameters#curve-for-vector3s) veri tipine uygundur) bilmiyorum.
+(Sadece [Curve for Vector3's](../../Niagara%20Editörü/Parameters#curve-for-vector3s) veri tipine uygundur) Curve'den verdiginiz index'teki degeri almanıza yarar.
+
+İnput | İşlem
+:---: | :---:
+VectorCurve | [Curve for Vector3's](../../Niagara%20Editörü/Parameters#curve-for-vector3s) degeri.
+X | 0 - 1 arasında Curve index degeri.
 
 
 ## Curve for Vector4's
 
 * #### [Sample Color Curve]()
-(Sadece [Curve for Vector4's](../../Niagara%20Editörü/Parameters#curve-for-vector4s) veri tipine uygundur) bilmiyorum.
+(Sadece [Curve for Vector4's](../../Niagara%20Editörü/Parameters#curve-for-vector4s) veri tipine uygundur) Curve'den verdiginiz index'teki degeri almanıza yarar.
+
+İnput | İşlem
+:---: | :---:
+Vector4Curve | [Curve for Vector4's](../../Niagara%20Editörü/Parameters#curve-for-vector4s) degeri.
+X | 0 - 1 arasında Curve index degeri.
 
 
 ## DebugDraw
