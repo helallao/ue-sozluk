@@ -796,7 +796,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Float Array]()
-bilmiyorum.
+Liste (array) şeklinde [Float](#float) degeri tutar.
 
 * #### [GBuffer]()
 bilmiyorum.
@@ -817,7 +817,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Int32 Array]()
-bilmiyorum.
+Liste (array) şeklinde [int32](#int32) degeri tutar.
 
 * #### [Integer Render Target 2D]()
 bilmiyorum.
@@ -829,7 +829,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [NiagaraID Array]()
-bilmiyorum.
+Liste (array) şeklinde [Niagara ID](#niagara-id) degeri tutar.
 
 * #### [Object Reader]()
 bilmiyorum.
@@ -850,10 +850,10 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Position Array]()
-bilmiyorum.
+Liste (array) şeklinde [Position](#position) degeri tutar.
 
 * #### [Quaternion Array]()
-bilmiyorum.
+Liste (array) şeklinde [Quat](#quat) degeri tutar.
 
 * #### [Rasterization Grid3D]()
 bilmiyorum.
@@ -898,13 +898,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Vector 2D Array]()
-bilmiyorum.
+Liste (array) şeklinde [Vector 2D](#vector-2d) degeri tutar.
 
 * #### [Vector 4 Array]()
-bilmiyorum.
+Liste (array) şeklinde [Vector 4](#vector-4) degeri tutar.
 
 * #### [Vector Array]()
-bilmiyorum.
+Liste (array) şeklinde [Vector](#vector) degeri tutar.
 
 * #### [Vector Field]()
 bilmiyorum.
