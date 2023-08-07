@@ -3601,31 +3601,56 @@ Value | Yeni Position degeri.
 ## Quaternion Array
 
 * #### [Add]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) sonuna yeni bir Quaternion ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna Quaternion eklenecek [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array).
+SkipAdd | Eger bu input True ise Quaternion eklenmez, False ise eklenir.
+Value | Eklenecek Quaternion degeri.
+
 
 * #### [Clear]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'den](../../Niagara%20Editörü/Parameters#quaternion-array) bütün elementleri yani Quaternion'ları siler.
 
 * #### [Get]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'den](../../Niagara%20Editörü/Parameters#quaternion-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'den](../../Niagara%20Editörü/Parameters#quaternion-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Quaternion Array'deki](../../Niagara%20Editörü/Parameters#quaternion-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) son index numarasını verir, yani [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Quaternion Array'de](../../Niagara%20Editörü/Parameters#quaternion-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array).
+SkipRemove | Eger bu input True ise [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Quaternion Array'den](../../Niagara%20Editörü/Parameters#quaternion-array) silinen Quaternion'ın degeri.
+IsValid | Eger [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array) veri tipine uygundur) Verdiginiz [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Quaternion Array](../../Niagara%20Editörü/Parameters#quaternion-array).
+SkipSet | Eger bu input True ise [Quaternion Array'in](../../Niagara%20Editörü/Parameters#quaternion-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Quaternion Array'deki](../../Niagara%20Editörü/Parameters#quaternion-array) index numarası.
+Value | Yeni Quaternion degeri.
 
 
 ## Rasterization Grid3D
