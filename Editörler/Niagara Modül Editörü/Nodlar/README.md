@@ -298,31 +298,56 @@ Value | Yeni bool degeri.
 ## Color Array
 
 * #### [Add]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) sonuna yeni bir renk ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna renk eklenecek [Color Array](../../Niagara%20Editörü/Parameters#color-array).
+SkipAdd | Eger bu input True ise renk eklenmez, False ise eklenir.
+Value | Eklenecek renk degeri.
+
 
 * #### [Clear]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'den](../../Niagara%20Editörü/Parameters#color-array) bütün elementleri yani renkleri siler.
 
 * #### [Get]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'den](../../Niagara%20Editörü/Parameters#color-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'den](../../Niagara%20Editörü/Parameters#color-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Color Array'deki](../../Niagara%20Editörü/Parameters#color-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) son index numarasını verir, yani [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Color Array'de](../../Niagara%20Editörü/Parameters#color-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum. Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Color Array](../../Niagara%20Editörü/Parameters#color-array).
+SkipRemove | Eger bu input True ise [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Color Array'den](../../Niagara%20Editörü/Parameters#color-array) silinen rengin degeri.
+IsValid | Eger [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Color Array](../../Niagara%20Editörü/Parameters#color-array).
+SkipSet | Eger bu input True ise [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Color Array'deki](../../Niagara%20Editörü/Parameters#color-array) index numarası.
+Value | Yeni renk degeri.
 
 
 ## Comments
