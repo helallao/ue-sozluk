@@ -3546,31 +3546,56 @@ Verdiginiz iki pozisyonun arasındaki uzaklıgı verir, [formül](https://www.de
 ## Position Array
 
 * #### [Add]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) sonuna yeni bir Position ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna Position eklenecek [Position Array](../../Niagara%20Editörü/Parameters#position-array).
+SkipAdd | Eger bu input True ise Position eklenmez, False ise eklenir.
+Value | Eklenecek Position degeri.
+
 
 * #### [Clear]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'den](../../Niagara%20Editörü/Parameters#position-array) bütün elementleri yani Position'ları siler.
 
 * #### [Get]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'den](../../Niagara%20Editörü/Parameters#position-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'den](../../Niagara%20Editörü/Parameters#position-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Position Array'deki](../../Niagara%20Editörü/Parameters#position-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) son index numarasını verir, yani [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Position Array'de](../../Niagara%20Editörü/Parameters#position-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Position Array](../../Niagara%20Editörü/Parameters#position-array).
+SkipRemove | Eger bu input True ise [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Position Array'den](../../Niagara%20Editörü/Parameters#position-array) silinen Position'ın degeri.
+IsValid | Eger [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Position Array](../../Niagara%20Editörü/Parameters#position-array) veri tipine uygundur) Verdiginiz [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Position Array](../../Niagara%20Editörü/Parameters#position-array).
+SkipSet | Eger bu input True ise [Position Array'in](../../Niagara%20Editörü/Parameters#position-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Position Array'deki](../../Niagara%20Editörü/Parameters#position-array) index numarası.
+Value | Yeni Position degeri.
 
 
 ## Quaternion Array
