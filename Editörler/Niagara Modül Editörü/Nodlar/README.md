@@ -2477,13 +2477,52 @@ Value | Eklenecek int32 degeri.
 
 
 * #### [Atomic Add]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerine "Value" inputuna verdiginiz degeri ekler, yani toplar.
+
+İnput | İşlem
+:---: | :---:
+Array interface | [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array).
+SkipAdd | Eger bu input True ise "Value" inputundaki deger verdiginiz index'teki degere eklenmez, False ise eklenir.
+Index | "Value" degerinin eklenecegi degerin [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) üzerindeki indexi.
+Value | Eklenecek int32 degeri.
+
+Output | İçerik
+:---: | :---:
+PreviousValue | Verdiginiz index'e "Value" inputundaki degerin eklenmeden önceki degeri.
+CurrentValue | Verdiginiz index'teki degerin "Value" inputundaki deger eklendikten sonraki hali.
+
 
 * #### [Atomic Max]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degeri ile "Value" inputuna verdiginiz degeri karşılaştırır, büyük olanı seçer ve [Int32 Array'e](../../Niagara%20Editörü/Parameters#int32-array) kaydeder.
+
+İnput | İşlem
+:---: | :---:
+Array interface | [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array).
+SkipMax | Eger bu input True ise "Value" inputundaki deger verdiginiz index'teki degerden büyük olsa bile işlem yapılmaz, False ise işlem yapılır.
+Index | "Value" degeri ile karşılaştırılacak degerin [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) üzerindeki indexi.
+Value | [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degeri ile karşılaştırılacak deger.
+
+Output | İçerik
+:---: | :---:
+PreviousValue | [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerinin "Value" inputu ile karşılaştırılmadan önceki degeri. Dikkat edin, bu output degeri muhtemelen dogru sonuç vermeyecektir çünkü seçilen deger eski degere göre hafızada daha fazla/az yer kaplıyorsa, bu output degeri sayıyı dogru hesaplayamayabilir. Aslında bu output degeri [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerinin hafıza (ram) üzerindeki konumunu döndürür, ama eger yeni deger eski degere göre hafızada daha fazla/az yer kaplıyorsa, bu hata çıkmasına sebep olur. Sayısal deger tam olarak hesaplanamaz. Bu output degerini kullanmayın, "Get" nodu ile [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerini alabilirsiniz.
+CurrentValue | [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degeri ile "Value" inputunun karşılaştırılması sonucu seçilen büyük deger. Dikkat edin, bu output degeri muhtemelen dogru sonuç vermeyecektir çünkü seçilen deger eski degerden büyükse/küçükse, bu output degeri sayının tamamını döndürmeyebilir. Aslında bu output degeri [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerinin hafıza (ram) üzerindeki konumunu döndürür, ama eger yeni deger eski degere göre hafızada daha fazla/az yer kaplıyorsa, bu hata çıkmasına sebep olur. Sayısal deger tam olarak hesaplanamaz. Bu output degerini kullanmayın, "Get" nodu ile [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerini alabilirsiniz.
+
 
 * #### [Atomic Min]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degeri ile "Value" inputuna verdiginiz degeri karşılaştırır, küçük olanı seçer ve [Int32 Array'e](../../Niagara%20Editörü/Parameters#int32-array) kaydeder.
+
+İnput | İşlem
+:---: | :---:
+Array interface | [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array).
+SkipMin | Eger bu input True ise "Value" inputundaki deger verdiginiz index'teki degerden küçük olsa bile işlem yapılmaz, False ise işlem yapılır.
+Index | "Value" degeri ile karşılaştırılacak degerin [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) üzerindeki indexi.
+Value | [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degeri ile karşılaştırılacak deger.
+
+Output | İçerik
+:---: | :---:
+PreviousValue | [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerinin "Value" inputu ile karşılaştırılmadan önceki degeri. Dikkat edin, bu output degeri muhtemelen dogru sonuç vermeyecektir çünkü seçilen deger eski degere göre hafızada daha fazla/az yer kaplıyorsa, bu output degeri sayıyı dogru hesaplayamayabilir. Aslında bu output degeri [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerinin hafıza (ram) üzerindeki konumunu döndürür, ama eger yeni deger eski degere göre hafızada daha fazla/az yer kaplıyorsa, bu hata çıkmasına sebep olur. Sayısal deger tam olarak hesaplanamaz. Bu output degerini kullanmayın, "Get" nodu ile [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerini alabilirsiniz.
+CurrentValue | [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degeri ile "Value" inputunun karşılaştırılması sonucu seçilen küçük deger. Dikkat edin, bu output degeri muhtemelen dogru sonuç vermeyecektir çünkü seçilen deger eski degerden büyükse/küçükse, bu output degeri sayının tamamını döndürmeyebilir. Aslında bu output degeri [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerinin hafıza (ram) üzerindeki konumunu döndürür, ama eger yeni deger eski degere göre hafızada daha fazla/az yer kaplıyorsa, bu hata çıkmasına sebep olur. Sayısal deger tam olarak hesaplanamaz. Bu output degerini kullanmayın, "Get" nodu ile [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index'teki degerini alabilirsiniz.
+
 
 * #### [Clear]()
 (Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'den](../../Niagara%20Editörü/Parameters#int32-array) bütün elementleri yani int32'leri siler.
