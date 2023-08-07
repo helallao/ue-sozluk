@@ -775,19 +775,19 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Curve for Colors]()
-bilmiyorum.
+Curve şeklinde [Linear Color](#linear-color) degeri tutar.
 
 * #### [Curve for Floats]()
-bilmiyorum.
+Curve şeklinde [Float](#float) degeri tutar.
 
 * #### [Curve for Vector2D's]()
-bilmiyorum.
+Curve şeklinde [Vector 2D](#vector-2d) degeri tutar.
 
 * #### [Curve for Vector3's]()
-bilmiyorum.
+Curve şeklinde [Vector](#vector) degeri tutar.
 
 * #### [Curve for Vector4's]()
-bilmiyorum.
+Curve şeklinde [Vector 4](#vector-4) degeri tutar.
 
 * #### [DebugDraw]()
 bilmiyorum.
