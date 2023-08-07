@@ -4418,31 +4418,55 @@ Ne olduguna dair hiçbir yerde bilgi yok. Kendi yaptıgım denemelere göre, her
 ## UInt8 Array
 
 * #### [Add]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) sonuna yeni bir UInt8 ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna UInt8 eklenecek [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array).
+SkipAdd | Eger bu input True ise UInt8 eklenmez, False ise eklenir.
+Value | Eklenecek UInt8 degeri.
 
 * #### [Clear]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'den](../../Niagara%20Editörü/Parameters#uint8-array) bütün elementleri yani UInt8'leri siler.
 
 * #### [Get]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'den](../../Niagara%20Editörü/Parameters#uint8-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'den](../../Niagara%20Editörü/Parameters#uint8-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [UInt8 Array'deki](../../Niagara%20Editörü/Parameters#uint8-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) son index numarasını verir, yani [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [UInt8 Array'de](../../Niagara%20Editörü/Parameters#uint8-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array).
+SkipRemove | Eger bu input True ise [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [UInt8 Array'den](../../Niagara%20Editörü/Parameters#uint8-array) silinen UInt8'in degeri.
+IsValid | Eger [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) bilmiyorum.
+(Sadece [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array) veri tipine uygundur) Verdiginiz [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [UInt8 Array](../../Niagara%20Editörü/Parameters#uint8-array).
+SkipSet | Eger bu input True ise [UInt8 Array'in](../../Niagara%20Editörü/Parameters#uint8-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [UInt8 Array'deki](../../Niagara%20Editörü/Parameters#uint8-array) index numarası.
+Value | Yeni UInt8 degeri.
 
 
 ## Utility
