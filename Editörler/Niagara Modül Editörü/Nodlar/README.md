@@ -4600,31 +4600,55 @@ Value | Yeni Vector 4 degeri.
 ## Vector Array
 
 * #### [Add]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) sonuna yeni bir Vector ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna Vector eklenecek [Vector Array](../../Niagara%20Editörü/Parameters#vector-array).
+SkipAdd | Eger bu input True ise Vector eklenmez, False ise eklenir.
+Value | Eklenecek Vector degeri.
 
 * #### [Clear]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'den](../../Niagara%20Editörü/Parameters#vector-array) bütün elementleri yani Vector 4'leri siler.
 
 * #### [Get]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'den](../../Niagara%20Editörü/Parameters#vector-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'den](../../Niagara%20Editörü/Parameters#vector-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Vector Array'deki](../../Niagara%20Editörü/Parameters#vector-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) son index numarasını verir, yani [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Vector Array'de](../../Niagara%20Editörü/Parameters#vector-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Vector Array](../../Niagara%20Editörü/Parameters#vector-array).
+SkipRemove | Eger bu input True ise [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Vector Array'den](../../Niagara%20Editörü/Parameters#vector-array) silinen Vector'ün degeri.
+IsValid | Eger [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Vector Array](../../Niagara%20Editörü/Parameters#vector-array) veri tipine uygundur) Verdiginiz [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Vector Array](../../Niagara%20Editörü/Parameters#vector-array).
+SkipSet | Eger bu input True ise [Vector Array'in](../../Niagara%20Editörü/Parameters#vector-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Vector Array'deki](../../Niagara%20Editörü/Parameters#vector-array) index numarası.
+Value | Yeni Vector degeri.
 
 
 ## Vector Field
