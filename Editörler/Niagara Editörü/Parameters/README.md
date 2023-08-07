@@ -766,7 +766,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Color Array]()
-bilmiyorum.
+Liste (array) şeklinde [Linear Color](#linear-color) degeri tutar.
 
 * #### [Cube Texture Sample]()
 bilmiyorum.
