@@ -2467,7 +2467,14 @@ Bitwise "Xor" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek isti
 ## Int32 Array
 
 * #### [Add]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) sonuna yeni bir int32 ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna int32 eklenecek [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array).
+SkipAdd | Eger bu input True ise int32 eklenmez, False ise eklenir.
+Value | Eklenecek int32 degeri.
+
 
 * #### [Atomic Add]()
 (Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
@@ -2479,28 +2486,46 @@ Bitwise "Xor" operatörü kullanmanıza yarar. Bitwise işlemleri ögrenmek isti
 (Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Clear]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'den](../../Niagara%20Editörü/Parameters#int32-array) bütün elementleri yani int32'leri siler.
 
 * #### [Get]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'den](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'den](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Int32 Array'deki](../../Niagara%20Editörü/Parameters#int32-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) son index numarasını verir, yani [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Int32 Array'de](../../Niagara%20Editörü/Parameters#int32-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array).
+SkipRemove | Eger bu input True ise [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Int32 Array'den](../../Niagara%20Editörü/Parameters#int32-array) silinen int32'nin degeri.
+IsValid | Eger [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array) veri tipine uygundur) Verdiginiz [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Int32 Array](../../Niagara%20Editörü/Parameters#int32-array).
+SkipSet | Eger bu input True ise [Int32 Array'in](../../Niagara%20Editörü/Parameters#int32-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Int32 Array'deki](../../Niagara%20Editörü/Parameters#int32-array) index numarası.
+Value | Yeni int32 degeri.
 
 
 ## Integer Render Target 2D
