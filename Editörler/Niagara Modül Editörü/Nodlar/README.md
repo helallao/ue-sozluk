@@ -134,7 +134,7 @@ Verilen bool'ların herhangi biri True ise True, hiçbiri degilse False döndür
 İnput | İşlem
 :---: | :---:
 Array interface | Sonuna bool eklenecek [Bool Array](../../Niagara%20Editörü/Parameters#bool-array).
-skipAdd | Eger bu input True ise bool eklenmez, False ise eklenir.
+SkipAdd | Eger bu input True ise bool eklenmez, False ise eklenir.
 Value | Eklenecek bool degeri.
 
 
@@ -159,7 +159,7 @@ Value | Eklenecek bool degeri.
 İnput | İşlem
 :---: | :---:
 Array interface | Son elementi silinecek [Bool Array](../../Niagara%20Editörü/Parameters#bool-array).
-skipRemove | Eger bu input True ise [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) son elementi silinmez, False ise silinir.
+SkipRemove | Eger bu input True ise [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) son elementi silinmez, False ise silinir.
 
 Output | İçerik
 :---: | :---:
@@ -176,7 +176,7 @@ IsValid | Eger [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) 
 İnput | İşlem
 :---: | :---:
 Array interface | Degeri degiştirilecek [Bool Array](../../Niagara%20Editörü/Parameters#bool-array).
-skipSet | Eger bu input True ise [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+SkipSet | Eger bu input True ise [Bool Array'in](../../Niagara%20Editörü/Parameters#bool-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
 Index | Degiştirmek istediginiz degerin [Bool Array'deki](../../Niagara%20Editörü/Parameters#bool-array) index numarası.
 Value | Yeni bool degeri.
 
