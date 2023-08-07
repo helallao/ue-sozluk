@@ -320,7 +320,7 @@ Value | Eklenecek renk degeri.
 (Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) son index numarasını verir, yani [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Color Array'de](../../Niagara%20Editörü/Parameters#color-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) bilmiyorum. Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) uzunlugunu, element sayısını verir.
+(Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
 (Sadece [Color Array](../../Niagara%20Editörü/Parameters#color-array) veri tipine uygundur) Verdiginiz [Color Array'in](../../Niagara%20Editörü/Parameters#color-array) son elementini siler.
@@ -494,31 +494,56 @@ bilmiyorum.
 ## Float Array
 
 * #### [Add]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) sonuna yeni bir float ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna float eklenecek [Float Array](../../Niagara%20Editörü/Parameters#float-array).
+SkipAdd | Eger bu input True ise float eklenmez, False ise eklenir.
+Value | Eklenecek float degeri.
+
 
 * #### [Clear]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'den](../../Niagara%20Editörü/Parameters#float-array) bütün elementleri yani float'ları siler.
 
 * #### [Get]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'den](../../Niagara%20Editörü/Parameters#float-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'den](../../Niagara%20Editörü/Parameters#float-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [Float Array'deki](../../Niagara%20Editörü/Parameters#float-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) son index numarasını verir, yani [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [Float Array'de](../../Niagara%20Editörü/Parameters#float-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [Float Array](../../Niagara%20Editörü/Parameters#float-array).
+SkipRemove | Eger bu input True ise [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [Float Array'den](../../Niagara%20Editörü/Parameters#float-array) silinen float'ın degeri.
+IsValid | Eger [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) bilmiyorum.
+(Sadece [Float Array](../../Niagara%20Editörü/Parameters#float-array) veri tipine uygundur) Verdiginiz [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [Float Array](../../Niagara%20Editörü/Parameters#float-array).
+SkipSet | Eger bu input True ise [Float Array'in](../../Niagara%20Editörü/Parameters#float-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [Float Array'deki](../../Niagara%20Editörü/Parameters#float-array) index numarası.
+Value | Yeni float degeri.
 
 
 ## Functions
