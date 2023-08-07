@@ -3018,31 +3018,56 @@ Verilen matrix'e [transpose](https://en.wikipedia.org/wiki/Transpose) uygular.
 ## NiagaraID Array
 
 * #### [Add]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) sonuna yeni bir NiagaraID ekler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Sonuna NiagaraID eklenecek [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array).
+SkipAdd | Eger bu input True ise NiagaraID eklenmez, False ise eklenir.
+Value | Eklenecek NiagaraID degeri.
+
 
 * #### [Clear]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'den](../../Niagara%20Editörü/Parameters#niagaraid-array) bütün elementleri yani NiagaraID'leri siler.
 
 * #### [Get]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'den](../../Niagara%20Editörü/Parameters#niagaraid-array) verdiginiz indexteki degeri almanıza yarar, index degerleri 0'dan başlar.
 
 * #### [Is Valid Index]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'den](../../Niagara%20Editörü/Parameters#niagaraid-array) verdiginiz index degerinin alınıp alınamayacagını kontrol eder, yani [NiagaraID Array'deki](../../Niagara%20Editörü/Parameters#niagaraid-array) elementlerin sayısını kontrol eder de denebilir.
 
 * #### [Last Index]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) son index numarasını verir, yani [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) uzunlugunu verir de denebilir (+1 eklerseniz). Eger verdiginiz [NiagaraID Array'de](../../Niagara%20Editörü/Parameters#niagaraid-array) hiç element yoksa -1 döndürür.
 
 * #### [Length]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) uzunlugunu, element sayısını verir.
 
 * #### [Remove Last Elem]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) son elementini siler.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Son elementi silinecek [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array).
+SkipRemove | Eger bu input True ise [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) son elementi silinmez, False ise silinir.
+
+Output | İçerik
+:---: | :---:
+Value | [NiagaraID Array'den](../../Niagara%20Editörü/Parameters#niagaraid-array) silinen NiagaraID'nin degeri.
+IsValid | Eger [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) son elementi silindiyse yani silme işlemi başarılıysa bu input True döndürür, silme işlemi başarısızsa False döndürür.
+
 
 * #### [Resize]()
 (Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
 
 * #### [Set Array Elem]()
-(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) bilmiyorum.
+(Sadece [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array) veri tipine uygundur) Verdiginiz [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) verdiginiz indexteki degerini degiştirir.
+
+İnput | İşlem
+:---: | :---:
+Array interface | Degeri degiştirilecek [NiagaraID Array](../../Niagara%20Editörü/Parameters#niagaraid-array).
+SkipSet | Eger bu input True ise [NiagaraID Array'in](../../Niagara%20Editörü/Parameters#niagaraid-array) verdiginiz indexteki degeri degiştirilmez, False ise degiştirilir.
+Index | Degiştirmek istediginiz degerin [NiagaraID Array'deki](../../Niagara%20Editörü/Parameters#niagaraid-array) index numarası.
+Value | Yeni NiagaraID degeri.
 
 
 ## Numeric
