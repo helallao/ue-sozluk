@@ -429,10 +429,20 @@ X | 0 - 1 arasında Curve index degeri.
 ## DebugDraw
 
 * #### [Draw Box]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Küp şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise küp şekli çizdirilir, False ise çizdirilmez.
+Center | Küpün orta noktası.
+Rotation | Küpün oryantasyonu, [Quat](../../Niagara%20Editörü/Parameters#quat) degeri alır.
+Extents | XYZ eksenleri olmak üzere küpün bütün eksenlerdeki boyut degeri.
+Color | Küpün rengi.
+
 
 * #### [Draw Box Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Box'un](#draw-box) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
 
 * #### [Draw Circle]()
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
