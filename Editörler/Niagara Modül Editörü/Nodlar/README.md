@@ -468,8 +468,8 @@ Color | Küpün rengi.
 DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
 Execute | Eger bu input True ise halka şekli çizdirilir, False ise çizdirilmez.
 Center | Halkanın orta noktası.
-XAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
-YAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
+XAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
+YAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
 Radius | Halkanın yarıçapı.
 Num Segments | Halkanın köşe sayısı, en az 4 olmak üzere istediginiz köşe sayısında çokgen oluşturabilirsiniz. Mesela 5 yaparak beşgen oluşturabilirsiniz.
 Color | Halkanın rengi.
@@ -487,8 +487,8 @@ CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../
 Offset | Küpün orta noktasına offset verebilirsiniz.
 OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
 Radius | Halkanın yarıçapı.
-XAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
-YAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
+XAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
+YAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
 AxisVectorsCoordinateSpace | "XAxis" ve "YAxis" vektörlerinin [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
 Num Segments | Halkanın köşe sayısı, en az 4 olmak üzere istediginiz köşe sayısında çokgen oluşturabilirsiniz. Mesela 5 yaparak beşgen oluşturabilirsiniz.
 Color | Halkanın rengi.
@@ -668,16 +668,69 @@ Color | Grid'in rengi.
 
 
 * #### [Draw Line]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Çizgi/dogru şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise çizgi şekli çizdirilir, False ise çizdirilmez.
+Start Location | Çizginin başlangıç noktası.
+End Location | Çizginin bitiş noktası.
+Color | Çizginin rengi.
+
 
 * #### [Draw Line Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Line'ın](#draw-line) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+StartLocation | Çizginin başlangıç noktası.
+StartLocationCoordinateSpace | "StartLocation" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+EndLocation | Çizginin bitiş noktası.
+EndLocationCoordinateSpace | "EndLocation" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Color | Çizginin rengi.
+
 
 * #### [Draw Rectangle]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Kare şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise Kare şekli çizdirilir, False ise çizdirilmez.
+Center | Kare şeklinin orta noktası.
+XAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
+YAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
+Extents | Grid şeklinin X ve Y eksenlerindeki boyut degeri.
+NumXSegments | "Extents" inputunun X eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+NumYSegments | "Extents" inputunun Y eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+Color | Karenin rengi.
+UnboundedPlane | Karenin en dış 4 kenarını siler.
+
 
 * #### [Draw Rectangle Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Rectangle'ın](#draw-rectangle) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Kare şeklinin orta noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Kare şeklinin orta noktasına offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Extents | Grid şeklinin X ve Y eksenlerindeki boyut degeri.
+HalfExtents | "Extents" inputundaki degerleri yarılar. Yani boyut degerini karenin orta noktasına göre, eksenin hem artı tarafına hem eksi tarafına gidecek şekilde hesaplar, yani yarılar. Eger bu inputu kapatırsanız yarılama işlemini de kapatırsınız.
+XAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
+YAxis | "XAxis" ve "YAxis" degerlerindeki vektörlere göre eksen belirlenir.
+AxisVectorsCoordinateSpace | "XAxis" ve "YAxis" vektörlerinin [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+NumXSegments | "Extents" inputunun X eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+NumYSegments | "Extents" inputunun Y eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+UnboundedPlane | Karenin en dış 4 kenarını siler.
+Color | Karenin rengi.
+
 
 * #### [Draw Sphere]()
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
