@@ -4833,7 +4833,7 @@ Compiler constant | "Static switch type" ayarı "Bool Constant", "Integer Consta
 Static switch type | İşlem
 :---: | :---:
 Bool | "True" ve "False" şeklinde iki input oluşturur, aldıgı bool degerine göre bunları kullanır.
-Bool Constant | "Compiler constant" ayarını açar, buradan belirlediginiz degeri kullanır. "Emitter.LocalSpace" modu [Emitter.LocalSpace](../../Niagara%20Editörü/Parameters#emitterlocalspace) parametresine baglıdır. "Emitter.Determinism" modu
+Bool Constant | "Compiler constant" ayarını açar, buradan belirlediginiz degeri kullanır.<br><br>Emitter.LocalSpace = [Emitter.LocalSpace](../../Niagara%20Editörü/Parameters#emitterlocalspace) parametresine baglıdır.<br>Emitter.Determinism = bilmiyorum.
 
 
 
