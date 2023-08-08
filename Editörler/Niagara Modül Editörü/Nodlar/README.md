@@ -560,10 +560,43 @@ Scale | Ok şeklinin scale yani boyut degeri.
 
 
 * #### [Draw Cylinder]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Silindir şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise silindir şekli çizdirilir, False ise çizdirilmez.
+Center | Silindir şeklinin orta noktası.
+Axis | Silindirin baktıgı yön.
+Height | Silindirin uzunlugu/boyu.
+Radius | Silindirin yarıçapı/genişligi.
+NumHeightSegments | Silindir boyunca silindirin üzerinde ne kadar köşe olacagını belirler. Aslında silindirin şeklini etkilemez, sadece gösterim amaçlı.
+NumRadiusSegments | Silindir boyunca silindirin başından sonuna dogru ne kadar köşe olacagını belirler. Silindirin şeklini etkiler, ucunun (dolayısıyla silindirin) çokgen gibi görünmesine sebep olur.
+
 
 * #### [Draw Cylinder Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Cylinder'in](#draw-cylinder) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Silindir şeklinin orta noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Silindir şeklinin orta noktasına offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Radius | Silindirin yarıçapı/genişligi.
+Height | Silindirin uzunlugu/boyu.
+IsHalfHeight | Bu inputu True iken silindirin boyu 2 katına çıkar çünkü bu input adından da anlaşılacagı gibi "Height" inputunun yarım uzunluk degeri oldugunu gösterir. Yani silindirin şu anki ekseninin artı ekseninde ve eksi ekseninde iki uzunluk degeri oldugunu varsayar. Dolayısıyla iki eksene de "Height" inputu kadar uzunluk ekler ve sonuç olarak silindirin uzunlugu 2 katına çıkmış olur.
+Hemisphere X | Silindirin kendi X eksenindeki tarafını yarılar. Yarısını keser.
+Hemisphere Y | Silindirin kendi Y eksenindeki tarafını yarılar. Yarısını keser.
+Orientation Axis | Silindirin oryantasyon ekseni.
+OrientationAxisCoordinateSpace | "Orientation Axis" inputundaki degerin [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+NonUniform Scale | Silindirin boyut degerlerini scale eder.
+Num Radius Segments | Silindir boyunca silindirin başından sonuna dogru ne kadar köşe olacagını belirler. Silindirin şeklini etkiler, ucunun (dolayısıyla silindirin) çokgen gibi görünmesine sebep olur.
+Num Height Segments | Silindir boyunca silindirin üzerinde ne kadar köşe olacagını belirler. Aslında silindirin şeklini etkilemez, sadece gösterim amaçlı.
+Color | Silindirin rengi.
+
 
 * #### [Draw Grid 2D]()
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
