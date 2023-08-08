@@ -461,10 +461,38 @@ Color | Küpün rengi.
 
 
 * #### [Draw Circle]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Halka şekli çizdirir (Aslında en az 4 köşeli olacak şekilde çokgen çizdiriyor, köşe sayısını kendiniz belirleyebiliyorsunuz).
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise halka şekli çizdirilir, False ise çizdirilmez.
+Center | Halkanın orta noktası.
+XAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
+YAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
+Radius | Halkanın yarıçapı.
+Num Segments | Halkanın köşe sayısı, en az 4 olmak üzere istediginiz köşe sayısında çokgen oluşturabilirsiniz. Mesela 5 yaparak beşgen oluşturabilirsiniz.
+Color | Halkanın rengi.
+
 
 * #### [Draw Circle Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Circle'un](#draw-circle) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Halkanın orta noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Küpün orta noktasına offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Radius | Halkanın yarıçapı.
+XAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
+YAxis | "XAxis" ve "YAxis" degerlerine vektörlerine göre eksen belirlenir.
+AxisVectorsCoordinateSpace | "XAxis" ve "YAxis" vektörlerinin [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Num Segments | Halkanın köşe sayısı, en az 4 olmak üzere istediginiz köşe sayısında çokgen oluşturabilirsiniz. Mesela 5 yaparak beşgen oluşturabilirsiniz.
+Color | Halkanın rengi.
+
 
 * #### [Draw Cone]()
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
