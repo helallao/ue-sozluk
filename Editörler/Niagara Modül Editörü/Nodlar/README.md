@@ -4814,13 +4814,29 @@ Her bir frame'de, şu an, bu modülün çalıştıgı parçacıgın index numara
 Düzenleme nodu.
 
 * #### [Select / If(Select)]()
-Sadece [Enum](../../Niagara%20Editörü/Parameters#enum) türünden input alır. Aldıgı veri türünden olabilecek bütün koşullara göre inputlar oluşturur. Kısacası if else nodudur. Verdiginiz [Enum](../../Niagara%20Editörü/Parameters#enum) inputunun degerine göre hangi inputa baglı olan kodun çalışacagını belirler.
+Genellikle [Enum](../../Niagara%20Editörü/Parameters#enum) türünden input alır, daha dogrusu [Enum](../../Niagara%20Editörü/Parameters#enum) türünden verilerin kullanımı için uygundur. "Selector" olarak aldıgı veri türünden olabilecek bütün koşullara göre inputlar oluşturur ve verdiginiz "Selector" inputunun verisi şu an hangisine ayarlıysa o inputa verdiginiz degeri döndürür. Kısacası if else nodudur. Verdiginiz [Enum](../../Niagara%20Editörü/Parameters#enum) inputunun degerine göre hangi inputa baglı olan kodun çalışacagını belirler. İllaki [Enum](../../Niagara%20Editörü/Parameters#enum) türünden veri vermek zorunda degilsiniz.
 
 * #### [Spawn Interpolation]()
 bilmiyorum.
 
 * #### [Static Switch]()
-"Select / If" nodunun static versionudur. İki input alır ve koşul degerine göre seçim yapar. "Select / If" nodunun aksine koşul degerini kod içinde belirleyemezsiniz. Kullanıcıdan parametre olarak alınır. Nodu seçtiginiz zaman detaylar penceresinde "Input parameter name" ayarı ile parametrenin ismini belirleyebilirsiniz, "Default value" ayarı ile default degeri ayarlayabilirsiniz. Her bir Static Switch nodu parametreler bölümünde [Static Switch Inputs](../Parameters#static-switch-inputs) kategorisinde görünür.
+"Select / If" nodunun static versionudur. İki input alır ve koşul degerine göre seçim yapar. "Select / If" nodunun aksine koşul degerini kod içinde belirlemezsiniz, (yani isterseniz "Expose As Pin" ile belirlersiniz de, Static Switch özelligini kaybeder) kullanıcıdan parametre olarak alınır. Nodu seçtiginiz zaman detaylar penceresinde "Input parameter name" ayarı ile parametrenin ismini belirleyebilirsiniz, "Default value" ayarı ile default degeri ayarlayabilirsiniz. Her bir Static Switch nodu parametreler bölümünde [Static Switch Inputs](../Parameters#static-switch-inputs) kategorisinde görünür.
+
+Ayar/Özellik | İşlem
+:---: | :---:
+Input parameter name | İnputun ismi.
+Static switch type | Static Switch türü, bunun ile ilgili olarak ayrı bir bölüm oluşturdum, açıklamalar için aşagıdaki 2. tabloya bakın.
+Default value | Buradan default degeri ayarlayabilirsiniz.
+Expose As Pin | "Selector" inputunu pin'e dönüştürür yani kod içinde kendiniz ayarlarsınız. Bu ayarı açmak Static Switch'e Static Switch özelligini kaybettirir. Yani modül kullanılırken Static Switch input olarak gözükmez, "Select / If" nodu gibi olur.
+Compiler constant | "Static switch type" ayarı "Bool Constant", "Integer Constant" ve "Enum Constant" modlarında iken vardır. O modlar ile ilgili olarak kullanılacak degeri belirler. Açıklamalar modların kendi bölümlerinde yapıldı.
+
+Static switch type | İşlem
+:---: | :---:
+Bool | "True" ve "False" şeklinde iki input oluşturur, aldıgı bool degerine göre bunları kullanır.
+Bool Constant | "Compiler constant" ayarını açar, buradan belirlediginiz degeri kullanır. "Emitter.LocalSpace" modu [Emitter.LocalSpace](../../Niagara%20Editörü/Parameters#emitterlocalspace) parametresine baglıdır. "Emitter.Determinism" modu
+
+
+
 
 
 ## Vector 2D Array
