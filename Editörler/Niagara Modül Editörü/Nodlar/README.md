@@ -532,10 +532,32 @@ Num Height Segments | Koni boyunca koninin üzerinde ne kadar köşe olacagını
 
 
 * #### [Draw Coordinate System]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Koordinat sisteminin XYZ eksenlerini gösteren ok şeklini çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise ok şekli çizdirilir, False ise çizdirilmez.
+Location | Ok şeklinin orta noktası.
+Rotation | Ok şeklinin oryantasyonu, [Quat](../../Niagara%20Editörü/Parameters#quat) degeri alır.
+Scale | Ok şeklinin scale yani boyut degeri.
+
 
 * #### [Draw Coordinate System Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Coordinate System'ın](#draw-coordinate-system) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Ok şeklinin orta noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Ok şeklinin konumuna offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Rotation | Ok şeklinin oryantasyonu, [Quat](../../Niagara%20Editörü/Parameters#quat) degeri alır.
+RotationCoordinateSpace | "Rotation" inputundaki [Quat](../../Niagara%20Editörü/Parameters#quat) degerinin [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Scale | Ok şeklinin scale yani boyut degeri.
+
 
 * #### [Draw Cylinder]()
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
