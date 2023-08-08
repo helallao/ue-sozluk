@@ -895,7 +895,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [UInt8 Array]()
-bilmiyorum.
+[Int32 Array](#int32-array) gibi integer degeri tutar ama UInt8 degeri tutar. UInt8 integer degeri 0 ile 255 arası degerler tutabilir (0 ve 255 dahil). Eger 255'den büyük deger verirseniz, integer degeri tekrar 0'dan başlar. Yani şöyle, eger 256 verirseniz, 256 255'den sonraki ilk sayı oldugu için 0 görevi görür. Yani 256 verirseniz otomatikmen 0'a dönüştürülür. Mesela 257 verirseniz otomatikmen 1'e dönüştürülür. Eger 255'den büyük sayı verirseniz bu şekilde dönüştürmeler gerçekleşir ve sayı tekrar 0 - 255 arasına alınır.
 
 * #### [Vector 2D Array]()
 Liste (array) şeklinde [Vector 2D](#vector-2d) degeri tutar.
