@@ -790,7 +790,7 @@ Curve şeklinde [Vector](#vector) degeri tutar.
 Curve şeklinde [Vector 4](#vector-4) degeri tutar.
 
 * #### [DebugDraw]()
-bilmiyorum.
+Yeni bir "Debug Draw Interface" oluşturur. "Debug Draw Interface" kullanarak debug işlemleri yapabilirsiniz. Yani simulasyon oynatılırken gerçekleşen olayları anlamak için şekiller çizdirebilirsiniz. [DebugDraw](../../Niagara%20Modül%20Editörü/Nodlar#debugdraw) kategorisindeki debug nodlarını kullanabilirsiniz.
 
 * #### [Export particle data]()
 bilmiyorum.
