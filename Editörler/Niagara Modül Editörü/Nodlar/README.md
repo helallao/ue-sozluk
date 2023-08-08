@@ -733,16 +733,77 @@ Color | Karenin rengi.
 
 
 * #### [Draw Sphere]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Küre şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise Küre şekli çizdirilir, False ise çizdirilmez.
+Center | Küre şeklinin orta noktası.
+Radius | Kürenin çapı.
+Num Segments | Kürenin köşe sayısını belirler, kürenin şeklini etkiler.
+Color | Kürenin rengi.
+
 
 * #### [Draw Sphere Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Sphere'in](#draw-sphere) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Küre şeklinin orta noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Küre şeklinin orta noktasına offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Radius | Kürenin çapı.
+RadiusCoordinateSpace | "Radius" inputundaki degerin [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Hemisphere X | Kürenin kendi X eksenindeki tarafını yarılar. Yarısını keser.
+Hemisphere Y | Kürenin kendi Y eksenindeki tarafını yarılar. Yarısını keser.
+Hemisphere Z | Kürenin kendi Z eksenindeki tarafını yarılar. Yarısını keser.
+Sphere Orientation Axis | Kürenin baktıgı yön.
+RotationCoordinateSpace | bilmiyorum.
+Additional Rotation | bilmiyorum.
+NonUniform Scale | Kürenin boyut degerlerini scale eder.
+Num Segments | Kürenin köşe sayısını belirler, kürenin şeklini etkiler.
+Color | Kürenin rengi.
+
 
 * #### [Draw Torus]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Simit şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise Torus şekli çizdirilir, False ise çizdirilmez.
+Center | Torus şeklinin orta noktası.
+Axis | Torus'un baktıgı yön.
+MajorRadius | Torus'un dış yüzeyinin yarıçapı.
+MinorRadius | Torus'un iç yüzeyinin yarıçapı.
+MajorRadiusSegments | Torus'un köşe sayısını belirler, Torus'un şeklini etkiler.
+MinorRadiusSegments | Torus'un köşe sayısını belirler, Torus'un şeklini etkiler.
+Color | Torus'un rengi.
+
 
 * #### [Draw Torus Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Torus'un](#draw-torus) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Torus şeklinin orta noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Küre şeklinin orta noktasına offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+MajorRadius | Torus'un dış yüzeyinin yarıçapı.
+MinorRadius | Torus'un iç yüzeyinin yarıçapı.
+Orientation Axis | Torus'un baktıgı yön.
+OrientationAxisCoordinateSpace | "Orientation Axis" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+NonUniform Scale | Torus'un boyut degerlerini scale eder.
+MajorRadiusSegments | Torus'un köşe sayısını belirler, Torus'un şeklini etkiler.
+MinorRadiusSegments | Torus'un köşe sayısını belirler, Torus'un şeklini etkiler.
+Color | Torus'un rengi.
 
 
 ## Events
