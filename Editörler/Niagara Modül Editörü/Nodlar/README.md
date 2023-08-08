@@ -495,10 +495,41 @@ Color | Halkanın rengi.
 
 
 * #### [Draw Cone]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Koni şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise koni şekli çizdirilir, False ise çizdirilmez.
+Center | Koninin orta noktası, daha dogrusu başlangıç noktası.
+Axis | Koninin baktıgı yön.
+Height | Koninin uzunlugu.
+RadiusTop | Koninin iç kısmının yani başlangıç kısmının yarıçapı.
+RadiusBottom | Koninin dış kısmının yani bitiş kısmının yarıçapı.
+NumHeightSegments | Koni boyunca koninin üzerinde ne kadar köşe olacagını belirler. Aslında koninin şeklini etkilemez, sadece gösterim amaçlı.
+NumRadiusSegments | Koni boyunca koninin başından sonuna dogru ne kadar köşe olacagını belirler. Koninin şeklini etkiler, ucunun (dolayısıyla koninin) çokgen gibi görünmesine sebep olur.
+Color | Koninin rengi.
+
 
 * #### [Draw Cone Persistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Cone'un](#draw-cone) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Koninin orta noktası, daha dogrusu başlangıç noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Koninin orta noktasına (başlangıç noktası) offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Angle | Koninin dış açısı.
+Length | Koninin uzunlugu.
+Orientation Axis | Koninin baktıgı yön.
+OrientationAxisCoordinateSpace | "Orientation Axis" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+NonUniform Scale | Koninin boyut degerlerini scale eder.
+Num Radius Segments | Koni boyunca koninin başından sonuna dogru ne kadar köşe olacagını belirler. Koninin şeklini etkiler, ucunun (dolayısıyla koninin) çokgen gibi görünmesine sebep olur.
+Num Height Segments | Koni boyunca koninin üzerinde ne kadar köşe olacagını belirler. Aslında koninin şeklini etkilemez, sadece gösterim amaçlı.
+
 
 * #### [Draw Coordinate System]()
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
