@@ -450,6 +450,14 @@ Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eg
 DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
 Center | Küpün orta noktası.
 CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Küpün orta noktasına offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Extents | XYZ eksenleri olmak üzere küpün bütün eksenlerdeki boyut degeri.
+HalfExtents | "Extents" inputundaki degerleri yarılar. Yani boyut degerini küpün orta noktasına göre, eksenin hem artı tarafına hem eksi tarafına gidecek şekilde hesaplar, yani yarılar. Eger bu inputu kapatırsanız yarılama işlemini de kapatırsınız.
+RotationAxis | "RotationNormalizedAngle" inputu için küpün dönme yönü. Dönüş yönü.
+RotationNormalizedAngle | Küpü "RotationAxis" inputuna verdiginiz yönde döndürür. 0 - 1 arası deger alır.
+RotationCoordinateSpace | "RotationAxis" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Color | Küpün rengi.
 
 
 * #### [Draw Circle]()
