@@ -599,7 +599,7 @@ Color | Silindirin rengi.
 
 
 * #### [Draw Grid 2D]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) Grid şekli çizdirir.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) 2D Grid şekli çizdirir.
 
 İnput | İşlem
 :---: | :---:
@@ -632,10 +632,40 @@ Color | Grid'in rengi.
 
 
 * #### [Draw Grid 3D]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) 3D Grid şekli çizdirir.
+
+İnput | İşlem
+:---: | :---:
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Execute | Eger bu input True ise Grid şekli çizdirilir, False ise çizdirilmez.
+Center | Grid şeklinin orta noktası.
+Rotation | Grid şeklinin oryantasyonu, [Quat](../../Niagara%20Editörü/Parameters#quat) degeri alır.
+Extents | Grid şeklinin XYZ eksenlerindeki boyut degeri.
+NumCellsX | "Extents" inputunun X eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+NumCellsY | "Extents" inputunun Y eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+NumCellsZ | "Extents" inputunun Z eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+Color | Grid'in rengi.
+
 
 * #### [Draw Grid 3DPersistent]()
-(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
+(Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) [Draw Grid 3D'nin](#draw-grid-3d) persistent halidir. Persistent nodlarının ne işe yaradıgını ögrenmek için [buraya](../Terimler%20Sözlügü#debugdraw-persistent-nodları) bakabilirsiniz.
+
+İnput | İşlem
+:---: | :---:
+Identifier | Her persistent debug nodunun bir identifier ismi vardır. Mesela eger "qwe" adında identifier ismi olan bir persistent debug nodu kullandıysanız, "qwe" isminde yeni bir persistent debug nodu kullandıgınızda "qwe" ismine sahip olan identifier'ın üzerine yazar. Yani önceki çizimi silip yeni çizimi kullanır. Yani "qwe" identifier'ındaki çizimi degiştirmiş olursunuz.
+DebugDrawInterface | [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) degeri.
+Center | Grid şeklinin orta noktası.
+CenterCoordinateSpace | "Center" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Offset | Grid şeklinin orta noktasına offset verebilirsiniz.
+OffsetCoordinateSpace | "Offset" inputundaki vektörün [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Rotation | Grid şeklinin oryantasyonu, [Quat](../../Niagara%20Editörü/Parameters#quat) degeri alır.
+RotationCoordinateSpace | "Rotation" inputundaki [Quat](../../Niagara%20Editörü/Parameters#quat) degerinin [Coordinate Space'i](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space). "Simulation" ise, emitter ayarlarından seçilen [Coordinate Space'dir](../../Niagara%20Editörü/Terimler%20Sözlügü#local-ve-world-coordinate-space).
+Extents | Grid şeklinin XYZ eksenlerindeki boyut degeri.
+NumCellsX | "Extents" inputunun X eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+NumCellsY | "Extents" inputunun Y eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+NumCellsZ | "Extents" inputunun Z eksenine verdiginiz boyut degeri kadar alana bu inputa verdiginiz kadar kare yerleştirilir.
+Color | Grid'in rengi.
+
 
 * #### [Draw Line]()
 (Sadece [DebugDraw](../../Niagara%20Editörü/Parameters#debugdraw) veri tipine uygundur) bilmiyorum.
