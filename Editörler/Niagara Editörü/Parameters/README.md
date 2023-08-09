@@ -944,7 +944,15 @@ Local | Local koordinat uzayı.
 
 
 * #### [ENiagaraExecutionState]()
-bilmiyorum.
+Sistem yürütülme durumu seçmenize yarar.
+
+Mod | İşlem
+:---: | :---:
+Active | Aktif
+Inactive | Aktif degil, "Inactive" modunda olan System/Emitter parçacık spawn edemez.
+Inactive Clear | "Inactive Clear" moduna geçildiginde bütün parçacıklar silinir ve "Inactive" moduna geçilir.
+Complete | Tamamlanmış
+
 
 * #### [ENiagaraExecutionStateSource]()
 bilmiyorum.
@@ -953,10 +961,23 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [ENiagaraOrientationAxis]()
-bilmiyorum.
+XYZ yön degerlerinden birini seçmenize yarar.
+
+Mod | İşlem
+:---: | :---:
+X Axis | X ekseni.
+Y Axis | Y ekseni.
+Z Axis | Z ekseni.
+
 
 * #### [ENiagaraRandomnessMode]()
-bilmiyorum.
+Sistem rastgelelik durumu seçmenize yarar.
+
+Mod | İşlem
+:---: | :---:
+Simulation Defaults | Default ayarları kullanır.
+Deterministic | Deterministik mod, genellikle bu modda varsa seed kullanımı açılır.
+Non-Deterministic | Deterministik olmayan rastgele mod, genellikle bu modda varsa seed kullanımı kapatılır.
 
 
 ## Event
