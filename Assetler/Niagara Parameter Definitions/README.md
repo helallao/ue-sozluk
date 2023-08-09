@@ -1,3 +1,3 @@
 # Niagara Parameter Definitions
 
-Niagara Parameter Definitions şu işe yarar, kullanmak için bu asseti oluşturmanız yeterlidir. Assetin içinde "System", "Emitter" ve "Particle" kategorilerinde kullanmak üzere parametreler oluşturabilirsiniz. Sonra 
+Niagara Parameter Definitions şu işe yarar, kullanmak için bu asseti oluşturmanız yeterlidir. Assetin içinde "System", "Emitter" ve "Particle" kategorilerinde kullanmak üzere parametreler oluşturabilirsiniz. Sonra Niagara modülünüzde yeni bir parametre eklerken "PARAMETER DEFINITIONS" adında yeni bir kategori görünür, bu kategori ile "Niagara Parameter Definitions" assetinde tanımladıgınız parametreleri Niagara modülünüze ekleyebilirsiniz. "Niagara Parameter Definitions" assetinde yaptıgınız degişiklikler otomatikmen bu parametreyi kullanan bütün modüllerde de güncellenir.
