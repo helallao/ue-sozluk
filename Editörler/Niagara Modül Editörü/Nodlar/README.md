@@ -4833,9 +4833,10 @@ Compiler constant | "Static switch type" ayarı "Bool Constant", "Integer Consta
 Static switch type | İşlem
 :---: | :---:
 Bool | "True" ve "False" şeklinde iki input oluşturur, aldıgı bool degerine göre bunları kullanır.
-Bool Constant | "Compiler constant" ayarını açar, buradan belirlediginiz degeri kullanır.<br><br>Emitter.LocalSpace = [Emitter.LocalSpace](../../Niagara%20Editörü/Parameters#emitterlocalspace) parametresine baglıdır.<br>Emitter.Determinism = bilmiyorum.
-
-
+Bool Constant | "Compiler constant" ayarını açar, buradan belirlediginiz degeri kullanır.<br><br>Emitter.LocalSpace = [Emitter.LocalSpace](../../Niagara%20Editörü/Parameters#emitterlocalspace) parametresine baglıdır.<br>Emitter.Determinism = Emitter'ın "Properties" kısmındaki [Determinism](../../Niagara%20Editörü/Graph#determinism-1) ayarına baglıdır.<br>Emitter.OverrideGlobalSpawnCountScale = bilmiyorum.<br>Emitter.InterpolatedSpawn = Emitter'ın "Properties" kısmındaki [Interpolated Spawning](../../Niagara%20Editörü/Graph#interpolated-spawning) ayarına baglıdır.
+Integer | 1, 2, 3, 4 ... şeklinde "+" tuşuna basarak istediginiz kadar integer ekleyebileceginiz şekilde inputlar oluşturur, aldıgı integer degerine göre bunları kullanır.
+Integer Constant | bilmiyorum.
+Enum Constant | "Compiler constant" ayarını açar, buradan belirlediginiz degeri kullanır.<br><br>Emitter.SimulationTarget = Emitter'ın "Properties" kısmındaki [Sim Target](../../Niagara%20Editörü/Graph#sim-target) ayarına baglıdır.<br>Script.Usage = Yazılan kodun çalıştıgı kategoriye göre seçim yaptırır.<br>Script.Context = Şu an yazılan kodun çalıştıgı kategoriye göre oluşturacagınız [Stack Context Sensitive](../../Niagara%20Editörü/Parameters#stack-context-sensitive) parametresinin hangi kategoride olacagına göre seçim yaptırır.<br>Function.DebugState = bilmiyorum.
 
 
 
