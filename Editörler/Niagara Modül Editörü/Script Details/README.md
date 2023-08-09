@@ -71,15 +71,29 @@ Modül hakkında açıklama, imlecinizi modül üzerine getirdiginizde görünen
 Modül ekleme ekranında arama yaparken bu modülün hangi kelimeler aratıldıgında çıkacagını belirler. Her bir kelimeyi boşluk bırakarak yazın.
 
 * #### Collapsed View Format
+bilmiyorum.
+
 * #### Can be Used for Type Conversions
+bilmiyorum.
+
 * #### Script Metadata
+bilmiyorum.
+
 * #### Input Sections
+Buradan modülün kategorilerinden bölümler oluşturabilirsiniz. Oluşturdugunuz bölümler modülü kullanırken detaylar penceresinin en üstünde gösterilir. Eklediginiz her bir yeni element aşagıdaki ayarlara sahiptir,
+
+Ayar | İçerik
+:---: | :---:
+Section Identifier | Oluşturulan bölümün id'si.
+Section Display Name | Modülü kullanırken detaylar penceresinde gösterilecek olan isim.
+Categories | Buraya bu bölümde olacak kategorilerin listesini verin.
+Enabled | Bölümü aktifleştirir/deaktive eder.
 
 
 ## Validation
 
 * #### Validation Rules
-
+bilmiyorum.
 
 ## Input Parameters
 Buradan modülün aldıgı inputları, daha dogrusu [ParameterMap](../Terimler%20Sözlügü#parametermap)'leri ayarlayabilirsiniz. Yine de tek bir modülde birden fazla [ParameterMap](../Terimler%20Sözlügü#parametermap) kullanımı karışık bir iş oldugu için burdaki ayarlar ile oynamanıza gerek yok.
