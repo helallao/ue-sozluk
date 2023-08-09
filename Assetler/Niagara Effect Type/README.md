@@ -1,0 +1,3 @@
+# Niagara Effect Type
+
+hazırlanacak
