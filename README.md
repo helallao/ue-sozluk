@@ -41,6 +41,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * [Niagara Function Script](#niagara-function-script)
 * [Niagara Module Script](#niagara-module-script)
 * [Niagara Parameter Collection](#niagara-parameter-collection)
+* [Niagara Parameter Collection Instance](#niagara-parameter-collection-instance)
 * [Niagara System](#niagara-system)
 * [Subsurface Profile](#subsurface-profile)
 * [Texture](#texture)
