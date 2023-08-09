@@ -918,6 +918,9 @@ bilmiyorum.
 
 ## Enum
 
+Enum türünden parametreler kendi içlerinde belirli listelere sahiptir. Sadece bu listedeki seçeneklerden birini seçebilirsiniz.
+
+
 * #### [ECollisionChannel]()
 bilmiyorum.
 
@@ -931,7 +934,14 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [ENiagaraCoordinateSpace]()
-bilmiyorum.
+[Coordinate Space](../Terimler%20Sözlügü#local-ve-world-coordinate-space) seçmenize yarar.
+
+Mod | İşlem
+:---: | :---:
+Simulation | Emitter ayarlarından seçilen [Coordinate Space'dir](../Terimler%20Sözlügü#local-ve-world-coordinate-space).
+World | World koordinat uzayı.
+Local | Local koordinat uzayı.
+
 
 * #### [ENiagaraExecutionState]()
 bilmiyorum.
