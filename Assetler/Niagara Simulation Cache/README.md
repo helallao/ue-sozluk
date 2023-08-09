@@ -1,0 +1,3 @@
+# Niagara Simulation Cache
+
+hazırlanacak
