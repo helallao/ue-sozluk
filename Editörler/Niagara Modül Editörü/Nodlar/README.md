@@ -4837,16 +4837,16 @@ Bool Constant | "Compiler constant" ayarını açar, buradan belirlediginiz dege
 Integer | 1, 2, 3, 4 ... şeklinde "+" tuşuna basarak istediginiz kadar integer ekleyebileceginiz şekilde inputlar oluşturur, aldıgı integer degerine göre bunları kullanır.
 Integer Constant | bilmiyorum.
 Enum Constant | "Compiler constant" ayarını açar, buradan belirlediginiz degeri kullanır.<br><br>Emitter.SimulationTarget = Emitter'ın "Properties" kısmındaki [Sim Target](../../Niagara%20Editörü/Graph#sim-target) ayarına baglıdır.<br><br>Script.Usage = Yazılan kodun çalıştıgı kategoriye göre seçim yaptırır.<br><br>Script.Context = Şu an yazılan kodun çalıştıgı kategoriye göre oluşturacagınız [Stack Context Sensitive](../../Niagara%20Editörü/Parameters#stack-context-sensitive) parametresinin hangi kategoride olacagına göre seçim yaptırır.<br><br>Function.DebugState = Bu ayar debug modu içindir, Emitter üzerindeki modüllerin en sagında küçük bir göz işareti varsa "Function.DebugState" Static Switch'i kullanılmış demektir. Çünkü bu Static Switch'in kullanılması o göz işaretinin çıkmasına sebep olur. Göz işaretine tıklayarak "Basic" debug modunu açabilirsiniz, zaten başka debug modu yok. Debug modunda genellikle [DebugDraw](#debugdraw) kategorisindeki debug nodları kullanılır, ama illaki kullanmak zorunda degilsiniz, istediginizi yapabilirsiniz.
-ECollisionChannel | bilmiyorum.
-ENiagaraExecutionState | bilmiyorum.
-ENiagaraCoordinateSpace | bilmiyorum.
-ENiagaraOrientationAxis | bilmiyorum.
-ENiagaraExecutionStateSource | bilmiyorum.
-ENiagaraLegacyTrailWidthMode | bilmiyorum.
-ENiagaraRandomnessMode | bilmiyorum.
-EFieldVectorType | bilmiyorum.
-EFieldScalarType | bilmiyorum.
-EFieldIntegerType | bilmiyorum.
+ECollisionChannel | [ECollisionChannel](../../Niagara%20Editörü/Parameters#ecollisionchannel) türünden veri kullanır.
+ENiagaraExecutionState | [ENiagaraExecutionState](../../Niagara%20Editörü/Parameters#eniagaraexecutionstate) türünden veri kullanır.
+ENiagaraCoordinateSpace | [ENiagaraCoordinateSpace](../../Niagara%20Editörü/Parameters#eniagaracoordinatespace) türünden veri kullanır.
+ENiagaraOrientationAxis | [ENiagaraOrientationAxis](../../Niagara%20Editörü/Parameters#eniagaraorientationaxis) türünden veri kullanır.
+ENiagaraExecutionStateSource | [ENiagaraExecutionStateSource](../../Niagara%20Editörü/Parameters#eniagaraexecutionstatesource) türünden veri kullanır.
+ENiagaraLegacyTrailWidthMode | [ENiagaraLegacyTrailWidthMode](../../Niagara%20Editörü/Parameters#eniagaralegacytrailwidthmode) türünden veri kullanır.
+ENiagaraRandomnessMode | [ENiagaraRandomnessMode](../../Niagara%20Editörü/Parameters#eniagararandomnessmode) türünden veri kullanır.
+EFieldVectorType | [EFieldVectorType](../../Niagara%20Editörü/Parameters#efieldvectortype) türünden veri kullanır.
+EFieldScalarType | [EFieldScalarType](../../Niagara%20Editörü/Parameters#efieldscalartype) türünden veri kullanır.
+EFieldIntegerType | [EFieldIntegerType](../../Niagara%20Editörü/Parameters#efieldintegertype) türünden veri kullanır.
 
 
 ## Vector 2D Array
