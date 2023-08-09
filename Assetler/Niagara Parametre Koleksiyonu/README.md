@@ -1,0 +1,3 @@
+# Niagara Parametre Koleksiyonu
+
+Niagara Parametre Koleksiyonu şu işe yarar, Niagara efektlerinize vermek istediginiz bütün parametreleri burada toplarsınız, database gibi. Sonra bu parametreleri modülünüzün [Niagara Parameter Collection](../../Editörler/Niagara%20Modül%20Editörü/Parameters#niagara-parameter-collection) kategorisine ekleyerek databaseden çekersiniz ve modülünüzde kullanırsınız. Niagara Parametre Koleksiyonu asset (dosya) olarak kaydedildigi için istediginiz kadar Niagara modülünde kullanabilirsiniz, ayrıca blueprint nodları ile de database üzerinde degişiklikler yapabilirsiniz.
