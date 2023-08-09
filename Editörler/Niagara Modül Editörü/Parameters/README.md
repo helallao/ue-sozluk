@@ -32,16 +32,16 @@ Modül'ün içinde kullanılan local parametreler. Bunları degişken gibi düş
 Modül'ün output olarak verdigi parametreler. Bu parametreler [Module Outputs](../../Niagara%20Editörü/Parameters#module-outputs) kategorisine kaydolur.
 
 ## Engine Provided
-bilmiyorum.
+[Engine Provided](../../Niagara%20Editörü/Parameters#engine-provided) parametreleri.
 
 ## Stack Context Sensitive
-bilmiyorum.
+[Stack Context Sensitive](../../Niagara%20Editörü/Parameters#stack-context-sensitive) parametreleri.
 
 ## Stage Transients
-bilmiyorum.
+[Stage Transient](../../Niagara%20Editörü/Parameters#stage-transients) parametreleri.
 
 ## Niagara Parameter Collection
-bilmiyorum.
+Bu kategori [Niagara parametre koleksiyonu](../../../Assetler/Niagara%20Parametre%20Koleksiyonu) assetinden parametre almanıza yarar.
 
 ## Data Instance
-Sadece tek bir parametresi vardır: DataInstance.Alive, parçacıgın yaşayıp yaşamadıgını belirler.
+Sadece tek bir parametresi vardır: DataInstance.Alive, bu parametre parçacıgın yaşayıp yaşamadıgını gösterir.
