@@ -20,23 +20,42 @@ Modül | Dosya
 :---: | :---:
 Acceleration Force | [link](../../../Dosyalar/AccelerationForce.uasset)
 Add Velocity | [link](../../../Dosyalar/AddVelocity.uasset)
+Camera Offset | Basit oldugu için yapılmadı.
 Color | [link](../../../Dosyalar/Color.uasset)
+Cone Mask | Basit oldugu için yapılmadı.
+Constrain Vector to Cone | Basit oldugu için yapılmadı.
+Do Once | Basit oldugu için yapılmadı.
+Dynamic Material Parameters | Basit oldugu için yapılmadı.
+Emitter Frame Counter | Basit oldugu için yapılmadı.
 Fade Over Time | [link](../../../Dosyalar/FadeOverTime.uasset)
+Find Closest Point on Line Segment | Basit oldugu için yapılmadı.
 Find Closest Point On Triangle | [link](../../../Dosyalar/FindClosestPointOnTriangle.uasset)
+Frame Counter | Basit oldugu için yapılmadı.
 Gravity Force | [link](../../../Dosyalar/GravityForce.uasset)
 Grid Location | [link](../../../Dosyalar/GridLocation.uasset)
-Initialize Particle | [link](../../../Dosyalar/InitializeParticle.uasset)
+Increment Over Time | Basit oldugu için yapılmadı.
+Inherit Velocity | Basit oldugu için yapılmadı.
+Initialize Particle | [link](../../../Dosyalar/InitializeParticle.uasset) (%90)
+Interpolate Over Time | Basit oldugu için yapılmadı.
 Jitter Position | [link](../../../Dosyalar/JitterPosition.uasset)
+Kill Particles | Basit oldugu için yapılmadı.
 Kill Particles In Volume | [link](../../../Dosyalar/KillParticlesInVolume.uasset)
 Limit Force | [link](../../../Dosyalar/LimitForce.uasset)
 Linear Force | [link](../../../Dosyalar/LinearForce.uasset)
 Line Attraction Force | [link](../../../Dosyalar/LineAttractionForce.uasset)
 Maintain A Set Distance Between Points | [link](../../../Dosyalar/MaintainA_SetDistanceBetweenPoints.uasset)
+Maintain in Camera Particle Scale | Basit oldugu için yapılmadı.
 Point Attraction Force | [link](../../../Dosyalar/PointAttractionForce.uasset)
 Point Force | [link](../../../Dosyalar/PointForce.uasset)
 Rotate Around Point | [link](../../../Dosyalar/RotateAroundPoint.uasset)
 Scale Color | [link](../../../Dosyalar/ScaleColor.uasset)
 Scale Color By Speed | [link](../../../Dosyalar/ScaleColorBySpeed.uasset)
+Scale Mesh Size | Basit oldugu için yapılmadı.
+Scale Mesh Size by Speed | [link](../../../Dosyalar/ScaleMeshSizeBySpeed.uasset)
+Scale Sprite Size | Basit oldugu için yapılmadı.
+Scale Sprite Size by Speed | [link](../../../Dosyalar/ScaleSpriteSizeBySpeed.uasset)
+Scale Velocity | Basit oldugu için yapılmadı.
+Shape Location | Çok fazla trigonometri içerdigi için yapılmadı.
 Spawn Burst Instantaneous | [link](../../../Dosyalar/SpawnBurst_Instantaneous.uasset)
 Spawn Particles In Grid | [link](../../../Dosyalar/SpawnParticlesInGrid.uasset)
 Spawn Per Frame | [link](../../../Dosyalar/SpawnPerFrame.uasset)
@@ -44,7 +63,10 @@ Spawn Per Unit | [link](../../../Dosyalar/SpawnPerUnit.uasset)
 Spawn Rate | [link](../../../Dosyalar/SpawnRate.uasset)
 Spring Force | [link](../../../Dosyalar/SpringForce.uasset)
 Sprite Based Line | [link](../../../Dosyalar/SpriteBasedLine.uasset)
-System State | [link](../../../Dosyalar/SystemState.uasset)
+Sprite Facing and Alignment | Basit oldugu için yapılmadı.
+Sprite Rotation Rate | Basit oldugu için yapılmadı.
+System Location | Basit oldugu için yapılmadı.
+System State | [link](../../../Dosyalar/SystemState.uasset) (%70)
 Timeline | [link](../../../Dosyalar/Timeline.uasset)
 Vector Noise Force | [link](../../../Dosyalar/VectorNoiseForce.uasset)
 Vortex Force | [link](../../../Dosyalar/VortexForce.uasset)
