@@ -1,3 +1,3 @@
 # Material Layer Instance
 
-[Materyal Layer](../Materyal%20Layer) için Instance asset'i.
+[Material Layer](../Material%20Layer) için Instance asset'i.
