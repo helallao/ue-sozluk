@@ -8,7 +8,7 @@ Niagara'da parametreler çok önemlidir, parametreleri inputların yerine kullan
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Age.jpg">
 
 
-Bu parametreler kullanıcı tarafından degiştirilemez. Yanlarında kilit vardır. Resimde en solda gördügünüz küçük renk parametrenin türünü belirtiyor, imlecinizi üzerine getirirseniz türünü görebilirsiniz. Bir sagında "System" yazıyor, bu parametrenin dalı, her parametre dallara sahiptir (motor tarafından oluşturulanlar, kullanıcının oluşturduklarının dışındakiler), mesela resimdeki parametrenin adı "Age" ve dalı "System" o zaman bu parametrenin gerçek ismi "System.Age" dir. Eger parametreye sag tıklayıp "Copy Reference" derseniz, parametrenin tam ismini, dalları ile birlikte kopyalamış olursunuz. Bir yere yapıştırırsanız, isminin "System.Age" oldugunu görürsünüz. Dalları klasör gibi düşünebilirsiniz. En sagda ise "5" yazıyor, bu parametrenin kaç defa kullanıldıgının/referans verildiginin sayısıdır. Eger [Graph](../Graph) üzerinde bir şey seçmediyseniz bütün parametreleri göremeyebilirsiniz, bütün parametrelerini görmek için [Graph](../Graph) üzerinde bir şey seçmelisiniz (emitter ve ya system). Parametreler ekranında bir parametreyi seçtiginiz zaman modüllerin üzerinde aşagıdaki resimdeki gibi işaretler çıkar.
+Bu parametreler kullanıcı tarafından degiştirilemez. Yanlarında kilit vardır. Resimde en solda gördügünüz küçük renk parametrenin türünü belirtiyor, imlecinizi üzerine getirirseniz türünü görebilirsiniz. Bir sagında "System" yazıyor, bu parametrenin dalı, her parametre dallara sahiptir (motor tarafından oluşturulanlar, kullanıcının oluşturduklarının dışındakiler), mesela resimdeki parametrenin adı "Age" ve dalı "System" o zaman bu parametrenin gerçek ismi "System.Age" dir. Eger parametreye sag tıklayıp "Copy Reference" derseniz, parametrenin tam ismini, dalları ile birlikte kopyalamış olursunuz. Bir yere yapıştırırsanız, isminin "System.Age" oldugunu görürsünüz. Dalları klasör gibi düşünebilirsiniz. En sagda ise "5" yazıyor, bu parametrenin kaç defa kullanıldıgının/referans verildiginin sayısıdır. Eger [Graph](../Graph) üzerinde bir şey seçmediyseniz bütün parametreleri göremeyebilirsiniz, bütün parametrelerini görmek için [Graph](../Graph) üzerinde bir şey seçmelisiniz (Emitter ve ya System). Parametreler ekranında bir parametreyi seçtiginiz zaman modüllerin üzerinde aşagıdaki resimdeki gibi işaretler çıkar.
 
 
 <img src="../../../Dosyalar/Niagara_Editor_Parameters_Parameter_Focus.jpg">
@@ -77,15 +77,14 @@ bilmiyorum.
 
 * #### [System.ExecutionState](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
 (Durumsal) Sistemin yürütülme durumuna baglıdır. Sistemin yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
-<br>
-<br>
-Active = Aktif
-<br>
-Inactive = Aktif degil, "Inactive" modunda olan Sistem/Emitter parçacık spawn edemez.
-<br>
-Inactive Clear = "Inactive Clear" moduna geçildiginde bütün parçacıklar silinir ve "Inactive" moduna geçilir.
-<br>
-Complete = Tamamlanmış
+
+Mod | İşlem
+:---: | :---:
+Active | Aktif
+Inactive | Aktif degil, "Inactive" modunda olan Sistem/Emitter parçacık spawn edemez.
+Inactive Clear | "Inactive Clear" moduna geçildiginde bütün parçacıklar silinir ve "Inactive" moduna geçilir.
+Complete | Tamamlanmış
+
 
 * #### [System.ExecutionStateSource](https://docs.unrealengine.com/5.1/en-US/system-update-group-reference-for-niagara-effects-in-unreal-engine/#addparameter)
 bilmiyorum.
@@ -128,15 +127,14 @@ Emitter parametreleri, sadece emitter ve parçacık tarafından okunabilir, sade
 
 * #### [Emitter.ExecutionState]()
 (Durumsal) Emitter'ın yürütülme durumuna baglıdır. Emitter'ın yürütülme durumu degişirse bu parametre de degişir. 4 modu vardır,
-<br>
-<br>
-Active = Aktif
-<br>
-Inactive = Aktif degil, "Inactive" modunda olan Sistem/Emitter parçacık spawn edemez.
-<br>
-Inactive Clear = "Inactive Clear" moduna geçildiginde bütün parçacıklar silinir ve "Inactive" moduna geçilir.
-<br>
-Complete = Tamamlanmış
+
+Mod | İşlem
+:---: | :---:
+Active | Aktif
+Inactive | Aktif degil, "Inactive" modunda olan Sistem/Emitter parçacık spawn edemez.
+Inactive Clear | "Inactive Clear" moduna geçildiginde bütün parçacıklar silinir ve "Inactive" moduna geçilir.
+Complete | Tamamlanmış
+
 
 * #### [Emitter.ExecutionStateSource]()
 bilmiyorum.
