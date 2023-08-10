@@ -47,6 +47,8 @@ Bu kategori [Niagara Parameter Collection](../../../Assetler/Niagara%20Parameter
 Sadece tek bir parametresi vardır: "DataInstance.Alive", bu parametre parçacıgın yaşayıp yaşamadıgını gösterir.
 
 
+<br>
+<br>
 
 
 # Parametre Ayarları
