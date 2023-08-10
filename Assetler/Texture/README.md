@@ -1,6 +1,6 @@
 # Texture
 
-Texture, bildigimiz resim ile aynıdır ama her texture'yi resim amaçlı kullanmayız. Farklı farklı texture çeşitleri vardır özellikle Mapler, Maplerin çogu üzerinde taşıdıgı sayısal bilgilerden (data) dolayı, görsel olarak anlaşılamayacak resimlerdir, ama bunları da texture olarak saklarız. Texture'leri [Texture Asset Viewer](../../Sayfalar/Texture%20Asset%20Viewer) ekranında düzenlersiniz. Bildigim kadarıyla texture'leri sadece [import](../../Sayfalar/Content%20Browser/Toolbar#i̇mport-butonu) ederek kullanabiliyorsunuz. Unreal Engine'nin destekledigi formatlar,
+Texture, bildigimiz resim ile aynıdır ama her texture'u resim amaçlı kullanmayız. Farklı farklı texture çeşitleri vardır, özellikle Mapler, Maplerin çogu üzerinde taşıdıgı sayısal bilgilerden (data) dolayı, görsel olarak anlaşılamayacak resimlerdir, ama bunları da texture olarak saklarız. Texture'ları [Texture Asset Viewer](../../Sayfalar/Texture%20Asset%20Viewer) sayfasında düzenlersiniz. Bildigim kadarıyla texture'ları sadece [import](../../Sayfalar/Content%20Browser/Toolbar#i̇mport-butonu) ederek kullanabiliyorsunuz. Unreal Engine'in destekledigi formatlar,
 
 * .bmp
 * .float
