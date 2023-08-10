@@ -1,7 +1,7 @@
 # Graph
 <img src="../../../Dosyalar/Materyal_Editor_Graph.jpg">
 
-Materyal editöründe [materyal](../../../Assetler/Materyal) ve [materyal fonksiyonlarını](../../../Assetler/Materyal%20Fonksiyonu) düzenlersiniz. Materyal editörü blueprint dilini kullanarak materyallerimizi kodladıgımız editördür. Burdaki nodlar tam olarak blueprint degildir. "Shader (Materyal) blueprint" i diyebiliriz yani özünde hlsl (high level shader language) kodlarıdır. Nodların açıklamalarını ve kullanılış şekillerini [Nodlar](../Nodlar) bölümünden ögrenebilirsiniz. "Main Material" nodunu [aşagıda anlattım](#main-material-node).
+Materyal editöründe [material](../../../Assetler/Material) ve [material function](../../../Assetler/Material%20Function) asset'lerini düzenlersiniz. Materyal editörü blueprint dilini kullanarak materyallerimizi kodladıgımız editördür. Burdaki nodlar tam olarak blueprint degildir. "Shader (Materyal) blueprint" i diyebiliriz yani özünde hlsl (high level shader language) kodlarıdır. Nodların açıklamalarını ve kullanılış şekillerini [Nodlar](../Nodlar) bölümünden ögrenebilirsiniz. "Main Material" nodunu [aşagıda anlattım](#main-material-node).
 
 
 # Bölümler
