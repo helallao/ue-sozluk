@@ -1,3 +1,3 @@
-# Materyal Layer Blend Instance
+# Material Layer Blend Instance
 
-[Materyal Layer Blend](../Materyal%20Layer%20Blend) için instance objesi.
+[Material Layer Blend](../Material%20Layer%20Blend) için Instance asset'i.
