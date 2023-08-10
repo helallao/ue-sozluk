@@ -1,7 +1,7 @@
 # Debug Spawn
 <img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Debug_Spawn.jpg">
 
-Debug Spawn, oyun yürütülürken (runtime) niagara sistemleri spawn etmenize yarar.
+Debug Spawn, oyun yürütülürken (runtime) Niagara Sistem'leri spawn etmenize yarar.
 
 
 # Bölümler
