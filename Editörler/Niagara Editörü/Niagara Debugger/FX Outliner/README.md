@@ -34,13 +34,13 @@ Capture işlemi gerçekleşmeden önce beklenecek frame (kare) sayısı. [Captur
 
 * #### View Mode
 Capture edilen simulasyon ögeleri üzerinde yapacagınız işleme göre mod seçmenize yarar. Modlar,
-<br>
-<br>
-State = Genel durum bilgilerini gösterir.
-<br>
-Performance = Performans bilgilerini gösterir.
-<br>
-Debug = Debug işlemleri için gerekli olan kontrol butonlarını gösterir.
+
+Mod | İşlem
+:---: | :---:
+State | Genel durum bilgilerini gösterir.
+Performance | Performans bilgilerini gösterir.
+Debug | Debug işlemleri için gerekli olan kontrol butonlarını gösterir.
+
 
 * #### Filters
 Capture edilen simulasyon ögeleri üzerinde filtreleme yapar.
@@ -50,15 +50,14 @@ Sıralama düzenini yukarıdan aşagı/aşagıdan yukarı çevirir.
 
 * #### Sort Mode
 Sıralama düzeni, modlar,
-<br>
-<br>
-Auto = [View Mode'a](#view-mode) göre kendisi seçer.
-<br>
-Filter Matches = Filtre'nize olan uyumluluk degerine göre sıralar.
-<br>
-Average Time = bilmiyorum.
-<br>
-Max Time = bilmiyorum.
+
+Mod | İşlem
+:---: | :---:
+Auto | [View Mode'a](#view-mode) göre kendisi seçer.
+Filter Matches | Filtre'nize olan uyumluluk degerine göre sıralar.
+Average Time | bilmiyorum.
+Max Time | bilmiyorum.
+
 
 * #### Units
 Zaman degerlerinin gösterilecegi birim (genellikle performans modunda zaman degerleri vardır).
@@ -74,9 +73,9 @@ Zaman degerlerinin gösterilecegi birim (genellikle performans modunda zaman deg
 
 * Eger sizde de fotograftaki gibi ögeler listelenmemişse [Capture](#capture) işlemi yapmamışsınız demektir.
 
-Simulasyon Ögeleri ekranı size dünyanızdaki niagara'ları gösterir.
+Simulasyon Ögeleri ekranı size dünyanızdaki Niagara efektlerini gösterir.
 
 <img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_FX_Outliner_Simulasyon_Ogeleri_2.jpg">
 
-Yukardaki fotografta görebileceginiz gibi, en üstte level (map), onun altında niagara sistemleri kırmızı renkle, sistemin altında o sistem'in instance'ları mavi renkle, sistem instance'larının altında emitter'lar turuncu renkle gösterilir. Üzerine tıkladıgınızda sag taraftaki boşlukta bilgiler çıkar. [View Mode](#view-mode) "Debug" modundayken, sistem instance'ları için yukardaki fotografta görebileceginiz gibi "Capture" butonu çıkar. Bu butona tıkladıgınız zaman [Sim Cache Frames](#sim-cache-frames) inputuna verdiginiz sayı kadar frame capture edilir (capture edilebilmesi için simulasyonun oynatılıyor olması gerekli) ve yanındaki "Sim Cache" butonu aktifleşir (aktif degilse), bu butona tıklayarak simulasyon bilgilerini görebilirsiniz.
+Yukardaki fotografta görebileceginiz gibi, en üstte level (map), onun altında Niagara sistemleri kırmızı renkle, sistemin altında o sistem'in instance'ları mavi renkle, sistem instance'larının altında emitter'lar turuncu renkle gösterilir. Üzerine tıkladıgınızda sag taraftaki boşlukta bilgiler çıkar. [View Mode](#view-mode) "Debug" modundayken, sistem instance'ları için yukardaki fotografta görebileceginiz gibi "Capture" butonu çıkar. Bu butona tıkladıgınız zaman [Sim Cache Frames](#sim-cache-frames) inputuna verdiginiz sayı kadar frame capture edilir (capture edilebilmesi için simulasyonun oynatılıyor olması gerekli) ve yanındaki "Sim Cache" butonu aktifleşir (aktif degilse), bu butona tıklayarak simulasyon bilgilerini görebilirsiniz.
 
