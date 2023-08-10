@@ -2,7 +2,7 @@
 <img src="../../../Dosyalar/Niagara_Editor_Timeline.jpg">
 
 
-Burası niagara efektini oynattıgınız/önizlediginiz bölümdür.
+Burası Niagara efekt'ini oynattıgınız/önizlediginiz bölümdür.
 
 <br>
 <br>
