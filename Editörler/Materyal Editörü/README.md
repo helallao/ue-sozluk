@@ -1,8 +1,11 @@
 # Materyal Editörü
 <img src="../../Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
 
-* Materyal Editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
+
+* "Main Material Node" hakkındaki dökümanlara [Main Material Node](Graph/Main%20Material%20Node)
 * Materyal Editörü nodlarına [Nodlar](Nodlar) bölümünden ulaşabilirsiniz.
+* Terimler sözlügüne [Terimler Sözlügü](Terimler%20Sözlügü) bölümünden ulaşabilirsiniz.
+* Materyal Editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
 
 
 # Bölümler
