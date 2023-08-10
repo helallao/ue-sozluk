@@ -785,7 +785,7 @@ Bu node ile oluşturdugunuz [MaterialAttributes'dan](../Terimler%20Sözlügü#ma
 [MaterialAttributes](../Terimler%20Sözlügü#material-attributes) oluşturmanıza yarar. MaterialAttributes kullanmak için ana materyal nodunuzdaki ["Use Material Attributes"](../Graph/Main%20Material%20Node#use-material-attributes) seçenegini aktifleştirin. Bu nodu kullanmak yerine [SetMaterialAttributes](#setmaterialattributes-%EF%B8%8F) nodunu kullanabilirsiniz.
 
 * #### [MaterialAttributeLayers]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[Materyal Layer'larını](../../../Assetler/Material%20Layer) kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek. Bu nodun üzerine tıklayıp, detaylar penceresinden yeni katmanlar oluşturabilirsiniz. Eger instance alıp kullanacaksanız hiç katman oluşturmanıza gerek yok çünkü instance üzerinden katman oluşturabiliyorsunuz.
+[Material Layer'larını](../../../Assetler/Material%20Layer) kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek. Bu nodun üzerine tıklayıp, detaylar penceresinden yeni katmanlar oluşturabilirsiniz. Eger instance alıp kullanacaksanız hiç katman oluşturmanıza gerek yok çünkü instance üzerinden katman oluşturabiliyorsunuz.
 
 * #### [SetMaterialAttributes]() ❤️💚💙💛💜
 [MakeMaterialAttributes](#makematerialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) noduyla aynıdır ama bu nodda kullanacagınız attribute'leri kendiniz seçebilirsiniz.
@@ -2631,7 +2631,7 @@ OutputNoDepthBias | Bu deger "DepthFadeDistance" degerini umursamaz, yani "Depth
 [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) in parametre halidir ama sadece tek bir kanalı mask yapabilir, eger [ComponentMask](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) gibi birden fazla kanalı birden mask yapmak istiyorsanız [StaticComponentMaskParameter](#staticcomponentmaskparameter-) noduna bakın. Bu node diger parametre nodları gibi degildir, sadece output degeri döndürmez. Yani işlem yapan bir noddur. Dolayısıyla [ComponentMask(Mask)](#componentmaskmask-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F-1) kullanacagınız yere bu nodu koymalısınız. Aldıgı parametreye göre mask yapıcak ve output olarak döndürecek.
 
 * #### [CollectionParameters](https://youtu.be/i4Z2r7mGA0o) 💝
-Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluşturdugunuz ["Materyal Parametre Koleksiyonu"](../../../Assetler/Material%20Parameter%20Collection) asset'inden parametre almanıza yarar. Bu node instance'larda parametre olarak gözükmez.
+Linkteki videoda çok güzel anlatılmış, izlemeyi unutmayın. Bu node oluşturdugunuz ["Material Parameter Collection"](../../../Assetler/Material%20Parameter%20Collection) asset'inden parametre almanıza yarar. Bu node instance'larda parametre olarak gözükmez.
 
 * #### [CurveAtlasRowParameter]()
 
@@ -2653,7 +2653,7 @@ Parameter Index | Buradan kullanmak istediginiz index numarasını verebilirsini
 The FontSampleParameter expression provides a way to expose a font-based parameter in a material instance constant, making it easy to use different fonts in different instances. The alpha channel of the font will contain the font outline value. Only valid font pages are allowed to be specified.
 
 * #### [MaterialAttributeLayers]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-[Materyal Layer'larını](../../../Assetler/Material%20Layer) kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek. Bu nodun üzerine tıklayıp, detaylar penceresinden yeni katmanlar oluşturabilirsiniz. Eger instance alıp kullanacaksanız hiç katman oluşturmanıza gerek yok çünkü instance üzerinden katman oluşturabiliyorsunuz.
+[Material Layer'larını](../../../Assetler/Material%20Layer) kullanmamızı saglar. Bütün Materyal Layer'ları hesaplandıktan sonra son halini döndürür. Eger isterseniz son hali üzerinde de işlemler yapabilirsiniz. Tek yapmanız gereken [BreakMaterialAttributes](#breakmaterialattributes-%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F%EF%B8%8F) nodundan geçirmek. Bu nodun üzerine tıklayıp, detaylar penceresinden yeni katmanlar oluşturabilirsiniz. Eger instance alıp kullanacaksanız hiç katman oluşturmanıza gerek yok çünkü instance üzerinden katman oluşturabiliyorsunuz.
 
 
 * #### [RuntimeVirtualTextureSampleParameter]()
