@@ -41,33 +41,37 @@ Materyalin instancelarını gösterir.
 
 ## [Live Update]()
 Preview Material = [Preview Viewport](../Preview%20Viewport) bölümünde canlı olarak önizleme ayarını açar/kapatır.
-<br>
-<br>
-Realtime Nodes = Realtime olarak yani sürekli güncellenen nodları aktif/deaktif eder. Bu ayar açıksa, hani nodların kenarında texturenin ufak resmi olur ya, o resim resim her degiştiginde güncellenir, aynı ana materyaldeki gibi. Eger bu seçenek kapalıysa realtime nodlar çalışmaz.
-<br>
-<br>
-All Node Previews = Bütün nodların Realtime Preview ayarını açar.
+
+Mod | İşlem
+:---: | :---:
+Realtime Nodes | Realtime olarak yani sürekli güncellenen nodları aktif/deaktif eder. Bu ayar açıksa, hani nodların kenarında texturenin ufak resmi olur ya, o resim resim her degiştiginde güncellenir, aynı ana materyaldeki gibi. Eger bu seçenek kapalıysa realtime nodlar çalışmaz.
+All Node Previews | Bütün nodların Realtime Preview ayarını açar.
+
 
 ## [Clean Graph]()
-Clean Up = Ana attribute noduna (her şeyi bagladıgımız palet) baglı olmayan nodları siler.
-<br>
-Hide Unused Connectors = Baglı olmayan pinleri gizler.
+
+Mod | İşlem
+:---: | :---:
+Clean Up | Ana attribute noduna (her şeyi bagladıgımız palet) baglı olmayan nodları siler.
+Hide Unused Connectors | Baglı olmayan pinleri gizler.
+
 
 ## [Preview State]()
-Quality Level = Kalite ayarı
-<br>
-Feature Level = Bilmiyorum
-<br>
-Hide Disabled (Switch Params) = Bilmiyorum
+
+Mod | İşlem
+:---: | :---:
+Quality Level | Kalite ayarı
+Feature Level | Bilmiyorum
+Hide Disabled (Switch Params) | Bilmiyorum
+
 
 ## [Hide Unrelated]()
 Seçilen node ile ilgisi olamayan nodları gizler. İlgisi olan nodlar, kendi inputlarına baglı olan ve output nodlarının baglandıgı diger nodlardır.
-<br>
-<br>
-Lock Node State = Şu an ki durumu kilitler, ilgili olan nodlardan başka node seçseniz bile degişmez. Belki anlaması zor olabilir diye örnek vericem, mesela bir nodu seçtiniz ve bu node ile ilgili olmayan nodlar gizlendi, bu seçenegi aktifleştirdikten sonra istediginiz noda tıklayabilirsiniz, ilgili olan node ayarları bozulmaz, böylelikle ilgisi olmayan nodlarla da işlemler yapabilirsiniz.
-<br>
-<br>
-Focus Whole Chain = Normalde sadece output nodlarının baglandıgı nodlar ilgili nodlardır, ama bu seçenegi açarsanız o nodlara baglanan diger nodlar da ilgili nodlar arasına girer, yani sadece output nodları degil input nodları da ilgili node olur.
+
+Mod | İşlem
+:---: | :---:
+Lock Node State | Şu an ki durumu kilitler, ilgili olan nodlardan başka node seçseniz bile degişmez. Belki anlaması zor olabilir diye örnek vericem, mesela bir nodu seçtiniz ve bu node ile ilgili olmayan nodlar gizlendi, bu seçenegi aktifleştirdikten sonra istediginiz noda tıklayabilirsiniz, ilgili olan node ayarları bozulmaz, böylelikle ilgisi olmayan nodlarla da işlemler yapabilirsiniz.
+Focus Whole Chain | Normalde sadece output nodlarının baglandıgı nodlar ilgili nodlardır, ama bu seçenegi açarsanız o nodlara baglanan diger nodlar da ilgili nodlar arasına girer, yani sadece output nodları degil input nodları da ilgili node olur.
 
 ## [Stats]()
 [Stats](../../../Sayfalar/Stats%20(Material)) bölümünü açar/kapatır.
