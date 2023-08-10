@@ -1,4 +1,4 @@
-# Graph
+# Timeline
 <img src="../../../Dosyalar/Niagara_Editor_Timeline.jpg">
 
 
