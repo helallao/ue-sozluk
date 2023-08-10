@@ -22,7 +22,7 @@ Dosya ekler/yaratır. [Dosyalar](../Dosyalar) bölümünde boş bir yere sag tı
 ### [Get Content]()
 
 * #### [Import to /Game...]()
-Oldugunuz klasöre dosya İmport eder. [İmport Butonu](#import-butonu) ile aynı.
+Oldugunuz klasöre dosya import eder. [İmport Butonu](#import-butonu) ile aynı.
 
 * #### [Add Feature or Content Pack...]()
 Unreal Engine'nin kendi template dosyalarını projenize ekler.
@@ -41,7 +41,7 @@ Yeni klasör açar.
 
 ### [Create Basic Asset]()
 
-Buradaki Assetleri [Create Advanced Asset](#create-advanced-asset) bölümünde de bulabilirsiniz.
+Buradaki Asset'leri [Create Advanced Asset](#create-advanced-asset) bölümünde de bulabilirsiniz.
 
 * #### [Blueprint Class]()
 * #### [Level]()
