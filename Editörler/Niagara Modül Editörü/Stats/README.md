@@ -2,7 +2,7 @@
 <img src="../../../Dosyalar/Niagara_Module_Editor_Stats.jpg">
 
 
-Burada oluşturdugumuz niagara modülü ile ilgili bilgileri (stat) gösteren bölümdür.
+Burada oluşturdugumuz Niagara modülü ile ilgili bilgileri (stat) gösteren bölümdür.
 
 
 ## LastOpCount
