@@ -5,7 +5,7 @@
 Yaptıgınız efektte kullandıgınız bütün Curve'leri buradan düzenleyebilirsiniz.
 
 
-Herhangi bir Curve'ü bu pencerede açmak için aşagıdaki resimde gösterilen butonu kullanabilirsiniz.
+Herhangi bir Curve'ü bu pencerede açmak için [Selection](../Selection) penceresinde inputun üzerindeki, resimde gösterilen butonu kullanabilirsiniz.
 
 <img src="../../../Dosyalar/Niagara_Editor_Curves_3.png">
 
@@ -15,7 +15,7 @@ Sol tarafta gördügünüz bölüm Curve'lerin listesidir, buradan istediginiz C
 <img src="../../../Dosyalar/Niagara_Editor_Curves_4.png">
 
 
-Curve üzerinde gördügünüz her bir üçgen "key" dir. Key'leri istediginiz gibi ettirebilirsiniz.
+Curve üzerinde gördügünüz her bir üçgen "key" dir. Key'leri istediginiz gibi hareket ettirebilirsiniz.
 
 <img src="../../../Dosyalar/Niagara_Editor_Curves_5.png">
 
@@ -29,7 +29,14 @@ Burası araç çubugu, neredeyse her şey buradan yapılıyor.
 Soldan saga,
 
 ## View Mode
-3 modu vardır. "Absolute View Mode" modunda iken eger birden fazla deger oluşturuluyorsa, yani birden fazla curve var ise, hepsini bir arada gösterir. "Stacked View Mode" modunda iken eger birden fazla deger oluşturuluyorsa, yani birden fazla curve var ise, hepsini ayrı ayrı gösterir. "Normalized View Mode" modunda iken "Absolute View Mode" modundaki bütün curve'ler bir arada gösterilir ama Y eksenindeki degerler -1, 1 arasındadır. Yani normalized olarak gösterilir.
+Curve görüntüleme şeklini belirler, 3 modu vardır,
+
+Mod | İşlem
+:---: | :---:
+Absolute View Mode | Eger birden fazla deger oluşturuluyorsa, yani birden fazla curve var ise, hepsini bir arada gösterir.
+Stacked View Mode | Eger birden fazla deger oluşturuluyorsa, yani birden fazla curve var ise, hepsini ayrı ayrı gösterir.
+Normalized View Mode | "Absolute View Mode" modundaki gibi bütün curve'ler bir arada gösterilir ama Y eksenindeki degerler -1, 1 arasındadır. Yani normalized olarak gösterilir.
+
 
 ## Zoom to Fit
 Curve'ü ekrana sıgdırır.
@@ -134,7 +141,7 @@ Key bir sonraki key'e kadar kendi degerini kullanır, yani key'in degeri düz bi
 Bu ayarı açtıgınız zaman tanjtant'ın uzunlugunu yani etkisini arttırabilir/azaltabilirsiniz.
 
 ## Pre Infinity Settings
-Bu ayar yaptıgımız Curve'deki ilk key'den öncesini ayarlamamıza yarar. Yani bizim belirledigimiz Curve'den öncesini ayarlar. Buna Pre Infinity deniyor. 5 modu vardır,
+Bu ayar yaptıgımız Curve'deki ilk key'den öncesini ayarlamamıza yarar. Yani bizim belirledigimiz Curve'den öncesini ayarlar. Buna "Pre Infinity" deniyor. 5 modu vardır,
 
 Mod | İşlem
 :---: | :---:
@@ -145,7 +152,7 @@ Linear | Curve ilk key'den öncesinde, ikinci key'den ilk key'e bakan yöne dogr
 Oscillate (Ping Pong) | Curve ilk key'den öncesinde, yaptıgımız Curve'ü sürekli tekrar eder ama sürekli baştan başlamak yerine bir önceki tekrarı mirror eder, yani aynalar. Böylelikle kaldıgı yerden devam etmiş gibi olur.
 
 ## Post Infinity Settings
-Bu ayar yaptıgımız Curve'deki son key'den sonrasını ayarlamamıza yarar. Yani bizim belirledigimiz Curve'den sonrasını ayarlar. Buna Post Infinity deniyor. 5 modu vardır,
+Bu ayar yaptıgımız Curve'deki son key'den sonrasını ayarlamamıza yarar. Yani bizim belirledigimiz Curve'den sonrasını ayarlar. Buna "Post Infinity" deniyor. 5 modu vardır,
 
 Mod | İşlem
 :---: | :---:
@@ -180,4 +187,5 @@ Simplify seçilen key'ler arasında gereksiz olan key'leri siler, curve'ü çok 
 
 
 # Kaynaklar
+
 * [Curve Editor](https://docs.unrealengine.com/5.2/en-US/animation-curve-editor-in-unreal-engine/) - Curve Editor, Unreal Engine'in kendi dökümanı
