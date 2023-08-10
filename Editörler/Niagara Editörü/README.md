@@ -1,9 +1,14 @@
 # Niagara Editörü
 <img src="../../Dosyalar/Niagara_Editor_Ana_Ekran.jpg">
 
-
-* Niagara Editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
+* Emitter ve System ayarlarına ve açıklamalarına [Graph](Graph) bölümünden ulaşabilirsiniz.
+* Parametrelerinin listesine, açıklamalarına ve türlerine [Parameters](Parameters) bölümünden ulaşabilirsiniz.
+* Dinamik inputlara ve açıklamalarına [Selection](Selection#dinamik-inputlar) bölümünden ulaşabilirsiniz.
 * Niagara Editörü modüllerine [Moduller](Moduller) bölümünden ulaşabilirsiniz.
+* Niagara Debugger kullanımı hakkında bilgilere [Niagara Debugger](Niagara%20Debugger) bölümünden ulaşabilirsiniz.
+* Terimler sözlügüne [Terimler Sözlügü](Terimler%20Sözlügü) bölümünden ulaşabilirsiniz.
+* Niagara Editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
+
 
 
 # Bölümler
