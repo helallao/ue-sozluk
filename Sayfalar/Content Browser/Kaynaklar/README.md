@@ -12,10 +12,10 @@
 
 
 ## [Favorites]()
-Favori klasörleriniz (bildigim kadarıyla dosyalar eklenmiyor) burada gösterilir.
+Favori klasörleriniz (bildigim kadarıyla asset'ler eklenmiyor) burada gösterilir.
 
 ## [Proje Dosyaları]()
 Projenizdeki dosyalar.
 
 ## [Collections]()
-Koleksiyonlarınız burada görünür. Bildigim kadarıyla klasörler eklenmiyor, sadece dosyalar.
+Koleksiyonlarınız burada görünür. Bildigim kadarıyla klasörler eklenmiyor, sadece asset'ler.
