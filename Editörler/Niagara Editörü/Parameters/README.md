@@ -670,7 +670,7 @@ bilmiyorum.
 
 
 ## Niagara Parameter Collection
-
+Bu kategori [Niagara Parameter Collection](../../../Assetler/Niagara%20Parameter%20Collection) assetinden parametre almanıza yarar.
 
 
 
