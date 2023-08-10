@@ -23,7 +23,7 @@
 Dosyayı kaydeder.
 
 ## [Dosya Konumunu Göster]()
-Şu an işlem yapılan niagara'nın dosya konumunu açar, eger content browser yoksa yeni açar.
+Şu an işlem yapılan Niagara efekt'inin dosya konumunu açar, eger Content Browser yoksa yeni açar.
 
 ## [Apply Scratch]()
 bilmiyorum.
@@ -32,7 +32,7 @@ bilmiyorum.
 Yapılan degişiklikleri uygular. Üç noktaya tıkladıgınızda iki seçenek vardır. Birincisi "Full Rebuild", buna tıkladıgınız zaman baştan sona tekrar build eder. İkincisi "Automatically compile when graph changes", bu seçenek default olarak açıktır ve yaptıgınız her degişiklikte otomatikmen compile eder.
 
 ## [Thumbnail]()
-Buna tıkladıgınız anda bu niagara asset'i için [Preview Viewport](../Preview%20Viewport) üzerindeki görüntüyü thumbnail yani kapak fotografı olarak ayarlar, yani content browser'daki kapak fotografı.
+Buna tıkladıgınız anda bu Niagara Efekt'inin asset'i için [Preview Viewport](../Preview%20Viewport) üzerindeki görüntüyü thumbnail yani kapak fotografı olarak ayarlar, yani Content Browser'daki kapak fotografı.
 
 ## [Bounds]()
 [Preview Viewport](../Preview%20Viewport) üzerinde sınırları gösterir. Ayrıca yandaki üç noktadan [sistem](../Graph#fixed-bounds) ve [emitter](../Graph#fixed-bounds-1) için Fixed Bounds ayarını açabilirsiniz (tıkladıgınızda sadece açar, başka bir şey yapmaz).
