@@ -1,3 +1,3 @@
-# Materyal Parametre Koleksiyonu
+# Material Parameter Collection
 
-Materyal Parametre Koleksiyonu şu işe yarar, materyallere vermek istediginiz bütün parametreleri burada toplarsınız, database gibi. Sonra [CollectionParameters](../../Editörler/Materyal%20Editörü/Nodlar#collectionparameters-) nodunu kullanarak bu parametreleri databaseden çekersiniz ve materyalinizde kullanırsınız. Materyal Parametre Koleksiyonu asset (dosya) olarak kaydedildigi için istediginiz kadar materyalde kullanabilirsiniz, ayrıca blueprint nodları ile de database üzerinde degişiklikler yapabilirsiniz.
+Material Parameter Collection şu işe yarar, [Material'lara](../Material) vermek istediginiz bütün parametreleri burada toplarsınız, database gibi. Sonra [CollectionParameters](../../Editörler/Materyal%20Editörü/Nodlar#collectionparameters-) nodunu kullanarak bu parametreleri databaseden çekersiniz ve Material'inizde kullanırsınız. Material Parameter Collection asset (dosya) olarak kaydedildigi için istediginiz kadar Material'da kullanabilirsiniz, ayrıca blueprint nodları ile de database üzerinde degişiklikler yapabilirsiniz.
