@@ -1,7 +1,8 @@
-Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engineyi oluşturan editörler, diger pencereler ve objeler aşagıda sıralanmıştır. Objelerden kastım asset'lardır. Her asset türüne göre obje oluşturulmuştur. ue-sozluk, sözlük mantıgında bir dökümandır, size bütün olarak konu anlatımı sunmaz ama her parçayı tek tek anlatır, zaten önemli olan da bu oldugu için böyle bir şey yaptım. Her sayfa için sayfanın en altına "Kaynaklar" diye bölüm ve her editör için ise "Kaynaklar" diye klasör oluşturdum, ister oradan ögrenmek istediginiz şey üzerine, ister bütün kaynakları topladıgım en büyük [Kaynaklar](Kaynaklar) bölümünden konu anlatımlarına ulaşabilirsiniz.
+Bu döküman Unreal Engine birçok editörün toplamıymış gibi düşünülüp hazırlanmıştır. Unreal Engine'i oluşturan editörler, diger pencereler ve objeler aşagıda sıralanmıştır. Objelerden kastım asset'lerdir. Her asset türüne göre obje oluşturulmuştur. ue-sozluk sözlük mantıgında bir dökümandır, size bütün olarak konu anlatımı sunmaz ama her parçanın sahip oldugu her şeyi tek tek anlatır, zaten önemli olan da bu oldugu için böyle bir döküman yaptım. Her sayfa için sayfanın en altına "Kaynaklar" diye bölüm ve her editör için ise "Kaynaklar" diye klasör oluşturdum, ister oradan ögrenmek istediginiz şey üzerine, ister bütün kaynakları topladıgım en büyük [Kaynaklar](Kaynaklar) bölümünden konu anlatımlarına ve kaynaklara ulaşabilirsiniz.
 
 
 # Unreal Engine
+
 
 ### Editörler
 
@@ -20,7 +21,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 * [Texture Asset Viewer](#texture-asset-viewer)
 
 
-### Toolbar
+### Diger
 
 * [Top Toolbar (Araç Çubugu)](#top-toolbar-araç-çubugu)
 * [Bottom Toolbar (Araç Çubugu)](#bottom-toolbar-araç-çubugu)
@@ -89,7 +90,7 @@ Bu proje Unreal Engine birçok editörün toplamıymış gibi düşünülüp haz
 
 
 
-# Toolbar
+# Diger
 
 ### [Top Toolbar (Araç Çubugu)](Diger/Top%20Toolbar%20(Araç%20Çubugu))
 <img src="Dosyalar/Top_Toolbar.jpg">
