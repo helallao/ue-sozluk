@@ -6,4 +6,4 @@ Burası [Niagara Parameter Collection](../../Assetler/Niagara%20Parameter%20Coll
 
 "Source Material Collection" ayarını kullanarak seçtiginiz [Material Parameter Collection](../../Assetler/Material%20Parameter%20Collection) asset'inden parametreleri import edebilirsiniz.
 
-Ve son olarak, en alttaki liste bölümünden parametrelerinizi ayarlayabilirsiniz. Parametre eklemek için sagdaki "+" işaretine basın. Eklediginiz parametreleri degiştirmek için parametrenin üzerine gelip hızlıca sol tık - sag tık yapın. Parametrelerin ismini degiştirebilmenizin tek yolu bu, f2 basmak da işe yaramaz. Eklediginiz parametreleri Del tuşuna basarak silebilirsiniz.
+Ve son olarak, en alttaki liste bölümünden parametrelerinizi ayarlayabilirsiniz. Parametre eklemek için sagdaki "+" işaretine basın. Eklediginiz parametreleri degiştirmek için parametrenin üzerine gelip hızlıca mouse'unuzun sol tık & sag tık tuşlarına basın. Parametrelerin ismini degiştirebilmenizin tek yolu bu, f2 basmak da işe yaramaz. Eklediginiz parametreleri Del tuşuna basarak silebilirsiniz.
