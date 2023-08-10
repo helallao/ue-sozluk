@@ -17,6 +17,7 @@ Bu döküman Unreal Engine birçok editörün toplamıymış gibi düşünülüp
 
 * [Content Browser](#content-browser)
 * [Material Instance Viewer](#material-instance-viewer)
+* [Niagara Parameter Collection Asset Viewer](#niagara-parameter-collection-asset-viewer)
 * [Niagara Parameter Definitions Asset Viewer](#niagara-parameter-definitions-asset-viewer)
 * [Project Settings](#project-settings)
 * [Texture Asset Viewer](#texture-asset-viewer)
@@ -82,6 +83,9 @@ Bu döküman Unreal Engine birçok editörün toplamıymış gibi düşünülüp
 
 ### [Material Instance Viewer](Sayfalar/Material%20Instance%20Viewer)
 <img src="Dosyalar/Material_Instance_Viewer_Ana_Ekran.jpg">
+
+### [Niagara Parameter Collection Asset Viewer](Sayfalar/Niagara%20Parameter%20Collection%20Asset%20Viewer)
+<img src="Dosyalar/Niagara_Parameter_Collection_Viewer_Ana_Ekran.png">
 
 ### [Niagara Parameter Definitions Asset Viewer](Sayfalar/Niagara%20Parameter%20Definitions%20Asset%20Viewer)
 <img src="Dosyalar/Niagara_Parameter_Definitions_Viewer_Ana_Ekran.png">
