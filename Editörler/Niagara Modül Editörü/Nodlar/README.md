@@ -355,6 +355,14 @@ Value | Yeni renk degeri.
 * #### [Add Comment]()
 Yorum bölümü oluşturur.
 
+Ayar/Özellik | İşlem
+:---: | :---:
+Comment Color | Yorum bölümü rengi.
+Font Size | Yorum başlıgı yazı büyüklügü.
+Show Bubble When Zoomed | Zoom leveli -2'den fazla iken yorum başlıgını baloncuk olarak gösterir.
+Color Bubble | Sadece "Show Bubble When Zoomed" ayarı açıkken kullanılabilir. Baloncugun da renkli olup olmayacagını belirler.
+Move Mode | "Group Movement" modunda iken hareket ettirildiginde içindeki nodları da hareket ettirir. "Comment" modunda içindeki nodları hareket ettirmez.
+
 
 ## Cube Texture Sample
 
@@ -891,15 +899,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [Angle Unit Converter]()
-Verdiginiz açı degeri dönüştürür. Dönüşümün gerçekleşebilecegi degerler,
-<br>
-<br>
-Degrees = Derece
-<br>
-Normalized Angle (0-1) = Derecenin [normalized](#normalize) hali yani 0 - 1 arası
-<br>
-Radians = [Radyan](https://tr.wikipedia.org/wiki/Radyan) (1 radyan ≈= 57,2958)
+Verdiginiz açı degerini dönüştürür. Dönüşümün gerçekleşebilecegi degerler,
 
+Tür | Açıklama
+:---: | :---:
+Degrees | Derece
+Normalized Angle (0-1) | Derecenin [normalized](#normalize) hali yani 0 - 1 arası
+Radians | [Radyan](https://tr.wikipedia.org/wiki/Radyan) (1 radyan ≈= 57,2958)
 
 İnput | İşlem
 :---: | :---:
@@ -2960,19 +2966,19 @@ Value | Yeni int32 degeri.
 [Bool](../../Niagara%20Editörü/Parameters#bool) oluşturmanıza yarar, verdiginiz inputa göre True ve ya False döndürür.
 
 * #### [Chaos Destruction Event]()
-bilmiyorum.
+[Chaos Destruction Event](../../Niagara%20Editörü/Parameters#chaos-destruction-event) oluşturmanıza yarar.
 
 * #### [ECollisionChannel]()
-bilmiyorum.
+[ECollisionChannel](../../Niagara%20Editörü/Parameters#ecollisionchannel) oluşturmanıza yarar.
 
 * #### [EFieldIntegerType]()
-bilmiyorum.
+[EFieldIntegerType](../../Niagara%20Editörü/Parameters#efieldintegertype) oluşturmanıza yarar.
 
 * #### [EFieldScalarType]()
-bilmiyorum.
+[EFieldScalarType](../../Niagara%20Editörü/Parameters#efieldscalartype) oluşturmanıza yarar.
 
 * #### [EFieldVectorType]()
-bilmiyorum.
+[EFieldVectorType](../../Niagara%20Editörü/Parameters#efieldvectortype) oluşturmanıza yarar.
 
 * #### [ENiagara_AngleInput]()
 bilmiyorum.
@@ -3083,7 +3089,7 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [ENiagaraCoordinateSpace]()
-bilmiyorum.
+[ENiagaraCoordinateSpace](../../Niagara%20Editörü/Parameters#eniagaracoordinatespace) oluşturmanıza yarar.
 
 * #### [ENiagaraCurlNoiseQuality]()
 bilmiyorum.
@@ -3098,13 +3104,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [ENiagaraExecutionState]()
-bilmiyorum.
+[ENiagaraExecutionState](../../Niagara%20Editörü/Parameters#eniagaraexecutionstate) oluşturmanıza yarar.
 
 * #### [ENiagaraExecutionStateManagement]()
 bilmiyorum.
 
 * #### [ENiagaraExecutionStateSource]()
-bilmiyorum.
+[ENiagaraExecutionStateSource](../../Niagara%20Editörü/Parameters#eniagaraexecutionstatesource) oluşturmanıza yarar.
 
 * #### [ENiagaraExpansionMode]()
 bilmiyorum.
@@ -3118,11 +3124,11 @@ bilmiyorum.
 * #### [ENiagaraGridPlacementType]()
 bilmiyorum.
 
-* #### [ENiagaralnactiveMode]()
+* #### [ENiagaraInactiveMode]()
 bilmiyorum.
 
 * #### [ENiagaraLegacyTrailWidthMode]()
-bilmiyorum.
+[ENiagaraLegacyTrailWidthMode](../../Niagara%20Editörü/Parameters#eniagaralegacytrailwidthmode) oluşturmanıza yarar.
 
 * #### [ENiagaraMeshOrSprite]()
 bilmiyorum.
@@ -3131,13 +3137,13 @@ bilmiyorum.
 bilmiyorum.
 
 * #### [ENiagaraOrientationAxis]()
-bilmiyorum.
+[ENiagaraOrientationAxis](../../Niagara%20Editörü/Parameters#eniagaraorientationaxis) oluşturmanıza yarar.
 
 * #### [ENiagaraRandomnessEvaluation]()
 bilmiyorum.
 
 * #### [ENiagaraRandomnessMode]()
-bilmiyorum.
+[ENiagaraRandomnessMode](../../Niagara%20Editörü/Parameters#eniagararandomnessmode) oluşturmanıza yarar.
 
 * #### [ENiagaraRendererSourceDataMode]()
 bilmiyorum.
@@ -3248,7 +3254,7 @@ Half veri tipinden oluşan 4 boyutlu vektör.
 [Static bool](../../Niagara%20Editörü/Parameters#static-bool) oluşturmanıza yarar. Normal bool'un aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
 
 * #### [Static ENiagaraRandomnessMode]()
-bilmiyorum.
+Static [ENiagaraRandomnessMode](../../Niagara%20Editörü/Parameters#eniagararandomnessmode) oluşturmanıza yarar.
 
 * #### [Static int32]()
 [Static int32](../../Niagara%20Editörü/Parameters#static-int32) oluşturmanıza yarar. Normal int32'nin aksine, yürütme esnasında (runtime) degiştirilemez, degiştirirseniz hata alırsınız.
