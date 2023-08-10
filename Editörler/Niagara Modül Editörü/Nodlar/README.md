@@ -5078,8 +5078,6 @@ Value | Yeni Vector degeri.
 * #### [Convert]()
 Verilen inputun veri tipini degiştirir.
 
-* #### [Output Module]()
-Her bir oluşturdugunuz niagara modülünde otomatik olarak bir tane "Output Module" vardır. Output Module [ParameterMap](../Terimler%20Sözlügü#parametermap) alır.
 
 
 
