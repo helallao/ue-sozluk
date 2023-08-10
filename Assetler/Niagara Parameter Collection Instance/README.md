@@ -1,3 +1,3 @@
-# Niagara Parametre Koleksiyonu Instance
+# Niagara Parameter Collection Instance
 
-Niagara Parametre Koleksiyonu Instance şu işe yarar, verdiginiz [Niagara Parametre Koleksiyonu'ndaki](../Niagara%20Parametre%20Koleksiyonu) bütün parametreleri kopyalar. Sonra siz de istediginiz parametreleri degiştirirsiniz.
+Niagara Parameter Collection Instance şu işe yarar, verdiginiz [Niagara Parameter Collection](../Niagara%20Parameter%20Collection) asset'indeki bütün parametreleri kopyalar. Sonra siz de istediginiz parametreleri degiştirirsiniz. Yani sadece belirli parametreleri degiştirmek istiyorsanız Niagara Parameter Collection asset'inizin Instance'ını oluşturup onun üzerinden istediklerinizi degiştirebilirsiniz.
