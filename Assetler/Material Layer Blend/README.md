@@ -1,3 +1,3 @@
-# Materyal Layer Blend
+# Material Layer Blend
 
-[Materyal Layer](../Materyal%20Layer) için Blend yani katmanların nasıl birleşecegini belirleyen kod, bir nevi fonksiyon.
+[Material Layer](../Material%20Layer) için Blend yani katmanların nasıl birleşecegini belirleyen kod, bir nevi fonksiyon.
