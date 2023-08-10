@@ -2,7 +2,7 @@
 <img src="../../../Dosyalar/Niagara_Editor_Graph.jpg">
 
 
-Sadece Emitter ve System'lerden oluşur. Niagara Editör'ünde diger editörler gibi Graph üzerinden kodlama yapmazsınız. Sadece Emitter ve System'leri (varsa) gösterir. Graph üzerine sag tıklayarak yeni Emitter oluşturabilirsiniz. Emmitter'ların üzerindeki tik işaretine basarak devre dışı bırakabilirsiniz. Tik işaretinin altındaki adam işaretine basarak izole edebilirsiniz, izole edince sadece o Emmitter'ı gösterir. Geriye kalan bütün ayarları [Selection](../Selection) bölümünden yapabilirsiniz. Graph bölümü boş kalmasın diye System ve Emitter'ın açıklamalarını buraya yazdım. Sonuçta Graph üzerinde sadece onlar var.
+Sadece Emitter ve System'larden oluşur. Niagara Editör'ünde diger editörler gibi Graph üzerinden kodlama yapmazsınız. Sadece Emitter ve System'lari (varsa) gösterir. Graph üzerine sag tıklayarak yeni Emitter oluşturabilirsiniz. Emmitter'ların üzerindeki tik işaretine basarak devre dışı bırakabilirsiniz. Tik işaretinin altındaki adam işaretine basarak izole edebilirsiniz, izole edince sadece o Emmitter'ı gösterir. Geriye kalan bütün ayarları [Selection](../Selection) bölümünden yapabilirsiniz. Graph bölümü boş kalmasın diye System ve Emitter'ın açıklamalarını buraya yazdım. Sonuçta Graph üzerinde sadece onlar var.
 
 
 # Bölümler
@@ -35,13 +35,13 @@ bilmiyorum.
 Aktifleştirildiginde constant degerleri (neyi kastettiklerini bilmiyorum) script'lere dönüştürür, performans bakımından yararı olması için.
 
 * #### Compress Attributes
-Aktifleştirildiginde emitter'lar parçacıkların sahip oldugu attribute'ları (sanırım parametreler) sıkıştırır. Hafıza (ram) ve performans bakımından artışa sebep olur.
+Aktifleştirildiginde emitter'lar parçacıkların sahip oldugu attribute'ları (parametreler) sıkıştırır. Hafıza (ram) ve performans bakımından artışa sebep olur.
 
 * #### Trim Attributes During Edit
 "Trim Attributes" ile aynı ama editlerken de işlemi gerçekleştirir, tam olarak ne oldugunu bilmiyorum, belki "Trim Attributes" sadece dosya kaydedildiginde falan gerçekleşiyor "Trim Attributes During Edit" ise her degişiklikte yani editlerken gerçekleşiyor olabilir, ama emin degilim.
 
 * #### Trim Attributes
-Aktifleştirildiginde gereksiz attribute'lar (sanırım parametreler) silinir.
+Aktifleştirildiginde gereksiz attribute'lar (parametreler) silinir.
 
 * #### Ignore Particle Reads for Attribute Trim
 Emin degilim ama sanırım, sadece okuma işleminde kullanılmış parametreleri de siler yani normalde bu parametreler silinmezken bu ayarı aktifleştirdiginizde silinir. Hatalara sebep olabilir.
@@ -56,28 +56,28 @@ Aktifleştirildiginde compile işlemi gerçekleşirken "Debug Switch" leri devre
 Experimental VM'leri (sanırım Virtual Machine yani Sanal Makine) devre dışı bırakır.
 
 * #### Default Cast Shadows
-Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degiştirilebilen ayarlardır.
 
 * #### Default Receives Decals
-Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degiştirilebilen ayarlardır.
 
 * #### Default Render CustomDepth Pass
-Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degiştirilebilen ayarlardır.
 
 * #### Support Large World Coordinates
 bilmiyorum.
 
 * #### Default CustomDepthStencil Write Mask
-Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degiştirilebilen ayarlardır.
 
 * #### Default CustomDepthStencil Value
-Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degiştirilebilen ayarlardır.
 
 * #### Translucency Sort Priority
-Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degiştirilebilen ayarlardır.
 
 * #### Translucency Sort Distance Offset
-Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degişirilebilen ayarlardır.
+Bu kategorideki yani "Rendering" kategorisindeki ayarların hepsi (Support Large World Coordinates hariç) dünyanıza koydugunuz niagara objesi üzerinde degiştirilebilen ayarlardır.
 
 * #### Dump Debug System Info
 Aktifleştirildiginde sistem info'sunu [Output Log'a](../../../Diger/Bottom%20Toolbar%20(Araç%20Çubugu)#output-log) yazdırır, çok az parçacıgınız olsa bile Unreal Engine'in çökmesine sebep olabilir, isterseniz bu ayarı açın, loglar yazılsın, sonra bu ayarı kapattıktan sonra loglara bakın.
@@ -154,7 +154,7 @@ System spawn olduktan sonra çalışmaya başlar, her frame'de (kare, fps) çagr
 
 # [Emitter](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
 
-Emitter parçacıkları yönetir. Parçacıkların bütün ayarlarını Emitter üzerinden yaparız. Bunun için [Modul'leri](../Moduller) kullanırız. Emitter yukardan aşagı dogru ilerler, zaten bütün adımlar kategorilere ayrılmış. Kategorilere aşagıdan ulaşabilirsiniz.
+Emitter parçacıkları yönetir. Parçacıkların bütün ayarlarını Emitter üzerinden yaparız. Bunun için [Modül'leri](../Moduller) kullanırız. Emitter yukardan aşagı dogru ilerler, zaten bütün adımlar kategorilere ayrılmış. Kategorilere aşagıdan ulaşabilirsiniz.
 
 
 ## [Properties]()
@@ -179,13 +179,12 @@ Simulasyonun cpu (işlemci) ve ya gpu (ekran kartı) üzerinde olacagını belir
 
 * #### Calculate Bounds Mode
 "Bounds" simulasyonun sınırlarını belirtir, sınırlar şu anlama gelir, eger sınır ekranımızın üzerine geliyorsa yani baktıgımız yönde/bakış açımızda ise (önümüzde ise) simulasyonu ekranda gösterir (render eder). 3 farklı "Bounds" modu vardır,
-<br>
-<br>
-Dynamic = Default olarak bu mod seçilidir. Bu modda iken sınırlar otomatik olarak sürekli hesaplanır yani simulasyonun herhangi bir kısmı ekrana girerse render edilir.
-<br>
-Fixed = Sınırları kendiniz belirlersiniz, eger bu sınır ekrana girerse render edilir.
-<br>
-Programmable = Bilmiyorum.
+
+Mod | İşlem
+:---: | :---:
+Dynamic | Default olarak bu mod seçilidir. Bu modda iken sınırlar otomatik olarak sürekli hesaplanır yani simulasyonun herhangi bir kısmı ekrana girerse render edilir.
+Fixed | Sınırları kendiniz belirlersiniz, eger bu sınır ekrana girerse render edilir.
+Programmable | Bilmiyorum.
 
 * #### Fixed Bounds
 Sadece "Calculate Bounds Mode" "Fixed" modundayken vardır. Fixed modu için sınır ayarlamanıza yarar, iki nokta belirlersiniz, bu noktalar bir küpün birbirine karşıt iki ucudur.
@@ -204,13 +203,13 @@ Her frame için maximum "delta time" süresini belirler (yani limitler).
 
 * #### Allocation Mode
 Emitter'ın hafıza (ram) üzerinde parçacıklar için yer ayırması gerekir. Bu ayar hafızada yer ayırma işlemini ayarlar. 3 farklı modu vardır,
-<br>
-<br>
-Automatic Estimate = Default olarak bu mod seçilidir. Bu modda iken simulasyonun maximum parçacık sayısı tahmin edilir ve buna göre hafızada yer ayırılır.
-<br>
-Manual Estimate = Bu modda iken "Pre Allocation Count" inputu açılır ve manuel olarak hafızada ayırılması gereken tahmini parçacık sayısını ayarlayabilirsiniz.
-<br>
-Fixed Count = Bu modda iken "Pre Allocation Count" inputu açılır ve simulasyonda aynı anda olabilecek maximum parçacık sayısını ayarlayabilirsiniz.
+
+Mod | İşlem
+:---: | :---:
+Automatic Estimate | Default olarak bu mod seçilidir. Bu modda iken simulasyonun maximum parçacık sayısı tahmin edilir ve buna göre hafızada yer ayırılır.
+Manual Estimate | Bu modda iken "Pre Allocation Count" inputu açılır ve manuel olarak hafızada ayırılması gereken tahmini parçacık sayısını ayarlayabilirsiniz.
+Fixed Count | Bu modda iken "Pre Allocation Count" inputu açılır ve simulasyonda aynı anda olabilecek maximum parçacık sayısını ayarlayabilirsiniz.
+
 
 * #### Pre Allocation Count
 "Allocation Mode" ayarı için, hafızada alan ayırılacak parçacık sayısı.
@@ -219,7 +218,7 @@ Fixed Count = Bu modda iken "Pre Allocation Count" inputu açılır ve simulasyo
 Simulasyon tarafından okunmasa bile silinmeyecek olan parametreleri buraya yazabilirsiniz.
 
 * #### Category
-Bu ayar System içersinde olan Emitter'lar için geçersizdir, eger Emitter'ı tek başına yani Emitter asseti olarak oluşturduysanız işe yarar. Bu ayar yeni sistem ve ya emitter oluştururken ya da varolan sisteme emitter eklerken (kütüphaneden ekle bölümü), bu Emitter'ın hangi kategoride görünecegini belirler.
+Bu ayar System içersinde olan Emitter'lar için geçersizdir, eger Emitter'ı tek başına yani Emitter asset'i olarak oluşturduysanız işe yarar. Bu ayar yeni sistem ve ya emitter oluştururken ya da varolan sisteme emitter eklerken (kütüphaneden ekle bölümü), bu Emitter'ın hangi kategoride görünecegini belirler.
 
 * #### Template Specification
 Bu ayar "Category" ayarına benzer, kategoriyi ayarlamak yerine hangi section'da (kütüphaneden ekle bölümünde) gösterilecegini belirler.
@@ -229,19 +228,18 @@ Bu ayar "Category" ve "Template Specification" ayarına benzer, imlecinizi emitt
 
 * #### Library Visibility
 Bu ayar Emitter'ın görünürlügünü ayarlar (kütüphaneden ekle bölümünde). 3 modu vardır,
-<br>
-<br>
-Unexposed = Emitter kullanıcıya görünmez ama üst köşedeki "Library Only" seçenegi kapatılırsa görünür.
-<br>
-Exposed = Emitter kullanıcıya görünür.
-<br>
-Hidden = Emitter kullanıcıya görünmez.
+
+Mod | İşlem
+:---: | :---:
+Unexposed | Emitter kullanıcıya görünmez ama üst köşedeki "Library Only" seçenegi kapatılırsa görünür.
+Exposed | Emitter kullanıcıya görünür.
+Hidden | Emitter kullanıcıya görünmez.
 
 
 
 ## [Emitter Summary](https://dev.epicgames.com/community/learning/tutorials/198L/emitter-summary)
 
-Emitter Summary şu işe yarar, çok kullanılan ve ya sürekli degiştirdiginiz parametreleri Summary yani "Özet" mantıgıyla tek bir pencereye toplar ve bu parametreleri modülleri seçmeden, Emitter Summary üzerinden de degiştirebilirsiniz. Emitter Summary'ye parametre eklemenin tek yolu, herhangi bir modülü seçip sonra da [Selection penceresi](../Selection) üzerinden herhangi bir inputa sag tıklayıp, "Show in Emitter Summary" seçenegini açmaktır. Aşagıdaki resimde gördügünüz gibi,
+Emitter Summary şu işe yarar, çok kullanılan ve ya sürekli degiştirdiginiz parametreleri Summary yani "Özet" mantıgıyla tek bir pencereye toplar ve bu parametreleri modülleri seçmeden, Emitter Summary üzerinden de degiştirebilirsiniz. Emitter Summary'ye parametre eklemenin tek yolu, herhangi bir modülü seçip sonra da [Selection](../Selection) penceresi üzerinden herhangi bir inputa sag tıklayıp, "Show in Emitter Summary" seçenegini açmaktır. Aşagıdaki resimde gördügünüz gibi,
 
 <img src="../../../Dosyalar/Niagara_Editor_Emitter_Summary_Selection.jpg">
 
@@ -286,4 +284,4 @@ Parçacık spawn olduktan sonra çalışmaya başlar, her frame'de (kare, fps) �
 ## [Event Handler](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
 ## [Render](https://docs.unrealengine.com/5.1/en-US/overview-of-niagara-effects-for-unreal-engine/#emitters)
 
-Parçacıkların türünü, nasıl gösterilecegini/sunulacagını belirler. Mesela [Sprite Renderer](../Moduller#sprite-renderer) kullanıldıgında parçacıkların üzerine materyal ekler, ve ya [Mesh Renderer](../Moduller#mesh-renderer) kullanıldıgında parçacıkları mesh olarak gösterir. Renderer türlerini ve açıklamalarını modüllerde [Render](../Moduller#render) kategorisinde bulabilirsiniz.
+Parçacıkların türünü, nasıl gösterilecegini/sunulacagını belirler. Mesela [Sprite Renderer](../Moduller#sprite-renderer) kullanıldıgında parçacıkların üzerine material ekler, ve ya [Mesh Renderer](../Moduller#mesh-renderer) kullanıldıgında parçacıkları mesh olarak gösterir. Renderer türlerini ve açıklamalarını modüllerde [Render](../Moduller#render) kategorisinde bulabilirsiniz.
