@@ -2,8 +2,8 @@
 <img src="../../Dosyalar/Niagara_Module_Editor_Ana_Ekran.jpg">
 
 
-* Niagara modül editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
-* Niagara modül editörü nodlarına [Nodlar](Nodlar) bölümünden ulaşabilirsiniz.
+* Niagara Modül Editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
+* Niagara Modül Editörü nodlarına [Nodlar](Nodlar) bölümünden ulaşabilirsiniz.
 * Parametre türlerine Niagara Editörü'nün [Parametreler](../Niagara%20Editörü/Parameters#parametre-türleri) bölümünden ulaşabilirsiniz.
 
 
