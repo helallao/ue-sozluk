@@ -2,7 +2,7 @@
 <img src="../../../Dosyalar/Niagara_Module_Editor_Script_Details.jpg">
 
 
-Buradan yazdıgınız niagara modül'ü ile ilgili ayarlamaları yaparsınız.
+Buradan yazdıgınız Niagara modül'ü ile ilgili ayarlamaları yaparsınız.
 
 
 # Bölümler
@@ -25,7 +25,7 @@ Modülün kullanım alanlarını belirler. "Function", "Module" ve "Dynamic Inpu
 Modülü koyarken hangi kategori altında görünecegini belirler.
 
 * #### Suggested
-Bu ayarı açtıgınız zaman bu modül, emitter'ınıza yeni modül eklerken, önerilenler bölümünde gösterilir (sag üstteki "Library Only" kapalı olmalı).
+Bu ayarı açtıgınız zaman bu modül, Emitter'ınıza yeni modül eklerken, önerilenler bölümünde gösterilir (sag üstteki "Library Only" kapalı olmalı).
 
 * #### Provided Dependencies
 Bazen bir modül başka modüle ihtiyaç duyabilir. Buna dependency denir. Bu kategori şu anki modülün karşıladıgı dependency'lerin listesini tutar. Yani diyelim ki başka bir modülün "deneme" isminde bir dependency'si var. Eger buraya "deneme" diye yeni bir element eklerseniz. O zaman modülümüz bu dependency'i karşılamış olur. Yani bu ayar karşılanan dependency'lerin listesini tutar.
