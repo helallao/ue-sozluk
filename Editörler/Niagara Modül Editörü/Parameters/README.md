@@ -45,3 +45,81 @@ Bu kategori [Niagara parametre koleksiyonu](../../../Assetler/Niagara%20Parametr
 
 ## Data Instance
 Sadece tek bir parametresi vardır: DataInstance.Alive, bu parametre parçacıgın yaşayıp yaşamadıgını gösterir.
+
+
+
+
+# Parametre Ayarları
+
+Buradaki ayarlar Niagara Modül Editöründe parametreler penceresinde herhangi bir parametreyi seçtiginiz zaman [Selected Details](../Selected%20Details) penceresinde açılan ayarlardır.
+
+
+## Default Value
+
+* #### Default Mode
+Parametrenin degeri için kullanılacak modu belirtir. 5 modu vardır,
+
+Mod | İşlem
+:---: | :---:
+Definition | Sadece [Niagara Parameter Definitions](../../../Assetler/Niagara%20Parameter%20Definitions#niagara-parameter-definitions) assetinden alınmış parametrelerde olan bir seçenektir.
+Value | Parametrenin başlangıç (default) degerini ayarlarsınız.
+Binding | Parametrenin degerini başka bir parametreye baglayabilirsiniz.
+Custom | Parametrenin degerini kod yazarak script'in içinde kendiniz belirlersiniz. Bu ayarı seçtiginiz zaman kod içinde bu parametreyi aldıgınız [Parameter Map Get(Map Get)](../Nodlar#parameter-map-getmap-get) nodunun üzerinde bu parametre için bir input pin'i oluşturulur.
+Fail if Previously Not Set | Eger parametrenin degeri daha önceden ayarlanmadıysa hata verir.
+
+
+* #### Default Value
+Sadece "Default Mode" ayarı "Value" modundayken vardır. Default degeri belirtir.
+
+* #### Default Binding
+Sadece "Default Mode" ayarı "Binding" modundayken vardır. Parametrenin degeri hangi parametreden alacagını belirtir.
+
+* #### Description
+Parametre için açıklama.
+
+* #### Category Name
+Parametrenin ait oldugu kategori ismi.
+
+* #### Advanced Display
+Bu ayar sadece input olan parametrelerde işe yarar. İnputun Niagara Editöründe [Selection](../../Niagara%20Editörü/Selection) penceresinde gelimiş inputları açınca görünecegini belirtir.
+
+* #### Display in Overview Stack
+Bu ayar sadece input olan parametrelerde işe yarar.
+
+* #### Inline Parameter Sort Priority
+Bu ayar sadece input olan parametrelerde işe yarar.
+
+* #### Inline Parameter Color Override
+Bu ayar sadece input olan parametrelerde işe yarar.
+
+* #### Inline Parameter Bool Override
+Bu ayar sadece input olan parametrelerde işe yarar.
+
+* #### Editor Sort Priority
+bilmiyorum.
+
+* #### Inline Edit Condition Toggle
+bilmiyorum.
+
+* #### Edit Condition
+bilmiyorum.
+
+* #### Visible Condition
+bilmiyorum.
+
+* #### Property Metadata
+bilmiyorum.
+
+* #### Parent Attribute
+bilmiyorum.
+
+* #### Alternate Aliases For Variable
+bilmiyorum.
+
+
+
+
+
+
+
+
