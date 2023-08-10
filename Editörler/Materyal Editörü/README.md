@@ -1,8 +1,8 @@
 # Materyal Editörü
 <img src="../../Dosyalar/Materyal_Editor_Ana_Ekran.jpg">
 
-* Materyal editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
-* Materyal editörü nodlarına [Nodlar](Nodlar) bölümünden ulaşabilirsiniz.
+* Materyal Editörü hakkında kaynaklara [Kaynaklar](Kaynaklar) bölümünden ulaşabilirsiniz.
+* Materyal Editörü nodlarına [Nodlar](Nodlar) bölümünden ulaşabilirsiniz.
 
 
 # Bölümler
