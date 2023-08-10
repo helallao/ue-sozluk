@@ -41,7 +41,7 @@ Modül'ün output olarak verdigi parametreler. Bu parametreler [Module Outputs](
 [Stage Transient](../../Niagara%20Editörü/Parameters#stage-transients) parametreleri.
 
 ## Niagara Parameter Collection
-Bu kategori [Niagara parametre koleksiyonu](../../../Assetler/Niagara%20Parametre%20Koleksiyonu) assetinden parametre almanıza yarar.
+Bu kategori [Niagara parametre koleksiyonu](../../../Assetler/Niagara%20Parameter%20Collection) assetinden parametre almanıza yarar.
 
 ## Data Instance
 Sadece tek bir parametresi vardır: "DataInstance.Alive", bu parametre parçacıgın yaşayıp yaşamadıgını gösterir.
