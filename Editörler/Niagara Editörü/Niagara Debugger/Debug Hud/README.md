@@ -1,7 +1,7 @@
 # Debug Hud
 <img src="../../../../Dosyalar/Niagara_Editor_Niagara_Debugger_Debug_Hud.jpg">
 
-Debug Hud, [Level Editörünüzde](../../../Level%20Editörü) niagaralar üzerinde debug yapabilmeniz için gerekli bilgileri ekranda gösterir.
+Debug Hud, [Level Editörünüzde](../../../Level%20Editörü) Niagara efektleri üzerinde debug yapabilmeniz için gerekli bilgileri ekranda gösterir.
 
 
 # Bölümler
@@ -44,15 +44,14 @@ Bu seçenek açıldıgında, Debug Hud'un altında bir overview yani degerlendir
 
 * #### Debug Overview Mode
 Debug Overview açıldıgında hangi degerlendirmelerin gösterilecegini belirler. Modlar,
-<br>
-<br>
-Overview = Genel bilgiler
-<br>
-Scalability = bilmiyorum
-<br>
-Performance = Performans bilgileri
-<br>
-Gpu Compute Performance = Gpu için performans bilgileri
+
+Mod | İşlem
+:---: | :---:
+Overview | Genel bilgiler
+Scalability | bilmiyorum
+Performance | Performans bilgileri
+Gpu Compute Performance | Gpu için performans bilgileri
+
 
 * #### Debug Overview Font
 Font büyüklügü.
@@ -76,13 +75,13 @@ Bu seçenek açıldıgında overview degerlendirmelerinde sadece [System Filter]
 Sadece ismini verdiginiz System için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
 
 * #### Emitter Filter
-Emitter'lar için filtreleme yapar ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz. Emitter'lar için filtreleme yapmak, [Show Particle Attributes]() kullanırken sadece belirli Emitter'ların particle attributes'larını görmenize yarar. Yani sadece filtrelenmiş Emitter'ların parçacıkları.
+Emitter'lar için filtreleme yapar ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz. Emitter'lar için filtreleme yapmak, [Show Particle Attributes]() kullanırken sadece belirli Emitter'ların "Particle attributes" larını görmenize yarar. Yani sadece filtrelenmiş Emitter'ların parçacıkları.
 
 * #### Actor Filter
 Sadece ismini verdiginiz Aktörler için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
 
 * #### Component Filter
-Sadece ismini verdiginiz Componentler için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
+Sadece ismini verdiginiz Component'ler için Debug Hud gösterir ve [Wildcard](../../Terimler%20Sözlügü#wildcard-filtering) kullanabilirsiniz.
 
 
 
@@ -113,15 +112,13 @@ Gösterilecek System parametrelerinin listesi ve [Wildcard](../../Terimler%20Sö
 
 * #### System Text Options
 System'ler için gösterilen yazıların ayarları,
-<br>
-<br>
-Font = Font büyüklügü
-<br>
-Horizontal Alignment = Yazının yatay hizası.
-<br>
-Vertical Alignment = Yazının dikey hizası.
-<br>
-Screen Offset = Yazının konumuna offset ekler.
+
+Mod | İşlem
+:---: | :---:
+Font | Font büyüklügü
+Horizontal Alignment | Yazının yatay hizası.
+Vertical Alignment | Yazının dikey hizası.
+Screen Offset | Yazının konumuna offset ekler.
 
 
 
@@ -142,15 +139,14 @@ Gösterilecek parçacık parametrelerinin listesi ve [Wildcard](../../Terimler%2
 
 * #### Particle Text Options
 Parçacıklar için gösterilen yazıların ayarları,
-<br>
-<br>
-Font = Font büyüklügü
-<br>
-Horizontal Alignment = Yazının yatay hizası.
-<br>
-Vertical Alignment = Yazının dikey hizası.
-<br>
-Screen Offset = Yazının konumuna offset ekler.
+
+Mod | İşlem
+:---: | :---:
+Font | Font büyüklügü
+Horizontal Alignment | Yazının yatay hizası.
+Vertical Alignment | Yazının dikey hizası.
+Screen Offset | Yazının konumuna offset ekler.
+
 
 * #### Show Particles Attributes With System
 Parçacıklar için gösterilen yazıları dünyada, parçacıkların üzerinde göstermek yerine System ile birlikte gösterir.
@@ -171,7 +167,7 @@ Parçacıkların konumlarının bize uzaklıgına göre bazılarını gösterir 
 Bu ayar açıldıgında sadece ekranınızın orta taraflarında olan parçacıklar için bilgiler gösterilir.
 
 * #### Particle Display Center Radius
-Yukardaki ayar için geçerli olan alanın radius degeri yani çapı, azaltırsanız sadece tam orta kısımlarda olan parçacıkların bilgileri gösterilir, arttırırsanız bu alan genişler.
+"Use Particle Display Center Radius" ayarı için geçerli olan alanın radius degeri yani çapı, azaltırsanız sadece tam orta kısımlarda olan parçacıkların bilgileri gösterilir, arttırırsanız bu alan genişler.
 
 * #### Max Particles to Display
 Gösterilecek maximum parçacık bilgisi sayısı.
