@@ -3217,7 +3217,7 @@ yani 100 x 1000 = 100000.
 ## Utility
 
 * #### [Add Named Reroute Declaration Node...]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-İsimlendirilmiş düzenleme nodu.
+[İsimlendirilmiş düzenleme nodu](../Terimler%20Sözlügü#named-reroute-declaration-node) eklemenize yarar.
 
 * #### [Add Reroute Node]() ❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
 Düzenleme nodu.
