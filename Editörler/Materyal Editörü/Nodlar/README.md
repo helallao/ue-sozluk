@@ -31,7 +31,7 @@ Spesifik Node = 💝
 
 
 ## Named Reroutes
-[Named Reroute Declaration Node](Terimler%20Sözlügü#named-reroute-declaration-node) oluşturdugunuzda, oluşturdugunuz isimlendirilmiş düzenleme nodunun çıkışı burada görünür. Bir çıkışı istediginiz kadar kullanabilirsiniz.
+[Named Reroute Declaration Node](../Terimler%20Sözlügü#named-reroute-declaration-node) oluşturdugunuzda, oluşturdugunuz isimlendirilmiş düzenleme nodunun çıkışı burada görünür. Bir çıkışı istediginiz kadar kullanabilirsiniz.
 
 
 ## Atmosphere
