@@ -30,6 +30,10 @@ Spesifik Node = 💝
 <br>
 
 
+## Named Reroutes
+[Named Reroute Declaration Node](Terimler%20Sözlügü#named-reroute-declaration-node) oluşturdugunuzda, oluşturdugunuz isimlendirilmiş düzenleme nodunun çıkışı burada görünür. Bir çıkışı istediginiz kadar kullanabilirsiniz.
+
+
 ## Atmosphere
 
 * #### [Atmospheric Fog Color (deprecated)](https://docs.unrealengine.com/5.1/en-US/atmosphere-material-expressions-in-unreal-engine/#atmosphericfogcolor) 🤍
